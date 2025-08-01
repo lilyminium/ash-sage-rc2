@@ -1,0 +1,53 @@
+,Property type,Value,Substances,Mole fraction compound,Mole fraction type,Mole fraction value,doi
+0,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0,"['methanol', 'water']",methanol,Mole fraction,0.0,10.1016/j.tca.2006.02.028
+1,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.326,"['methanol', 'water']",methanol,Mole fraction,0.05,10.1016/j.tca.2006.02.028
+2,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.55,"['methanol', 'water']",methanol,Mole fraction,0.1,10.1016/j.tca.2006.02.028
+3,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.714,"['methanol', 'water']",methanol,Mole fraction,0.15,10.1016/j.tca.2006.02.028
+4,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.806,"['methanol', 'water']",methanol,Mole fraction,0.2,10.1016/j.tca.2006.02.028
+5,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.85,"['methanol', 'water']",methanol,Mole fraction,0.3,10.1016/j.tca.2006.02.028
+6,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.841,"['methanol', 'water']",methanol,Mole fraction,0.4,10.1016/j.tca.2006.02.028
+7,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.777,"['methanol', 'water']",methanol,Mole fraction,0.5,10.1016/j.tca.2006.02.028
+8,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.68,"['methanol', 'water']",methanol,Mole fraction,0.6,10.1016/j.tca.2006.02.028
+9,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.583,"['methanol', 'water']",methanol,Mole fraction,0.7,10.1016/j.tca.2006.02.028
+10,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.412,"['methanol', 'water']",methanol,Mole fraction,0.8,10.1016/j.tca.2006.02.028
+11,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.241,"['methanol', 'water']",methanol,Mole fraction,0.9,10.1016/j.tca.2006.02.028
+12,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0,"['methanol', 'water']",methanol,Mole fraction,1.0,10.1016/j.tca.2006.02.028
+13,"Molar enthalpy of solution, kJ/mol",-2.67,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.0,10.1016/j.tca.2006.02.028
+14,"Molar enthalpy of solution, kJ/mol",-1.53,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.05,10.1016/j.tca.2006.02.028
+15,"Molar enthalpy of solution, kJ/mol",-0.36,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.1,10.1016/j.tca.2006.02.028
+16,"Molar enthalpy of solution, kJ/mol",-0.21,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.15,10.1016/j.tca.2006.02.028
+17,"Molar enthalpy of solution, kJ/mol",-0.72,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.2,10.1016/j.tca.2006.02.028
+18,"Molar enthalpy of solution, kJ/mol",-1.0,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.3,10.1016/j.tca.2006.02.028
+19,"Molar enthalpy of solution, kJ/mol",-1.53,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.4,10.1016/j.tca.2006.02.028
+20,"Molar enthalpy of solution, kJ/mol",-2.02,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.5,10.1016/j.tca.2006.02.028
+21,"Molar enthalpy of solution, kJ/mol",-2.05,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.6,10.1016/j.tca.2006.02.028
+22,"Molar enthalpy of solution, kJ/mol",-2.07,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.7,10.1016/j.tca.2006.02.028
+23,"Molar enthalpy of solution, kJ/mol",-2.08,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.8,10.1016/j.tca.2006.02.028
+24,"Molar enthalpy of solution, kJ/mol",-2.17,"['methanol', 'formamide', 'water']",methanol,Unknown type,0.9,10.1016/j.tca.2006.02.028
+25,"Molar enthalpy of solution, kJ/mol",-2.22,"['methanol', 'formamide', 'water']",methanol,Unknown type,1.0,10.1016/j.tca.2006.02.028
+26,"Molar enthalpy of solution, kJ/mol",-2.51,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.0,10.1016/j.tca.2006.02.028
+27,"Molar enthalpy of solution, kJ/mol",0.46,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.05,10.1016/j.tca.2006.02.028
+28,"Molar enthalpy of solution, kJ/mol",1.18,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.1,10.1016/j.tca.2006.02.028
+29,"Molar enthalpy of solution, kJ/mol",2.29,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.15,10.1016/j.tca.2006.02.028
+30,"Molar enthalpy of solution, kJ/mol",3.03,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.2,10.1016/j.tca.2006.02.028
+31,"Molar enthalpy of solution, kJ/mol",3.42,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.3,10.1016/j.tca.2006.02.028
+32,"Molar enthalpy of solution, kJ/mol",3.46,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.4,10.1016/j.tca.2006.02.028
+33,"Molar enthalpy of solution, kJ/mol",3.58,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.5,10.1016/j.tca.2006.02.028
+34,"Molar enthalpy of solution, kJ/mol",3.86,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.6,10.1016/j.tca.2006.02.028
+35,"Molar enthalpy of solution, kJ/mol",4.26,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.7,10.1016/j.tca.2006.02.028
+36,"Molar enthalpy of solution, kJ/mol",4.75,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.8,10.1016/j.tca.2006.02.028
+37,"Molar enthalpy of solution, kJ/mol",5.21,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,0.9,10.1016/j.tca.2006.02.028
+38,"Molar enthalpy of solution, kJ/mol",5.4,"['methanol', 'N-methylformamide', 'water']",methanol,Unknown type,1.0,10.1016/j.tca.2006.02.028
+39,"Molar enthalpy of solution, kJ/mol",-2.32,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.0,10.1016/j.tca.2006.02.028
+40,"Molar enthalpy of solution, kJ/mol",0.53,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.05,10.1016/j.tca.2006.02.028
+41,"Molar enthalpy of solution, kJ/mol",2.8,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.1,10.1016/j.tca.2006.02.028
+42,"Molar enthalpy of solution, kJ/mol",4.45,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.15,10.1016/j.tca.2006.02.028
+43,"Molar enthalpy of solution, kJ/mol",5.74,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.2,10.1016/j.tca.2006.02.028
+44,"Molar enthalpy of solution, kJ/mol",6.61,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.3,10.1016/j.tca.2006.02.028
+45,"Molar enthalpy of solution, kJ/mol",7.28,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.4,10.1016/j.tca.2006.02.028
+46,"Molar enthalpy of solution, kJ/mol",7.76,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.5,10.1016/j.tca.2006.02.028
+47,"Molar enthalpy of solution, kJ/mol",8.28,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.6,10.1016/j.tca.2006.02.028
+48,"Molar enthalpy of solution, kJ/mol",8.84,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.7,10.1016/j.tca.2006.02.028
+49,"Molar enthalpy of solution, kJ/mol",9.67,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.8,10.1016/j.tca.2006.02.028
+50,"Molar enthalpy of solution, kJ/mol",10.82,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,0.9,10.1016/j.tca.2006.02.028
+51,"Molar enthalpy of solution, kJ/mol",11.95,"['methanol', 'dimethylformamide', 'water']",methanol,Unknown type,1.0,10.1016/j.tca.2006.02.028

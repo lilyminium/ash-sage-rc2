@@ -1,0 +1,603 @@
+,Property type,Value,Substances,Mole fraction compound,Mole fraction type,Mole fraction value,doi
+153,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0314,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.0533,10.1016/j.jct.2006.10.008
+154,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0725,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.117,10.1016/j.jct.2006.10.008
+155,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1122,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.1872,10.1016/j.jct.2006.10.008
+156,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1475,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.2551,10.1016/j.jct.2006.10.008
+157,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1809,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.3201,10.1016/j.jct.2006.10.008
+158,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.209,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.3798,10.1016/j.jct.2006.10.008
+159,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2297,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.4359,10.1016/j.jct.2006.10.008
+160,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2442,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.4835,10.1016/j.jct.2006.10.008
+161,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2501,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.5094,10.1016/j.jct.2006.10.008
+162,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2504,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.5591,10.1016/j.jct.2006.10.008
+163,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.24,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.6134,10.1016/j.jct.2006.10.008
+164,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2284,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.6735,10.1016/j.jct.2006.10.008
+165,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2029,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.7374,10.1016/j.jct.2006.10.008
+166,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1662,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.8,10.1016/j.jct.2006.10.008
+167,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1182,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.8714,10.1016/j.jct.2006.10.008
+168,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0611,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.9368,10.1016/j.jct.2006.10.008
+169,"Mass density, kg/m3",1226.06,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.0571,10.1016/j.jct.2006.10.008
+170,"Mass density, kg/m3",1204.8,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.1212,10.1016/j.jct.2006.10.008
+171,"Mass density, kg/m3",1185.79,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.1793,10.1016/j.jct.2006.10.008
+172,"Mass density, kg/m3",1168.78,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.2317,10.1016/j.jct.2006.10.008
+173,"Mass density, kg/m3",1148.35,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.2946,10.1016/j.jct.2006.10.008
+174,"Mass density, kg/m3",1128.9,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.355,10.1016/j.jct.2006.10.008
+175,"Mass density, kg/m3",1109.76,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.4144,10.1016/j.jct.2006.10.008
+176,"Mass density, kg/m3",1093.66,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.465,10.1016/j.jct.2006.10.008
+177,"Mass density, kg/m3",1073.24,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.5294,10.1016/j.jct.2006.10.008
+178,"Mass density, kg/m3",1054.49,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.5889,10.1016/j.jct.2006.10.008
+179,"Mass density, kg/m3",1035.88,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.6485,10.1016/j.jct.2006.10.008
+180,"Mass density, kg/m3",1017.61,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.7065,10.1016/j.jct.2006.10.008
+181,"Mass density, kg/m3",999.52,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.7648,10.1016/j.jct.2006.10.008
+182,"Mass density, kg/m3",981.06,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.8239,10.1016/j.jct.2006.10.008
+183,"Mass density, kg/m3",962.96,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.8823,10.1016/j.jct.2006.10.008
+184,"Mass density, kg/m3",946.9,"['1,2-dichloroethane', 'ethyl methanoate']",ethyl methanoate,Mole fraction,0.9345,10.1016/j.jct.2006.10.008
+185,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0342,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.1171,10.1016/j.jct.2006.10.008
+186,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0689,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.2311,10.1016/j.jct.2006.10.008
+187,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0846,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.3403,10.1016/j.jct.2006.10.008
+188,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0819,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.435,10.1016/j.jct.2006.10.008
+189,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0692,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.5147,10.1016/j.jct.2006.10.008
+190,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0519,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.5813,10.1016/j.jct.2006.10.008
+191,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0374,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.6354,10.1016/j.jct.2006.10.008
+192,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0246,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.682,10.1016/j.jct.2006.10.008
+193,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0124,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.7186,10.1016/j.jct.2006.10.008
+194,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0155,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.7381,10.1016/j.jct.2006.10.008
+195,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0284,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.7773,10.1016/j.jct.2006.10.008
+196,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0385,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.8208,10.1016/j.jct.2006.10.008
+197,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0441,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.8622,10.1016/j.jct.2006.10.008
+198,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0359,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.9018,10.1016/j.jct.2006.10.008
+199,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0189,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.9383,10.1016/j.jct.2006.10.008
+200,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0012,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.9723,10.1016/j.jct.2006.10.008
+201,"Mass density, kg/m3",1161.82,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.0758,10.1016/j.jct.2006.10.008
+202,"Mass density, kg/m3",1147.48,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.1392,10.1016/j.jct.2006.10.008
+203,"Mass density, kg/m3",1132.04,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.2059,10.1016/j.jct.2006.10.008
+204,"Mass density, kg/m3",1117.5,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.2686,10.1016/j.jct.2006.10.008
+205,"Mass density, kg/m3",1101.45,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.336,10.1016/j.jct.2006.10.008
+206,"Mass density, kg/m3",1086.31,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.3983,10.1016/j.jct.2006.10.008
+207,"Mass density, kg/m3",1071.44,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.4584,10.1016/j.jct.2006.10.008
+208,"Mass density, kg/m3",1056.42,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.5183,10.1016/j.jct.2006.10.008
+209,"Mass density, kg/m3",1041.98,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.5752,10.1016/j.jct.2006.10.008
+210,"Mass density, kg/m3",1027.35,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.6319,10.1016/j.jct.2006.10.008
+211,"Mass density, kg/m3",1012.54,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.6884,10.1016/j.jct.2006.10.008
+212,"Mass density, kg/m3",997.87,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.7433,10.1016/j.jct.2006.10.008
+213,"Mass density, kg/m3",983.56,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.7967,10.1016/j.jct.2006.10.008
+214,"Mass density, kg/m3",969.23,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.849,10.1016/j.jct.2006.10.008
+215,"Mass density, kg/m3",954.87,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.9005,10.1016/j.jct.2006.10.008
+216,"Mass density, kg/m3",941.1,"['ethyl methanoate', '1,3-dichloropropane']",ethyl methanoate,Mole fraction,0.949,10.1016/j.jct.2006.10.008
+217,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1097,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.083,10.1016/j.jct.2006.10.008
+218,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1759,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.1706,10.1016/j.jct.2006.10.008
+219,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.2206,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.256,10.1016/j.jct.2006.10.008
+220,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.2442,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.3368,10.1016/j.jct.2006.10.008
+221,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.2436,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.4094,10.1016/j.jct.2006.10.008
+222,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.2303,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.473,10.1016/j.jct.2006.10.008
+223,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.2115,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.5279,10.1016/j.jct.2006.10.008
+224,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1652,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.5977,10.1016/j.jct.2006.10.008
+225,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1422,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.6452,10.1016/j.jct.2006.10.008
+226,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1047,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.6966,10.1016/j.jct.2006.10.008
+227,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0697,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.7477,10.1016/j.jct.2006.10.008
+228,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.045,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.803,10.1016/j.jct.2006.10.008
+229,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0265,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.8543,10.1016/j.jct.2006.10.008
+230,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0156,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.907,10.1016/j.jct.2006.10.008
+231,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0093,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.9569,10.1016/j.jct.2006.10.008
+232,"Mass density, kg/m3",1120.56,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.0774,10.1016/j.jct.2006.10.008
+233,"Mass density, kg/m3",1107.96,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.1549,10.1016/j.jct.2006.10.008
+234,"Mass density, kg/m3",1095.35,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.229,10.1016/j.jct.2006.10.008
+235,"Mass density, kg/m3",1083.08,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.2982,10.1016/j.jct.2006.10.008
+236,"Mass density, kg/m3",1070.71,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.3653,10.1016/j.jct.2006.10.008
+237,"Mass density, kg/m3",1058.33,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.4302,10.1016/j.jct.2006.10.008
+238,"Mass density, kg/m3",1046.05,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.4921,10.1016/j.jct.2006.10.008
+239,"Mass density, kg/m3",1033.83,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.5517,10.1016/j.jct.2006.10.008
+240,"Mass density, kg/m3",1020.82,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.6131,10.1016/j.jct.2006.10.008
+241,"Mass density, kg/m3",1008.67,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.6683,10.1016/j.jct.2006.10.008
+242,"Mass density, kg/m3",996.7,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.7211,10.1016/j.jct.2006.10.008
+243,"Mass density, kg/m3",984.84,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.7717,10.1016/j.jct.2006.10.008
+244,"Mass density, kg/m3",973.13,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.8212,10.1016/j.jct.2006.10.008
+245,"Mass density, kg/m3",961.66,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.8674,10.1016/j.jct.2006.10.008
+246,"Mass density, kg/m3",949.8,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.9134,10.1016/j.jct.2006.10.008
+247,"Mass density, kg/m3",938.37,"['ethyl methanoate', '1,4-dichlorobutane']",ethyl methanoate,Mole fraction,0.9569,10.1016/j.jct.2006.10.008
+248,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1409,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.1024,10.1016/j.jct.2006.10.008
+249,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.2235,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.2043,10.1016/j.jct.2006.10.008
+250,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.295,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.2974,10.1016/j.jct.2006.10.008
+251,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.3351,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.3848,10.1016/j.jct.2006.10.008
+252,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.3453,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.4598,10.1016/j.jct.2006.10.008
+253,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.3389,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.5273,10.1016/j.jct.2006.10.008
+254,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.321,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.5845,10.1016/j.jct.2006.10.008
+255,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.297,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.6305,10.1016/j.jct.2006.10.008
+256,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.2596,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.6809,10.1016/j.jct.2006.10.008
+257,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.2305,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.7286,10.1016/j.jct.2006.10.008
+258,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1899,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.7798,10.1016/j.jct.2006.10.008
+259,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1486,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.8289,10.1016/j.jct.2006.10.008
+260,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.109,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.8791,10.1016/j.jct.2006.10.008
+261,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0696,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.9215,10.1016/j.jct.2006.10.008
+262,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0314,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.9634,10.1016/j.jct.2006.10.008
+263,"Mass density, kg/m3",1084.27,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.0955,10.1016/j.jct.2006.10.008
+264,"Mass density, kg/m3",1074.48,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.1752,10.1016/j.jct.2006.10.008
+265,"Mass density, kg/m3",1064.51,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.2534,10.1016/j.jct.2006.10.008
+266,"Mass density, kg/m3",1054.28,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.3284,10.1016/j.jct.2006.10.008
+267,"Mass density, kg/m3",1044.1,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.3985,10.1016/j.jct.2006.10.008
+268,"Mass density, kg/m3",1034.31,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.4628,10.1016/j.jct.2006.10.008
+269,"Mass density, kg/m3",1023.03,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.5327,10.1016/j.jct.2006.10.008
+270,"Mass density, kg/m3",1013.34,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.5897,10.1016/j.jct.2006.10.008
+271,"Mass density, kg/m3",1003.36,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.6456,10.1016/j.jct.2006.10.008
+272,"Mass density, kg/m3",993.61,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.698,10.1016/j.jct.2006.10.008
+273,"Mass density, kg/m3",983.9,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.7473,10.1016/j.jct.2006.10.008
+274,"Mass density, kg/m3",974.37,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.7941,10.1016/j.jct.2006.10.008
+275,"Mass density, kg/m3",964.52,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.8401,10.1016/j.jct.2006.10.008
+276,"Mass density, kg/m3",954.89,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.8829,10.1016/j.jct.2006.10.008
+277,"Mass density, kg/m3",945.49,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.9235,10.1016/j.jct.2006.10.008
+278,"Mass density, kg/m3",936.01,"['ethyl methanoate', '1,5-dichloropentane']",ethyl methanoate,Mole fraction,0.9625,10.1016/j.jct.2006.10.008
+279,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1711,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.102,10.1016/j.jct.2006.10.008
+280,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.2978,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.205,10.1016/j.jct.2006.10.008
+281,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.3913,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.2968,10.1016/j.jct.2006.10.008
+282,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.4411,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.3852,10.1016/j.jct.2006.10.008
+283,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.4605,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.4641,10.1016/j.jct.2006.10.008
+284,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.4655,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.5316,10.1016/j.jct.2006.10.008
+285,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.4581,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.5845,10.1016/j.jct.2006.10.008
+286,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.4361,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.6442,10.1016/j.jct.2006.10.008
+287,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.406,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.6907,10.1016/j.jct.2006.10.008
+288,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.3651,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.7399,10.1016/j.jct.2006.10.008
+289,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.3061,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.7869,10.1016/j.jct.2006.10.008
+290,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.2503,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.8348,10.1016/j.jct.2006.10.008
+291,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.175,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.8829,10.1016/j.jct.2006.10.008
+292,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1191,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.9248,10.1016/j.jct.2006.10.008
+293,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0618,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.9656,10.1016/j.jct.2006.10.008
+294,"Mass density, kg/m3",1055.27,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.0997,10.1016/j.jct.2006.10.008
+295,"Mass density, kg/m3",1046.53,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.196,10.1016/j.jct.2006.10.008
+296,"Mass density, kg/m3",1038.19,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.28,10.1016/j.jct.2006.10.008
+297,"Mass density, kg/m3",1029.9,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.3577,10.1016/j.jct.2006.10.008
+298,"Mass density, kg/m3",1021.49,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.4304,10.1016/j.jct.2006.10.008
+299,"Mass density, kg/m3",1013.36,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.4965,10.1016/j.jct.2006.10.008
+300,"Mass density, kg/m3",1005.21,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.558,10.1016/j.jct.2006.10.008
+301,"Mass density, kg/m3",997.06,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.6159,10.1016/j.jct.2006.10.008
+302,"Mass density, kg/m3",988.91,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.67,10.1016/j.jct.2006.10.008
+303,"Mass density, kg/m3",980.91,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.7203,10.1016/j.jct.2006.10.008
+304,"Mass density, kg/m3",973.0,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.7675,10.1016/j.jct.2006.10.008
+305,"Mass density, kg/m3",965.17,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.8114,10.1016/j.jct.2006.10.008
+306,"Mass density, kg/m3",957.24,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.8538,10.1016/j.jct.2006.10.008
+307,"Mass density, kg/m3",949.58,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.893,10.1016/j.jct.2006.10.008
+308,"Mass density, kg/m3",941.93,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.9301,10.1016/j.jct.2006.10.008
+309,"Mass density, kg/m3",934.51,"['ethyl methanoate', '1,6-dichlorohexane']",ethyl methanoate,Mole fraction,0.9649,10.1016/j.jct.2006.10.008
+310,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0374,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.0489,10.1016/j.jct.2006.10.008
+311,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0843,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.1034,10.1016/j.jct.2006.10.008
+312,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1412,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.1594,10.1016/j.jct.2006.10.008
+313,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1981,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.2211,10.1016/j.jct.2006.10.008
+314,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2544,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.28,10.1016/j.jct.2006.10.008
+315,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3072,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.3363,10.1016/j.jct.2006.10.008
+316,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3527,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.3886,10.1016/j.jct.2006.10.008
+317,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3907,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.4382,10.1016/j.jct.2006.10.008
+318,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.4196,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.483,10.1016/j.jct.2006.10.008
+319,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.4351,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.5155,10.1016/j.jct.2006.10.008
+320,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.4376,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.5716,10.1016/j.jct.2006.10.008
+321,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.4199,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.6361,10.1016/j.jct.2006.10.008
+322,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3758,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.7083,10.1016/j.jct.2006.10.008
+323,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3135,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.7725,10.1016/j.jct.2006.10.008
+324,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2282,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.8488,10.1016/j.jct.2006.10.008
+325,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.122,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.9302,10.1016/j.jct.2006.10.008
+326,"Mass density, kg/m3",1223.09,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.0538,10.1016/j.jct.2006.10.008
+327,"Mass density, kg/m3",1203.75,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.1017,10.1016/j.jct.2006.10.008
+328,"Mass density, kg/m3",1184.04,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.1515,10.1016/j.jct.2006.10.008
+329,"Mass density, kg/m3",1163.71,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.2043,10.1016/j.jct.2006.10.008
+330,"Mass density, kg/m3",1143.76,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.2575,10.1016/j.jct.2006.10.008
+331,"Mass density, kg/m3",1103.98,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.3685,10.1016/j.jct.2006.10.008
+332,"Mass density, kg/m3",1084.54,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.4248,10.1016/j.jct.2006.10.008
+333,"Mass density, kg/m3",1065.09,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.4826,10.1016/j.jct.2006.10.008
+334,"Mass density, kg/m3",1045.46,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.5426,10.1016/j.jct.2006.10.008
+335,"Mass density, kg/m3",1026.11,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.6034,10.1016/j.jct.2006.10.008
+336,"Mass density, kg/m3",1006.9,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.6652,10.1016/j.jct.2006.10.008
+337,"Mass density, kg/m3",987.38,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.7294,10.1016/j.jct.2006.10.008
+338,"Mass density, kg/m3",968.29,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.794,10.1016/j.jct.2006.10.008
+339,"Mass density, kg/m3",949.22,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.8599,10.1016/j.jct.2006.10.008
+340,"Mass density, kg/m3",929.85,"['1,2-dichloroethane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.9286,10.1016/j.jct.2006.10.008
+341,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.003,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.0618,10.1016/j.jct.2006.10.008
+342,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.017,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.1342,10.1016/j.jct.2006.10.008
+343,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0398,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.2092,10.1016/j.jct.2006.10.008
+344,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0676,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.2838,10.1016/j.jct.2006.10.008
+345,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0965,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.3515,10.1016/j.jct.2006.10.008
+346,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1243,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.4148,10.1016/j.jct.2006.10.008
+347,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1497,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.4714,10.1016/j.jct.2006.10.008
+348,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1662,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.503,10.1016/j.jct.2006.10.008
+349,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.193,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.5539,10.1016/j.jct.2006.10.008
+350,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2099,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.6084,10.1016/j.jct.2006.10.008
+351,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2055,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.6696,10.1016/j.jct.2006.10.008
+352,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1844,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.7356,10.1016/j.jct.2006.10.008
+353,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1526,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.8024,10.1016/j.jct.2006.10.008
+354,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.108,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.8727,10.1016/j.jct.2006.10.008
+355,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0561,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.9394,10.1016/j.jct.2006.10.008
+356,"Mass density, kg/m3",1161.75,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.0612,10.1016/j.jct.2006.10.008
+357,"Mass density, kg/m3",1145.46,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.1204,10.1016/j.jct.2006.10.008
+358,"Mass density, kg/m3",1129.76,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.1775,10.1016/j.jct.2006.10.008
+359,"Mass density, kg/m3",1113.91,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.2355,10.1016/j.jct.2006.10.008
+360,"Mass density, kg/m3",1097.92,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.2944,10.1016/j.jct.2006.10.008
+361,"Mass density, kg/m3",1082.1,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.3527,10.1016/j.jct.2006.10.008
+362,"Mass density, kg/m3",1066.46,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.4109,10.1016/j.jct.2006.10.008
+363,"Mass density, kg/m3",1050.7,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.4695,10.1016/j.jct.2006.10.008
+364,"Mass density, kg/m3",1034.93,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.5286,10.1016/j.jct.2006.10.008
+365,"Mass density, kg/m3",1019.65,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.5863,10.1016/j.jct.2006.10.008
+366,"Mass density, kg/m3",1003.85,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.6459,10.1016/j.jct.2006.10.008
+367,"Mass density, kg/m3",988.35,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.7044,10.1016/j.jct.2006.10.008
+368,"Mass density, kg/m3",972.97,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.763,10.1016/j.jct.2006.10.008
+369,"Mass density, kg/m3",957.74,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.8214,10.1016/j.jct.2006.10.008
+370,"Mass density, kg/m3",942.43,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.8796,10.1016/j.jct.2006.10.008
+371,"Mass density, kg/m3",927.1,"['propyl methanoate', '1,3-dichloropropane']",propyl methanoate,Mole fraction,0.9386,10.1016/j.jct.2006.10.008
+372,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0285,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.0711,10.1016/j.jct.2006.10.008
+373,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0411,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.1446,10.1016/j.jct.2006.10.008
+374,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0439,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.2182,10.1016/j.jct.2006.10.008
+375,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0273,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.2908,10.1016/j.jct.2006.10.008
+376,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0089,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.3554,10.1016/j.jct.2006.10.008
+377,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0128,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.4191,10.1016/j.jct.2006.10.008
+378,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0293,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.4755,10.1016/j.jct.2006.10.008
+379,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0443,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.5267,10.1016/j.jct.2006.10.008
+380,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0557,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.5668,10.1016/j.jct.2006.10.008
+381,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0705,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.6196,10.1016/j.jct.2006.10.008
+382,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0777,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.681,10.1016/j.jct.2006.10.008
+383,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0719,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.7427,10.1016/j.jct.2006.10.008
+384,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0598,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.8085,10.1016/j.jct.2006.10.008
+385,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0393,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.875,10.1016/j.jct.2006.10.008
+386,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0223,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.939,10.1016/j.jct.2006.10.008
+387,"Mass density, kg/m3",1119.11,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.0695,10.1016/j.jct.2006.10.008
+388,"Mass density, kg/m3",1106.03,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.1347,10.1016/j.jct.2006.10.008
+389,"Mass density, kg/m3",1092.92,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.1987,10.1016/j.jct.2006.10.008
+390,"Mass density, kg/m3",1079.78,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.2624,10.1016/j.jct.2006.10.008
+391,"Mass density, kg/m3",1066.03,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.3279,10.1016/j.jct.2006.10.008
+392,"Mass density, kg/m3",1053.07,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.3884,10.1016/j.jct.2006.10.008
+393,"Mass density, kg/m3",1039.59,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.4509,10.1016/j.jct.2006.10.008
+394,"Mass density, kg/m3",1027.51,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.5061,10.1016/j.jct.2006.10.008
+395,"Mass density, kg/m3",1013.93,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.5671,10.1016/j.jct.2006.10.008
+396,"Mass density, kg/m3",1001.93,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.6204,10.1016/j.jct.2006.10.008
+397,"Mass density, kg/m3",988.13,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.6808,10.1016/j.jct.2006.10.008
+398,"Mass density, kg/m3",975.18,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.7363,10.1016/j.jct.2006.10.008
+399,"Mass density, kg/m3",962.5,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.7901,10.1016/j.jct.2006.10.008
+400,"Mass density, kg/m3",950.01,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.8426,10.1016/j.jct.2006.10.008
+401,"Mass density, kg/m3",936.97,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.8965,10.1016/j.jct.2006.10.008
+402,"Mass density, kg/m3",924.57,"['1,4-dichlorobutane', 'propyl methanoate']",propyl methanoate,Mole fraction,0.9466,10.1016/j.jct.2006.10.008
+403,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0571,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.0792,10.1016/j.jct.2006.10.008
+404,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0915,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.1664,10.1016/j.jct.2006.10.008
+405,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1155,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.2538,10.1016/j.jct.2006.10.008
+406,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1208,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.3307,10.1016/j.jct.2006.10.008
+407,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1179,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.4063,10.1016/j.jct.2006.10.008
+408,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1051,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.4789,10.1016/j.jct.2006.10.008
+409,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0922,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.5175,10.1016/j.jct.2006.10.008
+410,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0738,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.5645,10.1016/j.jct.2006.10.008
+411,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0594,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.6145,10.1016/j.jct.2006.10.008
+412,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0391,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.6665,10.1016/j.jct.2006.10.008
+413,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.02,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.7229,10.1016/j.jct.2006.10.008
+414,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0067,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.7817,10.1016/j.jct.2006.10.008
+415,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0104,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.8389,10.1016/j.jct.2006.10.008
+416,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0212,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.8948,10.1016/j.jct.2006.10.008
+417,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.012,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.9503,10.1016/j.jct.2006.10.008
+418,"Mass density, kg/m3",1084.21,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.0753,10.1016/j.jct.2006.10.008
+419,"Mass density, kg/m3",1073.17,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.1495,10.1016/j.jct.2006.10.008
+420,"Mass density, kg/m3",1062.01,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.2212,10.1016/j.jct.2006.10.008
+421,"Mass density, kg/m3",1051.29,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.2884,10.1016/j.jct.2006.10.008
+422,"Mass density, kg/m3",1039.4,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.3607,10.1016/j.jct.2006.10.008
+423,"Mass density, kg/m3",1029.7,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.4174,10.1016/j.jct.2006.10.008
+424,"Mass density, kg/m3",1018.63,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.4802,10.1016/j.jct.2006.10.008
+425,"Mass density, kg/m3",1008.06,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.5386,10.1016/j.jct.2006.10.008
+426,"Mass density, kg/m3",996.11,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.6024,10.1016/j.jct.2006.10.008
+427,"Mass density, kg/m3",985.57,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.6568,10.1016/j.jct.2006.10.008
+428,"Mass density, kg/m3",974.66,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.7118,10.1016/j.jct.2006.10.008
+429,"Mass density, kg/m3",953.48,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.8133,10.1016/j.jct.2006.10.008
+430,"Mass density, kg/m3",943.64,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.8586,10.1016/j.jct.2006.10.008
+431,"Mass density, kg/m3",933.22,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.9056,10.1016/j.jct.2006.10.008
+432,"Mass density, kg/m3",921.68,"['propyl methanoate', '1,5-dichloropentane']",propyl methanoate,Mole fraction,0.9555,10.1016/j.jct.2006.10.008
+433,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0666,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.083,10.1016/j.jct.2006.10.008
+434,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.12,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.1781,10.1016/j.jct.2006.10.008
+435,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1583,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.2715,10.1016/j.jct.2006.10.008
+436,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1767,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.3516,10.1016/j.jct.2006.10.008
+437,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.179,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.4261,10.1016/j.jct.2006.10.008
+438,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1686,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.5,10.1016/j.jct.2006.10.008
+439,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1468,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.5567,10.1016/j.jct.2006.10.008
+440,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.1084,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.6558,10.1016/j.jct.2006.10.008
+441,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0851,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.7057,10.1016/j.jct.2006.10.008
+442,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0628,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.7584,10.1016/j.jct.2006.10.008
+443,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0416,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.815,10.1016/j.jct.2006.10.008
+444,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0252,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.8628,10.1016/j.jct.2006.10.008
+445,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0122,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.91,10.1016/j.jct.2006.10.008
+446,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0089,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.9591,10.1016/j.jct.2006.10.008
+447,"Mass density, kg/m3",1053.78,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.0918,10.1016/j.jct.2006.10.008
+448,"Mass density, kg/m3",1044.88,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.1702,10.1016/j.jct.2006.10.008
+449,"Mass density, kg/m3",1035.63,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.2469,10.1016/j.jct.2006.10.008
+450,"Mass density, kg/m3",1026.16,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.3218,10.1016/j.jct.2006.10.008
+451,"Mass density, kg/m3",1017.4,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.3877,10.1016/j.jct.2006.10.008
+452,"Mass density, kg/m3",1008.0,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.4551,10.1016/j.jct.2006.10.008
+453,"Mass density, kg/m3",998.95,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.5167,10.1016/j.jct.2006.10.008
+454,"Mass density, kg/m3",990.06,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.5747,10.1016/j.jct.2006.10.008
+455,"Mass density, kg/m3",981.16,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.6303,10.1016/j.jct.2006.10.008
+456,"Mass density, kg/m3",972.09,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.6844,10.1016/j.jct.2006.10.008
+457,"Mass density, kg/m3",963.2,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.7354,10.1016/j.jct.2006.10.008
+458,"Mass density, kg/m3",954.19,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.7849,10.1016/j.jct.2006.10.008
+459,"Mass density, kg/m3",936.4,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.8768,10.1016/j.jct.2006.10.008
+460,"Mass density, kg/m3",927.69,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.9196,10.1016/j.jct.2006.10.008
+461,"Mass density, kg/m3",919.06,"['propyl methanoate', '1,6-dichlorohexane']",propyl methanoate,Mole fraction,0.9603,10.1016/j.jct.2006.10.008
+462,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0399,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.0414,10.1016/j.jct.2006.10.008
+463,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0887,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.0923,10.1016/j.jct.2006.10.008
+464,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1434,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1436,10.1016/j.jct.2006.10.008
+465,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2011,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1984,10.1016/j.jct.2006.10.008
+466,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2589,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.2527,10.1016/j.jct.2006.10.008
+467,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3137,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.3048,10.1016/j.jct.2006.10.008
+468,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3558,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.3561,10.1016/j.jct.2006.10.008
+469,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3935,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4041,10.1016/j.jct.2006.10.008
+470,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.4197,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4493,10.1016/j.jct.2006.10.008
+471,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.4209,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4629,10.1016/j.jct.2006.10.008
+472,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.4289,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.5202,10.1016/j.jct.2006.10.008
+473,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.4203,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.5856,10.1016/j.jct.2006.10.008
+474,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3882,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.6594,10.1016/j.jct.2006.10.008
+475,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3284,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.7406,10.1016/j.jct.2006.10.008
+476,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2379,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.829,10.1016/j.jct.2006.10.008
+477,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1334,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.9165,10.1016/j.jct.2006.10.008
+478,"Mass density, kg/m3",1222.63,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.0446,10.1016/j.jct.2006.10.008
+479,"Mass density, kg/m3",1201.85,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.087,10.1016/j.jct.2006.10.008
+480,"Mass density, kg/m3",1180.87,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1314,10.1016/j.jct.2006.10.008
+481,"Mass density, kg/m3",1159.63,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1786,10.1016/j.jct.2006.10.008
+482,"Mass density, kg/m3",1138.77,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.2266,10.1016/j.jct.2006.10.008
+483,"Mass density, kg/m3",1117.89,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.277,10.1016/j.jct.2006.10.008
+484,"Mass density, kg/m3",1076.58,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.3837,10.1016/j.jct.2006.10.008
+485,"Mass density, kg/m3",1056.07,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4403,10.1016/j.jct.2006.10.008
+486,"Mass density, kg/m3",1035.47,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.5,10.1016/j.jct.2006.10.008
+487,"Mass density, kg/m3",1014.9,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.5622,10.1016/j.jct.2006.10.008
+488,"Mass density, kg/m3",995.09,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.6248,10.1016/j.jct.2006.10.008
+489,"Mass density, kg/m3",974.48,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.6931,10.1016/j.jct.2006.10.008
+490,"Mass density, kg/m3",953.92,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.7645,10.1016/j.jct.2006.10.008
+491,"Mass density, kg/m3",933.51,"['1,2-dichloroethane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.8389,10.1016/j.jct.2006.10.008
+492,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0289,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.0521,10.1016/j.jct.2006.10.008
+493,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0529,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1142,10.1016/j.jct.2006.10.008
+494,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0866,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1765,10.1016/j.jct.2006.10.008
+495,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1268,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.2379,10.1016/j.jct.2006.10.008
+496,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1611,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.2982,10.1016/j.jct.2006.10.008
+497,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2052,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.3557,10.1016/j.jct.2006.10.008
+498,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2483,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4108,10.1016/j.jct.2006.10.008
+499,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2777,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4602,10.1016/j.jct.2006.10.008
+500,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2981,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.5057,10.1016/j.jct.2006.10.008
+501,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2997,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.5508,10.1016/j.jct.2006.10.008
+502,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2887,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.6114,10.1016/j.jct.2006.10.008
+503,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2611,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.6872,10.1016/j.jct.2006.10.008
+504,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2203,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.7608,10.1016/j.jct.2006.10.008
+505,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1573,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.8457,10.1016/j.jct.2006.10.008
+506,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0861,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.9261,10.1016/j.jct.2006.10.008
+507,"Mass density, kg/m3",1161.51,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.0505,10.1016/j.jct.2006.10.008
+508,"Mass density, kg/m3",1144.56,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.101,10.1016/j.jct.2006.10.008
+509,"Mass density, kg/m3",1127.68,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1523,10.1016/j.jct.2006.10.008
+510,"Mass density, kg/m3",1110.9,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.2044,10.1016/j.jct.2006.10.008
+511,"Mass density, kg/m3",1094.0,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.2581,10.1016/j.jct.2006.10.008
+512,"Mass density, kg/m3",1077.09,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.313,10.1016/j.jct.2006.10.008
+513,"Mass density, kg/m3",1060.1,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.3693,10.1016/j.jct.2006.10.008
+514,"Mass density, kg/m3",1026.45,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4847,10.1016/j.jct.2006.10.008
+515,"Mass density, kg/m3",1009.59,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.5445,10.1016/j.jct.2006.10.008
+516,"Mass density, kg/m3",976.01,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.6675,10.1016/j.jct.2006.10.008
+517,"Mass density, kg/m3",959.34,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.7309,10.1016/j.jct.2006.10.008
+518,"Mass density, kg/m3",942.5,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.7964,10.1016/j.jct.2006.10.008
+519,"Mass density, kg/m3",925.98,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.862,10.1016/j.jct.2006.10.008
+520,"Mass density, kg/m3",909.27,"['1,3-dichloropropane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.9296,10.1016/j.jct.2006.10.008
+521,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0115,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.0614,10.1016/j.jct.2006.10.008
+522,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0303,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1294,10.1016/j.jct.2006.10.008
+523,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0548,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1998,10.1016/j.jct.2006.10.008
+524,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0914,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.2674,10.1016/j.jct.2006.10.008
+525,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1226,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.3309,10.1016/j.jct.2006.10.008
+526,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.163,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.3925,10.1016/j.jct.2006.10.008
+527,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1977,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4407,10.1016/j.jct.2006.10.008
+528,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2232,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4897,10.1016/j.jct.2006.10.008
+529,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2268,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.5404,10.1016/j.jct.2006.10.008
+530,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2256,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.5969,10.1016/j.jct.2006.10.008
+531,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2146,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.6592,10.1016/j.jct.2006.10.008
+532,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1929,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.7249,10.1016/j.jct.2006.10.008
+533,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1613,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.795,10.1016/j.jct.2006.10.008
+534,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1173,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.8656,10.1016/j.jct.2006.10.008
+535,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0625,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.9356,10.1016/j.jct.2006.10.008
+536,"Mass density, kg/m3",1118.28,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.0624,10.1016/j.jct.2006.10.008
+537,"Mass density, kg/m3",1103.88,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1208,10.1016/j.jct.2006.10.008
+538,"Mass density, kg/m3",1089.9,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.1776,10.1016/j.jct.2006.10.008
+539,"Mass density, kg/m3",1075.3,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.2372,10.1016/j.jct.2006.10.008
+540,"Mass density, kg/m3",1048.8,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.346,10.1016/j.jct.2006.10.008
+541,"Mass density, kg/m3",1033.38,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4096,10.1016/j.jct.2006.10.008
+542,"Mass density, kg/m3",1019.27,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.4679,10.1016/j.jct.2006.10.008
+543,"Mass density, kg/m3",1006.41,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.5213,10.1016/j.jct.2006.10.008
+544,"Mass density, kg/m3",977.11,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.6434,10.1016/j.jct.2006.10.008
+545,"Mass density, kg/m3",962.64,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.7039,10.1016/j.jct.2006.10.008
+546,"Mass density, kg/m3",948.68,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.7624,10.1016/j.jct.2006.10.008
+547,"Mass density, kg/m3",934.76,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.821,10.1016/j.jct.2006.10.008
+548,"Mass density, kg/m3",920.71,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.8802,10.1016/j.jct.2006.10.008
+549,"Mass density, kg/m3",906.62,"['1,4-dichlorobutane', 'butyl methanoate']",butyl methanoate,Mole fraction,0.9398,10.1016/j.jct.2006.10.008
+550,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.003,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.0722,10.1016/j.jct.2006.10.008
+551,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0035,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.1463,10.1016/j.jct.2006.10.008
+552,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0226,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.2242,10.1016/j.jct.2006.10.008
+553,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0464,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.2989,10.1016/j.jct.2006.10.008
+554,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0785,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.3685,10.1016/j.jct.2006.10.008
+555,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1121,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.4319,10.1016/j.jct.2006.10.008
+556,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1319,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.4894,10.1016/j.jct.2006.10.008
+557,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1481,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.5395,10.1016/j.jct.2006.10.008
+558,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1549,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.5701,10.1016/j.jct.2006.10.008
+559,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1542,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.5843,10.1016/j.jct.2006.10.008
+560,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1439,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.6266,10.1016/j.jct.2006.10.008
+561,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1303,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.6861,10.1016/j.jct.2006.10.008
+562,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1132,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.7462,10.1016/j.jct.2006.10.008
+563,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0904,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.8107,10.1016/j.jct.2006.10.008
+564,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0652,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.8755,10.1016/j.jct.2006.10.008
+565,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0374,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.9382,10.1016/j.jct.2006.10.008
+566,"Mass density, kg/m3",1081.49,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.0753,10.1016/j.jct.2006.10.008
+567,"Mass density, kg/m3",1070.16,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.1366,10.1016/j.jct.2006.10.008
+568,"Mass density, kg/m3",1046.7,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.2613,10.1016/j.jct.2006.10.008
+569,"Mass density, kg/m3",1034.45,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.3251,10.1016/j.jct.2006.10.008
+570,"Mass density, kg/m3",1022.81,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.3849,10.1016/j.jct.2006.10.008
+571,"Mass density, kg/m3",1011.0,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.4446,10.1016/j.jct.2006.10.008
+572,"Mass density, kg/m3",999.1,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.5039,10.1016/j.jct.2006.10.008
+573,"Mass density, kg/m3",975.33,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.6199,10.1016/j.jct.2006.10.008
+574,"Mass density, kg/m3",963.59,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.676,10.1016/j.jct.2006.10.008
+575,"Mass density, kg/m3",951.7,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.732,10.1016/j.jct.2006.10.008
+576,"Mass density, kg/m3",939.85,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.787,10.1016/j.jct.2006.10.008
+577,"Mass density, kg/m3",928.06,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.841,10.1016/j.jct.2006.10.008
+578,"Mass density, kg/m3",916.34,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.8939,10.1016/j.jct.2006.10.008
+579,"Mass density, kg/m3",904.29,"['butyl methanoate', '1,5-dichloropentane']",butyl methanoate,Mole fraction,0.9477,10.1016/j.jct.2006.10.008
+580,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0251,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.095,10.1016/j.jct.2006.10.008
+581,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0412,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.1874,10.1016/j.jct.2006.10.008
+582,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0425,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.2768,10.1016/j.jct.2006.10.008
+583,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0302,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.3583,10.1016/j.jct.2006.10.008
+584,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",0.0055,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.4321,10.1016/j.jct.2006.10.008
+585,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0291,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.4949,10.1016/j.jct.2006.10.008
+586,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0379,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.5195,10.1016/j.jct.2006.10.008
+587,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0541,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.5526,10.1016/j.jct.2006.10.008
+588,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0588,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.566,10.1016/j.jct.2006.10.008
+589,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0777,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.616,10.1016/j.jct.2006.10.008
+590,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0869,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.6674,10.1016/j.jct.2006.10.008
+591,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0856,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.7246,10.1016/j.jct.2006.10.008
+592,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0764,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.7832,10.1016/j.jct.2006.10.008
+593,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0657,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.8346,10.1016/j.jct.2006.10.008
+594,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0428,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.892,10.1016/j.jct.2006.10.008
+595,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0247,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.9474,10.1016/j.jct.2006.10.008
+596,"Mass density, kg/m3",1053.56,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.074,10.1016/j.jct.2006.10.008
+597,"Mass density, kg/m3",1043.66,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.1444,10.1016/j.jct.2006.10.008
+598,"Mass density, kg/m3",1032.43,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.2217,10.1016/j.jct.2006.10.008
+599,"Mass density, kg/m3",1023.76,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.2795,10.1016/j.jct.2006.10.008
+600,"Mass density, kg/m3",1013.82,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.3441,10.1016/j.jct.2006.10.008
+601,"Mass density, kg/m3",1003.67,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.4081,10.1016/j.jct.2006.10.008
+602,"Mass density, kg/m3",983.77,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.5278,10.1016/j.jct.2006.10.008
+603,"Mass density, kg/m3",973.68,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.586,10.1016/j.jct.2006.10.008
+604,"Mass density, kg/m3",963.84,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.641,10.1016/j.jct.2006.10.008
+605,"Mass density, kg/m3",952.63,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.702,10.1016/j.jct.2006.10.008
+606,"Mass density, kg/m3",942.71,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.7544,10.1016/j.jct.2006.10.008
+607,"Mass density, kg/m3",922.68,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.856,10.1016/j.jct.2006.10.008
+608,"Mass density, kg/m3",912.53,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.9056,10.1016/j.jct.2006.10.008
+609,"Mass density, kg/m3",902.59,"['butyl methanoate', '1,6-dichlorohexane']",butyl methanoate,Mole fraction,0.9528,10.1016/j.jct.2006.10.008
+610,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0343,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0406,10.1016/j.jct.2006.10.008
+611,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0828,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0934,10.1016/j.jct.2006.10.008
+612,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1412,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1501,10.1016/j.jct.2006.10.008
+613,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1919,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2054,10.1016/j.jct.2006.10.008
+614,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2439,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2613,10.1016/j.jct.2006.10.008
+615,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2822,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3157,10.1016/j.jct.2006.10.008
+616,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3202,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3653,10.1016/j.jct.2006.10.008
+617,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3507,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4153,10.1016/j.jct.2006.10.008
+618,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3718,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4604,10.1016/j.jct.2006.10.008
+619,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3831,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5014,10.1016/j.jct.2006.10.008
+620,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.387,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5593,10.1016/j.jct.2006.10.008
+621,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3677,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.6338,10.1016/j.jct.2006.10.008
+622,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.3138,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7235,10.1016/j.jct.2006.10.008
+623,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.23,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.8158,10.1016/j.jct.2006.10.008
+624,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1263,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.9141,10.1016/j.jct.2006.10.008
+625,"Mass density, kg/m3",1221.77,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0396,10.1016/j.jct.2006.10.008
+626,"Mass density, kg/m3",1199.93,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0779,10.1016/j.jct.2006.10.008
+627,"Mass density, kg/m3",1178.31,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1181,10.1016/j.jct.2006.10.008
+628,"Mass density, kg/m3",1156.97,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1601,10.1016/j.jct.2006.10.008
+629,"Mass density, kg/m3",1135.53,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2047,10.1016/j.jct.2006.10.008
+630,"Mass density, kg/m3",1114.67,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2505,10.1016/j.jct.2006.10.008
+631,"Mass density, kg/m3",1093.1,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3008,10.1016/j.jct.2006.10.008
+632,"Mass density, kg/m3",1072.02,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3529,10.1016/j.jct.2006.10.008
+633,"Mass density, kg/m3",1051.23,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4074,10.1016/j.jct.2006.10.008
+634,"Mass density, kg/m3",1030.4,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4655,10.1016/j.jct.2006.10.008
+635,"Mass density, kg/m3",1009.11,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5288,10.1016/j.jct.2006.10.008
+636,"Mass density, kg/m3",988.32,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5948,10.1016/j.jct.2006.10.008
+637,"Mass density, kg/m3",967.94,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.6639,10.1016/j.jct.2006.10.008
+638,"Mass density, kg/m3",946.95,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7399,10.1016/j.jct.2006.10.008
+639,"Mass density, kg/m3",926.19,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.8201,10.1016/j.jct.2006.10.008
+640,"Mass density, kg/m3",905.54,"['1,2-dichloroethane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.906,10.1016/j.jct.2006.10.008
+641,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0278,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0477,10.1016/j.jct.2006.10.008
+642,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0632,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1093,10.1016/j.jct.2006.10.008
+643,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1024,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1729,10.1016/j.jct.2006.10.008
+644,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1426,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2358,10.1016/j.jct.2006.10.008
+645,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.183,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2905,10.1016/j.jct.2006.10.008
+646,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2213,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3427,10.1016/j.jct.2006.10.008
+647,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2533,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3933,10.1016/j.jct.2006.10.008
+648,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2764,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4564,10.1016/j.jct.2006.10.008
+649,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2836,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5122,10.1016/j.jct.2006.10.008
+650,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2854,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5719,10.1016/j.jct.2006.10.008
+651,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2741,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.6452,10.1016/j.jct.2006.10.008
+652,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2449,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7254,10.1016/j.jct.2006.10.008
+653,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1884,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.8109,10.1016/j.jct.2006.10.008
+654,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1019,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.9161,10.1016/j.jct.2006.10.008
+655,"Mass density, kg/m3",1159.68,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0471,10.1016/j.jct.2006.10.008
+656,"Mass density, kg/m3",1142.71,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0911,10.1016/j.jct.2006.10.008
+657,"Mass density, kg/m3",1125.33,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1377,10.1016/j.jct.2006.10.008
+658,"Mass density, kg/m3",1108.29,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1848,10.1016/j.jct.2006.10.008
+659,"Mass density, kg/m3",1091.1,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2341,10.1016/j.jct.2006.10.008
+660,"Mass density, kg/m3",1056.06,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3403,10.1016/j.jct.2006.10.008
+661,"Mass density, kg/m3",1021.65,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4528,10.1016/j.jct.2006.10.008
+662,"Mass density, kg/m3",1004.48,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5122,10.1016/j.jct.2006.10.008
+663,"Mass density, kg/m3",987.37,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5737,10.1016/j.jct.2006.10.008
+664,"Mass density, kg/m3",970.23,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.6379,10.1016/j.jct.2006.10.008
+665,"Mass density, kg/m3",953.41,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7034,10.1016/j.jct.2006.10.008
+666,"Mass density, kg/m3",936.49,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7721,10.1016/j.jct.2006.10.008
+667,"Mass density, kg/m3",919.53,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.8438,10.1016/j.jct.2006.10.008
+668,"Mass density, kg/m3",902.44,"['1,3-dichloropropane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.9188,10.1016/j.jct.2006.10.008
+669,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0154,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0558,10.1016/j.jct.2006.10.008
+670,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0426,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1297,10.1016/j.jct.2006.10.008
+671,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0757,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2099,10.1016/j.jct.2006.10.008
+672,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.115,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2822,10.1016/j.jct.2006.10.008
+673,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1562,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3497,10.1016/j.jct.2006.10.008
+674,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1848,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4176,10.1016/j.jct.2006.10.008
+675,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2057,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4615,10.1016/j.jct.2006.10.008
+676,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2103,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4847,10.1016/j.jct.2006.10.008
+677,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2186,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5352,10.1016/j.jct.2006.10.008
+678,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2141,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5989,10.1016/j.jct.2006.10.008
+679,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.2083,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.6703,10.1016/j.jct.2006.10.008
+680,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1825,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7496,10.1016/j.jct.2006.10.008
+681,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1344,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.8354,10.1016/j.jct.2006.10.008
+682,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.07,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.9293,10.1016/j.jct.2006.10.008
+683,"Mass density, kg/m3",1118.26,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0535,10.1016/j.jct.2006.10.008
+684,"Mass density, kg/m3",1103.42,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1055,10.1016/j.jct.2006.10.008
+685,"Mass density, kg/m3",1089.12,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1566,10.1016/j.jct.2006.10.008
+686,"Mass density, kg/m3",1074.27,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2106,10.1016/j.jct.2006.10.008
+687,"Mass density, kg/m3",1060.0,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2635,10.1016/j.jct.2006.10.008
+688,"Mass density, kg/m3",1045.06,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3199,10.1016/j.jct.2006.10.008
+689,"Mass density, kg/m3",1030.28,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3768,10.1016/j.jct.2006.10.008
+690,"Mass density, kg/m3",1015.59,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4344,10.1016/j.jct.2006.10.008
+691,"Mass density, kg/m3",1001.46,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4908,10.1016/j.jct.2006.10.008
+692,"Mass density, kg/m3",986.81,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5505,10.1016/j.jct.2006.10.008
+693,"Mass density, kg/m3",972.26,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.6109,10.1016/j.jct.2006.10.008
+694,"Mass density, kg/m3",957.67,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.6726,10.1016/j.jct.2006.10.008
+695,"Mass density, kg/m3",943.19,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7351,10.1016/j.jct.2006.10.008
+696,"Mass density, kg/m3",928.74,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7986,10.1016/j.jct.2006.10.008
+697,"Mass density, kg/m3",914.02,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.8646,10.1016/j.jct.2006.10.008
+698,"Mass density, kg/m3",899.89,"['1,4-dichlorobutane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.9292,10.1016/j.jct.2006.10.008
+699,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0127,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0613,10.1016/j.jct.2006.10.008
+700,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0317,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.141,10.1016/j.jct.2006.10.008
+701,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0558,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2146,10.1016/j.jct.2006.10.008
+702,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0862,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2884,10.1016/j.jct.2006.10.008
+703,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1141,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3563,10.1016/j.jct.2006.10.008
+704,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1314,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4177,10.1016/j.jct.2006.10.008
+705,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1462,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4725,10.1016/j.jct.2006.10.008
+706,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1486,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5239,10.1016/j.jct.2006.10.008
+707,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1518,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5551,10.1016/j.jct.2006.10.008
+708,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1452,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.6165,10.1016/j.jct.2006.10.008
+709,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1344,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.6887,10.1016/j.jct.2006.10.008
+710,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1139,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7706,10.1016/j.jct.2006.10.008
+711,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0783,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.8586,10.1016/j.jct.2006.10.008
+712,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0417,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.9347,10.1016/j.jct.2006.10.008
+713,"Mass density, kg/m3",1082.26,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.0607,10.1016/j.jct.2006.10.008
+714,"Mass density, kg/m3",1069.95,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1185,10.1016/j.jct.2006.10.008
+715,"Mass density, kg/m3",1057.7,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.1761,10.1016/j.jct.2006.10.008
+716,"Mass density, kg/m3",1045.52,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2336,10.1016/j.jct.2006.10.008
+717,"Mass density, kg/m3",1033.04,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.2924,10.1016/j.jct.2006.10.008
+718,"Mass density, kg/m3",1020.86,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.3501,10.1016/j.jct.2006.10.008
+719,"Mass density, kg/m3",996.38,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.4661,10.1016/j.jct.2006.10.008
+720,"Mass density, kg/m3",983.92,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.5254,10.1016/j.jct.2006.10.008
+721,"Mass density, kg/m3",959.15,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.6434,10.1016/j.jct.2006.10.008
+722,"Mass density, kg/m3",946.7,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7028,10.1016/j.jct.2006.10.008
+723,"Mass density, kg/m3",934.48,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.7612,10.1016/j.jct.2006.10.008
+724,"Mass density, kg/m3",922.34,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.8194,10.1016/j.jct.2006.10.008
+725,"Mass density, kg/m3",909.95,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.8788,10.1016/j.jct.2006.10.008
+726,"Mass density, kg/m3",897.88,"['1,5-dichloropentane', 'pentyl methanoate']",pentyl methanoate,Mole fraction,0.9368,10.1016/j.jct.2006.10.008
+727,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0111,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.0697,10.1016/j.jct.2006.10.008
+728,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0249,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.162,10.1016/j.jct.2006.10.008
+729,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0476,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.2559,10.1016/j.jct.2006.10.008
+730,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0718,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.3406,10.1016/j.jct.2006.10.008
+731,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0942,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.4168,10.1016/j.jct.2006.10.008
+732,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1058,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.4813,10.1016/j.jct.2006.10.008
+733,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1085,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.4927,10.1016/j.jct.2006.10.008
+734,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1149,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.5399,10.1016/j.jct.2006.10.008
+735,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1104,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.5935,10.1016/j.jct.2006.10.008
+736,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.1001,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.6653,10.1016/j.jct.2006.10.008
+737,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0866,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.731,10.1016/j.jct.2006.10.008
+738,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0697,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.8005,10.1016/j.jct.2006.10.008
+739,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0468,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.8731,10.1016/j.jct.2006.10.008
+740,"Excess molar enthalpy (molar enthalpy of mixing), kJ/mol",-0.0234,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.9459,10.1016/j.jct.2006.10.008
+741,"Mass density, kg/m3",1051.9,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.0731,10.1016/j.jct.2006.10.008
+742,"Mass density, kg/m3",1041.69,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.1352,10.1016/j.jct.2006.10.008
+743,"Mass density, kg/m3",1031.48,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.1967,10.1016/j.jct.2006.10.008
+744,"Mass density, kg/m3",1010.41,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.3212,10.1016/j.jct.2006.10.008
+745,"Mass density, kg/m3",999.88,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.3822,10.1016/j.jct.2006.10.008
+746,"Mass density, kg/m3",989.79,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.4398,10.1016/j.jct.2006.10.008
+747,"Mass density, kg/m3",968.7,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.558,10.1016/j.jct.2006.10.008
+748,"Mass density, kg/m3",958.24,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.6153,10.1016/j.jct.2006.10.008
+749,"Mass density, kg/m3",947.69,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.6723,10.1016/j.jct.2006.10.008
+750,"Mass density, kg/m3",937.22,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.7282,10.1016/j.jct.2006.10.008
+751,"Mass density, kg/m3",926.72,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.7836,10.1016/j.jct.2006.10.008
+752,"Mass density, kg/m3",916.1,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.839,10.1016/j.jct.2006.10.008
+753,"Mass density, kg/m3",905.58,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.893,10.1016/j.jct.2006.10.008
+754,"Mass density, kg/m3",895.13,"['pentyl methanoate', '1,6-dichlorohexane']",pentyl methanoate,Mole fraction,0.9462,10.1016/j.jct.2006.10.008
