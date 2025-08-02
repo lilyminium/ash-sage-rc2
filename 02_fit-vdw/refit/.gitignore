@@ -6,3 +6,4 @@ optimize.bak
 optimize.tmp
 smirnoff_parameter_assignments.json
 dask-worker-space
+stored_data
