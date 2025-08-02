@@ -1,0 +1,7 @@
+slurm*.out
+
+working-directory
+working-directory.tar.gz
+dask-worker-space
+
+stored_data

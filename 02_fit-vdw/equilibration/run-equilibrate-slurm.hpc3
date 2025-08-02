@@ -22,5 +22,6 @@ python equilibrate-slurm.py                                             \
     --extra-script-option       "--gres=gpu:1"                          \
     --queue                     "gpu"                                   \
     --n-gpu                     30                                      \
+    --conda-env                 evaluator-050                           \
     --dataset                   "not-equilibrated-training.json"
     
