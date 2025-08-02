@@ -1,0 +1,8 @@
+slurm*.out
+worker-logs
+working-directory
+
+optimize.bak
+optimize.tmp
+smirnoff_parameter_assignments.json
+dask-worker-space

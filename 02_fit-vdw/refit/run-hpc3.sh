@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-#SBATCH -J slurm-nagl-v2
+#SBATCH -J refit-nagl-v2
 #SBATCH -p standard
 #SBATCH -t 7-00:00:00
 #SBATCH --nodes=1
+#SBATCH --account=dmobley_lab
 #SBATCH --tasks-per-node=4
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8gb
