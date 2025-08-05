@@ -5,7 +5,10 @@ import pathlib
 import click
 import tqdm
 
+import numpy as np
+
 from openff.toolkit import ForceField, Molecule
+from openff.units import unit
 from openff.evaluator.datasets import PhysicalPropertyDataSet
 
 logger = logging.getLogger(__name__)
@@ -62,25 +65,39 @@ def main(
 
     vdw_handler = forcefield.get_parameter_handler("vdW")
     for parameter in vdw_handler.parameters:
+        if "tip3p" in parameter.id:
+            continue  # skip water parameters
         property_count = label_counter.get(parameter.id, 0)
         logger.info(
             f"Parameter {parameter.id} {parameter.smirks} has {property_count} properties associated with it."
         )
         if property_count >= n_properties:
             # parameter.add_cosmetic_attribute("parameterize", "epsilon, rmin_half")
-            
             # we want to keep epsilon non-zero
             # there are more elegant and continuous ways to do this, but we also want
             # something that renders as nonzero in a reasonable number of decimal places
             # so we arbitrarily set the minimum value to 1e-5
-            parameter.add_cosmetic_attribute("parameterize", "rmin_half, constrained_epsilon")
-            parameter.add_cosmetic_attribute("constrained_epsilon", parameter.epsilon)
+            # parameter.add_cosmetic_attribute("constrained_epsilon", parameter.epsilon)
+
+            # set constrained_epsilon to inverse softplus
+            eps_ = parameter.epsilon.m_as(unit.kilocalories_per_mole)
+            constrained_epsilon = np.log(np.exp(eps_ - 1e-5) - 1)
+            parameter.add_cosmetic_attribute(
+                "constrained_epsilon",
+                f"{constrained_epsilon:.6f} * mole ** -1 * kilocalorie ** 1",
+            )
+            
             # I believe we just ignore units here -- see PR below
             # https://github.com/leeping/forcebalance/pull/281
+            prm = f"PRM['vdW/Atom/constrained_epsilon/{parameter.smirks}']"
             parameter.add_cosmetic_attribute(
                 "parameter_eval",
-                f"epsilon=min(1e-5, PRM['vdW/Atom/constrained_epsilon/{parameter.smirks}'])"
+                # we need to avoid commas as they break the regex
+                # use a softplus function bounded at 1e-5
+                # numpy is imported much more frequently than math so use that
+                f"epsilon=(np.log(1 + np.exp({prm})) + 1e-5)"
             )
+            parameter.add_cosmetic_attribute("parameterize", "rmin_half, constrained_epsilon")
 
             logger.info(f"Training {parameter.id} {parameter.smirks}")
 
