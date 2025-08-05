@@ -4,7 +4,7 @@
 # mkdir output
 # mkdir images
 
-python filter-data-training.py -np 8 > logs/filter-data-training.log 2>&1
+# python filter-data-training.py -np 8 > logs/filter-data-training.log 2>&1
 
 
 python profile-dataset.py                   \
@@ -14,17 +14,17 @@ python profile-dataset.py                   \
     -o      "functional-group-profiles" > logs/profile-dataset.log 2>&1
 
 
-python plot-dataset-profile.py              \
-    -i  "functional-group-profiles/density-functional-groups.csv"   \
-    -o  "images/density-functional-groups.png"                      \
-    -s  "Density"                                                   \
-    -n 25 -w 8 -h 7
+# python plot-dataset-profile.py              \
+#     -i  "functional-group-profiles/density-functional-groups.csv"   \
+#     -o  "images/density-functional-groups.png"                      \
+#     -s  "Density"                                                   \
+#     -n 25 -w 8 -h 7
 
-python plot-dataset-profile.py              \
-    -i  "functional-group-profiles/dhmix-functional-groups.csv"   \
-    -o  "images/dhmix-functional-groups.png"                      \
-    -s  "∆Hmix"                                                   \
-    -n 25 -w 8 -h 7
+# python plot-dataset-profile.py              \
+#     -i  "functional-group-profiles/dhmix-functional-groups.csv"   \
+#     -o  "images/dhmix-functional-groups.png"                      \
+#     -s  "∆Hmix"                                                   \
+#     -n 25 -w 8 -h 7
 
 
 python compare-dataset-components.py \
@@ -34,23 +34,24 @@ python compare-dataset-components.py \
     -i "images" > logs/compare-dataset-components.log 2>&1
 
 
-python filter-data-validation.py -np 8 > logs/filter-data-validation.log 2>&1
+# python filter-data-validation.py -np 8 > logs/filter-data-validation.log 2>&1
 
-python profile-dataset.py                   \
-    -nd     "Sage 2.0"      "output/sage-training-set.json" \
-    -nd     "Sage 2.3rc2 training"   "output/training-set.json"  \
-    -nd     "Sage 2.3rc2 validation"   "output/validation-set.json"  \
-    -o      "functional-group-profiles-validation" > logs/profile-dataset-validation.log 2>&1
+# python profile-dataset.py                   \
+#     -nd     "Sage 2.0"      "output/sage-training-set.json" \
+#     -nd     "Sage 2.3rc2 training"   "output/training-set.json"  \
+#     -nd     "Sage 2.3rc2 validation"   "output/validation-set.json"  \
+#     -o      "functional-group-profiles-validation" > logs/profile-dataset-validation.log 2>&1
 
 
-python plot-dataset-profile.py              \
-    -i  "functional-group-profiles-validation/density-functional-groups.csv"   \
-    -o  "images/val-density-functional-groups.png"                      \
-    -s  "Density"                                                   \
-    -n 25 -w 8 -h 7
+# python plot-dataset-profile.py              \
+#     -i  "functional-group-profiles-validation/density-functional-groups.csv"   \
+#     -o  "images/val-density-functional-groups.png"                      \
+#     -s  "Density"                                                   \
+#     -n 25 -w 8 -h 7
 
-python plot-dataset-profile.py              \
-    -i  "functional-group-profiles-validation/dhmix-functional-groups.csv"   \
-    -o  "images/val-dhmix-functional-groups.png"                      \
-    -s  "∆Hmix"                                                   \
-    -n 25 -w 8 -h 7
+# python plot-dataset-profile.py              \
+#     -i  "functional-group-profiles-validation/dhmix-functional-groups.csv"   \
+#     -o  "images/val-dhmix-functional-groups.png"                      \
+#     -s  "∆Hmix"                                                   \
+#     -n 25 -w 8 -h 7
+

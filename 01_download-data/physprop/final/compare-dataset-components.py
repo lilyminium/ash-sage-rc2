@@ -29,7 +29,7 @@ def save_highres_image(smiles: list[str], filename: str):
     )
     with open(filename, "w") as f:
         f.write(img)#.data)
-    logger.info(f"Saved high-resolution image to {filename}")
+    print(f"Saved high-resolution image to {filename}")
 
 @click.command()
 @click.option(
@@ -76,9 +76,15 @@ def main(
         for component in physprop.substance.components:
             new_unique_components.add(component.smiles)
 
+    print(f"Old unique components: {len(old_unique_components)}")
+    print(f"New unique components: {len(new_unique_components)}")
+
 
     added_components = new_unique_components - old_unique_components
     removed_components = old_unique_components - new_unique_components
+
+    print(f"Added components: {len(added_components)}")
+    print(f"Removed components: {len(removed_components)}")
 
 
     data = {
@@ -90,7 +96,7 @@ def main(
     with open(output_file, "w") as f:
         json.dump(data, f, indent=4)
 
-    logger.info(f"Saved unique components to {output_file}")
+    print(f"Saved unique components to {output_file}")
 
     # plot high-resolution RDKit image
     image_directory = pathlib.Path(image_directory)

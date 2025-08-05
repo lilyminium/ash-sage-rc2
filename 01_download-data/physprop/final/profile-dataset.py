@@ -11,9 +11,6 @@ import pandas as pd
 from openff.evaluator.datasets import PhysicalPropertyDataSet
 from yammbs.checkmol import analyze_functional_groups
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-
 
 def label_dataset(dataset: PhysicalPropertyDataSet):
     groups_by_type = defaultdict(lambda: defaultdict(list))
@@ -88,7 +85,13 @@ def main(
         counts_by_name[name] = counts_by_type
         groups_by_name[name] = groups_by_type
 
-    logger.info(f"Counts by name: {counts_by_name}")
+        # combine unique mixtures for output
+        unique_mixtures = set(counts_by_type["Density"].keys()).union(
+            counts_by_type["EnthalpyOfMixing"].keys()
+        )
+        print(f"Unique mixtures for {name}: {len(unique_mixtures)}")
+
+    print(f"Counts by name: {counts_by_name}")
 
     output_file = output_directory / "functional-groups.json"
     with open(output_file, "w") as f:
@@ -100,7 +103,7 @@ def main(
             f,
             indent=2,
         )
-    logger.info(f"Saved functional groups to {output_file}")
+    print(f"Saved functional groups to {output_file}")
 
     count_file = output_directory / "property-counts.json"
     with open(count_file, "w") as f:
@@ -111,7 +114,7 @@ def main(
             f,
             indent=2,
         )
-    logger.info(f"Saved property type counts to {count_file}")
+    print(f"Saved property type counts to {count_file}")
 
 
     density_df = combine_datasets_to_dataframe(
@@ -120,7 +123,7 @@ def main(
     )
     density_csv = output_directory / "density-functional-groups.csv"
     density_df.to_csv(density_csv, index=False)
-    logger.info(f"Saved density functional groups to {density_csv}")
+    print(f"Saved density functional groups to {density_csv}")
 
     dhmix_df = combine_datasets_to_dataframe(
         counts_by_name,
@@ -128,7 +131,7 @@ def main(
     )
     dhmix_csv = output_directory / "dhmix-functional-groups.csv"
     dhmix_df.to_csv(dhmix_csv, index=False)
-    logger.info(f"Saved enthalpy of mixing functional groups to {dhmix_csv}")
+    print(f"Saved enthalpy of mixing functional groups to {dhmix_csv}")
 
 
 if __name__ == "__main__":
