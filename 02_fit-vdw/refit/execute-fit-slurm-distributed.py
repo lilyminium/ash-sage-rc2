@@ -1,3 +1,28 @@
+"""
+This script executes a distributed ForceBalance optimization using the OpenFF Evaluator.
+It sets up the environment, prepares the ForceBalance input, and runs the optimization
+on a SLURM cluster using Dask for distributed computing.
+
+It does the following steps:
+- sets up ForceBalance options and writes them to `targets/phys-prop/options.json`
+- checks if a previous run can be continued, and prepares the restart
+- renames any previous log files to avoid overwriting
+- sets up a Dask SLURM backend with the specified resources
+- starts an Evaluator server to handle requests
+- runs ForceBalance with the specified input file and logs the output to force_balance.log
+
+This run generates the following output:
+- force_balance.log: The log file for the ForceBalance run
+- results/: the directory with resulting force field
+- optimize.tmp: directory with training properties calculated from intermediate force fields
+- optimize.sav: the saved state of the ForceBalance optimization, if it was continued
+- optimize.bak: a backup of the ForceBalance optimization state
+- working-directory/: the directory with the working files for the Evaluator server
+- worker-logs/: the directory with the logs for the Dask workers
+- conda-env.yaml: the conda environment used for the run
+- slurm-*.out: the SLURM output files for the workers
+"""
+
 import logging
 import sys
 import subprocess
@@ -30,8 +55,9 @@ logging.basicConfig(
 )
 
 def _remove_previous_files():
+    """Remove any previous files that might interfere with the run."""
     restart_files = [
-        "optimize.tmp",
+        # "optimize.tmp",
         "optimize.bak",
         "optimize.sav",
         "result",
@@ -56,6 +82,11 @@ def write_options(
     port: int = 8998,
     output_file: str = "targets/phys-prop/options.json"
 ):
+    """
+    Write the options for the ForceBalance optimization to a JSON file.
+    This includes the equilibration properties, estimation options, and weights.
+    The options are used by the Evaluator to run the optimization.
+    """
     options = Evaluator_SMIRNOFF.OptionsFile()
     options.connection_options.server_port = port
 
@@ -116,7 +147,13 @@ def _prepare_restart(
     input_file: str = "optimize.in",
     target_name: str = "phys-prop",
 ):
-    """Check for correct completed data and remove incomplete data"""
+    """
+    Check for correct completed data and remove incomplete data from previous runs.
+
+    This reads the input file to determine the maximum number of iterations,
+    and checks for completed iterations. If any incomplete iterations are found,
+    it removes them from the target directory.
+    """
 
     # parse input file
     with open(input_file, "r") as file:
@@ -187,7 +224,7 @@ def rename_log_file(log_file):
     "log_file",
     type=str,
     default="force_balance.log",
-    help="The log file for ForceBalance",
+    help="The output log file for ForceBalance",
 )
 @optgroup.group("Server configuration")
 @optgroup.option(
@@ -317,7 +354,7 @@ def main(
 
     write_options(port=port)
 
-    # actually run ForceBalance with evaluator
+    # set up queue worker resources
     worker_resources = QueueWorkerResources(
         number_of_threads=n_threads,
         number_of_gpus=n_gpus,
@@ -326,6 +363,7 @@ def main(
         wallclock_time_limit=walltime,
     )
 
+    # set up dask backend
     backend = DaskSLURMBackend(
         minimum_number_of_workers=n_min_workers,
         maximum_number_of_workers=n_max_workers,
@@ -340,15 +378,19 @@ def main(
         adaptive_interval="1000ms",
     )
 
+    # rename any previous log files
     rename_log_file(log_file)
 
+    # actually run ForceBalance
     with backend:
         server = EvaluatorServer(
             calculation_backend=backend,
             working_directory=working_directory,
             port=port,
             enable_data_caching=enable_data_caching,
-            delete_working_files=True,
+            delete_working_files=False, # for debugging -- set true if too large
+            # we need to cache for speed reasons
+            # otherwise just querying the storage backend can take 10+ hours for 1k properties
             storage_backend=LocalFileStorage(cache_objects_in_memory=True)
         )
         with server:
