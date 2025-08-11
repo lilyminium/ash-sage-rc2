@@ -1,5 +1,5 @@
 """
-This applies an initial filter to prune out definitively unwanted data.
+This applies filter to create a final training set for physical property data.
 
 This builds off https://github.com/openforcefield/openff-sage/blob/main/data-set-curation/physical-property/optimizations/curate-training-set.py
 """
@@ -119,7 +119,7 @@ def curate_data_set(
     property_type_filter: filtering.FilterByPropertyTypesSchema,
     n_processes,
 ) -> pd.DataFrame:
-
+    """Curate the input data frame to select a training set based on the defined target states and chemical environments."""
     allowed_elements = [
         "C",
         "O",
@@ -128,8 +128,16 @@ def curate_data_set(
         "Br",
         "H",  # "F", "S"
     ]
-    select_num_component = selection.SelectNumRepresentationSchema(minimum_representation=4, per_component=True)
-    select_num_substance = selection.SelectNumRepresentationSchema(minimum_representation=3, per_component=False)
+    # filter out properties that include components
+    # with less than 4 representations across entire dataset
+    select_num_component = selection.SelectNumRepresentationSchema(
+        minimum_representation=4, per_component=True
+    )
+    # filter out substances (i.e. full mixtures)
+    # with less than 3 representations across entire dataset
+    select_num_substance = selection.SelectNumRepresentationSchema(
+        minimum_representation=3, per_component=False
+    )
 
     component_schemas=[
         # Remove any molecules containing elements that aren't currently of interest
@@ -137,7 +145,7 @@ def curate_data_set(
         # property_type_filter,
     ]
     if smiles_to_exclude:
-        logger.info(f"Excludeing {len(smiles_to_exclude)} SMILES from the dataset")
+        logger.info(f"Excluding {len(smiles_to_exclude)} SMILES from the dataset")
         component_schemas.append(
             filtering.FilterBySmilesSchema(
                 smiles_to_exclude=smiles_to_exclude,
@@ -147,9 +155,11 @@ def curate_data_set(
         # Retain only measurements made for substances which contain environments
         # of interest.
         filtering.FilterByEnvironmentsSchema(environments=CHEMICAL_ENVIRONMENTS),
+        # select data points at particular concentrations
         selection.SelectDataPointsSchema(target_states=TARGET_STATES),
         select_num_component,
         select_num_substance,
+        # select diverse mixtures
         selection.SelectSubstancesSchema(
             target_environments=CHEMICAL_ENVIRONMENTS,
             n_per_environment=5,
@@ -160,8 +170,6 @@ def curate_data_set(
         filtering.FilterBySubstancesSchema(substances_to_exclude=[("O",)]),
     ])
 
-
-
     curation_schema = CurationWorkflowSchema(
         component_schemas=component_schemas,
     )
@@ -170,6 +178,11 @@ def curate_data_set(
 
 
 def save_dataset(dataset, output_file: pathlib.Path):
+    """
+    Save the dataset to a CSV and JSON file.
+    The CSV file will be a valid PhysicalPropertyDataSet CSV file.
+    The JSON file will be a valid PhysicalPropertyDataSet JSON file.
+    """
     output_file.parent.mkdir(parents=True, exist_ok=True)
     dataset.to_pandas().to_csv(output_file)
     dataset.json(output_file.with_suffix(".json"), format=True)
@@ -183,7 +196,11 @@ def save_dataset(dataset, output_file: pathlib.Path):
     "--output-file",
     "-o",
     default="output/training-set.csv",
-    help="The output CSV file to save the filtered data to",
+    help=(
+        "The output CSV file to save the filtered data to. "
+        "Note, a JSON file with the same name but with a .json extension will also be created. "
+        "Both encode PhysicalPropertyDataSet objects."
+    ),
 )
 @click.option(
     "--input-file",
@@ -248,8 +265,14 @@ def main(
     )
     logger.info(f"Filtered to {len(training_set_frame)} data points")
 
+    assert len(training_set_frame) > 0, "No data points left after filtering"
+    # make sure we wind up with a reasonable number of data points
+    assert len(training_set_frame) > 1000, "Not enough data points left after filtering"
+    assert len(training_set_frame) < 2000, "Too many data points left after filtering"
+
     ds = PhysicalPropertyDataSet.from_pandas(training_set_frame)
 
+    # count and log properties
     counter = collections.Counter()
     for prop in ds.properties:
         counter[type(prop).__name__] += 1

@@ -1,25 +1,28 @@
-from collections import defaultdict, Counter
+"""
+This script compares two datasets of physical properties, identifying unique components in each dataset.
+It reads two JSON files containing datasets, extracts unique components from each,
+and saves the results to a JSON file.
+It also generates high-resolution images of the added and removed components.
+The images are saved in a specified directory.
+"""
 import pathlib
 import json
 import logging
-import typing
 
 import click
-import pandas as pd
-from matplotlib import pyplot as plt
-import seaborn as sns
 
 from rdkit import Chem
 from rdkit.Chem import Draw
-from openff.toolkit import Molecule
 from openff.evaluator.datasets import PhysicalPropertyDataSet
-from yammbs.checkmol import analyze_functional_groups
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 
 
 def save_highres_image(smiles: list[str], filename: str):
+    """
+    Save a high-resolution SVG of the RDKit molecules from the given SMILES strings.
+    """
     rdmols = [Chem.MolFromSmiles(smi) for smi in smiles if smi]
     img = Draw.MolsToGridImage(
         rdmols,
@@ -29,20 +32,26 @@ def save_highres_image(smiles: list[str], filename: str):
     )
     with open(filename, "w") as f:
         f.write(img)#.data)
-    print(f"Saved high-resolution image to {filename}")
+    logger.info(f"Saved high-resolution image to {filename}")
 
 @click.command()
 @click.option(
     "--new-dataset-file",
     "-n",
     default="new-dataset.json",
-    help="The JSON file containing the new dataset",
+    help=(
+        "The JSON file containing the new dataset. "
+        "This should be a valid PhysicalPropertyDataSet JSON file."
+    ),
 )
 @click.option(
     "--old-dataset-file",
     "-o",
     default="sage-training-set.json",
-    help="The JSON file containing the old dataset",
+    help=(
+        "The JSON file containing the old dataset. "
+        "This should be a valid PhysicalPropertyDataSet JSON file."
+    ),
 )
 @click.option(
     "--output-file",
@@ -54,7 +63,13 @@ def save_highres_image(smiles: list[str], filename: str):
     "--image-directory",
     "-i",
     default="images",
-    help="Directory to save the high-resolution images of added/removed components",
+    help=(
+        "Directory to save the high-resolution images of added/removed components. "
+        "Added components are found in new_dataset but not in old_dataset, "
+        "and removed components are found in old_dataset but not in new_dataset. "
+        "Added components are saved as 'highres_added.svg', "
+        "and removed components as 'highres_removed.svg'."
+    ),
 )
 def main(
     new_dataset_file: str = "new-dataset.json",
@@ -76,15 +91,15 @@ def main(
         for component in physprop.substance.components:
             new_unique_components.add(component.smiles)
 
-    print(f"Old unique components: {len(old_unique_components)}")
-    print(f"New unique components: {len(new_unique_components)}")
+    logger.info(f"Old unique components: {len(old_unique_components)}")
+    logger.info(f"New unique components: {len(new_unique_components)}")
 
 
     added_components = new_unique_components - old_unique_components
     removed_components = old_unique_components - new_unique_components
 
-    print(f"Added components: {len(added_components)}")
-    print(f"Removed components: {len(removed_components)}")
+    logger.info(f"Added components: {len(added_components)}")
+    logger.info(f"Removed components: {len(removed_components)}")
 
 
     data = {
@@ -96,7 +111,7 @@ def main(
     with open(output_file, "w") as f:
         json.dump(data, f, indent=4)
 
-    print(f"Saved unique components to {output_file}")
+    logger.info(f"Saved unique components to {output_file}")
 
     # plot high-resolution RDKit image
     image_directory = pathlib.Path(image_directory)

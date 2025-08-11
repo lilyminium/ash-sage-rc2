@@ -1,5 +1,5 @@
 """
-This applies an initial filter to prune out definitively unwanted data.
+This applies filters to generate a validation set for physical property data.
 
 This builds off https://github.com/openforcefield/openff-sage/blob/main/data-set-curation/physical-property/optimizations/curate-training-set.py
 """
@@ -107,7 +107,7 @@ def curate_data_set(
     smiles_to_exclude,
     n_processes,
 ) -> pd.DataFrame:
-
+    """Curate the input data frame to select a training set based on the defined target states and chemical environments"""
     component_schemas=[
         # Remove any molecules containing elements that aren't currently of interest
         selection.SelectDataPointsSchema(target_states=TARGET_STATES),
@@ -135,6 +135,11 @@ def curate_data_set(
 
 
 def save_dataset(dataset, output_file: pathlib.Path):
+    """
+    Save the dataset to a CSV and JSON file.
+    The CSV file will be a valid PhysicalPropertyDataSet CSV file.
+    The JSON file will be a valid PhysicalPropertyDataSet JSON file.
+    """
     output_file.parent.mkdir(parents=True, exist_ok=True)
     dataset.to_pandas().to_csv(output_file)
     dataset.json(output_file.with_suffix(".json"), format=True)
@@ -148,7 +153,11 @@ def save_dataset(dataset, output_file: pathlib.Path):
     "--output-file",
     "-o",
     default="output/validation-set.csv",
-    help="The output CSV file to save the filtered data to",
+    help=(
+        "The output CSV file to save the filtered data to. "
+        "Note, a JSON file with the same name but with a .json extension will also be created. "
+        "Both encode PhysicalPropertyDataSet objects."
+    ),
 )
 @click.option(
     "--input-file",
@@ -172,7 +181,10 @@ def save_dataset(dataset, output_file: pathlib.Path):
     "--training-file",
     "-t",
     default="output/training-set.json",
-    help="The JSON file containing the training set",
+    help=(
+        "The JSON file containing the training set. "
+        "This is used to filter out properties that are already in the training set."
+    ),
 )
 def main(
     input_file: str = "../intermediate/output/renamed-filtered.csv",
@@ -218,19 +230,14 @@ def main(
     )
     logger.info(f"Filtered to {len(training_set_frame)} data points")
 
+    assert len(training_set_frame) > 0, "No data points left after filtering"
+    # make sure we wind up with a reasonable number of data points
+    assert len(training_set_frame) > 1000, "Not enough data points left after filtering"
+    assert len(training_set_frame) < 4000, "Too many data points left after filtering"
+
     ds = PhysicalPropertyDataSet.from_pandas(training_set_frame)
-    # renumber
 
-    # if renumber:
-    #     mapping = {}
-    #     for i, prop in enumerate(ds.properties, 1):
-    #         new_id = f"{i:04d}"
-    #         mapping[prop.id] = new_id
-    #         prop.id = new_id
-    #     logger.info("Renumbering property IDs")
-    #     with open("renumbered_mapping.json", "w") as f:
-    #         json.dump(mapping, f, indent=2)
-
+    # count and log properties
     counter = collections.Counter()
     for prop in ds.properties:
         counter[type(prop).__name__] += 1

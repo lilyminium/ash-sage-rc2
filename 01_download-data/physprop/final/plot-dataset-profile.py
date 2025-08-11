@@ -1,3 +1,11 @@
+"""
+This script generates plots for the functional group profiles in the dataset.
+It reads a CSV file containing functional group data,
+filters it to find the top groups with the greatest differences in counts across datasets,
+and then creates a bar plot of these groups.
+The plot is saved to a specified output file.
+"""
+
 import logging
 
 import click
