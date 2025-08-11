@@ -66,6 +66,9 @@ def curate_data_set(
             # Filter out any measurements made for systems with more than
             # two components
             filtering.FilterByNComponentsSchema(n_components=[1, 2]),
+            # only include measurements for both the property types of interest
+            # this equalizes data proportions somewhat even though later filters
+            # sometimes remove one of the two.
             property_type_filter,
             # Remove any duplicate data.
             filtering.FilterDuplicatesSchema(),
@@ -130,13 +133,19 @@ def curate_data_set(
     "--input-file",
     "-i",
     default="input/thermoml.csv",
-    help="The CSV file containing existing parsed ThermoML data",
+    help=(
+        "The CSV file containing existing parsed ThermoML data. "
+        "This should be a valid PhysicalPropertyDataSet CSV file."
+    ),
 )
 @click.option(
     "--output-file",
     "-o",
     default="intermediate/initial-filtered-thermoml.csv",
-    help="The CSV file to save the filtered properties to",
+    help=(
+        "The CSV file to save the filtered properties to. "
+        "This is a valid PhysicalPropertyDataSet CSV file."
+    ),
 )
 @click.option(
     "--n-processes",
@@ -171,6 +180,8 @@ def main(
         n_processes,
     )
     logger.info(f"Filtered to {len(training_set_frame)} data points")
+
+    assert len(training_set_frame) > 0, "No data points left after filtering"
 
     output_file = pathlib.Path(output_file)
     output_file.parent.mkdir(exist_ok=True, parents=True)

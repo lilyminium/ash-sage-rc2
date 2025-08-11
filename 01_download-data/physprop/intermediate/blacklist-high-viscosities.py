@@ -23,13 +23,20 @@ logger = logging.getLogger(__name__)
     "--input-file",
     "-i",
     default="intermediate/initial-filtered-thermoml.csv",
-    help="The CSV file containing existing parsed ThermoML data",
+    help=(
+        "The CSV file containing existing parsed ThermoML data. "
+        "This should be a valid PhysicalPropertyDataSet CSV file."
+    ),
 )
 @click.option(
     "--viscosity-file",
     "-v",
     default="../../viscosities/viscosity-stats.csv",
-    help="The CSV file containing viscosity max/min/mean values by SMILES",
+    help=(
+        "The CSV file containing viscosity max/min/mean values by SMILES. "
+        "This should be created with the scripts in the viscosities/ directory. "
+        "It includes viscosity values from ThermoML NIST, aggregated with stats."
+    ),
 )
 @click.option(
     "--threshold",
@@ -45,7 +52,10 @@ logger = logging.getLogger(__name__)
     "--output-file",
     "-o",
     default="intermediate/initial-filtered-without-high-viscosities.csv",
-    help="The directory to save the filtered properties CSV file",
+    help=(
+        "The directory to save the filtered properties CSV file. "
+        "This will be a valid PhysicalPropertyDataSet CSV file."
+    ),
 )
 def main(
     input_file: str = "intermediate/initial-filtered-thermoml.csv",
@@ -91,7 +101,7 @@ def main(
 
     filtered_df = pd.DataFrame(filtered_properties)
     logger.info(f"Filtered to {len(filtered_df)} properties")
-
+    assert len(filtered_df) > 0, "No data points left after filtering"
 
     output_file = pathlib.Path(output_file)
     output_file.parent.mkdir(parents=True, exist_ok=True)

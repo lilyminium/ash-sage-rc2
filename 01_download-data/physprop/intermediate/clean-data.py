@@ -1,3 +1,12 @@
+"""
+This script cleans the ThermoML data by cleaning or removing known bad points:
+1. Swapping mole fractions for certain compounds.
+2. Correcting ester names.
+3. Filtering out enthalpy of mixing values of 0.
+4. Removing data points from specific sources.
+
+It is intended to be run after the initial download of ThermoML data.
+"""
 from collections import defaultdict
 import logging
 
@@ -15,14 +24,20 @@ logger = logging.getLogger(__name__)
     "-i",
     type=click.Path(exists=True, dir_okay=False, file_okay=True),
     default="../initial/input/thermoml.csv",
-    help="Input file to clean",
+    help=(
+        "Input file to clean. "
+        "This should be a valid PhysicalPropertyDataSet CSV file containing ThermoML data."
+    ),
 )
 @click.option(
     "--output_file",
     "-o",
     type=click.Path(dir_okay=False, file_okay=True),
     default="intermediate/thermoml-cleaned.csv",
-    help="Output file to save cleaned data",
+    help=(
+        "Output file to save cleaned data. "
+        "This will be a valid PhysicalPropertyDataSet CSV file."
+    ),
 )
 def main(
     input_file: str = "../initial/input/thermoml.csv",

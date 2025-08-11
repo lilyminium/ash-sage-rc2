@@ -1,3 +1,8 @@
+"""
+This script renames the property IDs in a PhysicalPropertyDataSet CSV file
+to a more compact format based on the property type and a hash of the property attributes.
+It is intended to be run after the initial filtering of ThermoML data (just to save time).
+"""
 import hashlib
 import json
 import logging
@@ -92,13 +97,19 @@ def _get_hash(physical_property) -> int:
     "--input-file",
     "-i",
     default="output/initial-filtered.csv",
-    help="The CSV file containing existing parsed ThermoML data",
+    help=(
+        "The CSV file containing existing parsed ThermoML data. "
+        "This should be a valid PhysicalPropertyDataSet CSV file."
+    )
 )
 @click.option(
     "--output-file",
     "-o",
     default="intermediate/renamed-filtered.csv",
-    help="The CSV file to save the renamed properties to",
+    help=(
+        "The CSV file to save the renamed properties to. "
+        "This will be a valid PhysicalPropertyDataSet CSV file."
+    ),
 )
 def main(
     input_file: str,

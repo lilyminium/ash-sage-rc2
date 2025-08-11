@@ -2,6 +2,9 @@
 
 In this stage, we clean the data by filtering out fixing erroneous data, filtering out data with high-viscosity components, and running an initial filter for properties of interest.
 
+Please see `run.sh` for the order of scripts, and input/output arguments.
+Please see log files in `logs/` for logging output.
+
 ## Erroneous data
 
 In version 1.2 of the NIST ThermoML dataset (labelled v2020-09-30, last revised 2021-09-09), we discovered several cases of erroneous data. Full details are available in the `clean-data/` directory. They include data filtered out for several reasons:
