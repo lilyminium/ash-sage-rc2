@@ -38,7 +38,22 @@ logging.basicConfig(
 def select_by_size(
     df: pd.DataFrame,
     n_to_select: int = 1,
-):
+) -> list[int]:
+    """
+    Select the smallest molecules from a pool of canonical SMILES, by molecular weight.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame containing the canonical SMILES strings and their associated data.
+    n_to_select : int, optional
+        Number of molecules to select, by default 1.
+    
+    Returns
+    -------
+    list[int]
+        List of selected (smallest) torsion drive IDs.
+    """
     cmiles_pool = df.cmiles.values
     torsion_ids = df.id.values
     rdmols = [
@@ -61,6 +76,22 @@ def select_by_chemical_diversity(
     df: pd.DataFrame,
     n_to_select: int = 1,
 ):
+    """
+    Select a diverse set of molecules from a pool of canonical SMILES,
+    using RDKit's MaxMinPicker and the Tanimoto distance between Morgan fingerprints.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame containing the canonical SMILES strings and their associated data.
+    n_to_select : int, optional
+        Number of molecules to select, by default 1.
+    
+    Returns
+    -------
+    list[int]
+        List of selected (diverse) torsion drive IDs.
+    """
     if n_to_select == 1:
         return [df.id.values[0]]
     
@@ -88,6 +119,19 @@ def select_by_chemical_diversity(
 
 
 def cmiles_to_inchi(cmiles: str) -> str:
+    """
+    Convert a canonical SMILES string to an InChIKey, with fixed hydrogens.
+
+    Parameters
+    ----------
+    cmiles : str
+        Canonical SMILES string to convert.
+    
+    Returns
+    -------
+    str
+        InChIKey representation of the molecule.
+    """
     return Molecule.from_mapped_smiles(
         cmiles,
         allow_undefined_stereo=True
@@ -101,6 +145,21 @@ def add_torsions_to_selected_dataset(
     parameter_counts: dict[str, int],
     selected_ids: set[int],
 ):
+    """
+    Add a torsion drive to the selected dataset, updating the counts of parameters.
+    Note, this is a side-effecting helper function that modifies the `selected_ids` and `parameter_counts` dictionaries.
+
+    Parameters
+    ----------
+    torsion_id : int
+        ID of the torsion drive to add.
+    overall_df : pd.DataFrame
+        DataFrame containing all torsion drives and their parameters.
+    parameter_counts : dict[str, int]
+        Dictionary mapping parameter IDs to their counts.
+    selected_ids : set[int]
+        Set of currently selected torsion drive IDs.
+    """
     # update counts of other parameters in central bond
     if torsion_id in selected_ids:
         return
@@ -119,6 +178,19 @@ def remove_torsion_from_selected_dataset(
     overall_df: pd.DataFrame,
     parameter_counts: dict[str, int],
 ):
+    """
+    Remove a torsion drive from the selected dataset, updating the counts of parameters.
+    Note, this is a side-effecting helper function that modifies the `parameter_counts` dictionary.
+    It does not modify the `selected_ids` set.
+    Parameters
+    ----------
+    torsion_id : int
+        ID of the torsion drive to remove.
+    overall_df : pd.DataFrame
+        DataFrame containing all torsion drives and their parameters.
+    parameter_counts : dict[str, int]
+        Dictionary mapping parameter IDs to their counts.
+    """
     subdf = overall_df[
         overall_df.id == torsion_id
     ]
@@ -130,6 +202,20 @@ def remove_torsion_from_selected_dataset(
 
 # @functools.cache
 def can_parameterize_cmiles(cmiles: str, forcefield: ForceField) -> bool:
+    """
+    Return whether the given canonical SMILES can be parameterized by the force field.
+    Parameters
+    ----------
+    cmiles : str
+        Canonical SMILES string to check.
+    forcefield : ForceField
+        The force field to use for parameterization.
+
+    Returns
+    -------
+    bool
+        True if the SMILES can be parameterized, False otherwise.
+    """
     try:
         mol = Molecule.from_mapped_smiles(
             cmiles,
@@ -149,9 +235,23 @@ def filter_for_ff(
     cmiles_list: list[str],
     forcefield: ForceField,
     n_processes: int = 4
-):
+) -> list[str]:
     """
-    Filter the cmiles list for those that are compatible with the forcefield.
+    Filter the cmiles list for those that can be parameterized by the forcefield.
+
+    Parameters
+    ----------
+    cmiles_list : list[str]
+        List of canonical SMILES strings to filter.
+    forcefield : ForceField
+        The force field to use for filtering.
+    n_processes : int, optional
+        Number of processes to use for parallel processing, by default 4.
+
+    Returns
+    -------
+    list[str]
+        List of canonical SMILES strings that can be parameterized by the force field.
     """
     filtered_cmiles = []
     with multiprocessing.Pool(n_processes) as pool:
@@ -170,9 +270,6 @@ def filter_for_ff(
         for can_param, cmiles in results
         if can_param
     ]
-    # for cmiles in tqdm.tqdm(cmiles_list, desc="Check FF parameterization"):
-    #     if can_parameterize_cmiles(cmiles, forcefield):
-    #         filtered_cmiles.append(cmiles)
     return filtered_cmiles
 
 
@@ -180,6 +277,21 @@ def filter_for_exclude_smarts(
     cmiles: list[str],
     patterns: list[str],
 ) -> list[str]:
+    """
+    Filter the cmiles list for those that do not match any of the provided SMARTS patterns
+    
+    Parameters
+    ----------
+    cmiles : list[str]
+        List of canonical SMILES strings to filter.
+    patterns : list[str]
+        List of SMARTS patterns to exclude.
+
+    Returns
+    -------
+    list[str]
+        List of canonical SMILES strings that do not match any of the SMARTS patterns.
+    """
     successful = []
     for cmi in cmiles:
         mol = Molecule.from_smiles(cmi, allow_undefined_stereo=True)
@@ -312,7 +424,7 @@ def main(
     logger.info(f"Loaded {len(all_parameter_ids)} torsion ids")
     logger.info(f"Looking for {n_records} each")
 
-    # Load exclude file
+    # Load files with QCA IDs to exclude
     exclude_ids = set()
     if exclude_qcarchive_files:
         for exclude_file in exclude_qcarchive_files:
@@ -320,6 +432,7 @@ def main(
                 exclude_ids |= set([int(x.strip()) for x in f.readlines()])
         logger.info(f"Loaded {len(exclude_ids)} exclude ids from {exclude_file}")
     
+    # Load files with datasets (.json) to exclude
     if exclude_dataset_files:
         for exclude_file in exclude_dataset_files:
             with open(exclude_file, "r") as f:
@@ -329,6 +442,7 @@ def main(
                     exclude_ids.add(int(entry["record_id"]))
             logger.info(f"Loaded {len(exclude_ids)} exclude ids from {exclude_file}")
 
+    # load CMILES to exclude
     exclude_cmiles = set()
     if exclude_cmiles_files:
         for exclude_file in exclude_cmiles_files:
@@ -336,6 +450,7 @@ def main(
                 exclude_cmiles |= set([x.strip() for x in f.readlines()])
         logger.info(f"Loaded {len(exclude_cmiles)} exclude cmiles from {exclude_file}")
 
+    # load SMARTS to exclude
     exclude_smarts = set()
     if exclude_smarts_files:
         for exclude_file in exclude_smarts_files:
@@ -343,12 +458,14 @@ def main(
                 exclude_smarts |= set([x.strip() for x in f.readlines()])
         logger.info(f"Loaded {len(exclude_smarts)} exclude smarts from {exclude_file}")
 
+    # actually load input labelled datasets matching parameter IDs to cmiles
     dataset = ds.dataset(input_directory)
     df = dataset.to_table().to_pandas()
     logger.info(f"Loaded dataset of {len(df)} records")
-    # Filter out exclude cmiles
+
+    # filter out CMILES to exclude
     df = df[~df.cmiles.isin(exclude_cmiles)]
-    logger.info(f"Filtered dataset to {len(df)} records after excluding bad cmiles")
+    logger.info(f"Filtered to {len(df)} CMILES by removing excluded cmiles")
 
     # Filter out exclude ids
     if exclude_ids:
@@ -357,55 +474,69 @@ def main(
         ]
         logger.info(f"Filtered dataset to {len(df)} records after excluding bad QCA IDs")
 
-    # filter out cmiles that cannot be parameterized
+    # filter out SMARTS that should be excluded
     cmiles_list = df.cmiles.unique()
     cmiles_list = filter_for_exclude_smarts(
         cmiles_list,
         exclude_smarts,
     )
+    # check FF compatibility -- ok to do this top level
+    # because there are much fewer unique CMILES here than for opt data
     filtered_cmiles = filter_for_ff(
         cmiles_list,
         forcefield=ff,
         n_processes=n_processes
     )
-    # filtered_cmiles = cmiles_list
     logger.info(f"Filtered cmiles to {len(filtered_cmiles)} CMILES")
+    # finalize removing all unselected CMILES
     df = df[
         df.cmiles.isin(filtered_cmiles)
     ]
 
+    # load originally downloaded data tables with QCA Ids, etc
     table_dataset = ds.dataset(table_directory)
     logger.info(f"Loading {table_dataset.count_rows()} records from {table_directory}")
+    
+    # exclude QCA IDs -- this is independent from `df` and CMILES
+    # since some conformers might just be bad
     table_subset = table_dataset.filter(
         ~pc.field("id").isin(exclude_ids)
     )
     logger.info(f"Filtered to {table_subset.count_rows()} records after removing excluded ids")
+
+    # exclude by dataset names
     table_subset = table_subset.filter(
         ~pc.field("dataset_name").isin(exclude_dataset_names)
     )
     logger.info(f"Filtered to {table_subset.count_rows()} records after removing excluded dataset names")
 
-    parameter_to_ids = {
+    # === begin filtering torsiondrives ===
+    
+    # map parameter ids to torsion IDs
+    # this is a dictionary of all torsion IDs (value) matching a parameter ID (key)
+    parameter_to_ids: dict[str, set[int]] = {
         k: subdf.id.unique()
         for k, subdf in df.groupby(by="parameter_id")
     }
     
-    parameter_counts = {
+    # set up a counting dictionary for how many torsiondrives we have per parameter
+    parameter_counts: dict[str, int] = {
         k: 0
         for k in all_parameter_ids
     }
 
-    selected_ids = set()
-    passed_parameters = set()
+    # set up a set for selected dataset
+    selected_ids: set[int] = set()
+    passed_parameters: set[str] = set()
 
     
     # first pass: pick all molecules that contain rare parameters
+    # by just taking all torsiondrive IDs for parameters with fewer than n_records
     for parameter_id, torsion_ids in tqdm.tqdm(
         parameter_to_ids.items(),
-        desc="First pass"
+        desc="First pass - selecting rare parameters",
     ):
         if len(torsion_ids) <= n_records:
-
             for torsion_id in torsion_ids:
                 add_torsions_to_selected_dataset(
                     torsion_id,
@@ -428,11 +559,13 @@ def main(
         if parameter_id in passed_parameters:
             continue
         n_remaining = n_records - parameter_counts[parameter_id]
+        # if we already have enough for this parameter, skip
         if n_remaining <= 0:
             continue
         parameter_torsions = parameter_to_ids.get(parameter_id, [])
         parameter_torsions = set(parameter_torsions) - selected_ids
 
+        # take all remaining if that's all that's left
         if len(parameter_torsions) <= n_remaining:
             additional_ids = parameter_torsions
         else:
@@ -470,22 +603,27 @@ def main(
         logger.info(f"Selected {len(additional_ids)} for {parameter_id}")
 
 
-    logger.info(f"Selected {len(selected_ids)} torsions")
+    logger.info(f"Selected {len(selected_ids)} torsions total")
 
     with open(output_count_file, "w") as f:
         json.dump(parameter_counts, f, indent=4)
 
 
     # logger.info all parameters with low counts
-    logger.info("Parameters with 0 counts:")
-    for parameter_id, count in parameter_counts.items():
-        if not count:
-            logger.info(parameter_id)
-    logger.info("Parameters with 1-5 counts:")
-    for parameter_id, count in parameter_counts.items():
-        if count < 5 and count:
-            logger.info(parameter_id)
+    no_parameters = [
+        parameter_id
+        for parameter_id, count in parameter_counts.items()
+        if count == 0
+    ]
+    logger.info(f"Parameters with 0 counts: {', '.join(no_parameters)}")
+    rare_parameters = [
+        parameter_id
+        for parameter_id, count in parameter_counts.items()
+        if count < 5 and count > 0
+    ]
+    logger.info(f"Parameters with < 5 counts: {', '.join(rare_parameters)}")
 
+    # convert to QCSubmit
     torsiondrive_results = []
     torsiondrive_df = df[df.id.isin(selected_ids)]
     assert len(torsiondrive_df) == len(selected_ids)

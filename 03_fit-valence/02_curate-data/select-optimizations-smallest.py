@@ -4,8 +4,22 @@ Select optimization data for valence parameters.
 Molecules are first sorted by size, filtered so that they can be parameterized by the force field,
 and then filtered for chemical diversity. The final set of molecules is selected to aim for a
 minimum number of records for each parameter.
-"""
 
+The process is as follows:
+
+- first, all CMILES are labelled with the parameter IDs of matching valence parameters (in a separate script in `label/`)
+- this is loaded as input into the script
+- for all parameter IDs where there are fewer than `n_records` CMILES, all CMILES are selected
+  following a filtering process for any bad CMILES, QCA IDs, and SMARTS patterns
+- for parameter IDs with more than `n_records` CMILES:
+  - CMILES are first sorted and filtered by size to select the smallest molecules
+  - they are filtered for bad QCA IDs, bad CMILES, and bad SMARTS patterns
+  - they are selected for chemical diversity using RDKit's MaxMinPicker
+- for all selected CMILES in the dataset, the n_conformer lowest energy conformers are selected
+- the output is saved into the output_file as a `OptimizationResultCollection`.
+
+"""
+import collections
 import functools
 import logging
 import multiprocessing
@@ -39,7 +53,22 @@ logging.basicConfig(
 def select_by_size(
     cmiles_pool: list[str],
     n_to_select: int = 1,
-):
+) -> list[str]:
+    """
+    Select the smallest molecules from a pool of canonical SMILES, by molecular weight.
+
+    Parameters
+    ----------
+    cmiles_pool : list[str]
+        List of canonical SMILES strings to select from.
+    n_to_select : int, optional
+        Number of molecules to select, by default 1.
+    
+    Returns
+    -------
+    list[str]
+        List of selected (smallest) canonical SMILES strings.
+    """
     cmiles_pool = list(cmiles_pool)
     rdmols = [
         Chem.MolFromSmiles(cmiles) for cmiles in cmiles_pool
@@ -61,6 +90,22 @@ def select_by_chemical_diversity(
     cmiles_pool: list[str],
     n_to_select: int = 1,
 ):
+    """
+    Select a diverse set of molecules from a pool of canonical SMILES,
+    using RDKit's MaxMinPicker and the Tanimoto distance between Morgan fingerprints.
+
+    Parameters
+    ----------
+    cmiles_pool : list[str]
+        List of canonical SMILES strings to select from.
+    n_to_select : int, optional
+        Number of molecules to select, by default 1.
+    
+    Returns
+    -------
+    list[str]
+        List of selected (diverse) canonical SMILES strings.
+    """
     if n_to_select == 1:
         return [cmiles_pool[0]]
     
@@ -74,6 +119,7 @@ def select_by_chemical_diversity(
         mpfgen.GetFingerprint(rdmol)
         for rdmol in rdmols
     ]
+    # this by default will use Tanimoto distance
     mmp = SimDivFilters.MaxMinPicker()
     pick_size = min([n_to_select, len(rdmols)])
     picked_indices = list(
@@ -87,6 +133,19 @@ def select_by_chemical_diversity(
 
 
 def cmiles_to_inchi(cmiles: str) -> str:
+    """
+    Convert a canonical SMILES string to an InChIKey, with fixed hydrogens.
+
+    Parameters
+    ----------
+    cmiles : str
+        Canonical SMILES string to convert.
+    
+    Returns
+    -------
+    str
+        InChIKey representation of the molecule.
+    """
     return Molecule.from_mapped_smiles(
         cmiles,
         allow_undefined_stereo=True
@@ -100,6 +159,21 @@ def add_cmiles_to_selected_dataset(
     parameter_counts: dict[str, int],
     selected_cmiles: set[str],
 ):
+    """
+    Add a cmiles to the selected dataset, updating the parameter counts.
+    Note, this is a side-effecting helper function that modifies the `selected_cmiles` and `parameter_counts` dictionaries.
+
+    Parameters
+    ----------
+    cmiles : str
+        The canonical SMILES string to add.
+    overall_df : pd.DataFrame
+        The DataFrame containing the overall dataset.
+    parameter_counts : dict[str, int]
+        A dictionary mapping parameter IDs to their counts.
+    selected_cmiles : set[str]
+        A set of selected canonical SMILES strings.
+    """
     # update counts of other parameters in selected cmiles
     if cmiles in selected_cmiles:
         return
@@ -116,6 +190,20 @@ def remove_cmiles_from_selected_dataset(
     overall_df: pd.DataFrame,
     parameter_counts: dict[str, int],
 ):
+    """
+    Remove a cmiles from the selected dataset, updating the parameter counts.
+    Note, this is a side-effecting helper function that modifies the `parameter_counts` dictionary.
+    It does not modify the `selected_cmiles` set.
+
+    Parameters
+    ----------
+    cmiles : str
+        The canonical SMILES string to remove.
+    overall_df : pd.DataFrame
+        The DataFrame containing the overall dataset.
+    parameter_counts : dict[str, int]
+        A dictionary mapping parameter IDs to their counts.
+    """
     cmiles_parameters = overall_df[
         overall_df.cmiles == cmiles
     ].parameter_id.unique()
@@ -123,7 +211,23 @@ def remove_cmiles_from_selected_dataset(
         parameter_counts[cmiles_parameter] -= 1
     
 @functools.cache
-def can_parameterize_cmiles(cmiles: str, forcefield: ForceField) -> bool:
+def can_parameterize_cmiles(cmiles: str, forcefield: ForceField) -> tuple[bool, str]:
+    """
+    Check if a canonical SMILES can be parameterized by the given force field.
+
+    Parameters
+    ----------
+    cmiles : str
+        The canonical SMILES string to check.
+    forcefield : ForceField
+        The force field to use for parameterization.
+    
+    Returns
+    -------
+    tuple[bool, str]
+        A tuple where the first element is a boolean indicating if the cmiles can be parameterized,
+        and the second element is the cmiles string.
+    """
     try:
         mol = Molecule.from_mapped_smiles(
             cmiles,
@@ -135,45 +239,68 @@ def can_parameterize_cmiles(cmiles: str, forcefield: ForceField) -> bool:
             charge_from_molecules=[mol]
         )
     except Exception as e:
-        # print(e)
+        # logger.info(e)
         return (False, cmiles)
     return (True, cmiles)
+
 
 def filter_for_ff(
     cmiles_list: list[str],
     forcefield: ForceField,
     n_processes: int = 4
-):
+) -> list[str]:
     """
-    Filter the cmiles list for those that are compatible with the forcefield.
+    Filter the cmiles list for those that can be parameterized by the forcefield.
+
+    Parameters
+    ----------
+    cmiles_list : list[str]
+        List of canonical SMILES strings to filter.
+    forcefield : ForceField
+        The force field to use for filtering.
+    n_processes : int, optional
+        Number of processes to use for parallel processing, by default 4.
+
+    Returns
+    -------
+    list[str]
+        List of canonical SMILES strings that can be parameterized by the force field.
     """
     filtered_cmiles = []
     with multiprocessing.Pool(n_processes) as pool:
         results = list(
-            # tqdm.tqdm(
             pool.imap(
                 functools.partial(can_parameterize_cmiles, forcefield=forcefield),
                 cmiles_list,
             ),
-            #     total=len(cmiles_list),
-            #     desc="Filtering cmiles",
-            # )
         )
     filtered_cmiles = [
         cmiles
         for can_param, cmiles in results
         if can_param
     ]
-    # for cmiles in tqdm.tqdm(cmiles_list, desc="Check FF parameterization"):
-    #     if can_parameterize_cmiles(cmiles, forcefield):
-    #         filtered_cmiles.append(cmiles)
     return filtered_cmiles
 
 
 def filter_cmiles_for_good_qca_ids(
-    table_subset,
+    table_subset: ds.Dataset,
     cmiles: list[str],
 ) -> set[str]:
+    """
+    Filter the cmiles list for those that have QCArchive IDs to include in the provided table subset.
+
+    Parameters
+    ----------
+    table_subset : ds.Dataset
+        The dataset to filter against, containing QCArchive IDs.
+    cmiles : list[str]
+        List of canonical SMILES strings to filter.
+
+    Returns
+    -------
+    set[str]
+        Set of canonical SMILES strings that have QCArchive IDs in the provided dataset.
+    """
     if not len(cmiles):
         return set()
     
@@ -186,10 +313,26 @@ def filter_cmiles_for_good_qca_ids(
         subset.to_table(columns=["cmiles"]).to_pydict()["cmiles"]
     )
 
+
 def filter_for_exclude_smarts(
     cmiles: list[str],
     patterns: list[str],
 ) -> list[str]:
+    """
+    Filter the cmiles list for those that do not match any of the provided SMARTS patterns
+    
+    Parameters
+    ----------
+    cmiles : list[str]
+        List of canonical SMILES strings to filter.
+    patterns : list[str]
+        List of SMARTS patterns to exclude.
+
+    Returns
+    -------
+    list[str]
+        List of canonical SMILES strings that do not match any of the SMARTS patterns.
+    """
     successful = []
     for cmi in cmiles:
         mol = Molecule.from_smiles(cmi, allow_undefined_stereo=True)
@@ -329,17 +472,18 @@ def main(
         for parameter in handler.parameters:
             all_parameter_ids.append(parameter.id)
 
-    print(f"Loaded {len(all_parameter_ids)} parameter ids")
-    print(f"Looking for {n_records} each")
+    logger.info(f"Loaded {len(all_parameter_ids)} parameter ids")
+    logger.info(f"Looking for {n_records} each")
 
-    # Load exclude file
+    # Load files with QCA IDs to exclude
     exclude_ids = set()
     if exclude_qcarchive_files:
         for exclude_file in exclude_qcarchive_files:
             with open(exclude_file, "r") as f:
                 exclude_ids |= set([int(x.strip()) for x in f.readlines()])
-        print(f"Loaded {len(exclude_ids)} exclude ids from {exclude_file}")
+        logger.info(f"Loaded {len(exclude_ids)} exclude ids from {exclude_file}")
 
+    # Load files with datasets (.json) to exclude
     if exclude_dataset_files:
         for exclude_file in exclude_dataset_files:
             with open(exclude_file, "r") as f:
@@ -347,75 +491,95 @@ def main(
             for entry_list in contents["entries"].values():
                 for entry in entry_list:
                     exclude_ids.add(int(entry["record_id"]))
-            print(f"Loaded {len(exclude_ids)} exclude ids from {exclude_file}")
+            logger.info(f"Loaded {len(exclude_ids)} exclude ids from {exclude_file}")
 
+    # load CMILES to exclude
     exclude_cmiles = set()
     if exclude_cmiles_files:
         for exclude_file in exclude_cmiles_files:
             with open(exclude_file, "r") as f:
                 exclude_cmiles |= set([x.strip() for x in f.readlines()])
-        print(f"Loaded {len(exclude_cmiles)} exclude cmiles from {exclude_file}")
+        logger.info(f"Loaded {len(exclude_cmiles)} exclude cmiles from {exclude_file}")
 
+    # load SMARTS to exclude
     exclude_smarts = set()
     if exclude_smarts_files:
         for exclude_file in exclude_smarts_files:
             with open(exclude_file, "r") as f:
                 exclude_smarts |= set([x.strip() for x in f.readlines()])
-        print(f"Loaded {len(exclude_smarts)} exclude smarts from {exclude_file}")
+        logger.info(f"Loaded {len(exclude_smarts)} exclude smarts from {exclude_file}")
 
+    # actually load input labelled datasets matching parameter IDs to cmiles
     dataset = ds.dataset(input_directory)
     df = dataset.to_table().to_pandas()
-    print(f"Loaded {len(df)} records from {input_directory}")
+    logger.info(f"Loaded {len(df)} CMILES from {input_directory}")
 
+    # filter out CMILES to exclude
     df = df[~df.cmiles.isin(exclude_cmiles)]
-    print(f"Filtered to {len(df)} records by removing excluded cmiles")
+    logger.info(f"Filtered to {len(df)} CMILES by removing excluded cmiles")
 
-    parameter_to_cmiles = {
-        k: subdf.cmiles.unique()
+    # load originally downloaded data tables with QCA Ids, etc
+    table_dataset = ds.dataset(table_directory)
+    logger.info(f"Loading {table_dataset.count_rows()} records from {table_directory}")
+
+    # exclude QCA IDs -- this is independent from `df` and CMILES
+    # since some conformers might just be bad
+    table_subset = table_dataset.filter(
+        ~pc.field("id").isin(exclude_ids)
+    )
+    logger.info(f"Filtered to {table_subset.count_rows()} records after removing excluded ids")
+
+    # exclude by dataset names
+    table_subset = table_subset.filter(
+        ~pc.field("dataset_name").isin(exclude_dataset_names)
+    )
+    logger.info(f"Filtered to {table_subset.count_rows()} records after removing excluded dataset names")
+    
+    
+    # === begin filtering CMILES ===
+
+    # map parameter ids to cmiles
+    # this is a dictionary of all cmiles (value) matching a parameter id (key)
+    parameter_to_cmiles: dict[str, set[str]] = {
+        k: set(subdf.cmiles.unique())
         for k, subdf in df.groupby(by="parameter_id")
     }
-    
-    parameter_counts = {
+
+    # set up a counting dictionary for how many cmiles we have per parameter
+    parameter_counts: dict[str, int] = {
         k: 0
         for k in all_parameter_ids
     }
 
-    selected_cmiles = set()
-    passed_parameters = set()
-
-    # Filter out exclude ids
-    table_dataset = ds.dataset(table_directory)
-    print(f"Loading {table_dataset.count_rows()} records from {table_directory}")
-    table_subset = table_dataset.filter(
-        ~pc.field("id").isin(exclude_ids)
-    )
-    print(f"Filtered to {table_subset.count_rows()} records after removing excluded ids")
-    table_subset = table_subset.filter(
-        ~pc.field("dataset_name").isin(exclude_dataset_names)
-    )
-    print(f"Filtered to {table_subset.count_rows()} records after removing excluded dataset names")
-    
+    # set up a set for selected dataset
+    selected_cmiles: set[str] = set()
+    passed_parameters: set[str] = set()
 
     # first pass: pick all molecules that contain rare parameters
+    # by just taking all CMILES for parameters with fewer than n_records
     for parameter_id, parameter_cmiles in tqdm.tqdm(
         parameter_to_cmiles.items(),
-        desc="First pass"
+        desc="First pass - selecting rare parameters"
     ):
+        # select all CMILES where there are fewer than n_records
         if len(parameter_cmiles) <= n_records:
             # filter cmiles for good qca ids
             parameter_cmiles = filter_cmiles_for_good_qca_ids(
                 table_subset,
                 parameter_cmiles
             )
+            # exclude any matching SMARTS
             parameter_cmiles = filter_for_exclude_smarts(
                 parameter_cmiles,
                 exclude_smarts,
             )
+            # ensure FF can parameterize
             parameter_cmiles = filter_for_ff(
                 parameter_cmiles,
                 ff,
                 n_processes=n_processes
             )
+            logger.info(f"Selected {len(parameter_cmiles)} cmiles for {parameter_id}")
             for cmiles in parameter_cmiles:
                 add_cmiles_to_selected_dataset(
                     cmiles,
@@ -426,7 +590,7 @@ def main(
 
             passed_parameters.add(parameter_id)
 
-    print(f"Processed {len(passed_parameters)} parameters in first pass with {len(selected_cmiles)} cmiles")
+    logger.info(f"Processed {len(passed_parameters)} parameters in first pass with {len(selected_cmiles)} cmiles")
     
     # second pass: pick remaining cmiles
     sorted_parameters_by_rarity = sorted(
@@ -439,8 +603,10 @@ def main(
     ):
         if parameter_id in passed_parameters:
             continue
+        # if we already have enough for this parameter, skip
         n_remaining = n_records - parameter_counts[parameter_id]
         if n_remaining <= 0:
+            logger.info(f"Skipping {parameter_id} as we already have enough ({parameter_counts[parameter_id]})")
             continue
         parameter_cmiles = parameter_to_cmiles.get(parameter_id, [])
         parameter_cmiles = set(parameter_cmiles) - selected_cmiles
@@ -451,47 +617,50 @@ def main(
             table_subset,
             parameter_cmiles
         )
-        # print(f"Filtered {n_original} to {len(parameter_cmiles)} cmiles after filtering for good qca ids for {parameter_id}")
+        logger.info(f"Filtered {n_original} to {len(parameter_cmiles)} cmiles after filtering for good qca ids for {parameter_id}")
 
+        # take all remaining if that's all that's left
         if len(parameter_cmiles) <= n_remaining:
             additional_cmiles = parameter_cmiles
         else:
 
-            print(f"Filtering {len(parameter_cmiles)} cmiles for {parameter_id}")
+            logger.info(f"Filtering {len(parameter_cmiles)} cmiles for {parameter_id}")
 
             parameter_cmiles = select_by_size(
                 parameter_cmiles,
+                # choose a reasonable number to keep
+                # do this first to save time
                 n_to_select=max([100, n_records * 5]),
             )
-            # print(f"Filtered to {len(parameter_cmiles)} cmiles after size filtering for {parameter_id}")
+            logger.info(f"Filtered to {len(parameter_cmiles)} cmiles after size filtering for {parameter_id}")
 
             parameter_cmiles = filter_for_exclude_smarts(
                 parameter_cmiles,
                 exclude_smarts,
             )
-            # print(f"Filtered to {len(parameter_cmiles)} cmiles after excluding smarts for {parameter_id}")
+            logger.info(f"Filtered to {len(parameter_cmiles)} cmiles after excluding smarts for {parameter_id}")
 
             parameter_cmiles = filter_for_ff(
                 parameter_cmiles,
                 ff,
                 n_processes=n_processes
             )
-            # print(f"Filtered to {len(parameter_cmiles)} cmiles after FF filtering for {parameter_id}")
-            
-            
+            logger.info(f"Filtered to {len(parameter_cmiles)} cmiles after checking for FF compatibility for {parameter_id}")
+
+
             if not parameter_cmiles:
-                print(f"No cmiles left for {parameter_id}")
+                logger.info(f"No cmiles left for {parameter_id}")
                 additional_cmiles = set()
             else:
-                print(f"Selecting {n_remaining} cmiles from {len(parameter_cmiles)} for {parameter_id}")
+                logger.info(f"Selecting {n_remaining} cmiles from {len(parameter_cmiles)} for {parameter_id}")
                 # then pick diverse molecules
                 additional_cmiles = select_by_chemical_diversity(
                     parameter_cmiles,
                     n_to_select=n_remaining,
                 )
-                print(f"Filtered to {len(additional_cmiles)} cmiles after chemical diversity filtering for {parameter_id}")
+                logger.info(f"Filtered to {len(additional_cmiles)} cmiles after chemical diversity filtering for {parameter_id}")
 
-        print(f"Selected {len(additional_cmiles)} cmiles for {parameter_id}")
+        logger.info(f"Selected {len(additional_cmiles)} cmiles for {parameter_id}")
         for cmiles in additional_cmiles:
             add_cmiles_to_selected_dataset(
                 cmiles,
@@ -500,31 +669,23 @@ def main(
                 selected_cmiles
             )
 
-        print("")
-        
-
-        # selected_cmiles |= set(additional_cmiles)
-        # parameter_counts[parameter_id] += len(additional_cmiles)
-
-        # # update counts of other parameters in selected cmiles
-        # for cmiles in additional_cmiles:
-        #     cmiles_parameters = df[
-        #         df.cmiles == cmiles
-        #     ].parameter_id.unique()
-        #     for cmiles_parameter in cmiles_parameters:
-        #         parameter_counts[cmiles_parameter] += 1
-
-    print(f"Selected {len(selected_cmiles)} cmiles")
+    logger.info(f"Selected {len(selected_cmiles)} cmiles total")
 
     with open(output_count_file, "w") as f:
         json.dump(parameter_counts, f, indent=4)
+    logger.info(f"Wrote CMILES counts per parameter to {output_count_file}")
 
-    
-    # client = ptl.PortalClient(QCFRACTAL_URL, cache_dir=".")
 
     # now pick lowest energy versions of each
     seen_ids = set()
     optimization_results = []
+    # now we also count how many records there are per parameter
+    cmiles_to_parameter: dict[str, set[str]] = collections.defaultdict(set)
+    for parameter_id, cmiles_set in parameter_to_cmiles.items():
+        for cmiles in cmiles_set:
+            cmiles_to_parameter[cmiles].add(parameter_id)
+    parameter_record_counts = collections.Counter()
+
     for cmiles in tqdm.tqdm(
         selected_cmiles,
         total=len(selected_cmiles),
@@ -532,11 +693,11 @@ def main(
     ):
         
         expression = pc.field("cmiles") == cmiles
-        subset = table_dataset.filter(expression)
-        subset_df = subset.to_table(
+        subset: ds.Dataset = table_dataset.filter(expression)
+        subset_df: pd.DataFrame = subset.to_table(
             columns=["id", "energy"]
         ).to_pandas().sort_values("energy")
-        lowest_energy_ids = subset_df["id"].values[:n_conformers]
+        lowest_energy_ids: list[int] = subset_df["id"].values[:n_conformers]
 
         # create entries
         for lowest_energy_id in lowest_energy_ids:
@@ -551,16 +712,40 @@ def main(
             optimization_results.append(result)
             seen_ids.add(lowest_energy_id)
 
-    # print all parameters with low counts
-    print("Parameters with 0 counts:")
-    for parameter_id, count in parameter_counts.items():
-        if count == 0:
-            print(parameter_id)
-    print("Parameters with < 5 counts:")
-    for parameter_id, count in parameter_counts.items():
-        if count and count < 5:
-            print(parameter_id)
+        # update counts
+        for parameter_id in cmiles_to_parameter[cmiles]:
+            parameter_record_counts[parameter_id] += len(lowest_energy_ids)
 
+    # print all parameters with low counts
+    no_smiles: list[str] = [
+        parameter_id
+        for parameter_id, count in parameter_counts.items()
+        if count == 0
+    ]
+    logger.info(f"Parameters with 0 CMILES: {', '.join(no_smiles)}")
+
+    rare_smiles: list[str] = [
+        parameter_id
+        for parameter_id, count in parameter_counts.items()
+        if count < 5
+    ]
+    logger.info(f"Parameters with < 5 CMILES: {', '.join(rare_smiles)}")
+
+    no_records: list[str] = [
+        parameter_id
+        for parameter_id, count in parameter_record_counts.items()
+        if count == 0
+    ]
+    logger.info(f"Parameters with 0 records: {', '.join(no_records)}")
+
+    rare_records: list[str] = [
+        parameter_id
+        for parameter_id, count in parameter_record_counts.items()
+        if count < 10
+    ]
+    logger.info(f"Parameters with < 10 records: {', '.join(rare_records)}")
+
+    # convert to QCSubmit
     optimization_collection = OptimizationResultCollection(
         type="OptimizationResultCollection",
         entries={
@@ -571,7 +756,7 @@ def main(
     with open(output_file, "w") as f:
         f.write(optimization_collection.json(indent=4))
     
-    print(f"Wrote {len(optimization_results)} records to {output_file}")
+    logger.info(f"Wrote {len(optimization_results)} records to {output_file}")
 
 
 
