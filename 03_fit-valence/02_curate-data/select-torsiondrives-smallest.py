@@ -9,6 +9,9 @@ import functools
 import json
 import logging
 import multiprocessing
+import sys
+
+from loguru import logger
 
 from openff.toolkit import Molecule, ForceField
 
@@ -28,12 +31,14 @@ import click
 
 QCFRACTAL_URL = "https://api.qcarchive.molssi.org:443/"
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-)
+# logger = logging.getLogger(__name__)
+# logging.basicConfig(
+#     level=logging.INFO,
+#     stream=sys.stdout,
+#     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+# )
 
+# logger.add(lambda msg: tqdm.tqdm.write(msg, end=""))
 
 def select_by_size(
     df: pd.DataFrame,
@@ -263,6 +268,8 @@ def filter_for_ff(
                 ),
                 total=len(cmiles_list),
                 desc="Filtering cmiles",
+                leave=True,
+                position=0
             )
         )
     filtered_cmiles = [
@@ -499,16 +506,18 @@ def main(
     
     # exclude QCA IDs -- this is independent from `df` and CMILES
     # since some conformers might just be bad
-    table_subset = table_dataset.filter(
-        ~pc.field("id").isin(exclude_ids)
-    )
-    logger.info(f"Filtered to {table_subset.count_rows()} records after removing excluded ids")
+    if exclude_ids:
+        table_subset = table_dataset.filter(
+            ~pc.field("id").isin(exclude_ids)
+        )
+        logger.info(f"Filtered to {table_subset.count_rows()} records after removing excluded ids")
 
     # exclude by dataset names
-    table_subset = table_subset.filter(
-        ~pc.field("dataset_name").isin(exclude_dataset_names)
-    )
-    logger.info(f"Filtered to {table_subset.count_rows()} records after removing excluded dataset names")
+    if exclude_dataset_names:
+        table_subset = table_subset.filter(
+            ~pc.field("dataset_name").isin(exclude_dataset_names)
+        )
+        logger.info(f"Filtered to {table_subset.count_rows()} records after removing excluded dataset names")
 
     # === begin filtering torsiondrives ===
     

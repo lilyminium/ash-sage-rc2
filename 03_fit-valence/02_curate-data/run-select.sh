@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir -p logs
+mkdir -p logs output counts
 
 DATA_DIR="../../01_download-data/qm/data/tables"
 
@@ -57,8 +57,8 @@ for VER in v0 v1 v2 v3; do
 
 done
 
-the below code selects validation sets for testing
-this is just shown as an example of how to use the `-xd` flag
+# the below code selects validation sets for testing
+# this is just shown as an example of how to use the `-xd` flag
 
 python select-torsiondrives-smallest.py             \
     -t  "${DATA_DIR}/torsiondrive"                  \

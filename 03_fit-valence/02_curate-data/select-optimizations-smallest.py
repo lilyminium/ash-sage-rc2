@@ -24,6 +24,8 @@ import functools
 import logging
 import multiprocessing
 import json
+from loguru import logger
+import sys
 
 from openff.toolkit import Molecule, ForceField
 
@@ -43,11 +45,13 @@ import click
 
 QCFRACTAL_URL = "https://api.qcarchive.molssi.org:443/"
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-)
+# logger = logging.getLogger(__name__)
+# logging.basicConfig(
+#     level=logging.INFO,
+#     stream=sys.stdout,
+#     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+# )
+# logger.add(lambda msg: tqdm.tqdm.write(msg, end=""))
 
 
 def select_by_size(
