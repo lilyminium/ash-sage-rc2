@@ -8,4 +8,4 @@ Each script tends to take ~20 min or so for me.
 
 Unfortunately the saved labels are difficult to upload for size reasons.
 
-Please see `run-label.sh` for example of use. Each script also has a short docstring.
+Please see `run-label.sh` for example of use. Each script also has a short docstring. Logs are saved in `logs/`.
