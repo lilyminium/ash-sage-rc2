@@ -4,6 +4,14 @@ and labels each of them with the appropriate force field parameters.
 It saves the labeled data in a specified output directory.
 
 This step is needed for the data selection process.
+
+This file writes out files with the following schema:
+- id (int): The torsiondrive ID of the torsion.
+- cmiles (str): The canonical SMILES of the molecule.
+- forcefield (str): The name of the force field used for labeling.
+- parameter_id (str): The ID of the proper torsion parameter matching the labelled dihedral.
+- dihedral (list[int]): The indices of the atoms involved in the torsion.
+- all_parameter_ids (list[str]): All parameter IDs running through the torsion central bond.
 """
 
 import logging
@@ -35,6 +43,21 @@ def label_torsion_table_with_forcefield(
     output_directory: str,
     forcefield_name: str = None,
 ):
+    """
+    Label a table of torsion data with force field parameters.
+    This is a side-effecting function that writes the labeled parameters to a file.
+
+    Parameters
+    ----------
+    forcefield_file : str
+        Path to the force field file (e.g., openff_unconstrained-2.2.1.offxml).
+    input_file : str
+        Path to the input table file (e.g., a Parquet file with torsion data).
+    output_directory : str
+        Directory to save the labeled parameters.
+    forcefield_name : str, optional
+        Name of the force field to use as a label
+    """
     forcefield = ForceField(forcefield_file)
 
     table = pq.read_table(input_file)
@@ -58,11 +81,12 @@ def label_torsion_table_with_forcefield(
 
     file_number = 0
 
-    # Read existing data
+    # Read existing data, if any
     output_path = pathlib.Path(output_directory)
     if not output_path.exists():
         output_path.mkdir(parents=True, exist_ok=True)
     else:
+        # filter out existing data to avoid re-computing
         existing_dataset = ds.dataset(output_path)
         if existing_dataset.count_rows():
             subset = existing_dataset.filter(

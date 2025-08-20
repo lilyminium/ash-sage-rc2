@@ -6,6 +6,15 @@ It saves the labeled data in a specified output directory.
 This step is needed for the data selection process.
 
 Note: only bonds, angles, and proper and improper torsions are labeled.
+
+This file writes out files with the following schema:
+- cmiles (str): The canonical SMILES of the molecule.
+- forcefield (str): The name of the force field used for labeling.
+- parameter_type (str): The type of the parameter (e.g., "Bonds", "Angles", "ProperTorsions", "ImproperTorsions").
+- parameter_id (str): The ID of the parameter.
+- parameter_indices (list[int]): The indices of the atoms involved in the parameter.
+- parameter_indices_str (str): A string representation of the parameter indices,
+  useful for filtering and grouping.
 """
 
 import logging
@@ -33,6 +42,9 @@ logging.basicConfig(
 )
 
 def get_unique_smiles(input_file: str, column: str = "smiles") -> set[str]:
+    """
+    Get unique SMILES from a Parquet file.
+    """
     # Load the table
     table = pq.read_table(input_file)
     logger.info(f"Loaded {table.num_rows} rows from {input_file}")
@@ -49,16 +61,32 @@ def label_table_with_forcefield(
     output_directory: str,
     forcefield_name: str = None,
 ):
+    """
+    Label a table of optimization data with force field parameters.
+    This is a side-effecting function that writes the labeled parameters to a file.
+    
+    Parameters
+    ----------
+    forcefield_file : str
+        Path to the force field file (e.g., openff_unconstrained-2.2.1.offxml).
+    input_file : str
+        Path to the input table file (e.g., a Parquet file with torsion data).
+    output_directory : str
+        Directory to save the labeled parameters.
+    forcefield_name : str, optional
+        Name of the force field to use as a label
+    """
     forcefield = ForceField(forcefield_file)
     unique_smiles = get_unique_smiles(input_file, "cmiles")
 
     file_number = 0
 
-    # Read existing data
+    # Read existing data, if any
     output_path = pathlib.Path(output_directory)
     if not output_path.exists():
         output_path.mkdir(parents=True, exist_ok=True)
     else:
+        # filter out existing data to avoid re-computing
         existing_dataset = ds.dataset(output_path)
         if existing_dataset.count_rows():
             subset = existing_dataset.filter(
@@ -81,6 +109,7 @@ def label_table_with_forcefield(
                 allow_undefined_stereo=True,
             )
         except:
+            # some of the CMILES are invalid.... skip
             continue
         labels = forcefield.label_molecules(mol.to_topology())[0]
 
