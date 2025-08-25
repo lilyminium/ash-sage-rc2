@@ -1,6 +1,30 @@
+"""
+This script downloads optimization and torsion drive datasets from QCArchive.
+It saves the data as pyarrow tables in a specified output directory.
+Each dataset is saved as a separate .parquet file.
+The script uses multiprocessing to speed up the download process.
+It also filters out iodine-containing molecules from certain datasets.
+
+PyArrow datasets follow the following schema:
+- `id` (int): Unique identifier for the record.
+- `inchi_key` (str): InChI key of the molecule.
+- `cmiles` (str): CMILES (mapped SMILES) of the molecule.
+- `smiles` (str): Sanitized unmapped SMILES of the molecule.
+- `dataset_name` (str): Name of the dataset.
+
+For Optimization datasets, the following additional fields are included:
+- `energy` (float): Final energy (a.u.) of the optimization record.
+
+For TorsionDrive datasets, the following additional fields are included:
+- `dihedral` (list of int): Dihedral angles for TorsionDrive datasets
+- `n_dihedrals` (int): Number of dihedrals in the TorsionDrive dataset.
+
+"""
+
 import functools
 import pathlib
 import click
+import logging
 import tqdm
 import multiprocessing
 
@@ -21,10 +45,14 @@ from openff.qcsubmit.results import (
 from openff.qcsubmit.utils.utils import portal_client_manager
 from openff.qcsubmit.results.filters import (
     ConnectivityFilter,
-    RecordStatusFilter,
     UnperceivableStereoFilter,
     HydrogenBondFilter,
-    ElementFilter,
+)
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 )
 
 
@@ -128,7 +156,10 @@ def sanitize_smiles(smiles: str) -> str:
 
 
 def get_canonical_smiles(entry) -> str:
-    """Get the canonical SMILES from the entry."""
+    """
+    Get the CMILES from the entry.
+    This checks a couple different places.
+    """
     KEY = "canonical_isomeric_explicit_hydrogen_mapped_smiles"
     try:
         return entry.attributes[KEY]
@@ -137,6 +168,7 @@ def get_canonical_smiles(entry) -> str:
 
 @functools.cache
 def cmiles_to_inchi(cmiles: str) -> str:
+    """Convert a CMILES string to an InChI key."""
     return Molecule.from_mapped_smiles(
         cmiles,
         allow_undefined_stereo=True
@@ -144,6 +176,21 @@ def cmiles_to_inchi(cmiles: str) -> str:
 
 
 def single_process_optimization(item):
+    """
+    This is a helper function to process a single record and molecule into an entry.
+    This record is filtered to ensure it is complete, that connectivity has not changed,
+    and that stereochemistry is perceivable.
+
+    Parameters
+    ----------
+    item : tuple[OptimizationRecord, Molecule, str, str]
+        A tuple containing the OptimizationRecord, Molecule, cmiles, and dataset name.
+    
+    Returns
+    -------
+    dict or None
+        A dictionary containing the processed data entry, or None if the entry is invalid.
+    """
     record, molecule, cmiles, dataset_name = item
     try:
         if not record.status.upper() == "COMPLETE":
@@ -159,7 +206,7 @@ def single_process_optimization(item):
     try:
         smiles = sanitize_smiles(cmiles)
     except ValueError as e:
-        print(e)
+        logger.info(e)
         return []
     try:
         inchi_key = cmiles_to_inchi(cmiles)
@@ -181,23 +228,51 @@ def single_process_optimization(item):
 def download_optimization(client, dataset_name: str, n_processes: int = 4) -> pa.Table:
     """
     Download an Optimization dataset from QCArchive and return a pyarrow table.
+
+    This checks for two possible spec names: "default" and "spec_1",
+    as some datasets were renamed to "spec_1" during the QCArchive migration.
+
+    Entries are filtered to ensure they are complete, that connectivity has not changed,
+    and that stereochemistry is perceivable.
+
+    Parameters
+    ----------
+    client : ptl.PortalClient
+        An instance of a QCFractal PortalClient.
+    dataset_name : str
+        The name of the dataset to download.
+    n_processes : int, optional
+        The number of processes to use for downloading, by default 4.
+
+    Returns
+    -------
+    pa.Table
+        A pyarrow Table containing the dataset.
+        The table will have the following columns:
+        - `id` (int): Unique identifier for the record.
+        - `inchi_key` (str): InChI key of the molecule.
+        - `cmiles` (str): CMILES (mapped SMILES) of the molecule.
+        - `smiles` (str): Sanitized SMILES of the molecule.
+        - `dataset_name` (str): Name of the dataset.
+        - `energy` (float): Final energy (a.u.) of the optimization record.
     """
     data_entries = []
     try:
-
+        # ideally would be default spec
         optimization_result_collection = OptimizationResultCollection.from_server(
             client=client,
             datasets=[dataset_name],
             spec_name="default"
         )
     except KeyError:
+        # some datasets were renamed to spec_1 during migration
         optimization_result_collection = OptimizationResultCollection.from_server(
             client=client,
             datasets=[dataset_name],
             spec_name="spec_1"
         )
 
-    ids_to_cmiles = {
+    ids_to_cmiles: dict[int, str] = {
         entry.record_id: entry.cmiles
         for entries in optimization_result_collection.entries.values()
         for entry in entries
@@ -223,6 +298,21 @@ def download_optimization(client, dataset_name: str, n_processes: int = 4) -> pa
     return table
 
 def single_process_torsiondrive(item):
+    """
+    This is a helper function to process a single record and molecule into an entry.
+    This record is filtered to ensure it is complete, that connectivity has not changed,
+    that stereochemistry is perceivable, and that there are no intramolecular hydrogen bonds.
+
+    Parameters
+    ----------
+    item : tuple[OptimizationRecord, Molecule, str, str]
+        A tuple containing the OptimizationRecord, Molecule, cmiles, and dataset name.
+
+    Returns
+    -------
+    dict or None
+        A dictionary containing the processed data entry, or None if the entry is invalid.
+    """
     record, molecule, cmiles, dataset_name = item
     try:
         if not record.status.upper() == "COMPLETE":
@@ -239,7 +329,7 @@ def single_process_torsiondrive(item):
     try:
         smiles = sanitize_smiles(cmiles)
     except ValueError as e:
-        print(e)
+        logger.info(e)
         return []
     try:
         inchi_key = cmiles_to_inchi(cmiles)
@@ -264,23 +354,52 @@ def single_process_torsiondrive(item):
 def download_torsiondrive(client, dataset_name: str, n_processes: int = 4) -> pa.Table:
     """
     Download a TorsionDrive dataset from QCArchive and return a pyarrow table.
+    This checks for two possible spec names: "default" and "spec_1",
+    as some datasets were renamed to "spec_1" during the QCArchive migration.
+
+    Entries are filtered to ensure they are complete, that connectivity has not changed,
+    that stereochemistry is perceivable, and that there are no intramolecular hydrogen bonds.
+
+    Parameters
+    ----------
+    client : ptl.PortalClient
+        An instance of a QCFractal PortalClient.
+    dataset_name : str
+        The name of the dataset to download.
+    n_processes : int, optional
+        The number of processes to use for downloading, by default 4.
+
+    Returns
+    -------
+    pa.Table
+        A pyarrow Table containing the dataset.
+        The table will have the following columns:
+        - `id` (int): Unique identifier for the record.
+        - `inchi_key` (str): InChI key of the molecule.
+        - `cmiles` (str): CMILES (mapped SMILES) of the molecule.
+        - `smiles` (str): Sanitized unmapped SMILES of the molecule.
+        - `dataset_name` (str): Name of the dataset.
+        - `dihedral` (list of int): Dihedral angles rotated around
+        - `n_dihedrals` (int): Number of dihedrals rotated around
     """
     data_entries = []
 
     try:
+        # ideally would be default spec
         torsion_result_collection = TorsionDriveResultCollection.from_server(
             client=client,
             datasets=[dataset_name],
             spec_name="default"
         )
     except KeyError:
+        # some datasets were renamed to spec_1 during migration
         torsion_result_collection = TorsionDriveResultCollection.from_server(
             client=client,
             datasets=[dataset_name],
             spec_name="spec_1"
         )
 
-    ids_to_cmiles = {
+    ids_to_cmiles: dict[int, str] = {
         entry.record_id: entry.cmiles
         for entries in torsion_result_collection.entries.values()
         for entry in entries
@@ -312,7 +431,11 @@ def download_torsiondrive(client, dataset_name: str, n_processes: int = 4) -> pa
     "-o",
     type=click.Path(exists=False, file_okay=False, dir_okay=True),
     default="data/tables",
-    help="Directory to save the downloaded tables."
+    help=(
+        "Directory to save the downloaded tables. "
+        "This will create subdirectories for optimization and torsiondrive data."
+        "Each dataset will be saved as a .parquet file."
+    )
 )
 def main(
     output_directory: str = "data/tables"
@@ -335,22 +458,22 @@ def main(
 
         table_file = opt_directory / f"{dsname}.parquet"
         pq.write_table(table, table_file)
-        print(f"Saved {table_file}")
+        logger.info(f"Saved {table_file}")
 
-    # # download torsiondrives
-    # td_directory = output_directory / "torsiondrive"
-    # td_directory.mkdir(parents=True, exist_ok=True)
-    # for dsname in tqdm.tqdm(TORSIONDRIVE_WHITELISTS, desc="Downloading TorsionDrives"):
-    #     table = download_torsiondrive(client, dsname)
-    #     if dsname in IGNORE_IODINE:
-    #         df = table.to_pandas()
-    #         mask = np.array(["I" in smi for smi in df.smiles.values])
-    #         df = pd.DataFrame(df[~mask])
-    #         table = pa.Table.from_pandas(df)
+    # download torsiondrives
+    td_directory = output_directory / "torsiondrive"
+    td_directory.mkdir(parents=True, exist_ok=True)
+    for dsname in tqdm.tqdm(TORSIONDRIVE_WHITELISTS, desc="Downloading TorsionDrives"):
+        table = download_torsiondrive(client, dsname)
+        if dsname in IGNORE_IODINE:
+            df = table.to_pandas()
+            mask = np.array(["I" in smi for smi in df.smiles.values])
+            df = pd.DataFrame(df[~mask])
+            table = pa.Table.from_pandas(df)
 
-    #     table_file = td_directory / f"{dsname}.parquet"
-    #     pq.write_table(table, table_file)
-    #     print(f"Saved {table_file}")
+        table_file = td_directory / f"{dsname}.parquet"
+        pq.write_table(table, table_file)
+        logger.info(f"Saved {table_file}")
 
     
         
