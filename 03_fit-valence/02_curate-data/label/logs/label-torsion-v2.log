@@ -1,0 +1,1936 @@
+2025-08-12 16:46:45,873 - __main__ - INFO - Found 35 input files
+2025-08-12 16:46:45,873 - __main__ - INFO - Using forcefield ../../01_generate-forcefield/output/initial-force-field-v2.offxml
+2025-08-12 16:46:45,873 - __main__ - INFO - Output directory: parameters/torsions/ash-sage-valence-v2
+Processing files:   0%|          | 0/35 [00:00<?, ?it/s]2025-08-12 16:46:46,105 - __main__ - INFO - Loaded 170 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Additional Generated ChEMBL TorsionDrives 4.0.parquet
+
+Processing rows:   0%|          | 0/170 [00:00<?, ?it/s][A
+Processing rows:   5%|▌         | 9/170 [00:00<00:01, 84.21it/s][A
+Processing rows:  11%|█         | 18/170 [00:00<00:01, 84.64it/s][A
+Processing rows:  16%|█▋        | 28/170 [00:00<00:01, 87.03it/s][A
+Processing rows:  22%|██▏       | 37/170 [00:00<00:01, 78.22it/s][A
+Processing rows:  26%|██▋       | 45/170 [00:00<00:01, 69.14it/s][A
+Processing rows:  31%|███       | 53/170 [00:00<00:01, 68.84it/s][A
+Processing rows:  35%|███▌      | 60/170 [00:00<00:01, 68.42it/s][A
+Processing rows:  39%|███▉      | 67/170 [00:00<00:01, 67.08it/s][A
+Processing rows:  44%|████▎     | 74/170 [00:01<00:01, 65.26it/s][A
+Processing rows:  48%|████▊     | 81/170 [00:01<00:01, 58.83it/s][A
+Processing rows:  52%|█████▏    | 88/170 [00:01<00:01, 61.28it/s][A
+Processing rows:  56%|█████▋    | 96/170 [00:01<00:01, 65.91it/s][A
+Processing rows:  61%|██████    | 104/170 [00:01<00:00, 68.05it/s][A
+Processing rows:  66%|██████▌   | 112/170 [00:01<00:00, 70.87it/s][A
+Processing rows:  71%|███████   | 121/170 [00:01<00:00, 75.66it/s][A
+Processing rows:  76%|███████▌  | 129/170 [00:01<00:00, 72.25it/s][A
+Processing rows:  81%|████████  | 137/170 [00:01<00:00, 72.47it/s][A
+Processing rows:  85%|████████▌ | 145/170 [00:02<00:00, 72.90it/s][A
+Processing rows:  90%|█████████ | 153/170 [00:02<00:00, 71.47it/s][A
+Processing rows:  95%|█████████▌| 162/170 [00:02<00:00, 74.62it/s][AProcessing rows: 100%|██████████| 170/170 [00:02<00:00, 71.63it/s]
+2025-08-12 16:46:48,484 - __main__ - INFO - Wrote 170 rows to parameters/torsions/ash-sage-valence-v2/batch-0000.parquet
+Processing files:   3%|▎         | 1/35 [00:02<01:28,  2.60s/it]2025-08-12 16:46:48,582 - __main__ - INFO - Loaded 27 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Additional Generated Guanidine Amidine Derivative and O-Linker TorsionDrives 4.0.parquet
+2025-08-12 16:46:48,584 - __main__ - INFO - Loaded 169 existing cmiles
+2025-08-12 16:46:48,584 - __main__ - INFO - New rows: 27
+
+Processing rows:   0%|          | 0/27 [00:00<?, ?it/s][A
+Processing rows:  26%|██▌       | 7/27 [00:00<00:00, 63.55it/s][A
+Processing rows:  52%|█████▏    | 14/27 [00:00<00:00, 63.23it/s][A
+Processing rows:  78%|███████▊  | 21/27 [00:00<00:00, 64.49it/s][AProcessing rows: 100%|██████████| 27/27 [00:00<00:00, 65.81it/s]
+2025-08-12 16:46:48,995 - __main__ - INFO - Wrote 27 rows to parameters/torsions/ash-sage-valence-v2/batch-0001.parquet
+Processing files:   6%|▌         | 2/35 [00:03<00:45,  1.37s/it]2025-08-12 16:46:49,120 - __main__ - INFO - Loaded 180 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Alkane Torsion Drives v1.0.parquet
+2025-08-12 16:46:49,124 - __main__ - INFO - Loaded 188 existing cmiles
+2025-08-12 16:46:49,124 - __main__ - INFO - New rows: 180
+
+Processing rows:   0%|          | 0/180 [00:00<?, ?it/s][A
+Processing rows:   4%|▍         | 7/180 [00:00<00:02, 63.42it/s][A
+Processing rows:   8%|▊         | 15/180 [00:00<00:02, 66.90it/s][A
+Processing rows:  12%|█▏        | 22/180 [00:00<00:02, 66.60it/s][A
+Processing rows:  16%|█▌        | 29/180 [00:00<00:02, 67.51it/s][A
+Processing rows:  20%|██        | 36/180 [00:00<00:02, 66.13it/s][A
+Processing rows:  24%|██▍       | 43/180 [00:00<00:02, 64.81it/s][A
+Processing rows:  28%|██▊       | 50/180 [00:00<00:02, 64.75it/s][A
+Processing rows:  32%|███▏      | 57/180 [00:00<00:01, 65.31it/s][A
+Processing rows:  36%|███▌      | 64/180 [00:00<00:01, 65.56it/s][A
+Processing rows:  39%|███▉      | 71/180 [00:01<00:01, 63.87it/s][A
+Processing rows:  43%|████▎     | 78/180 [00:01<00:01, 64.28it/s][A
+Processing rows:  47%|████▋     | 85/180 [00:01<00:01, 64.70it/s][A
+Processing rows:  52%|█████▏    | 93/180 [00:01<00:01, 65.96it/s][A
+Processing rows:  56%|█████▌    | 100/180 [00:01<00:01, 64.53it/s][A
+Processing rows:  59%|█████▉    | 107/180 [00:01<00:01, 64.19it/s][A
+Processing rows:  63%|██████▎   | 114/180 [00:01<00:01, 65.07it/s][A
+Processing rows:  67%|██████▋   | 121/180 [00:01<00:00, 65.75it/s][A
+Processing rows:  71%|███████   | 128/180 [00:01<00:00, 66.16it/s][A
+Processing rows:  75%|███████▌  | 135/180 [00:02<00:00, 64.94it/s][A
+Processing rows:  79%|███████▉  | 142/180 [00:02<00:00, 64.65it/s][A
+Processing rows:  83%|████████▎ | 149/180 [00:02<00:00, 65.71it/s][A
+Processing rows:  87%|████████▋ | 156/180 [00:02<00:00, 64.50it/s][A
+Processing rows:  91%|█████████ | 163/180 [00:02<00:00, 63.88it/s][A
+Processing rows:  94%|█████████▍| 170/180 [00:02<00:00, 61.92it/s][A
+Processing rows:  98%|█████████▊| 177/180 [00:02<00:00, 61.70it/s][AProcessing rows: 100%|██████████| 180/180 [00:02<00:00, 64.46it/s]
+2025-08-12 16:46:51,918 - __main__ - INFO - Wrote 180 rows to parameters/torsions/ash-sage-valence-v2/batch-0002.parquet
+Processing files:   9%|▊         | 3/35 [00:06<01:06,  2.08s/it]2025-08-12 16:46:52,020 - __main__ - INFO - Loaded 234 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Amide Torsion Set v1.0.parquet
+2025-08-12 16:46:52,025 - __main__ - INFO - Loaded 238 existing cmiles
+2025-08-12 16:46:52,025 - __main__ - INFO - New rows: 234
+
+Processing rows:   0%|          | 0/234 [00:00<?, ?it/s][A
+Processing rows:   2%|▏         | 5/234 [00:00<00:05, 44.02it/s][A
+Processing rows:   5%|▍         | 11/234 [00:00<00:04, 52.06it/s][A
+Processing rows:   8%|▊         | 18/234 [00:00<00:03, 56.39it/s][A
+Processing rows:  10%|█         | 24/234 [00:00<00:03, 54.98it/s][A
+Processing rows:  13%|█▎        | 30/234 [00:00<00:03, 54.48it/s][A
+Processing rows:  15%|█▌        | 36/234 [00:00<00:03, 54.64it/s][A
+Processing rows:  18%|█▊        | 42/234 [00:00<00:03, 55.50it/s][A
+Processing rows:  21%|██        | 48/234 [00:00<00:03, 55.28it/s][A
+Processing rows:  23%|██▎       | 54/234 [00:00<00:03, 55.97it/s][A
+Processing rows:  26%|██▌       | 61/234 [00:01<00:02, 58.06it/s][A
+Processing rows:  29%|██▉       | 68/234 [00:01<00:02, 60.72it/s][A
+Processing rows:  32%|███▏      | 75/234 [00:01<00:02, 60.98it/s][A
+Processing rows:  35%|███▌      | 82/234 [00:01<00:02, 61.25it/s][A
+Processing rows:  38%|███▊      | 89/234 [00:01<00:02, 61.86it/s][A
+Processing rows:  41%|████      | 96/234 [00:01<00:02, 61.06it/s][A
+Processing rows:  44%|████▍     | 103/234 [00:01<00:02, 60.47it/s][A
+Processing rows:  47%|████▋     | 110/234 [00:01<00:02, 60.30it/s][A
+Processing rows:  51%|█████     | 119/234 [00:02<00:01, 66.44it/s][A
+Processing rows:  54%|█████▍    | 127/234 [00:02<00:01, 68.82it/s][A
+Processing rows:  58%|█████▊    | 135/234 [00:02<00:01, 69.10it/s][A
+Processing rows:  61%|██████    | 142/234 [00:02<00:01, 68.42it/s][A
+Processing rows:  64%|██████▎   | 149/234 [00:02<00:01, 68.41it/s][A
+Processing rows:  67%|██████▋   | 156/234 [00:02<00:01, 68.12it/s][A
+Processing rows:  70%|███████   | 164/234 [00:02<00:01, 68.96it/s][A
+Processing rows:  74%|███████▎  | 172/234 [00:02<00:00, 70.97it/s][A
+Processing rows:  77%|███████▋  | 180/234 [00:02<00:00, 72.08it/s][A
+Processing rows:  80%|████████  | 188/234 [00:02<00:00, 73.56it/s][A
+Processing rows:  84%|████████▍ | 196/234 [00:03<00:00, 73.86it/s][A
+Processing rows:  87%|████████▋ | 204/234 [00:03<00:00, 73.24it/s][A
+Processing rows:  91%|█████████ | 212/234 [00:03<00:00, 73.13it/s][A
+Processing rows:  94%|█████████▍| 220/234 [00:03<00:00, 74.16it/s][A
+Processing rows:  98%|█████████▊| 229/234 [00:03<00:00, 77.32it/s][AProcessing rows: 100%|██████████| 234/234 [00:03<00:00, 65.70it/s]
+2025-08-12 16:46:55,588 - __main__ - INFO - Wrote 234 rows to parameters/torsions/ash-sage-valence-v2/batch-0003.parquet
+Processing files:  11%|█▏        | 4/35 [00:09<01:23,  2.71s/it]2025-08-12 16:46:55,688 - __main__ - INFO - Loaded 68 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Cresset Additional Coverage TorsionDrives v4.0.parquet
+2025-08-12 16:46:55,691 - __main__ - INFO - Loaded 437 existing cmiles
+2025-08-12 16:46:55,691 - __main__ - INFO - New rows: 68
+
+Processing rows:   0%|          | 0/68 [00:00<?, ?it/s][A
+Processing rows:   7%|▋         | 5/68 [00:00<00:01, 46.45it/s][A
+Processing rows:  16%|█▌        | 11/68 [00:00<00:01, 54.07it/s][A
+Processing rows:  26%|██▋       | 18/68 [00:00<00:00, 57.62it/s][A
+Processing rows:  37%|███▋      | 25/68 [00:00<00:00, 59.89it/s][A
+Processing rows:  47%|████▋     | 32/68 [00:00<00:00, 61.51it/s][A
+Processing rows:  57%|█████▋    | 39/68 [00:00<00:00, 62.86it/s][A
+Processing rows:  68%|██████▊   | 46/68 [00:00<00:00, 63.15it/s][A
+Processing rows:  79%|███████▉  | 54/68 [00:00<00:00, 66.47it/s][A
+Processing rows:  91%|█████████ | 62/68 [00:00<00:00, 68.17it/s][AProcessing rows: 100%|██████████| 68/68 [00:01<00:00, 64.31it/s]
+2025-08-12 16:46:56,749 - __main__ - INFO - Wrote 68 rows to parameters/torsions/ash-sage-valence-v2/batch-0004.parquet
+Processing files:  14%|█▍        | 5/35 [00:10<01:04,  2.15s/it]2025-08-12 16:46:56,852 - __main__ - INFO - Loaded 1 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF DANCE 1 eMolecules t142 v1.0.parquet
+2025-08-12 16:46:56,855 - __main__ - INFO - Loaded 496 existing cmiles
+2025-08-12 16:46:56,855 - __main__ - INFO - New rows: 1
+
+Processing rows:   0%|          | 0/1 [00:00<?, ?it/s][AProcessing rows: 100%|██████████| 1/1 [00:00<00:00, 34.55it/s]
+Processing files:  17%|█▋        | 6/35 [00:11<00:42,  1.46s/it]2025-08-12 16:46:56,985 - __main__ - INFO - Loaded 8 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Fragmenter Validation 1.0.parquet
+2025-08-12 16:46:56,988 - __main__ - INFO - Loaded 496 existing cmiles
+2025-08-12 16:46:56,988 - __main__ - INFO - New rows: 8
+
+Processing rows:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing rows:  75%|███████▌  | 6/8 [00:00<00:00, 59.13it/s][AProcessing rows: 100%|██████████| 8/8 [00:00<00:00, 59.57it/s]
+2025-08-12 16:46:57,123 - __main__ - INFO - Wrote 8 rows to parameters/torsions/ash-sage-valence-v2/batch-0005.parquet
+Processing files:  20%|██        | 7/35 [00:11<00:29,  1.06s/it]2025-08-12 16:46:57,254 - __main__ - INFO - Loaded 116 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Gen 2 Torsion Set 1 Roche 2.parquet
+2025-08-12 16:46:57,259 - __main__ - INFO - Loaded 504 existing cmiles
+2025-08-12 16:46:57,259 - __main__ - INFO - New rows: 116
+
+Processing rows:   0%|          | 0/116 [00:00<?, ?it/s][A
+Processing rows:   5%|▌         | 6/116 [00:00<00:01, 56.28it/s][A
+Processing rows:  10%|█         | 12/116 [00:00<00:01, 57.66it/s][A
+Processing rows:  16%|█▌        | 18/116 [00:00<00:01, 56.11it/s][A
+Processing rows:  21%|██        | 24/116 [00:00<00:01, 56.82it/s][A
+Processing rows:  27%|██▋       | 31/116 [00:00<00:01, 58.63it/s][A
+Processing rows:  32%|███▏      | 37/116 [00:00<00:01, 57.95it/s][A
+Processing rows:  38%|███▊      | 44/116 [00:00<00:01, 59.27it/s][A
+Processing rows:  44%|████▍     | 51/116 [00:00<00:01, 59.84it/s][A
+Processing rows:  49%|████▉     | 57/116 [00:00<00:00, 59.44it/s][A
+Processing rows:  55%|█████▌    | 64/116 [00:01<00:00, 61.36it/s][A
+Processing rows:  61%|██████    | 71/116 [00:01<00:00, 61.26it/s][A
+Processing rows:  67%|██████▋   | 78/116 [00:01<00:00, 61.18it/s][A
+Processing rows:  73%|███████▎  | 85/116 [00:01<00:00, 62.06it/s][A
+Processing rows:  79%|███████▉  | 92/116 [00:01<00:00, 61.94it/s][A
+Processing rows:  85%|████████▌ | 99/116 [00:01<00:00, 61.19it/s][A
+Processing rows:  91%|█████████▏| 106/116 [00:01<00:00, 61.96it/s][A
+Processing rows:  97%|█████████▋| 113/116 [00:01<00:00, 62.12it/s][AProcessing rows: 100%|██████████| 116/116 [00:01<00:00, 60.34it/s]
+2025-08-12 16:46:59,183 - __main__ - INFO - Wrote 116 rows to parameters/torsions/ash-sage-valence-v2/batch-0006.parquet
+Processing files:  23%|██▎       | 8/35 [00:13<00:37,  1.38s/it]2025-08-12 16:46:59,286 - __main__ - INFO - Loaded 116 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Gen 2 Torsion Set 2 Coverage 2.parquet
+2025-08-12 16:46:59,291 - __main__ - INFO - Loaded 604 existing cmiles
+2025-08-12 16:46:59,291 - __main__ - INFO - New rows: 113
+
+Processing rows:   0%|          | 0/113 [00:00<?, ?it/s][A
+Processing rows:   5%|▌         | 6/113 [00:00<00:01, 56.03it/s][A
+Processing rows:  12%|█▏        | 13/113 [00:00<00:01, 58.87it/s][A
+Processing rows:  17%|█▋        | 19/113 [00:00<00:01, 55.33it/s][A
+Processing rows:  23%|██▎       | 26/113 [00:00<00:01, 60.01it/s][A
+Processing rows:  29%|██▉       | 33/113 [00:00<00:01, 58.83it/s][A
+Processing rows:  35%|███▍      | 39/113 [00:00<00:01, 58.12it/s][A
+Processing rows:  41%|████      | 46/113 [00:00<00:01, 59.60it/s][A
+Processing rows:  46%|████▌     | 52/113 [00:00<00:01, 58.97it/s][A
+Processing rows:  52%|█████▏    | 59/113 [00:00<00:00, 61.88it/s][A
+Processing rows:  59%|█████▉    | 67/113 [00:01<00:00, 65.12it/s][A
+Processing rows:  65%|██████▌   | 74/113 [00:01<00:00, 60.53it/s][A
+Processing rows:  72%|███████▏  | 81/113 [00:01<00:00, 61.39it/s][A
+Processing rows:  78%|███████▊  | 88/113 [00:01<00:00, 62.07it/s][A
+Processing rows:  84%|████████▍ | 95/113 [00:01<00:00, 62.96it/s][A
+Processing rows:  91%|█████████ | 103/113 [00:01<00:00, 66.39it/s][A
+Processing rows:  97%|█████████▋| 110/113 [00:01<00:00, 64.91it/s][AProcessing rows: 100%|██████████| 113/113 [00:01<00:00, 61.96it/s]
+2025-08-12 16:47:01,116 - __main__ - INFO - Wrote 113 rows to parameters/torsions/ash-sage-valence-v2/batch-0007.parquet
+Processing files:  26%|██▌       | 9/35 [00:15<00:40,  1.55s/it]2025-08-12 16:47:01,214 - __main__ - INFO - Loaded 67 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Gen 2 Torsion Set 3 Pfizer Discrepancy 2.parquet
+2025-08-12 16:47:01,218 - __main__ - INFO - Loaded 660 existing cmiles
+2025-08-12 16:47:01,218 - __main__ - INFO - New rows: 67
+
+Processing rows:   0%|          | 0/67 [00:00<?, ?it/s][A
+Processing rows:   9%|▉         | 6/67 [00:00<00:01, 56.10it/s][A
+Processing rows:  18%|█▊        | 12/67 [00:00<00:00, 55.93it/s][A
+Processing rows:  27%|██▋       | 18/67 [00:00<00:00, 56.63it/s][A
+Processing rows:  36%|███▌      | 24/67 [00:00<00:00, 56.11it/s][A
+Processing rows:  45%|████▍     | 30/67 [00:00<00:00, 56.42it/s][A
+Processing rows:  54%|█████▎    | 36/67 [00:00<00:00, 55.14it/s][A
+Processing rows:  63%|██████▎   | 42/67 [00:00<00:00, 54.54it/s][A
+Processing rows:  72%|███████▏  | 48/67 [00:00<00:00, 55.94it/s][A
+Processing rows:  81%|████████  | 54/67 [00:00<00:00, 57.11it/s][A
+Processing rows:  90%|████████▉ | 60/67 [00:01<00:00, 57.45it/s][A
+Processing rows:  99%|█████████▊| 66/67 [00:01<00:00, 53.59it/s][AProcessing rows: 100%|██████████| 67/67 [00:01<00:00, 55.34it/s]
+2025-08-12 16:47:02,431 - __main__ - INFO - Wrote 67 rows to parameters/torsions/ash-sage-valence-v2/batch-0008.parquet
+Processing files:  29%|██▊       | 10/35 [00:16<00:36,  1.48s/it]2025-08-12 16:47:02,529 - __main__ - INFO - Loaded 214 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2.parquet
+2025-08-12 16:47:02,536 - __main__ - INFO - Loaded 707 existing cmiles
+2025-08-12 16:47:02,536 - __main__ - INFO - New rows: 214
+
+Processing rows:   0%|          | 0/214 [00:00<?, ?it/s][A
+Processing rows:   3%|▎         | 6/214 [00:00<00:03, 59.28it/s][A
+Processing rows:   6%|▌         | 12/214 [00:00<00:03, 59.53it/s][A
+Processing rows:   8%|▊         | 18/214 [00:00<00:03, 57.16it/s][A
+Processing rows:  11%|█         | 24/214 [00:00<00:03, 53.33it/s][A
+Processing rows:  14%|█▍        | 30/214 [00:00<00:03, 50.37it/s][A
+Processing rows:  17%|█▋        | 36/214 [00:00<00:03, 49.99it/s][A
+Processing rows:  20%|█▉        | 42/214 [00:00<00:03, 51.26it/s][A
+Processing rows:  22%|██▏       | 48/214 [00:00<00:03, 53.56it/s][A
+Processing rows:  25%|██▌       | 54/214 [00:01<00:02, 54.78it/s][A
+Processing rows:  28%|██▊       | 60/214 [00:01<00:02, 55.43it/s][A
+Processing rows:  31%|███       | 66/214 [00:01<00:02, 56.30it/s][A
+Processing rows:  34%|███▎      | 72/214 [00:01<00:02, 54.26it/s][A
+Processing rows:  36%|███▋      | 78/214 [00:01<00:02, 53.41it/s][A
+Processing rows:  39%|███▉      | 84/214 [00:01<00:02, 51.00it/s][A
+Processing rows:  42%|████▏     | 90/214 [00:01<00:02, 51.14it/s][A
+Processing rows:  45%|████▍     | 96/214 [00:01<00:02, 52.45it/s][A
+Processing rows:  48%|████▊     | 103/214 [00:01<00:02, 54.19it/s][A
+Processing rows:  51%|█████     | 109/214 [00:02<00:02, 52.00it/s][A
+Processing rows:  54%|█████▎    | 115/214 [00:02<00:01, 50.77it/s][A
+Processing rows:  57%|█████▋    | 121/214 [00:02<00:01, 52.13it/s][A
+Processing rows:  60%|█████▉    | 128/214 [00:02<00:01, 55.64it/s][A
+Processing rows:  63%|██████▎   | 135/214 [00:02<00:01, 58.13it/s][A
+Processing rows:  66%|██████▋   | 142/214 [00:02<00:01, 59.29it/s][A
+Processing rows:  69%|██████▉   | 148/214 [00:02<00:01, 56.88it/s][A
+Processing rows:  72%|███████▏  | 154/214 [00:02<00:01, 55.25it/s][A
+Processing rows:  75%|███████▌  | 161/214 [00:02<00:00, 56.79it/s][A
+Processing rows:  78%|███████▊  | 167/214 [00:03<00:00, 57.45it/s][A
+Processing rows:  81%|████████  | 173/214 [00:03<00:00, 57.45it/s][A
+Processing rows:  84%|████████▎ | 179/214 [00:03<00:00, 57.77it/s][A
+Processing rows:  86%|████████▋ | 185/214 [00:03<00:00, 58.25it/s][A
+Processing rows:  89%|████████▉ | 191/214 [00:03<00:00, 57.05it/s][A
+Processing rows:  93%|█████████▎| 198/214 [00:03<00:00, 57.92it/s][A
+Processing rows:  95%|█████████▌| 204/214 [00:03<00:00, 56.82it/s][A
+Processing rows:  98%|█████████▊| 210/214 [00:03<00:00, 54.93it/s][AProcessing rows: 100%|██████████| 214/214 [00:03<00:00, 54.94it/s]
+2025-08-12 16:47:06,432 - __main__ - INFO - Wrote 214 rows to parameters/torsions/ash-sage-valence-v2/batch-0009.parquet
+Processing files:  31%|███▏      | 11/35 [00:20<00:54,  2.25s/it]2025-08-12 16:47:06,533 - __main__ - INFO - Loaded 147 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Gen 2 Torsion Set 5 Bayer 2.parquet
+2025-08-12 16:47:06,539 - __main__ - INFO - Loaded 898 existing cmiles
+2025-08-12 16:47:06,539 - __main__ - INFO - New rows: 147
+
+Processing rows:   0%|          | 0/147 [00:00<?, ?it/s][A
+Processing rows:   3%|▎         | 5/147 [00:00<00:03, 43.16it/s][A
+Processing rows:   7%|▋         | 10/147 [00:00<00:03, 35.22it/s][A
+Processing rows:  10%|▉         | 14/147 [00:00<00:03, 36.98it/s][A
+Processing rows:  13%|█▎        | 19/147 [00:00<00:03, 41.09it/s][A
+Processing rows:  16%|█▋        | 24/147 [00:00<00:02, 42.98it/s][A
+Processing rows:  20%|█▉        | 29/147 [00:00<00:02, 40.08it/s][A
+Processing rows:  23%|██▎       | 34/147 [00:00<00:02, 40.55it/s][A
+Processing rows:  27%|██▋       | 39/147 [00:00<00:02, 41.53it/s][A
+Processing rows:  30%|██▉       | 44/147 [00:01<00:02, 39.61it/s][A
+Processing rows:  33%|███▎      | 49/147 [00:01<00:02, 40.92it/s][A
+Processing rows:  37%|███▋      | 54/147 [00:01<00:02, 42.23it/s][A
+Processing rows:  40%|████      | 59/147 [00:01<00:02, 42.45it/s][A
+Processing rows:  44%|████▎     | 64/147 [00:01<00:01, 42.14it/s][A
+Processing rows:  47%|████▋     | 69/147 [00:01<00:01, 41.99it/s][A
+Processing rows:  50%|█████     | 74/147 [00:01<00:01, 42.61it/s][A
+Processing rows:  54%|█████▎    | 79/147 [00:01<00:01, 38.90it/s][A
+Processing rows:  57%|█████▋    | 84/147 [00:02<00:01, 40.19it/s][A
+Processing rows:  61%|██████    | 89/147 [00:02<00:01, 41.83it/s][A
+Processing rows:  65%|██████▍   | 95/147 [00:02<00:01, 44.54it/s][A
+Processing rows:  69%|██████▊   | 101/147 [00:02<00:01, 45.91it/s][A
+Processing rows:  72%|███████▏  | 106/147 [00:02<00:00, 44.78it/s][A
+Processing rows:  76%|███████▌  | 111/147 [00:02<00:00, 45.03it/s][A
+Processing rows:  79%|███████▉  | 116/147 [00:02<00:00, 44.35it/s][A
+Processing rows:  82%|████████▏ | 121/147 [00:02<00:00, 44.87it/s][A
+Processing rows:  86%|████████▌ | 126/147 [00:02<00:00, 45.32it/s][A
+Processing rows:  89%|████████▉ | 131/147 [00:03<00:00, 45.13it/s][A
+Processing rows:  93%|█████████▎| 136/147 [00:03<00:00, 44.98it/s][A
+Processing rows:  96%|█████████▌| 141/147 [00:03<00:00, 46.34it/s][A
+Processing rows: 100%|██████████| 147/147 [00:03<00:00, 48.13it/s][AProcessing rows: 100%|██████████| 147/147 [00:03<00:00, 43.08it/s]
+2025-08-12 16:47:09,952 - __main__ - INFO - Wrote 147 rows to parameters/torsions/ash-sage-valence-v2/batch-0010.parquet
+Processing files:  34%|███▍      | 12/35 [00:24<01:00,  2.64s/it]2025-08-12 16:47:10,051 - __main__ - INFO - Loaded 19 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Gen 2 Torsion Set 6 supplemental 2.parquet
+2025-08-12 16:47:10,055 - __main__ - INFO - Loaded 1026 existing cmiles
+2025-08-12 16:47:10,055 - __main__ - INFO - New rows: 19
+
+Processing rows:   0%|          | 0/19 [00:00<?, ?it/s][A
+Processing rows:  26%|██▋       | 5/19 [00:00<00:00, 47.32it/s][A
+Processing rows:  58%|█████▊    | 11/19 [00:00<00:00, 50.81it/s][A
+Processing rows:  95%|█████████▍| 18/19 [00:00<00:00, 57.05it/s][AProcessing rows: 100%|██████████| 19/19 [00:00<00:00, 55.62it/s]
+2025-08-12 16:47:10,399 - __main__ - INFO - Wrote 19 rows to parameters/torsions/ash-sage-valence-v2/batch-0011.parquet
+Processing files:  37%|███▋      | 13/35 [00:24<00:43,  1.97s/it]2025-08-12 16:47:10,497 - __main__ - INFO - Loaded 792 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Gen3 Torsion Set v1.0.parquet
+2025-08-12 16:47:10,511 - __main__ - INFO - Loaded 1045 existing cmiles
+2025-08-12 16:47:10,512 - __main__ - INFO - New rows: 786
+
+Processing rows:   0%|          | 0/786 [00:00<?, ?it/s][A
+Processing rows:   1%|          | 8/786 [00:00<00:10, 75.33it/s][A
+Processing rows:   2%|▏         | 17/786 [00:00<00:10, 76.29it/s][A
+Processing rows:   3%|▎         | 25/786 [00:00<00:11, 67.14it/s][A
+Processing rows:   4%|▍         | 32/786 [00:00<00:11, 66.52it/s][A
+Processing rows:   5%|▍         | 39/786 [00:00<00:11, 66.36it/s][A
+Processing rows:   6%|▌         | 46/786 [00:00<00:11, 65.54it/s][A
+Processing rows:   7%|▋         | 53/786 [00:00<00:11, 62.30it/s][A
+Processing rows:   8%|▊         | 60/786 [00:00<00:11, 62.79it/s][A
+Processing rows:   9%|▊         | 67/786 [00:01<00:11, 62.82it/s][A
+Processing rows:   9%|▉         | 74/786 [00:01<00:11, 60.50it/s][A
+Processing rows:  10%|█         | 81/786 [00:01<00:11, 60.31it/s][A
+Processing rows:  11%|█         | 88/786 [00:01<00:11, 59.51it/s][A
+Processing rows:  12%|█▏        | 95/786 [00:01<00:11, 60.98it/s][A
+Processing rows:  13%|█▎        | 102/786 [00:01<00:11, 60.57it/s][A
+Processing rows:  14%|█▍        | 109/786 [00:01<00:11, 59.83it/s][A
+Processing rows:  15%|█▍        | 116/786 [00:01<00:11, 60.89it/s][A
+Processing rows:  16%|█▌        | 123/786 [00:01<00:11, 58.99it/s][A
+Processing rows:  17%|█▋        | 130/786 [00:02<00:10, 59.96it/s][A
+Processing rows:  17%|█▋        | 137/786 [00:02<00:10, 61.63it/s][A
+Processing rows:  18%|█▊        | 144/786 [00:02<00:10, 60.84it/s][A
+Processing rows:  19%|█▉        | 151/786 [00:02<00:10, 61.53it/s][A
+Processing rows:  20%|██        | 158/786 [00:02<00:10, 60.48it/s][A
+Processing rows:  21%|██        | 165/786 [00:02<00:10, 61.01it/s][A
+Processing rows:  22%|██▏       | 172/786 [00:02<00:11, 55.64it/s][A
+Processing rows:  23%|██▎       | 179/786 [00:02<00:10, 58.39it/s][A
+Processing rows:  24%|██▎       | 186/786 [00:03<00:09, 60.49it/s][A
+Processing rows:  25%|██▍       | 193/786 [00:03<00:09, 61.20it/s][A
+Processing rows:  25%|██▌       | 200/786 [00:03<00:09, 63.06it/s][A
+Processing rows:  26%|██▋       | 207/786 [00:03<00:09, 62.69it/s][A
+Processing rows:  27%|██▋       | 214/786 [00:03<00:09, 61.88it/s][A
+Processing rows:  28%|██▊       | 221/786 [00:03<00:09, 60.30it/s][A
+Processing rows:  29%|██▉       | 228/786 [00:03<00:09, 60.27it/s][A
+Processing rows:  30%|██▉       | 235/786 [00:03<00:09, 61.00it/s][A
+Processing rows:  31%|███       | 242/786 [00:03<00:08, 60.48it/s][A
+Processing rows:  32%|███▏      | 249/786 [00:04<00:08, 60.71it/s][A
+Processing rows:  33%|███▎      | 256/786 [00:04<00:08, 61.51it/s][A
+Processing rows:  33%|███▎      | 263/786 [00:04<00:08, 61.49it/s][A
+Processing rows:  34%|███▍      | 270/786 [00:04<00:08, 61.66it/s][A
+Processing rows:  35%|███▌      | 277/786 [00:04<00:08, 60.61it/s][A
+Processing rows:  36%|███▌      | 284/786 [00:04<00:08, 60.22it/s][A
+Processing rows:  37%|███▋      | 291/786 [00:04<00:08, 60.81it/s][A
+Processing rows:  38%|███▊      | 298/786 [00:04<00:07, 61.21it/s][A
+Processing rows:  39%|███▉      | 305/786 [00:04<00:07, 62.68it/s][A
+Processing rows:  40%|███▉      | 312/786 [00:05<00:07, 64.28it/s][A
+Processing rows:  41%|████      | 319/786 [00:05<00:07, 65.82it/s][A
+Processing rows:  42%|████▏     | 327/786 [00:05<00:06, 67.84it/s][A
+Processing rows:  43%|████▎     | 335/786 [00:05<00:06, 70.91it/s][A
+Processing rows:  44%|████▍     | 344/786 [00:05<00:05, 74.89it/s][A
+Processing rows:  45%|████▍     | 353/786 [00:05<00:05, 76.92it/s][A
+Processing rows:  46%|████▌     | 362/786 [00:05<00:05, 78.39it/s][A
+Processing rows:  47%|████▋     | 370/786 [00:05<00:05, 77.55it/s][A
+Processing rows:  48%|████▊     | 378/786 [00:05<00:05, 72.15it/s][A
+Processing rows:  49%|████▉     | 386/786 [00:06<00:05, 69.70it/s][A
+Processing rows:  50%|█████     | 394/786 [00:06<00:05, 66.82it/s][A
+Processing rows:  51%|█████     | 401/786 [00:06<00:05, 67.63it/s][A
+Processing rows:  52%|█████▏    | 408/786 [00:06<00:05, 67.52it/s][A
+Processing rows:  53%|█████▎    | 415/786 [00:06<00:05, 67.59it/s][A
+Processing rows:  54%|█████▎    | 422/786 [00:06<00:05, 67.00it/s][A
+Processing rows:  55%|█████▍    | 431/786 [00:06<00:04, 71.48it/s][A
+Processing rows:  56%|█████▌    | 439/786 [00:06<00:04, 73.85it/s][A
+Processing rows:  57%|█████▋    | 447/786 [00:06<00:04, 73.04it/s][A
+Processing rows:  58%|█████▊    | 455/786 [00:07<00:04, 74.53it/s][A
+Processing rows:  59%|█████▉    | 463/786 [00:07<00:04, 72.11it/s][A
+Processing rows:  60%|█████▉    | 471/786 [00:07<00:04, 69.32it/s][A
+Processing rows:  61%|██████    | 478/786 [00:07<00:04, 68.59it/s][A
+Processing rows:  62%|██████▏   | 485/786 [00:07<00:04, 67.12it/s][A
+Processing rows:  63%|██████▎   | 492/786 [00:07<00:04, 65.97it/s][A
+Processing rows:  63%|██████▎   | 499/786 [00:07<00:04, 63.83it/s][A
+Processing rows:  64%|██████▍   | 506/786 [00:07<00:04, 64.33it/s][A
+Processing rows:  66%|██████▌   | 515/786 [00:07<00:03, 69.34it/s][A
+Processing rows:  67%|██████▋   | 523/786 [00:08<00:03, 72.18it/s][A
+Processing rows:  68%|██████▊   | 531/786 [00:08<00:03, 73.34it/s][A
+Processing rows:  69%|██████▊   | 539/786 [00:08<00:03, 72.57it/s][A
+Processing rows:  70%|██████▉   | 547/786 [00:08<00:03, 74.16it/s][A
+Processing rows:  71%|███████   | 555/786 [00:08<00:03, 73.43it/s][A
+Processing rows:  72%|███████▏  | 563/786 [00:08<00:03, 72.37it/s][A
+Processing rows:  73%|███████▎  | 571/786 [00:08<00:02, 71.82it/s][A
+Processing rows:  74%|███████▎  | 579/786 [00:08<00:02, 72.38it/s][A
+Processing rows:  75%|███████▍  | 587/786 [00:08<00:03, 66.00it/s][A
+Processing rows:  76%|███████▌  | 594/786 [00:09<00:02, 66.17it/s][A
+Processing rows:  76%|███████▋  | 601/786 [00:09<00:02, 65.99it/s][A
+Processing rows:  77%|███████▋  | 608/786 [00:09<00:02, 66.40it/s][A
+Processing rows:  78%|███████▊  | 616/786 [00:09<00:02, 67.99it/s][A
+Processing rows:  79%|███████▉  | 624/786 [00:09<00:02, 69.14it/s][A
+Processing rows:  80%|████████  | 632/786 [00:09<00:02, 70.40it/s][A
+Processing rows:  81%|████████▏ | 640/786 [00:09<00:02, 69.46it/s][A
+Processing rows:  82%|████████▏ | 647/786 [00:09<00:01, 69.56it/s][A
+Processing rows:  83%|████████▎ | 654/786 [00:09<00:01, 68.99it/s][A
+Processing rows:  84%|████████▍ | 661/786 [00:10<00:01, 68.27it/s][A
+Processing rows:  85%|████████▍ | 668/786 [00:10<00:01, 68.27it/s][A
+Processing rows:  86%|████████▌ | 676/786 [00:10<00:01, 69.36it/s][A
+Processing rows:  87%|████████▋ | 684/786 [00:10<00:01, 70.59it/s][A
+Processing rows:  88%|████████▊ | 692/786 [00:10<00:01, 71.27it/s][A
+Processing rows:  89%|████████▉ | 700/786 [00:10<00:01, 72.67it/s][A
+Processing rows:  90%|█████████ | 708/786 [00:10<00:01, 71.98it/s][A
+Processing rows:  91%|█████████ | 716/786 [00:10<00:00, 73.41it/s][A
+Processing rows:  92%|█████████▏| 724/786 [00:10<00:00, 74.56it/s][A
+Processing rows:  93%|█████████▎| 733/786 [00:10<00:00, 76.61it/s][A
+Processing rows:  94%|█████████▍| 741/786 [00:11<00:00, 75.69it/s][A
+Processing rows:  95%|█████████▌| 749/786 [00:11<00:00, 73.92it/s][A
+Processing rows:  96%|█████████▋| 757/786 [00:11<00:00, 71.84it/s][A
+Processing rows:  97%|█████████▋| 765/786 [00:11<00:00, 69.57it/s][A
+Processing rows:  98%|█████████▊| 772/786 [00:11<00:00, 69.12it/s][A
+Processing rows:  99%|█████████▉| 779/786 [00:11<00:00, 68.12it/s][AProcessing rows: 100%|██████████| 786/786 [00:11<00:00, 66.89it/s]
+2025-08-12 16:47:22,264 - __main__ - INFO - Wrote 786 rows to parameters/torsions/ash-sage-valence-v2/batch-0012.parquet
+Processing files:  40%|████      | 14/35 [00:36<01:44,  4.96s/it]2025-08-12 16:47:22,365 - __main__ - INFO - Loaded 19 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Group1 Torsions 2.parquet
+2025-08-12 16:47:22,371 - __main__ - INFO - Loaded 1830 existing cmiles
+2025-08-12 16:47:22,371 - __main__ - INFO - New rows: 16
+
+Processing rows:   0%|          | 0/16 [00:00<?, ?it/s][A
+Processing rows:  38%|███▊      | 6/16 [00:00<00:00, 59.41it/s][A
+Processing rows:  81%|████████▏ | 13/16 [00:00<00:00, 61.69it/s][AProcessing rows: 100%|██████████| 16/16 [00:00<00:00, 59.90it/s]
+2025-08-12 16:47:22,639 - __main__ - INFO - Wrote 16 rows to parameters/torsions/ash-sage-valence-v2/batch-0013.parquet
+Processing files:  43%|████▎     | 15/35 [00:36<01:11,  3.58s/it]2025-08-12 16:47:22,770 - __main__ - INFO - Loaded 5 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Group1 Torsions 3.parquet
+2025-08-12 16:47:22,775 - __main__ - INFO - Loaded 1836 existing cmiles
+2025-08-12 16:47:22,775 - __main__ - INFO - New rows: 2
+
+Processing rows:   0%|          | 0/2 [00:00<?, ?it/s][AProcessing rows: 100%|██████████| 2/2 [00:00<00:00, 58.88it/s]
+2025-08-12 16:47:22,810 - __main__ - INFO - Wrote 2 rows to parameters/torsions/ash-sage-valence-v2/batch-0014.parquet
+Processing files:  46%|████▌     | 16/35 [00:36<00:48,  2.55s/it]2025-08-12 16:47:22,908 - __main__ - INFO - Loaded 658 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Group1 Torsions.parquet
+2025-08-12 16:47:22,921 - __main__ - INFO - Loaded 1838 existing cmiles
+2025-08-12 16:47:22,921 - __main__ - INFO - New rows: 511
+
+Processing rows:   0%|          | 0/511 [00:00<?, ?it/s][A
+Processing rows:   1%|          | 6/511 [00:00<00:08, 56.60it/s][A
+Processing rows:   3%|▎         | 13/511 [00:00<00:08, 58.93it/s][A
+Processing rows:   4%|▎         | 19/511 [00:00<00:08, 57.76it/s][A
+Processing rows:   5%|▍         | 25/511 [00:00<00:08, 58.55it/s][A
+Processing rows:   6%|▋         | 32/511 [00:00<00:08, 58.93it/s][A
+Processing rows:   8%|▊         | 39/511 [00:00<00:07, 60.08it/s][A
+Processing rows:   9%|▉         | 46/511 [00:00<00:07, 60.25it/s][A
+Processing rows:  10%|█         | 53/511 [00:00<00:07, 59.52it/s][A
+Processing rows:  12%|█▏        | 59/511 [00:00<00:07, 58.79it/s][A
+Processing rows:  13%|█▎        | 65/511 [00:01<00:07, 57.38it/s][A
+Processing rows:  14%|█▍        | 71/511 [00:01<00:07, 55.89it/s][A
+Processing rows:  15%|█▌        | 77/511 [00:01<00:07, 56.46it/s][A
+Processing rows:  16%|█▌        | 83/511 [00:01<00:07, 56.73it/s][A
+Processing rows:  17%|█▋        | 89/511 [00:01<00:07, 57.53it/s][A
+Processing rows:  19%|█▊        | 95/511 [00:01<00:07, 57.87it/s][A
+Processing rows:  20%|█▉        | 101/511 [00:01<00:07, 57.51it/s][A
+Processing rows:  21%|██        | 107/511 [00:01<00:06, 58.20it/s][A
+Processing rows:  22%|██▏       | 113/511 [00:01<00:06, 58.43it/s][A
+Processing rows:  23%|██▎       | 119/511 [00:02<00:06, 58.84it/s][A
+Processing rows:  25%|██▍       | 126/511 [00:02<00:06, 59.58it/s][A
+Processing rows:  26%|██▌       | 133/511 [00:02<00:06, 60.39it/s][A
+Processing rows:  27%|██▋       | 140/511 [00:02<00:06, 61.50it/s][A
+Processing rows:  29%|██▉       | 147/511 [00:02<00:06, 57.25it/s][A
+Processing rows:  30%|███       | 154/511 [00:02<00:06, 58.80it/s][A
+Processing rows:  32%|███▏      | 161/511 [00:02<00:05, 59.81it/s][A
+Processing rows:  33%|███▎      | 168/511 [00:02<00:05, 60.59it/s][A
+Processing rows:  34%|███▍      | 175/511 [00:02<00:05, 59.56it/s][A
+Processing rows:  36%|███▌      | 182/511 [00:03<00:05, 61.31it/s][A
+Processing rows:  37%|███▋      | 189/511 [00:03<00:05, 62.40it/s][A
+Processing rows:  38%|███▊      | 196/511 [00:03<00:05, 62.69it/s][A
+Processing rows:  40%|███▉      | 203/511 [00:03<00:05, 61.34it/s][A
+Processing rows:  41%|████      | 210/511 [00:03<00:05, 59.45it/s][A
+Processing rows:  42%|████▏     | 216/511 [00:03<00:04, 59.05it/s][A
+Processing rows:  43%|████▎     | 222/511 [00:03<00:04, 58.06it/s][A
+Processing rows:  45%|████▍     | 228/511 [00:03<00:04, 57.25it/s][A
+Processing rows:  46%|████▌     | 234/511 [00:03<00:04, 56.65it/s][A
+Processing rows:  47%|████▋     | 240/511 [00:04<00:04, 57.56it/s][A
+Processing rows:  48%|████▊     | 247/511 [00:04<00:04, 59.27it/s][A
+Processing rows:  50%|████▉     | 254/511 [00:04<00:04, 61.84it/s][A
+Processing rows:  51%|█████     | 261/511 [00:04<00:03, 63.36it/s][A
+Processing rows:  52%|█████▏    | 268/511 [00:04<00:03, 64.09it/s][A
+Processing rows:  54%|█████▍    | 275/511 [00:04<00:03, 62.00it/s][A
+Processing rows:  55%|█████▌    | 282/511 [00:04<00:03, 60.24it/s][A
+Processing rows:  57%|█████▋    | 289/511 [00:04<00:03, 58.55it/s][A
+Processing rows:  58%|█████▊    | 295/511 [00:04<00:03, 56.33it/s][A
+Processing rows:  59%|█████▉    | 301/511 [00:05<00:03, 56.88it/s][A
+Processing rows:  60%|██████    | 308/511 [00:05<00:03, 58.59it/s][A
+Processing rows:  62%|██████▏   | 315/511 [00:05<00:03, 59.75it/s][A
+Processing rows:  63%|██████▎   | 321/511 [00:05<00:03, 56.69it/s][A
+Processing rows:  64%|██████▍   | 329/511 [00:05<00:02, 61.35it/s][A
+Processing rows:  66%|██████▌   | 336/511 [00:05<00:02, 62.64it/s][A
+Processing rows:  67%|██████▋   | 343/511 [00:05<00:02, 63.16it/s][A
+Processing rows:  68%|██████▊   | 350/511 [00:05<00:02, 63.37it/s][A
+Processing rows:  70%|██████▉   | 357/511 [00:05<00:02, 63.36it/s][A
+Processing rows:  71%|███████   | 364/511 [00:06<00:02, 63.86it/s][A
+Processing rows:  73%|███████▎  | 371/511 [00:06<00:02, 64.87it/s][A
+Processing rows:  74%|███████▍  | 378/511 [00:06<00:02, 65.32it/s][A
+Processing rows:  75%|███████▌  | 385/511 [00:06<00:01, 64.84it/s][A
+Processing rows:  77%|███████▋  | 392/511 [00:06<00:01, 65.98it/s][A
+Processing rows:  78%|███████▊  | 399/511 [00:06<00:01, 66.11it/s][A
+Processing rows:  79%|███████▉  | 406/511 [00:06<00:01, 64.17it/s][A
+Processing rows:  81%|████████  | 413/511 [00:06<00:01, 58.71it/s][A
+Processing rows:  82%|████████▏ | 419/511 [00:06<00:01, 58.67it/s][A
+Processing rows:  83%|████████▎ | 426/511 [00:07<00:01, 58.95it/s][A
+Processing rows:  85%|████████▍ | 433/511 [00:07<00:01, 59.92it/s][A
+Processing rows:  86%|████████▌ | 440/511 [00:07<00:01, 60.83it/s][A
+Processing rows:  87%|████████▋ | 447/511 [00:07<00:01, 59.20it/s][A
+Processing rows:  89%|████████▉ | 454/511 [00:07<00:00, 59.34it/s][A
+Processing rows:  90%|█████████ | 460/511 [00:07<00:00, 59.01it/s][A
+Processing rows:  91%|█████████ | 466/511 [00:07<00:00, 58.79it/s][A
+Processing rows:  92%|█████████▏| 472/511 [00:07<00:00, 58.55it/s][A
+Processing rows:  94%|█████████▎| 478/511 [00:07<00:00, 58.49it/s][A
+Processing rows:  95%|█████████▍| 485/511 [00:08<00:00, 60.88it/s][A
+Processing rows:  96%|█████████▋| 492/511 [00:08<00:00, 62.55it/s][A
+Processing rows:  98%|█████████▊| 499/511 [00:08<00:00, 59.81it/s][A
+Processing rows:  99%|█████████▉| 506/511 [00:08<00:00, 58.72it/s][AProcessing rows: 100%|██████████| 511/511 [00:08<00:00, 59.93it/s]
+2025-08-12 16:47:31,450 - __main__ - INFO - Wrote 511 rows to parameters/torsions/ash-sage-valence-v2/batch-0015.parquet
+Processing files:  49%|████▊     | 17/35 [00:45<01:18,  4.38s/it]2025-08-12 16:47:31,548 - __main__ - INFO - Loaded 62 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Phosphate Torsion Drives v1.0.parquet
+2025-08-12 16:47:31,554 - __main__ - INFO - Loaded 2141 existing cmiles
+2025-08-12 16:47:31,554 - __main__ - INFO - New rows: 62
+
+Processing rows:   0%|          | 0/62 [00:00<?, ?it/s][A
+Processing rows:  10%|▉         | 6/62 [00:00<00:01, 51.93it/s][A
+Processing rows:  21%|██        | 13/62 [00:00<00:00, 57.91it/s][A
+Processing rows:  31%|███       | 19/62 [00:00<00:00, 51.58it/s][A
+Processing rows:  42%|████▏     | 26/62 [00:00<00:00, 49.76it/s][A
+Processing rows:  52%|█████▏    | 32/62 [00:00<00:00, 51.18it/s][A
+Processing rows:  61%|██████▏   | 38/62 [00:00<00:00, 51.13it/s][A
+Processing rows:  71%|███████   | 44/62 [00:00<00:00, 50.35it/s][A
+Processing rows:  82%|████████▏ | 51/62 [00:00<00:00, 53.57it/s][A
+Processing rows:  94%|█████████▎| 58/62 [00:01<00:00, 56.14it/s][AProcessing rows: 100%|██████████| 62/62 [00:01<00:00, 54.18it/s]
+2025-08-12 16:47:32,700 - __main__ - INFO - Wrote 62 rows to parameters/torsions/ash-sage-valence-v2/batch-0016.parquet
+Processing files:  51%|█████▏    | 18/35 [00:46<00:58,  3.44s/it]2025-08-12 16:47:32,800 - __main__ - INFO - Loaded 223 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Primary Benchmark 1 Torsion Set.parquet
+2025-08-12 16:47:32,809 - __main__ - INFO - Loaded 2160 existing cmiles
+2025-08-12 16:47:32,809 - __main__ - INFO - New rows: 214
+
+Processing rows:   0%|          | 0/214 [00:00<?, ?it/s][A
+Processing rows:   3%|▎         | 6/214 [00:00<00:03, 56.56it/s][A
+Processing rows:   6%|▌         | 12/214 [00:00<00:03, 53.67it/s][A
+Processing rows:   8%|▊         | 18/214 [00:00<00:03, 55.99it/s][A
+Processing rows:  11%|█         | 24/214 [00:00<00:03, 57.48it/s][A
+Processing rows:  14%|█▍        | 30/214 [00:00<00:03, 56.88it/s][A
+Processing rows:  17%|█▋        | 36/214 [00:00<00:03, 57.81it/s][A
+Processing rows:  20%|█▉        | 42/214 [00:00<00:02, 57.97it/s][A
+Processing rows:  23%|██▎       | 49/214 [00:00<00:02, 60.66it/s][A
+Processing rows:  26%|██▌       | 56/214 [00:00<00:02, 60.59it/s][A
+Processing rows:  29%|██▉       | 63/214 [00:01<00:02, 58.66it/s][A
+Processing rows:  32%|███▏      | 69/214 [00:01<00:02, 54.89it/s][A
+Processing rows:  35%|███▌      | 75/214 [00:01<00:02, 50.32it/s][A
+Processing rows:  38%|███▊      | 81/214 [00:01<00:02, 52.35it/s][A
+Processing rows:  41%|████      | 87/214 [00:01<00:02, 51.94it/s][A
+Processing rows:  43%|████▎     | 93/214 [00:01<00:02, 53.13it/s][A
+Processing rows:  47%|████▋     | 100/214 [00:01<00:02, 56.51it/s][A
+Processing rows:  50%|█████     | 107/214 [00:01<00:01, 58.97it/s][A
+Processing rows:  53%|█████▎    | 114/214 [00:02<00:01, 59.33it/s][A
+Processing rows:  56%|█████▌    | 120/214 [00:02<00:01, 58.34it/s][A
+Processing rows:  59%|█████▉    | 126/214 [00:02<00:01, 58.66it/s][A
+Processing rows:  62%|██████▏   | 132/214 [00:02<00:01, 58.00it/s][A
+Processing rows:  64%|██████▍   | 138/214 [00:02<00:01, 55.20it/s][A
+Processing rows:  68%|██████▊   | 145/214 [00:02<00:01, 57.52it/s][A
+Processing rows:  71%|███████   | 151/214 [00:02<00:01, 57.79it/s][A
+Processing rows:  74%|███████▍  | 158/214 [00:02<00:00, 59.05it/s][A
+Processing rows:  77%|███████▋  | 165/214 [00:02<00:00, 59.15it/s][A
+Processing rows:  80%|███████▉  | 171/214 [00:02<00:00, 59.14it/s][A
+Processing rows:  83%|████████▎ | 177/214 [00:03<00:00, 58.05it/s][A
+Processing rows:  86%|████████▌ | 184/214 [00:03<00:00, 59.53it/s][A
+Processing rows:  89%|████████▉ | 190/214 [00:03<00:00, 57.65it/s][A
+Processing rows:  92%|█████████▏| 196/214 [00:03<00:00, 57.51it/s][A
+Processing rows:  94%|█████████▍| 202/214 [00:03<00:00, 57.95it/s][A
+Processing rows:  98%|█████████▊| 209/214 [00:03<00:00, 61.22it/s][AProcessing rows: 100%|██████████| 214/214 [00:03<00:00, 57.59it/s]
+2025-08-12 16:47:36,527 - __main__ - INFO - Wrote 214 rows to parameters/torsions/ash-sage-valence-v2/batch-0017.parquet
+Processing files:  54%|█████▍    | 19/35 [00:50<00:56,  3.56s/it]2025-08-12 16:47:36,627 - __main__ - INFO - Loaded 0 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Protein Capped 3-mer Omega v1.0.parquet
+2025-08-12 16:47:36,633 - __main__ - INFO - Loaded 2235 existing cmiles
+2025-08-12 16:47:36,633 - __main__ - INFO - New rows: 0
+
+Processing rows: 0it [00:00, ?it/s][AProcessing rows: 0it [00:00, ?it/s]
+Processing files:  57%|█████▋    | 20/35 [00:50<00:37,  2.52s/it]2025-08-12 16:47:36,768 - __main__ - INFO - Loaded 17 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Protein Fragments TorsionDrives v1.0.parquet
+2025-08-12 16:47:36,775 - __main__ - INFO - Loaded 2235 existing cmiles
+2025-08-12 16:47:36,775 - __main__ - INFO - New rows: 17
+
+Processing rows:   0%|          | 0/17 [00:00<?, ?it/s][A
+Processing rows:  29%|██▉       | 5/17 [00:00<00:00, 41.52it/s][A
+Processing rows:  59%|█████▉    | 10/17 [00:00<00:00, 42.95it/s][A
+Processing rows:  88%|████████▊ | 15/17 [00:00<00:00, 40.47it/s][AProcessing rows: 100%|██████████| 17/17 [00:00<00:00, 40.76it/s]
+2025-08-12 16:47:37,193 - __main__ - INFO - Wrote 17 rows to parameters/torsions/ash-sage-valence-v2/batch-0018.parquet
+Processing files:  60%|██████    | 21/35 [00:51<00:27,  1.93s/it]2025-08-12 16:47:37,295 - __main__ - INFO - Loaded 0 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF RNA Dinucleoside Monophosphate TorsionDrives v1.0.parquet
+2025-08-12 16:47:37,301 - __main__ - INFO - Loaded 2252 existing cmiles
+2025-08-12 16:47:37,301 - __main__ - INFO - New rows: 0
+
+Processing rows: 0it [00:00, ?it/s][AProcessing rows: 0it [00:00, ?it/s]
+Processing files:  63%|██████▎   | 22/35 [00:51<00:18,  1.39s/it]2025-08-12 16:47:37,402 - __main__ - INFO - Loaded 87 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Rowley Biaryl v1.0.parquet
+2025-08-12 16:47:37,409 - __main__ - INFO - Loaded 2252 existing cmiles
+2025-08-12 16:47:37,409 - __main__ - INFO - New rows: 84
+
+Processing rows:   0%|          | 0/84 [00:00<?, ?it/s][A
+Processing rows:   8%|▊         | 7/84 [00:00<00:01, 60.32it/s][A
+Processing rows:  17%|█▋        | 14/84 [00:00<00:01, 58.71it/s][A
+Processing rows:  25%|██▌       | 21/84 [00:00<00:01, 59.65it/s][A
+Processing rows:  32%|███▏      | 27/84 [00:00<00:00, 59.24it/s][A
+Processing rows:  40%|████      | 34/84 [00:00<00:00, 60.43it/s][A
+Processing rows:  49%|████▉     | 41/84 [00:00<00:00, 59.73it/s][A
+Processing rows:  57%|█████▋    | 48/84 [00:00<00:00, 59.73it/s][A
+Processing rows:  64%|██████▍   | 54/84 [00:00<00:00, 54.51it/s][A
+Processing rows:  73%|███████▎  | 61/84 [00:01<00:00, 56.42it/s][A
+Processing rows:  80%|███████▉  | 67/84 [00:01<00:00, 56.88it/s][A
+Processing rows:  88%|████████▊ | 74/84 [00:01<00:00, 58.28it/s][A
+Processing rows:  96%|█████████▋| 81/84 [00:01<00:00, 60.71it/s][AProcessing rows: 100%|██████████| 84/84 [00:01<00:00, 59.08it/s]
+2025-08-12 16:47:38,832 - __main__ - INFO - Wrote 84 rows to parameters/torsions/ash-sage-valence-v2/batch-0019.parquet
+Processing files:  66%|██████▌   | 23/35 [00:52<00:17,  1.43s/it]2025-08-12 16:47:38,945 - __main__ - INFO - Loaded 150 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Substituted Phenyl Set 1.parquet
+2025-08-12 16:47:38,961 - __main__ - INFO - Loaded 2336 existing cmiles
+2025-08-12 16:47:38,962 - __main__ - INFO - New rows: 149
+
+Processing rows:   0%|          | 0/149 [00:00<?, ?it/s][A
+Processing rows:   4%|▍         | 6/149 [00:00<00:02, 53.87it/s][A
+Processing rows:   9%|▊         | 13/149 [00:00<00:02, 57.77it/s][A
+Processing rows:  13%|█▎        | 19/149 [00:00<00:02, 58.45it/s][A
+Processing rows:  17%|█▋        | 25/149 [00:00<00:02, 57.06it/s][A
+Processing rows:  21%|██        | 31/149 [00:00<00:02, 56.71it/s][A
+Processing rows:  25%|██▍       | 37/149 [00:00<00:02, 55.69it/s][A
+Processing rows:  29%|██▉       | 43/149 [00:00<00:01, 55.63it/s][A
+Processing rows:  33%|███▎      | 49/149 [00:00<00:01, 56.46it/s][A
+Processing rows:  37%|███▋      | 55/149 [00:00<00:01, 57.12it/s][A
+Processing rows:  42%|████▏     | 62/149 [00:01<00:01, 58.07it/s][A
+Processing rows:  46%|████▌     | 68/149 [00:01<00:01, 57.40it/s][A
+Processing rows:  50%|█████     | 75/149 [00:01<00:01, 59.55it/s][A
+Processing rows:  55%|█████▌    | 82/149 [00:01<00:01, 60.87it/s][A
+Processing rows:  60%|█████▉    | 89/149 [00:01<00:00, 60.96it/s][A
+Processing rows:  64%|██████▍   | 96/149 [00:01<00:00, 61.19it/s][A
+Processing rows:  69%|██████▉   | 103/149 [00:01<00:00, 59.87it/s][A
+Processing rows:  73%|███████▎  | 109/149 [00:01<00:00, 59.23it/s][A
+Processing rows:  77%|███████▋  | 115/149 [00:01<00:00, 58.11it/s][A
+Processing rows:  81%|████████  | 121/149 [00:02<00:00, 57.38it/s][A
+Processing rows:  85%|████████▌ | 127/149 [00:02<00:00, 57.17it/s][A
+Processing rows:  89%|████████▉ | 133/149 [00:02<00:00, 52.98it/s][A
+Processing rows:  94%|█████████▍| 140/149 [00:02<00:00, 56.42it/s][A
+Processing rows:  99%|█████████▊| 147/149 [00:02<00:00, 58.46it/s][AProcessing rows: 100%|██████████| 149/149 [00:02<00:00, 58.03it/s]
+2025-08-12 16:47:41,532 - __main__ - INFO - Wrote 149 rows to parameters/torsions/ash-sage-valence-v2/batch-0020.parquet
+Processing files:  69%|██████▊   | 24/35 [00:55<00:19,  1.81s/it]2025-08-12 16:47:41,630 - __main__ - INFO - Loaded 31 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Torsion Coverage Supplement v1.0.parquet
+2025-08-12 16:47:41,636 - __main__ - INFO - Loaded 2484 existing cmiles
+2025-08-12 16:47:41,636 - __main__ - INFO - New rows: 31
+
+Processing rows:   0%|          | 0/31 [00:00<?, ?it/s][A
+Processing rows:  16%|█▌        | 5/31 [00:00<00:00, 45.81it/s][A
+Processing rows:  35%|███▌      | 11/31 [00:00<00:00, 49.01it/s][A
+Processing rows:  55%|█████▍    | 17/31 [00:00<00:00, 52.41it/s][A
+Processing rows:  77%|███████▋  | 24/31 [00:00<00:00, 58.44it/s][A
+Processing rows:  97%|█████████▋| 30/31 [00:00<00:00, 56.99it/s][AProcessing rows: 100%|██████████| 31/31 [00:00<00:00, 55.68it/s]
+2025-08-12 16:47:42,194 - __main__ - INFO - Wrote 31 rows to parameters/torsions/ash-sage-valence-v2/batch-0021.parquet
+Processing files:  71%|███████▏  | 25/35 [00:56<00:14,  1.47s/it]2025-08-12 16:47:42,294 - __main__ - INFO - Loaded 15 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Torsion Drive Supplement v1.0.parquet
+2025-08-12 16:47:42,301 - __main__ - INFO - Loaded 2515 existing cmiles
+2025-08-12 16:47:42,301 - __main__ - INFO - New rows: 15
+
+Processing rows:   0%|          | 0/15 [00:00<?, ?it/s][A
+Processing rows:  53%|█████▎    | 8/15 [00:00<00:00, 72.98it/s][AProcessing rows: 100%|██████████| 15/15 [00:00<00:00, 72.02it/s]
+2025-08-12 16:47:42,510 - __main__ - INFO - Wrote 15 rows to parameters/torsions/ash-sage-valence-v2/batch-0022.parquet
+Processing files:  74%|███████▍  | 26/35 [00:56<00:10,  1.12s/it]2025-08-12 16:47:42,635 - __main__ - INFO - Loaded 40 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF Torsion Multiplicity Torsion Drive Coverage Supplement v1.0.parquet
+2025-08-12 16:47:42,643 - __main__ - INFO - Loaded 2530 existing cmiles
+2025-08-12 16:47:42,643 - __main__ - INFO - New rows: 40
+
+Processing rows:   0%|          | 0/40 [00:00<?, ?it/s][A
+Processing rows:  18%|█▊        | 7/40 [00:00<00:00, 62.25it/s][A
+Processing rows:  35%|███▌      | 14/40 [00:00<00:00, 61.19it/s][A
+Processing rows:  52%|█████▎    | 21/40 [00:00<00:00, 57.33it/s][A
+Processing rows:  68%|██████▊   | 27/40 [00:00<00:00, 58.11it/s][A
+Processing rows:  88%|████████▊ | 35/40 [00:00<00:00, 64.13it/s][AProcessing rows: 100%|██████████| 40/40 [00:00<00:00, 63.58it/s]
+2025-08-12 16:47:43,273 - __main__ - INFO - Wrote 40 rows to parameters/torsions/ash-sage-valence-v2/batch-0023.parquet
+Processing files:  77%|███████▋  | 27/35 [00:57<00:08,  1.01s/it]2025-08-12 16:47:43,370 - __main__ - INFO - Loaded 204 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF WBO Conjugated Series v1.0.parquet
+2025-08-12 16:47:43,380 - __main__ - INFO - Loaded 2569 existing cmiles
+2025-08-12 16:47:43,380 - __main__ - INFO - New rows: 202
+
+Processing rows:   0%|          | 0/202 [00:00<?, ?it/s][A
+Processing rows:   4%|▍         | 8/202 [00:00<00:02, 76.78it/s][A
+Processing rows:   8%|▊         | 16/202 [00:00<00:02, 77.08it/s][A
+Processing rows:  12%|█▏        | 24/202 [00:00<00:02, 78.00it/s][A
+Processing rows:  16%|█▌        | 32/202 [00:00<00:02, 77.12it/s][A
+Processing rows:  20%|█▉        | 40/202 [00:00<00:02, 72.58it/s][A
+Processing rows:  24%|██▍       | 48/202 [00:00<00:02, 69.30it/s][A
+Processing rows:  28%|██▊       | 56/202 [00:00<00:02, 70.78it/s][A
+Processing rows:  32%|███▏      | 64/202 [00:00<00:01, 72.22it/s][A
+Processing rows:  36%|███▌      | 72/202 [00:00<00:01, 69.97it/s][A
+Processing rows:  40%|███▉      | 80/202 [00:01<00:01, 71.10it/s][A
+Processing rows:  44%|████▎     | 88/202 [00:01<00:01, 70.31it/s][A
+Processing rows:  48%|████▊     | 96/202 [00:01<00:01, 70.07it/s][A
+Processing rows:  51%|█████▏    | 104/202 [00:01<00:01, 64.34it/s][A
+Processing rows:  55%|█████▍    | 111/202 [00:01<00:01, 65.21it/s][A
+Processing rows:  59%|█████▉    | 119/202 [00:01<00:01, 67.09it/s][A
+Processing rows:  63%|██████▎   | 127/202 [00:01<00:01, 69.00it/s][A
+Processing rows:  67%|██████▋   | 135/202 [00:01<00:00, 69.84it/s][A
+Processing rows:  71%|███████   | 143/202 [00:02<00:00, 70.16it/s][A
+Processing rows:  75%|███████▍  | 151/202 [00:02<00:00, 69.84it/s][A
+Processing rows:  79%|███████▊  | 159/202 [00:02<00:00, 70.49it/s][A
+Processing rows:  83%|████████▎ | 167/202 [00:02<00:00, 69.97it/s][A
+Processing rows:  87%|████████▋ | 175/202 [00:02<00:00, 70.93it/s][A
+Processing rows:  91%|█████████ | 183/202 [00:02<00:00, 71.01it/s][A
+Processing rows:  95%|█████████▍| 191/202 [00:02<00:00, 71.26it/s][A
+Processing rows:  99%|█████████▉| 200/202 [00:02<00:00, 74.81it/s][AProcessing rows: 100%|██████████| 202/202 [00:02<00:00, 71.07it/s]
+2025-08-12 16:47:46,223 - __main__ - INFO - Wrote 202 rows to parameters/torsions/ash-sage-valence-v2/batch-0024.parquet
+Processing files:  80%|████████  | 28/35 [01:00<00:11,  1.59s/it]2025-08-12 16:47:46,324 - __main__ - INFO - Loaded 83 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF multiplicity correction torsion drive data v1.1.parquet
+2025-08-12 16:47:46,333 - __main__ - INFO - Loaded 2762 existing cmiles
+2025-08-12 16:47:46,333 - __main__ - INFO - New rows: 83
+
+Processing rows:   0%|          | 0/83 [00:00<?, ?it/s][A
+Processing rows:  10%|▉         | 8/83 [00:00<00:01, 71.02it/s][A
+Processing rows:  19%|█▉        | 16/83 [00:00<00:01, 65.39it/s][A
+Processing rows:  28%|██▊       | 23/83 [00:00<00:00, 61.23it/s][A
+Processing rows:  36%|███▌      | 30/83 [00:00<00:00, 59.42it/s][A
+Processing rows:  45%|████▍     | 37/83 [00:00<00:00, 60.40it/s][A
+Processing rows:  53%|█████▎    | 44/83 [00:00<00:00, 60.44it/s][A
+Processing rows:  61%|██████▏   | 51/83 [00:00<00:00, 62.04it/s][A
+Processing rows:  71%|███████   | 59/83 [00:00<00:00, 65.88it/s][A
+Processing rows:  80%|███████▉  | 66/83 [00:01<00:00, 66.44it/s][A
+Processing rows:  89%|████████▉ | 74/83 [00:01<00:00, 67.20it/s][A
+Processing rows:  99%|█████████▉| 82/83 [00:01<00:00, 69.98it/s][AProcessing rows: 100%|██████████| 83/83 [00:01<00:00, 65.56it/s]
+2025-08-12 16:47:47,600 - __main__ - INFO - Wrote 83 rows to parameters/torsions/ash-sage-valence-v2/batch-0025.parquet
+Processing files:  83%|████████▎ | 29/35 [01:01<00:09,  1.53s/it]2025-08-12 16:47:47,727 - __main__ - INFO - Loaded 417 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF-benchmark-ligand-fragments-v1.0.parquet
+2025-08-12 16:47:47,740 - __main__ - INFO - Loaded 2845 existing cmiles
+2025-08-12 16:47:47,740 - __main__ - INFO - New rows: 392
+
+Processing rows:   0%|          | 0/392 [00:00<?, ?it/s][A
+Processing rows:   2%|▏         | 6/392 [00:00<00:06, 56.17it/s][A
+Processing rows:   3%|▎         | 13/392 [00:00<00:06, 59.20it/s][A
+Processing rows:   5%|▍         | 19/392 [00:00<00:06, 57.61it/s][A
+Processing rows:   6%|▋         | 25/392 [00:00<00:06, 56.27it/s][A
+Processing rows:   8%|▊         | 31/392 [00:00<00:06, 54.62it/s][A
+Processing rows:   9%|▉         | 37/392 [00:00<00:06, 53.83it/s][A
+Processing rows:  11%|█         | 43/392 [00:00<00:06, 51.84it/s][A
+Processing rows:  12%|█▎        | 49/392 [00:00<00:06, 52.35it/s][A
+Processing rows:  14%|█▍        | 55/392 [00:01<00:06, 54.36it/s][A
+Processing rows:  16%|█▌        | 62/392 [00:01<00:05, 56.78it/s][A
+Processing rows:  17%|█▋        | 68/392 [00:01<00:05, 56.60it/s][A
+Processing rows:  19%|█▉        | 74/392 [00:01<00:05, 53.25it/s][A
+Processing rows:  20%|██        | 80/392 [00:01<00:05, 52.59it/s][A
+Processing rows:  22%|██▏       | 86/392 [00:01<00:05, 52.35it/s][A
+Processing rows:  23%|██▎       | 92/392 [00:01<00:05, 54.21it/s][A
+Processing rows:  25%|██▌       | 99/392 [00:01<00:05, 56.48it/s][A
+Processing rows:  27%|██▋       | 105/392 [00:01<00:05, 56.14it/s][A
+Processing rows:  28%|██▊       | 111/392 [00:02<00:04, 56.33it/s][A
+Processing rows:  30%|██▉       | 117/392 [00:02<00:05, 53.78it/s][A
+Processing rows:  31%|███▏      | 123/392 [00:02<00:05, 53.43it/s][A
+Processing rows:  33%|███▎      | 129/392 [00:02<00:04, 53.01it/s][A
+Processing rows:  35%|███▍      | 136/392 [00:02<00:04, 54.28it/s][A
+Processing rows:  36%|███▌      | 142/392 [00:02<00:04, 52.95it/s][A
+Processing rows:  38%|███▊      | 148/392 [00:02<00:04, 49.84it/s][A
+Processing rows:  39%|███▉      | 154/392 [00:02<00:04, 50.57it/s][A
+Processing rows:  41%|████      | 160/392 [00:02<00:04, 51.17it/s][A
+Processing rows:  42%|████▏     | 166/392 [00:03<00:04, 52.02it/s][A
+Processing rows:  44%|████▍     | 172/392 [00:03<00:04, 53.89it/s][A
+Processing rows:  45%|████▌     | 178/392 [00:03<00:04, 48.98it/s][A
+Processing rows:  47%|████▋     | 184/392 [00:03<00:04, 46.87it/s][A
+Processing rows:  48%|████▊     | 189/392 [00:03<00:04, 44.64it/s][A
+Processing rows:  49%|████▉     | 194/392 [00:03<00:04, 44.19it/s][A
+Processing rows:  51%|█████     | 199/392 [00:03<00:04, 44.01it/s][A
+Processing rows:  52%|█████▏    | 204/392 [00:03<00:04, 44.85it/s][A
+Processing rows:  54%|█████▎    | 210/392 [00:04<00:03, 47.94it/s][A
+Processing rows:  55%|█████▌    | 216/392 [00:04<00:03, 49.07it/s][A
+Processing rows:  56%|█████▋    | 221/392 [00:04<00:03, 49.30it/s][A
+Processing rows:  58%|█████▊    | 227/392 [00:04<00:03, 50.95it/s][A
+Processing rows:  59%|█████▉    | 233/392 [00:04<00:03, 49.14it/s][A
+Processing rows:  61%|██████    | 239/392 [00:04<00:02, 51.08it/s][A
+Processing rows:  62%|██████▎   | 245/392 [00:04<00:02, 50.85it/s][A
+Processing rows:  64%|██████▍   | 251/392 [00:04<00:02, 52.47it/s][A
+Processing rows:  66%|██████▌   | 257/392 [00:04<00:02, 52.82it/s][A
+Processing rows:  67%|██████▋   | 263/392 [00:05<00:02, 50.58it/s][A
+Processing rows:  69%|██████▊   | 269/392 [00:05<00:02, 50.52it/s][A
+Processing rows:  70%|███████   | 275/392 [00:05<00:02, 47.58it/s][A
+Processing rows:  71%|███████▏  | 280/392 [00:05<00:02, 47.37it/s][A
+Processing rows:  73%|███████▎  | 285/392 [00:05<00:02, 46.95it/s][A
+Processing rows:  74%|███████▍  | 291/392 [00:05<00:02, 48.31it/s][A
+Processing rows:  76%|███████▌  | 297/392 [00:05<00:01, 49.21it/s][A
+Processing rows:  77%|███████▋  | 302/392 [00:05<00:01, 47.90it/s][A
+Processing rows:  78%|███████▊  | 307/392 [00:06<00:01, 47.81it/s][A
+Processing rows:  80%|███████▉  | 312/392 [00:06<00:01, 48.27it/s][A
+Processing rows:  81%|████████  | 318/392 [00:06<00:01, 48.96it/s][A
+Processing rows:  82%|████████▏ | 323/392 [00:06<00:01, 47.56it/s][A
+Processing rows:  84%|████████▎ | 328/392 [00:06<00:01, 46.58it/s][A
+Processing rows:  85%|████████▍ | 333/392 [00:06<00:01, 47.33it/s][A
+Processing rows:  87%|████████▋ | 340/392 [00:06<00:00, 52.10it/s][A
+Processing rows:  88%|████████▊ | 346/392 [00:06<00:00, 52.87it/s][A
+Processing rows:  90%|████████▉ | 352/392 [00:06<00:00, 54.09it/s][A
+Processing rows:  91%|█████████▏| 358/392 [00:06<00:00, 55.39it/s][A
+Processing rows:  93%|█████████▎| 364/392 [00:07<00:00, 54.79it/s][A
+Processing rows:  94%|█████████▍| 370/392 [00:07<00:00, 55.68it/s][A
+Processing rows:  96%|█████████▌| 377/392 [00:07<00:00, 58.03it/s][A
+Processing rows:  98%|█████████▊| 384/392 [00:07<00:00, 59.32it/s][A
+Processing rows:  99%|█████████▉| 390/392 [00:07<00:00, 58.35it/s][AProcessing rows: 100%|██████████| 392/392 [00:07<00:00, 51.82it/s]
+2025-08-12 16:47:55,307 - __main__ - INFO - Wrote 392 rows to parameters/torsions/ash-sage-valence-v2/batch-0026.parquet
+Processing files:  86%|████████▌ | 30/35 [01:09<00:16,  3.38s/it]2025-08-12 16:47:55,434 - __main__ - INFO - Loaded 546 rows from ../../../01_download-data/qm/data/tables/torsiondrive/OpenFF-benchmark-ligand-fragments-v2.0.parquet
+2025-08-12 16:47:55,450 - __main__ - INFO - Loaded 3146 existing cmiles
+2025-08-12 16:47:55,450 - __main__ - INFO - New rows: 130
+
+Processing rows:   0%|          | 0/130 [00:00<?, ?it/s][A
+Processing rows:   5%|▍         | 6/130 [00:00<00:02, 50.29it/s][A
+Processing rows:   9%|▉         | 12/130 [00:00<00:02, 47.62it/s][A
+Processing rows:  13%|█▎        | 17/130 [00:00<00:02, 46.34it/s][A
+Processing rows:  17%|█▋        | 22/130 [00:00<00:02, 46.42it/s][A
+Processing rows:  21%|██        | 27/130 [00:00<00:02, 47.06it/s][A
+Processing rows:  25%|██▍       | 32/130 [00:00<00:02, 46.07it/s][A
+Processing rows:  29%|██▉       | 38/130 [00:00<00:01, 49.59it/s][A
+Processing rows:  34%|███▍      | 44/130 [00:00<00:01, 49.68it/s][A
+Processing rows:  38%|███▊      | 49/130 [00:01<00:01, 48.45it/s][A
+Processing rows:  42%|████▏     | 54/130 [00:01<00:01, 48.88it/s][A
+Processing rows:  45%|████▌     | 59/130 [00:01<00:01, 49.12it/s][A
+Processing rows:  50%|█████     | 65/130 [00:01<00:01, 50.16it/s][A
+Processing rows:  55%|█████▍    | 71/130 [00:01<00:01, 52.32it/s][A
+Processing rows:  59%|█████▉    | 77/130 [00:01<00:01, 50.98it/s][A
+Processing rows:  64%|██████▍   | 83/130 [00:01<00:00, 51.51it/s][A
+Processing rows:  68%|██████▊   | 89/130 [00:01<00:00, 49.57it/s][A
+Processing rows:  72%|███████▏  | 94/130 [00:01<00:00, 47.89it/s][A
+Processing rows:  76%|███████▌  | 99/130 [00:02<00:00, 47.89it/s][A
+Processing rows:  81%|████████  | 105/130 [00:02<00:00, 49.32it/s][A
+Processing rows:  85%|████████▌ | 111/130 [00:02<00:00, 49.89it/s][A
+Processing rows:  89%|████████▉ | 116/130 [00:02<00:00, 49.58it/s][A
+Processing rows:  93%|█████████▎| 121/130 [00:02<00:00, 45.77it/s][A
+Processing rows:  98%|█████████▊| 127/130 [00:02<00:00, 47.69it/s][AProcessing rows: 100%|██████████| 130/130 [00:02<00:00, 48.62it/s]
+2025-08-12 16:47:58,125 - __main__ - INFO - Wrote 130 rows to parameters/torsions/ash-sage-valence-v2/batch-0027.parquet
+Processing files:  89%|████████▊ | 31/35 [01:12<00:12,  3.21s/it]2025-08-12 16:47:58,229 - __main__ - INFO - Loaded 85 rows from ../../../01_download-data/qm/data/tables/torsiondrive/Pfizer discrepancy torsion dataset 1.parquet
+2025-08-12 16:47:58,239 - __main__ - INFO - Loaded 3256 existing cmiles
+2025-08-12 16:47:58,239 - __main__ - INFO - New rows: 25
+
+Processing rows:   0%|          | 0/25 [00:00<?, ?it/s][A
+Processing rows:  24%|██▍       | 6/25 [00:00<00:00, 55.59it/s][A
+Processing rows:  48%|████▊     | 12/25 [00:00<00:00, 55.87it/s][A
+Processing rows:  72%|███████▏  | 18/25 [00:00<00:00, 53.42it/s][A
+Processing rows:  96%|█████████▌| 24/25 [00:00<00:00, 53.78it/s][AProcessing rows: 100%|██████████| 25/25 [00:00<00:00, 54.11it/s]
+2025-08-12 16:47:58,703 - __main__ - INFO - Wrote 25 rows to parameters/torsions/ash-sage-valence-v2/batch-0028.parquet
+Processing files:  91%|█████████▏| 32/35 [01:12<00:07,  2.42s/it]2025-08-12 16:47:58,804 - __main__ - INFO - Loaded 436 rows from ../../../01_download-data/qm/data/tables/torsiondrive/SMIRNOFF Coverage Torsion Set 1.parquet
+2025-08-12 16:47:58,818 - __main__ - INFO - Loaded 3278 existing cmiles
+2025-08-12 16:47:58,819 - __main__ - INFO - New rows: 222
+
+Processing rows:   0%|          | 0/222 [00:00<?, ?it/s][A
+Processing rows:   3%|▎         | 6/222 [00:00<00:03, 59.40it/s][A
+Processing rows:   5%|▌         | 12/222 [00:00<00:03, 57.84it/s][A
+Processing rows:   8%|▊         | 18/222 [00:00<00:03, 58.65it/s][A
+Processing rows:  11%|█         | 24/222 [00:00<00:03, 58.56it/s][A
+Processing rows:  14%|█▎        | 30/222 [00:00<00:03, 55.28it/s][A
+Processing rows:  17%|█▋        | 37/222 [00:00<00:03, 57.98it/s][A
+Processing rows:  20%|█▉        | 44/222 [00:00<00:02, 60.20it/s][A
+Processing rows:  23%|██▎       | 51/222 [00:00<00:02, 60.68it/s][A
+Processing rows:  27%|██▋       | 59/222 [00:00<00:02, 64.37it/s][A
+Processing rows:  30%|██▉       | 66/222 [00:01<00:02, 64.63it/s][A
+Processing rows:  33%|███▎      | 73/222 [00:01<00:02, 65.63it/s][A
+Processing rows:  36%|███▌      | 80/222 [00:01<00:02, 62.98it/s][A
+Processing rows:  39%|███▉      | 87/222 [00:01<00:02, 59.94it/s][A
+Processing rows:  42%|████▏     | 94/222 [00:01<00:02, 61.79it/s][A
+Processing rows:  45%|████▌     | 101/222 [00:01<00:01, 62.78it/s][A
+Processing rows:  49%|████▊     | 108/222 [00:01<00:01, 64.01it/s][A
+Processing rows:  52%|█████▏    | 115/222 [00:01<00:01, 62.47it/s][A
+Processing rows:  55%|█████▍    | 122/222 [00:01<00:01, 62.05it/s][A
+Processing rows:  58%|█████▊    | 129/222 [00:02<00:01, 62.50it/s][A
+Processing rows:  61%|██████▏   | 136/222 [00:02<00:01, 62.20it/s][A
+Processing rows:  65%|██████▍   | 144/222 [00:02<00:01, 65.48it/s][A
+Processing rows:  68%|██████▊   | 152/222 [00:02<00:01, 67.84it/s][A
+Processing rows:  72%|███████▏  | 159/222 [00:02<00:00, 66.25it/s][A
+Processing rows:  75%|███████▍  | 166/222 [00:02<00:00, 64.59it/s][A
+Processing rows:  78%|███████▊  | 174/222 [00:02<00:00, 66.87it/s][A
+Processing rows:  82%|████████▏ | 181/222 [00:02<00:00, 66.21it/s][A
+Processing rows:  85%|████████▍ | 188/222 [00:02<00:00, 65.54it/s][A
+Processing rows:  88%|████████▊ | 195/222 [00:03<00:00, 65.06it/s][A
+Processing rows:  91%|█████████ | 202/222 [00:03<00:00, 66.11it/s][A
+Processing rows:  95%|█████████▍| 210/222 [00:03<00:00, 69.44it/s][A
+Processing rows:  98%|█████████▊| 217/222 [00:03<00:00, 66.04it/s][AProcessing rows: 100%|██████████| 222/222 [00:03<00:00, 63.82it/s]
+2025-08-12 16:48:02,299 - __main__ - INFO - Wrote 222 rows to parameters/torsions/ash-sage-valence-v2/batch-0029.parquet
+Processing files:  94%|█████████▍| 33/35 [01:16<00:05,  2.77s/it]2025-08-12 16:48:02,400 - __main__ - INFO - Loaded 6740 rows from ../../../01_download-data/qm/data/tables/torsiondrive/XtalPi 20-percent Fragments TorsiondriveDataset v1.0.parquet
+2025-08-12 16:48:02,503 - __main__ - INFO - Loaded 3337 existing cmiles
+2025-08-12 16:48:02,504 - __main__ - INFO - New rows: 6740
+
+Processing rows:   0%|          | 0/6740 [00:00<?, ?it/s][A
+Processing rows:   0%|          | 6/6740 [00:00<02:10, 51.68it/s][A
+Processing rows:   0%|          | 12/6740 [00:00<02:11, 51.23it/s][A
+Processing rows:   0%|          | 18/6740 [00:00<02:08, 52.35it/s][A
+Processing rows:   0%|          | 24/6740 [00:00<02:03, 54.23it/s][A
+Processing rows:   0%|          | 30/6740 [00:00<02:01, 55.37it/s][A
+Processing rows:   1%|          | 37/6740 [00:00<01:54, 58.59it/s][A
+Processing rows:   1%|          | 44/6740 [00:00<01:51, 59.89it/s][A
+Processing rows:   1%|          | 51/6740 [00:00<01:50, 60.79it/s][A
+Processing rows:   1%|          | 58/6740 [00:01<01:50, 60.36it/s][A
+Processing rows:   1%|          | 65/6740 [00:01<01:56, 57.24it/s][A
+Processing rows:   1%|          | 71/6740 [00:01<01:57, 56.60it/s][A
+Processing rows:   1%|          | 77/6740 [00:01<01:57, 56.52it/s][A
+Processing rows:   1%|          | 83/6740 [00:01<01:57, 56.68it/s][A
+Processing rows:   1%|▏         | 90/6740 [00:01<01:54, 57.96it/s][A
+Processing rows:   1%|▏         | 96/6740 [00:01<01:58, 55.94it/s][A
+Processing rows:   2%|▏         | 102/6740 [00:01<02:00, 55.22it/s][A
+Processing rows:   2%|▏         | 109/6740 [00:01<01:55, 57.16it/s][A
+Processing rows:   2%|▏         | 115/6740 [00:02<01:54, 57.93it/s][A
+Processing rows:   2%|▏         | 121/6740 [00:02<01:54, 57.70it/s][A
+Processing rows:   2%|▏         | 127/6740 [00:02<01:57, 56.07it/s][A
+Processing rows:   2%|▏         | 134/6740 [00:02<01:53, 58.28it/s][A
+Processing rows:   2%|▏         | 140/6740 [00:02<01:55, 56.91it/s][A
+Processing rows:   2%|▏         | 147/6740 [00:02<01:53, 58.20it/s][A
+Processing rows:   2%|▏         | 154/6740 [00:02<01:53, 58.23it/s][A
+Processing rows:   2%|▏         | 160/6740 [00:02<01:55, 57.06it/s][A
+Processing rows:   2%|▏         | 166/6740 [00:02<01:54, 57.65it/s][A
+Processing rows:   3%|▎         | 172/6740 [00:03<01:53, 58.04it/s][A
+Processing rows:   3%|▎         | 178/6740 [00:03<02:01, 54.18it/s][A
+Processing rows:   3%|▎         | 184/6740 [00:03<02:04, 52.78it/s][A
+Processing rows:   3%|▎         | 190/6740 [00:03<02:04, 52.65it/s][A
+Processing rows:   3%|▎         | 196/6740 [00:03<02:07, 51.28it/s][A
+Processing rows:   3%|▎         | 202/6740 [00:03<02:05, 52.23it/s][A
+Processing rows:   3%|▎         | 208/6740 [00:03<02:02, 53.35it/s][A
+Processing rows:   3%|▎         | 215/6740 [00:03<01:53, 57.42it/s][A
+Processing rows:   3%|▎         | 221/6740 [00:03<02:01, 53.54it/s][A
+Processing rows:   3%|▎         | 228/6740 [00:04<01:57, 55.59it/s][A
+Processing rows:   3%|▎         | 234/6740 [00:04<01:58, 54.98it/s][A
+Processing rows:   4%|▎         | 240/6740 [00:04<02:00, 54.11it/s][A
+Processing rows:   4%|▎         | 246/6740 [00:04<01:57, 55.48it/s][A
+Processing rows:   4%|▎         | 252/6740 [00:04<01:56, 55.47it/s][A
+Processing rows:   4%|▍         | 258/6740 [00:04<01:57, 55.39it/s][A
+Processing rows:   4%|▍         | 264/6740 [00:04<01:55, 56.14it/s][A
+Processing rows:   4%|▍         | 270/6740 [00:04<01:57, 55.19it/s][A
+Processing rows:   4%|▍         | 276/6740 [00:04<01:57, 54.99it/s][A
+Processing rows:   4%|▍         | 282/6740 [00:05<01:57, 55.16it/s][A
+Processing rows:   4%|▍         | 288/6740 [00:05<01:56, 55.21it/s][A
+Processing rows:   4%|▍         | 294/6740 [00:05<01:55, 55.84it/s][A
+Processing rows:   4%|▍         | 300/6740 [00:05<01:55, 55.81it/s][A
+Processing rows:   5%|▍         | 306/6740 [00:05<01:55, 55.93it/s][A
+Processing rows:   5%|▍         | 312/6740 [00:05<01:57, 54.84it/s][A
+Processing rows:   5%|▍         | 318/6740 [00:05<01:57, 54.70it/s][A
+Processing rows:   5%|▍         | 324/6740 [00:05<01:59, 53.52it/s][A
+Processing rows:   5%|▍         | 331/6740 [00:05<01:53, 56.24it/s][A
+Processing rows:   5%|▌         | 337/6740 [00:06<01:54, 56.13it/s][A
+Processing rows:   5%|▌         | 343/6740 [00:06<01:57, 54.42it/s][A
+Processing rows:   5%|▌         | 349/6740 [00:06<01:58, 53.85it/s][A
+Processing rows:   5%|▌         | 355/6740 [00:06<01:55, 55.41it/s][A
+Processing rows:   5%|▌         | 361/6740 [00:06<01:53, 56.19it/s][A
+Processing rows:   5%|▌         | 367/6740 [00:06<01:54, 55.53it/s][A
+Processing rows:   6%|▌         | 374/6740 [00:06<01:51, 57.15it/s][A
+Processing rows:   6%|▌         | 380/6740 [00:06<01:50, 57.68it/s][A
+Processing rows:   6%|▌         | 387/6740 [00:06<01:47, 59.18it/s][A
+Processing rows:   6%|▌         | 393/6740 [00:07<01:50, 57.43it/s][A
+Processing rows:   6%|▌         | 399/6740 [00:07<01:54, 55.46it/s][A
+Processing rows:   6%|▌         | 405/6740 [00:07<02:00, 52.41it/s][A
+Processing rows:   6%|▌         | 411/6740 [00:07<02:02, 51.52it/s][A
+Processing rows:   6%|▌         | 417/6740 [00:07<02:02, 51.44it/s][A
+Processing rows:   6%|▋         | 423/6740 [00:07<02:01, 51.99it/s][A
+Processing rows:   6%|▋         | 429/6740 [00:07<02:01, 51.89it/s][A
+Processing rows:   6%|▋         | 435/6740 [00:07<02:00, 52.18it/s][A
+Processing rows:   7%|▋         | 441/6740 [00:07<02:05, 50.24it/s][A
+Processing rows:   7%|▋         | 447/6740 [00:08<02:03, 50.88it/s][A
+Processing rows:   7%|▋         | 453/6740 [00:08<02:05, 50.09it/s][A
+Processing rows:   7%|▋         | 459/6740 [00:08<02:01, 51.84it/s][A
+Processing rows:   7%|▋         | 465/6740 [00:08<01:57, 53.24it/s][A
+Processing rows:   7%|▋         | 471/6740 [00:08<01:54, 54.55it/s][A
+Processing rows:   7%|▋         | 477/6740 [00:08<01:54, 54.73it/s][A
+Processing rows:   7%|▋         | 483/6740 [00:08<01:55, 54.18it/s][A
+Processing rows:   7%|▋         | 489/6740 [00:08<01:53, 55.14it/s][A
+Processing rows:   7%|▋         | 495/6740 [00:08<01:54, 54.74it/s][A
+Processing rows:   7%|▋         | 501/6740 [00:09<01:55, 53.96it/s][A
+Processing rows:   8%|▊         | 507/6740 [00:09<01:58, 52.75it/s][A
+Processing rows:   8%|▊         | 513/6740 [00:09<01:54, 54.50it/s][A
+Processing rows:   8%|▊         | 519/6740 [00:09<01:54, 54.52it/s][A
+Processing rows:   8%|▊         | 525/6740 [00:09<01:53, 54.80it/s][A
+Processing rows:   8%|▊         | 531/6740 [00:09<01:54, 54.22it/s][A
+Processing rows:   8%|▊         | 537/6740 [00:09<01:56, 53.02it/s][A
+Processing rows:   8%|▊         | 543/6740 [00:09<01:55, 53.57it/s][A
+Processing rows:   8%|▊         | 549/6740 [00:09<01:54, 54.03it/s][A
+Processing rows:   8%|▊         | 555/6740 [00:10<01:57, 52.49it/s][A
+Processing rows:   8%|▊         | 561/6740 [00:10<01:57, 52.53it/s][A
+Processing rows:   8%|▊         | 567/6740 [00:10<01:58, 51.98it/s][A
+Processing rows:   9%|▊         | 573/6740 [00:10<01:56, 52.72it/s][A
+Processing rows:   9%|▊         | 579/6740 [00:10<01:55, 53.48it/s][A
+Processing rows:   9%|▊         | 585/6740 [00:10<01:55, 53.22it/s][A
+Processing rows:   9%|▉         | 591/6740 [00:10<01:59, 51.47it/s][A
+Processing rows:   9%|▉         | 597/6740 [00:10<02:00, 51.02it/s][A
+Processing rows:   9%|▉         | 603/6740 [00:11<01:59, 51.46it/s][A
+Processing rows:   9%|▉         | 609/6740 [00:11<01:59, 51.14it/s][A
+Processing rows:   9%|▉         | 615/6740 [00:11<01:55, 53.15it/s][A
+Processing rows:   9%|▉         | 622/6740 [00:11<01:50, 55.46it/s][A
+Processing rows:   9%|▉         | 628/6740 [00:11<01:51, 54.66it/s][A
+Processing rows:   9%|▉         | 634/6740 [00:11<02:00, 50.64it/s][A
+Processing rows:   9%|▉         | 640/6740 [00:11<01:57, 52.00it/s][A
+Processing rows:  10%|▉         | 646/6740 [00:11<01:56, 52.52it/s][A
+Processing rows:  10%|▉         | 652/6740 [00:11<01:51, 54.44it/s][A
+Processing rows:  10%|▉         | 658/6740 [00:12<01:51, 54.58it/s][A
+Processing rows:  10%|▉         | 664/6740 [00:12<01:50, 55.01it/s][A
+Processing rows:  10%|▉         | 670/6740 [00:12<01:49, 55.39it/s][A
+Processing rows:  10%|█         | 676/6740 [00:12<01:48, 55.99it/s][A
+Processing rows:  10%|█         | 682/6740 [00:12<01:50, 54.73it/s][A
+Processing rows:  10%|█         | 688/6740 [00:12<01:53, 53.44it/s][A
+Processing rows:  10%|█         | 694/6740 [00:12<01:51, 54.00it/s][A
+Processing rows:  10%|█         | 701/6740 [00:12<01:46, 56.95it/s][A
+Processing rows:  11%|█         | 708/6740 [00:12<01:41, 59.41it/s][A
+Processing rows:  11%|█         | 714/6740 [00:13<01:42, 59.02it/s][A
+Processing rows:  11%|█         | 720/6740 [00:13<01:48, 55.52it/s][A
+Processing rows:  11%|█         | 726/6740 [00:13<01:54, 52.64it/s][A
+Processing rows:  11%|█         | 732/6740 [00:13<01:51, 53.73it/s][A
+Processing rows:  11%|█         | 738/6740 [00:13<01:52, 53.45it/s][A
+Processing rows:  11%|█         | 744/6740 [00:13<01:55, 52.13it/s][A
+Processing rows:  11%|█         | 751/6740 [00:13<01:51, 53.56it/s][A
+Processing rows:  11%|█         | 758/6740 [00:13<01:46, 56.13it/s][A
+Processing rows:  11%|█▏        | 764/6740 [00:13<01:45, 56.53it/s][A
+Processing rows:  11%|█▏        | 770/6740 [00:14<01:44, 57.37it/s][A
+Processing rows:  12%|█▏        | 777/6740 [00:14<01:42, 58.41it/s][A
+Processing rows:  12%|█▏        | 783/6740 [00:14<01:44, 57.20it/s][A
+Processing rows:  12%|█▏        | 790/6740 [00:14<01:40, 59.31it/s][A
+Processing rows:  12%|█▏        | 796/6740 [00:14<01:42, 58.11it/s][A
+Processing rows:  12%|█▏        | 802/6740 [00:14<01:41, 58.27it/s][A
+Processing rows:  12%|█▏        | 808/6740 [00:14<01:43, 57.21it/s][A
+Processing rows:  12%|█▏        | 815/6740 [00:14<01:42, 57.78it/s][A
+Processing rows:  12%|█▏        | 821/6740 [00:14<01:42, 57.89it/s][A
+Processing rows:  12%|█▏        | 828/6740 [00:15<01:40, 58.68it/s][A
+Processing rows:  12%|█▏        | 834/6740 [00:15<01:41, 57.95it/s][A
+Processing rows:  12%|█▏        | 840/6740 [00:15<01:43, 57.21it/s][A
+Processing rows:  13%|█▎        | 846/6740 [00:15<01:46, 55.26it/s][A
+Processing rows:  13%|█▎        | 852/6740 [00:15<01:54, 51.55it/s][A
+Processing rows:  13%|█▎        | 858/6740 [00:15<01:51, 52.98it/s][A
+Processing rows:  13%|█▎        | 864/6740 [00:15<01:47, 54.59it/s][A
+Processing rows:  13%|█▎        | 870/6740 [00:15<01:46, 55.31it/s][A
+Processing rows:  13%|█▎        | 876/6740 [00:15<01:43, 56.48it/s][A
+Processing rows:  13%|█▎        | 883/6740 [00:16<01:40, 58.13it/s][A
+Processing rows:  13%|█▎        | 889/6740 [00:16<01:40, 58.09it/s][A
+Processing rows:  13%|█▎        | 895/6740 [00:16<01:45, 55.60it/s][A
+Processing rows:  13%|█▎        | 901/6740 [00:16<01:45, 55.21it/s][A
+Processing rows:  13%|█▎        | 907/6740 [00:16<01:43, 56.40it/s][A
+Processing rows:  14%|█▎        | 913/6740 [00:16<01:41, 57.37it/s][A
+Processing rows:  14%|█▎        | 919/6740 [00:16<01:44, 55.57it/s][A
+Processing rows:  14%|█▎        | 925/6740 [00:16<01:44, 55.58it/s][A
+Processing rows:  14%|█▍        | 931/6740 [00:16<01:46, 54.51it/s][A
+Processing rows:  14%|█▍        | 937/6740 [00:17<01:46, 54.49it/s][A
+Processing rows:  14%|█▍        | 943/6740 [00:17<01:47, 54.18it/s][A
+Processing rows:  14%|█▍        | 949/6740 [00:17<01:45, 54.76it/s][A
+Processing rows:  14%|█▍        | 955/6740 [00:17<01:47, 53.96it/s][A
+Processing rows:  14%|█▍        | 961/6740 [00:17<01:47, 53.71it/s][A
+Processing rows:  14%|█▍        | 967/6740 [00:17<01:51, 51.78it/s][A
+Processing rows:  14%|█▍        | 973/6740 [00:17<01:51, 51.91it/s][A
+Processing rows:  15%|█▍        | 979/6740 [00:17<01:52, 51.14it/s][A
+Processing rows:  15%|█▍        | 985/6740 [00:17<01:50, 51.97it/s][A
+Processing rows:  15%|█▍        | 991/6740 [00:18<01:48, 53.22it/s][A
+Processing rows:  15%|█▍        | 997/6740 [00:18<01:45, 54.64it/s][A
+Processing rows:  15%|█▍        | 1003/6740 [00:18<01:45, 54.14it/s][A
+Processing rows:  15%|█▍        | 1009/6740 [00:18<01:45, 54.21it/s][A
+Processing rows:  15%|█▌        | 1015/6740 [00:18<01:44, 55.00it/s][A
+Processing rows:  15%|█▌        | 1021/6740 [00:18<01:44, 54.68it/s][A
+Processing rows:  15%|█▌        | 1027/6740 [00:18<01:44, 54.42it/s][A
+Processing rows:  15%|█▌        | 1033/6740 [00:18<01:42, 55.44it/s][A
+Processing rows:  15%|█▌        | 1039/6740 [00:18<01:41, 56.22it/s][A
+Processing rows:  16%|█▌        | 1045/6740 [00:19<01:41, 56.30it/s][A
+Processing rows:  16%|█▌        | 1051/6740 [00:19<01:48, 52.34it/s][A
+Processing rows:  16%|█▌        | 1057/6740 [00:19<01:45, 53.64it/s][A
+Processing rows:  16%|█▌        | 1063/6740 [00:19<01:45, 54.02it/s][A
+Processing rows:  16%|█▌        | 1069/6740 [00:19<01:43, 54.91it/s][A
+Processing rows:  16%|█▌        | 1075/6740 [00:19<01:43, 54.50it/s][A
+Processing rows:  16%|█▌        | 1081/6740 [00:19<01:49, 51.77it/s][A
+Processing rows:  16%|█▌        | 1087/6740 [00:19<01:49, 51.72it/s][A
+Processing rows:  16%|█▌        | 1093/6740 [00:19<01:47, 52.34it/s][A
+Processing rows:  16%|█▋        | 1099/6740 [00:20<01:48, 52.07it/s][A
+Processing rows:  16%|█▋        | 1105/6740 [00:20<01:45, 53.60it/s][A
+Processing rows:  16%|█▋        | 1111/6740 [00:20<01:43, 54.39it/s][A
+Processing rows:  17%|█▋        | 1118/6740 [00:20<01:39, 56.45it/s][A
+Processing rows:  17%|█▋        | 1124/6740 [00:20<01:39, 56.66it/s][A
+Processing rows:  17%|█▋        | 1130/6740 [00:20<01:38, 56.87it/s][A
+Processing rows:  17%|█▋        | 1136/6740 [00:20<01:44, 53.57it/s][A
+Processing rows:  17%|█▋        | 1142/6740 [00:20<01:45, 53.16it/s][A
+Processing rows:  17%|█▋        | 1148/6740 [00:20<01:47, 52.04it/s][A
+Processing rows:  17%|█▋        | 1154/6740 [00:21<01:45, 52.95it/s][A
+Processing rows:  17%|█▋        | 1160/6740 [00:21<01:44, 53.26it/s][A
+Processing rows:  17%|█▋        | 1166/6740 [00:21<01:43, 53.92it/s][A
+Processing rows:  17%|█▋        | 1172/6740 [00:21<01:43, 53.75it/s][A
+Processing rows:  17%|█▋        | 1179/6740 [00:21<01:39, 55.78it/s][A
+Processing rows:  18%|█▊        | 1185/6740 [00:21<01:38, 56.62it/s][A
+Processing rows:  18%|█▊        | 1191/6740 [00:21<01:37, 56.96it/s][A
+Processing rows:  18%|█▊        | 1197/6740 [00:21<01:36, 57.33it/s][A
+Processing rows:  18%|█▊        | 1203/6740 [00:21<01:35, 57.70it/s][A
+Processing rows:  18%|█▊        | 1210/6740 [00:22<01:34, 58.41it/s][A
+Processing rows:  18%|█▊        | 1216/6740 [00:22<01:35, 57.86it/s][A
+Processing rows:  18%|█▊        | 1223/6740 [00:22<01:32, 59.34it/s][A
+Processing rows:  18%|█▊        | 1229/6740 [00:22<01:33, 59.13it/s][A
+Processing rows:  18%|█▊        | 1235/6740 [00:22<01:36, 57.25it/s][A
+Processing rows:  18%|█▊        | 1241/6740 [00:22<01:38, 55.79it/s][A
+Processing rows:  19%|█▊        | 1247/6740 [00:22<01:37, 56.06it/s][A
+Processing rows:  19%|█▊        | 1254/6740 [00:22<01:35, 57.58it/s][A
+Processing rows:  19%|█▊        | 1260/6740 [00:22<01:48, 50.42it/s][A
+Processing rows:  19%|█▉        | 1266/6740 [00:23<01:48, 50.31it/s][A
+Processing rows:  19%|█▉        | 1272/6740 [00:23<01:49, 49.79it/s][A
+Processing rows:  19%|█▉        | 1278/6740 [00:23<01:48, 50.24it/s][A
+Processing rows:  19%|█▉        | 1284/6740 [00:23<01:46, 51.12it/s][A
+Processing rows:  19%|█▉        | 1290/6740 [00:23<01:45, 51.90it/s][A
+Processing rows:  19%|█▉        | 1296/6740 [00:23<01:44, 51.99it/s][A
+Processing rows:  19%|█▉        | 1302/6740 [00:23<01:44, 52.19it/s][A
+Processing rows:  19%|█▉        | 1308/6740 [00:23<01:43, 52.37it/s][A
+Processing rows:  19%|█▉        | 1314/6740 [00:24<01:44, 51.86it/s][A
+Processing rows:  20%|█▉        | 1320/6740 [00:24<01:43, 52.41it/s][A
+Processing rows:  20%|█▉        | 1326/6740 [00:24<01:42, 52.70it/s][A
+Processing rows:  20%|█▉        | 1332/6740 [00:24<01:48, 49.94it/s][A
+Processing rows:  20%|█▉        | 1338/6740 [00:24<01:48, 49.80it/s][A
+Processing rows:  20%|█▉        | 1344/6740 [00:24<01:53, 47.62it/s][A
+Processing rows:  20%|██        | 1349/6740 [00:24<01:52, 47.72it/s][A
+Processing rows:  20%|██        | 1354/6740 [00:24<01:52, 47.95it/s][A
+Processing rows:  20%|██        | 1359/6740 [00:24<01:53, 47.60it/s][A
+Processing rows:  20%|██        | 1365/6740 [00:25<01:50, 48.48it/s][A
+Processing rows:  20%|██        | 1370/6740 [00:25<01:50, 48.68it/s][A
+Processing rows:  20%|██        | 1375/6740 [00:25<01:49, 48.80it/s][A
+Processing rows:  20%|██        | 1380/6740 [00:25<01:50, 48.30it/s][A
+Processing rows:  21%|██        | 1385/6740 [00:25<01:52, 47.81it/s][A
+Processing rows:  21%|██        | 1390/6740 [00:25<01:51, 47.80it/s][A
+Processing rows:  21%|██        | 1396/6740 [00:25<01:50, 48.43it/s][A
+Processing rows:  21%|██        | 1402/6740 [00:25<01:46, 50.12it/s][A
+Processing rows:  21%|██        | 1408/6740 [00:25<01:47, 49.46it/s][A
+Processing rows:  21%|██        | 1413/6740 [00:26<01:53, 46.79it/s][A
+Processing rows:  21%|██        | 1419/6740 [00:26<01:46, 49.81it/s][A
+Processing rows:  21%|██        | 1425/6740 [00:26<01:41, 52.19it/s][A
+Processing rows:  21%|██        | 1431/6740 [00:26<01:38, 53.79it/s][A
+Processing rows:  21%|██▏       | 1438/6740 [00:26<01:34, 56.22it/s][A
+Processing rows:  21%|██▏       | 1444/6740 [00:26<01:32, 57.21it/s][A
+Processing rows:  22%|██▏       | 1450/6740 [00:26<01:32, 57.47it/s][A
+Processing rows:  22%|██▏       | 1456/6740 [00:26<01:35, 55.27it/s][A
+Processing rows:  22%|██▏       | 1462/6740 [00:26<01:35, 55.50it/s][A
+Processing rows:  22%|██▏       | 1468/6740 [00:27<01:35, 55.14it/s][A
+Processing rows:  22%|██▏       | 1474/6740 [00:27<01:37, 53.90it/s][A
+Processing rows:  22%|██▏       | 1480/6740 [00:27<01:37, 54.15it/s][A
+Processing rows:  22%|██▏       | 1486/6740 [00:27<01:37, 54.04it/s][A
+Processing rows:  22%|██▏       | 1492/6740 [00:27<01:37, 53.71it/s][A
+Processing rows:  22%|██▏       | 1498/6740 [00:27<01:37, 53.61it/s][A
+Processing rows:  22%|██▏       | 1504/6740 [00:27<01:40, 51.94it/s][A
+Processing rows:  22%|██▏       | 1510/6740 [00:27<01:39, 52.46it/s][A
+Processing rows:  22%|██▏       | 1516/6740 [00:27<01:42, 50.84it/s][A
+Processing rows:  23%|██▎       | 1522/6740 [00:28<01:40, 51.73it/s][A
+Processing rows:  23%|██▎       | 1528/6740 [00:28<01:39, 52.47it/s][A
+Processing rows:  23%|██▎       | 1534/6740 [00:28<01:41, 51.10it/s][A
+Processing rows:  23%|██▎       | 1540/6740 [00:28<01:40, 51.74it/s][A
+Processing rows:  23%|██▎       | 1546/6740 [00:28<01:39, 52.38it/s][A
+Processing rows:  23%|██▎       | 1552/6740 [00:28<01:37, 53.29it/s][A
+Processing rows:  23%|██▎       | 1558/6740 [00:28<01:35, 54.55it/s][A
+Processing rows:  23%|██▎       | 1564/6740 [00:28<01:32, 55.88it/s][A
+Processing rows:  23%|██▎       | 1570/6740 [00:28<01:32, 55.85it/s][A
+Processing rows:  23%|██▎       | 1576/6740 [00:29<01:31, 56.26it/s][A
+Processing rows:  23%|██▎       | 1582/6740 [00:29<01:31, 56.31it/s][A
+Processing rows:  24%|██▎       | 1588/6740 [00:29<01:31, 56.56it/s][A
+Processing rows:  24%|██▎       | 1594/6740 [00:29<01:30, 56.94it/s][A
+Processing rows:  24%|██▎       | 1600/6740 [00:29<01:32, 55.51it/s][A
+Processing rows:  24%|██▍       | 1606/6740 [00:29<01:32, 55.40it/s][A
+Processing rows:  24%|██▍       | 1612/6740 [00:29<01:32, 55.60it/s][A
+Processing rows:  24%|██▍       | 1618/6740 [00:29<01:31, 55.95it/s][A
+Processing rows:  24%|██▍       | 1624/6740 [00:29<01:31, 56.15it/s][A
+Processing rows:  24%|██▍       | 1630/6740 [00:30<01:31, 55.63it/s][A
+Processing rows:  24%|██▍       | 1636/6740 [00:30<01:44, 48.99it/s][A
+Processing rows:  24%|██▍       | 1642/6740 [00:30<01:41, 50.14it/s][A
+Processing rows:  24%|██▍       | 1648/6740 [00:30<01:38, 51.48it/s][A
+Processing rows:  25%|██▍       | 1654/6740 [00:30<01:38, 51.54it/s][A
+Processing rows:  25%|██▍       | 1660/6740 [00:30<01:37, 52.24it/s][A
+Processing rows:  25%|██▍       | 1666/6740 [00:30<01:35, 53.19it/s][A
+Processing rows:  25%|██▍       | 1672/6740 [00:30<01:34, 53.44it/s][A
+Processing rows:  25%|██▍       | 1678/6740 [00:30<01:38, 51.42it/s][A
+Processing rows:  25%|██▍       | 1684/6740 [00:31<01:38, 51.24it/s][A
+Processing rows:  25%|██▌       | 1690/6740 [00:31<01:36, 52.18it/s][A
+Processing rows:  25%|██▌       | 1696/6740 [00:31<01:34, 53.22it/s][A
+Processing rows:  25%|██▌       | 1702/6740 [00:31<01:36, 52.33it/s][A
+Processing rows:  25%|██▌       | 1708/6740 [00:31<01:34, 53.33it/s][A
+Processing rows:  25%|██▌       | 1714/6740 [00:31<01:34, 53.02it/s][A
+Processing rows:  26%|██▌       | 1720/6740 [00:31<01:33, 53.78it/s][A
+Processing rows:  26%|██▌       | 1726/6740 [00:31<01:33, 53.49it/s][A
+Processing rows:  26%|██▌       | 1732/6740 [00:31<01:34, 52.83it/s][A
+Processing rows:  26%|██▌       | 1738/6740 [00:32<01:32, 53.80it/s][A
+Processing rows:  26%|██▌       | 1745/6740 [00:32<01:29, 56.01it/s][A
+Processing rows:  26%|██▌       | 1751/6740 [00:32<01:28, 56.36it/s][A
+Processing rows:  26%|██▌       | 1757/6740 [00:32<01:30, 55.22it/s][A
+Processing rows:  26%|██▌       | 1763/6740 [00:32<01:31, 54.48it/s][A
+Processing rows:  26%|██▌       | 1769/6740 [00:32<01:31, 54.39it/s][A
+Processing rows:  26%|██▋       | 1775/6740 [00:32<01:32, 53.44it/s][A
+Processing rows:  26%|██▋       | 1781/6740 [00:32<01:33, 53.22it/s][A
+Processing rows:  27%|██▋       | 1787/6740 [00:32<01:32, 53.70it/s][A
+Processing rows:  27%|██▋       | 1793/6740 [00:33<01:32, 53.25it/s][A
+Processing rows:  27%|██▋       | 1799/6740 [00:33<01:30, 54.36it/s][A
+Processing rows:  27%|██▋       | 1805/6740 [00:33<01:28, 55.74it/s][A
+Processing rows:  27%|██▋       | 1811/6740 [00:33<01:30, 54.45it/s][A
+Processing rows:  27%|██▋       | 1817/6740 [00:33<01:35, 51.81it/s][A
+Processing rows:  27%|██▋       | 1823/6740 [00:33<01:47, 45.89it/s][A
+Processing rows:  27%|██▋       | 1828/6740 [00:33<01:46, 46.13it/s][A
+Processing rows:  27%|██▋       | 1833/6740 [00:33<01:44, 46.80it/s][A
+Processing rows:  27%|██▋       | 1839/6740 [00:34<01:39, 49.05it/s][A
+Processing rows:  27%|██▋       | 1845/6740 [00:34<01:35, 51.08it/s][A
+Processing rows:  27%|██▋       | 1851/6740 [00:34<01:33, 52.38it/s][A
+Processing rows:  28%|██▊       | 1857/6740 [00:34<01:31, 53.16it/s][A
+Processing rows:  28%|██▊       | 1863/6740 [00:34<01:31, 53.22it/s][A
+Processing rows:  28%|██▊       | 1869/6740 [00:34<01:29, 54.49it/s][A
+Processing rows:  28%|██▊       | 1875/6740 [00:34<01:28, 54.81it/s][A
+Processing rows:  28%|██▊       | 1881/6740 [00:34<01:27, 55.51it/s][A
+Processing rows:  28%|██▊       | 1887/6740 [00:34<01:27, 55.71it/s][A
+Processing rows:  28%|██▊       | 1893/6740 [00:35<01:28, 54.56it/s][A
+Processing rows:  28%|██▊       | 1899/6740 [00:35<01:29, 54.02it/s][A
+Processing rows:  28%|██▊       | 1905/6740 [00:35<01:32, 52.21it/s][A
+Processing rows:  28%|██▊       | 1911/6740 [00:35<01:33, 51.74it/s][A
+Processing rows:  28%|██▊       | 1917/6740 [00:35<01:34, 51.23it/s][A
+Processing rows:  29%|██▊       | 1923/6740 [00:35<01:36, 50.13it/s][A
+Processing rows:  29%|██▊       | 1929/6740 [00:35<01:35, 50.35it/s][A
+Processing rows:  29%|██▊       | 1935/6740 [00:35<01:34, 50.63it/s][A
+Processing rows:  29%|██▉       | 1941/6740 [00:35<01:33, 51.55it/s][A
+Processing rows:  29%|██▉       | 1947/6740 [00:36<01:32, 51.72it/s][A
+Processing rows:  29%|██▉       | 1953/6740 [00:36<01:35, 50.05it/s][A
+Processing rows:  29%|██▉       | 1959/6740 [00:36<01:36, 49.77it/s][A
+Processing rows:  29%|██▉       | 1965/6740 [00:36<01:34, 50.75it/s][A
+Processing rows:  29%|██▉       | 1971/6740 [00:36<01:32, 51.44it/s][A
+Processing rows:  29%|██▉       | 1977/6740 [00:36<01:35, 50.07it/s][A
+Processing rows:  29%|██▉       | 1983/6740 [00:36<01:37, 48.82it/s][A
+Processing rows:  29%|██▉       | 1988/6740 [00:36<01:38, 48.02it/s][A
+Processing rows:  30%|██▉       | 1994/6740 [00:37<01:33, 50.52it/s][A
+Processing rows:  30%|██▉       | 2000/6740 [00:37<01:31, 51.74it/s][A
+Processing rows:  30%|██▉       | 2006/6740 [00:37<01:34, 50.14it/s][A
+Processing rows:  30%|██▉       | 2012/6740 [00:37<01:42, 46.31it/s][A
+Processing rows:  30%|██▉       | 2018/6740 [00:37<01:38, 47.81it/s][A
+Processing rows:  30%|███       | 2024/6740 [00:37<01:34, 49.97it/s][A
+Processing rows:  30%|███       | 2030/6740 [00:37<01:30, 52.19it/s][A
+Processing rows:  30%|███       | 2036/6740 [00:37<01:30, 51.86it/s][A
+Processing rows:  30%|███       | 2042/6740 [00:37<01:29, 52.33it/s][A
+Processing rows:  30%|███       | 2048/6740 [00:38<01:28, 52.84it/s][A
+Processing rows:  30%|███       | 2054/6740 [00:38<01:25, 54.56it/s][A
+Processing rows:  31%|███       | 2061/6740 [00:38<01:23, 56.13it/s][A
+Processing rows:  31%|███       | 2067/6740 [00:38<01:23, 56.24it/s][A
+Processing rows:  31%|███       | 2073/6740 [00:38<01:23, 56.09it/s][A
+Processing rows:  31%|███       | 2079/6740 [00:38<01:23, 55.72it/s][A
+Processing rows:  31%|███       | 2085/6740 [00:38<01:26, 53.52it/s][A
+Processing rows:  31%|███       | 2091/6740 [00:38<01:26, 53.44it/s][A
+Processing rows:  31%|███       | 2097/6740 [00:38<01:28, 52.22it/s][A
+Processing rows:  31%|███       | 2103/6740 [00:39<01:28, 52.26it/s][A
+Processing rows:  31%|███▏      | 2109/6740 [00:39<01:27, 52.84it/s][A
+Processing rows:  31%|███▏      | 2115/6740 [00:39<01:27, 53.04it/s][A
+Processing rows:  31%|███▏      | 2121/6740 [00:39<01:27, 52.81it/s][A
+Processing rows:  32%|███▏      | 2128/6740 [00:39<01:23, 55.05it/s][A
+Processing rows:  32%|███▏      | 2134/6740 [00:39<01:23, 55.34it/s][A
+Processing rows:  32%|███▏      | 2140/6740 [00:39<01:24, 54.13it/s][A
+Processing rows:  32%|███▏      | 2146/6740 [00:39<01:26, 53.22it/s][A
+Processing rows:  32%|███▏      | 2152/6740 [00:39<01:24, 54.38it/s][A
+Processing rows:  32%|███▏      | 2158/6740 [00:40<01:23, 55.04it/s][A
+Processing rows:  32%|███▏      | 2164/6740 [00:40<01:22, 55.28it/s][A
+Processing rows:  32%|███▏      | 2170/6740 [00:40<01:23, 54.53it/s][A
+Processing rows:  32%|███▏      | 2177/6740 [00:40<01:21, 56.23it/s][A
+Processing rows:  32%|███▏      | 2183/6740 [00:40<01:20, 56.29it/s][A
+Processing rows:  32%|███▏      | 2189/6740 [00:40<01:21, 55.96it/s][A
+Processing rows:  33%|███▎      | 2195/6740 [00:40<01:21, 55.62it/s][A
+Processing rows:  33%|███▎      | 2201/6740 [00:40<01:22, 54.70it/s][A
+Processing rows:  33%|███▎      | 2207/6740 [00:40<01:22, 54.97it/s][A
+Processing rows:  33%|███▎      | 2213/6740 [00:41<01:22, 54.74it/s][A
+Processing rows:  33%|███▎      | 2219/6740 [00:41<01:21, 55.65it/s][A
+Processing rows:  33%|███▎      | 2225/6740 [00:41<01:29, 50.52it/s][A
+Processing rows:  33%|███▎      | 2232/6740 [00:41<01:24, 53.63it/s][A
+Processing rows:  33%|███▎      | 2238/6740 [00:41<01:21, 55.14it/s][A
+Processing rows:  33%|███▎      | 2245/6740 [00:41<01:18, 57.12it/s][A
+Processing rows:  33%|███▎      | 2252/6740 [00:41<01:14, 60.49it/s][A
+Processing rows:  34%|███▎      | 2259/6740 [00:41<01:17, 57.53it/s][A
+Processing rows:  34%|███▎      | 2266/6740 [00:42<01:15, 59.34it/s][A
+Processing rows:  34%|███▎      | 2273/6740 [00:42<01:14, 60.26it/s][A
+Processing rows:  34%|███▍      | 2280/6740 [00:42<01:12, 61.14it/s][A
+Processing rows:  34%|███▍      | 2287/6740 [00:42<01:15, 58.78it/s][A
+Processing rows:  34%|███▍      | 2293/6740 [00:42<01:15, 59.01it/s][A
+Processing rows:  34%|███▍      | 2300/6740 [00:42<01:14, 59.64it/s][A
+Processing rows:  34%|███▍      | 2306/6740 [00:42<01:15, 58.62it/s][A
+Processing rows:  34%|███▍      | 2312/6740 [00:42<01:15, 58.43it/s][A
+Processing rows:  34%|███▍      | 2318/6740 [00:42<01:15, 58.60it/s][A
+Processing rows:  34%|███▍      | 2324/6740 [00:43<01:15, 58.26it/s][A
+Processing rows:  35%|███▍      | 2330/6740 [00:43<01:15, 58.16it/s][A
+Processing rows:  35%|███▍      | 2336/6740 [00:43<01:16, 57.29it/s][A
+Processing rows:  35%|███▍      | 2342/6740 [00:43<01:16, 57.34it/s][A
+Processing rows:  35%|███▍      | 2348/6740 [00:43<01:16, 57.72it/s][A
+Processing rows:  35%|███▍      | 2355/6740 [00:43<01:14, 59.08it/s][A
+Processing rows:  35%|███▌      | 2361/6740 [00:43<01:14, 58.44it/s][A
+Processing rows:  35%|███▌      | 2368/6740 [00:43<01:13, 59.20it/s][A
+Processing rows:  35%|███▌      | 2374/6740 [00:43<01:17, 56.44it/s][A
+Processing rows:  35%|███▌      | 2380/6740 [00:43<01:18, 55.61it/s][A
+Processing rows:  35%|███▌      | 2386/6740 [00:44<01:22, 52.96it/s][A
+Processing rows:  35%|███▌      | 2392/6740 [00:44<01:22, 52.60it/s][A
+Processing rows:  36%|███▌      | 2398/6740 [00:44<01:23, 52.11it/s][A
+Processing rows:  36%|███▌      | 2404/6740 [00:44<01:24, 51.22it/s][A
+Processing rows:  36%|███▌      | 2410/6740 [00:44<01:24, 51.19it/s][A
+Processing rows:  36%|███▌      | 2416/6740 [00:44<01:22, 52.23it/s][A
+Processing rows:  36%|███▌      | 2422/6740 [00:44<01:22, 52.60it/s][A
+Processing rows:  36%|███▌      | 2428/6740 [00:44<01:20, 53.81it/s][A
+Processing rows:  36%|███▌      | 2434/6740 [00:45<01:20, 53.33it/s][A
+Processing rows:  36%|███▌      | 2440/6740 [00:45<01:21, 52.82it/s][A
+Processing rows:  36%|███▋      | 2446/6740 [00:45<01:22, 52.14it/s][A
+Processing rows:  36%|███▋      | 2452/6740 [00:45<01:20, 53.18it/s][A
+Processing rows:  36%|███▋      | 2458/6740 [00:45<01:19, 53.82it/s][A
+Processing rows:  37%|███▋      | 2464/6740 [00:45<01:20, 53.37it/s][A
+Processing rows:  37%|███▋      | 2470/6740 [00:45<01:27, 48.68it/s][A
+Processing rows:  37%|███▋      | 2476/6740 [00:45<01:24, 50.73it/s][A
+Processing rows:  37%|███▋      | 2482/6740 [00:45<01:22, 51.45it/s][A
+Processing rows:  37%|███▋      | 2488/6740 [00:46<01:20, 52.82it/s][A
+Processing rows:  37%|███▋      | 2494/6740 [00:46<01:18, 54.24it/s][A
+Processing rows:  37%|███▋      | 2500/6740 [00:46<01:17, 54.91it/s][A
+Processing rows:  37%|███▋      | 2506/6740 [00:46<01:15, 55.93it/s][A
+Processing rows:  37%|███▋      | 2513/6740 [00:46<01:11, 59.09it/s][A
+Processing rows:  37%|███▋      | 2520/6740 [00:46<01:10, 59.89it/s][A
+Processing rows:  37%|███▋      | 2527/6740 [00:46<01:08, 61.63it/s][A
+Processing rows:  38%|███▊      | 2534/6740 [00:46<01:08, 61.29it/s][A
+Processing rows:  38%|███▊      | 2541/6740 [00:46<01:08, 61.07it/s][A
+Processing rows:  38%|███▊      | 2548/6740 [00:47<01:08, 61.50it/s][A
+Processing rows:  38%|███▊      | 2555/6740 [00:47<01:07, 61.76it/s][A
+Processing rows:  38%|███▊      | 2562/6740 [00:47<01:09, 60.41it/s][A
+Processing rows:  38%|███▊      | 2569/6740 [00:47<01:09, 60.00it/s][A
+Processing rows:  38%|███▊      | 2576/6740 [00:47<01:09, 60.00it/s][A
+Processing rows:  38%|███▊      | 2583/6740 [00:47<01:09, 59.52it/s][A
+Processing rows:  38%|███▊      | 2589/6740 [00:47<01:10, 58.89it/s][A
+Processing rows:  39%|███▊      | 2595/6740 [00:47<01:10, 59.07it/s][A
+Processing rows:  39%|███▊      | 2602/6740 [00:47<01:08, 60.09it/s][A
+Processing rows:  39%|███▊      | 2609/6740 [00:48<01:07, 61.40it/s][A
+Processing rows:  39%|███▉      | 2616/6740 [00:48<01:05, 62.52it/s][A
+Processing rows:  39%|███▉      | 2623/6740 [00:48<01:05, 62.60it/s][A
+Processing rows:  39%|███▉      | 2630/6740 [00:48<01:06, 62.23it/s][A
+Processing rows:  39%|███▉      | 2637/6740 [00:48<01:06, 61.35it/s][A
+Processing rows:  39%|███▉      | 2644/6740 [00:48<01:06, 61.47it/s][A
+Processing rows:  39%|███▉      | 2651/6740 [00:48<01:08, 59.40it/s][A
+Processing rows:  39%|███▉      | 2657/6740 [00:48<01:09, 58.64it/s][A
+Processing rows:  40%|███▉      | 2663/6740 [00:48<01:09, 58.47it/s][A
+Processing rows:  40%|███▉      | 2670/6740 [00:49<01:09, 58.78it/s][A
+Processing rows:  40%|███▉      | 2676/6740 [00:49<01:10, 57.93it/s][A
+Processing rows:  40%|███▉      | 2682/6740 [00:49<01:11, 56.83it/s][A
+Processing rows:  40%|███▉      | 2688/6740 [00:49<01:13, 55.03it/s][A
+Processing rows:  40%|███▉      | 2694/6740 [00:49<01:13, 54.70it/s][A
+Processing rows:  40%|████      | 2700/6740 [00:49<01:14, 53.90it/s][A
+Processing rows:  40%|████      | 2706/6740 [00:49<01:16, 52.46it/s][A
+Processing rows:  40%|████      | 2712/6740 [00:49<01:13, 54.47it/s][A
+Processing rows:  40%|████      | 2718/6740 [00:49<01:11, 55.96it/s][A
+Processing rows:  40%|████      | 2724/6740 [00:50<01:15, 53.18it/s][A
+Processing rows:  41%|████      | 2730/6740 [00:50<01:18, 50.79it/s][A
+Processing rows:  41%|████      | 2736/6740 [00:50<01:21, 49.36it/s][A
+Processing rows:  41%|████      | 2742/6740 [00:50<01:26, 45.98it/s][A
+Processing rows:  41%|████      | 2748/6740 [00:50<01:23, 47.99it/s][A
+Processing rows:  41%|████      | 2754/6740 [00:50<01:20, 49.59it/s][A
+Processing rows:  41%|████      | 2760/6740 [00:50<01:19, 49.95it/s][A
+Processing rows:  41%|████      | 2766/6740 [00:50<01:17, 51.52it/s][A
+Processing rows:  41%|████      | 2772/6740 [00:51<01:16, 51.65it/s][A
+Processing rows:  41%|████      | 2778/6740 [00:51<01:16, 51.79it/s][A
+Processing rows:  41%|████▏     | 2784/6740 [00:51<01:15, 52.14it/s][A
+Processing rows:  41%|████▏     | 2790/6740 [00:51<01:14, 53.28it/s][A
+Processing rows:  41%|████▏     | 2796/6740 [00:51<01:11, 54.92it/s][A
+Processing rows:  42%|████▏     | 2802/6740 [00:51<01:10, 55.52it/s][A
+Processing rows:  42%|████▏     | 2809/6740 [00:51<01:08, 57.51it/s][A
+Processing rows:  42%|████▏     | 2816/6740 [00:51<01:05, 60.36it/s][A
+Processing rows:  42%|████▏     | 2823/6740 [00:51<01:06, 58.56it/s][A
+Processing rows:  42%|████▏     | 2829/6740 [00:52<01:08, 57.19it/s][A
+Processing rows:  42%|████▏     | 2835/6740 [00:52<01:10, 55.40it/s][A
+Processing rows:  42%|████▏     | 2841/6740 [00:52<01:11, 54.73it/s][A
+Processing rows:  42%|████▏     | 2848/6740 [00:52<01:08, 57.02it/s][A
+Processing rows:  42%|████▏     | 2854/6740 [00:52<01:08, 57.11it/s][A
+Processing rows:  42%|████▏     | 2861/6740 [00:52<01:05, 58.88it/s][A
+Processing rows:  43%|████▎     | 2869/6740 [00:52<01:01, 63.11it/s][A
+Processing rows:  43%|████▎     | 2876/6740 [00:52<00:59, 64.73it/s][A
+Processing rows:  43%|████▎     | 2883/6740 [00:52<01:04, 59.66it/s][A
+Processing rows:  43%|████▎     | 2890/6740 [00:53<01:05, 59.23it/s][A
+Processing rows:  43%|████▎     | 2897/6740 [00:53<01:03, 60.12it/s][A
+Processing rows:  43%|████▎     | 2904/6740 [00:53<01:06, 57.42it/s][A
+Processing rows:  43%|████▎     | 2910/6740 [00:53<01:08, 55.55it/s][A
+Processing rows:  43%|████▎     | 2916/6740 [00:53<01:10, 54.59it/s][A
+Processing rows:  43%|████▎     | 2922/6740 [00:53<01:10, 53.78it/s][A
+Processing rows:  43%|████▎     | 2928/6740 [00:53<01:14, 51.18it/s][A
+Processing rows:  44%|████▎     | 2934/6740 [00:53<01:17, 49.39it/s][A
+Processing rows:  44%|████▎     | 2939/6740 [00:54<01:17, 49.16it/s][A
+Processing rows:  44%|████▎     | 2945/6740 [00:54<01:15, 50.47it/s][A
+Processing rows:  44%|████▍     | 2951/6740 [00:54<01:12, 52.16it/s][A
+Processing rows:  44%|████▍     | 2958/6740 [00:54<01:09, 54.78it/s][A
+Processing rows:  44%|████▍     | 2965/6740 [00:54<01:06, 57.07it/s][A
+Processing rows:  44%|████▍     | 2971/6740 [00:54<01:12, 52.02it/s][A
+Processing rows:  44%|████▍     | 2977/6740 [00:54<01:10, 53.70it/s][A
+Processing rows:  44%|████▍     | 2983/6740 [00:54<01:11, 52.83it/s][A
+Processing rows:  44%|████▍     | 2990/6740 [00:54<01:06, 56.00it/s][A
+Processing rows:  44%|████▍     | 2996/6740 [00:55<01:06, 56.24it/s][A
+Processing rows:  45%|████▍     | 3004/6740 [00:55<01:00, 61.26it/s][A
+Processing rows:  45%|████▍     | 3012/6740 [00:55<00:56, 66.36it/s][A
+Processing rows:  45%|████▍     | 3019/6740 [00:55<01:01, 60.88it/s][A
+Processing rows:  45%|████▍     | 3026/6740 [00:55<01:02, 59.49it/s][A
+Processing rows:  45%|████▌     | 3033/6740 [00:55<01:01, 60.34it/s][A
+Processing rows:  45%|████▌     | 3040/6740 [00:55<01:04, 56.93it/s][A
+Processing rows:  45%|████▌     | 3046/6740 [00:55<01:05, 56.29it/s][A
+Processing rows:  45%|████▌     | 3052/6740 [00:56<01:08, 53.91it/s][A
+Processing rows:  45%|████▌     | 3058/6740 [00:56<01:10, 52.07it/s][A
+Processing rows:  45%|████▌     | 3064/6740 [00:56<01:10, 52.02it/s][A
+Processing rows:  46%|████▌     | 3070/6740 [00:56<01:11, 51.25it/s][A
+Processing rows:  46%|████▌     | 3076/6740 [00:56<01:11, 51.58it/s][A
+Processing rows:  46%|████▌     | 3082/6740 [00:56<01:09, 52.67it/s][A
+Processing rows:  46%|████▌     | 3089/6740 [00:56<01:05, 55.40it/s][A
+Processing rows:  46%|████▌     | 3095/6740 [00:56<01:07, 54.11it/s][A
+Processing rows:  46%|████▌     | 3101/6740 [00:56<01:07, 54.04it/s][A
+Processing rows:  46%|████▌     | 3107/6740 [00:57<01:08, 52.79it/s][A
+Processing rows:  46%|████▌     | 3113/6740 [00:57<01:09, 52.28it/s][A
+Processing rows:  46%|████▋     | 3119/6740 [00:57<01:09, 52.39it/s][A
+Processing rows:  46%|████▋     | 3125/6740 [00:57<01:09, 52.11it/s][A
+Processing rows:  46%|████▋     | 3131/6740 [00:57<01:08, 52.89it/s][A
+Processing rows:  47%|████▋     | 3137/6740 [00:57<01:07, 53.03it/s][A
+Processing rows:  47%|████▋     | 3143/6740 [00:57<01:08, 52.57it/s][A
+Processing rows:  47%|████▋     | 3149/6740 [00:57<01:08, 52.62it/s][A
+Processing rows:  47%|████▋     | 3155/6740 [00:58<01:09, 51.58it/s][A
+Processing rows:  47%|████▋     | 3161/6740 [00:58<01:11, 50.12it/s][A
+Processing rows:  47%|████▋     | 3167/6740 [00:58<01:10, 50.70it/s][A
+Processing rows:  47%|████▋     | 3173/6740 [00:58<01:11, 50.16it/s][A
+Processing rows:  47%|████▋     | 3179/6740 [00:58<01:10, 50.50it/s][A
+Processing rows:  47%|████▋     | 3185/6740 [00:58<01:14, 47.97it/s][A
+Processing rows:  47%|████▋     | 3192/6740 [00:58<01:07, 52.45it/s][A
+Processing rows:  47%|████▋     | 3199/6740 [00:58<01:04, 54.86it/s][A
+Processing rows:  48%|████▊     | 3206/6740 [00:58<01:00, 58.55it/s][A
+Processing rows:  48%|████▊     | 3212/6740 [00:59<01:00, 58.28it/s][A
+Processing rows:  48%|████▊     | 3218/6740 [00:59<01:00, 58.22it/s][A
+Processing rows:  48%|████▊     | 3224/6740 [00:59<01:00, 58.58it/s][A
+Processing rows:  48%|████▊     | 3230/6740 [00:59<00:59, 58.96it/s][A
+Processing rows:  48%|████▊     | 3237/6740 [00:59<00:58, 59.47it/s][A
+Processing rows:  48%|████▊     | 3244/6740 [00:59<00:57, 60.44it/s][A
+Processing rows:  48%|████▊     | 3252/6740 [00:59<00:55, 62.99it/s][A
+Processing rows:  48%|████▊     | 3259/6740 [00:59<00:54, 63.82it/s][A
+Processing rows:  48%|████▊     | 3266/6740 [00:59<00:53, 64.50it/s][A
+Processing rows:  49%|████▊     | 3273/6740 [01:00<00:56, 61.49it/s][A
+Processing rows:  49%|████▊     | 3280/6740 [01:00<00:58, 59.55it/s][A
+Processing rows:  49%|████▉     | 3286/6740 [01:00<00:59, 58.17it/s][A
+Processing rows:  49%|████▉     | 3292/6740 [01:00<00:59, 57.69it/s][A
+Processing rows:  49%|████▉     | 3299/6740 [01:00<00:58, 58.71it/s][A
+Processing rows:  49%|████▉     | 3306/6740 [01:00<00:57, 59.27it/s][A
+Processing rows:  49%|████▉     | 3312/6740 [01:00<00:57, 59.33it/s][A
+Processing rows:  49%|████▉     | 3319/6740 [01:00<00:57, 59.26it/s][A
+Processing rows:  49%|████▉     | 3326/6740 [01:00<00:56, 60.40it/s][A
+Processing rows:  49%|████▉     | 3333/6740 [01:01<00:57, 59.37it/s][A
+Processing rows:  50%|████▉     | 3339/6740 [01:01<00:58, 58.48it/s][A
+Processing rows:  50%|████▉     | 3345/6740 [01:01<00:58, 58.02it/s][A
+Processing rows:  50%|████▉     | 3352/6740 [01:01<00:56, 59.83it/s][A
+Processing rows:  50%|████▉     | 3359/6740 [01:01<00:55, 61.38it/s][A
+Processing rows:  50%|████▉     | 3366/6740 [01:01<00:53, 62.52it/s][A
+Processing rows:  50%|█████     | 3373/6740 [01:01<00:59, 56.75it/s][A
+Processing rows:  50%|█████     | 3379/6740 [01:01<01:00, 55.19it/s][A
+Processing rows:  50%|█████     | 3385/6740 [01:01<01:02, 53.85it/s][A
+Processing rows:  50%|█████     | 3391/6740 [01:02<01:03, 52.93it/s][A
+Processing rows:  50%|█████     | 3397/6740 [01:02<01:04, 51.93it/s][A
+Processing rows:  50%|█████     | 3403/6740 [01:02<01:04, 51.83it/s][A
+Processing rows:  51%|█████     | 3409/6740 [01:02<01:05, 50.72it/s][A
+Processing rows:  51%|█████     | 3415/6740 [01:02<01:07, 49.40it/s][A
+Processing rows:  51%|█████     | 3421/6740 [01:02<01:06, 49.92it/s][A
+Processing rows:  51%|█████     | 3427/6740 [01:02<01:12, 45.70it/s][A
+Processing rows:  51%|█████     | 3432/6740 [01:02<01:10, 46.66it/s][A
+Processing rows:  51%|█████     | 3438/6740 [01:03<01:07, 48.69it/s][A
+Processing rows:  51%|█████     | 3444/6740 [01:03<01:06, 49.84it/s][A
+Processing rows:  51%|█████     | 3451/6740 [01:03<01:01, 53.85it/s][A
+Processing rows:  51%|█████▏    | 3457/6740 [01:03<01:00, 53.97it/s][A
+Processing rows:  51%|█████▏    | 3464/6740 [01:03<00:58, 56.08it/s][A
+Processing rows:  51%|█████▏    | 3470/6740 [01:03<01:00, 54.17it/s][A
+Processing rows:  52%|█████▏    | 3476/6740 [01:03<00:59, 55.15it/s][A
+Processing rows:  52%|█████▏    | 3482/6740 [01:03<00:59, 55.02it/s][A
+Processing rows:  52%|█████▏    | 3489/6740 [01:03<00:57, 56.60it/s][A
+Processing rows:  52%|█████▏    | 3495/6740 [01:04<00:57, 56.49it/s][A
+Processing rows:  52%|█████▏    | 3501/6740 [01:04<00:58, 55.45it/s][A
+Processing rows:  52%|█████▏    | 3507/6740 [01:04<00:57, 55.86it/s][A
+Processing rows:  52%|█████▏    | 3513/6740 [01:04<00:56, 56.67it/s][A
+Processing rows:  52%|█████▏    | 3519/6740 [01:04<00:56, 57.20it/s][A
+Processing rows:  52%|█████▏    | 3525/6740 [01:04<00:57, 56.21it/s][A
+Processing rows:  52%|█████▏    | 3531/6740 [01:04<00:56, 56.59it/s][A
+Processing rows:  52%|█████▏    | 3537/6740 [01:04<00:56, 56.81it/s][A
+Processing rows:  53%|█████▎    | 3543/6740 [01:04<00:56, 56.54it/s][A
+Processing rows:  53%|█████▎    | 3549/6740 [01:05<00:56, 56.04it/s][A
+Processing rows:  53%|█████▎    | 3555/6740 [01:05<00:55, 57.12it/s][A
+Processing rows:  53%|█████▎    | 3561/6740 [01:05<00:57, 55.74it/s][A
+Processing rows:  53%|█████▎    | 3567/6740 [01:05<00:57, 55.18it/s][A
+Processing rows:  53%|█████▎    | 3573/6740 [01:05<00:57, 54.81it/s][A
+Processing rows:  53%|█████▎    | 3579/6740 [01:05<00:58, 54.31it/s][A
+Processing rows:  53%|█████▎    | 3585/6740 [01:05<00:57, 54.88it/s][A
+Processing rows:  53%|█████▎    | 3591/6740 [01:05<00:59, 52.54it/s][A
+Processing rows:  53%|█████▎    | 3597/6740 [01:05<00:58, 53.49it/s][A
+Processing rows:  53%|█████▎    | 3603/6740 [01:06<00:58, 53.42it/s][A
+Processing rows:  54%|█████▎    | 3609/6740 [01:06<00:58, 53.57it/s][A
+Processing rows:  54%|█████▎    | 3615/6740 [01:06<00:57, 54.23it/s][A
+Processing rows:  54%|█████▎    | 3621/6740 [01:06<00:56, 55.60it/s][A
+Processing rows:  54%|█████▍    | 3627/6740 [01:06<00:56, 54.95it/s][A
+Processing rows:  54%|█████▍    | 3633/6740 [01:06<00:56, 54.87it/s][A
+Processing rows:  54%|█████▍    | 3639/6740 [01:06<00:56, 54.94it/s][A
+Processing rows:  54%|█████▍    | 3645/6740 [01:06<00:57, 54.15it/s][A
+Processing rows:  54%|█████▍    | 3651/6740 [01:06<00:56, 54.23it/s][A
+Processing rows:  54%|█████▍    | 3657/6740 [01:07<00:57, 53.67it/s][A
+Processing rows:  54%|█████▍    | 3663/6740 [01:07<01:04, 47.98it/s][A
+Processing rows:  54%|█████▍    | 3669/6740 [01:07<01:01, 49.86it/s][A
+Processing rows:  55%|█████▍    | 3675/6740 [01:07<00:59, 51.46it/s][A
+Processing rows:  55%|█████▍    | 3681/6740 [01:07<01:00, 50.76it/s][A
+Processing rows:  55%|█████▍    | 3687/6740 [01:07<00:58, 52.38it/s][A
+Processing rows:  55%|█████▍    | 3693/6740 [01:07<00:57, 52.89it/s][A
+Processing rows:  55%|█████▍    | 3699/6740 [01:07<00:56, 54.26it/s][A
+Processing rows:  55%|█████▍    | 3705/6740 [01:07<00:55, 54.46it/s][A
+Processing rows:  55%|█████▌    | 3712/6740 [01:08<00:54, 55.82it/s][A
+Processing rows:  55%|█████▌    | 3718/6740 [01:08<00:53, 56.52it/s][A
+Processing rows:  55%|█████▌    | 3724/6740 [01:08<00:54, 55.48it/s][A
+Processing rows:  55%|█████▌    | 3730/6740 [01:08<00:53, 56.31it/s][A
+Processing rows:  55%|█████▌    | 3736/6740 [01:08<00:52, 56.99it/s][A
+Processing rows:  56%|█████▌    | 3743/6740 [01:08<00:52, 57.40it/s][A
+Processing rows:  56%|█████▌    | 3749/6740 [01:08<00:52, 56.81it/s][A
+Processing rows:  56%|█████▌    | 3755/6740 [01:08<00:52, 57.01it/s][A
+Processing rows:  56%|█████▌    | 3761/6740 [01:08<00:52, 56.39it/s][A
+Processing rows:  56%|█████▌    | 3767/6740 [01:09<00:52, 56.97it/s][A
+Processing rows:  56%|█████▌    | 3773/6740 [01:09<00:52, 56.61it/s][A
+Processing rows:  56%|█████▌    | 3780/6740 [01:09<00:50, 58.90it/s][A
+Processing rows:  56%|█████▌    | 3787/6740 [01:09<00:49, 59.63it/s][A
+Processing rows:  56%|█████▋    | 3794/6740 [01:09<00:49, 60.06it/s][A
+Processing rows:  56%|█████▋    | 3801/6740 [01:09<00:48, 60.07it/s][A
+Processing rows:  56%|█████▋    | 3808/6740 [01:09<00:51, 56.53it/s][A
+Processing rows:  57%|█████▋    | 3814/6740 [01:09<00:54, 53.77it/s][A
+Processing rows:  57%|█████▋    | 3820/6740 [01:09<00:55, 52.28it/s][A
+Processing rows:  57%|█████▋    | 3826/6740 [01:10<00:55, 52.85it/s][A
+Processing rows:  57%|█████▋    | 3832/6740 [01:10<00:54, 53.35it/s][A
+Processing rows:  57%|█████▋    | 3838/6740 [01:10<00:53, 54.31it/s][A
+Processing rows:  57%|█████▋    | 3844/6740 [01:10<00:53, 54.14it/s][A
+Processing rows:  57%|█████▋    | 3850/6740 [01:10<00:53, 54.25it/s][A
+Processing rows:  57%|█████▋    | 3856/6740 [01:10<00:52, 55.12it/s][A
+Processing rows:  57%|█████▋    | 3862/6740 [01:10<00:51, 55.37it/s][A
+Processing rows:  57%|█████▋    | 3868/6740 [01:10<00:51, 55.77it/s][A
+Processing rows:  57%|█████▋    | 3874/6740 [01:10<00:51, 55.80it/s][A
+Processing rows:  58%|█████▊    | 3880/6740 [01:11<00:51, 55.35it/s][A
+Processing rows:  58%|█████▊    | 3887/6740 [01:11<00:50, 56.91it/s][A
+Processing rows:  58%|█████▊    | 3893/6740 [01:11<00:50, 56.13it/s][A
+Processing rows:  58%|█████▊    | 3900/6740 [01:11<00:49, 57.85it/s][A
+Processing rows:  58%|█████▊    | 3906/6740 [01:11<00:51, 54.85it/s][A
+Processing rows:  58%|█████▊    | 3913/6740 [01:11<00:50, 56.31it/s][A
+Processing rows:  58%|█████▊    | 3920/6740 [01:11<00:48, 57.79it/s][A
+Processing rows:  58%|█████▊    | 3926/6740 [01:11<00:48, 57.65it/s][A
+Processing rows:  58%|█████▊    | 3933/6740 [01:11<00:47, 59.59it/s][A
+Processing rows:  58%|█████▊    | 3939/6740 [01:12<00:47, 59.39it/s][A
+Processing rows:  59%|█████▊    | 3945/6740 [01:12<00:47, 58.31it/s][A
+Processing rows:  59%|█████▊    | 3951/6740 [01:12<00:48, 57.25it/s][A
+Processing rows:  59%|█████▊    | 3957/6740 [01:12<00:48, 57.07it/s][A
+Processing rows:  59%|█████▉    | 3964/6740 [01:12<00:47, 58.11it/s][A
+Processing rows:  59%|█████▉    | 3970/6740 [01:12<00:47, 58.37it/s][A
+Processing rows:  59%|█████▉    | 3976/6740 [01:12<00:48, 57.10it/s][A
+Processing rows:  59%|█████▉    | 3982/6740 [01:12<00:48, 56.83it/s][A
+Processing rows:  59%|█████▉    | 3989/6740 [01:12<00:47, 58.33it/s][A
+Processing rows:  59%|█████▉    | 3995/6740 [01:13<00:47, 57.71it/s][A
+Processing rows:  59%|█████▉    | 4001/6740 [01:13<00:47, 57.22it/s][A
+Processing rows:  59%|█████▉    | 4007/6740 [01:13<00:47, 57.48it/s][A
+Processing rows:  60%|█████▉    | 4013/6740 [01:13<00:47, 57.82it/s][A
+Processing rows:  60%|█████▉    | 4019/6740 [01:13<00:47, 57.40it/s][A
+Processing rows:  60%|█████▉    | 4025/6740 [01:13<00:47, 57.07it/s][A
+Processing rows:  60%|█████▉    | 4031/6740 [01:13<00:48, 55.76it/s][A
+Processing rows:  60%|█████▉    | 4037/6740 [01:13<00:47, 56.51it/s][A
+Processing rows:  60%|██████    | 4044/6740 [01:13<00:46, 58.10it/s][A
+Processing rows:  60%|██████    | 4050/6740 [01:14<00:48, 55.53it/s][A
+Processing rows:  60%|██████    | 4056/6740 [01:14<00:48, 55.42it/s][A
+Processing rows:  60%|██████    | 4062/6740 [01:14<00:48, 55.73it/s][A
+Processing rows:  60%|██████    | 4068/6740 [01:14<00:48, 55.54it/s][A
+Processing rows:  60%|██████    | 4075/6740 [01:14<00:46, 57.32it/s][A
+Processing rows:  61%|██████    | 4082/6740 [01:14<00:45, 58.10it/s][A
+Processing rows:  61%|██████    | 4088/6740 [01:14<00:46, 57.26it/s][A
+Processing rows:  61%|██████    | 4094/6740 [01:14<00:47, 55.38it/s][A
+Processing rows:  61%|██████    | 4100/6740 [01:14<00:48, 54.12it/s][A
+Processing rows:  61%|██████    | 4106/6740 [01:15<00:49, 53.21it/s][A
+Processing rows:  61%|██████    | 4112/6740 [01:15<00:48, 53.85it/s][A
+Processing rows:  61%|██████    | 4118/6740 [01:15<00:47, 55.11it/s][A
+Processing rows:  61%|██████    | 4124/6740 [01:15<00:47, 54.64it/s][A
+Processing rows:  61%|██████▏   | 4130/6740 [01:15<00:46, 55.63it/s][A
+Processing rows:  61%|██████▏   | 4136/6740 [01:15<00:46, 55.75it/s][A
+Processing rows:  61%|██████▏   | 4142/6740 [01:15<00:46, 56.18it/s][A
+Processing rows:  62%|██████▏   | 4148/6740 [01:15<00:52, 49.30it/s][A
+Processing rows:  62%|██████▏   | 4154/6740 [01:15<00:51, 50.06it/s][A
+Processing rows:  62%|██████▏   | 4160/6740 [01:16<00:49, 52.40it/s][A
+Processing rows:  62%|██████▏   | 4166/6740 [01:16<00:48, 52.89it/s][A
+Processing rows:  62%|██████▏   | 4172/6740 [01:16<00:48, 53.12it/s][A
+Processing rows:  62%|██████▏   | 4178/6740 [01:16<00:47, 53.78it/s][A
+Processing rows:  62%|██████▏   | 4184/6740 [01:16<00:47, 54.04it/s][A
+Processing rows:  62%|██████▏   | 4190/6740 [01:16<00:47, 53.77it/s][A
+Processing rows:  62%|██████▏   | 4196/6740 [01:16<00:47, 53.69it/s][A
+Processing rows:  62%|██████▏   | 4202/6740 [01:16<00:47, 52.99it/s][A
+Processing rows:  62%|██████▏   | 4208/6740 [01:16<00:47, 52.95it/s][A
+Processing rows:  63%|██████▎   | 4214/6740 [01:17<00:48, 52.55it/s][A
+Processing rows:  63%|██████▎   | 4220/6740 [01:17<00:48, 51.56it/s][A
+Processing rows:  63%|██████▎   | 4226/6740 [01:17<00:48, 52.10it/s][A
+Processing rows:  63%|██████▎   | 4232/6740 [01:17<00:46, 53.47it/s][A
+Processing rows:  63%|██████▎   | 4238/6740 [01:17<00:45, 54.80it/s][A
+Processing rows:  63%|██████▎   | 4244/6740 [01:17<00:49, 50.74it/s][A
+Processing rows:  63%|██████▎   | 4250/6740 [01:17<00:48, 51.59it/s][A
+Processing rows:  63%|██████▎   | 4256/6740 [01:17<00:47, 52.25it/s][A
+Processing rows:  63%|██████▎   | 4262/6740 [01:17<00:46, 53.74it/s][A
+Processing rows:  63%|██████▎   | 4269/6740 [01:18<00:44, 55.19it/s][A
+Processing rows:  63%|██████▎   | 4275/6740 [01:18<00:43, 56.20it/s][A
+Processing rows:  64%|██████▎   | 4281/6740 [01:18<00:44, 55.00it/s][A
+Processing rows:  64%|██████▎   | 4287/6740 [01:18<00:44, 54.78it/s][A
+Processing rows:  64%|██████▎   | 4293/6740 [01:18<00:44, 55.37it/s][A
+Processing rows:  64%|██████▍   | 4299/6740 [01:18<00:43, 56.40it/s][A
+Processing rows:  64%|██████▍   | 4305/6740 [01:18<00:42, 57.40it/s][A
+Processing rows:  64%|██████▍   | 4312/6740 [01:18<00:40, 59.22it/s][A
+Processing rows:  64%|██████▍   | 4319/6740 [01:18<00:40, 60.35it/s][A
+Processing rows:  64%|██████▍   | 4326/6740 [01:19<00:40, 59.57it/s][A
+Processing rows:  64%|██████▍   | 4332/6740 [01:19<00:41, 58.40it/s][A
+Processing rows:  64%|██████▍   | 4339/6740 [01:19<00:40, 59.40it/s][A
+Processing rows:  64%|██████▍   | 4345/6740 [01:19<00:42, 56.92it/s][A
+Processing rows:  65%|██████▍   | 4351/6740 [01:19<00:41, 57.55it/s][A
+Processing rows:  65%|██████▍   | 4357/6740 [01:19<00:42, 55.82it/s][A
+Processing rows:  65%|██████▍   | 4363/6740 [01:19<00:45, 51.86it/s][A
+Processing rows:  65%|██████▍   | 4369/6740 [01:19<00:46, 50.97it/s][A
+Processing rows:  65%|██████▍   | 4375/6740 [01:20<00:51, 46.03it/s][A
+Processing rows:  65%|██████▍   | 4380/6740 [01:20<00:50, 46.55it/s][A
+Processing rows:  65%|██████▌   | 4385/6740 [01:20<00:49, 47.26it/s][A
+Processing rows:  65%|██████▌   | 4391/6740 [01:20<00:47, 49.63it/s][A
+Processing rows:  65%|██████▌   | 4397/6740 [01:20<00:45, 52.02it/s][A
+Processing rows:  65%|██████▌   | 4403/6740 [01:20<00:43, 53.18it/s][A
+Processing rows:  65%|██████▌   | 4409/6740 [01:20<00:43, 53.53it/s][A
+Processing rows:  66%|██████▌   | 4415/6740 [01:20<00:43, 53.78it/s][A
+Processing rows:  66%|██████▌   | 4422/6740 [01:20<00:40, 57.83it/s][A
+Processing rows:  66%|██████▌   | 4429/6740 [01:21<00:38, 59.69it/s][A
+Processing rows:  66%|██████▌   | 4436/6740 [01:21<00:37, 61.10it/s][A
+Processing rows:  66%|██████▌   | 4443/6740 [01:21<00:37, 61.04it/s][A
+Processing rows:  66%|██████▌   | 4450/6740 [01:21<00:37, 61.54it/s][A
+Processing rows:  66%|██████▌   | 4457/6740 [01:21<00:38, 59.82it/s][A
+Processing rows:  66%|██████▌   | 4464/6740 [01:21<00:38, 59.70it/s][A
+Processing rows:  66%|██████▋   | 4470/6740 [01:21<00:38, 58.87it/s][A
+Processing rows:  66%|██████▋   | 4476/6740 [01:21<00:39, 57.80it/s][A
+Processing rows:  67%|██████▋   | 4483/6740 [01:21<00:37, 59.44it/s][A
+Processing rows:  67%|██████▋   | 4489/6740 [01:22<00:39, 56.60it/s][A
+Processing rows:  67%|██████▋   | 4496/6740 [01:22<00:38, 57.90it/s][A
+Processing rows:  67%|██████▋   | 4502/6740 [01:22<00:39, 57.01it/s][A
+Processing rows:  67%|██████▋   | 4509/6740 [01:22<00:38, 58.62it/s][A
+Processing rows:  67%|██████▋   | 4515/6740 [01:22<00:38, 57.56it/s][A
+Processing rows:  67%|██████▋   | 4521/6740 [01:22<00:40, 55.27it/s][A
+Processing rows:  67%|██████▋   | 4527/6740 [01:22<00:41, 52.90it/s][A
+Processing rows:  67%|██████▋   | 4533/6740 [01:22<00:42, 51.89it/s][A
+Processing rows:  67%|██████▋   | 4539/6740 [01:22<00:40, 53.69it/s][A
+Processing rows:  67%|██████▋   | 4545/6740 [01:23<00:40, 54.06it/s][A
+Processing rows:  68%|██████▊   | 4551/6740 [01:23<00:39, 55.02it/s][A
+Processing rows:  68%|██████▊   | 4557/6740 [01:23<00:40, 53.65it/s][A
+Processing rows:  68%|██████▊   | 4563/6740 [01:23<00:39, 55.30it/s][A
+Processing rows:  68%|██████▊   | 4569/6740 [01:23<00:39, 55.54it/s][A
+Processing rows:  68%|██████▊   | 4575/6740 [01:23<00:38, 56.50it/s][A
+Processing rows:  68%|██████▊   | 4582/6740 [01:23<00:36, 58.74it/s][A
+Processing rows:  68%|██████▊   | 4589/6740 [01:23<00:35, 60.44it/s][A
+Processing rows:  68%|██████▊   | 4596/6740 [01:23<00:36, 58.83it/s][A
+Processing rows:  68%|██████▊   | 4602/6740 [01:24<00:38, 55.12it/s][A
+Processing rows:  68%|██████▊   | 4608/6740 [01:24<00:38, 56.08it/s][A
+Processing rows:  68%|██████▊   | 4614/6740 [01:24<00:40, 52.39it/s][A
+Processing rows:  69%|██████▊   | 4620/6740 [01:24<00:40, 52.94it/s][A
+Processing rows:  69%|██████▊   | 4627/6740 [01:24<00:37, 56.56it/s][A
+Processing rows:  69%|██████▉   | 4634/6740 [01:24<00:35, 59.01it/s][A
+Processing rows:  69%|██████▉   | 4641/6740 [01:24<00:34, 60.90it/s][A
+Processing rows:  69%|██████▉   | 4648/6740 [01:24<00:33, 61.92it/s][A
+Processing rows:  69%|██████▉   | 4655/6740 [01:24<00:33, 62.58it/s][A
+Processing rows:  69%|██████▉   | 4662/6740 [01:25<00:34, 60.53it/s][A
+Processing rows:  69%|██████▉   | 4669/6740 [01:25<00:34, 59.42it/s][A
+Processing rows:  69%|██████▉   | 4675/6740 [01:25<00:35, 57.74it/s][A
+Processing rows:  69%|██████▉   | 4682/6740 [01:25<00:34, 58.85it/s][A
+Processing rows:  70%|██████▉   | 4688/6740 [01:25<00:35, 58.20it/s][A
+Processing rows:  70%|██████▉   | 4695/6740 [01:25<00:34, 59.46it/s][A
+Processing rows:  70%|██████▉   | 4701/6740 [01:25<00:34, 59.43it/s][A
+Processing rows:  70%|██████▉   | 4707/6740 [01:25<00:34, 58.88it/s][A
+Processing rows:  70%|██████▉   | 4714/6740 [01:25<00:33, 59.95it/s][A
+Processing rows:  70%|███████   | 4721/6740 [01:26<00:32, 61.22it/s][A
+Processing rows:  70%|███████   | 4728/6740 [01:26<00:34, 59.03it/s][A
+Processing rows:  70%|███████   | 4734/6740 [01:26<00:34, 58.79it/s][A
+Processing rows:  70%|███████   | 4741/6740 [01:26<00:33, 58.83it/s][A
+Processing rows:  70%|███████   | 4747/6740 [01:26<00:34, 58.20it/s][A
+Processing rows:  71%|███████   | 4753/6740 [01:26<00:33, 58.56it/s][A
+Processing rows:  71%|███████   | 4759/6740 [01:26<00:33, 58.81it/s][A
+Processing rows:  71%|███████   | 4765/6740 [01:26<00:34, 58.08it/s][A
+Processing rows:  71%|███████   | 4771/6740 [01:26<00:33, 58.54it/s][A
+Processing rows:  71%|███████   | 4777/6740 [01:27<00:33, 58.67it/s][A
+Processing rows:  71%|███████   | 4784/6740 [01:27<00:33, 59.03it/s][A
+Processing rows:  71%|███████   | 4790/6740 [01:27<00:33, 57.73it/s][A
+Processing rows:  71%|███████   | 4796/6740 [01:27<00:34, 56.41it/s][A
+Processing rows:  71%|███████   | 4802/6740 [01:27<00:36, 53.73it/s][A
+Processing rows:  71%|███████▏  | 4808/6740 [01:27<00:35, 54.60it/s][A
+Processing rows:  71%|███████▏  | 4814/6740 [01:27<00:35, 54.57it/s][A
+Processing rows:  72%|███████▏  | 4820/6740 [01:27<00:34, 55.23it/s][A
+Processing rows:  72%|███████▏  | 4826/6740 [01:27<00:34, 55.98it/s][A
+Processing rows:  72%|███████▏  | 4832/6740 [01:28<00:33, 56.53it/s][A
+Processing rows:  72%|███████▏  | 4838/6740 [01:28<00:33, 56.40it/s][A
+Processing rows:  72%|███████▏  | 4844/6740 [01:28<00:33, 57.15it/s][A
+Processing rows:  72%|███████▏  | 4850/6740 [01:28<00:32, 57.60it/s][A
+Processing rows:  72%|███████▏  | 4856/6740 [01:28<00:32, 57.83it/s][A
+Processing rows:  72%|███████▏  | 4862/6740 [01:28<00:32, 58.12it/s][A
+Processing rows:  72%|███████▏  | 4869/6740 [01:28<00:31, 60.30it/s][A
+Processing rows:  72%|███████▏  | 4876/6740 [01:28<00:32, 57.68it/s][A
+Processing rows:  72%|███████▏  | 4882/6740 [01:28<00:31, 58.10it/s][A
+Processing rows:  73%|███████▎  | 4889/6740 [01:29<00:31, 58.71it/s][A
+Processing rows:  73%|███████▎  | 4895/6740 [01:29<00:34, 53.09it/s][A
+Processing rows:  73%|███████▎  | 4901/6740 [01:29<00:34, 52.91it/s][A
+Processing rows:  73%|███████▎  | 4907/6740 [01:29<00:34, 53.05it/s][A
+Processing rows:  73%|███████▎  | 4914/6740 [01:29<00:32, 56.18it/s][A
+Processing rows:  73%|███████▎  | 4920/6740 [01:29<00:32, 56.63it/s][A
+Processing rows:  73%|███████▎  | 4926/6740 [01:29<00:31, 56.69it/s][A
+Processing rows:  73%|███████▎  | 4932/6740 [01:29<00:31, 56.76it/s][A
+Processing rows:  73%|███████▎  | 4939/6740 [01:29<00:30, 58.11it/s][A
+Processing rows:  73%|███████▎  | 4945/6740 [01:30<00:31, 57.68it/s][A
+Processing rows:  73%|███████▎  | 4951/6740 [01:30<00:30, 57.79it/s][A
+Processing rows:  74%|███████▎  | 4957/6740 [01:30<00:31, 57.31it/s][A
+Processing rows:  74%|███████▎  | 4963/6740 [01:30<00:30, 57.54it/s][A
+Processing rows:  74%|███████▎  | 4969/6740 [01:30<00:31, 56.29it/s][A
+Processing rows:  74%|███████▍  | 4975/6740 [01:30<00:31, 55.44it/s][A
+Processing rows:  74%|███████▍  | 4981/6740 [01:30<00:32, 54.08it/s][A
+Processing rows:  74%|███████▍  | 4987/6740 [01:30<00:31, 55.26it/s][A
+Processing rows:  74%|███████▍  | 4993/6740 [01:30<00:32, 54.59it/s][A
+Processing rows:  74%|███████▍  | 4999/6740 [01:30<00:31, 54.51it/s][A
+Processing rows:  74%|███████▍  | 5005/6740 [01:31<00:31, 55.17it/s][A
+Processing rows:  74%|███████▍  | 5011/6740 [01:31<00:31, 55.16it/s][A
+Processing rows:  74%|███████▍  | 5017/6740 [01:31<00:31, 55.51it/s][A
+Processing rows:  75%|███████▍  | 5023/6740 [01:31<00:30, 56.37it/s][A
+Processing rows:  75%|███████▍  | 5030/6740 [01:31<00:29, 58.34it/s][A
+Processing rows:  75%|███████▍  | 5036/6740 [01:31<00:29, 58.29it/s][A
+Processing rows:  75%|███████▍  | 5042/6740 [01:31<00:28, 58.63it/s][A
+Processing rows:  75%|███████▍  | 5048/6740 [01:31<00:29, 57.87it/s][A
+Processing rows:  75%|███████▌  | 5055/6740 [01:31<00:28, 59.81it/s][A
+Processing rows:  75%|███████▌  | 5061/6740 [01:32<00:28, 59.71it/s][A
+Processing rows:  75%|███████▌  | 5067/6740 [01:32<00:28, 59.32it/s][A
+Processing rows:  75%|███████▌  | 5074/6740 [01:32<00:26, 61.89it/s][A
+Processing rows:  75%|███████▌  | 5081/6740 [01:32<00:26, 62.87it/s][A
+Processing rows:  75%|███████▌  | 5088/6740 [01:32<00:26, 62.69it/s][A
+Processing rows:  76%|███████▌  | 5095/6740 [01:32<00:26, 62.60it/s][A
+Processing rows:  76%|███████▌  | 5102/6740 [01:32<00:26, 61.40it/s][A
+Processing rows:  76%|███████▌  | 5109/6740 [01:32<00:26, 61.41it/s][A
+Processing rows:  76%|███████▌  | 5116/6740 [01:32<00:25, 62.52it/s][A
+Processing rows:  76%|███████▌  | 5123/6740 [01:33<00:26, 60.15it/s][A
+Processing rows:  76%|███████▌  | 5130/6740 [01:33<00:27, 59.47it/s][A
+Processing rows:  76%|███████▌  | 5136/6740 [01:33<00:27, 58.77it/s][A
+Processing rows:  76%|███████▋  | 5142/6740 [01:33<00:27, 58.17it/s][A
+Processing rows:  76%|███████▋  | 5148/6740 [01:33<00:27, 57.25it/s][A
+Processing rows:  76%|███████▋  | 5155/6740 [01:33<00:27, 57.99it/s][A
+Processing rows:  77%|███████▋  | 5161/6740 [01:33<00:27, 57.16it/s][A
+Processing rows:  77%|███████▋  | 5167/6740 [01:33<00:27, 56.54it/s][A
+Processing rows:  77%|███████▋  | 5173/6740 [01:33<00:29, 52.24it/s][A
+Processing rows:  77%|███████▋  | 5180/6740 [01:34<00:28, 54.60it/s][A
+Processing rows:  77%|███████▋  | 5186/6740 [01:34<00:28, 54.82it/s][A
+Processing rows:  77%|███████▋  | 5193/6740 [01:34<00:27, 56.27it/s][A
+Processing rows:  77%|███████▋  | 5199/6740 [01:34<00:27, 56.43it/s][A
+Processing rows:  77%|███████▋  | 5205/6740 [01:34<00:26, 57.16it/s][A
+Processing rows:  77%|███████▋  | 5211/6740 [01:34<00:26, 56.96it/s][A
+Processing rows:  77%|███████▋  | 5218/6740 [01:34<00:25, 59.46it/s][A
+Processing rows:  78%|███████▊  | 5224/6740 [01:34<00:25, 58.70it/s][A
+Processing rows:  78%|███████▊  | 5231/6740 [01:34<00:25, 60.03it/s][A
+Processing rows:  78%|███████▊  | 5238/6740 [01:35<00:24, 60.99it/s][A
+Processing rows:  78%|███████▊  | 5245/6740 [01:35<00:25, 59.80it/s][A
+Processing rows:  78%|███████▊  | 5251/6740 [01:35<00:24, 59.82it/s][A
+Processing rows:  78%|███████▊  | 5257/6740 [01:35<00:25, 59.23it/s][A
+Processing rows:  78%|███████▊  | 5264/6740 [01:35<00:24, 60.95it/s][A
+Processing rows:  78%|███████▊  | 5271/6740 [01:35<00:23, 63.35it/s][A
+Processing rows:  78%|███████▊  | 5280/6740 [01:35<00:21, 69.02it/s][A
+Processing rows:  78%|███████▊  | 5289/6740 [01:35<00:19, 73.60it/s][A
+Processing rows:  79%|███████▊  | 5297/6740 [01:35<00:19, 73.10it/s][A
+Processing rows:  79%|███████▊  | 5305/6740 [01:36<00:19, 72.71it/s][A
+Processing rows:  79%|███████▉  | 5313/6740 [01:36<00:22, 62.59it/s][A
+Processing rows:  79%|███████▉  | 5320/6740 [01:36<00:23, 61.23it/s][A
+Processing rows:  79%|███████▉  | 5327/6740 [01:36<00:23, 59.50it/s][A
+Processing rows:  79%|███████▉  | 5334/6740 [01:36<00:22, 61.82it/s][A
+Processing rows:  79%|███████▉  | 5341/6740 [01:36<00:23, 59.99it/s][A
+Processing rows:  79%|███████▉  | 5348/6740 [01:36<00:23, 58.82it/s][A
+Processing rows:  79%|███████▉  | 5354/6740 [01:36<00:24, 57.07it/s][A
+Processing rows:  80%|███████▉  | 5360/6740 [01:37<00:24, 56.73it/s][A
+Processing rows:  80%|███████▉  | 5366/6740 [01:37<00:24, 55.32it/s][A
+Processing rows:  80%|███████▉  | 5372/6740 [01:37<00:25, 52.71it/s][A
+Processing rows:  80%|███████▉  | 5378/6740 [01:37<00:26, 51.46it/s][A
+Processing rows:  80%|███████▉  | 5384/6740 [01:37<00:26, 50.91it/s][A
+Processing rows:  80%|███████▉  | 5390/6740 [01:37<00:25, 52.11it/s][A
+Processing rows:  80%|████████  | 5396/6740 [01:37<00:26, 50.97it/s][A
+Processing rows:  80%|████████  | 5402/6740 [01:37<00:26, 51.17it/s][A
+Processing rows:  80%|████████  | 5408/6740 [01:37<00:25, 52.06it/s][A
+Processing rows:  80%|████████  | 5414/6740 [01:38<00:25, 52.88it/s][A
+Processing rows:  80%|████████  | 5420/6740 [01:38<00:24, 54.12it/s][A
+Processing rows:  81%|████████  | 5426/6740 [01:38<00:24, 54.51it/s][A
+Processing rows:  81%|████████  | 5434/6740 [01:38<00:22, 59.08it/s][A
+Processing rows:  81%|████████  | 5440/6740 [01:38<00:22, 59.06it/s][A
+Processing rows:  81%|████████  | 5446/6740 [01:38<00:24, 53.19it/s][A
+Processing rows:  81%|████████  | 5452/6740 [01:38<00:23, 54.73it/s][A
+Processing rows:  81%|████████  | 5459/6740 [01:38<00:22, 56.91it/s][A
+Processing rows:  81%|████████  | 5465/6740 [01:38<00:22, 57.61it/s][A
+Processing rows:  81%|████████  | 5471/6740 [01:39<00:22, 57.13it/s][A
+Processing rows:  81%|████████▏ | 5477/6740 [01:39<00:22, 56.78it/s][A
+Processing rows:  81%|████████▏ | 5483/6740 [01:39<00:22, 56.34it/s][A
+Processing rows:  81%|████████▏ | 5489/6740 [01:39<00:22, 56.40it/s][A
+Processing rows:  82%|████████▏ | 5495/6740 [01:39<00:21, 57.38it/s][A
+Processing rows:  82%|████████▏ | 5501/6740 [01:39<00:21, 57.72it/s][A
+Processing rows:  82%|████████▏ | 5507/6740 [01:39<00:21, 57.08it/s][A
+Processing rows:  82%|████████▏ | 5514/6740 [01:39<00:21, 58.33it/s][A
+Processing rows:  82%|████████▏ | 5520/6740 [01:39<00:21, 57.65it/s][A
+Processing rows:  82%|████████▏ | 5526/6740 [01:40<00:20, 58.18it/s][A
+Processing rows:  82%|████████▏ | 5533/6740 [01:40<00:20, 59.76it/s][A
+Processing rows:  82%|████████▏ | 5540/6740 [01:40<00:19, 60.09it/s][A
+Processing rows:  82%|████████▏ | 5547/6740 [01:40<00:20, 57.61it/s][A
+Processing rows:  82%|████████▏ | 5555/6740 [01:40<00:18, 62.60it/s][A
+Processing rows:  83%|████████▎ | 5562/6740 [01:40<00:18, 64.38it/s][A
+Processing rows:  83%|████████▎ | 5569/6740 [01:40<00:17, 65.47it/s][A
+Processing rows:  83%|████████▎ | 5577/6740 [01:40<00:17, 66.87it/s][A
+Processing rows:  83%|████████▎ | 5585/6740 [01:40<00:16, 68.51it/s][A
+Processing rows:  83%|████████▎ | 5593/6740 [01:41<00:16, 70.85it/s][A
+Processing rows:  83%|████████▎ | 5601/6740 [01:41<00:16, 69.73it/s][A
+Processing rows:  83%|████████▎ | 5608/6740 [01:41<00:16, 68.57it/s][A
+Processing rows:  83%|████████▎ | 5615/6740 [01:41<00:17, 66.02it/s][A
+Processing rows:  83%|████████▎ | 5622/6740 [01:41<00:16, 66.87it/s][A
+Processing rows:  84%|████████▎ | 5629/6740 [01:41<00:16, 65.85it/s][A
+Processing rows:  84%|████████▎ | 5636/6740 [01:41<00:16, 66.72it/s][A
+Processing rows:  84%|████████▎ | 5644/6740 [01:41<00:16, 67.90it/s][A
+Processing rows:  84%|████████▍ | 5651/6740 [01:41<00:16, 66.96it/s][A
+Processing rows:  84%|████████▍ | 5659/6740 [01:42<00:15, 67.77it/s][A
+Processing rows:  84%|████████▍ | 5667/6740 [01:42<00:15, 68.80it/s][A
+Processing rows:  84%|████████▍ | 5675/6740 [01:42<00:14, 71.15it/s][A
+Processing rows:  84%|████████▍ | 5683/6740 [01:42<00:14, 72.56it/s][A
+Processing rows:  84%|████████▍ | 5691/6740 [01:42<00:14, 71.70it/s][A
+Processing rows:  85%|████████▍ | 5699/6740 [01:42<00:14, 69.47it/s][A
+Processing rows:  85%|████████▍ | 5706/6740 [01:42<00:16, 62.96it/s][A
+Processing rows:  85%|████████▍ | 5713/6740 [01:42<00:16, 62.78it/s][A
+Processing rows:  85%|████████▍ | 5720/6740 [01:42<00:15, 63.98it/s][A
+Processing rows:  85%|████████▍ | 5727/6740 [01:43<00:16, 59.87it/s][A
+Processing rows:  85%|████████▌ | 5734/6740 [01:43<00:17, 57.31it/s][A
+Processing rows:  85%|████████▌ | 5740/6740 [01:43<00:17, 56.17it/s][A
+Processing rows:  85%|████████▌ | 5746/6740 [01:43<00:17, 55.32it/s][A
+Processing rows:  85%|████████▌ | 5752/6740 [01:43<00:18, 54.71it/s][A
+Processing rows:  85%|████████▌ | 5758/6740 [01:43<00:18, 54.26it/s][A
+Processing rows:  86%|████████▌ | 5764/6740 [01:43<00:17, 54.50it/s][A
+Processing rows:  86%|████████▌ | 5771/6740 [01:43<00:17, 55.78it/s][A
+Processing rows:  86%|████████▌ | 5777/6740 [01:44<00:17, 54.22it/s][A
+Processing rows:  86%|████████▌ | 5783/6740 [01:44<00:19, 48.26it/s][A
+Processing rows:  86%|████████▌ | 5789/6740 [01:44<00:19, 48.77it/s][A
+Processing rows:  86%|████████▌ | 5796/6740 [01:44<00:18, 51.89it/s][A
+Processing rows:  86%|████████▌ | 5802/6740 [01:44<00:17, 53.18it/s][A
+Processing rows:  86%|████████▌ | 5808/6740 [01:44<00:17, 52.69it/s][A
+Processing rows:  86%|████████▋ | 5814/6740 [01:44<00:17, 53.05it/s][A
+Processing rows:  86%|████████▋ | 5820/6740 [01:44<00:16, 54.39it/s][A
+Processing rows:  86%|████████▋ | 5827/6740 [01:44<00:16, 55.75it/s][A
+Processing rows:  87%|████████▋ | 5833/6740 [01:45<00:16, 56.26it/s][A
+Processing rows:  87%|████████▋ | 5839/6740 [01:45<00:16, 55.86it/s][A
+Processing rows:  87%|████████▋ | 5845/6740 [01:45<00:15, 56.88it/s][A
+Processing rows:  87%|████████▋ | 5851/6740 [01:45<00:16, 55.29it/s][A
+Processing rows:  87%|████████▋ | 5857/6740 [01:45<00:16, 53.36it/s][A
+Processing rows:  87%|████████▋ | 5863/6740 [01:45<00:16, 51.78it/s][A
+Processing rows:  87%|████████▋ | 5869/6740 [01:45<00:16, 51.77it/s][A
+Processing rows:  87%|████████▋ | 5875/6740 [01:45<00:16, 51.52it/s][A
+Processing rows:  87%|████████▋ | 5881/6740 [01:45<00:16, 52.39it/s][A
+Processing rows:  87%|████████▋ | 5887/6740 [01:46<00:16, 52.64it/s][A
+Processing rows:  87%|████████▋ | 5893/6740 [01:46<00:16, 51.89it/s][A
+Processing rows:  88%|████████▊ | 5899/6740 [01:46<00:16, 51.29it/s][A
+Processing rows:  88%|████████▊ | 5905/6740 [01:46<00:16, 52.18it/s][A
+Processing rows:  88%|████████▊ | 5911/6740 [01:46<00:15, 53.52it/s][A
+Processing rows:  88%|████████▊ | 5917/6740 [01:46<00:15, 52.14it/s][A
+Processing rows:  88%|████████▊ | 5923/6740 [01:46<00:15, 51.72it/s][A
+Processing rows:  88%|████████▊ | 5929/6740 [01:46<00:15, 50.88it/s][A
+Processing rows:  88%|████████▊ | 5935/6740 [01:47<00:16, 49.51it/s][A
+Processing rows:  88%|████████▊ | 5940/6740 [01:47<00:16, 49.45it/s][A
+Processing rows:  88%|████████▊ | 5945/6740 [01:47<00:16, 49.29it/s][A
+Processing rows:  88%|████████▊ | 5950/6740 [01:47<00:15, 49.43it/s][A
+Processing rows:  88%|████████▊ | 5955/6740 [01:47<00:15, 49.49it/s][A
+Processing rows:  88%|████████▊ | 5960/6740 [01:47<00:15, 49.47it/s][A
+Processing rows:  89%|████████▊ | 5966/6740 [01:47<00:14, 52.37it/s][A
+Processing rows:  89%|████████▊ | 5972/6740 [01:47<00:16, 46.49it/s][A
+Processing rows:  89%|████████▊ | 5977/6740 [01:47<00:16, 47.36it/s][A
+Processing rows:  89%|████████▉ | 5983/6740 [01:48<00:15, 50.38it/s][A
+Processing rows:  89%|████████▉ | 5989/6740 [01:48<00:14, 51.81it/s][A
+Processing rows:  89%|████████▉ | 5995/6740 [01:48<00:14, 51.11it/s][A
+Processing rows:  89%|████████▉ | 6001/6740 [01:48<00:14, 51.63it/s][A
+Processing rows:  89%|████████▉ | 6007/6740 [01:48<00:14, 51.34it/s][A
+Processing rows:  89%|████████▉ | 6013/6740 [01:48<00:13, 53.43it/s][A
+Processing rows:  89%|████████▉ | 6019/6740 [01:48<00:13, 52.07it/s][A
+Processing rows:  89%|████████▉ | 6025/6740 [01:48<00:14, 50.56it/s][A
+Processing rows:  89%|████████▉ | 6031/6740 [01:48<00:13, 50.79it/s][A
+Processing rows:  90%|████████▉ | 6037/6740 [01:49<00:14, 50.11it/s][A
+Processing rows:  90%|████████▉ | 6043/6740 [01:49<00:14, 49.27it/s][A
+Processing rows:  90%|████████▉ | 6048/6740 [01:49<00:14, 48.84it/s][A
+Processing rows:  90%|████████▉ | 6053/6740 [01:49<00:14, 49.05it/s][A
+Processing rows:  90%|████████▉ | 6058/6740 [01:49<00:14, 48.00it/s][A
+Processing rows:  90%|████████▉ | 6064/6740 [01:49<00:13, 50.40it/s][A
+Processing rows:  90%|█████████ | 6070/6740 [01:49<00:13, 51.02it/s][A
+Processing rows:  90%|█████████ | 6076/6740 [01:49<00:12, 51.29it/s][A
+Processing rows:  90%|█████████ | 6082/6740 [01:49<00:13, 50.58it/s][A
+Processing rows:  90%|█████████ | 6088/6740 [01:50<00:12, 51.63it/s][A
+Processing rows:  90%|█████████ | 6094/6740 [01:50<00:12, 52.93it/s][A
+Processing rows:  91%|█████████ | 6100/6740 [01:50<00:12, 51.56it/s][A
+Processing rows:  91%|█████████ | 6106/6740 [01:50<00:12, 51.66it/s][A
+Processing rows:  91%|█████████ | 6112/6740 [01:50<00:11, 53.44it/s][A
+Processing rows:  91%|█████████ | 6118/6740 [01:50<00:11, 52.62it/s][A
+Processing rows:  91%|█████████ | 6124/6740 [01:50<00:11, 52.81it/s][A
+Processing rows:  91%|█████████ | 6130/6740 [01:50<00:11, 54.63it/s][A
+Processing rows:  91%|█████████ | 6136/6740 [01:50<00:11, 52.59it/s][A
+Processing rows:  91%|█████████ | 6142/6740 [01:51<00:11, 51.23it/s][A
+Processing rows:  91%|█████████ | 6148/6740 [01:51<00:11, 52.10it/s][A
+Processing rows:  91%|█████████▏| 6154/6740 [01:51<00:11, 52.35it/s][A
+Processing rows:  91%|█████████▏| 6160/6740 [01:51<00:11, 52.48it/s][A
+Processing rows:  91%|█████████▏| 6166/6740 [01:51<00:11, 52.06it/s][A
+Processing rows:  92%|█████████▏| 6172/6740 [01:51<00:10, 53.67it/s][A
+Processing rows:  92%|█████████▏| 6178/6740 [01:51<00:11, 49.35it/s][A
+Processing rows:  92%|█████████▏| 6184/6740 [01:51<00:10, 51.11it/s][A
+Processing rows:  92%|█████████▏| 6190/6740 [01:52<00:10, 52.36it/s][A
+Processing rows:  92%|█████████▏| 6196/6740 [01:52<00:10, 53.06it/s][A
+Processing rows:  92%|█████████▏| 6202/6740 [01:52<00:10, 53.00it/s][A
+Processing rows:  92%|█████████▏| 6208/6740 [01:52<00:10, 53.12it/s][A
+Processing rows:  92%|█████████▏| 6214/6740 [01:52<00:09, 54.75it/s][A
+Processing rows:  92%|█████████▏| 6220/6740 [01:52<00:09, 55.03it/s][A
+Processing rows:  92%|█████████▏| 6226/6740 [01:52<00:09, 54.83it/s][A
+Processing rows:  92%|█████████▏| 6232/6740 [01:52<00:09, 55.63it/s][A
+Processing rows:  93%|█████████▎| 6239/6740 [01:52<00:08, 58.46it/s][A
+Processing rows:  93%|█████████▎| 6246/6740 [01:52<00:08, 58.67it/s][A
+Processing rows:  93%|█████████▎| 6252/6740 [01:53<00:08, 58.15it/s][A
+Processing rows:  93%|█████████▎| 6259/6740 [01:53<00:08, 59.41it/s][A
+Processing rows:  93%|█████████▎| 6265/6740 [01:53<00:07, 59.52it/s][A
+Processing rows:  93%|█████████▎| 6272/6740 [01:53<00:07, 60.77it/s][A
+Processing rows:  93%|█████████▎| 6279/6740 [01:53<00:07, 58.47it/s][A
+Processing rows:  93%|█████████▎| 6286/6740 [01:53<00:07, 61.40it/s][A
+Processing rows:  93%|█████████▎| 6293/6740 [01:53<00:07, 58.89it/s][A
+Processing rows:  93%|█████████▎| 6299/6740 [01:53<00:08, 54.74it/s][A
+Processing rows:  94%|█████████▎| 6305/6740 [01:54<00:07, 55.40it/s][A
+Processing rows:  94%|█████████▎| 6311/6740 [01:54<00:07, 56.19it/s][A
+Processing rows:  94%|█████████▎| 6318/6740 [01:54<00:07, 59.48it/s][A
+Processing rows:  94%|█████████▍| 6325/6740 [01:54<00:06, 60.88it/s][A
+Processing rows:  94%|█████████▍| 6332/6740 [01:54<00:06, 62.53it/s][A
+Processing rows:  94%|█████████▍| 6339/6740 [01:54<00:06, 64.60it/s][A
+Processing rows:  94%|█████████▍| 6347/6740 [01:54<00:05, 67.13it/s][A
+Processing rows:  94%|█████████▍| 6354/6740 [01:54<00:05, 67.05it/s][A
+Processing rows:  94%|█████████▍| 6361/6740 [01:54<00:05, 64.48it/s][A
+Processing rows:  94%|█████████▍| 6368/6740 [01:54<00:05, 62.61it/s][A
+Processing rows:  95%|█████████▍| 6375/6740 [01:55<00:05, 62.58it/s][A
+Processing rows:  95%|█████████▍| 6382/6740 [01:55<00:05, 62.99it/s][A
+Processing rows:  95%|█████████▍| 6390/6740 [01:55<00:05, 66.03it/s][A
+Processing rows:  95%|█████████▍| 6397/6740 [01:55<00:05, 66.48it/s][A
+Processing rows:  95%|█████████▌| 6404/6740 [01:55<00:05, 67.18it/s][A
+Processing rows:  95%|█████████▌| 6412/6740 [01:55<00:04, 68.18it/s][A
+Processing rows:  95%|█████████▌| 6419/6740 [01:55<00:04, 67.05it/s][A
+Processing rows:  95%|█████████▌| 6426/6740 [01:55<00:04, 66.23it/s][A
+Processing rows:  95%|█████████▌| 6434/6740 [01:55<00:04, 67.92it/s][A
+Processing rows:  96%|█████████▌| 6442/6740 [01:56<00:04, 68.09it/s][A
+Processing rows:  96%|█████████▌| 6449/6740 [01:56<00:04, 63.59it/s][A
+Processing rows:  96%|█████████▌| 6456/6740 [01:56<00:04, 60.12it/s][A
+Processing rows:  96%|█████████▌| 6463/6740 [01:56<00:04, 59.33it/s][A
+Processing rows:  96%|█████████▌| 6469/6740 [01:56<00:04, 57.60it/s][A
+Processing rows:  96%|█████████▌| 6475/6740 [01:56<00:04, 55.47it/s][A
+Processing rows:  96%|█████████▌| 6481/6740 [01:56<00:04, 55.60it/s][A
+Processing rows:  96%|█████████▋| 6488/6740 [01:56<00:04, 58.21it/s][A
+Processing rows:  96%|█████████▋| 6494/6740 [01:57<00:04, 56.31it/s][A
+Processing rows:  96%|█████████▋| 6501/6740 [01:57<00:04, 59.68it/s][A
+Processing rows:  97%|█████████▋| 6510/6740 [01:57<00:03, 64.60it/s][A
+Processing rows:  97%|█████████▋| 6517/6740 [01:57<00:03, 58.63it/s][A
+Processing rows:  97%|█████████▋| 6523/6740 [01:57<00:03, 56.43it/s][A
+Processing rows:  97%|█████████▋| 6529/6740 [01:57<00:03, 55.21it/s][A
+Processing rows:  97%|█████████▋| 6535/6740 [01:57<00:03, 54.46it/s][A
+Processing rows:  97%|█████████▋| 6541/6740 [01:57<00:03, 53.74it/s][A
+Processing rows:  97%|█████████▋| 6548/6740 [01:57<00:03, 56.69it/s][A
+Processing rows:  97%|█████████▋| 6554/6740 [01:58<00:03, 55.37it/s][A
+Processing rows:  97%|█████████▋| 6560/6740 [01:58<00:03, 55.60it/s][A
+Processing rows:  97%|█████████▋| 6567/6740 [01:58<00:02, 58.02it/s][A
+Processing rows:  98%|█████████▊| 6574/6740 [01:58<00:02, 59.49it/s][A
+Processing rows:  98%|█████████▊| 6580/6740 [01:58<00:02, 58.54it/s][A
+Processing rows:  98%|█████████▊| 6587/6740 [01:58<00:02, 59.12it/s][A
+Processing rows:  98%|█████████▊| 6593/6740 [01:58<00:02, 58.57it/s][A
+Processing rows:  98%|█████████▊| 6600/6740 [01:58<00:02, 61.04it/s][A
+Processing rows:  98%|█████████▊| 6607/6740 [01:58<00:02, 63.25it/s][A
+Processing rows:  98%|█████████▊| 6615/6740 [01:59<00:01, 66.57it/s][A
+Processing rows:  98%|█████████▊| 6622/6740 [01:59<00:01, 64.53it/s][A
+Processing rows:  98%|█████████▊| 6629/6740 [01:59<00:01, 61.34it/s][A
+Processing rows:  98%|█████████▊| 6636/6740 [01:59<00:01, 60.77it/s][A
+Processing rows:  99%|█████████▊| 6643/6740 [01:59<00:01, 61.33it/s][A
+Processing rows:  99%|█████████▊| 6651/6740 [01:59<00:01, 64.57it/s][A
+Processing rows:  99%|█████████▉| 6658/6740 [01:59<00:01, 65.36it/s][A
+Processing rows:  99%|█████████▉| 6665/6740 [01:59<00:01, 63.90it/s][A
+Processing rows:  99%|█████████▉| 6672/6740 [01:59<00:01, 64.73it/s][A
+Processing rows:  99%|█████████▉| 6679/6740 [02:00<00:00, 64.04it/s][A
+Processing rows:  99%|█████████▉| 6686/6740 [02:00<00:00, 63.77it/s][A
+Processing rows:  99%|█████████▉| 6693/6740 [02:00<00:00, 63.67it/s][A
+Processing rows:  99%|█████████▉| 6701/6740 [02:00<00:00, 66.20it/s][A
+Processing rows: 100%|█████████▉| 6709/6740 [02:00<00:00, 68.75it/s][A
+Processing rows: 100%|█████████▉| 6716/6740 [02:00<00:00, 65.25it/s][A
+Processing rows: 100%|█████████▉| 6724/6740 [02:00<00:00, 65.86it/s][A
+Processing rows: 100%|█████████▉| 6731/6740 [02:00<00:00, 65.54it/s][A
+Processing rows: 100%|█████████▉| 6738/6740 [02:00<00:00, 65.34it/s][AProcessing rows: 100%|██████████| 6740/6740 [02:01<00:00, 55.70it/s]
+2025-08-12 16:50:03,518 - __main__ - INFO - Wrote 6710 rows to parameters/torsions/ash-sage-valence-v2/batch-0030.parquet
+Processing files:  97%|█████████▋| 34/35 [03:17<00:38, 38.31s/it]2025-08-12 16:50:03,622 - __main__ - INFO - Loaded 126 rows from ../../../01_download-data/qm/data/tables/torsiondrive/XtalPi Shared Fragments TorsiondriveDataset v1.0.parquet
+2025-08-12 16:50:03,642 - __main__ - INFO - Loaded 10047 existing cmiles
+2025-08-12 16:50:03,643 - __main__ - INFO - New rows: 126
+
+Processing rows:   0%|          | 0/126 [00:00<?, ?it/s][A
+Processing rows:   3%|▎         | 4/126 [00:00<00:03, 32.99it/s][A
+Processing rows:   8%|▊         | 10/126 [00:00<00:02, 45.90it/s][A
+Processing rows:  13%|█▎        | 16/126 [00:00<00:02, 48.86it/s][A
+Processing rows:  17%|█▋        | 22/126 [00:00<00:02, 51.03it/s][A
+Processing rows:  22%|██▏       | 28/126 [00:00<00:01, 52.68it/s][A
+Processing rows:  27%|██▋       | 34/126 [00:00<00:01, 54.96it/s][A
+Processing rows:  32%|███▏      | 40/126 [00:00<00:01, 55.53it/s][A
+Processing rows:  37%|███▋      | 47/126 [00:00<00:01, 57.02it/s][A
+Processing rows:  43%|████▎     | 54/126 [00:00<00:01, 58.09it/s][A
+Processing rows:  48%|████▊     | 60/126 [00:01<00:01, 56.32it/s][A
+Processing rows:  52%|█████▏    | 66/126 [00:01<00:01, 55.26it/s][A
+Processing rows:  57%|█████▋    | 72/126 [00:01<00:01, 53.99it/s][A
+Processing rows:  62%|██████▏   | 78/126 [00:01<00:00, 55.08it/s][A
+Processing rows:  67%|██████▋   | 84/126 [00:01<00:00, 54.89it/s][A
+Processing rows:  71%|███████▏  | 90/126 [00:01<00:00, 53.73it/s][A
+Processing rows:  76%|███████▌  | 96/126 [00:01<00:00, 54.87it/s][A
+Processing rows:  81%|████████  | 102/126 [00:01<00:00, 56.11it/s][A
+Processing rows:  86%|████████▌ | 108/126 [00:01<00:00, 55.54it/s][A
+Processing rows:  91%|█████████▏| 115/126 [00:02<00:00, 58.70it/s][A
+Processing rows:  96%|█████████▌| 121/126 [00:02<00:00, 58.22it/s][AProcessing rows: 100%|██████████| 126/126 [00:02<00:00, 55.57it/s]
+2025-08-12 16:50:05,911 - __main__ - INFO - Wrote 126 rows to parameters/torsions/ash-sage-valence-v2/batch-0031.parquet
+Processing files: 100%|██████████| 35/35 [03:20<00:00, 27.53s/it]Processing files: 100%|██████████| 35/35 [03:20<00:00,  5.72s/it]
