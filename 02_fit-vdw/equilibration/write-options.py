@@ -1,19 +1,21 @@
-"""
-This script generates a `options.json` file with equilibration options for the OpenFF Evaluator.
-
-Most options are hardcoded, but can be modified as needed.
-Previous ash-sage-rc1 script only allowed up to 12 ns equilibration,
-but this version allows up to 200 ns for some slowly-equilibrating systems.
-"""
-
+import pickle
 import click
 
+from openff.units import unit
+from openff.evaluator.datasets import PhysicalPropertyDataSet
 from openff.evaluator.properties import Density, EnthalpyOfMixing
 from openff.evaluator.client import RequestOptions
 
-from openff.evaluator.client import RequestOptions
+from openff.evaluator.backends import ComputeResources, QueueWorkerResources
+from openff.evaluator.backends.dask import DaskLocalCluster
+from openff.evaluator.backends.dask import DaskSLURMBackend
+
+from openff.evaluator.client import EvaluatorClient, RequestOptions, ConnectionOptions
+from openff.evaluator.server.server import EvaluatorServer
 from openff.evaluator.layers.equilibration import EquilibrationProperty
 from openff.evaluator.utils.observables import ObservableType
+
+from openff.evaluator.forcefield import SmirnoffForceFieldSource
 
 
 @click.command()
@@ -22,9 +24,6 @@ from openff.evaluator.utils.observables import ObservableType
     "-n",
     type=int,
     default=1000,
-    help=(
-        "Number of molecules per box."
-    )
 )
 def main(
     n_molecules: int = 1000, 
@@ -58,6 +57,7 @@ def main(
     )
 
     # note: output frequency is every 10 ps.
+
     options.add_schema("EquilibrationLayer", "Density", density_schema)
     options.add_schema("EquilibrationLayer", "EnthalpyOfMixing", dhmix_schema)
     options.json("options.json", format=True) 

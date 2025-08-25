@@ -1,26 +1,21 @@
-"""
-This script sets up a Dask SLURM backend to run equilibration calculations
-using the OpenFF Evaluator framework. It processes a dataset of physical properties,
-requests equilibration estimates, and saves the results to a file called `results.pkl`.
-
-Note: the `results.pkl` file is only saved for debugging purposes.
-The actual equilibration data is stored in the `stored_data` directory
-and can be reused in future runs to avoid re-computation.
-"""
 import pickle
 import logging
 import click
 
 from openff.units import unit
 from openff.evaluator.datasets import PhysicalPropertyDataSet
+from openff.evaluator.properties import Density, EnthalpyOfMixing
 from openff.evaluator.client import RequestOptions
 
 from openff.evaluator.backends import ComputeResources, QueueWorkerResources
+from openff.evaluator.backends.dask import DaskLocalCluster
 from openff.evaluator.backends.dask import DaskSLURMBackend
 from openff.evaluator.storage import LocalFileStorage
 
 from openff.evaluator.client import EvaluatorClient, RequestOptions, ConnectionOptions
 from openff.evaluator.server.server import EvaluatorServer
+from openff.evaluator.layers.equilibration import EquilibrationProperty
+from openff.evaluator.utils.observables import ObservableType
 
 from openff.evaluator.forcefield import SmirnoffForceFieldSource
 
@@ -34,28 +29,23 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
     "-d",
     "dataset_path",
     type=click.Path(exists=True, file_okay=True, dir_okay=False),
-    default="../refit/targets/phys-prop/training-set.json",
-    help=(
-        "Path to training or validation dataset file in JSON format. "
-        "This file should contain a PhysicalPropertyDataSet. "
-    ),
+    default="dataset.json",
+)
+@click.option(
+    "--n-molecules",
+    "-n",
+    type=int,
+    default=1000,
 )
 @click.option(
     "--force-field",
     "-f",
     default="openff-2.2.1.offxml",
-    help=(
-        "Force field to use for equilibration. "
-    )
 )
 @click.option(
     "--port",
     "-p",
     default=8000,
-    help=(
-        "Port to use for the Evaluator server. "
-        "This should be set to a free port on the compute node."
-    )
 )
 @click.option(
     "--extra-script-option",
@@ -81,6 +71,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 )
 def main(
     dataset_path: str,
+    n_molecules: int = 1000,
     force_field: str = "openff-2.2.1.offxml",
     port: int = 8000,
     extra_script_options: list[str] = [],
@@ -92,19 +83,12 @@ def main(
     dataset = PhysicalPropertyDataSet.from_json(dataset_path)
     logger.info(f"Loaded {len(dataset.properties)} properties from {dataset_path}")
 
-    # load options to use for equilibration
-    # this should be the output of write-options.py
     options = RequestOptions.from_json("options.json") 
     
-    # load force field
     force_field_source = SmirnoffForceFieldSource.from_path(
         force_field
     )
 
-    # set up GPU worker resources
-    # hardcode some settings --
-    # we use 1 GPU per worker, with 4 GB of memory per thread
-    # and a wallclock time limit of 48 hours
     worker_resources = QueueWorkerResources(
         number_of_threads=1,
         number_of_gpus=1,
@@ -113,10 +97,9 @@ def main(
         wallclock_time_limit="48:00:00",
     )
 
-    # set up the Dask SLURM backend
     backend = DaskSLURMBackend(
         minimum_number_of_workers=1,
-        maximum_number_of_workers=n_gpu,
+        maximum_number_of_workers=n_gpu,  # 24 max on free queue -- keep 1 free.
         resources_per_worker=worker_resources,
         queue_name=queue,
         setup_script_commands=[
@@ -130,11 +113,10 @@ def main(
     backend.start()
     logger.info(f"backend started {backend}")
 
-    # set up the Dask cluster
     server = EvaluatorServer(
         calculation_backend=backend,
         working_directory="working-directory",
-        delete_working_files=False, # false for debugging -- set true if too large
+        delete_working_files=False,
         storage_backend=LocalFileStorage(cache_objects_in_memory=True),
         port=port,
     )
@@ -146,6 +128,7 @@ def main(
     # we first request the equilibration data
     # this can be copied between different runs to avoid re-running
     # the data is saved in a directory called "stored_data"
+
     request, error = client.request_estimate(
         dataset,
         force_field_source,
