@@ -1,0 +1,809 @@
+2025-08-20 16:10:06.611 | INFO     | __main__:main:479 - Loaded 414 parameter ids
+2025-08-20 16:10:06.611 | INFO     | __main__:main:480 - Looking for 50 each
+2025-08-20 16:10:06.616 | INFO     | __main__:main:488 - Loaded 20182 exclude ids from bad-data/existing-filtered-ids.dat
+2025-08-20 16:10:06.621 | INFO     | __main__:main:498 - Loaded 24512 exclude ids from output/optimizations-single-v0.json
+2025-08-20 16:10:06.626 | INFO     | __main__:main:498 - Loaded 25378 exclude ids from output/optimizations-single-v1.json
+2025-08-20 16:10:06.631 | INFO     | __main__:main:498 - Loaded 25781 exclude ids from output/optimizations-single-v2.json
+2025-08-20 16:10:06.635 | INFO     | __main__:main:498 - Loaded 26180 exclude ids from output/optimizations-single-v3.json
+2025-08-20 16:10:06.643 | INFO     | __main__:main:498 - Loaded 31894 exclude ids from output/optimizations-multi-v0.json
+2025-08-20 16:10:06.651 | INFO     | __main__:main:498 - Loaded 34036 exclude ids from output/optimizations-multi-v1.json
+2025-08-20 16:10:06.659 | INFO     | __main__:main:498 - Loaded 35213 exclude ids from output/optimizations-multi-v2.json
+2025-08-20 16:10:06.667 | INFO     | __main__:main:498 - Loaded 36073 exclude ids from output/optimizations-multi-v3.json
+2025-08-20 16:10:06.669 | INFO     | __main__:main:506 - Loaded 1207 exclude cmiles from bad-data/failed-charge-cmiles.dat
+2025-08-20 16:10:06.669 | INFO     | __main__:main:514 - Loaded 19 exclude smarts from bad-data/smarts-to-exclude.dat
+2025-08-20 16:10:07.349 | INFO     | __main__:main:519 - Loaded 1919147 CMILES from label/parameters/valence/ash-sage-valence-v3
+2025-08-20 16:10:07.493 | INFO     | __main__:main:523 - Filtered to 1905323 CMILES by removing excluded cmiles
+2025-08-20 16:10:07.503 | INFO     | __main__:main:527 - Loading 306913 records from ../../01_download-data/qm/data/tables/optimization
+2025-08-20 16:10:07.529 | INFO     | __main__:main:534 - Filtered to 290480 records after removing excluded ids
+2025-08-20 16:10:07.553 | INFO     | __main__:main:540 - Filtered to 216115 records after removing excluded dataset names
+First pass - selecting rare parameters:   0%|          | 0/381 [00:00<?, ?it/s]2025-08-20 16:10:08.827 | INFO     | __main__:main:586 - Selected 0 cmiles for a17
+/Users/lily/pydev/ash-sage-rc2/03_fit-valence/02_curate-data/select-optimizations-smallest.py:342: AtomMappingWarning: Warning! Fully mapped SMILES pattern passed to `from_smiles`. The atom map is stored as a property in `Molecule._properties`, but these indices are NOT used to determine atom ordering. To use these indices for atom ordering, use `Molecule.from_mapped_smiles`.
+  mol = Molecule.from_smiles(cmi, allow_undefined_stereo=True)
+2025-08-20 16:10:12.036 | INFO     | __main__:main:586 - Selected 1 cmiles for a23
+First pass - selecting rare parameters:   5%|▍         | 18/381 [00:03<01:07,  5.39it/s]2025-08-20 16:10:14.926 | INFO     | __main__:main:586 - Selected 3 cmiles for a27
+First pass - selecting rare parameters:   6%|▌         | 22/381 [00:06<01:54,  3.13it/s]2025-08-20 16:10:17.537 | INFO     | __main__:main:586 - Selected 0 cmiles for a36
+First pass - selecting rare parameters:   8%|▊         | 32/381 [00:08<01:40,  3.49it/s]2025-08-20 16:10:20.061 | INFO     | __main__:main:586 - Selected 2 cmiles for b13a
+First pass - selecting rare parameters:  14%|█▎        | 52/381 [00:11<01:05,  5.06it/s]2025-08-20 16:10:22.792 | INFO     | __main__:main:586 - Selected 1 cmiles for b33
+First pass - selecting rare parameters:  19%|█▉        | 74/381 [00:14<00:49,  6.21it/s]2025-08-20 16:10:25.505 | INFO     | __main__:main:586 - Selected 3 cmiles for b39
+First pass - selecting rare parameters:  21%|██        | 80/381 [00:16<01:02,  4.85it/s]2025-08-20 16:10:27.997 | INFO     | __main__:main:586 - Selected 0 cmiles for b40
+First pass - selecting rare parameters:  22%|██▏       | 82/381 [00:19<01:23,  3.60it/s]2025-08-20 16:10:30.775 | INFO     | __main__:main:586 - Selected 0 cmiles for b44
+First pass - selecting rare parameters:  23%|██▎       | 86/381 [00:22<01:42,  2.89it/s]2025-08-20 16:10:33.323 | INFO     | __main__:main:586 - Selected 2 cmiles for b47
+First pass - selecting rare parameters:  23%|██▎       | 89/381 [00:24<02:04,  2.35it/s]2025-08-20 16:10:35.882 | INFO     | __main__:main:586 - Selected 1 cmiles for b48
+First pass - selecting rare parameters:  24%|██▎       | 90/381 [00:27<02:44,  1.77it/s]2025-08-20 16:10:36.031 | INFO     | __main__:main:586 - Selected 0 cmiles for b49
+First pass - selecting rare parameters:  24%|██▍       | 91/381 [00:27<02:32,  1.90it/s]2025-08-20 16:10:39.064 | INFO     | __main__:main:586 - Selected 4 cmiles for b54
+First pass - selecting rare parameters:  25%|██▌       | 96/381 [00:30<02:42,  1.75it/s]2025-08-20 16:10:41.701 | INFO     | __main__:main:586 - Selected 0 cmiles for b55
+First pass - selecting rare parameters:  25%|██▌       | 97/381 [00:32<03:34,  1.32it/s]2025-08-20 16:10:45.135 | INFO     | __main__:main:586 - Selected 23 cmiles for b66
+First pass - selecting rare parameters:  29%|██▉       | 110/381 [00:37<02:12,  2.05it/s]2025-08-20 16:10:48.667 | INFO     | __main__:main:586 - Selected 2 cmiles for b75
+First pass - selecting rare parameters:  31%|███▏      | 120/381 [00:40<01:42,  2.54it/s]2025-08-20 16:10:51.401 | INFO     | __main__:main:586 - Selected 3 cmiles for b76
+First pass - selecting rare parameters:  32%|███▏      | 121/381 [00:42<02:17,  1.90it/s]2025-08-20 16:10:54.222 | INFO     | __main__:main:586 - Selected 0 cmiles for b77
+First pass - selecting rare parameters:  32%|███▏      | 122/381 [00:45<02:58,  1.45it/s]2025-08-20 16:10:54.296 | INFO     | __main__:main:586 - Selected 0 cmiles for b78
+2025-08-20 16:10:54.367 | INFO     | __main__:main:586 - Selected 0 cmiles for b80
+First pass - selecting rare parameters:  33%|███▎      | 125/381 [00:45<02:16,  1.87it/s]2025-08-20 16:10:57.056 | INFO     | __main__:main:586 - Selected 0 cmiles for b81
+First pass - selecting rare parameters:  33%|███▎      | 126/381 [00:48<03:12,  1.32it/s]2025-08-20 16:10:57.117 | INFO     | __main__:main:586 - Selected 0 cmiles for b82
+2025-08-20 16:10:59.650 | INFO     | __main__:main:586 - Selected 2 cmiles for t100
+First pass - selecting rare parameters:  38%|███▊      | 144/381 [00:50<01:14,  3.17it/s]2025-08-20 16:11:02.320 | INFO     | __main__:main:586 - Selected 2 cmiles for t101
+First pass - selecting rare parameters:  38%|███▊      | 145/381 [00:53<01:43,  2.28it/s]2025-08-20 16:11:02.393 | INFO     | __main__:main:586 - Selected 0 cmiles for t103
+2025-08-20 16:11:04.868 | INFO     | __main__:main:586 - Selected 1 cmiles for t114
+First pass - selecting rare parameters:  42%|████▏     | 159/381 [00:56<01:08,  3.26it/s]2025-08-20 16:11:08.221 | INFO     | __main__:main:586 - Selected 11 cmiles for t120a
+First pass - selecting rare parameters:  44%|████▍     | 169/381 [01:00<01:12,  2.91it/s]2025-08-20 16:11:12.303 | INFO     | __main__:main:586 - Selected 9 cmiles for t126
+First pass - selecting rare parameters:  46%|████▋     | 177/381 [01:03<01:16,  2.66it/s]2025-08-20 16:11:16.073 | INFO     | __main__:main:586 - Selected 10 cmiles for t130b
+First pass - selecting rare parameters:  48%|████▊     | 182/381 [01:07<01:30,  2.20it/s]2025-08-20 16:11:16.586 | INFO     | __main__:main:586 - Selected 0 cmiles for t130c
+2025-08-20 16:11:16.652 | INFO     | __main__:main:586 - Selected 0 cmiles for t131
+First pass - selecting rare parameters:  48%|████▊     | 184/381 [01:07<01:21,  2.41it/s]2025-08-20 16:11:19.841 | INFO     | __main__:main:586 - Selected 10 cmiles for t131b
+First pass - selecting rare parameters:  49%|████▊     | 185/381 [01:11<02:01,  1.62it/s]2025-08-20 16:11:20.082 | INFO     | __main__:main:586 - Selected 0 cmiles for t131c
+2025-08-20 16:11:20.146 | INFO     | __main__:main:586 - Selected 0 cmiles for t132
+First pass - selecting rare parameters:  49%|████▉     | 187/381 [01:11<01:42,  1.90it/s]2025-08-20 16:11:20.212 | INFO     | __main__:main:586 - Selected 0 cmiles for t132a
+2025-08-20 16:11:23.425 | INFO     | __main__:main:586 - Selected 11 cmiles for t132b
+First pass - selecting rare parameters:  50%|████▉     | 189/381 [01:14<02:23,  1.34it/s]2025-08-20 16:11:23.592 | INFO     | __main__:main:586 - Selected 0 cmiles for t132c
+2025-08-20 16:11:23.664 | INFO     | __main__:main:586 - Selected 0 cmiles for t133
+First pass - selecting rare parameters:  50%|█████     | 191/381 [01:14<01:54,  1.66it/s]2025-08-20 16:11:26.448 | INFO     | __main__:main:586 - Selected 5 cmiles for t133b
+First pass - selecting rare parameters:  50%|█████     | 192/381 [01:17<02:48,  1.12it/s]2025-08-20 16:11:26.513 | INFO     | __main__:main:586 - Selected 0 cmiles for t133c
+2025-08-20 16:11:26.579 | INFO     | __main__:main:586 - Selected 0 cmiles for t134
+First pass - selecting rare parameters:  51%|█████     | 194/381 [01:17<02:04,  1.50it/s]2025-08-20 16:11:26.647 | INFO     | __main__:main:586 - Selected 0 cmiles for t137
+2025-08-20 16:11:26.718 | INFO     | __main__:main:586 - Selected 0 cmiles for t138a
+First pass - selecting rare parameters:  52%|█████▏    | 200/381 [01:17<00:57,  3.14it/s]2025-08-20 16:11:26.785 | INFO     | __main__:main:586 - Selected 0 cmiles for t141
+2025-08-20 16:11:30.469 | INFO     | __main__:main:586 - Selected 32 cmiles for t142d
+First pass - selecting rare parameters:  55%|█████▌    | 210/381 [01:22<01:03,  2.68it/s]2025-08-20 16:11:33.499 | INFO     | __main__:main:586 - Selected 1 cmiles for t143a
+First pass - selecting rare parameters:  56%|█████▌    | 212/381 [01:24<01:25,  1.97it/s]2025-08-20 16:11:36.241 | INFO     | __main__:main:586 - Selected 3 cmiles for t143c
+First pass - selecting rare parameters:  56%|█████▌    | 214/381 [01:27<01:49,  1.52it/s]2025-08-20 16:11:36.444 | INFO     | __main__:main:586 - Selected 0 cmiles for t143e
+2025-08-20 16:11:36.512 | INFO     | __main__:main:586 - Selected 0 cmiles for t144
+First pass - selecting rare parameters:  57%|█████▋    | 216/381 [01:27<01:29,  1.84it/s]2025-08-20 16:11:36.578 | INFO     | __main__:main:586 - Selected 0 cmiles for t144a
+2025-08-20 16:11:39.308 | INFO     | __main__:main:586 - Selected 2 cmiles for t144c
+First pass - selecting rare parameters:  57%|█████▋    | 219/381 [01:30<01:47,  1.51it/s]2025-08-20 16:11:41.843 | INFO     | __main__:main:586 - Selected 1 cmiles for t145
+First pass - selecting rare parameters:  58%|█████▊    | 220/381 [01:33<02:23,  1.12it/s]2025-08-20 16:11:44.367 | INFO     | __main__:main:586 - Selected 1 cmiles for t145a
+First pass - selecting rare parameters:  58%|█████▊    | 221/381 [01:35<03:00,  1.13s/it]2025-08-20 16:11:46.898 | INFO     | __main__:main:586 - Selected 1 cmiles for t145c
+First pass - selecting rare parameters:  59%|█████▊    | 223/381 [01:38<03:04,  1.17s/it]2025-08-20 16:11:47.021 | INFO     | __main__:main:586 - Selected 0 cmiles for t146
+2025-08-20 16:11:47.092 | INFO     | __main__:main:586 - Selected 0 cmiles for t146a
+First pass - selecting rare parameters:  59%|█████▉    | 225/381 [01:38<02:11,  1.19it/s]2025-08-20 16:11:49.542 | INFO     | __main__:main:586 - Selected 1 cmiles for t146c
+First pass - selecting rare parameters:  60%|█████▉    | 227/381 [01:40<02:27,  1.04it/s]2025-08-20 16:11:52.011 | INFO     | __main__:main:586 - Selected 1 cmiles for t147
+First pass - selecting rare parameters:  60%|█████▉    | 228/381 [01:43<03:07,  1.22s/it]2025-08-20 16:11:54.436 | INFO     | __main__:main:586 - Selected 1 cmiles for t147a
+First pass - selecting rare parameters:  60%|██████    | 229/381 [01:45<03:42,  1.46s/it]2025-08-20 16:11:54.495 | INFO     | __main__:main:586 - Selected 0 cmiles for t147c
+2025-08-20 16:11:56.971 | INFO     | __main__:main:586 - Selected 1 cmiles for t148
+First pass - selecting rare parameters:  61%|██████    | 232/381 [01:48<02:55,  1.18s/it]2025-08-20 16:11:59.611 | INFO     | __main__:main:586 - Selected 1 cmiles for t148a
+First pass - selecting rare parameters:  61%|██████    | 233/381 [01:50<03:33,  1.44s/it]2025-08-20 16:12:02.442 | INFO     | __main__:main:586 - Selected 3 cmiles for t148c
+First pass - selecting rare parameters:  62%|██████▏   | 235/381 [01:53<03:29,  1.43s/it]2025-08-20 16:12:05.077 | INFO     | __main__:main:586 - Selected 1 cmiles for t149
+First pass - selecting rare parameters:  62%|██████▏   | 236/381 [01:56<04:01,  1.67s/it]2025-08-20 16:12:07.567 | INFO     | __main__:main:586 - Selected 1 cmiles for t149a
+First pass - selecting rare parameters:  62%|██████▏   | 237/381 [01:58<04:26,  1.85s/it]2025-08-20 16:12:10.094 | INFO     | __main__:main:586 - Selected 1 cmiles for t149c
+First pass - selecting rare parameters:  63%|██████▎   | 239/381 [02:01<03:50,  1.62s/it]2025-08-20 16:12:12.583 | INFO     | __main__:main:586 - Selected 1 cmiles for t150a
+First pass - selecting rare parameters:  64%|██████▎   | 242/381 [02:03<02:55,  1.26s/it]2025-08-20 16:12:15.096 | INFO     | __main__:main:586 - Selected 1 cmiles for t151a
+First pass - selecting rare parameters:  64%|██████▍   | 244/381 [02:06<02:52,  1.26s/it]2025-08-20 16:12:17.888 | INFO     | __main__:main:586 - Selected 3 cmiles for t152a
+First pass - selecting rare parameters:  65%|██████▍   | 246/381 [02:09<02:55,  1.30s/it]2025-08-20 16:12:20.429 | INFO     | __main__:main:586 - Selected 1 cmiles for t153
+First pass - selecting rare parameters:  65%|██████▍   | 247/381 [02:11<03:25,  1.53s/it]2025-08-20 16:12:20.553 | INFO     | __main__:main:586 - Selected 0 cmiles for t153a
+2025-08-20 16:12:23.112 | INFO     | __main__:main:586 - Selected 2 cmiles for t154a
+First pass - selecting rare parameters:  66%|██████▌   | 250/381 [02:14<02:44,  1.26s/it]2025-08-20 16:12:26.223 | INFO     | __main__:main:586 - Selected 4 cmiles for t155
+First pass - selecting rare parameters:  66%|██████▌   | 251/381 [02:17<03:28,  1.60s/it]2025-08-20 16:12:26.624 | INFO     | __main__:main:586 - Selected 0 cmiles for t155a
+First pass - selecting rare parameters:  66%|██████▌   | 252/381 [02:17<02:50,  1.32s/it]2025-08-20 16:12:29.767 | INFO     | __main__:main:586 - Selected 1 cmiles for t156a
+First pass - selecting rare parameters:  67%|██████▋   | 254/381 [02:21<02:59,  1.41s/it]2025-08-20 16:12:32.549 | INFO     | __main__:main:586 - Selected 2 cmiles for t157a
+First pass - selecting rare parameters:  67%|██████▋   | 256/381 [02:23<02:56,  1.41s/it]2025-08-20 16:12:36.038 | INFO     | __main__:main:586 - Selected 20 cmiles for t163
+First pass - selecting rare parameters:  69%|██████▉   | 263/381 [02:27<01:44,  1.13it/s]2025-08-20 16:12:36.676 | INFO     | __main__:main:586 - Selected 0 cmiles for t18b
+2025-08-20 16:12:39.436 | INFO     | __main__:main:586 - Selected 3 cmiles for t30
+First pass - selecting rare parameters:  75%|███████▌  | 287/381 [02:30<00:29,  3.22it/s]2025-08-20 16:12:39.637 | INFO     | __main__:main:586 - Selected 0 cmiles for t31a
+2025-08-20 16:12:39.704 | INFO     | __main__:main:586 - Selected 0 cmiles for t33
+First pass - selecting rare parameters:  76%|███████▋  | 291/381 [02:30<00:24,  3.73it/s]2025-08-20 16:12:42.266 | INFO     | __main__:main:586 - Selected 1 cmiles for t36
+First pass - selecting rare parameters:  77%|███████▋  | 294/381 [02:33<00:30,  2.84it/s]2025-08-20 16:12:42.385 | INFO     | __main__:main:586 - Selected 0 cmiles for t42a
+2025-08-20 16:12:45.077 | INFO     | __main__:main:586 - Selected 3 cmiles for t54
+First pass - selecting rare parameters:  83%|████████▎ | 317/381 [02:36<00:13,  4.65it/s]2025-08-20 16:12:47.879 | INFO     | __main__:main:586 - Selected 3 cmiles for t55
+First pass - selecting rare parameters:  83%|████████▎ | 318/381 [02:39<00:19,  3.29it/s]2025-08-20 16:12:51.127 | INFO     | __main__:main:586 - Selected 12 cmiles for t56
+First pass - selecting rare parameters:  84%|████████▎ | 319/381 [02:42<00:29,  2.10it/s]2025-08-20 16:12:54.786 | INFO     | __main__:main:586 - Selected 12 cmiles for t57
+First pass - selecting rare parameters:  84%|████████▍ | 320/381 [02:46<00:39,  1.54it/s]2025-08-20 16:12:54.857 | INFO     | __main__:main:586 - Selected 0 cmiles for t59
+2025-08-20 16:12:57.365 | INFO     | __main__:main:586 - Selected 2 cmiles for t6
+First pass - selecting rare parameters:  85%|████████▌ | 325/381 [02:48<00:34,  1.63it/s]2025-08-20 16:12:57.526 | INFO     | __main__:main:586 - Selected 0 cmiles for t60
+2025-08-20 16:13:00.039 | INFO     | __main__:main:586 - Selected 2 cmiles for t60a
+First pass - selecting rare parameters:  86%|████████▌ | 327/381 [02:51<00:39,  1.38it/s]2025-08-20 16:13:00.205 | INFO     | __main__:main:586 - Selected 0 cmiles for t61
+2025-08-20 16:13:00.279 | INFO     | __main__:main:586 - Selected 0 cmiles for t62
+First pass - selecting rare parameters:  87%|████████▋ | 330/381 [02:51<00:28,  1.80it/s]2025-08-20 16:13:00.346 | INFO     | __main__:main:586 - Selected 0 cmiles for t63
+2025-08-20 16:13:02.821 | INFO     | __main__:main:586 - Selected 1 cmiles for t65
+First pass - selecting rare parameters:  88%|████████▊ | 334/381 [02:54<00:27,  1.72it/s]2025-08-20 16:13:02.891 | INFO     | __main__:main:586 - Selected 0 cmiles for t7
+2025-08-20 16:13:05.729 | INFO     | __main__:main:586 - Selected 5 cmiles for t74a
+First pass - selecting rare parameters:  91%|█████████▏| 348/381 [02:57<00:11,  2.83it/s]2025-08-20 16:13:05.850 | INFO     | __main__:main:586 - Selected 0 cmiles for t8
+2025-08-20 16:13:08.561 | INFO     | __main__:main:586 - Selected 2 cmiles for t81
+First pass - selecting rare parameters:  93%|█████████▎| 356/381 [02:59<00:08,  2.81it/s]2025-08-20 16:13:08.723 | INFO     | __main__:main:586 - Selected 0 cmiles for t84b
+2025-08-20 16:13:11.528 | INFO     | __main__:main:586 - Selected 2 cmiles for t87a
+First pass - selecting rare parameters:  97%|█████████▋| 368/381 [03:02<00:03,  3.26it/s]2025-08-20 16:13:15.052 | INFO     | __main__:main:586 - Selected 23 cmiles for t88
+First pass - selecting rare parameters:  97%|█████████▋| 369/381 [03:07<00:05,  2.00it/s]2025-08-20 16:13:18.320 | INFO     | __main__:main:586 - Selected 1 cmiles for t89
+First pass - selecting rare parameters:  97%|█████████▋| 370/381 [03:09<00:06,  1.61it/s]2025-08-20 16:13:20.756 | INFO     | __main__:main:586 - Selected 1 cmiles for t91
+First pass - selecting rare parameters:  98%|█████████▊| 373/381 [03:12<00:05,  1.50it/s]2025-08-20 16:13:23.960 | INFO     | __main__:main:586 - Selected 10 cmiles for t92
+First pass - selecting rare parameters:  98%|█████████▊| 374/381 [03:15<00:06,  1.09it/s]First pass - selecting rare parameters: 100%|██████████| 381/381 [03:15<00:00,  1.95it/s]
+2025-08-20 16:13:24.183 | INFO     | __main__:main:597 - Processed 105 parameters in first pass with 168 cmiles
+Second pass:   0%|          | 0/381 [00:00<?, ?it/s]2025-08-20 16:13:24.223 | INFO     | __main__:main:624 - Filtered 49 to 0 cmiles after filtering for good qca ids for t59a
+2025-08-20 16:13:24.223 | INFO     | __main__:main:667 - Selected 0 cmiles for t59a
+2025-08-20 16:13:24.279 | INFO     | __main__:main:624 - Filtered 41 to 7 cmiles after filtering for good qca ids for t119a
+2025-08-20 16:13:24.279 | INFO     | __main__:main:667 - Selected 7 cmiles for t119a
+Second pass:  28%|██▊       | 107/381 [00:00<00:01, 265.62it/s]2025-08-20 16:13:24.647 | INFO     | __main__:main:624 - Filtered 53 to 3 cmiles after filtering for good qca ids for t37
+2025-08-20 16:13:24.647 | INFO     | __main__:main:667 - Selected 3 cmiles for t37
+2025-08-20 16:13:24.836 | INFO     | __main__:main:624 - Filtered 57 to 11 cmiles after filtering for good qca ids for b26
+2025-08-20 16:13:24.836 | INFO     | __main__:main:667 - Selected 11 cmiles for b26
+2025-08-20 16:13:25.369 | INFO     | __main__:main:624 - Filtered 56 to 8 cmiles after filtering for good qca ids for b31
+2025-08-20 16:13:25.369 | INFO     | __main__:main:667 - Selected 8 cmiles for b31
+2025-08-20 16:13:25.778 | INFO     | __main__:main:624 - Filtered 56 to 6 cmiles after filtering for good qca ids for t31
+2025-08-20 16:13:25.778 | INFO     | __main__:main:667 - Selected 6 cmiles for t31
+2025-08-20 16:13:26.105 | INFO     | __main__:main:624 - Filtered 60 to 14 cmiles after filtering for good qca ids for t82a
+2025-08-20 16:13:26.105 | INFO     | __main__:main:667 - Selected 14 cmiles for t82a
+2025-08-20 16:13:26.773 | INFO     | __main__:main:624 - Filtered 63 to 10 cmiles after filtering for good qca ids for b63
+2025-08-20 16:13:26.773 | INFO     | __main__:main:667 - Selected 10 cmiles for b63
+2025-08-20 16:13:27.239 | INFO     | __main__:main:624 - Filtered 53 to 0 cmiles after filtering for good qca ids for t164
+2025-08-20 16:13:27.239 | INFO     | __main__:main:667 - Selected 0 cmiles for t164
+2025-08-20 16:13:27.295 | INFO     | __main__:main:624 - Filtered 65 to 20 cmiles after filtering for good qca ids for t122a
+2025-08-20 16:13:27.295 | INFO     | __main__:main:667 - Selected 20 cmiles for t122a
+2025-08-20 16:13:28.224 | INFO     | __main__:main:624 - Filtered 68 to 16 cmiles after filtering for good qca ids for t38
+2025-08-20 16:13:28.224 | INFO     | __main__:main:667 - Selected 16 cmiles for t38
+2025-08-20 16:13:28.980 | INFO     | __main__:main:624 - Filtered 62 to 2 cmiles after filtering for good qca ids for t32
+2025-08-20 16:13:28.980 | INFO     | __main__:main:667 - Selected 2 cmiles for t32
+2025-08-20 16:13:29.123 | INFO     | __main__:main:624 - Filtered 72 to 12 cmiles after filtering for good qca ids for b30
+2025-08-20 16:13:29.123 | INFO     | __main__:main:667 - Selected 12 cmiles for b30
+2025-08-20 16:13:29.701 | INFO     | __main__:main:624 - Filtered 72 to 14 cmiles after filtering for good qca ids for b29
+2025-08-20 16:13:29.701 | INFO     | __main__:main:667 - Selected 14 cmiles for b29
+2025-08-20 16:13:30.366 | INFO     | __main__:main:624 - Filtered 70 to 26 cmiles after filtering for good qca ids for t158
+2025-08-20 16:13:30.366 | INFO     | __main__:main:667 - Selected 26 cmiles for t158
+2025-08-20 16:13:31.552 | INFO     | __main__:main:624 - Filtered 73 to 3 cmiles after filtering for good qca ids for t40
+2025-08-20 16:13:31.552 | INFO     | __main__:main:667 - Selected 3 cmiles for t40
+2025-08-20 16:13:31.736 | INFO     | __main__:main:624 - Filtered 74 to 19 cmiles after filtering for good qca ids for t62a
+2025-08-20 16:13:31.737 | INFO     | __main__:main:667 - Selected 19 cmiles for t62a
+2025-08-20 16:13:32.623 | INFO     | __main__:main:624 - Filtered 78 to 10 cmiles after filtering for good qca ids for t39
+2025-08-20 16:13:32.623 | INFO     | __main__:main:667 - Selected 10 cmiles for t39
+2025-08-20 16:13:33.124 | INFO     | __main__:main:624 - Filtered 79 to 18 cmiles after filtering for good qca ids for t73a
+2025-08-20 16:13:33.124 | INFO     | __main__:main:667 - Selected 18 cmiles for t73a
+2025-08-20 16:13:33.969 | INFO     | __main__:main:624 - Filtered 72 to 30 cmiles after filtering for good qca ids for b67
+2025-08-20 16:13:33.969 | INFO     | __main__:main:667 - Selected 30 cmiles for b67
+2025-08-20 16:13:35.340 | INFO     | __main__:main:624 - Filtered 78 to 16 cmiles after filtering for good qca ids for t28
+2025-08-20 16:13:35.340 | INFO     | __main__:main:667 - Selected 16 cmiles for t28
+2025-08-20 16:13:36.068 | INFO     | __main__:main:624 - Filtered 59 to 0 cmiles after filtering for good qca ids for t61a
+2025-08-20 16:13:36.068 | INFO     | __main__:main:667 - Selected 0 cmiles for t61a
+2025-08-20 16:13:36.122 | INFO     | __main__:main:624 - Filtered 82 to 1 cmiles after filtering for good qca ids for t102
+2025-08-20 16:13:36.122 | INFO     | __main__:main:667 - Selected 1 cmiles for t102
+2025-08-20 16:13:36.219 | INFO     | __main__:main:624 - Filtered 82 to 20 cmiles after filtering for good qca ids for t72a
+2025-08-20 16:13:36.219 | INFO     | __main__:main:667 - Selected 20 cmiles for t72a
+2025-08-20 16:13:37.145 | INFO     | __main__:main:624 - Filtered 62 to 9 cmiles after filtering for good qca ids for t143
+2025-08-20 16:13:37.145 | INFO     | __main__:main:667 - Selected 9 cmiles for t143
+2025-08-20 16:13:37.595 | INFO     | __main__:main:624 - Filtered 82 to 9 cmiles after filtering for good qca ids for t82b
+2025-08-20 16:13:37.595 | INFO     | __main__:main:667 - Selected 9 cmiles for t82b
+2025-08-20 16:13:38.041 | INFO     | __main__:main:624 - Filtered 85 to 25 cmiles after filtering for good qca ids for b23
+2025-08-20 16:13:38.041 | INFO     | __main__:main:667 - Selected 25 cmiles for b23
+Second pass:  28%|██▊       | 107/381 [00:14<00:01, 265.62it/s]Second pass:  35%|███▍      | 132/381 [00:14<00:36,  6.73it/s] 2025-08-20 16:13:39.199 | INFO     | __main__:main:624 - Filtered 85 to 35 cmiles after filtering for good qca ids for t135
+2025-08-20 16:13:39.199 | INFO     | __main__:main:667 - Selected 35 cmiles for t135
+Second pass:  35%|███▍      | 133/381 [00:16<00:41,  5.92it/s]2025-08-20 16:13:40.761 | INFO     | __main__:main:624 - Filtered 52 to 0 cmiles after filtering for good qca ids for t156
+2025-08-20 16:13:40.761 | INFO     | __main__:main:667 - Selected 0 cmiles for t156
+2025-08-20 16:13:40.816 | INFO     | __main__:main:624 - Filtered 63 to 2 cmiles after filtering for good qca ids for t71a
+2025-08-20 16:13:40.816 | INFO     | __main__:main:667 - Selected 2 cmiles for t71a
+2025-08-20 16:13:40.959 | INFO     | __main__:main:624 - Filtered 51 to 2 cmiles after filtering for good qca ids for b46
+2025-08-20 16:13:40.959 | INFO     | __main__:main:667 - Selected 2 cmiles for b46
+2025-08-20 16:13:41.102 | INFO     | __main__:main:624 - Filtered 89 to 14 cmiles after filtering for good qca ids for t48a
+2025-08-20 16:13:41.103 | INFO     | __main__:main:667 - Selected 14 cmiles for t48a
+2025-08-20 16:13:41.770 | INFO     | __main__:main:624 - Filtered 87 to 29 cmiles after filtering for good qca ids for t12
+2025-08-20 16:13:41.770 | INFO     | __main__:main:667 - Selected 29 cmiles for t12
+2025-08-20 16:13:43.090 | INFO     | __main__:main:624 - Filtered 77 to 6 cmiles after filtering for good qca ids for t112
+2025-08-20 16:13:43.090 | INFO     | __main__:main:667 - Selected 6 cmiles for t112
+2025-08-20 16:13:43.408 | INFO     | __main__:main:624 - Filtered 84 to 11 cmiles after filtering for good qca ids for t41
+2025-08-20 16:13:43.408 | INFO     | __main__:main:667 - Selected 11 cmiles for t41
+2025-08-20 16:13:43.943 | INFO     | __main__:main:624 - Filtered 91 to 24 cmiles after filtering for good qca ids for t11
+2025-08-20 16:13:43.943 | INFO     | __main__:main:667 - Selected 24 cmiles for t11
+2025-08-20 16:13:45.018 | INFO     | __main__:main:624 - Filtered 68 to 0 cmiles after filtering for good qca ids for t113
+2025-08-20 16:13:45.018 | INFO     | __main__:main:667 - Selected 0 cmiles for t113
+2025-08-20 16:13:45.073 | INFO     | __main__:main:624 - Filtered 72 to 1 cmiles after filtering for good qca ids for t121a
+2025-08-20 16:13:45.073 | INFO     | __main__:main:667 - Selected 1 cmiles for t121a
+2025-08-20 16:13:45.173 | INFO     | __main__:main:624 - Filtered 96 to 40 cmiles after filtering for good qca ids for t136
+2025-08-20 16:13:45.173 | INFO     | __main__:main:667 - Selected 40 cmiles for t136
+Second pass:  38%|███▊      | 144/381 [00:22<00:56,  4.16it/s]2025-08-20 16:13:46.980 | INFO     | __main__:main:624 - Filtered 99 to 31 cmiles after filtering for good qca ids for t151
+2025-08-20 16:13:46.980 | INFO     | __main__:main:667 - Selected 31 cmiles for t151
+2025-08-20 16:13:48.427 | INFO     | __main__:main:624 - Filtered 98 to 44 cmiles after filtering for good qca ids for t26
+2025-08-20 16:13:48.430 | INFO     | __main__:main:667 - Selected 44 cmiles for t26
+2025-08-20 16:13:50.430 | INFO     | __main__:main:624 - Filtered 77 to 0 cmiles after filtering for good qca ids for a30
+2025-08-20 16:13:50.430 | INFO     | __main__:main:667 - Selected 0 cmiles for a30
+2025-08-20 16:13:50.487 | INFO     | __main__:main:624 - Filtered 109 to 54 cmiles after filtering for good qca ids for t25
+2025-08-20 16:13:50.487 | INFO     | __main__:main:631 - Filtering 54 cmiles for t25
+2025-08-20 16:13:50.495 | INFO     | __main__:main:639 - Filtered to 54 cmiles after size filtering for t25
+2025-08-20 16:13:50.559 | INFO     | __main__:main:645 - Filtered to 54 cmiles after excluding smarts for t25
+2025-08-20 16:13:55.641 | INFO     | __main__:main:652 - Filtered to 54 cmiles after checking for FF compatibility for t25
+2025-08-20 16:13:55.642 | INFO     | __main__:main:659 - Selecting 50 cmiles from 54 for t25
+2025-08-20 16:13:55.646 | INFO     | __main__:main:665 - Filtered to 50 cmiles after chemical diversity filtering for t25
+2025-08-20 16:13:55.646 | INFO     | __main__:main:667 - Selected 50 cmiles for t25
+2025-08-20 16:13:57.868 | INFO     | __main__:main:624 - Filtered 111 to 0 cmiles after filtering for good qca ids for t104
+2025-08-20 16:13:57.868 | INFO     | __main__:main:667 - Selected 0 cmiles for t104
+2025-08-20 16:13:57.929 | INFO     | __main__:main:624 - Filtered 112 to 67 cmiles after filtering for good qca ids for a39
+2025-08-20 16:13:57.929 | INFO     | __main__:main:631 - Filtering 67 cmiles for a39
+2025-08-20 16:13:57.932 | INFO     | __main__:main:639 - Filtered to 67 cmiles after size filtering for a39
+2025-08-20 16:13:57.997 | INFO     | __main__:main:645 - Filtered to 67 cmiles after excluding smarts for a39
+Second pass:  38%|███▊      | 144/381 [00:34<00:56,  4.16it/s]2025-08-20 16:14:02.089 | INFO     | __main__:main:652 - Filtered to 67 cmiles after checking for FF compatibility for a39
+2025-08-20 16:14:02.089 | INFO     | __main__:main:659 - Selecting 49 cmiles from 67 for a39
+2025-08-20 16:14:02.093 | INFO     | __main__:main:665 - Filtered to 49 cmiles after chemical diversity filtering for a39
+2025-08-20 16:14:02.093 | INFO     | __main__:main:667 - Selected 49 cmiles for a39
+Second pass:  39%|███▉      | 150/381 [00:40<02:11,  1.76it/s]2025-08-20 16:14:04.295 | INFO     | __main__:main:624 - Filtered 101 to 7 cmiles after filtering for good qca ids for t83b
+2025-08-20 16:14:04.295 | INFO     | __main__:main:667 - Selected 7 cmiles for t83b
+Second pass:  40%|███▉      | 151/381 [00:40<02:09,  1.78it/s]2025-08-20 16:14:04.660 | INFO     | __main__:main:624 - Filtered 110 to 53 cmiles after filtering for good qca ids for t124
+2025-08-20 16:14:04.660 | INFO     | __main__:main:631 - Filtering 53 cmiles for t124
+2025-08-20 16:14:04.663 | INFO     | __main__:main:639 - Filtered to 53 cmiles after size filtering for t124
+2025-08-20 16:14:04.716 | INFO     | __main__:main:645 - Filtered to 53 cmiles after excluding smarts for t124
+2025-08-20 16:14:08.603 | INFO     | __main__:main:652 - Filtered to 50 cmiles after checking for FF compatibility for t124
+2025-08-20 16:14:08.604 | INFO     | __main__:main:659 - Selecting 45 cmiles from 50 for t124
+2025-08-20 16:14:08.607 | INFO     | __main__:main:665 - Filtered to 45 cmiles after chemical diversity filtering for t124
+2025-08-20 16:14:08.607 | INFO     | __main__:main:667 - Selected 45 cmiles for t124
+2025-08-20 16:14:10.652 | INFO     | __main__:main:624 - Filtered 111 to 44 cmiles after filtering for good qca ids for t53
+2025-08-20 16:14:10.652 | INFO     | __main__:main:667 - Selected 44 cmiles for t53
+2025-08-20 16:14:12.620 | INFO     | __main__:main:624 - Filtered 120 to 10 cmiles after filtering for good qca ids for t154
+2025-08-20 16:14:12.620 | INFO     | __main__:main:667 - Selected 10 cmiles for t154
+2025-08-20 16:14:13.111 | INFO     | __main__:main:624 - Filtered 79 to 4 cmiles after filtering for good qca ids for t52
+2025-08-20 16:14:13.111 | INFO     | __main__:main:667 - Selected 4 cmiles for t52
+Second pass:  41%|████      | 155/381 [00:49<02:58,  1.27it/s]2025-08-20 16:14:13.319 | INFO     | __main__:main:624 - Filtered 95 to 0 cmiles after filtering for good qca ids for t118a
+2025-08-20 16:14:13.319 | INFO     | __main__:main:667 - Selected 0 cmiles for t118a
+2025-08-20 16:14:13.376 | INFO     | __main__:main:624 - Filtered 111 to 39 cmiles after filtering for good qca ids for b73
+2025-08-20 16:14:13.376 | INFO     | __main__:main:631 - Filtering 39 cmiles for b73
+2025-08-20 16:14:13.378 | INFO     | __main__:main:639 - Filtered to 39 cmiles after size filtering for b73
+2025-08-20 16:14:13.410 | INFO     | __main__:main:645 - Filtered to 39 cmiles after excluding smarts for b73
+2025-08-20 16:14:17.137 | INFO     | __main__:main:652 - Filtered to 39 cmiles after checking for FF compatibility for b73
+2025-08-20 16:14:17.137 | INFO     | __main__:main:659 - Selecting 17 cmiles from 39 for b73
+2025-08-20 16:14:17.139 | INFO     | __main__:main:665 - Filtered to 17 cmiles after chemical diversity filtering for b73
+2025-08-20 16:14:17.139 | INFO     | __main__:main:667 - Selected 17 cmiles for b73
+2025-08-20 16:14:17.969 | INFO     | __main__:main:624 - Filtered 148 to 54 cmiles after filtering for good qca ids for t49
+2025-08-20 16:14:17.969 | INFO     | __main__:main:631 - Filtering 54 cmiles for t49
+2025-08-20 16:14:17.972 | INFO     | __main__:main:639 - Filtered to 54 cmiles after size filtering for t49
+2025-08-20 16:14:18.039 | INFO     | __main__:main:645 - Filtered to 54 cmiles after excluding smarts for t49
+2025-08-20 16:14:22.233 | INFO     | __main__:main:652 - Filtered to 54 cmiles after checking for FF compatibility for t49
+2025-08-20 16:14:22.234 | INFO     | __main__:main:659 - Selecting 47 cmiles from 54 for t49
+2025-08-20 16:14:22.238 | INFO     | __main__:main:665 - Filtered to 47 cmiles after chemical diversity filtering for t49
+2025-08-20 16:14:22.238 | INFO     | __main__:main:667 - Selected 47 cmiles for t49
+Second pass:  41%|████▏     | 158/381 [01:00<04:19,  1.17s/it]2025-08-20 16:14:24.353 | INFO     | __main__:main:624 - Filtered 139 to 59 cmiles after filtering for good qca ids for t144b
+2025-08-20 16:14:24.353 | INFO     | __main__:main:631 - Filtering 59 cmiles for t144b
+2025-08-20 16:14:24.355 | INFO     | __main__:main:639 - Filtered to 59 cmiles after size filtering for t144b
+2025-08-20 16:14:24.416 | INFO     | __main__:main:645 - Filtered to 59 cmiles after excluding smarts for t144b
+2025-08-20 16:14:28.425 | INFO     | __main__:main:652 - Filtered to 59 cmiles after checking for FF compatibility for t144b
+2025-08-20 16:14:28.425 | INFO     | __main__:main:659 - Selecting 29 cmiles from 59 for t144b
+2025-08-20 16:14:28.429 | INFO     | __main__:main:665 - Filtered to 29 cmiles after chemical diversity filtering for t144b
+2025-08-20 16:14:28.429 | INFO     | __main__:main:667 - Selected 29 cmiles for t144b
+Second pass:  42%|████▏     | 159/381 [01:05<05:13,  1.41s/it]2025-08-20 16:14:29.762 | INFO     | __main__:main:624 - Filtered 147 to 85 cmiles after filtering for good qca ids for t160
+2025-08-20 16:14:29.762 | INFO     | __main__:main:631 - Filtering 85 cmiles for t160
+2025-08-20 16:14:29.768 | INFO     | __main__:main:639 - Filtered to 85 cmiles after size filtering for t160
+2025-08-20 16:14:29.915 | INFO     | __main__:main:645 - Filtered to 85 cmiles after excluding smarts for t160
+2025-08-20 16:14:34.923 | INFO     | __main__:main:652 - Filtered to 84 cmiles after checking for FF compatibility for t160
+2025-08-20 16:14:34.923 | INFO     | __main__:main:659 - Selecting 32 cmiles from 84 for t160
+2025-08-20 16:14:34.932 | INFO     | __main__:main:665 - Filtered to 32 cmiles after chemical diversity filtering for t160
+2025-08-20 16:14:34.932 | INFO     | __main__:main:667 - Selected 32 cmiles for t160
+2025-08-20 16:14:36.392 | INFO     | __main__:main:624 - Filtered 154 to 53 cmiles after filtering for good qca ids for t34
+2025-08-20 16:14:36.392 | INFO     | __main__:main:631 - Filtering 53 cmiles for t34
+2025-08-20 16:14:36.396 | INFO     | __main__:main:639 - Filtered to 53 cmiles after size filtering for t34
+2025-08-20 16:14:36.471 | INFO     | __main__:main:645 - Filtered to 53 cmiles after excluding smarts for t34
+2025-08-20 16:14:40.553 | INFO     | __main__:main:652 - Filtered to 53 cmiles after checking for FF compatibility for t34
+2025-08-20 16:14:40.554 | INFO     | __main__:main:659 - Selecting 26 cmiles from 53 for t34
+2025-08-20 16:14:40.558 | INFO     | __main__:main:665 - Filtered to 26 cmiles after chemical diversity filtering for t34
+2025-08-20 16:14:40.559 | INFO     | __main__:main:667 - Selected 26 cmiles for t34
+Second pass:  42%|████▏     | 161/381 [01:17<07:36,  2.07s/it]2025-08-20 16:14:41.764 | INFO     | __main__:main:624 - Filtered 154 to 4 cmiles after filtering for good qca ids for t167
+2025-08-20 16:14:41.764 | INFO     | __main__:main:667 - Selected 4 cmiles for t167
+Second pass:  43%|████▎     | 162/381 [01:17<06:56,  1.90s/it]2025-08-20 16:14:42.002 | INFO     | __main__:main:624 - Filtered 175 to 55 cmiles after filtering for good qca ids for t70
+2025-08-20 16:14:42.002 | INFO     | __main__:main:631 - Filtering 55 cmiles for t70
+2025-08-20 16:14:42.005 | INFO     | __main__:main:639 - Filtered to 55 cmiles after size filtering for t70
+2025-08-20 16:14:42.065 | INFO     | __main__:main:645 - Filtered to 55 cmiles after excluding smarts for t70
+Warning: bond stereochemistry may be assigned incorrectly for molecule 
+2025-08-20 16:14:46.073 | INFO     | __main__:main:652 - Filtered to 54 cmiles after checking for FF compatibility for t70
+2025-08-20 16:14:46.074 | INFO     | __main__:main:659 - Selecting 36 cmiles from 54 for t70
+2025-08-20 16:14:46.078 | INFO     | __main__:main:665 - Filtered to 36 cmiles after chemical diversity filtering for t70
+2025-08-20 16:14:46.078 | INFO     | __main__:main:667 - Selected 36 cmiles for t70
+2025-08-20 16:14:47.718 | INFO     | __main__:main:624 - Filtered 171 to 24 cmiles after filtering for good qca ids for a24
+2025-08-20 16:14:47.718 | INFO     | __main__:main:667 - Selected 24 cmiles for a24
+Second pass:  43%|████▎     | 164/381 [01:24<08:01,  2.22s/it]2025-08-20 16:14:48.828 | INFO     | __main__:main:624 - Filtered 166 to 66 cmiles after filtering for good qca ids for t146b
+2025-08-20 16:14:48.828 | INFO     | __main__:main:631 - Filtering 66 cmiles for t146b
+2025-08-20 16:14:48.832 | INFO     | __main__:main:639 - Filtered to 66 cmiles after size filtering for t146b
+2025-08-20 16:14:48.913 | INFO     | __main__:main:645 - Filtered to 66 cmiles after excluding smarts for t146b
+2025-08-20 16:14:53.167 | INFO     | __main__:main:652 - Filtered to 66 cmiles after checking for FF compatibility for t146b
+2025-08-20 16:14:53.167 | INFO     | __main__:main:659 - Selecting 21 cmiles from 66 for t146b
+2025-08-20 16:14:53.173 | INFO     | __main__:main:665 - Filtered to 21 cmiles after chemical diversity filtering for t146b
+2025-08-20 16:14:53.173 | INFO     | __main__:main:667 - Selected 21 cmiles for t146b
+Second pass:  43%|████▎     | 165/381 [01:29<09:27,  2.63s/it]2025-08-20 16:14:54.097 | INFO     | __main__:main:613 - Skipping t162 as we already have enough (59)
+2025-08-20 16:14:54.165 | INFO     | __main__:main:624 - Filtered 163 to 24 cmiles after filtering for good qca ids for a42
+2025-08-20 16:14:54.166 | INFO     | __main__:main:631 - Filtering 24 cmiles for a42
+2025-08-20 16:14:54.167 | INFO     | __main__:main:639 - Filtered to 24 cmiles after size filtering for a42
+2025-08-20 16:14:54.196 | INFO     | __main__:main:645 - Filtered to 23 cmiles after excluding smarts for a42
+2025-08-20 16:14:57.449 | INFO     | __main__:main:652 - Filtered to 23 cmiles after checking for FF compatibility for a42
+2025-08-20 16:14:57.449 | INFO     | __main__:main:659 - Selecting 16 cmiles from 23 for a42
+2025-08-20 16:14:57.452 | INFO     | __main__:main:665 - Filtered to 16 cmiles after chemical diversity filtering for a42
+2025-08-20 16:14:57.452 | INFO     | __main__:main:667 - Selected 16 cmiles for a42
+Second pass:  44%|████▍     | 167/381 [01:33<08:47,  2.46s/it]2025-08-20 16:14:58.226 | INFO     | __main__:main:624 - Filtered 166 to 100 cmiles after filtering for good qca ids for t123a
+2025-08-20 16:14:58.226 | INFO     | __main__:main:631 - Filtering 100 cmiles for t123a
+2025-08-20 16:14:58.230 | INFO     | __main__:main:639 - Filtered to 100 cmiles after size filtering for t123a
+2025-08-20 16:14:58.319 | INFO     | __main__:main:645 - Filtered to 100 cmiles after excluding smarts for t123a
+2025-08-20 16:15:03.199 | INFO     | __main__:main:652 - Filtered to 99 cmiles after checking for FF compatibility for t123a
+2025-08-20 16:15:03.199 | INFO     | __main__:main:659 - Selecting 18 cmiles from 99 for t123a
+2025-08-20 16:15:03.204 | INFO     | __main__:main:665 - Filtered to 18 cmiles after chemical diversity filtering for t123a
+2025-08-20 16:15:03.204 | INFO     | __main__:main:667 - Selected 18 cmiles for t123a
+Second pass:  44%|████▍     | 168/381 [01:39<10:41,  3.01s/it]2025-08-20 16:15:03.997 | INFO     | __main__:main:613 - Skipping a33 as we already have enough (50)
+2025-08-20 16:15:04.065 | INFO     | __main__:main:624 - Filtered 207 to 97 cmiles after filtering for good qca ids for t120
+2025-08-20 16:15:04.065 | INFO     | __main__:main:631 - Filtering 97 cmiles for t120
+2025-08-20 16:15:04.071 | INFO     | __main__:main:639 - Filtered to 97 cmiles after size filtering for t120
+2025-08-20 16:15:04.191 | INFO     | __main__:main:645 - Filtered to 97 cmiles after excluding smarts for t120
+2025-08-20 16:15:09.241 | INFO     | __main__:main:652 - Filtered to 97 cmiles after checking for FF compatibility for t120
+2025-08-20 16:15:09.242 | INFO     | __main__:main:659 - Selecting 43 cmiles from 97 for t120
+2025-08-20 16:15:09.249 | INFO     | __main__:main:665 - Filtered to 43 cmiles after chemical diversity filtering for t120
+2025-08-20 16:15:09.249 | INFO     | __main__:main:667 - Selected 43 cmiles for t120
+Second pass:  45%|████▍     | 170/381 [01:46<11:12,  3.19s/it]2025-08-20 16:15:11.194 | INFO     | __main__:main:624 - Filtered 179 to 46 cmiles after filtering for good qca ids for b15
+2025-08-20 16:15:11.194 | INFO     | __main__:main:631 - Filtering 46 cmiles for b15
+2025-08-20 16:15:11.198 | INFO     | __main__:main:639 - Filtered to 46 cmiles after size filtering for b15
+2025-08-20 16:15:11.268 | INFO     | __main__:main:645 - Filtered to 46 cmiles after excluding smarts for b15
+2025-08-20 16:15:15.048 | INFO     | __main__:main:652 - Filtered to 46 cmiles after checking for FF compatibility for b15
+2025-08-20 16:15:15.048 | INFO     | __main__:main:659 - Selecting 13 cmiles from 46 for b15
+2025-08-20 16:15:15.053 | INFO     | __main__:main:665 - Filtered to 13 cmiles after chemical diversity filtering for b15
+2025-08-20 16:15:15.053 | INFO     | __main__:main:667 - Selected 13 cmiles for b15
+Second pass:  45%|████▍     | 171/381 [01:51<12:00,  3.43s/it]2025-08-20 16:15:15.688 | INFO     | __main__:main:624 - Filtered 200 to 48 cmiles after filtering for good qca ids for t35
+2025-08-20 16:15:15.688 | INFO     | __main__:main:631 - Filtering 48 cmiles for t35
+2025-08-20 16:15:15.692 | INFO     | __main__:main:639 - Filtered to 48 cmiles after size filtering for t35
+2025-08-20 16:15:15.845 | INFO     | __main__:main:645 - Filtered to 48 cmiles after excluding smarts for t35
+2025-08-20 16:15:19.770 | INFO     | __main__:main:652 - Filtered to 48 cmiles after checking for FF compatibility for t35
+2025-08-20 16:15:19.770 | INFO     | __main__:main:659 - Selecting 32 cmiles from 48 for t35
+2025-08-20 16:15:19.776 | INFO     | __main__:main:665 - Filtered to 32 cmiles after chemical diversity filtering for t35
+2025-08-20 16:15:19.776 | INFO     | __main__:main:667 - Selected 32 cmiles for t35
+Second pass:  45%|████▌     | 172/381 [01:56<13:29,  3.87s/it]2025-08-20 16:15:21.241 | INFO     | __main__:main:624 - Filtered 212 to 118 cmiles after filtering for good qca ids for t134a
+2025-08-20 16:15:21.242 | INFO     | __main__:main:631 - Filtering 118 cmiles for t134a
+2025-08-20 16:15:21.248 | INFO     | __main__:main:639 - Filtered to 118 cmiles after size filtering for t134a
+2025-08-20 16:15:21.372 | INFO     | __main__:main:645 - Filtered to 118 cmiles after excluding smarts for t134a
+2025-08-20 16:15:27.055 | INFO     | __main__:main:652 - Filtered to 118 cmiles after checking for FF compatibility for t134a
+2025-08-20 16:15:27.056 | INFO     | __main__:main:659 - Selecting 42 cmiles from 118 for t134a
+2025-08-20 16:15:27.064 | INFO     | __main__:main:665 - Filtered to 42 cmiles after chemical diversity filtering for t134a
+2025-08-20 16:15:27.064 | INFO     | __main__:main:667 - Selected 42 cmiles for t134a
+Second pass:  45%|████▌     | 173/381 [02:04<16:31,  4.77s/it]2025-08-20 16:15:28.948 | INFO     | __main__:main:613 - Skipping b45 as we already have enough (77)
+2025-08-20 16:15:28.988 | INFO     | __main__:main:624 - Filtered 179 to 0 cmiles after filtering for good qca ids for b57a
+2025-08-20 16:15:28.988 | INFO     | __main__:main:667 - Selected 0 cmiles for b57a
+2025-08-20 16:15:29.048 | INFO     | __main__:main:624 - Filtered 226 to 65 cmiles after filtering for good qca ids for t69
+2025-08-20 16:15:29.048 | INFO     | __main__:main:631 - Filtering 65 cmiles for t69
+2025-08-20 16:15:29.052 | INFO     | __main__:main:639 - Filtered to 65 cmiles after size filtering for t69
+2025-08-20 16:15:29.125 | INFO     | __main__:main:645 - Filtered to 65 cmiles after excluding smarts for t69
+2025-08-20 16:15:33.368 | INFO     | __main__:main:652 - Filtered to 65 cmiles after checking for FF compatibility for t69
+2025-08-20 16:15:33.368 | INFO     | __main__:main:659 - Selecting 48 cmiles from 65 for t69
+2025-08-20 16:15:33.373 | INFO     | __main__:main:665 - Filtered to 48 cmiles after chemical diversity filtering for t69
+2025-08-20 16:15:33.373 | INFO     | __main__:main:667 - Selected 48 cmiles for t69
+Second pass:  46%|████▌     | 176/381 [02:11<11:53,  3.48s/it]2025-08-20 16:15:35.472 | INFO     | __main__:main:613 - Skipping b62 as we already have enough (65)
+2025-08-20 16:15:35.472 | INFO     | __main__:main:613 - Skipping t161 as we already have enough (65)
+2025-08-20 16:15:35.542 | INFO     | __main__:main:624 - Filtered 231 to 171 cmiles after filtering for good qca ids for t157
+2025-08-20 16:15:35.542 | INFO     | __main__:main:631 - Filtering 171 cmiles for t157
+2025-08-20 16:15:35.554 | INFO     | __main__:main:639 - Filtered to 171 cmiles after size filtering for t157
+2025-08-20 16:15:35.825 | INFO     | __main__:main:645 - Filtered to 171 cmiles after excluding smarts for t157
+2025-08-20 16:15:42.958 | INFO     | __main__:main:652 - Filtered to 171 cmiles after checking for FF compatibility for t157
+2025-08-20 16:15:42.958 | INFO     | __main__:main:659 - Selecting 38 cmiles from 171 for t157
+2025-08-20 16:15:42.975 | INFO     | __main__:main:665 - Filtered to 38 cmiles after chemical diversity filtering for t157
+2025-08-20 16:15:42.975 | INFO     | __main__:main:667 - Selected 38 cmiles for t157
+Second pass:  47%|████▋     | 179/381 [02:20<11:07,  3.30s/it]2025-08-20 16:15:44.706 | INFO     | __main__:main:624 - Filtered 217 to 104 cmiles after filtering for good qca ids for t143b
+2025-08-20 16:15:44.706 | INFO     | __main__:main:631 - Filtering 104 cmiles for t143b
+2025-08-20 16:15:44.712 | INFO     | __main__:main:639 - Filtered to 104 cmiles after size filtering for t143b
+2025-08-20 16:15:44.823 | INFO     | __main__:main:645 - Filtered to 104 cmiles after excluding smarts for t143b
+2025-08-20 16:15:49.871 | INFO     | __main__:main:652 - Filtered to 104 cmiles after checking for FF compatibility for t143b
+2025-08-20 16:15:49.872 | INFO     | __main__:main:659 - Selecting 18 cmiles from 104 for t143b
+2025-08-20 16:15:49.879 | INFO     | __main__:main:665 - Filtered to 18 cmiles after chemical diversity filtering for t143b
+2025-08-20 16:15:49.879 | INFO     | __main__:main:667 - Selected 18 cmiles for t143b
+Second pass:  47%|████▋     | 180/381 [02:26<12:34,  3.75s/it]2025-08-20 16:15:50.733 | INFO     | __main__:main:624 - Filtered 223 to 117 cmiles after filtering for good qca ids for b71
+2025-08-20 16:15:50.733 | INFO     | __main__:main:631 - Filtering 117 cmiles for b71
+2025-08-20 16:15:50.738 | INFO     | __main__:main:639 - Filtered to 117 cmiles after size filtering for b71
+2025-08-20 16:15:50.837 | INFO     | __main__:main:645 - Filtered to 117 cmiles after excluding smarts for b71
+2025-08-20 16:15:56.106 | INFO     | __main__:main:652 - Filtered to 115 cmiles after checking for FF compatibility for b71
+2025-08-20 16:15:56.107 | INFO     | __main__:main:659 - Selecting 16 cmiles from 115 for b71
+2025-08-20 16:15:56.113 | INFO     | __main__:main:665 - Filtered to 16 cmiles after chemical diversity filtering for b71
+2025-08-20 16:15:56.113 | INFO     | __main__:main:667 - Selected 16 cmiles for b71
+Second pass:  48%|████▊     | 181/381 [02:32<14:02,  4.21s/it]2025-08-20 16:15:56.883 | INFO     | __main__:main:624 - Filtered 242 to 129 cmiles after filtering for good qca ids for b86
+2025-08-20 16:15:56.883 | INFO     | __main__:main:631 - Filtering 129 cmiles for b86
+2025-08-20 16:15:56.890 | INFO     | __main__:main:639 - Filtered to 129 cmiles after size filtering for b86
+2025-08-20 16:15:57.068 | INFO     | __main__:main:645 - Filtered to 129 cmiles after excluding smarts for b86
+2025-08-20 16:16:02.934 | INFO     | __main__:main:652 - Filtered to 126 cmiles after checking for FF compatibility for b86
+2025-08-20 16:16:02.935 | INFO     | __main__:main:659 - Selecting 35 cmiles from 126 for b86
+2025-08-20 16:16:02.944 | INFO     | __main__:main:665 - Filtered to 35 cmiles after chemical diversity filtering for b86
+2025-08-20 16:16:02.944 | INFO     | __main__:main:667 - Selected 35 cmiles for b86
+Second pass:  48%|████▊     | 182/381 [02:40<16:25,  4.95s/it]2025-08-20 16:16:04.478 | INFO     | __main__:main:613 - Skipping b58 as we already have enough (57)
+2025-08-20 16:16:04.545 | INFO     | __main__:main:624 - Filtered 253 to 105 cmiles after filtering for good qca ids for t99
+2025-08-20 16:16:04.545 | INFO     | __main__:main:631 - Filtering 105 cmiles for t99
+2025-08-20 16:16:04.553 | INFO     | __main__:main:639 - Filtered to 105 cmiles after size filtering for t99
+2025-08-20 16:16:04.697 | INFO     | __main__:main:645 - Filtered to 105 cmiles after excluding smarts for t99
+2025-08-20 16:16:10.311 | INFO     | __main__:main:652 - Filtered to 105 cmiles after checking for FF compatibility for t99
+2025-08-20 16:16:10.311 | INFO     | __main__:main:659 - Selecting 39 cmiles from 105 for t99
+2025-08-20 16:16:10.322 | INFO     | __main__:main:665 - Filtered to 39 cmiles after chemical diversity filtering for t99
+2025-08-20 16:16:10.322 | INFO     | __main__:main:667 - Selected 39 cmiles for t99
+Second pass:  48%|████▊     | 184/381 [02:47<14:48,  4.51s/it]2025-08-20 16:16:12.047 | INFO     | __main__:main:613 - Skipping t119 as we already have enough (52)
+2025-08-20 16:16:12.117 | INFO     | __main__:main:624 - Filtered 229 to 56 cmiles after filtering for good qca ids for t42
+2025-08-20 16:16:12.117 | INFO     | __main__:main:631 - Filtering 56 cmiles for t42
+2025-08-20 16:16:12.120 | INFO     | __main__:main:639 - Filtered to 56 cmiles after size filtering for t42
+2025-08-20 16:16:12.175 | INFO     | __main__:main:645 - Filtered to 56 cmiles after excluding smarts for t42
+2025-08-20 16:16:16.306 | INFO     | __main__:main:652 - Filtered to 56 cmiles after checking for FF compatibility for t42
+2025-08-20 16:16:16.306 | INFO     | __main__:main:659 - Selecting 6 cmiles from 56 for t42
+2025-08-20 16:16:16.310 | INFO     | __main__:main:665 - Filtered to 6 cmiles after chemical diversity filtering for t42
+2025-08-20 16:16:16.310 | INFO     | __main__:main:667 - Selected 6 cmiles for t42
+Second pass:  49%|████▉     | 186/381 [02:52<12:05,  3.72s/it]2025-08-20 16:16:16.640 | INFO     | __main__:main:624 - Filtered 273 to 67 cmiles after filtering for good qca ids for t150
+2025-08-20 16:16:16.640 | INFO     | __main__:main:631 - Filtering 67 cmiles for t150
+2025-08-20 16:16:16.645 | INFO     | __main__:main:639 - Filtered to 67 cmiles after size filtering for t150
+2025-08-20 16:16:16.731 | INFO     | __main__:main:645 - Filtered to 67 cmiles after excluding smarts for t150
+2025-08-20 16:16:21.097 | INFO     | __main__:main:652 - Filtered to 67 cmiles after checking for FF compatibility for t150
+2025-08-20 16:16:21.097 | INFO     | __main__:main:659 - Selecting 48 cmiles from 67 for t150
+2025-08-20 16:16:21.103 | INFO     | __main__:main:665 - Filtered to 48 cmiles after chemical diversity filtering for t150
+2025-08-20 16:16:21.103 | INFO     | __main__:main:667 - Selected 48 cmiles for t150
+Second pass:  49%|████▉     | 187/381 [02:59<13:54,  4.30s/it]2025-08-20 16:16:23.193 | INFO     | __main__:main:613 - Skipping b60 as we already have enough (64)
+2025-08-20 16:16:23.258 | INFO     | __main__:main:624 - Filtered 255 to 91 cmiles after filtering for good qca ids for t68
+2025-08-20 16:16:23.258 | INFO     | __main__:main:631 - Filtering 91 cmiles for t68
+2025-08-20 16:16:23.265 | INFO     | __main__:main:639 - Filtered to 91 cmiles after size filtering for t68
+2025-08-20 16:16:23.373 | INFO     | __main__:main:645 - Filtered to 91 cmiles after excluding smarts for t68
+2025-08-20 16:16:28.241 | INFO     | __main__:main:652 - Filtered to 91 cmiles after checking for FF compatibility for t68
+2025-08-20 16:16:28.242 | INFO     | __main__:main:659 - Selecting 15 cmiles from 91 for t68
+2025-08-20 16:16:28.251 | INFO     | __main__:main:665 - Filtered to 15 cmiles after chemical diversity filtering for t68
+2025-08-20 16:16:28.251 | INFO     | __main__:main:667 - Selected 15 cmiles for t68
+Second pass:  50%|████▉     | 189/381 [03:04<12:04,  3.77s/it]2025-08-20 16:16:28.971 | INFO     | __main__:main:624 - Filtered 299 to 150 cmiles after filtering for good qca ids for t19a
+2025-08-20 16:16:28.971 | INFO     | __main__:main:631 - Filtering 150 cmiles for t19a
+2025-08-20 16:16:28.984 | INFO     | __main__:main:639 - Filtered to 150 cmiles after size filtering for t19a
+2025-08-20 16:16:29.288 | INFO     | __main__:main:645 - Filtered to 150 cmiles after excluding smarts for t19a
+2025-08-20 16:16:36.748 | INFO     | __main__:main:652 - Filtered to 150 cmiles after checking for FF compatibility for t19a
+2025-08-20 16:16:36.749 | INFO     | __main__:main:659 - Selecting 46 cmiles from 150 for t19a
+2025-08-20 16:16:36.767 | INFO     | __main__:main:665 - Filtered to 46 cmiles after chemical diversity filtering for t19a
+2025-08-20 16:16:36.767 | INFO     | __main__:main:667 - Selected 46 cmiles for t19a
+Second pass:  50%|████▉     | 190/381 [03:14<16:02,  5.04s/it]2025-08-20 16:16:38.792 | INFO     | __main__:main:613 - Skipping b61 as we already have enough (107)
+2025-08-20 16:16:38.792 | INFO     | __main__:main:613 - Skipping t18a as we already have enough (52)
+2025-08-20 16:16:38.863 | INFO     | __main__:main:624 - Filtered 288 to 64 cmiles after filtering for good qca ids for a5
+2025-08-20 16:16:38.863 | INFO     | __main__:main:631 - Filtering 64 cmiles for a5
+2025-08-20 16:16:38.869 | INFO     | __main__:main:639 - Filtered to 64 cmiles after size filtering for a5
+2025-08-20 16:16:38.976 | INFO     | __main__:main:645 - Filtered to 64 cmiles after excluding smarts for a5
+2025-08-20 16:16:43.565 | INFO     | __main__:main:652 - Filtered to 64 cmiles after checking for FF compatibility for a5
+2025-08-20 16:16:43.565 | INFO     | __main__:main:659 - Selecting 14 cmiles from 64 for a5
+2025-08-20 16:16:43.572 | INFO     | __main__:main:665 - Filtered to 14 cmiles after chemical diversity filtering for a5
+2025-08-20 16:16:43.572 | INFO     | __main__:main:667 - Selected 14 cmiles for a5
+Second pass:  51%|█████     | 193/381 [03:20<11:01,  3.52s/it]2025-08-20 16:16:44.198 | INFO     | __main__:main:613 - Skipping t29 as we already have enough (77)
+2025-08-20 16:16:44.198 | INFO     | __main__:main:613 - Skipping t87 as we already have enough (90)
+2025-08-20 16:16:44.269 | INFO     | __main__:main:624 - Filtered 381 to 86 cmiles after filtering for good qca ids for t10
+2025-08-20 16:16:44.269 | INFO     | __main__:main:631 - Filtering 86 cmiles for t10
+2025-08-20 16:16:44.274 | INFO     | __main__:main:639 - Filtered to 86 cmiles after size filtering for t10
+2025-08-20 16:16:44.378 | INFO     | __main__:main:645 - Filtered to 86 cmiles after excluding smarts for t10
+2025-08-20 16:16:49.352 | INFO     | __main__:main:652 - Filtered to 86 cmiles after checking for FF compatibility for t10
+2025-08-20 16:16:49.354 | INFO     | __main__:main:659 - Selecting 36 cmiles from 86 for t10
+2025-08-20 16:16:49.360 | INFO     | __main__:main:665 - Filtered to 36 cmiles after chemical diversity filtering for t10
+2025-08-20 16:16:49.360 | INFO     | __main__:main:667 - Selected 36 cmiles for t10
+Second pass:  51%|█████▏    | 196/381 [03:26<09:15,  3.00s/it]2025-08-20 16:16:50.915 | INFO     | __main__:main:613 - Skipping t159 as we already have enough (145)
+2025-08-20 16:16:50.915 | INFO     | __main__:main:613 - Skipping b64 as we already have enough (150)
+2025-08-20 16:16:50.915 | INFO     | __main__:main:613 - Skipping t152 as we already have enough (100)
+2025-08-20 16:16:50.988 | INFO     | __main__:main:624 - Filtered 445 to 235 cmiles after filtering for good qca ids for b8a
+2025-08-20 16:16:50.988 | INFO     | __main__:main:631 - Filtering 235 cmiles for b8a
+2025-08-20 16:16:50.998 | INFO     | __main__:main:639 - Filtered to 235 cmiles after size filtering for b8a
+2025-08-20 16:16:51.215 | INFO     | __main__:main:645 - Filtered to 235 cmiles after excluding smarts for b8a
+2025-08-20 16:16:59.172 | INFO     | __main__:main:652 - Filtered to 235 cmiles after checking for FF compatibility for b8a
+2025-08-20 16:16:59.173 | INFO     | __main__:main:659 - Selecting 30 cmiles from 235 for b8a
+2025-08-20 16:16:59.187 | INFO     | __main__:main:665 - Filtered to 30 cmiles after chemical diversity filtering for b8a
+2025-08-20 16:16:59.187 | INFO     | __main__:main:667 - Selected 30 cmiles for b8a
+Second pass:  52%|█████▏    | 200/381 [03:36<08:16,  2.74s/it]2025-08-20 16:17:00.512 | INFO     | __main__:main:613 - Skipping t83a as we already have enough (50)
+2025-08-20 16:17:00.512 | INFO     | __main__:main:613 - Skipping b65 as we already have enough (145)
+2025-08-20 16:17:00.584 | INFO     | __main__:main:624 - Filtered 472 to 315 cmiles after filtering for good qca ids for a38
+2025-08-20 16:17:00.584 | INFO     | __main__:main:631 - Filtering 315 cmiles for a38
+2025-08-20 16:17:00.600 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for a38
+2025-08-20 16:17:00.852 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for a38
+2025-08-20 16:17:09.261 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for a38
+2025-08-20 16:17:09.261 | INFO     | __main__:main:659 - Selecting 33 cmiles from 250 for a38
+2025-08-20 16:17:09.276 | INFO     | __main__:main:665 - Filtered to 33 cmiles after chemical diversity filtering for a38
+2025-08-20 16:17:09.276 | INFO     | __main__:main:667 - Selected 33 cmiles for a38
+Second pass:  53%|█████▎    | 203/381 [03:46<08:45,  2.95s/it]2025-08-20 16:17:10.716 | INFO     | __main__:main:613 - Skipping a25 as we already have enough (53)
+2025-08-20 16:17:10.716 | INFO     | __main__:main:613 - Skipping a26 as we already have enough (53)
+2025-08-20 16:17:10.783 | INFO     | __main__:main:624 - Filtered 463 to 331 cmiles after filtering for good qca ids for b32
+2025-08-20 16:17:10.784 | INFO     | __main__:main:631 - Filtering 331 cmiles for b32
+2025-08-20 16:17:10.799 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for b32
+2025-08-20 16:17:11.033 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for b32
+Warning: bond stereochemistry may be assigned incorrectly for molecule 
+Warning: bond stereochemistry may be assigned incorrectly for molecule 
+2025-08-20 16:17:19.355 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for b32
+2025-08-20 16:17:19.355 | INFO     | __main__:main:659 - Selecting 12 cmiles from 250 for b32
+2025-08-20 16:17:19.370 | INFO     | __main__:main:665 - Filtered to 12 cmiles after chemical diversity filtering for b32
+2025-08-20 16:17:19.370 | INFO     | __main__:main:667 - Selected 12 cmiles for b32
+Second pass:  54%|█████▍    | 206/381 [03:55<08:42,  2.98s/it]2025-08-20 16:17:19.894 | INFO     | __main__:main:613 - Skipping t71 as we already have enough (50)
+2025-08-20 16:17:19.971 | INFO     | __main__:main:624 - Filtered 543 to 166 cmiles after filtering for good qca ids for t147b
+2025-08-20 16:17:19.972 | INFO     | __main__:main:631 - Filtering 166 cmiles for t147b
+2025-08-20 16:17:19.982 | INFO     | __main__:main:639 - Filtered to 166 cmiles after size filtering for t147b
+2025-08-20 16:17:20.195 | INFO     | __main__:main:645 - Filtered to 166 cmiles after excluding smarts for t147b
+2025-08-20 16:17:26.940 | INFO     | __main__:main:652 - Filtered to 165 cmiles after checking for FF compatibility for t147b
+2025-08-20 16:17:26.941 | INFO     | __main__:main:659 - Selecting 20 cmiles from 165 for t147b
+2025-08-20 16:17:26.955 | INFO     | __main__:main:665 - Filtered to 20 cmiles after chemical diversity filtering for t147b
+2025-08-20 16:17:26.955 | INFO     | __main__:main:667 - Selected 20 cmiles for t147b
+Second pass:  55%|█████▍    | 208/381 [04:03<09:15,  3.21s/it]2025-08-20 16:17:27.899 | INFO     | __main__:main:624 - Filtered 537 to 293 cmiles after filtering for good qca ids for t72
+2025-08-20 16:17:27.899 | INFO     | __main__:main:631 - Filtering 293 cmiles for t72
+2025-08-20 16:17:27.915 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for t72
+2025-08-20 16:17:28.175 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for t72
+2025-08-20 16:17:36.658 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for t72
+2025-08-20 16:17:36.659 | INFO     | __main__:main:659 - Selecting 13 cmiles from 250 for t72
+2025-08-20 16:17:36.675 | INFO     | __main__:main:665 - Filtered to 13 cmiles after chemical diversity filtering for t72
+2025-08-20 16:17:36.675 | INFO     | __main__:main:667 - Selected 13 cmiles for t72
+Second pass:  55%|█████▍    | 209/381 [04:13<11:42,  4.08s/it]2025-08-20 16:17:37.322 | INFO     | __main__:main:624 - Filtered 539 to 183 cmiles after filtering for good qca ids for t145b
+2025-08-20 16:17:37.322 | INFO     | __main__:main:631 - Filtering 183 cmiles for t145b
+2025-08-20 16:17:37.331 | INFO     | __main__:main:639 - Filtered to 183 cmiles after size filtering for t145b
+2025-08-20 16:17:37.525 | INFO     | __main__:main:645 - Filtered to 183 cmiles after excluding smarts for t145b
+2025-08-20 16:17:45.180 | INFO     | __main__:main:652 - Filtered to 182 cmiles after checking for FF compatibility for t145b
+2025-08-20 16:17:45.180 | INFO     | __main__:main:659 - Selecting 3 cmiles from 182 for t145b
+2025-08-20 16:17:45.195 | INFO     | __main__:main:665 - Filtered to 3 cmiles after chemical diversity filtering for t145b
+2025-08-20 16:17:45.195 | INFO     | __main__:main:667 - Selected 3 cmiles for t145b
+Second pass:  55%|█████▌    | 210/381 [04:21<13:32,  4.75s/it]2025-08-20 16:17:45.337 | INFO     | __main__:main:613 - Skipping b22 as we already have enough (75)
+2025-08-20 16:17:45.413 | INFO     | __main__:main:624 - Filtered 604 to 424 cmiles after filtering for good qca ids for b74
+2025-08-20 16:17:45.413 | INFO     | __main__:main:631 - Filtering 424 cmiles for b74
+2025-08-20 16:17:45.428 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for b74
+2025-08-20 16:17:45.628 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for b74
+2025-08-20 16:17:53.570 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for b74
+2025-08-20 16:17:53.571 | INFO     | __main__:main:659 - Selecting 45 cmiles from 250 for b74
+2025-08-20 16:17:53.581 | INFO     | __main__:main:665 - Filtered to 45 cmiles after chemical diversity filtering for b74
+2025-08-20 16:17:53.581 | INFO     | __main__:main:667 - Selected 45 cmiles for b74
+Second pass:  56%|█████▌    | 212/381 [04:31<13:42,  4.87s/it]2025-08-20 16:17:55.546 | INFO     | __main__:main:613 - Skipping b42 as we already have enough (68)
+2025-08-20 16:17:55.546 | INFO     | __main__:main:613 - Skipping t27 as we already have enough (110)
+2025-08-20 16:17:55.621 | INFO     | __main__:main:624 - Filtered 599 to 288 cmiles after filtering for good qca ids for b25
+2025-08-20 16:17:55.621 | INFO     | __main__:main:631 - Filtering 288 cmiles for b25
+2025-08-20 16:17:55.637 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for b25
+2025-08-20 16:17:55.905 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for b25
+2025-08-20 16:18:05.559 | INFO     | __main__:main:652 - Filtered to 249 cmiles after checking for FF compatibility for b25
+2025-08-20 16:18:05.559 | INFO     | __main__:main:659 - Selecting 2 cmiles from 249 for b25
+2025-08-20 16:18:05.575 | INFO     | __main__:main:665 - Filtered to 2 cmiles after chemical diversity filtering for b25
+2025-08-20 16:18:05.575 | INFO     | __main__:main:667 - Selected 2 cmiles for b25
+Second pass:  56%|█████▋    | 215/381 [04:41<11:46,  4.26s/it]2025-08-20 16:18:05.759 | INFO     | __main__:main:624 - Filtered 642 to 161 cmiles after filtering for good qca ids for t122
+2025-08-20 16:18:05.759 | INFO     | __main__:main:631 - Filtering 161 cmiles for t122
+2025-08-20 16:18:05.769 | INFO     | __main__:main:639 - Filtered to 161 cmiles after size filtering for t122
+2025-08-20 16:18:05.975 | INFO     | __main__:main:645 - Filtered to 161 cmiles after excluding smarts for t122
+2025-08-20 16:18:14.215 | INFO     | __main__:main:652 - Filtered to 161 cmiles after checking for FF compatibility for t122
+2025-08-20 16:18:14.216 | INFO     | __main__:main:659 - Selecting 31 cmiles from 161 for t122
+2025-08-20 16:18:14.230 | INFO     | __main__:main:665 - Filtered to 31 cmiles after chemical diversity filtering for t122
+2025-08-20 16:18:14.230 | INFO     | __main__:main:667 - Selected 31 cmiles for t122
+Second pass:  57%|█████▋    | 216/381 [04:51<14:16,  5.19s/it]2025-08-20 16:18:15.662 | INFO     | __main__:main:613 - Skipping a40 as we already have enough (207)
+2025-08-20 16:18:15.662 | INFO     | __main__:main:613 - Skipping t24 as we already have enough (124)
+2025-08-20 16:18:15.662 | INFO     | __main__:main:613 - Skipping b28 as we already have enough (67)
+2025-08-20 16:18:15.662 | INFO     | __main__:main:613 - Skipping t165 as we already have enough (67)
+2025-08-20 16:18:15.662 | INFO     | __main__:main:613 - Skipping t148b as we already have enough (133)
+2025-08-20 16:18:15.662 | INFO     | __main__:main:613 - Skipping t149b as we already have enough (122)
+2025-08-20 16:18:15.756 | INFO     | __main__:main:624 - Filtered 856 to 286 cmiles after filtering for good qca ids for t58
+2025-08-20 16:18:15.756 | INFO     | __main__:main:631 - Filtering 286 cmiles for t58
+2025-08-20 16:18:15.782 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for t58
+2025-08-20 16:18:16.193 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for t58
+2025-08-20 16:18:28.350 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for t58
+2025-08-20 16:18:28.351 | INFO     | __main__:main:659 - Selecting 25 cmiles from 250 for t58
+2025-08-20 16:18:28.376 | INFO     | __main__:main:665 - Filtered to 25 cmiles after chemical diversity filtering for t58
+2025-08-20 16:18:28.376 | INFO     | __main__:main:667 - Selected 25 cmiles for t58
+Second pass:  59%|█████▊    | 223/381 [05:05<08:25,  3.20s/it]2025-08-20 16:18:29.625 | INFO     | __main__:main:624 - Filtered 877 to 653 cmiles after filtering for good qca ids for t128
+2025-08-20 16:18:29.625 | INFO     | __main__:main:631 - Filtering 653 cmiles for t128
+2025-08-20 16:18:29.652 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for t128
+2025-08-20 16:18:29.843 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for t128
+2025-08-20 16:18:40.715 | INFO     | __main__:main:652 - Filtered to 248 cmiles after checking for FF compatibility for t128
+2025-08-20 16:18:40.716 | INFO     | __main__:main:659 - Selecting 45 cmiles from 248 for t128
+2025-08-20 16:18:40.728 | INFO     | __main__:main:665 - Filtered to 45 cmiles after chemical diversity filtering for t128
+2025-08-20 16:18:40.728 | INFO     | __main__:main:667 - Selected 45 cmiles for t128
+Second pass:  59%|█████▉    | 224/381 [05:18<11:20,  4.33s/it]2025-08-20 16:18:42.800 | INFO     | __main__:main:613 - Skipping t118 as we already have enough (210)
+2025-08-20 16:18:42.800 | INFO     | __main__:main:613 - Skipping t79 as we already have enough (54)
+2025-08-20 16:18:42.890 | INFO     | __main__:main:624 - Filtered 977 to 566 cmiles after filtering for good qca ids for b72
+2025-08-20 16:18:42.890 | INFO     | __main__:main:631 - Filtering 566 cmiles for b72
+2025-08-20 16:18:42.919 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for b72
+2025-08-20 16:18:43.155 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for b72
+2025-08-20 16:18:54.590 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for b72
+2025-08-20 16:18:54.596 | INFO     | __main__:main:659 - Selecting 13 cmiles from 250 for b72
+2025-08-20 16:18:54.610 | INFO     | __main__:main:665 - Filtered to 13 cmiles after chemical diversity filtering for b72
+2025-08-20 16:18:54.610 | INFO     | __main__:main:667 - Selected 13 cmiles for b72
+Second pass:  60%|█████▉    | 227/381 [05:31<10:57,  4.27s/it]2025-08-20 16:18:55.328 | INFO     | __main__:main:624 - Filtered 1033 to 708 cmiles after filtering for good qca ids for b37
+2025-08-20 16:18:55.328 | INFO     | __main__:main:631 - Filtering 708 cmiles for b37
+2025-08-20 16:18:55.358 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for b37
+2025-08-20 16:18:55.550 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for b37
+2025-08-20 16:19:06.918 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for b37
+2025-08-20 16:19:06.919 | INFO     | __main__:main:659 - Selecting 47 cmiles from 250 for b37
+2025-08-20 16:19:06.932 | INFO     | __main__:main:665 - Filtered to 47 cmiles after chemical diversity filtering for b37
+2025-08-20 16:19:06.932 | INFO     | __main__:main:667 - Selected 47 cmiles for b37
+Second pass:  60%|█████▉    | 228/381 [05:44<14:10,  5.56s/it]2025-08-20 16:19:09.209 | INFO     | __main__:main:624 - Filtered 1032 to 632 cmiles after filtering for good qca ids for a18a
+2025-08-20 16:19:09.209 | INFO     | __main__:main:631 - Filtering 632 cmiles for a18a
+2025-08-20 16:19:09.238 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for a18a
+2025-08-20 16:19:09.442 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for a18a
+2025-08-20 16:19:22.391 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for a18a
+2025-08-20 16:19:22.391 | INFO     | __main__:main:659 - Selecting 21 cmiles from 250 for a18a
+2025-08-20 16:19:22.406 | INFO     | __main__:main:665 - Filtered to 21 cmiles after chemical diversity filtering for a18a
+2025-08-20 16:19:22.406 | INFO     | __main__:main:667 - Selected 21 cmiles for a18a
+Second pass:  60%|██████    | 229/381 [05:59<17:38,  6.96s/it]2025-08-20 16:19:23.421 | INFO     | __main__:main:613 - Skipping b27 as we already have enough (51)
+2025-08-20 16:19:23.421 | INFO     | __main__:main:613 - Skipping t50 as we already have enough (58)
+2025-08-20 16:19:23.421 | INFO     | __main__:main:613 - Skipping b24 as we already have enough (53)
+2025-08-20 16:19:23.421 | INFO     | __main__:main:613 - Skipping b51 as we already have enough (146)
+2025-08-20 16:19:23.421 | INFO     | __main__:main:613 - Skipping i3 as we already have enough (168)
+2025-08-20 16:19:23.421 | INFO     | __main__:main:613 - Skipping t21 as we already have enough (63)
+2025-08-20 16:19:23.421 | INFO     | __main__:main:613 - Skipping t109 as we already have enough (75)
+2025-08-20 16:19:23.421 | INFO     | __main__:main:613 - Skipping b57 as we already have enough (224)
+2025-08-20 16:19:23.593 | INFO     | __main__:main:624 - Filtered 1606 to 1408 cmiles after filtering for good qca ids for t125
+2025-08-20 16:19:23.593 | INFO     | __main__:main:631 - Filtering 1408 cmiles for t125
+2025-08-20 16:19:23.716 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for t125
+2025-08-20 16:19:24.048 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for t125
+2025-08-20 16:19:35.305 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for t125
+2025-08-20 16:19:35.306 | INFO     | __main__:main:659 - Selecting 42 cmiles from 250 for t125
+2025-08-20 16:19:35.321 | INFO     | __main__:main:665 - Filtered to 42 cmiles after chemical diversity filtering for t125
+2025-08-20 16:19:35.321 | INFO     | __main__:main:667 - Selected 42 cmiles for t125
+Second pass:  62%|██████▏   | 238/381 [06:13<07:52,  3.31s/it]2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t108 as we already have enough (77)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping b43 as we already have enough (57)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t139 as we already have enough (71)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping b36 as we already have enough (71)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t22 as we already have enough (95)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t129 as we already have enough (54)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t14 as we already have enough (124)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t166 as we already have enough (120)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t13 as we already have enough (130)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a16 as we already have enough (142)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t110 as we already have enough (87)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a12 as we already have enough (115)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t121 as we already have enough (187)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a13a as we already have enough (59)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping b69 as we already have enough (83)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t107 as we already have enough (100)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t16 as we already have enough (186)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a7 as we already have enough (63)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a7a as we already have enough (73)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a6 as we already have enough (237)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t106 as we already have enough (68)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping t15 as we already have enough (267)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a4 as we already have enough (275)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a3 as we already have enough (275)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a31 as we already have enough (361)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping b68 as we already have enough (63)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping b56 as we already have enough (401)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a32 as we already have enough (408)
+2025-08-20 16:19:37.241 | INFO     | __main__:main:613 - Skipping a8 as we already have enough (71)
+2025-08-20 16:19:37.242 | INFO     | __main__:main:613 - Skipping b59 as we already have enough (456)
+2025-08-20 16:19:37.242 | INFO     | __main__:main:613 - Skipping t46 as we already have enough (130)
+2025-08-20 16:19:37.242 | INFO     | __main__:main:613 - Skipping b70 as we already have enough (92)
+2025-08-20 16:19:37.242 | INFO     | __main__:main:613 - Skipping a9 as we already have enough (85)
+2025-08-20 16:19:37.242 | INFO     | __main__:main:613 - Skipping t23 as we already have enough (140)
+2025-08-20 16:19:37.242 | INFO     | __main__:main:613 - Skipping t66 as we already have enough (183)
+2025-08-20 16:19:37.242 | INFO     | __main__:main:613 - Skipping b18 as we already have enough (138)
+2025-08-20 16:19:37.359 | INFO     | __main__:main:624 - Filtered 3811 to 3607 cmiles after filtering for good qca ids for t142b
+2025-08-20 16:19:37.359 | INFO     | __main__:main:631 - Filtering 3607 cmiles for t142b
+2025-08-20 16:19:37.497 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for t142b
+2025-08-20 16:19:37.683 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for t142b
+2025-08-20 16:19:47.334 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for t142b
+2025-08-20 16:19:47.335 | INFO     | __main__:main:659 - Selecting 35 cmiles from 250 for t142b
+2025-08-20 16:19:47.346 | INFO     | __main__:main:665 - Filtered to 35 cmiles after chemical diversity filtering for t142b
+2025-08-20 16:19:47.347 | INFO     | __main__:main:667 - Selected 35 cmiles for t142b
+Second pass:  72%|███████▏  | 275/381 [06:24<01:37,  1.09it/s]2025-08-20 16:19:48.937 | INFO     | __main__:main:613 - Skipping t117a as we already have enough (204)
+2025-08-20 16:19:49.046 | INFO     | __main__:main:624 - Filtered 3952 to 3402 cmiles after filtering for good qca ids for t90
+2025-08-20 16:19:49.046 | INFO     | __main__:main:631 - Filtering 3402 cmiles for t90
+2025-08-20 16:19:49.181 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for t90
+2025-08-20 16:19:49.363 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for t90
+2025-08-20 16:19:57.993 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for t90
+2025-08-20 16:19:57.994 | INFO     | __main__:main:659 - Selecting 22 cmiles from 250 for t90
+2025-08-20 16:19:58.005 | INFO     | __main__:main:665 - Filtered to 22 cmiles after chemical diversity filtering for t90
+2025-08-20 16:19:58.005 | INFO     | __main__:main:667 - Selected 22 cmiles for t90
+Second pass:  73%|███████▎  | 277/381 [06:34<02:00,  1.16s/it]2025-08-20 16:19:59.027 | INFO     | __main__:main:613 - Skipping t78 as we already have enough (217)
+2025-08-20 16:19:59.027 | INFO     | __main__:main:613 - Skipping t58a as we already have enough (205)
+2025-08-20 16:19:59.027 | INFO     | __main__:main:613 - Skipping t141c as we already have enough (65)
+2025-08-20 16:19:59.164 | INFO     | __main__:main:624 - Filtered 4466 to 4276 cmiles after filtering for good qca ids for t142
+2025-08-20 16:19:59.164 | INFO     | __main__:main:631 - Filtering 4276 cmiles for t142
+2025-08-20 16:19:59.327 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for t142
+2025-08-20 16:19:59.492 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for t142
+2025-08-20 16:20:08.212 | INFO     | __main__:main:652 - Filtered to 248 cmiles after checking for FF compatibility for t142
+2025-08-20 16:20:08.213 | INFO     | __main__:main:659 - Selecting 10 cmiles from 248 for t142
+2025-08-20 16:20:08.223 | INFO     | __main__:main:665 - Filtered to 10 cmiles after chemical diversity filtering for t142
+2025-08-20 16:20:08.223 | INFO     | __main__:main:667 - Selected 10 cmiles for t142
+Second pass:  74%|███████▍  | 281/381 [06:44<02:13,  1.34s/it]2025-08-20 16:20:08.682 | INFO     | __main__:main:613 - Skipping a19 as we already have enough (376)
+2025-08-20 16:20:08.682 | INFO     | __main__:main:613 - Skipping t97 as we already have enough (157)
+2025-08-20 16:20:08.682 | INFO     | __main__:main:613 - Skipping t105 as we already have enough (137)
+2025-08-20 16:20:08.795 | INFO     | __main__:main:624 - Filtered 5120 to 4938 cmiles after filtering for good qca ids for t127
+2025-08-20 16:20:08.795 | INFO     | __main__:main:631 - Filtering 4938 cmiles for t127
+2025-08-20 16:20:08.985 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for t127
+2025-08-20 16:20:09.176 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for t127
+2025-08-20 16:20:17.367 | INFO     | __main__:main:652 - Filtered to 249 cmiles after checking for FF compatibility for t127
+2025-08-20 16:20:17.368 | INFO     | __main__:main:659 - Selecting 1 cmiles from 249 for t127
+2025-08-20 16:20:17.368 | INFO     | __main__:main:665 - Filtered to 1 cmiles after chemical diversity filtering for t127
+2025-08-20 16:20:17.368 | INFO     | __main__:main:667 - Selected 1 cmiles for t127
+Second pass:  75%|███████▍  | 285/381 [06:53<02:22,  1.48s/it]2025-08-20 16:20:17.416 | INFO     | __main__:main:613 - Skipping t51 as we already have enough (424)
+2025-08-20 16:20:17.416 | INFO     | __main__:main:613 - Skipping a34 as we already have enough (120)
+2025-08-20 16:20:17.526 | INFO     | __main__:main:624 - Filtered 5768 to 5609 cmiles after filtering for good qca ids for a37
+2025-08-20 16:20:17.526 | INFO     | __main__:main:631 - Filtering 5609 cmiles for a37
+2025-08-20 16:20:17.752 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for a37
+2025-08-20 16:20:17.941 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for a37
+2025-08-20 16:20:26.127 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for a37
+2025-08-20 16:20:26.127 | INFO     | __main__:main:659 - Selecting 45 cmiles from 250 for a37
+2025-08-20 16:20:26.139 | INFO     | __main__:main:665 - Filtered to 45 cmiles after chemical diversity filtering for a37
+2025-08-20 16:20:26.139 | INFO     | __main__:main:667 - Selected 45 cmiles for a37
+Second pass:  76%|███████▌  | 288/381 [07:03<02:47,  1.80s/it]2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t77 as we already have enough (235)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping a41a as we already have enough (334)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping a18 as we already have enough (336)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t67 as we already have enough (263)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t98 as we already have enough (60)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping b19 as we already have enough (163)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping b53 as we already have enough (80)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping b9 as we already have enough (287)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping b34 as we already have enough (186)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t116 as we already have enough (359)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t19 as we already have enough (382)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t85 as we already have enough (187)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t74 as we already have enough (264)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping b41 as we already have enough (146)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t5 as we already have enough (138)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t20 as we already have enough (422)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping b38 as we already have enough (115)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t84 as we already have enough (229)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t141b as we already have enough (64)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping b12 as we already have enough (273)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t138 as we already have enough (244)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping b3 as we already have enough (484)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t140 as we already have enough (154)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping i5 as we already have enough (155)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping i6 as we already have enough (275)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t73 as we already have enough (151)
+2025-08-20 16:20:28.157 | INFO     | __main__:main:613 - Skipping t94 as we already have enough (200)
+2025-08-20 16:20:28.296 | INFO     | __main__:main:624 - Filtered 10197 to 9928 cmiles after filtering for good qca ids for a29
+2025-08-20 16:20:28.296 | INFO     | __main__:main:631 - Filtering 9928 cmiles for a29
+2025-08-20 16:20:28.719 | INFO     | __main__:main:639 - Filtered to 250 cmiles after size filtering for a29
+2025-08-20 16:20:28.894 | INFO     | __main__:main:645 - Filtered to 250 cmiles after excluding smarts for a29
+2025-08-20 16:20:37.101 | INFO     | __main__:main:652 - Filtered to 250 cmiles after checking for FF compatibility for a29
+2025-08-20 16:20:37.102 | INFO     | __main__:main:659 - Selecting 7 cmiles from 250 for a29
+2025-08-20 16:20:37.113 | INFO     | __main__:main:665 - Filtered to 7 cmiles after chemical diversity filtering for a29
+2025-08-20 16:20:37.113 | INFO     | __main__:main:667 - Selected 7 cmiles for a29
+Second pass:  83%|████████▎ | 316/381 [07:13<00:52,  1.23it/s]2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b17 as we already have enough (212)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t93 as we already have enough (209)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b20 as we already have enough (161)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t76 as we already have enough (187)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t43 as we already have enough (360)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b14 as we already have enough (226)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t17a as we already have enough (350)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t64 as we already have enough (570)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b7 as we already have enough (810)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t96 as we already have enough (249)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a15 as we already have enough (298)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping i2 as we already have enough (298)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a13 as we already have enough (264)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b35 as we already have enough (285)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t47a as we already have enough (242)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping i7 as we already have enough (374)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t80 as we already have enough (462)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t18 as we already have enough (800)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t82 as we already have enough (268)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b52 as we already have enough (429)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a28a as we already have enough (461)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b88 as we already have enough (461)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t115 as we already have enough (489)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t17 as we already have enough (806)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t141a as we already have enough (135)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t48 as we already have enough (297)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t111 as we already have enough (281)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t83 as we already have enough (285)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a28 as we already have enough (475)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b11 as we already have enough (336)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t95 as we already have enough (593)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t9 as we already have enough (497)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b16 as we already have enough (599)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t2 as we already have enough (531)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b2 as we already have enough (912)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a14 as we already have enough (870)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b5 as we already have enough (924)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t44 as we already have enough (924)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t75 as we already have enough (570)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b10 as we already have enough (542)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t4 as we already have enough (763)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a21 as we already have enough (822)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t86 as we already have enough (645)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b13 as we already have enough (684)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a22 as we already have enough (461)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b87 as we already have enough (1118)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a41 as we already have enough (1064)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t1 as we already have enough (1096)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t3 as we already have enough (1081)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping i4 as we already have enough (942)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b8 as we already have enough (846)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t45 as we already have enough (910)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b6 as we already have enough (912)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b1 as we already have enough (1248)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping t47 as we already have enough (644)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a20 as we already have enough (969)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b4 as we already have enough (843)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a2 as we already have enough (1607)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping a1 as we already have enough (1646)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b84 as we already have enough (1711)
+2025-08-20 16:20:37.432 | INFO     | __main__:main:613 - Skipping b21 as we already have enough (946)
+2025-08-20 16:20:37.433 | INFO     | __main__:main:613 - Skipping a11 as we already have enough (1345)
+2025-08-20 16:20:37.433 | INFO     | __main__:main:613 - Skipping b85 as we already have enough (1642)
+2025-08-20 16:20:37.433 | INFO     | __main__:main:613 - Skipping a10 as we already have enough (1683)
+2025-08-20 16:20:37.433 | INFO     | __main__:main:613 - Skipping i1 as we already have enough (1831)
+Second pass: 100%|██████████| 381/381 [07:13<00:00,  1.14s/it]
+2025-08-20 16:20:37.433 | INFO     | __main__:main:676 - Selected 2186 cmiles total
+2025-08-20 16:20:37.434 | INFO     | __main__:main:680 - Wrote CMILES counts per parameter to counts/valence-counts-validation.json
+Selecting lowest energy:   0%|          | 0/2186 [00:00<?, ?it/s]Selecting lowest energy:   0%|          | 2/2186 [00:00<02:07, 17.07it/s]Selecting lowest energy:   0%|          | 4/2186 [00:00<02:14, 16.26it/s]Selecting lowest energy:   0%|          | 7/2186 [00:00<01:57, 18.48it/s]Selecting lowest energy:   0%|          | 10/2186 [00:00<01:40, 21.75it/s]Selecting lowest energy:   1%|          | 13/2186 [00:00<01:29, 24.32it/s]Selecting lowest energy:   1%|          | 16/2186 [00:00<01:48, 19.97it/s]Selecting lowest energy:   1%|          | 20/2186 [00:00<01:31, 23.68it/s]Selecting lowest energy:   1%|          | 27/2186 [00:01<01:02, 34.41it/s]Selecting lowest energy:   2%|▏         | 33/2186 [00:01<00:52, 40.71it/s]Selecting lowest energy:   2%|▏         | 39/2186 [00:01<00:47, 45.31it/s]Selecting lowest energy:   2%|▏         | 46/2186 [00:01<00:43, 49.58it/s]Selecting lowest energy:   2%|▏         | 52/2186 [00:01<00:43, 48.86it/s]Selecting lowest energy:   3%|▎         | 58/2186 [00:01<00:44, 47.72it/s]Selecting lowest energy:   3%|▎         | 63/2186 [00:01<00:46, 45.84it/s]Selecting lowest energy:   3%|▎         | 68/2186 [00:01<00:47, 44.35it/s]Selecting lowest energy:   3%|▎         | 73/2186 [00:02<00:53, 39.49it/s]Selecting lowest energy:   4%|▎         | 79/2186 [00:02<00:51, 41.11it/s]Selecting lowest energy:   4%|▍         | 84/2186 [00:02<00:49, 42.88it/s]Selecting lowest energy:   4%|▍         | 90/2186 [00:02<00:50, 41.47it/s]Selecting lowest energy:   4%|▍         | 95/2186 [00:02<00:50, 41.54it/s]Selecting lowest energy:   5%|▍         | 101/2186 [00:02<00:50, 41.59it/s]Selecting lowest energy:   5%|▍         | 106/2186 [00:02<00:47, 43.55it/s]Selecting lowest energy:   5%|▌         | 111/2186 [00:02<00:48, 43.16it/s]Selecting lowest energy:   5%|▌         | 116/2186 [00:03<00:52, 39.28it/s]Selecting lowest energy:   6%|▌         | 122/2186 [00:03<00:47, 43.06it/s]Selecting lowest energy:   6%|▌         | 127/2186 [00:03<00:50, 40.43it/s]Selecting lowest energy:   6%|▌         | 132/2186 [00:03<00:54, 37.57it/s]Selecting lowest energy:   6%|▌         | 136/2186 [00:03<00:54, 37.60it/s]Selecting lowest energy:   6%|▋         | 141/2186 [00:03<00:50, 40.57it/s]Selecting lowest energy:   7%|▋         | 148/2186 [00:03<00:46, 44.10it/s]Selecting lowest energy:   7%|▋         | 153/2186 [00:03<00:45, 44.99it/s]Selecting lowest energy:   7%|▋         | 158/2186 [00:04<00:46, 43.97it/s]Selecting lowest energy:   7%|▋         | 163/2186 [00:04<00:47, 42.72it/s]Selecting lowest energy:   8%|▊         | 168/2186 [00:04<00:48, 41.85it/s]Selecting lowest energy:   8%|▊         | 173/2186 [00:04<00:46, 43.33it/s]Selecting lowest energy:   8%|▊         | 178/2186 [00:04<00:44, 44.83it/s]Selecting lowest energy:   8%|▊         | 183/2186 [00:04<00:50, 39.48it/s]Selecting lowest energy:   9%|▊         | 188/2186 [00:04<00:50, 39.44it/s]Selecting lowest energy:   9%|▉         | 194/2186 [00:04<00:48, 41.32it/s]Selecting lowest energy:   9%|▉         | 201/2186 [00:05<00:41, 47.55it/s]Selecting lowest energy:   9%|▉         | 206/2186 [00:05<00:42, 46.33it/s]Selecting lowest energy:  10%|▉         | 211/2186 [00:05<00:47, 41.33it/s]Selecting lowest energy:  10%|▉         | 216/2186 [00:05<00:47, 41.78it/s]Selecting lowest energy:  10%|█         | 222/2186 [00:05<00:44, 44.48it/s]Selecting lowest energy:  10%|█         | 228/2186 [00:05<00:42, 46.40it/s]Selecting lowest energy:  11%|█         | 235/2186 [00:05<00:38, 50.43it/s]Selecting lowest energy:  11%|█         | 241/2186 [00:05<00:37, 51.39it/s]Selecting lowest energy:  11%|█▏        | 247/2186 [00:05<00:38, 49.91it/s]Selecting lowest energy:  12%|█▏        | 253/2186 [00:06<00:41, 46.75it/s]Selecting lowest energy:  12%|█▏        | 260/2186 [00:06<00:38, 49.74it/s]Selecting lowest energy:  12%|█▏        | 266/2186 [00:06<00:42, 44.89it/s]Selecting lowest energy:  12%|█▏        | 271/2186 [00:06<00:46, 41.56it/s]Selecting lowest energy:  13%|█▎        | 276/2186 [00:06<01:00, 31.48it/s]Selecting lowest energy:  13%|█▎        | 281/2186 [00:06<00:54, 34.67it/s]Selecting lowest energy:  13%|█▎        | 285/2186 [00:07<00:54, 34.64it/s]Selecting lowest energy:  13%|█▎        | 290/2186 [00:07<00:50, 37.76it/s]Selecting lowest energy:  13%|█▎        | 295/2186 [00:07<00:49, 37.83it/s]Selecting lowest energy:  14%|█▎        | 299/2186 [00:07<00:52, 36.22it/s]Selecting lowest energy:  14%|█▍        | 303/2186 [00:07<00:52, 36.05it/s]Selecting lowest energy:  14%|█▍        | 307/2186 [00:07<00:55, 33.69it/s]Selecting lowest energy:  14%|█▍        | 314/2186 [00:07<00:45, 41.20it/s]Selecting lowest energy:  15%|█▍        | 320/2186 [00:07<00:42, 43.58it/s]Selecting lowest energy:  15%|█▍        | 325/2186 [00:08<00:45, 40.76it/s]Selecting lowest energy:  15%|█▌        | 331/2186 [00:08<00:41, 44.31it/s]Selecting lowest energy:  15%|█▌        | 336/2186 [00:08<00:44, 41.15it/s]Selecting lowest energy:  16%|█▌        | 341/2186 [00:08<00:45, 40.20it/s]Selecting lowest energy:  16%|█▌        | 347/2186 [00:08<00:41, 44.08it/s]Selecting lowest energy:  16%|█▌        | 352/2186 [00:08<00:41, 44.58it/s]Selecting lowest energy:  16%|█▋        | 357/2186 [00:08<00:40, 45.12it/s]Selecting lowest energy:  17%|█▋        | 363/2186 [00:08<00:38, 46.89it/s]Selecting lowest energy:  17%|█▋        | 369/2186 [00:08<00:37, 48.83it/s]Selecting lowest energy:  17%|█▋        | 374/2186 [00:09<00:40, 45.29it/s]Selecting lowest energy:  17%|█▋        | 379/2186 [00:09<00:43, 41.94it/s]Selecting lowest energy:  18%|█▊        | 386/2186 [00:09<00:39, 45.31it/s]Selecting lowest energy:  18%|█▊        | 391/2186 [00:09<00:39, 45.91it/s]Selecting lowest energy:  18%|█▊        | 396/2186 [00:09<00:38, 46.72it/s]Selecting lowest energy:  18%|█▊        | 401/2186 [00:09<00:38, 46.19it/s]Selecting lowest energy:  19%|█▊        | 407/2186 [00:09<00:36, 49.30it/s]Selecting lowest energy:  19%|█▉        | 415/2186 [00:09<00:33, 52.62it/s]Selecting lowest energy:  19%|█▉        | 421/2186 [00:10<00:34, 51.83it/s]Selecting lowest energy:  20%|█▉        | 428/2186 [00:10<00:34, 51.14it/s]Selecting lowest energy:  20%|█▉        | 434/2186 [00:10<00:34, 50.86it/s]Selecting lowest energy:  20%|██        | 440/2186 [00:10<00:39, 44.24it/s]Selecting lowest energy:  20%|██        | 447/2186 [00:10<00:35, 48.68it/s]Selecting lowest energy:  21%|██        | 453/2186 [00:10<00:35, 48.91it/s]Selecting lowest energy:  21%|██        | 459/2186 [00:10<00:36, 46.91it/s]Selecting lowest energy:  21%|██        | 464/2186 [00:10<00:36, 47.59it/s]Selecting lowest energy:  22%|██▏       | 470/2186 [00:11<00:37, 46.17it/s]Selecting lowest energy:  22%|██▏       | 475/2186 [00:11<00:38, 45.02it/s]Selecting lowest energy:  22%|██▏       | 480/2186 [00:11<00:37, 45.71it/s]Selecting lowest energy:  22%|██▏       | 487/2186 [00:11<00:33, 50.69it/s]Selecting lowest energy:  23%|██▎       | 494/2186 [00:11<00:31, 53.73it/s]Selecting lowest energy:  23%|██▎       | 500/2186 [00:11<00:32, 52.02it/s]Selecting lowest energy:  23%|██▎       | 506/2186 [00:11<00:33, 50.68it/s]Selecting lowest energy:  23%|██▎       | 512/2186 [00:11<00:36, 45.63it/s]Selecting lowest energy:  24%|██▎       | 519/2186 [00:12<00:32, 51.45it/s]Selecting lowest energy:  24%|██▍       | 526/2186 [00:12<00:29, 55.36it/s]Selecting lowest energy:  24%|██▍       | 532/2186 [00:12<00:32, 51.40it/s]Selecting lowest energy:  25%|██▍       | 538/2186 [00:12<00:31, 51.78it/s]Selecting lowest energy:  25%|██▍       | 544/2186 [00:12<00:33, 48.68it/s]Selecting lowest energy:  25%|██▌       | 549/2186 [00:12<00:35, 46.45it/s]Selecting lowest energy:  25%|██▌       | 554/2186 [00:12<00:36, 44.64it/s]Selecting lowest energy:  26%|██▌       | 560/2186 [00:12<00:33, 48.44it/s]Selecting lowest energy:  26%|██▌       | 565/2186 [00:13<00:35, 45.08it/s]Selecting lowest energy:  26%|██▌       | 570/2186 [00:13<00:36, 44.82it/s]Selecting lowest energy:  26%|██▋       | 577/2186 [00:13<00:33, 47.71it/s]Selecting lowest energy:  27%|██▋       | 583/2186 [00:13<00:32, 49.41it/s]Selecting lowest energy:  27%|██▋       | 588/2186 [00:13<00:35, 44.67it/s]Selecting lowest energy:  27%|██▋       | 596/2186 [00:13<00:31, 51.15it/s]Selecting lowest energy:  28%|██▊       | 602/2186 [00:13<00:32, 49.18it/s]Selecting lowest energy:  28%|██▊       | 608/2186 [00:13<00:32, 49.24it/s]Selecting lowest energy:  28%|██▊       | 614/2186 [00:14<00:31, 49.58it/s]Selecting lowest energy:  28%|██▊       | 620/2186 [00:14<00:30, 51.21it/s]Selecting lowest energy:  29%|██▊       | 627/2186 [00:14<00:28, 53.79it/s]Selecting lowest energy:  29%|██▉       | 633/2186 [00:14<00:29, 52.30it/s]Selecting lowest energy:  29%|██▉       | 640/2186 [00:14<00:30, 50.63it/s]Selecting lowest energy:  30%|██▉       | 646/2186 [00:14<00:29, 51.36it/s]Selecting lowest energy:  30%|██▉       | 652/2186 [00:14<00:32, 47.18it/s]Selecting lowest energy:  30%|███       | 657/2186 [00:14<00:33, 45.23it/s]Selecting lowest energy:  30%|███       | 662/2186 [00:15<00:33, 45.70it/s]Selecting lowest energy:  31%|███       | 667/2186 [00:15<00:32, 46.54it/s]Selecting lowest energy:  31%|███       | 672/2186 [00:15<00:46, 32.74it/s]Selecting lowest energy:  31%|███       | 678/2186 [00:15<00:40, 36.85it/s]Selecting lowest energy:  31%|███       | 683/2186 [00:15<00:40, 37.08it/s]Selecting lowest energy:  31%|███▏      | 688/2186 [00:15<00:39, 37.60it/s]Selecting lowest energy:  32%|███▏      | 693/2186 [00:15<00:43, 34.46it/s]Selecting lowest energy:  32%|███▏      | 697/2186 [00:16<00:43, 34.45it/s]Selecting lowest energy:  32%|███▏      | 701/2186 [00:16<00:43, 34.16it/s]Selecting lowest energy:  32%|███▏      | 706/2186 [00:16<00:39, 37.74it/s]Selecting lowest energy:  33%|███▎      | 711/2186 [00:16<00:37, 38.98it/s]Selecting lowest energy:  33%|███▎      | 717/2186 [00:16<00:33, 43.89it/s]Selecting lowest energy:  33%|███▎      | 723/2186 [00:16<00:30, 47.46it/s]Selecting lowest energy:  33%|███▎      | 728/2186 [00:16<00:31, 46.78it/s]Selecting lowest energy:  34%|███▎      | 733/2186 [00:16<00:32, 44.61it/s]Selecting lowest energy:  34%|███▍      | 738/2186 [00:16<00:31, 45.99it/s]Selecting lowest energy:  34%|███▍      | 744/2186 [00:17<00:29, 48.60it/s]Selecting lowest energy:  34%|███▍      | 749/2186 [00:17<00:29, 48.45it/s]Selecting lowest energy:  35%|███▍      | 755/2186 [00:17<00:28, 50.95it/s]Selecting lowest energy:  35%|███▍      | 761/2186 [00:17<00:27, 51.68it/s]Selecting lowest energy:  35%|███▌      | 767/2186 [00:17<00:27, 51.70it/s]Selecting lowest energy:  35%|███▌      | 774/2186 [00:17<00:25, 56.45it/s]Selecting lowest energy:  36%|███▌      | 780/2186 [00:17<00:25, 55.51it/s]Selecting lowest energy:  36%|███▌      | 787/2186 [00:17<00:25, 54.21it/s]Selecting lowest energy:  36%|███▋      | 794/2186 [00:17<00:24, 57.13it/s]Selecting lowest energy:  37%|███▋      | 800/2186 [00:18<00:29, 47.70it/s]Selecting lowest energy:  37%|███▋      | 806/2186 [00:18<00:29, 46.69it/s]Selecting lowest energy:  37%|███▋      | 811/2186 [00:18<00:29, 46.60it/s]Selecting lowest energy:  37%|███▋      | 817/2186 [00:18<00:29, 46.45it/s]Selecting lowest energy:  38%|███▊      | 822/2186 [00:18<00:28, 47.11it/s]Selecting lowest energy:  38%|███▊      | 828/2186 [00:18<00:29, 45.59it/s]Selecting lowest energy:  38%|███▊      | 834/2186 [00:18<00:28, 48.14it/s]Selecting lowest energy:  38%|███▊      | 840/2186 [00:19<00:27, 49.72it/s]Selecting lowest energy:  39%|███▊      | 846/2186 [00:19<00:26, 51.27it/s]Selecting lowest energy:  39%|███▉      | 852/2186 [00:19<00:25, 53.07it/s]Selecting lowest energy:  39%|███▉      | 858/2186 [00:19<00:24, 54.92it/s]Selecting lowest energy:  40%|███▉      | 864/2186 [00:19<00:25, 52.27it/s]Selecting lowest energy:  40%|███▉      | 870/2186 [00:19<00:24, 54.12it/s]Selecting lowest energy:  40%|████      | 877/2186 [00:19<00:22, 57.07it/s]Selecting lowest energy:  40%|████      | 883/2186 [00:19<00:25, 51.54it/s]Selecting lowest energy:  41%|████      | 889/2186 [00:19<00:26, 48.26it/s]Selecting lowest energy:  41%|████      | 896/2186 [00:20<00:24, 53.23it/s]Selecting lowest energy:  41%|████▏     | 902/2186 [00:20<00:25, 51.09it/s]Selecting lowest energy:  42%|████▏     | 908/2186 [00:20<00:24, 52.40it/s]Selecting lowest energy:  42%|████▏     | 914/2186 [00:20<00:24, 51.92it/s]Selecting lowest energy:  42%|████▏     | 920/2186 [00:20<00:27, 46.08it/s]Selecting lowest energy:  42%|████▏     | 926/2186 [00:20<00:27, 46.26it/s]Selecting lowest energy:  43%|████▎     | 931/2186 [00:20<00:26, 46.69it/s]Selecting lowest energy:  43%|████▎     | 936/2186 [00:20<00:29, 42.99it/s]Selecting lowest energy:  43%|████▎     | 944/2186 [00:21<00:25, 49.10it/s]Selecting lowest energy:  43%|████▎     | 950/2186 [00:21<00:25, 48.65it/s]Selecting lowest energy:  44%|████▎     | 956/2186 [00:21<00:24, 49.67it/s]Selecting lowest energy:  44%|████▍     | 962/2186 [00:21<00:26, 46.21it/s]Selecting lowest energy:  44%|████▍     | 969/2186 [00:21<00:25, 48.55it/s]Selecting lowest energy:  45%|████▍     | 975/2186 [00:21<00:24, 49.58it/s]Selecting lowest energy:  45%|████▍     | 981/2186 [00:21<00:23, 50.26it/s]Selecting lowest energy:  45%|████▌     | 987/2186 [00:21<00:25, 47.76it/s]Selecting lowest energy:  45%|████▌     | 992/2186 [00:22<00:24, 47.79it/s]Selecting lowest energy:  46%|████▌     | 998/2186 [00:22<00:23, 50.32it/s]Selecting lowest energy:  46%|████▌     | 1004/2186 [00:22<00:26, 45.07it/s]Selecting lowest energy:  46%|████▌     | 1009/2186 [00:22<00:26, 44.76it/s]Selecting lowest energy:  46%|████▋     | 1016/2186 [00:22<00:23, 50.51it/s]Selecting lowest energy:  47%|████▋     | 1022/2186 [00:22<00:22, 51.15it/s]Selecting lowest energy:  47%|████▋     | 1028/2186 [00:22<00:23, 48.56it/s]Selecting lowest energy:  47%|████▋     | 1034/2186 [00:22<00:22, 50.98it/s]Selecting lowest energy:  48%|████▊     | 1042/2186 [00:23<00:20, 54.94it/s]Selecting lowest energy:  48%|████▊     | 1048/2186 [00:23<00:23, 48.44it/s]Selecting lowest energy:  48%|████▊     | 1053/2186 [00:23<00:23, 48.08it/s]Selecting lowest energy:  48%|████▊     | 1058/2186 [00:23<00:24, 46.08it/s]Selecting lowest energy:  49%|████▊     | 1063/2186 [00:23<00:25, 44.28it/s]Selecting lowest energy:  49%|████▉     | 1068/2186 [00:23<00:27, 40.56it/s]Selecting lowest energy:  49%|████▉     | 1073/2186 [00:23<00:26, 42.40it/s]Selecting lowest energy:  49%|████▉     | 1078/2186 [00:23<00:25, 42.83it/s]Selecting lowest energy:  50%|████▉     | 1085/2186 [00:24<00:23, 47.40it/s]Selecting lowest energy:  50%|████▉     | 1092/2186 [00:24<00:21, 52.04it/s]Selecting lowest energy:  50%|█████     | 1098/2186 [00:24<00:20, 52.89it/s]Selecting lowest energy:  51%|█████     | 1104/2186 [00:24<00:22, 48.54it/s]Selecting lowest energy:  51%|█████     | 1109/2186 [00:24<00:24, 44.79it/s]Selecting lowest energy:  51%|█████     | 1114/2186 [00:24<00:34, 31.41it/s]Selecting lowest energy:  51%|█████     | 1120/2186 [00:24<00:30, 35.23it/s]Selecting lowest energy:  52%|█████▏    | 1126/2186 [00:25<00:26, 40.36it/s]Selecting lowest energy:  52%|█████▏    | 1132/2186 [00:25<00:24, 43.64it/s]Selecting lowest energy:  52%|█████▏    | 1138/2186 [00:25<00:23, 43.70it/s]Selecting lowest energy:  52%|█████▏    | 1143/2186 [00:25<00:23, 44.52it/s]Selecting lowest energy:  53%|█████▎    | 1149/2186 [00:25<00:21, 48.02it/s]Selecting lowest energy:  53%|█████▎    | 1155/2186 [00:25<00:21, 47.26it/s]Selecting lowest energy:  53%|█████▎    | 1162/2186 [00:25<00:19, 52.66it/s]Selecting lowest energy:  53%|█████▎    | 1168/2186 [00:25<00:20, 49.66it/s]Selecting lowest energy:  54%|█████▎    | 1174/2186 [00:25<00:19, 52.32it/s]Selecting lowest energy:  54%|█████▍    | 1180/2186 [00:26<00:18, 54.00it/s]Selecting lowest energy:  54%|█████▍    | 1186/2186 [00:26<00:20, 49.51it/s]Selecting lowest energy:  55%|█████▍    | 1192/2186 [00:26<00:22, 44.25it/s]Selecting lowest energy:  55%|█████▍    | 1197/2186 [00:26<00:25, 38.51it/s]Selecting lowest energy:  55%|█████▍    | 1202/2186 [00:26<00:26, 36.88it/s]Selecting lowest energy:  55%|█████▌    | 1208/2186 [00:26<00:23, 41.82it/s]Selecting lowest energy:  55%|█████▌    | 1213/2186 [00:26<00:23, 40.85it/s]Selecting lowest energy:  56%|█████▌    | 1218/2186 [00:27<00:23, 41.73it/s]Selecting lowest energy:  56%|█████▌    | 1225/2186 [00:27<00:19, 48.62it/s]Selecting lowest energy:  56%|█████▋    | 1231/2186 [00:27<00:20, 45.68it/s]Selecting lowest energy:  57%|█████▋    | 1236/2186 [00:27<00:20, 46.48it/s]Selecting lowest energy:  57%|█████▋    | 1242/2186 [00:27<00:19, 48.96it/s]Selecting lowest energy:  57%|█████▋    | 1248/2186 [00:27<00:18, 50.07it/s]Selecting lowest energy:  57%|█████▋    | 1254/2186 [00:27<00:18, 49.07it/s]Selecting lowest energy:  58%|█████▊    | 1261/2186 [00:27<00:17, 51.78it/s]Selecting lowest energy:  58%|█████▊    | 1267/2186 [00:28<00:19, 47.16it/s]Selecting lowest energy:  58%|█████▊    | 1272/2186 [00:28<00:22, 40.23it/s]Selecting lowest energy:  58%|█████▊    | 1277/2186 [00:28<00:24, 36.76it/s]Selecting lowest energy:  59%|█████▊    | 1281/2186 [00:28<00:24, 36.97it/s]Selecting lowest energy:  59%|█████▉    | 1286/2186 [00:28<00:22, 39.98it/s]Selecting lowest energy:  59%|█████▉    | 1294/2186 [00:28<00:18, 48.94it/s]Selecting lowest energy:  59%|█████▉    | 1300/2186 [00:28<00:19, 46.12it/s]Selecting lowest energy:  60%|█████▉    | 1305/2186 [00:29<00:20, 43.29it/s]Selecting lowest energy:  60%|█████▉    | 1310/2186 [00:29<00:23, 36.98it/s]Selecting lowest energy:  60%|██████    | 1315/2186 [00:29<00:21, 39.80it/s]Selecting lowest energy:  60%|██████    | 1320/2186 [00:29<00:20, 42.01it/s]Selecting lowest energy:  61%|██████    | 1326/2186 [00:29<00:18, 46.36it/s]Selecting lowest energy:  61%|██████    | 1331/2186 [00:29<00:19, 43.70it/s]Selecting lowest energy:  61%|██████    | 1336/2186 [00:29<00:19, 42.96it/s]Selecting lowest energy:  61%|██████▏   | 1341/2186 [00:29<00:20, 40.90it/s]Selecting lowest energy:  62%|██████▏   | 1346/2186 [00:30<00:20, 41.12it/s]Selecting lowest energy:  62%|██████▏   | 1351/2186 [00:30<00:20, 39.99it/s]Selecting lowest energy:  62%|██████▏   | 1357/2186 [00:30<00:19, 43.50it/s]Selecting lowest energy:  62%|██████▏   | 1362/2186 [00:30<00:19, 42.10it/s]Selecting lowest energy:  63%|██████▎   | 1367/2186 [00:30<00:21, 37.99it/s]Selecting lowest energy:  63%|██████▎   | 1372/2186 [00:30<00:21, 38.40it/s]Selecting lowest energy:  63%|██████▎   | 1377/2186 [00:30<00:19, 40.99it/s]Selecting lowest energy:  63%|██████▎   | 1382/2186 [00:30<00:19, 41.14it/s]Selecting lowest energy:  63%|██████▎   | 1387/2186 [00:31<00:19, 42.05it/s]Selecting lowest energy:  64%|██████▎   | 1392/2186 [00:31<00:18, 42.40it/s]Selecting lowest energy:  64%|██████▍   | 1398/2186 [00:31<00:17, 44.35it/s]Selecting lowest energy:  64%|██████▍   | 1404/2186 [00:31<00:16, 46.04it/s]Selecting lowest energy:  64%|██████▍   | 1409/2186 [00:31<00:16, 45.79it/s]Selecting lowest energy:  65%|██████▍   | 1415/2186 [00:31<00:15, 48.23it/s]Selecting lowest energy:  65%|██████▌   | 1422/2186 [00:31<00:14, 53.88it/s]Selecting lowest energy:  65%|██████▌   | 1428/2186 [00:31<00:15, 48.20it/s]Selecting lowest energy:  66%|██████▌   | 1433/2186 [00:31<00:15, 48.45it/s]Selecting lowest energy:  66%|██████▌   | 1442/2186 [00:32<00:13, 56.14it/s]Selecting lowest energy:  66%|██████▌   | 1448/2186 [00:32<00:13, 56.38it/s]Selecting lowest energy:  67%|██████▋   | 1454/2186 [00:32<00:13, 56.28it/s]Selecting lowest energy:  67%|██████▋   | 1460/2186 [00:32<00:13, 54.00it/s]Selecting lowest energy:  67%|██████▋   | 1466/2186 [00:32<00:14, 50.14it/s]Selecting lowest energy:  67%|██████▋   | 1473/2186 [00:32<00:13, 51.67it/s]Selecting lowest energy:  68%|██████▊   | 1479/2186 [00:32<00:15, 45.78it/s]Selecting lowest energy:  68%|██████▊   | 1484/2186 [00:32<00:15, 45.18it/s]Selecting lowest energy:  68%|██████▊   | 1489/2186 [00:33<00:15, 44.39it/s]Selecting lowest energy:  68%|██████▊   | 1494/2186 [00:33<00:21, 31.63it/s]Selecting lowest energy:  69%|██████▊   | 1501/2186 [00:33<00:18, 37.59it/s]Selecting lowest energy:  69%|██████▉   | 1507/2186 [00:33<00:16, 41.82it/s]Selecting lowest energy:  69%|██████▉   | 1514/2186 [00:33<00:14, 46.54it/s]Selecting lowest energy:  70%|██████▉   | 1520/2186 [00:33<00:14, 47.54it/s]Selecting lowest energy:  70%|██████▉   | 1526/2186 [00:33<00:13, 48.38it/s]Selecting lowest energy:  70%|███████   | 1534/2186 [00:34<00:12, 51.01it/s]Selecting lowest energy:  70%|███████   | 1540/2186 [00:34<00:12, 51.51it/s]Selecting lowest energy:  71%|███████   | 1546/2186 [00:34<00:12, 50.97it/s]Selecting lowest energy:  71%|███████   | 1552/2186 [00:34<00:12, 52.16it/s]Selecting lowest energy:  71%|███████▏  | 1558/2186 [00:34<00:13, 47.32it/s]Selecting lowest energy:  72%|███████▏  | 1563/2186 [00:34<00:13, 46.59it/s]Selecting lowest energy:  72%|███████▏  | 1568/2186 [00:34<00:13, 46.63it/s]Selecting lowest energy:  72%|███████▏  | 1573/2186 [00:34<00:13, 44.53it/s]Selecting lowest energy:  72%|███████▏  | 1578/2186 [00:35<00:13, 44.37it/s]Selecting lowest energy:  72%|███████▏  | 1583/2186 [00:35<00:15, 38.39it/s]Selecting lowest energy:  73%|███████▎  | 1587/2186 [00:35<00:15, 38.16it/s]Selecting lowest energy:  73%|███████▎  | 1592/2186 [00:35<00:14, 40.74it/s]Selecting lowest energy:  73%|███████▎  | 1597/2186 [00:35<00:14, 39.81it/s]Selecting lowest energy:  73%|███████▎  | 1603/2186 [00:35<00:13, 42.07it/s]Selecting lowest energy:  74%|███████▎  | 1609/2186 [00:35<00:13, 43.75it/s]Selecting lowest energy:  74%|███████▍  | 1614/2186 [00:35<00:13, 42.52it/s]Selecting lowest energy:  74%|███████▍  | 1619/2186 [00:36<00:12, 43.68it/s]Selecting lowest energy:  74%|███████▍  | 1624/2186 [00:36<00:12, 44.05it/s]Selecting lowest energy:  75%|███████▍  | 1629/2186 [00:36<00:12, 45.24it/s]Selecting lowest energy:  75%|███████▍  | 1635/2186 [00:36<00:11, 48.39it/s]Selecting lowest energy:  75%|███████▌  | 1641/2186 [00:36<00:11, 46.67it/s]Selecting lowest energy:  75%|███████▌  | 1646/2186 [00:36<00:12, 42.08it/s]Selecting lowest energy:  76%|███████▌  | 1651/2186 [00:36<00:12, 42.93it/s]Selecting lowest energy:  76%|███████▌  | 1657/2186 [00:36<00:11, 46.38it/s]Selecting lowest energy:  76%|███████▌  | 1662/2186 [00:36<00:11, 44.78it/s]Selecting lowest energy:  76%|███████▋  | 1667/2186 [00:37<00:12, 40.80it/s]Selecting lowest energy:  76%|███████▋  | 1672/2186 [00:37<00:13, 39.04it/s]Selecting lowest energy:  77%|███████▋  | 1677/2186 [00:37<00:12, 41.35it/s]Selecting lowest energy:  77%|███████▋  | 1683/2186 [00:37<00:11, 45.28it/s]Selecting lowest energy:  77%|███████▋  | 1688/2186 [00:37<00:10, 46.19it/s]Selecting lowest energy:  77%|███████▋  | 1693/2186 [00:37<00:10, 46.65it/s]Selecting lowest energy:  78%|███████▊  | 1698/2186 [00:37<00:11, 43.43it/s]Selecting lowest energy:  78%|███████▊  | 1703/2186 [00:37<00:11, 42.45it/s]Selecting lowest energy:  78%|███████▊  | 1708/2186 [00:38<00:12, 39.78it/s]Selecting lowest energy:  78%|███████▊  | 1713/2186 [00:38<00:11, 41.92it/s]Selecting lowest energy:  79%|███████▊  | 1720/2186 [00:38<00:10, 45.35it/s]Selecting lowest energy:  79%|███████▉  | 1726/2186 [00:38<00:09, 46.77it/s]Selecting lowest energy:  79%|███████▉  | 1731/2186 [00:38<00:10, 44.60it/s]Selecting lowest energy:  79%|███████▉  | 1736/2186 [00:38<00:10, 43.88it/s]Selecting lowest energy:  80%|███████▉  | 1742/2186 [00:38<00:09, 47.54it/s]Selecting lowest energy:  80%|███████▉  | 1748/2186 [00:38<00:08, 49.36it/s]Selecting lowest energy:  80%|████████  | 1754/2186 [00:39<00:08, 51.51it/s]Selecting lowest energy:  81%|████████  | 1762/2186 [00:39<00:07, 58.83it/s]Selecting lowest energy:  81%|████████  | 1768/2186 [00:39<00:08, 51.52it/s]Selecting lowest energy:  81%|████████  | 1774/2186 [00:39<00:08, 48.20it/s]Selecting lowest energy:  81%|████████▏ | 1779/2186 [00:39<00:08, 46.78it/s]Selecting lowest energy:  82%|████████▏ | 1785/2186 [00:39<00:08, 49.21it/s]Selecting lowest energy:  82%|████████▏ | 1791/2186 [00:39<00:08, 44.83it/s]Selecting lowest energy:  82%|████████▏ | 1798/2186 [00:39<00:07, 49.01it/s]Selecting lowest energy:  83%|████████▎ | 1804/2186 [00:40<00:07, 49.87it/s]Selecting lowest energy:  83%|████████▎ | 1810/2186 [00:40<00:08, 45.92it/s]Selecting lowest energy:  83%|████████▎ | 1815/2186 [00:40<00:07, 46.75it/s]Selecting lowest energy:  83%|████████▎ | 1821/2186 [00:40<00:07, 47.91it/s]Selecting lowest energy:  84%|████████▎ | 1827/2186 [00:40<00:07, 49.16it/s]Selecting lowest energy:  84%|████████▍ | 1832/2186 [00:40<00:08, 43.07it/s]Selecting lowest energy:  84%|████████▍ | 1840/2186 [00:40<00:07, 48.99it/s]Selecting lowest energy:  84%|████████▍ | 1846/2186 [00:40<00:07, 47.42it/s]Selecting lowest energy:  85%|████████▍ | 1853/2186 [00:41<00:06, 49.23it/s]Selecting lowest energy:  85%|████████▌ | 1859/2186 [00:41<00:06, 50.44it/s]Selecting lowest energy:  85%|████████▌ | 1865/2186 [00:41<00:06, 48.44it/s]Selecting lowest energy:  86%|████████▌ | 1870/2186 [00:41<00:06, 46.39it/s]Selecting lowest energy:  86%|████████▌ | 1876/2186 [00:41<00:06, 47.89it/s]Selecting lowest energy:  86%|████████▌ | 1881/2186 [00:41<00:06, 48.11it/s]Selecting lowest energy:  86%|████████▋ | 1887/2186 [00:41<00:08, 36.24it/s]Selecting lowest energy:  87%|████████▋ | 1892/2186 [00:42<00:07, 37.01it/s]Selecting lowest energy:  87%|████████▋ | 1897/2186 [00:42<00:07, 39.34it/s]Selecting lowest energy:  87%|████████▋ | 1902/2186 [00:42<00:07, 35.82it/s]Selecting lowest energy:  87%|████████▋ | 1909/2186 [00:42<00:06, 43.39it/s]Selecting lowest energy:  88%|████████▊ | 1914/2186 [00:42<00:06, 44.47it/s]Selecting lowest energy:  88%|████████▊ | 1919/2186 [00:42<00:06, 41.76it/s]Selecting lowest energy:  88%|████████▊ | 1925/2186 [00:42<00:06, 43.07it/s]Selecting lowest energy:  88%|████████▊ | 1930/2186 [00:42<00:05, 44.11it/s]Selecting lowest energy:  89%|████████▊ | 1935/2186 [00:43<00:05, 42.81it/s]Selecting lowest energy:  89%|████████▊ | 1940/2186 [00:43<00:05, 44.42it/s]Selecting lowest energy:  89%|████████▉ | 1945/2186 [00:43<00:05, 44.50it/s]Selecting lowest energy:  89%|████████▉ | 1950/2186 [00:43<00:05, 45.92it/s]Selecting lowest energy:  89%|████████▉ | 1956/2186 [00:43<00:05, 45.94it/s]Selecting lowest energy:  90%|████████▉ | 1962/2186 [00:43<00:04, 49.69it/s]Selecting lowest energy:  90%|█████████ | 1968/2186 [00:43<00:04, 46.03it/s]Selecting lowest energy:  90%|█████████ | 1973/2186 [00:43<00:04, 44.72it/s]Selecting lowest energy:  90%|█████████ | 1978/2186 [00:43<00:04, 44.17it/s]Selecting lowest energy:  91%|█████████ | 1984/2186 [00:44<00:04, 47.53it/s]Selecting lowest energy:  91%|█████████ | 1989/2186 [00:44<00:04, 44.78it/s]Selecting lowest energy:  91%|█████████ | 1994/2186 [00:44<00:04, 44.99it/s]Selecting lowest energy:  91%|█████████▏| 1999/2186 [00:44<00:04, 42.26it/s]Selecting lowest energy:  92%|█████████▏| 2004/2186 [00:44<00:05, 36.17it/s]Selecting lowest energy:  92%|█████████▏| 2009/2186 [00:44<00:04, 37.02it/s]Selecting lowest energy:  92%|█████████▏| 2014/2186 [00:44<00:04, 36.19it/s]Selecting lowest energy:  92%|█████████▏| 2020/2186 [00:45<00:04, 40.40it/s]Selecting lowest energy:  93%|█████████▎| 2025/2186 [00:45<00:03, 42.28it/s]Selecting lowest energy:  93%|█████████▎| 2031/2186 [00:45<00:03, 45.66it/s]Selecting lowest energy:  93%|█████████▎| 2037/2186 [00:45<00:03, 47.90it/s]Selecting lowest energy:  93%|█████████▎| 2043/2186 [00:45<00:02, 50.77it/s]Selecting lowest energy:  94%|█████████▎| 2049/2186 [00:45<00:02, 51.23it/s]Selecting lowest energy:  94%|█████████▍| 2055/2186 [00:45<00:02, 50.17it/s]Selecting lowest energy:  94%|█████████▍| 2061/2186 [00:45<00:02, 49.81it/s]Selecting lowest energy:  95%|█████████▍| 2067/2186 [00:45<00:02, 42.20it/s]Selecting lowest energy:  95%|█████████▍| 2073/2186 [00:46<00:02, 46.25it/s]Selecting lowest energy:  95%|█████████▌| 2078/2186 [00:46<00:02, 44.92it/s]Selecting lowest energy:  95%|█████████▌| 2083/2186 [00:46<00:02, 44.19it/s]Selecting lowest energy:  96%|█████████▌| 2088/2186 [00:46<00:02, 41.58it/s]Selecting lowest energy:  96%|█████████▌| 2093/2186 [00:46<00:02, 42.21it/s]Selecting lowest energy:  96%|█████████▌| 2100/2186 [00:46<00:01, 47.65it/s]Selecting lowest energy:  96%|█████████▋| 2105/2186 [00:46<00:01, 45.96it/s]Selecting lowest energy:  97%|█████████▋| 2111/2186 [00:46<00:01, 44.69it/s]Selecting lowest energy:  97%|█████████▋| 2116/2186 [00:47<00:01, 45.96it/s]Selecting lowest energy:  97%|█████████▋| 2121/2186 [00:47<00:01, 42.70it/s]Selecting lowest energy:  97%|█████████▋| 2126/2186 [00:47<00:01, 42.77it/s]Selecting lowest energy:  97%|█████████▋| 2131/2186 [00:47<00:01, 41.81it/s]Selecting lowest energy:  98%|█████████▊| 2136/2186 [00:47<00:01, 43.50it/s]Selecting lowest energy:  98%|█████████▊| 2144/2186 [00:47<00:00, 51.56it/s]Selecting lowest energy:  98%|█████████▊| 2150/2186 [00:47<00:00, 50.00it/s]Selecting lowest energy:  99%|█████████▊| 2156/2186 [00:47<00:00, 52.13it/s]Selecting lowest energy:  99%|█████████▉| 2162/2186 [00:48<00:00, 50.58it/s]Selecting lowest energy:  99%|█████████▉| 2168/2186 [00:48<00:00, 39.14it/s]Selecting lowest energy:  99%|█████████▉| 2173/2186 [00:48<00:00, 37.47it/s]Selecting lowest energy: 100%|█████████▉| 2178/2186 [00:48<00:00, 37.91it/s]Selecting lowest energy: 100%|█████████▉| 2184/2186 [00:48<00:00, 41.00it/s]Selecting lowest energy: 100%|██████████| 2186/2186 [00:48<00:00, 44.91it/s]
+2025-08-20 16:21:26.467 | INFO     | __main__:main:729 - Parameters with 0 CMILES: b49, b50, b57b, b62a, b77, b78, b79, b80, b82, b83, a1a, a10a, a11a, a15a, a17, a18b, a24a, a33a, a35, a4a, t7, t8, t18b, t31a, t33, t42a, t43a, t59, t60, t61, t62, t63, t84b, t103, t115a, t116a, t117, t117b, t117c, t117d, t117e, t130, t130a, t130c, t131, t131a, t131c, t132, t132a, t132c, t133, t133a, t133c, t134, t137, t138a, t141, t142a, t142c, t142e, t143d, t143e, t144, t144a, t146, t146a, t147c, t153a, t155a, t158a, t158b, t158c
+2025-08-20 16:21:26.467 | INFO     | __main__:main:736 - Parameters with < 5 CMILES: b13a, b33, b39, b40, b44, b47, b48, b49, b50, b54, b55, b57b, b62a, b75, b76, b77, b78, b79, b80, b81, b82, b83, a1a, a10a, a11a, a15a, a17, a18b, a23, a24a, a27, a33a, a35, a36, a4a, t6, t7, t8, t18b, t30, t31a, t33, t36, t37, t40, t42a, t43a, t54, t55, t59, t59a, t60, t60a, t61, t62, t63, t65, t81, t84b, t87a, t89, t91, t100, t101, t102, t103, t104, t114, t115a, t116a, t117, t117b, t117c, t117d, t117e, t130, t130a, t130c, t131, t131a, t131c, t132, t132a, t132c, t133, t133a, t133c, t134, t137, t138a, t141, t142a, t142c, t142e, t143a, t143c, t143d, t143e, t144, t144a, t144c, t145, t145a, t145c, t146, t146a, t146c, t147, t147a, t147c, t148, t148a, t148c, t149, t149a, t149c, t150a, t151a, t152a, t153, t153a, t154a, t155, t155a, t156a, t157a, t158a, t158b, t158c
+2025-08-20 16:21:26.467 | INFO     | __main__:main:743 - Parameters with 0 records: 
+2025-08-20 16:21:26.467 | INFO     | __main__:main:750 - Parameters with < 10 records: b81, t102, t104, b40, b55, a36, b44
+2025-08-20 16:21:26.772 | INFO     | __main__:main:763 - Wrote 19666 records to output/optimizations-validation.json
