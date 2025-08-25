@@ -7,14 +7,14 @@ This step is needed for the data selection process.
 
 Note: only bonds, angles, and proper and improper torsions are labeled.
 
+\b
 This file writes out files with the following schema:
-- cmiles (str): The canonical SMILES of the molecule.
-- forcefield (str): The name of the force field used for labeling.
-- parameter_type (str): The type of the parameter (e.g., "Bonds", "Angles", "ProperTorsions", "ImproperTorsions").
-- parameter_id (str): The ID of the parameter.
-- parameter_indices (list[int]): The indices of the atoms involved in the parameter.
-- parameter_indices_str (str): A string representation of the parameter indices,
-  useful for filtering and grouping.
+    - cmiles (str): The canonical SMILES of the molecule.
+    - forcefield (str): The name of the force field used for labeling.
+    - parameter_type (str): The type of the parameter (e.g., "Bonds", "Angles", "ProperTorsions", "ImproperTorsions").
+    - parameter_id (str): The ID of the parameter.
+    - parameter_indices (list[int]): The indices of the atoms involved in the parameter.
+    - parameter_indices_str (str): A string representation of the parameter indices, useful for filtering and grouping.
 """
 
 import logging
@@ -138,7 +138,7 @@ def label_table_with_forcefield(
         logger.info(f"Wrote {len(entries)} rows to {new_filename}")
 
 
-@click.command()
+@click.command(help=__doc__)
 @click.option(
     "--input-directory",
     "-i",
@@ -192,7 +192,6 @@ def main(
             output_directory,
             forcefield_name=forcefield_name,
         )
-
 
 if __name__ == "__main__":
     main()

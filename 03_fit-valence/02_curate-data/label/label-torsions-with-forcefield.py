@@ -154,7 +154,7 @@ def label_torsion_table_with_forcefield(
         logger.info(f"Wrote {len(entries)} rows to {new_filename}")
 
 
-@click.command()
+@click.command(help=__doc__)
 @click.option(
     "--input-directory",
     "-i",
