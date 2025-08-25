@@ -1,0 +1,4 @@
+2025-08-01 07:38:21,996 - __main__ - INFO - Loaded 2873 properties from output/initial-filtered.csv
+  0%|          | 0/2873 [00:00<?, ?it/s] 33%|███▎      | 938/2873 [00:00<00:00, 9368.95it/s] 65%|██████▌   | 1879/2873 [00:00<00:00, 9388.30it/s] 99%|█████████▉| 2846/2873 [00:00<00:00, 9514.08it/s]100%|██████████| 2873/2873 [00:00<00:00, 9476.97it/s]
+2025-08-01 07:38:22,350 - __main__ - INFO - Found 2873 unique properties by hash
+2025-08-01 07:38:23,657 - __main__ - INFO - Saved renamed properties to output/renamed-filtered.csv

@@ -1,0 +1,210 @@
+2025-07-31 15:08:23,983 - __main__ - INFO - Starting at Thu Jul 31 15:08:23 2025
+/Users/lily/pydev/ash-sage-rc2/01_download-data/physprop/intermediate/blacklist-high-viscosities.py:60: DtypeWarning: Columns (14,15) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(input_file, index_col=0)
+2025-07-31 15:08:25,147 - __main__ - INFO - Loaded 503482 properties
+2025-07-31 15:08:25,152 - __main__ - INFO - Loaded 840 viscosity values
+2025-07-31 15:08:25,152 - __main__ - INFO - Found 198 median viscosity values > 0.3
+2025-07-31 15:08:25,152 - __main__ - INFO - Filtered SMILES:
+C1CCC2=NCCCN2CC1.CS(=O)(=O)O
+C1CCC2=NCCCN2CC1.O=C(O)C(F)(F)F
+C1CCC2=NCCCN2CC1.O=S(=O)(O)C(F)(F)F
+C=CC[N+](C)(C)CCC[N+](C)(C)CCOCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+C=CC[N+](C)(C)CCOCC[N+](C)(C)CCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+C=CC[n+]1ccn(CCC#N)c1.[Cl-]
+CC(=O)O.CCCCN
+CC(=O)O.CCCCNCCO
+CC(=O)O.CCCN
+CC(=O)O.NCCCO
+CC(=O)O.NCCO
+CC(=O)O.NCCOCCO
+CC(=O)O.OCCN(CCO)CCO
+CC(=O)O.OCCNCCO
+CC(=O)[O-].CCCCCCn1cc[n+](C)c1
+CC(=O)[O-].CCCC[N+](CC)(CC)CC
+CC(C)CNCCCCS(=O)(=O)O.O=S(=O)(O)O
+CC(C)C[C@H](N)C(=O)[O-].CCCC[P+](CCCC)(CCCC)CCCN
+CC(C)C[P+](C)(CC(C)C)CC(C)C.Cc1ccc(S(=O)(=O)[O-])cc1
+CC(C)[C@H](N)C(=O)[O-].CCCC[P+](CCCC)(CCCC)CCCN
+CCC(=O)O.CCCCNCCO
+CCC(=O)O.OCCNCCO
+CCC(=O)[O-].CCCCn1cc[n+](C)c1
+CCCC(=O)O.CCCCNCCO
+CCCC(=O)O.NCCO
+CCCC(=O)[O-].CCCCn1cc[n+](C)c1
+CCCC(=O)[O-].C[N+](C)(C)CCO
+CCCCC(=O)O.CCCCNCCO
+CCCCCC(=O)[O-].CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC
+CCCCCC(=O)[O-].C[N+](C)(C)CCO
+CCCCCCCC(=O)[O-].CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC
+CCCCCCCC/C=C\CCCCCCCC(=O)[O-].CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC
+CCCCCCCC/C=C\CCCCCCCC(=O)[O-].CCCCCCCC[N+](CCCCCCCC)(CCCCCCCC)CCCCCCCC
+CCCCCCCC/C=C\CCCCCCCC(=O)[O-].CCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC
+CCCCCCCCCC(=O)[O-].CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC
+CCCCCCCCCCCCCC[N+](C)(CCOCCOCCOCCOCCOCCO)CCOCCOCCOCCOCCOCCO.COS(=O)(=O)[O-]
+CCCCCCCCCCCCCC[N+](CC)(CC)CC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-].[Cl-].[Cl-].[Cl-].[Cl-].[Cl-].[Gd+3]
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-].[Cl-].[Cl-].[Cl-].[Co+2]
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-].[Cl-].[Cl-].[Cl-].[Mn+2]
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.CS(=O)(=O)[O-]
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.Cc1ncc([N+](=O)[O-])[n-]1
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.Clc1nc[n-]c1Cl
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.N#C[N-]C#N
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.N#Cc1nc[n-]c1C#N
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.O=[N+]([O-])c1cn[n-]c1
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.O=[N+]([O-])c1cnc[n-]1
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Br-]
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-]
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-].[Cl-].[Cl-].[Cl-].[Fe+3]
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.c1c[n-]nn1
+CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.c1nn[n-]n1
+CCCCCCCCCCCCOS(=O)(=O)[O-].CCCCCCCCCC[n+]1ccn(CCC#N)c1
+CCCCCCCCCCCCOS(=O)(=O)[O-].CCCCCC[n+]1ccn(CCC#N)c1
+CCCCCCCCCCCCOS(=O)(=O)[O-].CCCC[n+]1ccn(CCC#N)c1
+CCCCCCCCCCCC[N+](C)(C)Cc1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC.c1c[n-]nn1
+CCCCCCCCCCOS(=O)(=O)[O-].CCCCCCCC[n+]1ccn(CCC#N)c1
+CCCCCCCCCC[N+]1=C2CCCCCN2CCC1.N#C[S-]
+CCCCCCCCCC[n+]1ccn(CCC#N)c1.O=C([O-])c1cccc(S(=O)(=O)O)c1
+CCCCCCCCOS(=O)(=O)[O-].CCn1cc[n+](C)c1
+CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC.O=C([O-])C(F)(F)F
+CCCCCCCC[N+]1=C2CCCCCN2CCC1.N#C[S-]
+CCCCCCCC[P+](CC)(CC)CC.Cc1ncc([N+](=O)[O-])[n-]1
+CCCCCCCC[P+](CCCC)(CCCC)CCCC.[Cl-]
+CCCCCCCC[P+](CCCC)(CCCC)CCCC.c1ccc2[n-]nnc2c1
+CCCCCCCC[P+](CCCCCCCC)(CCCCCCCC)CCCCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCCCCC[n+]1ccc2ccccc2c1.N#C[S-]
+CCCCCCCC[n+]1ccc2ccccc2c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCCCCC[n+]1cccc(C#N)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCCCCC[n+]1ccn(CCC#N)c1.O=C([O-])c1cccc(S(=O)(=O)O)c1
+CCCCCCCC[n+]1ccn(CCC#N)c1.O=S(=O)([O-])C(F)(F)F
+CCCCCCCC[n+]1ccn(CCC#N)c1.O=S(=O)([O-])c1ccccc1
+CCCCCCCCn1cc[n+](C)c1.C[C@H](N)C(=O)[O-]
+CCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F
+CCCCCCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F
+CCCCCCCCn1cc[n+](C)c1.N[C@@H](CO)C(=O)[O-]
+CCCCCCCCn1cc[n+](C)c1.O=C([O-])[C@@H]1CCCN1
+CCCCCCCCn1cc[n+](C)c1.O=[N+]([O-])[O-]
+CCCCCCCCn1cc[n+](C)c1.[Cl-]
+CCCCCCCCn1cc[n+](C)c1.[I-]
+CCCCCC[N+]1(C)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCCC[N+]1=C2CCCCCN2CCC1.N#C[S-]
+CCCCCC[n+]1ccc(C#N)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCCC[n+]1cccc(C#N)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCCC[n+]1ccn(CCC#N)c1.O=C([O-])c1cccc(S(=O)(=O)O)c1
+CCCCCC[n+]1ccn(CCC#N)c1.O=S(=O)([O-])C(F)(F)F
+CCCCCC[n+]1ccn(CCC#N)c1.O=S(=O)([O-])c1ccccc1
+CCCCCC[n+]1ccn(CCC#N)c1.[Br-]
+CCCCCCn1cc[n+](C)c1.CCOS(=O)(=O)[O-]
+CCCCCCn1cc[n+](C)c1.COS(=O)(=O)[O-]
+CCCCCCn1cc[n+](C)c1.F[P-](F)(F)(F)(F)F
+CCCCCCn1cc[n+](C)c1.O=[N+]([O-])c1cn[n-]c1
+CCCCCCn1cc[n+](C)c1.[Br-]
+CCCCCCn1cc[n+](C)c1.[Cl-]
+CCCCCCn1cc[n+](C)c1.c1c[n-]nn1
+CCCCCCn1cc[n+](C)c1.c1nc[n-]n1
+CCCCCCn1cc[n+](C)c1.c1nn[n-]n1
+CCCCCCn1cc[n+](C)c1C.O=[N+]([O-])c1cn[n-]c1
+CCCCC[N+](C)(C)CCC[N+](C)(C)CCOCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCC[N+](C)(C)CCOCC[N+](C)(C)CCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCC[N+](C)(C)CCOCC[N+](C)(C)CCCc1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCC[N+](C)(C)CCOCC[N+](C)(C)CCOCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCC[N+](C)(C)CCOCC[N+](C)(C)CCOCCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCCn1cc[n+](C)c1C.O=S(=O)([O-])O
+CCCCOC(=O)c1ccc[n+](CCCC)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCS(=O)(=O)[O-].CC[N+](C)(C)CCO
+CCCC[N+](C)(C)CC.CCOS(=O)(=O)[O-]
+CCCC[N+](C)(CCCC)CCCC.C[C@@H](O)[C@H](N)C(=O)[O-]
+CCCC[N+](C)(CCCC)CCCC.NCCCC[C@H](N)C(=O)[O-]
+CCCC[N+](C)(CCCC)CCCC.NCCS(=O)(=O)[O-]
+CCCC[N+](C)(CCCC)CCCC.N[C@@H](CO)C(=O)[O-]
+CCCC[N+](C)(CCCC)CCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCC[N+]1(C)CCCC1.COS(=O)(=O)[O-]
+CCCC[N+]1(C)CCCC1.O=C1O[B-]2(OC1=O)OC(=O)C(=O)O2
+CCCC[P+](C)(CCCC)CCCC.COS(=O)(=O)[O-]
+CCCC[P+](C)(CCCC)CCCC.[Cl-]
+CCCC[P+](CC)(CC)CC.Cc1ncc([N+](=O)[O-])[n-]1
+CCCC[P+](CCCC)(CCCC)CCCC.C[C@@H](O)[C@H](N)C(=O)[O-]
+CCCC[P+](CCCC)(CCCC)CCCC.NCCCC[C@H](N)C(=O)[O-]
+CCCC[P+](CCCC)(CCCC)CCCC.NCCS(=O)(=O)[O-]
+CCCC[P+](CCCC)(CCCC)CCCC.N[C@@H](CO)C(=O)[O-]
+CCCC[P+](CCCC)(CCCC)CCCC.N[C@@H](CS)C(=O)[O-]
+CCCC[P+](CCCC)(CCCC)CCCC.O=C([O-])[C@@H]1CCCN1
+CCCC[P+](CCCC)(CCCC)CCCN.C[C@H](N)C(=O)[O-]
+CCCC[n+]1cccc(C#N)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCC[n+]1ccn(CCC#N)c1.O=S(=O)([O-])C(F)(F)F
+CCCC[n+]1ccn(CCC#N)c1.O=S(=O)([O-])c1ccccc1
+CCCC[n+]1ccn(CCC#N)c1.[Br-]
+CCCC[n+]1ccn(CCC#N)c1.[Cl-]
+CCCC[n+]1ccn(CCCCCCO)c1.[Cl-]
+CCCCn1c[nH+]c2ccccc21.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCCn1cc[n+](C)c1.COCCOCCOS(=O)(=O)[O-]
+CCCCn1cc[n+](C)c1.COP(=O)([O-])OC
+CCCCn1cc[n+](C)c1.NCC(=O)[O-]
+CCCCn1cc[n+](C)c1.NCCS(=O)(=O)[O-]
+CCCCn1cc[n+](C)c1.O=C(O)c1ccccc1[O-]
+CCCCn1cc[n+](C)c1.O=C([O-])CO
+CCCCn1cc[n+](C)c1.O=C([O-])c1ccccc1
+CCCCn1cc[n+](C)c1.O=S(=O)([O-])O
+CCCCn1cc[n+](C)c1.[Br-]
+CCCCn1cc[n+](C)c1.[I-]
+CCCCn1cc[n+](C)c1C.F[B-](F)(F)F
+CCCCn1cc[n+](C)c1C.O=S(=O)([O-])O
+CCCCn1cc[nH+]c1-c1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCC[N+](C)(C)CCOCC[N+](C)(C)CCOCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCC[N+](C)(C)CCOCC[N+](C)(C)CCOCCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCCn1cc[n+](C)c1C.F[B-](F)(F)F
+CCCn1cc[n+](C)c1C.O=[N+]([O-])c1cn[n-]c1
+CCOC(=O)C[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCOC(=O)c1ccc[n+](CC)c1.CCOS(=O)(=O)[O-]
+CCOCC[N+](C)(C)CCC[N+](C)(C)CCCc1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCOCC[N+](C)(C)CCC[N+](C)(C)CCOCCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+CCOP(=O)([O-])OCC.CCn1cc[n+](C)c1
+CCOS(=O)(=O)[O-].CC[N+](C)(C)CCO
+CCOS(=O)(=O)[O-].CC[N+]1(C)CCCCC1
+CC[N+](C)(CC)CCOC.F[B-](F)(F)F
+CC[n+]1ccn(CCCCCCO)c1.[Cl-]
+CCc1cccc[n+]1C.COS(=O)(=O)[O-]
+CCn1cc[n+](C)c1.Cc1ccc(S(=O)(=O)[O-])cc1
+CCn1cc[n+](C)c1.NCCS(=O)(=O)[O-]
+CCn1cc[n+](C)c1.N[C@@H](CO)C(=O)[O-]
+CCn1cc[n+](C)c1.O=C([O-])[C@@H]1CCCN1
+CCn1cc[n+](C)c1.O=S(=O)([O-])O
+CN(C)C(=O)c1ccccc1.CN(C)C(=O)c1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F.[Ag+]
+CN(CCO)CCO.Cl
+COCC[N+]1(C)CCOCC1.FC(F)(F)C(F)(F)[P-](F)(F)(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F
+COS(=O)(=O)[O-].C[N+](CCO)(CCO)CCO
+COS(=O)(=O)[O-].C[n+]1ccn(Cc2ccccc2)c1
+C[C@H](N)C(=O)[O-].C[N+](C)(C)CCO
+C[C@H](O)C(=O)[O-].C[N+](C)(C)CCO
+C[N+](C)(C)CCO.NCCC(=O)[O-]
+C[N+](C)(C)CCO.N[C@@H](CO)C(=O)[O-]
+C[N+](C)(C)CCO.Nc1ccccc1C(=O)[O-]
+C[N+](C)(C)CCO.O=C([O-])[C@@H]1CCCN1
+C[N+](C)(C)CCO.O=C([O-])c1ccccn1
+C[N+](C)(C)CCO.[O-]c1cccc2cccnc12
+C[N+]1(CCCO)CCOCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F
+C[n+]1ccn(C(C)(C)C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F
+C[n+]1ccn(CCCCCCO)c1.[Cl-]
+C[n+]1ccn(CCCCn2cc[n+](C)c2)c1.c1c[n-]cn1.c1c[n-]cn1
+C[n+]1ccn(CCC[N+](C)(C)C)c1.N#C[N-]C#N.N#C[N-]C#N
+C[n+]1ccn(CCO)c1.F[B-](F)(F)F
+C[n+]1ccn(CCO)c1.c1c[n-]cn1
+C[n+]1ccn(CCn2cc[n+](C)c2)c1.c1c[n-]cn1.c1c[n-]cn1
+C[n+]1ccn(Cc2ccccc2)c1.[Cl-]
+Cc1ccc(S(=O)(=O)O)cc1.N#CCCn1ccnc1
+Cl.OCCCCCCn1ccnc1
+N#CCC[n+]1ccn(CCO)c1.[Cl-]
+N#CCCn1ccnc1.O=S(=O)(O)O
+NCCCO.O=C(O)C(F)(F)F
+NCCOCCO.O=CO
+O=CO.OCCNCCO
+OCC(O)CO
+OCCN(CCO)CCO
+OCCNCCO
+c1cn(CCOCCOCCOCCn2ccnc2)cn1
+Filtering:   0%|          | 0/503482 [00:00<?, ?it/s]Filtering:   0%|          | 1/503482 [00:00<31:39:49,  4.42it/s]Filtering:   0%|          | 1908/503482 [00:00<01:17, 6453.38it/s]Filtering:   1%|          | 5576/503482 [00:00<00:30, 16300.15it/s]Filtering:   2%|▏         | 9344/503482 [00:00<00:21, 23089.53it/s]Filtering:   2%|▏         | 12406/503482 [00:00<00:22, 22053.92it/s]Filtering:   3%|▎         | 16156/503482 [00:00<00:18, 26358.64it/s]Filtering:   4%|▍         | 19790/503482 [00:00<00:16, 29199.72it/s]Filtering:   5%|▍         | 22952/503482 [00:01<00:19, 25218.87it/s]Filtering:   5%|▌         | 25721/503482 [00:01<00:22, 20903.74it/s]Filtering:   6%|▌         | 28832/503482 [00:01<00:20, 23247.91it/s]Filtering:   6%|▋         | 32657/503482 [00:01<00:17, 26955.17it/s]Filtering:   7%|▋         | 35947/503482 [00:01<00:16, 28505.67it/s]Filtering:   8%|▊         | 39501/503482 [00:01<00:15, 30414.44it/s]Filtering:   8%|▊         | 42714/503482 [00:01<00:18, 24526.92it/s]Filtering:   9%|▉         | 46089/503482 [00:01<00:17, 26746.26it/s]Filtering:  10%|▉         | 49204/503482 [00:02<00:16, 27872.21it/s]Filtering:  11%|█         | 53064/503482 [00:02<00:14, 30741.70it/s]Filtering:  11%|█▏        | 56991/503482 [00:02<00:13, 33099.33it/s]Filtering:  12%|█▏        | 60445/503482 [00:02<00:13, 33095.50it/s]Filtering:  13%|█▎        | 63856/503482 [00:02<00:18, 24058.18it/s]Filtering:  13%|█▎        | 66930/503482 [00:02<00:17, 25574.50it/s]Filtering:  14%|█▍        | 70404/503482 [00:02<00:15, 27818.46it/s]Filtering:  15%|█▍        | 74309/503482 [00:02<00:13, 30729.82it/s]Filtering:  15%|█▌        | 77630/503482 [00:03<00:14, 29901.46it/s]Filtering:  16%|█▌        | 80795/503482 [00:03<00:14, 29359.76it/s]Filtering:  17%|█▋        | 84155/503482 [00:03<00:13, 30507.35it/s]Filtering:  17%|█▋        | 87303/503482 [00:03<00:18, 22142.79it/s]Filtering:  18%|█▊        | 90559/503482 [00:03<00:16, 24462.34it/s]Filtering:  19%|█▊        | 93922/503482 [00:03<00:15, 26673.97it/s]Filtering:  19%|█▉        | 97210/503482 [00:03<00:14, 28264.63it/s]Filtering:  20%|█▉        | 100272/503482 [00:03<00:16, 25043.78it/s]Filtering:  21%|██        | 103356/503482 [00:04<00:15, 26486.25it/s]Filtering:  21%|██        | 106511/503482 [00:04<00:14, 27814.71it/s]Filtering:  22%|██▏       | 110079/503482 [00:04<00:13, 29958.18it/s]Filtering:  23%|██▎       | 113713/503482 [00:04<00:12, 31746.23it/s]Filtering:  23%|██▎       | 117931/503482 [00:04<00:11, 34728.32it/s]Filtering:  24%|██▍       | 121489/503482 [00:04<00:16, 23130.88it/s]Filtering:  25%|██▍       | 125369/503482 [00:04<00:14, 26500.20it/s]Filtering:  26%|██▌       | 129001/503482 [00:04<00:12, 28807.48it/s]Filtering:  26%|██▋       | 132760/503482 [00:05<00:11, 31005.03it/s]Filtering:  27%|██▋       | 136345/503482 [00:05<00:11, 32284.06it/s]Filtering:  28%|██▊       | 140289/503482 [00:05<00:10, 34243.87it/s]Filtering:  29%|██▊       | 144018/503482 [00:05<00:10, 35098.64it/s]Filtering:  29%|██▉       | 147674/503482 [00:05<00:10, 35259.98it/s]Filtering:  30%|███       | 151644/503482 [00:05<00:09, 36541.80it/s]Filtering:  31%|███       | 155375/503482 [00:05<00:09, 36567.17it/s]Filtering:  32%|███▏      | 159086/503482 [00:05<00:13, 25622.04it/s]Filtering:  32%|███▏      | 163256/503482 [00:05<00:11, 29258.94it/s]Filtering:  33%|███▎      | 167016/503482 [00:06<00:10, 31294.32it/s]Filtering:  34%|███▍      | 170960/503482 [00:06<00:09, 33399.42it/s]Filtering:  35%|███▍      | 174726/503482 [00:06<00:09, 34547.16it/s]Filtering:  35%|███▌      | 178471/503482 [00:06<00:09, 35352.17it/s]Filtering:  36%|███▌      | 182474/503482 [00:06<00:08, 36680.26it/s]Filtering:  37%|███▋      | 186335/503482 [00:06<00:08, 37235.79it/s]Filtering:  38%|███▊      | 190143/503482 [00:06<00:08, 36816.68it/s]Filtering:  39%|███▊      | 193890/503482 [00:06<00:08, 37006.40it/s]Filtering:  39%|███▉      | 197780/503482 [00:06<00:08, 37559.67it/s]Filtering:  40%|████      | 201589/503482 [00:06<00:08, 37715.21it/s]Filtering:  41%|████      | 205846/503482 [00:07<00:07, 39154.30it/s]Filtering:  42%|████▏     | 209779/503482 [00:07<00:11, 24699.59it/s]Filtering:  42%|████▏     | 213530/503482 [00:07<00:10, 27405.58it/s]Filtering:  43%|████▎     | 217484/503482 [00:07<00:09, 30218.13it/s]Filtering:  44%|████▍     | 221602/503482 [00:07<00:08, 32945.28it/s]Filtering:  45%|████▍     | 225320/503482 [00:07<00:08, 34054.97it/s]Filtering:  46%|████▌     | 229320/503482 [00:07<00:07, 35673.28it/s]Filtering:  46%|████▋     | 233113/503482 [00:07<00:07, 35726.40it/s]Filtering:  47%|████▋     | 236918/503482 [00:08<00:07, 36382.22it/s]Filtering:  48%|████▊     | 240725/503482 [00:08<00:07, 36866.34it/s]Filtering:  49%|████▊     | 244494/503482 [00:08<00:07, 36768.62it/s]Filtering:  49%|████▉     | 248229/503482 [00:08<00:06, 36746.41it/s]Filtering:  50%|█████     | 252297/503482 [00:08<00:06, 37898.63it/s]Filtering:  51%|█████     | 256118/503482 [00:08<00:06, 36993.11it/s]Filtering:  52%|█████▏    | 259846/503482 [00:08<00:06, 37073.91it/s]Filtering:  52%|█████▏    | 263583/503482 [00:08<00:06, 37159.11it/s]Filtering:  53%|█████▎    | 267312/503482 [00:08<00:06, 36555.08it/s]Filtering:  54%|█████▍    | 270979/503482 [00:09<00:10, 22374.94it/s]Filtering:  55%|█████▍    | 274859/503482 [00:09<00:08, 25724.05it/s]Filtering:  55%|█████▌    | 279138/503482 [00:09<00:07, 29573.91it/s]Filtering:  56%|█████▋    | 283688/503482 [00:09<00:06, 33453.56it/s]Filtering:  57%|█████▋    | 287521/503482 [00:09<00:06, 34498.31it/s]Filtering:  58%|█████▊    | 291327/503482 [00:09<00:06, 35319.97it/s]Filtering:  59%|█████▊    | 295303/503482 [00:09<00:05, 36544.62it/s]Filtering:  59%|█████▉    | 299149/503482 [00:09<00:05, 36654.11it/s]Filtering:  60%|██████    | 302977/503482 [00:10<00:05, 37116.94it/s]Filtering:  61%|██████    | 306785/503482 [00:10<00:05, 37126.49it/s]Filtering:  62%|██████▏   | 310802/503482 [00:10<00:05, 38011.47it/s]Filtering:  62%|██████▏   | 314653/503482 [00:10<00:05, 37580.60it/s]Filtering:  63%|██████▎   | 318971/503482 [00:10<00:04, 39217.17it/s]Filtering:  64%|██████▍   | 323609/503482 [00:10<00:04, 41326.19it/s]Filtering:  65%|██████▌   | 327766/503482 [00:10<00:04, 40313.08it/s]Filtering:  66%|██████▌   | 332241/503482 [00:10<00:04, 41606.61it/s]Filtering:  67%|██████▋   | 336828/503482 [00:10<00:03, 42860.19it/s]Filtering:  68%|██████▊   | 341464/503482 [00:10<00:03, 43893.94it/s]Filtering:  69%|██████▊   | 346063/503482 [00:11<00:03, 44514.24it/s]Filtering:  70%|██████▉   | 350524/503482 [00:11<00:05, 25523.22it/s]Filtering:  70%|███████   | 354952/503482 [00:11<00:05, 29200.29it/s]Filtering:  71%|███████▏  | 359389/503482 [00:11<00:04, 32518.60it/s]Filtering:  72%|███████▏  | 363600/503482 [00:11<00:04, 34801.54it/s]Filtering:  73%|███████▎  | 367733/503482 [00:11<00:03, 36457.25it/s]Filtering:  74%|███████▍  | 371807/503482 [00:11<00:03, 36939.15it/s]Filtering:  75%|███████▍  | 375804/503482 [00:11<00:03, 36787.18it/s]Filtering:  75%|███████▌  | 379695/503482 [00:12<00:03, 37281.54it/s]Filtering:  76%|███████▌  | 383576/503482 [00:12<00:03, 36647.05it/s]Filtering:  77%|███████▋  | 387370/503482 [00:12<00:03, 37009.17it/s]Filtering:  78%|███████▊  | 391149/503482 [00:12<00:03, 36721.75it/s]Filtering:  78%|███████▊  | 394985/503482 [00:12<00:02, 37191.27it/s]Filtering:  79%|███████▉  | 398815/503482 [00:12<00:02, 37513.57it/s]Filtering:  80%|███████▉  | 402736/503482 [00:12<00:02, 38009.56it/s]Filtering:  81%|████████  | 406559/503482 [00:12<00:02, 37917.93it/s]Filtering:  82%|████████▏ | 410366/503482 [00:12<00:02, 37753.53it/s]Filtering:  82%|████████▏ | 414380/503482 [00:13<00:02, 38459.09it/s]Filtering:  83%|████████▎ | 418325/503482 [00:13<00:02, 38753.28it/s]Filtering:  84%|████████▍ | 422207/503482 [00:13<00:02, 38247.52it/s]Filtering:  85%|████████▍ | 426038/503482 [00:13<00:02, 37629.47it/s]Filtering:  85%|████████▌ | 429807/503482 [00:13<00:01, 37218.02it/s]Filtering:  86%|████████▌ | 433812/503482 [00:13<00:01, 38046.85it/s]Filtering:  87%|████████▋ | 437652/503482 [00:13<00:01, 38147.91it/s]Filtering:  88%|████████▊ | 441742/503482 [00:13<00:01, 38961.14it/s]Filtering:  89%|████████▊ | 445642/503482 [00:14<00:02, 20361.13it/s]Filtering:  89%|████████▉ | 448880/503482 [00:14<00:02, 22544.91it/s]Filtering:  90%|████████▉ | 452803/503482 [00:14<00:01, 25982.77it/s]Filtering:  91%|█████████ | 456504/503482 [00:14<00:01, 28489.42it/s]Filtering:  91%|█████████▏| 460329/503482 [00:14<00:01, 30881.60it/s]Filtering:  92%|█████████▏| 464174/503482 [00:14<00:01, 32844.31it/s]Filtering:  93%|█████████▎| 467984/503482 [00:14<00:01, 34263.76it/s]Filtering:  94%|█████████▎| 471678/503482 [00:14<00:00, 34885.99it/s]Filtering:  94%|█████████▍| 475548/503482 [00:14<00:00, 35967.13it/s]Filtering:  95%|█████████▌| 479285/503482 [00:15<00:00, 33339.27it/s]Filtering:  96%|█████████▌| 482922/503482 [00:15<00:00, 34167.98it/s]Filtering:  97%|█████████▋| 486441/503482 [00:15<00:00, 33959.06it/s]Filtering:  97%|█████████▋| 490179/503482 [00:15<00:00, 34929.09it/s]Filtering:  98%|█████████▊| 493881/503482 [00:15<00:00, 35531.27it/s]Filtering:  99%|█████████▉| 497475/503482 [00:15<00:00, 34991.85it/s]Filtering: 100%|█████████▉| 501189/503482 [00:15<00:00, 35614.63it/s]Filtering: 100%|██████████| 503482/503482 [00:15<00:00, 32002.26it/s]
+2025-07-31 15:08:43,992 - __main__ - INFO - Filtered to 497002 properties
+2025-07-31 15:08:47,399 - __main__ - INFO - Saved to intermediate/clean-filtered-viscosities.csv
+2025-07-31 15:08:47,400 - __main__ - INFO - Finished at Thu Jul 31 15:08:47 2025
+2025-07-31 15:08:47,400 - __main__ - INFO - Elapsed time: 23.416933059692383 seconds
