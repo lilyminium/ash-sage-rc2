@@ -1,10 +1,15 @@
+"""
+This script generates a new force field for a valence fit by:
+* removing the Constraints section from the OpenFF force field
+* discarding any cosmetic attributes from training vdW
+
+No other changes are made.
+"""
+
 import click
 
-def remove_constraints(force_field):
-    constraint_handler = force_field.get_parameter_handler("Constraints")
-    parameters = constraint_handler.get_parameter({"id": "c1"})
-    if parameters:
-        constraint_handler._parameters.remove(parameters[0])
+from helper_functions import remove_constraints, print_number_parameters
+
 
 @click.command()
 @click.option(
@@ -34,6 +39,8 @@ def generate_force_field(
     force_field = ForceField(input_path, allow_cosmetic_attributes=True)
 
     remove_constraints(force_field)
+    
+    print_number_parameters(force_field)
 
     # Write out file
     force_field.to_file(output_path, discard_cosmetic_attributes=True)

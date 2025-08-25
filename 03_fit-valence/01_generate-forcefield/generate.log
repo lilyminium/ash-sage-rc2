@@ -1,0 +1,16 @@
+# Bonds: 90
+# Angles: 44
+# Torsions: 180
+Force field written to output/initial-force-field-v0.offxml
+# Bonds: 90
+# Angles: 44
+# Torsions: 259
+Force field written to output/initial-force-field-v1.offxml
+# Bonds: 102
+# Angles: 72
+# Torsions: 259
+Force field written to output/initial-force-field-v2.offxml
+# Bonds: 93
+# Angles: 55
+# Torsions: 259
+Force field written to output/initial-force-field-v3.offxml
