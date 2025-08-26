@@ -1,9 +1,12 @@
 import pathlib
+import sys
 
 import click
 import tqdm
 
 import pandas as pd
+
+from loguru import logger
 
 from openff.evaluator.client.client import RequestResult
 from openff.evaluator.datasets.datasets import PhysicalPropertyDataSet
@@ -11,6 +14,9 @@ from openff.toolkit import Molecule, ForceField
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+
+logger.remove()
+logger.add(sys.stdout)
 
 @click.command()
 @click.option(
@@ -103,6 +109,7 @@ def main(
     g.set_titles(col_template="{col_name}", row_template="{row_name}")
     plt.tight_layout()
     g.savefig(output_file, dpi=300)
+    logger.info(f"Saved figure to {output_file}")
 
 
 if __name__ == "__main__":

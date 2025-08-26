@@ -5,18 +5,19 @@ Note, the 15th iteration does not necessarily correspond to the final iteration 
 
 Output: images/iter_00-15.png
 """
-import logging
-import pathlib
+import sys
+
 import click
 import pandas as pd
 import numpy as np
 import seaborn as sns
+from loguru import logger
 from matplotlib import pyplot as plt
 
 from utils import get_limits
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+logger.remove()
+logger.add(sys.stdout)
 
 @click.command()
 @click.option(

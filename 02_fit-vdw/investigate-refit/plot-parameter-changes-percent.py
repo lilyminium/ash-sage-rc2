@@ -1,14 +1,15 @@
 import pathlib
-import logging
+import sys
 
+from loguru import logger
 from openff.toolkit import Molecule, ForceField, unit
 import pandas as pd
 import matplotlib.pyplot as plt
 
 import click
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+logger.remove()
+logger.add(sys.stdout)
 
 def plot_percent(df, col="% epsilon", xlabel="$\epsilon$, ", lim=(-20, 20)):
     fig, ax = plt.subplots(figsize=(7, 5))
@@ -27,10 +28,13 @@ def plot_percent(df, col="% epsilon", xlabel="$\epsilon$, ", lim=(-20, 20)):
         y = bar.get_y() + bar.get_height() / 2
         ha ='left' if width > 0 else 'right'
         
-        if abs(width) > 40:
-            x = -12
+        if abs(width) > lim[1]:
+            inc = (0.1 * (lim[1] - lim[0]))
+            x = lim[1] - inc
+            if width < 0:
+                x = lim[0] + inc
             ax.text(x, y, "//  ", va="center", ha=ha, fontsize=18)
-            y += bar.get_height()
+            y -= bar.get_height()
         ax.text(x, y, f'{width:.1f} %', va='center', ha=ha)
 
     # Formatting
@@ -109,13 +113,13 @@ def main(
     image_directory = pathlib.Path(image_directory)
     image_directory.mkdir(parents=True, exist_ok=True)
 
-    ax = plot_percent(df, col="% epsilon", xlabel="$\epsilon$", lim=(-20, 20))
+    ax = plot_percent(df, col="% epsilon", xlabel="$\epsilon$", lim=(-70, 70))
     imgfile = image_directory / "percent-changes-epsilon.png"
     plt.savefig(imgfile, dpi=300)
     logger.info(f"Saved epsilon percent changes plot to {imgfile}")
     plt.close()
 
-    ax = plot_percent(df, col="% rmin_half", xlabel="$r_{min}/2$", lim=(-5, 5))
+    ax = plot_percent(df, col="% rmin_half", xlabel="$r_{min}/2$", lim=(-10, 10))
     imgfile = image_directory / "percent-changes-rmin-half.png"
     plt.savefig(imgfile, dpi=300)
     logger.info(f"Saved rmin_half percent changes plot to {imgfile}")

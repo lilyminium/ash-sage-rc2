@@ -1,0 +1,6 @@
+2025-08-26 11:23:24.766 | INFO     | __main__:main:83 - Results saved to output/training-per-iteration.csv
+2025-08-26 11:23:26.800 | INFO     | __main__:main:96 - Saved figure to images/iter_00-15.png
+2025-08-26 11:23:33.553 | INFO     | __main__:main:112 - Saved figure to images/parameters-over-time.png
+2025-08-26 11:23:35.210 | INFO     | __main__:main:107 - Saved parameter changes to output/parameter-changes.csv
+2025-08-26 11:23:35.508 | INFO     | __main__:main:116 - Saved epsilon percent changes plot to images/percent-changes-epsilon.png
+2025-08-26 11:23:35.662 | INFO     | __main__:main:122 - Saved rmin_half percent changes plot to images/percent-changes-rmin-half.png
