@@ -1,0 +1,5 @@
+2025-08-25 21:56:37.605 | INFO     | __main__:main:53 - Using Evaluator version 0.1.0-beta.4+290.g6b3f829
+2025-08-25 21:58:43.531 | INFO     | __main__:main:58 - Loaded old dataset with 1134 properties.
+2025-08-25 21:58:43.532 | INFO     | __main__:main:59 - Loaded new dataset with 1054 properties.
+2025-08-25 21:58:43.741 | INFO     | __main__:main:74 - Found 122 matching properties by hash.
+2025-08-25 21:58:43.741 | INFO     | __main__:main:81 - Saved mapping to mappings/old-training-to-new-validation.json
