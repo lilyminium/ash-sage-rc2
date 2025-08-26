@@ -1,14 +1,27 @@
-from collections import defaultdict
+"""
+This script calculates modified seminario parameters for molecules
+using the Qubekit library. It reads a dataset of hessian calculations,
+calculates the parameters for each molecule, and saves the results in
+parquet files in a specified output directory. Results are saved in batches
+to save on compute resources and to allow for resuming in case of interruptions.
+
+The parquet schema includes:
+- id (int): The record ID of the result.
+- cmiles (str): The canonical SMILES of the molecule.
+- inchi_key (str): The InChI key of the molecule.
+- parameter_type (str): The type of the parameter (e.g., "Bonds", "Angles").
+- indices (list[int]): The indices of the atoms involved in the parameter.
+- eq (float): The equilibrium value of the parameter (e.g., bond length in nm, angle in radians).
+- force_constant (float): The force constant of the parameter (e.g., kJ/nm² for bonds, kJ/rad² for angles).
+"""
+
 import logging
-import os
-import json
 import pathlib
 import pickle
-import multiprocessing
 import typing
+import sys
 
 import click
-import numpy as np
 from openff.toolkit import Molecule
 from openff.units import unit
 
@@ -23,6 +36,13 @@ import tqdm
 # suppress stereochemistry warnings
 logging.getLogger("openff").setLevel(logging.ERROR)
 
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    stream=sys.stdout,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+)
+
 QCFRACTAL_URL = "https://api.qcarchive.molssi.org:443/"
 
 
@@ -30,16 +50,38 @@ if typing.TYPE_CHECKING:
     from openff.toolkit import Molecule, ForceField
     from qcportal.models import OptimizationRecord, ResultRecord
 
-from openff.qcsubmit.results import BasicResultCollection
+from openff.qcsubmit.results import BasicResultCollection, BasicResult
 
 def calculate_parameters_single(
-    basic_result,
+    basic_result: BasicResult,
     qc_record: "ResultRecord",
     molecule: "Molecule",
 ) -> typing.Dict[str, typing.Dict[str, typing.List[unit.Quantity]]]:
     """
     Calculate the modified seminario parameters for the given input molecule
-    and store them by OFF SMIRKS.
+    and store them by OpenFF SMIRKS. This uses Qubekit to do the heavy lifting.
+
+    Parameters
+    ----------
+    basic_result : BasicResult
+        The basic result containing the record ID and other metadata.
+    qc_record : ResultRecord
+        The QC record containing the molecule and other information.
+    molecule : Molecule
+        The OpenFF molecule object to calculate parameters for.
+    
+    Returns
+    -------
+    list[dict[str, typing.Any]]
+        A list of dictionaries containing the calculated bond and angle parameters.
+        Each dictionary contains:
+        - id (int): The record ID of the result.
+        - cmiles (str): The canonical SMILES of the molecule.
+        - inchi_key (str): The InChI key of the molecule.
+        - parameter_type (str): The type of the parameter (e.g., "Bonds", "Angles").
+        - indices (list[int]): The indices of the atoms involved in the parameter.
+        - eq (float): The equilibrium value of the parameter (e.g., bond length in nm, angle in radians).
+        - force_constant (float): The force constant of the parameter (e.g., kJ/nm² for bonds, kJ/rad² for angles).
     """
     from qubekit.molecules import Ligand
     from qubekit.bonded.mod_seminario import ModSeminario
@@ -54,7 +96,7 @@ def calculate_parameters_single(
     try:
         qube_mol = mod_sem.run(qube_mol)
     except Exception as e:
-        print(f"Failed to calculate parameters for {basic_result.record_id}: {e}")
+        logger.info(f"Failed to calculate parameters for {basic_result.record_id}: {e}")
         return []
 
     entries = []
@@ -102,7 +144,8 @@ def calculate_parameters_single(
     type=click.Path(exists=True, dir_okay=False),
     help=(
         "Path to the input dataset file. "
-        "This is a JSON file containing the hessian data."
+        "This is a JSON file containing the hessian data. "
+        "It should be a BasicResultCollection file."
     ),
 )
 @click.option(
@@ -120,19 +163,19 @@ def main(
     output_directory: str,
 ):
     hessian_set = BasicResultCollection.parse_file(input_dataset)
-    print(f"Found {hessian_set.n_results} hessian calculations")
-    print(f"Found {hessian_set.n_molecules} hessian molecules")
+    logger.info(f"Found {hessian_set.n_results} hessian calculations")
+    logger.info(f"Found {hessian_set.n_molecules} hessian molecules")
 
     output_directory = pathlib.Path(output_directory)
     output_directory.mkdir(parents=True, exist_ok=True)
 
-    # load existing data
+    # load existing data, if any, to avoid re-computing
     existing_data = ds.dataset(output_directory)
     n_files = 0
     if existing_data.count_rows():
         n_files = len(existing_data.files)
         found = set(existing_data.to_table(columns=["id"]).to_pydict()["id"])
-        print(f"Found {len(found)} existing records")
+        logger.info(f"Found {len(found)} existing records")
 
         filtered_entries = [
             entry
@@ -140,15 +183,14 @@ def main(
             if entry.record_id not in found
         ]
         hessian_set.entries[QCFRACTAL_URL] = filtered_entries
-        print(f"Filtered to {len(filtered_entries)} records")
+        logger.info(f"Filtered to {len(filtered_entries)} records")
 
+    # this can be a long process that may be interrupted,
+    # so we save an intermediate pickle of downloaded records and molecules
     if pathlib.Path("records_and_molecules.pkl").is_file():
-        # reload to save on time
-
         with open("records_and_molecules.pkl", "rb") as f:
             records_and_molecules = pickle.load(f)
     else:
-
         with portal_client_manager(
             lambda x: ptl.PortalClient(x, cache_dir="../02_curate-data")
         ):
@@ -157,7 +199,7 @@ def main(
         with open("records_and_molecules.pkl", "wb") as f:
             pickle.dump(records_and_molecules, f)
 
-    print(f"Loaded {len(records_and_molecules)} records and molecules")
+    logger.info(f"Loaded {len(records_and_molecules)} records and molecules")
 
     # filter for complete
     records_and_molecules = [
@@ -165,7 +207,7 @@ def main(
         for record, molecule in records_and_molecules
         if record.status.upper() == "COMPLETE"
     ]
-    print(f"Filtered to {len(records_and_molecules)} complete records and molecules")
+    logger.info(f"Filtered to {len(records_and_molecules)} complete records and molecules")
 
     # match cmiles to records and molecules
     id_to_entry = {
@@ -175,16 +217,11 @@ def main(
     entries_records_molecules = []
     for record, molecule in records_and_molecules:
         entry = id_to_entry[record.id]
-        # try:
-        #     molecule = Molecule.from_rdkit(molecule.to_rdkit(), allow_undefined_stereo=True)
-        # except Exception as e:
-        #     print(f"Failed to load molecule {record.id}: {e}")
-        #     continue
         entries_records_molecules.append((entry, record, molecule))
 
-    print(f"Working with {len(entries_records_molecules)} records and molecules")
+    logger.info(f"Working with {len(entries_records_molecules)} records and molecules")
 
-    # save it in batches
+    # calculate and save in batches in case of interruption
     batch_size = 1000
     n_total = len(entries_records_molecules)
     n_batches = n_total // batch_size + 1
@@ -205,7 +242,7 @@ def main(
 
         batch_file = output_directory / f"batch-{file_number:04d}.parquet"
         pq.write_table(table, batch_file)
-        print(f"Wrote {len(results)} results to {batch_file}")
+        logger.info(f"Wrote {len(results)} results to {batch_file}")
 
         file_number += 1
 
