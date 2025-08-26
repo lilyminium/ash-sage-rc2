@@ -350,7 +350,7 @@ def filter_for_exclude_smarts(
     return successful
 
 
-@click.command()
+@click.command(help=__doc__)
 @click.option(
     "--input-directory",
     "-i",
