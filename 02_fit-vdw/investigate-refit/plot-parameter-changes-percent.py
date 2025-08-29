@@ -1,3 +1,20 @@
+"""
+This script plots the percentage changes in epsilon and rmin_half vdW parameters between
+two force field files.
+
+It saves an output CSV for each parameterized parameter (marked by an `_parameterize` attribute).
+The CSV is saved in the output directory under the name `parameter-changes.csv`.
+It contains the columns `smirks`, `SMIRKS`, `initial_epsilon`, `final_epsilon`, `initial_rmin_half`, `final_rmin_half`, `% epsilon`, and `% rmin_half`.
+The difference between the `smirks` and `SMIRKS` columns is that the SMARTS specifying
+electronegative atoms (`'#7,#8,#9,#16,#17,#35'`) is replaced with the short-hand `ENA`
+for better visual rendering.
+
+Images are saved in the specified image directory under the names
+`percent-changes-epsilon.png` and `percent-changes-rmin_half.png`.
+Several attributes of the images (e.g. xlim) are hardcoded in the script
+and may need to be customized in future applications.
+"""
+
 import pathlib
 import sys
 
@@ -44,7 +61,7 @@ def plot_percent(df, col="% epsilon", xlabel="$\epsilon$, ", lim=(-20, 20)):
     return ax
 
 
-@click.command()
+@click.command(help=__doc__)
 @click.option(
     "--input-forcefield",
     "-if",
@@ -72,7 +89,6 @@ def plot_percent(df, col="% epsilon", xlabel="$\epsilon$, ", lim=(-20, 20)):
 def main(
     input_forcefield: str = "openff-2.2.1.offxml",
     output_forcefield: str = "../refit/result/optimize/force-field.offxml",
-    training_set: str = "../refit/targets/phys-prop/training-set.json",
     output_directory: str = "output",
     image_directory: str = "images",
 ):

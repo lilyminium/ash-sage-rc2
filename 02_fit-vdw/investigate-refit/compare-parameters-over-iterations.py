@@ -1,3 +1,11 @@
+"""
+Plot parameter values over fitting iterations.
+
+This takes as input the refitting directory and assumes it contains
+an `optimize.tmp` directory with the necessary files.
+It also assumes that the reference force field is in `forcefield/force-field.offxml`.
+"""
+
 import pathlib
 import sys
 
@@ -8,8 +16,6 @@ import pandas as pd
 
 from loguru import logger
 
-from openff.evaluator.client.client import RequestResult
-from openff.evaluator.datasets.datasets import PhysicalPropertyDataSet
 from openff.toolkit import Molecule, ForceField
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -18,7 +24,7 @@ import matplotlib.pyplot as plt
 logger.remove()
 logger.add(sys.stdout)
 
-@click.command()
+@click.command(help=__doc__)
 @click.option(
     "--input-path",
     "-i",

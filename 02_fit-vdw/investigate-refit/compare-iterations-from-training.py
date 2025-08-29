@@ -19,7 +19,7 @@ from utils import get_limits
 logger.remove()
 logger.add(sys.stdout)
 
-@click.command()
+@click.command(help=__doc__)
 @click.option(
     "--input-file",
     "-i",
