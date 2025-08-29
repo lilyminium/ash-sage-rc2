@@ -72,6 +72,7 @@ def plot_percent(df, col="% epsilon", xlabel="$\epsilon$, ", lim=(-20, 20)):
 def main(
     input_forcefield: str = "openff-2.2.1.offxml",
     output_forcefield: str = "../refit/result/optimize/force-field.offxml",
+    training_set: str = "../refit/targets/phys-prop/training-set.json",
     output_directory: str = "output",
     image_directory: str = "images",
 ):
