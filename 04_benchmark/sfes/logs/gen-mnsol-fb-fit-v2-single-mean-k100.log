@@ -1,0 +1,5 @@
+2025-08-26 16:51:39.953 | INFO     | __main__:main:284 - len(smcs)=120
+2025-08-26 16:51:45.245 | INFO     | __main__:main:290 - len(chemical_systems)=382
+2025-08-26 16:51:45.246 | INFO     | __main__:main:295 - Read forcefield from ../forcefields/fb-fit-v2-single-mean-k100.offxml
+2025-08-26 16:51:46.563 | INFO     | __main__:main:303 - len(transformations)=382
+2025-08-26 16:51:47.105 | INFO     | __main__:main:307 - Wrote alchemical network with 382 transformations to networks/mnsol-fb-fit-v2-single-mean-k100-network.json

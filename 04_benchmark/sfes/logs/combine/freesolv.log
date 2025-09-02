@@ -1,0 +1,4 @@
+2025-09-01 19:28:01.333 | INFO     | __main__:main:47 - Found 2 CSV files in results/freesolv
+2025-09-01 19:28:01.339 | INFO     | __main__:main:58 - Found 642 rows for reference method 'Experimental'
+2025-09-01 19:28:01.357 | INFO     | __main__:main:80 - Combined results for 1 unique methods: Sage 2.3.0rc1
+2025-09-01 19:28:01.359 | INFO     | __main__:main:85 - Combined results (n=87) saved to output/freesolv.csv

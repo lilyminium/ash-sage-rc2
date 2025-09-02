@@ -1,0 +1,46 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: lw-openff-alchemiscale-jobs
+  labels:
+    k8s-app: lw-openff-alchemiscale-jobs
+spec:
+  completions: 500
+  parallelism: 50
+  completionMode: "Indexed"
+  template:
+    metadata:
+      labels:
+        k8s-app: lw-openff-alchemiscale-jobs
+    spec:
+      restartPolicy: Never
+      containers:
+        - image: "ghcr.io/openfreeenergy/alchemiscale.org-root-compute:2025.08.26-0"
+          args: ["compute", "synchronous", "-c", "/mnt/settings/settings.yaml"]
+          name: alchemiscale-synchronous-pod
+          resources:
+            limits:
+              cpu: 2
+              memory: 18Gi
+              ephemeral-storage: 64Gi
+              nvidia.com/gpu: 1
+            requests:
+              cpu: 2
+              memory: 16Gi
+              ephemeral-storage: 64Gi
+              nvidia.com/gpu: 1
+          volumeMounts:
+            - name: openff-alchemiscale-settings-secret
+              mountPath: "/mnt/settings"
+              readOnly: true
+            - name: fscratch
+              mountPath: /fscratch
+          env:
+            - name: OPENMM_CPU_THREADS
+              value: "1"
+      volumes:
+        - name: openff-alchemiscale-settings-secret
+          secret:
+            secretName: openff-alchemiscale-settings-yaml
+        - name: fscratch
+          emptyDir: {}

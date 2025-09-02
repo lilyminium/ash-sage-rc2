@@ -1,0 +1,2 @@
+2025-08-26 16:51:35.688 | INFO     | __main__:main:192 - Read forcefield from ../forcefields/fb-fit-v2-single-mean-k100.offxml
+2025-08-26 16:51:36.336 | INFO     | __main__:main:207 - Wrote alchemical network with 87 transformations to networks/fsolv-fb-fit-v2-single-mean-k100-network.json
