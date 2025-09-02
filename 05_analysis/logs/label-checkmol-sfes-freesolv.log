@@ -1,0 +1,2 @@
+2025-09-02 18:38:07.209 | INFO     | __main__:main:79 - Found 88 unique smiles to label
+2025-09-02 18:38:07.947 | INFO     | __main__:main:103 - Wrote 229 rows to labels/checkmol/sfes-freesolv.parquet

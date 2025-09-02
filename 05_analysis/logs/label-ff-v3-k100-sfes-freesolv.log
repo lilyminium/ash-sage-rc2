@@ -1,0 +1,2 @@
+2025-09-02 18:38:12.916 | INFO     | __main__:main:102 - Found 88 unique smiles to label
+2025-09-02 18:38:14.228 | INFO     | __main__:main:129 - Wrote 1519 rows to labels/forcefields/v3-k100/sfes-freesolv.parquet

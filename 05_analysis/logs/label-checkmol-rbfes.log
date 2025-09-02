@@ -1,0 +1,2 @@
+2025-09-02 18:37:49.377 | INFO     | __main__:main:79 - Found 199 unique smiles to label
+2025-09-02 18:37:51.825 | INFO     | __main__:main:103 - Wrote 1990 rows to labels/checkmol/rbfes-jacs.parquet
