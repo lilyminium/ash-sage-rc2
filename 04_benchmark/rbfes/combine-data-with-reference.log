@@ -1,0 +1,12 @@
+2025-09-02 17:56:48.119 | INFO     | __main__:main:214 - Loaded 36 molecules from /Users/lily/pydev/IndustryBenchmarks2024/industry_benchmarks/input_structures/prepared_structures/jacs_set/bace/ligands.sdf
+2025-09-02 17:56:48.226 | INFO     | __main__:main:214 - Loaded 16 molecules from /Users/lily/pydev/IndustryBenchmarks2024/industry_benchmarks/input_structures/prepared_structures/jacs_set/cdk2/ligands.sdf
+2025-09-02 17:56:48.285 | INFO     | __main__:main:214 - Loaded 21 molecules from /Users/lily/pydev/IndustryBenchmarks2024/industry_benchmarks/input_structures/prepared_structures/jacs_set/jnk1/ligands.sdf
+2025-09-02 17:56:48.372 | INFO     | __main__:main:214 - Loaded 42 molecules from /Users/lily/pydev/IndustryBenchmarks2024/industry_benchmarks/input_structures/prepared_structures/jacs_set/mcl1/ligands.sdf
+2025-09-02 17:56:48.495 | INFO     | __main__:main:214 - Loaded 34 molecules from /Users/lily/pydev/IndustryBenchmarks2024/industry_benchmarks/input_structures/prepared_structures/jacs_set/p38/ligands.sdf
+2025-09-02 17:56:48.596 | INFO     | __main__:main:214 - Loaded 23 molecules from /Users/lily/pydev/IndustryBenchmarks2024/industry_benchmarks/input_structures/prepared_structures/jacs_set/ptp1b/ligands.sdf
+2025-09-02 17:56:48.661 | INFO     | __main__:main:214 - Loaded 11 molecules from /Users/lily/pydev/IndustryBenchmarks2024/industry_benchmarks/input_structures/prepared_structures/jacs_set/thrombin/ligands.sdf
+2025-09-02 17:56:48.702 | INFO     | __main__:main:214 - Loaded 16 molecules from /Users/lily/pydev/IndustryBenchmarks2024/industry_benchmarks/input_structures/prepared_structures/jacs_set/tyk2/ligands.sdf
+2025-09-02 17:56:49.474 | INFO     | __main__:main:316 - Found 8 unique systems: bace, cdk2, jnk1, mcl1, p38, ptp1b, thrombin, tyk2
+2025-09-02 17:56:49.474 | INFO     | __main__:main:322 - Found 12 unique force fields: GAFF 1.81, GAFF 2.11, Sage 1.2.1, Sage 2.0.0, Sage 2.2.1 + AshGC, Sage 2.2.1 + ELF10, Sage 2.2.1+AM1-BCC, Sage 2.3.0rc0 + AshGC, Sage 2.3.0rc0 + ELF10, Sage 2.3.0rc1 + AshGC, Sage 2.3.0rc1 + ELF10, openff-2.1.1
+2025-09-02 17:56:49.490 | INFO     | __main__:main:329 - Wrote 2188 dG values to output/dG.csv
+2025-09-02 17:56:49.531 | INFO     | __main__:main:334 - Wrote 3115 ddG values to output/ddG.csv
