@@ -1,7 +1,8 @@
 """
 Gather separately-calculated benchmarks into a single CSV with reference values.
+This script writes two files: `all-benchmarks.csv` and `summary-benchmarks.csv`.
 \b
-The output file contains the columns:
+The all-benchmarks.csv file contains the columns:
     - id (str): the physical property ID
     - index (int): the index of the property in the dataset
     - type (str): the type of the physical property
@@ -12,6 +13,18 @@ The output file contains the columns:
     - uncertainty (float): the uncertainty of the calculated value in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
     - reference_value (float): the reference value of the property in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
     - reference_uncertainty (float): the uncertainty of the reference value in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+
+\b
+The summary-benchmarks.csv file contains the columns:
+    - id (str): the physical property ID
+    - type (str): the type of the physical property
+    - substance (str): the substance the property was measured for
+    - forcefield (str): the name of the force field used
+    - mean (float): the mean value of the property in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - uncertainty (float): the standard deviation of the value in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - reference_value (float): the reference value of the property in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - reference_uncertainty (float): the uncertainty of the reference value in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - n_replicates (int): the number of replicates used to calculate the mean and uncertainty
 """
 
 import pathlib
@@ -84,12 +97,20 @@ def main(
         ref_uncertainty = reference_property.uncertainty.m
         index = json_file.stem.split("-")[-1]
         ff_name = json_file.parent.name
+
+        smiles_1 = physical_property.substance.components[0].smiles
+        if len(physical_property.substance.components) == 2:
+            smiles_2 = physical_property.substance.components[1].smiles
+        else:
+            smiles_2 = ""
         
         entry = {
             "id": physical_property.id,
             "index": int(index),
             "type": type(physical_property).__name__,
             "substance": repr(physical_property.substance),
+            "smiles_1": smiles_1,
+            "smiles_2": smiles_2,
             "forcefield": ff_name,
             "replicate": replicate,
             "value": value,
@@ -102,10 +123,25 @@ def main(
     df = pd.DataFrame(all_entries)
     output_directory = pathlib.Path(output_directory)
     output_directory.mkdir(parents=True, exist_ok=True)
-    csv_file = output_directory / "benchmarks.csv"
+    csv_file = output_directory / "all-benchmarks.csv"
     df.to_csv(csv_file)
     logger.info(f"Wrote {len(all_entries)} entries to {csv_file}")
 
+    # get mean and sd
+    mean_values = df.groupby("id").mean().reset_index()
+    sd_values = df.groupby("id").std().reset_index()
+    n_replicates = df.groupby("id").count().reset_index()[["id", "value"]]
+
+    # set 'uncertainty' column of mean_values to sd_values
+    assert mean_values["id"].equals(sd_values["id"])
+    mean_values["uncertainty"] = sd_values["value"]
+    mean_values["n_replicates"] = n_replicates["value"]
+    # drop the replicate column
+    mean_values = mean_values.drop(columns=["replicate"])
+
+    output_file = output_directory / "summary-benchmarks.csv"
+    mean_values.to_csv(output_file)
+    logger.info(f"Wrote {len(mean_values)} summary entries to {output_file}")
 
 if __name__ == "__main__":
     main()
