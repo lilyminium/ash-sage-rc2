@@ -65,7 +65,7 @@ def main(
     if input_path.is_dir():
         input_dataset = ds.dataset(input_path)
         input_df = input_dataset.to_table(
-            columns=smiles_columns
+            columns=sorted(smiles_columns)
         ).to_pandas()
     # else read in pandas csv
     elif input_path.is_file():
