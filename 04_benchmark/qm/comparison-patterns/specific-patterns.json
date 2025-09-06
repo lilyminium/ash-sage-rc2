@@ -1,0 +1,62 @@
+[
+    {
+        "pattern": "[*;r3:1]1~;@[*;r3:2]~;@[*;r3:3]~1",
+        "output_stem": "angles-r3-internal",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[r4:1]1-;@[r4:2]-;@[r4:3]~[*]~1",
+        "output_stem": "angles-r4-internal",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]!@[r4:2]1-;@[r4:3]-;@[r4]~[*]~1",
+        "output_stem": "angles-r4-external",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*;r5:1]1@[*;r5:2]@[*;r5:3]@[*;r5]@[*;r5]~1",
+        "output_stem": "angles-r5-internal",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]!@[*;r5:2]1@[*;r5:3]@[*;r5]@[*;r5]@[*;r5]~1",
+        "output_stem": "angles-r5-external",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]-[#8:2]-[*:3]",
+        "output_stem": "angles-a28-x-o-x",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X4:2](~[#8X1,#7X2])~[#8X1:3]",
+        "output_stem": "angles-a42-o-s-o",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#8X1:1]~[#6X3:2]~[#8:3]",
+        "output_stem": "angles-carboxylate-o-c-o",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#8X1:1]~[#6X3:2]~[#8:3]",
+        "output_stem": "angles-carboxylate-o-c-o",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#6X3:1]-[#7X3:2]",
+        "output_stem": "bonds-b8-c-n",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X4,#16X3:1]~[#7:2]",
+        "output_stem": "bonds-s-n",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]-[#7:2]",
+        "output_stem": "bonds-p-n",
+        "topology_group": "Bonds"
+    }
+]

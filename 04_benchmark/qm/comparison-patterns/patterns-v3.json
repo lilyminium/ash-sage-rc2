@@ -1,0 +1,2072 @@
+[
+    {
+        "pattern": "[#6X4:1]-[#6X4:2]",
+        "output_stem": "Bonds-b1",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X3:2]",
+        "output_stem": "Bonds-b2",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X3:2]=[#8X1+0]",
+        "output_stem": "Bonds-b3",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]-[#6X3:2]",
+        "output_stem": "Bonds-b4",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]:[#6X3:2]",
+        "output_stem": "Bonds-b5",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]=[#6X3:2]",
+        "output_stem": "Bonds-b6",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6:1]-[#7:2]",
+        "output_stem": "Bonds-b7",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]-[#7X3:2]",
+        "output_stem": "Bonds-b8",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]-[#7X3:2](~[#8X1])~[#8X1]",
+        "output_stem": "Bonds-b8a",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X4:1]-[#7X3:2]-[#6X3]=[#8X1+0]",
+        "output_stem": "Bonds-b9",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1](=[#8X1+0])-[#7X3:2]",
+        "output_stem": "Bonds-b10",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]-[#7X2:2]",
+        "output_stem": "Bonds-b11",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]:[#7X2,#7X3+1:2]",
+        "output_stem": "Bonds-b12",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]=[#7X2,#7X3+1:2]",
+        "output_stem": "Bonds-b13",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1](~!@[#7X3])(~!@[#7X3])~!@[#7X3:2]",
+        "output_stem": "Bonds-b13a",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6:1]-[#8:2]",
+        "output_stem": "Bonds-b14",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]-[#8X1-1:2]",
+        "output_stem": "Bonds-b15",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X4:1]-[#8X2H0:2]",
+        "output_stem": "Bonds-b16",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]-[#8X2:2]",
+        "output_stem": "Bonds-b17",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]-[#8X2H1:2]",
+        "output_stem": "Bonds-b18",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3a:1]-[#8X2H0:2]",
+        "output_stem": "Bonds-b19",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1](=[#8X1])-[#8X2H0:2]",
+        "output_stem": "Bonds-b20",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6:1]=[#8X1+0,#8X2+1:2]",
+        "output_stem": "Bonds-b21",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1](~[#8X1])~[#8X1:2]",
+        "output_stem": "Bonds-b22",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]~[#8X2+1:2]~[#6X3]",
+        "output_stem": "Bonds-b23",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X2:1]-[#6:2]",
+        "output_stem": "Bonds-b24",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X2:1]-[#6X4:2]",
+        "output_stem": "Bonds-b25",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X2:1]=[#6X3:2]",
+        "output_stem": "Bonds-b26",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6:1]#[#7:2]",
+        "output_stem": "Bonds-b27",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X2:1]#[#6X2:2]",
+        "output_stem": "Bonds-b28",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X2:1]-[#8X2:2]",
+        "output_stem": "Bonds-b29",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X2:1]-[#7:2]",
+        "output_stem": "Bonds-b30",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X2:1]=[#7:2]",
+        "output_stem": "Bonds-b31",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16:1]=[#6:2]",
+        "output_stem": "Bonds-b32",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X2:1]=[#16:2]",
+        "output_stem": "Bonds-b33",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]-[#7:2]",
+        "output_stem": "Bonds-b34",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7X3:1]-[#7X2:2]",
+        "output_stem": "Bonds-b35",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7X2:1]-[#7X2:2]",
+        "output_stem": "Bonds-b36",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]:[#7:2]",
+        "output_stem": "Bonds-b37",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]=[#7:2]",
+        "output_stem": "Bonds-b38",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7+1:1]=[#7-1:2]",
+        "output_stem": "Bonds-b39",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]#[#7:2]",
+        "output_stem": "Bonds-b40",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]-[#8X2:2]",
+        "output_stem": "Bonds-b41",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]~[#8X1:2]",
+        "output_stem": "Bonds-b42",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#8X2:1]-[#8X2,#8X1-1:2]",
+        "output_stem": "Bonds-b43",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16:1]-[#6:2]",
+        "output_stem": "Bonds-b44",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16:1]-[#1:2]",
+        "output_stem": "Bonds-b45",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16:1]-[#16:2]",
+        "output_stem": "Bonds-b46",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16:1]-[#9:2]",
+        "output_stem": "Bonds-b47",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16:1]-[#17:2]",
+        "output_stem": "Bonds-b48",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16:1]-[#35:2]",
+        "output_stem": "Bonds-b49",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16:1]-[#53:2]",
+        "output_stem": "Bonds-b50",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X2,#16X1-1,#16X3+1:1]-[#6X4:2]",
+        "output_stem": "Bonds-b51",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]",
+        "output_stem": "Bonds-b52",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X2,#16X1-1:1]-[#7:2]",
+        "output_stem": "Bonds-b53",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X2:1]-[#8X2:2]",
+        "output_stem": "Bonds-b54",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X2:1]=[#8X1,#7X2:2]",
+        "output_stem": "Bonds-b55",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X4,#16X3!+1:1]-[#6:2]",
+        "output_stem": "Bonds-b56",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X4,#16X3:1]~[#7:2]",
+        "output_stem": "Bonds-b57",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X4,#16X3:1]~[#7+1:2]",
+        "output_stem": "Bonds-b57b",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X4,#16X3:1]~[#7X2:2]",
+        "output_stem": "Bonds-b57a",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X4,#16X3:1]-[#8X2:2]",
+        "output_stem": "Bonds-b58",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16X4,#16X3:1]~[#8X1:2]",
+        "output_stem": "Bonds-b59",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]-[#1:2]",
+        "output_stem": "Bonds-b60",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]~[#6:2]",
+        "output_stem": "Bonds-b61",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]-[#7:2]",
+        "output_stem": "Bonds-b62",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7,#8]-[#15X4:1]-[#7:2]",
+        "output_stem": "Bonds-b62a",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]=[#7:2]",
+        "output_stem": "Bonds-b63",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]~[#8X2:2]",
+        "output_stem": "Bonds-b64",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]~[#8X1:2]",
+        "output_stem": "Bonds-b65",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#16:1]-[#15:2]",
+        "output_stem": "Bonds-b66",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]=[#16X1:2]",
+        "output_stem": "Bonds-b67",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6:1]-[#9:2]",
+        "output_stem": "Bonds-b68",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X4:1]-[#9:2]",
+        "output_stem": "Bonds-b69",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6:1]-[#17:2]",
+        "output_stem": "Bonds-b70",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X4:1]-[#17:2]",
+        "output_stem": "Bonds-b71",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6:1]-[#35:2]",
+        "output_stem": "Bonds-b72",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X4:1]-[#35:2]",
+        "output_stem": "Bonds-b73",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6:1]-[#53:2]",
+        "output_stem": "Bonds-b74",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X4:1]-[#53:2]",
+        "output_stem": "Bonds-b75",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]-[#9:2]",
+        "output_stem": "Bonds-b76",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]-[#17:2]",
+        "output_stem": "Bonds-b77",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]-[#35:2]",
+        "output_stem": "Bonds-b78",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]-[#53:2]",
+        "output_stem": "Bonds-b79",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]-[#9:2]",
+        "output_stem": "Bonds-b80",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]-[#17:2]",
+        "output_stem": "Bonds-b81",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]-[#35:2]",
+        "output_stem": "Bonds-b82",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#15:1]-[#53:2]",
+        "output_stem": "Bonds-b83",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X4:1]-[#1:2]",
+        "output_stem": "Bonds-b84",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X3:1]-[#1:2]",
+        "output_stem": "Bonds-b85",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#6X2:1]-[#1:2]",
+        "output_stem": "Bonds-b86",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#7:1]-[#1:2]",
+        "output_stem": "Bonds-b87",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[#8:1]-[#1:2]",
+        "output_stem": "Bonds-b88",
+        "topology_group": "Bonds"
+    },
+    {
+        "pattern": "[*:1]~[#6X4:2]-[*:3]",
+        "output_stem": "Angles-a1",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#15:1]~[#6X4:2]-[#15:3]",
+        "output_stem": "Angles-a1a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#1:3]",
+        "output_stem": "Angles-a2",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2]~[*:3]",
+        "output_stem": "Angles-a10",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2](=[#8])-[#8X2:3]",
+        "output_stem": "Angles-a10a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#1:1]-[#6X3:2]~[*:3]",
+        "output_stem": "Angles-a11",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#1:1]-[#6X3:2](=[#8])-[#7:3]",
+        "output_stem": "Angles-a11a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#1:1]-[#6X3:2]-[#1:3]",
+        "output_stem": "Angles-a12",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*;r6:1]~;@[*;r5;x4,*;r5;X4:2]~;@[*;r5;x2:3]",
+        "output_stem": "Angles-a13a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~;!@[*;X3;r5:2]~;@[*;r5:3]",
+        "output_stem": "Angles-a14",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#8X1:1]~[#6X3:2]~[#8:3]",
+        "output_stem": "Angles-a15",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#8X1:1]~[#6X3:2]~[#8X1:3]",
+        "output_stem": "Angles-a15a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#6X2:2]~[*:3]",
+        "output_stem": "Angles-a16",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#7X2:2]~[*:3]",
+        "output_stem": "Angles-a17",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#7X4,#7X3,#7X2-1:2]~[*:3]",
+        "output_stem": "Angles-a18",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#7X2-1:2]~[*:3]",
+        "output_stem": "Angles-a18b",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#1:1]-[#7X4,#7X3,#7X2-1:2]-[*:3]",
+        "output_stem": "Angles-a19",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]~[*:3]",
+        "output_stem": "Angles-a20",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#1:1]-[#7X3$(*~[#6X3,#6X2,#7X2+0]):2]-[*:3]",
+        "output_stem": "Angles-a21",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#7X2+0:2]~[*:3]",
+        "output_stem": "Angles-a22",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#7X2+0:2]~[#6X2:3](~[#16X1])",
+        "output_stem": "Angles-a23",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#1:1]-[#7X2+0:2]~[*:3]",
+        "output_stem": "Angles-a24",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#1:1]-[#7X2:2]~[#16X4:3]",
+        "output_stem": "Angles-a24a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#6,#7,#8:1]-[#7X3:2](~[#8X1])~[#8X1:3]",
+        "output_stem": "Angles-a25",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#8X1:1]~[#7X3:2]~[#8X1:3]",
+        "output_stem": "Angles-a26",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#7X2:2]~[#7X1:3]",
+        "output_stem": "Angles-a27",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]-[#8:2]-[*:3]",
+        "output_stem": "Angles-a28",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#1:1]-[#8:2]-[*:3]",
+        "output_stem": "Angles-a28a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#6X3,#7:1]~;@[#8;r:2]~;@[#6X3,#7:3]",
+        "output_stem": "Angles-a29",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]-[#8X2+1:2]=[*:3]",
+        "output_stem": "Angles-a30",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#16X4:2]~[*:3]",
+        "output_stem": "Angles-a31",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]-[#16X4,#16X3+0:2]~[*:3]",
+        "output_stem": "Angles-a32",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X4:2](~[#8X1,#7X2])~[#8X1:3]",
+        "output_stem": "Angles-a42",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#16X3$(*~[#8X1,#7X2]):2]~[*:3]",
+        "output_stem": "Angles-a33",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#16X3:2](~[#8X1,#7X2])~[*:3]",
+        "output_stem": "Angles-a33a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#16X2,#16X3+1:2]~[*:3]",
+        "output_stem": "Angles-a34",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]=[#16X2:2]=[*:3]",
+        "output_stem": "Angles-a35",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]=[#16X2:2]=[#8:3]",
+        "output_stem": "Angles-a36",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X2:2]-[#6X3:3]",
+        "output_stem": "Angles-a37",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X2:2]-[#6X4:3]",
+        "output_stem": "Angles-a38",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X2:2]-[#1:3]",
+        "output_stem": "Angles-a39",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~[#15:2]~[*:3]",
+        "output_stem": "Angles-a40",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*;r5:1]1@[*;r5:2]@[*;r5:3]@[*;r5]@[*;r5]~1",
+        "output_stem": "Angles-a41",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*;r5:1]1@[#16;r5:2]@[*;r5:3]@[*;r5]@[*;r5]~1",
+        "output_stem": "Angles-a41a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#6r4:1]1-;@[#6r4:2]-;@[#6r4:3]~[*]~1",
+        "output_stem": "Angles-a7",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[!#1:1]-[#6r4:2]-;!@[!#1:3]",
+        "output_stem": "Angles-a8",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[!#1:1]-[#6r4:2]-;!@[#1:3]",
+        "output_stem": "Angles-a9",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]@-[r5;#7X4,#7X3,#7X2-1:2]@-[*:3]",
+        "output_stem": "Angles-a18a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*;r6:1]~;@[*;r5:2]~;@[*;r5;x2:3]",
+        "output_stem": "Angles-a13",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*;r3:1]1~;@[*;r3:2]~;@[*;r3:3]~1",
+        "output_stem": "Angles-a3",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*;r3:1]~;@[*;r3:2]~;!@[*:3]",
+        "output_stem": "Angles-a4",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]~;!@[*;r3:2]~;!@[*:3]",
+        "output_stem": "Angles-a5",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[#1:1]-[*;r3:2]~;!@[*:3]",
+        "output_stem": "Angles-a6",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*;r3:1]~;@[#6X3;r3:2]~;!@[*:3]",
+        "output_stem": "Angles-a4a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[r4:1]1-;@[r4:2]-;@[r4:3]~[*]~1",
+        "output_stem": "Angles-a7a",
+        "topology_group": "Angles"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#6X4:3]-[*:4]",
+        "output_stem": "ProperTorsions-t1",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t2",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#6X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t3",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#6X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t4",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X2:1]-[#6X4:2]-[#6X4:3]-[#8X2:4]",
+        "output_stem": "ProperTorsions-t5",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#9:1]-[#6X4:2]-[#6X4:3]-[#9:4]",
+        "output_stem": "ProperTorsions-t6",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#17:1]-[#6X4:2]-[#6X4:3]-[#17:4]",
+        "output_stem": "ProperTorsions-t7",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#35:1]-[#6X4:2]-[#6X4:3]-[#35:4]",
+        "output_stem": "ProperTorsions-t8",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#6X4:3]-[#8X2:4]",
+        "output_stem": "ProperTorsions-t9",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#6X4:3]-[#9:4]",
+        "output_stem": "ProperTorsions-t10",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#6X4:3]-[#17:4]",
+        "output_stem": "ProperTorsions-t11",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#6X4:3]-[#35:4]",
+        "output_stem": "ProperTorsions-t12",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#6X4;r3:3]-[*:4]",
+        "output_stem": "ProperTorsions-t13",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#6X4;r3:3]-[#6X4;r3:4]",
+        "output_stem": "ProperTorsions-t14",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4;r3:2]-@[#6X4;r3:3]-[*:4]",
+        "output_stem": "ProperTorsions-t15",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-[#6X4;r3:2]-[#6X4;r3:3]-[*:4]",
+        "output_stem": "ProperTorsions-t16",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2]-[#6X4:3]-[*:4]",
+        "output_stem": "ProperTorsions-t17",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[aR:1]~[#6X3aR:2]-[#6X4:3]-[*:4]",
+        "output_stem": "ProperTorsions-t17a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#6X3:3]=[*:4]",
+        "output_stem": "ProperTorsions-t18",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#6X3:3](~[#8X1])~[#8X1:4]",
+        "output_stem": "ProperTorsions-t18a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#6X3:3](~!@[#7X3])~!@[#7X3:4]",
+        "output_stem": "ProperTorsions-t18b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#6X3:3]=[#8X1:4]",
+        "output_stem": "ProperTorsions-t19",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#6X3:3](~[#8X1])~[#8X1:4]",
+        "output_stem": "ProperTorsions-t19a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]",
+        "output_stem": "ProperTorsions-t20",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#6X4:2]-[#6X3:3]=[#6X3:4]",
+        "output_stem": "ProperTorsions-t21",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#7X3:1]-[#6X4:2]-[#6X3:3]-[#7X3:4]",
+        "output_stem": "ProperTorsions-t22",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X4:2]-[#6X3:3]-[#7X3:4]",
+        "output_stem": "ProperTorsions-t23",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]-[#6X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t24",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]-[#6X4:3]-[#7X4,#7X3:4]",
+        "output_stem": "ProperTorsions-t25",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#16X2,#16X1-1,#16X3+1:1]-[#6X3:2]-[#6X4:3]-[#7X3$(*-[#6X3,#6X2]):4]",
+        "output_stem": "ProperTorsions-t26",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4;r3:2]-[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t27",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X4;r3:2]-[#6X3:3]~[#6X3:4]",
+        "output_stem": "ProperTorsions-t28",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4;r3:2]-[#6X3:3]~[#6X3:4]",
+        "output_stem": "ProperTorsions-t29",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#6X4;r3:2]-[#6X3:3]-[#7X3:4]",
+        "output_stem": "ProperTorsions-t30",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#6X4;r3:2]-[#6X3:3]=[#8X1:4]",
+        "output_stem": "ProperTorsions-t31",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#6X4;r3:2]-[#6X3:3](~[#8X1])~[#8X1:4]",
+        "output_stem": "ProperTorsions-t31a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#6X4;r3:2]-[#6X3:3]~[#6X3:4]",
+        "output_stem": "ProperTorsions-t32",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#7X3:1]-[#6X4;r3:2]-[#6X3:3]~[#6X3:4]",
+        "output_stem": "ProperTorsions-t33",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3]~[#6X3:4]",
+        "output_stem": "ProperTorsions-t34",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3;r6:3]:[#6X3;r6:4]",
+        "output_stem": "ProperTorsions-t35",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3;r5:3]-;@[#6X3;r5:4]",
+        "output_stem": "ProperTorsions-t36",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3;r5:3]=;@[#6X3;r5:4]",
+        "output_stem": "ProperTorsions-t37",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t38",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3;r6:3]:[#7X2;r6:4]",
+        "output_stem": "ProperTorsions-t39",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3]=[#7X2:4]",
+        "output_stem": "ProperTorsions-t40",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3]-[#8X2:4]",
+        "output_stem": "ProperTorsions-t41",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3]=[#8X1:4]",
+        "output_stem": "ProperTorsions-t42",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4;r3:1]-;@[#6X4;r3:2]-[#6X3:3](~[#8X1])~[#8X1:4]",
+        "output_stem": "ProperTorsions-t42a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2]-[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t43",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3aR:2]-[#6X3aR:3]~[*:4]",
+        "output_stem": "ProperTorsions-t43a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2]:[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t44",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-,:[#6X3:2]=[#6X3:3]-,:[*:4]",
+        "output_stem": "ProperTorsions-t45",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X3:2]=[#6X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t46",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2]-[#6X3$(*=[#8,#16,#7]):3]~[*:4]",
+        "output_stem": "ProperTorsions-t47",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]~[#6X3:2]-[#6X3$(*=[#8,#16,#7]):3]~[*:4]",
+        "output_stem": "ProperTorsions-t47a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]=[#6X3:2]-[#6X3:3]=[#8X1:4]",
+        "output_stem": "ProperTorsions-t48",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]=[#6X3:2]-[#6X3:3](~[#8X1])~[#8X1:4]",
+        "output_stem": "ProperTorsions-t48a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7a:2]:[#6a:3]~[*:4]",
+        "output_stem": "ProperTorsions-t49",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#7X4:3]-[*:4]",
+        "output_stem": "ProperTorsions-t50",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X4:2]-[#7X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t51",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#7X3:3]-[#7X2:4]=[#6]",
+        "output_stem": "ProperTorsions-t52",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#7X3:3]-[#7X2:4]=[#6]",
+        "output_stem": "ProperTorsions-t53",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#7X3:3]-[#7X2:4]=[#7X2,#8X1]",
+        "output_stem": "ProperTorsions-t54",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#7X3:3]-[#7X2:4]=[#7X2,#8X1]",
+        "output_stem": "ProperTorsions-t55",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):3]-[*:4]",
+        "output_stem": "ProperTorsions-t56",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#6X4:2]-[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):3]-[*:4]",
+        "output_stem": "ProperTorsions-t57",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X4:2]-[#7X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t58",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X4:2]-[#7X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t58a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#7X4:2]-[#6X4;r3:3]-[*:4]",
+        "output_stem": "ProperTorsions-t59",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#7X3:2]-[#6X4;r3:3]-[*:4]",
+        "output_stem": "ProperTorsions-t59a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#7X4:2]-[#6X4;r3:3]-[#6X4;r3:4]",
+        "output_stem": "ProperTorsions-t60",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#7X3:2]-[#6X4;r3:3]-[#6X4;r3:4]",
+        "output_stem": "ProperTorsions-t60a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[!#1:1]-[#7X4:2]-[#6X4;r3:3]-[*:4]",
+        "output_stem": "ProperTorsions-t61",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[!#1:1]-[#7X3:2]-[#6X4;r3:3]-[*:4]",
+        "output_stem": "ProperTorsions-t61a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[!#1:1]-[#7X4:2]-[#6X4;r3:3]-[#6X4;r3:4]",
+        "output_stem": "ProperTorsions-t62",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[!#1:1]-[#7X3:2]-[#6X4;r3:3]-[#6X4;r3:4]",
+        "output_stem": "ProperTorsions-t62a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X4:2]-[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t63",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]",
+        "output_stem": "ProperTorsions-t64",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#7X3:3](~[#8X1])~[#8X1:4]",
+        "output_stem": "ProperTorsions-t65",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#7X3:2]-[#6X4:3]-[#6X3:4]",
+        "output_stem": "ProperTorsions-t66",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X4:2]-[#7X3:3]-[#6X3:4]=[#8,#16,#7]",
+        "output_stem": "ProperTorsions-t67",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X2H0:1]-[#6X4:2]-[#7X3:3]-[#6X3:4]",
+        "output_stem": "ProperTorsions-t68",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#7X3:2]-[#6X4;r3:3]-[#6X4;r3:4]",
+        "output_stem": "ProperTorsions-t69",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X2:2]-[#6X4:3]-[*:4]",
+        "output_stem": "ProperTorsions-t70",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]=[#7X2:2]-[#6X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t71",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]=[#7X3+1:2]-[#6X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t71a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]=[#7X2:2]-[#6X4:3]-[#6X3,#6X4:4]",
+        "output_stem": "ProperTorsions-t72",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]=[#7X3+1:2]-[#6X4:3]-[#6X3,#6X4:4]",
+        "output_stem": "ProperTorsions-t72a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X3:2]-[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t73",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X2-1:2]-[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t73a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X3:2]-!@[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t74",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X2-1:2]-!@[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t74a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X3:2]-[#6X3$(*=[#8,#16,#7]):3]~[*:4]",
+        "output_stem": "ProperTorsions-t75",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#7X3:2]-[#6X3:3]=[#8,#16,#7:4]",
+        "output_stem": "ProperTorsions-t76",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X3:2]-!@[#6X3:3](=[#8,#16,#7:4])-[#6,#1]",
+        "output_stem": "ProperTorsions-t77",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#7X3:2]-!@[#6X3:3](=[#8,#16,#7:4])-[#6,#1]",
+        "output_stem": "ProperTorsions-t78",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X3:2]-!@[#6X3:3](=[#8,#16,#7:4])-[#7X3]",
+        "output_stem": "ProperTorsions-t79",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X3;r5:2]-@[#6X3;r5:3]~[*:4]",
+        "output_stem": "ProperTorsions-t80",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#7X3:2]~[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t81",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]=[#7X2:2]-[#6X3:3]-[*:4]",
+        "output_stem": "ProperTorsions-t82",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]=[#7X3+1:2]-[#6X3:3]-[*:4]",
+        "output_stem": "ProperTorsions-t82b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X3:2]-[#7X3:3](~[#8X1])~[#8X1:4]",
+        "output_stem": "ProperTorsions-t82a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]=[#7X2:2]-[#6X3:3]=,:[*:4]",
+        "output_stem": "ProperTorsions-t83",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]=[#7X3+1:2]-[#6X3:3]=,:[*:4]",
+        "output_stem": "ProperTorsions-t83b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]=,:[#6X3:2]-[#7X3:3](~[#8X1])~[#8X1:4]",
+        "output_stem": "ProperTorsions-t83a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X2:2]:[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t84",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X3$(*~[#8X1]):2]:[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t84b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]:[#7X2:2]:[#6X3:3]:[#6X3:4]",
+        "output_stem": "ProperTorsions-t85",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-,:[#6X3:2]=[#7X2:3]-[*:4]",
+        "output_stem": "ProperTorsions-t86",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X3+1:2]=,:[#6X3:3]-,:[*:4]",
+        "output_stem": "ProperTorsions-t87",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X3:2]~!@[#6X3:3](~!@[#7X3])~!@[#7X3:4]",
+        "output_stem": "ProperTorsions-t87a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#16X4,#16X3+0:1]-[#7X2:2]=[#6X3:3]-[#7X3:4]",
+        "output_stem": "ProperTorsions-t88",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#16X4,#16X3+0:1]-[#7X2:2]=[#6X3:3]-[#16X2,#16X3+1:4]",
+        "output_stem": "ProperTorsions-t89",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#7X2:1]~[#7X2:2]-[#6X3:3]~[#6X3:4]",
+        "output_stem": "ProperTorsions-t90",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#7X2:1]~[#7X2:2]-[#6X4:3]-[#6X3:4]",
+        "output_stem": "ProperTorsions-t91",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#7X2:1]~[#7X2:2]-[#6X4:3]~[#1:4]",
+        "output_stem": "ProperTorsions-t92",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#8X2:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t93",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X4:2]-[#8X2H1:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t94",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#6X4:2]-[#8X2H0:3]-[*:4]",
+        "output_stem": "ProperTorsions-t95",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X4:2]-[#8X2H0:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t96",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#6X4:2]-[#8X2:3]-[#6X3:4]",
+        "output_stem": "ProperTorsions-t97",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#8X2:2]-[#6X4:3]-[#8X2:4]",
+        "output_stem": "ProperTorsions-t98",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#8X2:2]-[#6X4:3]-[#7X3:4]",
+        "output_stem": "ProperTorsions-t99",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#8X2:2]-[#6X4;r3:3]-@[#6X4;r3:4]",
+        "output_stem": "ProperTorsions-t100",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#8X2:2]-[#6X4;r3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t101",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#8X2:2]-[#6X4;r3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t102",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#8X2:2]-[#6X4;r3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t103",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#8X2:2]-[#6X4;r3:3]-[#6X4;r3:4]",
+        "output_stem": "ProperTorsions-t104",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2]-[#8X2:3]-[*:4]",
+        "output_stem": "ProperTorsions-t105",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2]-[#8X2:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t106",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2](=[#8,#16,#7])-[#8X2H0:3]-[*:4]",
+        "output_stem": "ProperTorsions-t107",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2](=[#8,#16,#7])-[#8:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t108",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#8X2:2]-[#6X3:3]=[#8X1:4]",
+        "output_stem": "ProperTorsions-t109",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8,#16,#7:1]=[#6X3:2]-[#8X2H0:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t110",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#8X2:2]@[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t111",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#8X2+1:2]=[#6X3:3]-[*:4]",
+        "output_stem": "ProperTorsions-t112",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]=[#8X2+1:2]-[#6:3]~[*:4]",
+        "output_stem": "ProperTorsions-t113",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16:2]=,:[#6:3]~[*:4]",
+        "output_stem": "ProperTorsions-t114",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X2:2]-[#6:3]~[*:4]",
+        "output_stem": "ProperTorsions-t115",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X3+1:2]-[#6:3]~[*:4]",
+        "output_stem": "ProperTorsions-t115a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X2:2]-[#6:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t116",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X3+1:2]-[#6:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t116a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-@[#16X3+1:2]-@[#7X2;r5:3]=@[#6,#7;r5:4]",
+        "output_stem": "ProperTorsions-t117",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-@[#16X2:2]-@[#6X3;r5:3]=@[#6,#7;r5:4]",
+        "output_stem": "ProperTorsions-t117a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-@[#16X1-1:2]-@[#6X3;r5:3]=@[#6,#7;r5:4]",
+        "output_stem": "ProperTorsions-t117b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-@[#16X3+1:2]-@[#6X3;r5:3]=@[#6,#7;r5:4]",
+        "output_stem": "ProperTorsions-t117c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-@[#16X2:2]-@[#7X2;r5:3]=@[#6,#7;r5:4]",
+        "output_stem": "ProperTorsions-t117d",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-@[#16X1-1:2]-@[#7X2;r5:3]=@[#6,#7;r5:4]",
+        "output_stem": "ProperTorsions-t117e",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X4:2]-[#6X4:3]-[*:4]",
+        "output_stem": "ProperTorsions-t118",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X3!+1:2]-[#6X4:3]-[*:4]",
+        "output_stem": "ProperTorsions-t118a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X4:2]-[#6X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t119",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X3+0:2]-[#6X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t119a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X4:2]-[#6X4:3]~[#6X4:4]",
+        "output_stem": "ProperTorsions-t120",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X3+0:2]-[#6X4:3]~[#6X4:4]",
+        "output_stem": "ProperTorsions-t120a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X4:2]-[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t121",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X3+0:2]-[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t121a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6:1]-[#16X4:2]-[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t122",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6:1]-[#16X3+0:2]-[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t122a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#15:2]-[#6X4:3]-[*:4]",
+        "output_stem": "ProperTorsions-t123a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#15:2]-[#6X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t124",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#8:2]-[#8:3]-[*:4]",
+        "output_stem": "ProperTorsions-t125",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#8:2]-[#8H1:3]-[*:4]",
+        "output_stem": "ProperTorsions-t126",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#8X2:2]-[#7:3]~[*:4]",
+        "output_stem": "ProperTorsions-t127",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#8X2r5:2]-;@[#7X3r5:3]~[*:4]",
+        "output_stem": "ProperTorsions-t128",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#8X2r5:2]-;@[#7X2r5:3]~[*:4]",
+        "output_stem": "ProperTorsions-t129",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X4:2]-[#7X4:3]~[*:4]",
+        "output_stem": "ProperTorsions-t130",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X3:2]-[#7X4:3]~[*:4]",
+        "output_stem": "ProperTorsions-t130a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X3:2]-[#7X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t130b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X4:2]-[#7X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t130c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#7X4:2]-[#7X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t131",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#7X3:2]-[#7X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t131a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#7X3:2]-[#7X3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t131b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#1:1]-[#7X4:2]-[#7X3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t131c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#7X4:2]-[#7X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t132",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#7X3:2]-[#7X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t132a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#7X3:2]-[#7X3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t132b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#7X4:2]-[#7X3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t132c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#7X4:2]-[#7X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t133",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#7X3:2]-[#7X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t133a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#7X3:2]-[#7X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t133b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#7X4:2]-[#7X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t133c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X4:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]",
+        "output_stem": "ProperTorsions-t134",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X3:2]-[#7X3$(*~[#6X3,#6X2]):3]~[*:4]",
+        "output_stem": "ProperTorsions-t134a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X3$(*-[#6X3,#6X2]):2]-[#7X3$(*-[#6X3,#6X2]):3]-[*:4]",
+        "output_stem": "ProperTorsions-t135",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7X3$(*-[#6X3,#6X2])r5:2]-@[#7X3$(*-[#6X3,#6X2])r5:3]~[*:4]",
+        "output_stem": "ProperTorsions-t136",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]@[#7X2:2]@[#7X2:3]@[#7X2,#6X3:4]",
+        "output_stem": "ProperTorsions-t137",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X2:2]-[#7X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t138",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X2:2]-[#7X4:3]~[*:4]",
+        "output_stem": "ProperTorsions-t138a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]=[#7X2:2]-[#7X2:3]=[*:4]",
+        "output_stem": "ProperTorsions-t139",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X2:2]=,:[#7X2:3]~[*:4]",
+        "output_stem": "ProperTorsions-t140",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X3+1:2]=,:[#7X2:3]~[*:4]",
+        "output_stem": "ProperTorsions-t141",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7x3:2]-[#7x3,#6x3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t141a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7x2:2]-[#7x3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t141b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6x3:2](~[#7,#8,#16])-[#6x3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t141c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X2:2]-[!#6;X2:3]~[*:4]",
+        "output_stem": "ProperTorsions-t142",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X3+1:2]-[!#6;X2:3]~[*:4]",
+        "output_stem": "ProperTorsions-t142a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X2:2]-[!#6;X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t142b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X3+1:2]-[!#6;X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t142c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X2:2]-[!#6;X4:3]~[*:4]",
+        "output_stem": "ProperTorsions-t142d",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X3+1:2]-[!#6;X4:3]~[*:4]",
+        "output_stem": "ProperTorsions-t142e",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X4:2]-[#7X2:3]~[*:4]",
+        "output_stem": "ProperTorsions-t143",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X3+0:2]-[#7X2:3]~[*:4]",
+        "output_stem": "ProperTorsions-t143a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X4:2]-[#7X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t143b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X3+0:2]-[#7X3:3]~[*:4]",
+        "output_stem": "ProperTorsions-t143c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X4:2]-[#7X4:3]~[*:4]",
+        "output_stem": "ProperTorsions-t143d",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X3+0:2]-[#7X4:3]~[*:4]",
+        "output_stem": "ProperTorsions-t143e",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X4:2]-[#7X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t144",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X3+0:2]-[#7X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t144a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X4:2]-[#7X3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t144b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X3+0:2]-[#7X3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t144c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X4:2]-[#7X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t145",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X3+0:2]-[#7X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t145a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X4:2]-[#7X3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t145b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X3+0:2]-[#7X3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t145c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X4:2]-[#7X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t146",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X3+0:2]-[#7X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t146a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X4:2]-[#7X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t146b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X3+0:2]-[#7X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t146c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X4:2]-[#7X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t147",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X3+0:2]-[#7X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t147a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X4:2]-[#7X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t147b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X3+0:2]-[#7X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t147c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X4:2]-[#7X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t148",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X3+0:2]-[#7X4:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t148a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X4:2]-[#7X3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t148b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X3+0:2]-[#7X3:3]-[#1:4]",
+        "output_stem": "ProperTorsions-t148c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X4:2]-[#7X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t149",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X3+0:2]-[#7X4:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t149a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X4:2]-[#7X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t149b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X3+0:2]-[#7X3:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t149c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X4:2]-[#7X3:3]-[#6X3:4]",
+        "output_stem": "ProperTorsions-t150",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#16X3+0:2]-[#7X3:3]-[#6X3:4]",
+        "output_stem": "ProperTorsions-t150a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X4:2]-[#7X3:3]-[#6X3:4]",
+        "output_stem": "ProperTorsions-t151",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X3+0:2]-[#7X3:3]-[#6X3:4]",
+        "output_stem": "ProperTorsions-t151a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X4:2]-[#7X3:3]-[#6X3:4]",
+        "output_stem": "ProperTorsions-t152",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X3+0:2]-[#7X3:3]-[#6X3:4]",
+        "output_stem": "ProperTorsions-t152a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X4:2]-[#7X3:3]-[#7X2:4]",
+        "output_stem": "ProperTorsions-t153",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X3+0:2]-[#7X3:3]-[#7X2:4]",
+        "output_stem": "ProperTorsions-t153a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X4:2]=,:[#7X2:3]-,:[*:4]",
+        "output_stem": "ProperTorsions-t154",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X3+0:2]=,:[#7X2:3]-,:[*:4]",
+        "output_stem": "ProperTorsions-t154a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X4:2]-[#7X2:3]~[#6X3:4]",
+        "output_stem": "ProperTorsions-t155",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X4:1]-[#16X3+0:2]-[#7X2:3]~[#6X3:4]",
+        "output_stem": "ProperTorsions-t155a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X4:2]-[#7X2:3]~[#6X3:4]",
+        "output_stem": "ProperTorsions-t156",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X1:1]~[#16X3+0:2]-[#7X2:3]~[#6X3:4]",
+        "output_stem": "ProperTorsions-t156a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X4:2]-[#8X2:3]-[*:4]",
+        "output_stem": "ProperTorsions-t157",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#16X3+0:2]-[#8X2:3]-[*:4]",
+        "output_stem": "ProperTorsions-t157a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X2:2]-[#16X2:3]-[*:4]",
+        "output_stem": "ProperTorsions-t158",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X3+1:2]-[#16X2:3]-[*:4]",
+        "output_stem": "ProperTorsions-t158a",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X2:2]-[#16X3+1:3]-[*:4]",
+        "output_stem": "ProperTorsions-t158b",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#16X3+1:2]-[#16X3+1:3]-[*:4]",
+        "output_stem": "ProperTorsions-t158c",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#8X2:2]-[#15:3]~[*:4]",
+        "output_stem": "ProperTorsions-t159",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#8X2:1]-[#15:2]-[#8X2:3]-[#6X4:4]",
+        "output_stem": "ProperTorsions-t160",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7:2]-[#15:3]~[*:4]",
+        "output_stem": "ProperTorsions-t161",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[#7:2]-[#15:3]=[*:4]",
+        "output_stem": "ProperTorsions-t162",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[#6X3:1]-[#7:2]-[#15:3]=[*:4]",
+        "output_stem": "ProperTorsions-t163",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7:2]=[#15:3]~[*:4]",
+        "output_stem": "ProperTorsions-t164",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]-[*:2]#[*:3]-[*:4]",
+        "output_stem": "ProperTorsions-t165",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[*:2]-[*:3]#[*:4]",
+        "output_stem": "ProperTorsions-t166",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[*:2]=[#6,#7,#16,#15;X2:3]=[*:4]",
+        "output_stem": "ProperTorsions-t167",
+        "topology_group": "ProperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2](~[*:3])~[*:4]",
+        "output_stem": "ImproperTorsions-i1",
+        "topology_group": "ImproperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2](~[#8X1:3])~[#8:4]",
+        "output_stem": "ImproperTorsions-i2",
+        "topology_group": "ImproperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X3$(*~[#15,#16](!-[*])):2](~[*:3])~[*:4]",
+        "output_stem": "ImproperTorsions-i3",
+        "topology_group": "ImproperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X3$(*~[#6X3]):2](~[*:3])~[*:4]",
+        "output_stem": "ImproperTorsions-i4",
+        "topology_group": "ImproperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X3$(*~[#7X2]):2](~[*:3])~[*:4]",
+        "output_stem": "ImproperTorsions-i5",
+        "topology_group": "ImproperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#7X3$(*@1-[*]=,:[*][*]=,:[*]@1):2](~[*:3])~[*:4]",
+        "output_stem": "ImproperTorsions-i6",
+        "topology_group": "ImproperTorsions"
+    },
+    {
+        "pattern": "[*:1]~[#6X3:2](=[#7X2,#7X3+1:3])~[#7:4]",
+        "output_stem": "ImproperTorsions-i7",
+        "topology_group": "ImproperTorsions"
+    }
+]
