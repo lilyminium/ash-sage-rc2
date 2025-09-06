@@ -6,7 +6,7 @@ mkdir networks logs
 
 INPUT_FILE="mnsol_freesolv_highrmse_openff-gnn-am1bcc-0.1.0-rc.3.pt_openff-nagl.sdf"
 
-FFNAME="fb-fit-v1-single-mean-k100"
+FFNAME="fb-fit-v3-single-mean-k100"
 FORCEFIELD="../forcefields/${FFNAME}.offxml"
 
 
