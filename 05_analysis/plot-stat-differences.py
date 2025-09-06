@@ -30,9 +30,9 @@ def plot_stats(df, output_directory, super_group: str):
             )
         ax.set_yticks(np.arange(len(groups)))
         ax.set_yticklabels(groups)
-        ax.set_xlabel("MLE")
+        ax.set_xlabel(stat)
         ax.legend(title="FF")
-        plt.title(stat)
+        # plt.title(stat)
         plt.tight_layout()
 
         filename = output_directory / f"{super_group}_{stat}.png"
@@ -138,6 +138,7 @@ def main(
     angle_groups = [x for x in df.group.unique() if x.startswith("a")]
     improper_groups = [x for x in df.group.unique() if x.startswith("i")]
     proper_groups = [x for x in df.group.unique() if x.startswith("t")]
+    vdw_groups = [x for x in df.group.unique() if x.startswith("n")]
     checkmol_groups = [x for x in df.group.unique() if x[0].lower() != x[0]]
 
     output_directory = pathlib.Path(output_directory)
@@ -158,6 +159,8 @@ def main(
     proper_df = df[df["group"].isin(proper_groups)]
     plot_stats(proper_df, output_directory, "propers")
 
+    vdw_df = df[df["group"].isin(vdw_groups)]
+    plot_stats(vdw_df, output_directory, "vdw")
 
 if __name__ == "__main__":
     main()
