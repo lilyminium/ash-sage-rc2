@@ -1,0 +1,158 @@
+2025-09-05 18:19:17.067 | INFO     | __main__:main:399 - Saved scatter plot for group All to images/phys-prop-scatters/dhmix-refit/scatter-All.png
+2025-09-05 18:19:17.068 | INFO     | __main__:main:369 - Skipping group 1,2 Aminoalcohol with 9 entries (< 10)
+2025-09-05 18:19:17.589 | INFO     | __main__:main:399 - Saved scatter plot for group 1,2 Diol to images/phys-prop-scatters/dhmix-refit/scatter-1,2 Diol.png
+2025-09-05 18:19:18.092 | INFO     | __main__:main:399 - Saved scatter plot for group Acetal to images/phys-prop-scatters/dhmix-refit/scatter-Acetal.png
+2025-09-05 18:19:18.658 | INFO     | __main__:main:399 - Saved scatter plot for group Alcohol to images/phys-prop-scatters/dhmix-refit/scatter-Alcohol.png
+2025-09-05 18:19:18.658 | INFO     | __main__:main:369 - Skipping group Aldehyde with 3 entries (< 10)
+2025-09-05 18:19:19.249 | INFO     | __main__:main:399 - Saved scatter plot for group Alkane to images/phys-prop-scatters/dhmix-refit/scatter-Alkane.png
+2025-09-05 18:19:19.249 | INFO     | __main__:main:369 - Skipping group Alkene with 9 entries (< 10)
+2025-09-05 18:19:19.760 | INFO     | __main__:main:399 - Saved scatter plot for group Alkyl Bromide to images/phys-prop-scatters/dhmix-refit/scatter-Alkyl Bromide.png
+2025-09-05 18:19:20.291 | INFO     | __main__:main:399 - Saved scatter plot for group Alkyl Chloride to images/phys-prop-scatters/dhmix-refit/scatter-Alkyl Chloride.png
+2025-09-05 18:19:20.847 | INFO     | __main__:main:399 - Saved scatter plot for group Alkyl Fluoride to images/phys-prop-scatters/dhmix-refit/scatter-Alkyl Fluoride.png
+2025-09-05 18:19:21.339 | INFO     | __main__:main:399 - Saved scatter plot for group Alkylarylether to images/phys-prop-scatters/dhmix-refit/scatter-Alkylarylether.png
+2025-09-05 18:19:21.841 | INFO     | __main__:main:399 - Saved scatter plot for group Amine to images/phys-prop-scatters/dhmix-refit/scatter-Amine.png
+2025-09-05 18:19:22.335 | INFO     | __main__:main:399 - Saved scatter plot for group Aqueous to images/phys-prop-scatters/dhmix-refit/scatter-Aqueous.png
+2025-09-05 18:19:22.918 | INFO     | __main__:main:399 - Saved scatter plot for group Aromatic to images/phys-prop-scatters/dhmix-refit/scatter-Aromatic.png
+2025-09-05 18:19:23.426 | INFO     | __main__:main:399 - Saved scatter plot for group Aryl Chloride to images/phys-prop-scatters/dhmix-refit/scatter-Aryl Chloride.png
+2025-09-05 18:19:23.935 | INFO     | __main__:main:399 - Saved scatter plot for group Carbonyl to images/phys-prop-scatters/dhmix-refit/scatter-Carbonyl.png
+2025-09-05 18:19:24.453 | INFO     | __main__:main:399 - Saved scatter plot for group Carboxylic Acid Amide to images/phys-prop-scatters/dhmix-refit/scatter-Carboxylic Acid Amide.png
+2025-09-05 18:19:25.079 | INFO     | __main__:main:399 - Saved scatter plot for group Carboxylic Acid Derivative to images/phys-prop-scatters/dhmix-refit/scatter-Carboxylic Acid Derivative.png
+2025-09-05 18:19:25.627 | INFO     | __main__:main:399 - Saved scatter plot for group Carboxylic Acid Ester to images/phys-prop-scatters/dhmix-refit/scatter-Carboxylic Acid Ester.png
+2025-09-05 18:19:26.203 | INFO     | __main__:main:399 - Saved scatter plot for group Carboxylic Acid Tertiary Amide to images/phys-prop-scatters/dhmix-refit/scatter-Carboxylic Acid Tertiary Amide.png
+2025-09-05 18:19:26.718 | INFO     | __main__:main:399 - Saved scatter plot for group Dialkylether to images/phys-prop-scatters/dhmix-refit/scatter-Dialkylether.png
+2025-09-05 18:19:27.241 | INFO     | __main__:main:399 - Saved scatter plot for group Ether to images/phys-prop-scatters/dhmix-refit/scatter-Ether.png
+2025-09-05 18:19:27.841 | INFO     | __main__:main:399 - Saved scatter plot for group Halogen Derivative to images/phys-prop-scatters/dhmix-refit/scatter-Halogen Derivative.png
+2025-09-05 18:19:28.365 | INFO     | __main__:main:399 - Saved scatter plot for group Heterocycle to images/phys-prop-scatters/dhmix-refit/scatter-Heterocycle.png
+2025-09-05 18:19:28.976 | INFO     | __main__:main:399 - Saved scatter plot for group Hydroxy to images/phys-prop-scatters/dhmix-refit/scatter-Hydroxy.png
+2025-09-05 18:19:29.471 | INFO     | __main__:main:399 - Saved scatter plot for group Ketone to images/phys-prop-scatters/dhmix-refit/scatter-Ketone.png
+2025-09-05 18:19:29.983 | INFO     | __main__:main:399 - Saved scatter plot for group Lactam to images/phys-prop-scatters/dhmix-refit/scatter-Lactam.png
+2025-09-05 18:19:30.463 | INFO     | __main__:main:399 - Saved scatter plot for group Nitrile to images/phys-prop-scatters/dhmix-refit/scatter-Nitrile.png
+2025-09-05 18:19:30.979 | INFO     | __main__:main:399 - Saved scatter plot for group Orthocarboxylic Acid Derivative to images/phys-prop-scatters/dhmix-refit/scatter-Orthocarboxylic Acid Derivative.png
+2025-09-05 18:19:30.979 | INFO     | __main__:main:369 - Skipping group Phenol with 6 entries (< 10)
+2025-09-05 18:19:31.586 | INFO     | __main__:main:399 - Saved scatter plot for group Primary Alcohol to images/phys-prop-scatters/dhmix-refit/scatter-Primary Alcohol.png
+2025-09-05 18:19:32.076 | INFO     | __main__:main:399 - Saved scatter plot for group Primary Aliphatic Amine to images/phys-prop-scatters/dhmix-refit/scatter-Primary Aliphatic Amine.png
+2025-09-05 18:19:32.576 | INFO     | __main__:main:399 - Saved scatter plot for group Primary Amine to images/phys-prop-scatters/dhmix-refit/scatter-Primary Amine.png
+2025-09-05 18:19:33.075 | INFO     | __main__:main:399 - Saved scatter plot for group Primary Aromatic Amine to images/phys-prop-scatters/dhmix-refit/scatter-Primary Aromatic Amine.png
+2025-09-05 18:19:33.076 | INFO     | __main__:main:369 - Skipping group Secondary Alcohol with 9 entries (< 10)
+2025-09-05 18:19:33.639 | INFO     | __main__:main:399 - Saved scatter plot for group Secondary Aliphatic Amine to images/phys-prop-scatters/dhmix-refit/scatter-Secondary Aliphatic Amine.png
+2025-09-05 18:19:34.134 | INFO     | __main__:main:399 - Saved scatter plot for group Secondary Amine to images/phys-prop-scatters/dhmix-refit/scatter-Secondary Amine.png
+2025-09-05 18:19:34.633 | INFO     | __main__:main:399 - Saved scatter plot for group Secondary Mixed Amine to images/phys-prop-scatters/dhmix-refit/scatter-Secondary Mixed Amine.png
+2025-09-05 18:19:35.144 | INFO     | __main__:main:399 - Saved scatter plot for group Tertiary Alcohol to images/phys-prop-scatters/dhmix-refit/scatter-Tertiary Alcohol.png
+2025-09-05 18:19:35.712 | INFO     | __main__:main:399 - Saved scatter plot for group Tertiary Aliphatic Amine to images/phys-prop-scatters/dhmix-refit/scatter-Tertiary Aliphatic Amine.png
+2025-09-05 18:19:36.222 | INFO     | __main__:main:399 - Saved scatter plot for group Tertiary Amine to images/phys-prop-scatters/dhmix-refit/scatter-Tertiary Amine.png
+2025-09-05 18:19:36.900 | INFO     | __main__:main:399 - Saved scatter plot for group b1 to images/phys-prop-scatters/dhmix-refit/scatter-b1.png
+2025-09-05 18:19:37.425 | INFO     | __main__:main:399 - Saved scatter plot for group b2 to images/phys-prop-scatters/dhmix-refit/scatter-b2.png
+2025-09-05 18:19:37.964 | INFO     | __main__:main:399 - Saved scatter plot for group b3 to images/phys-prop-scatters/dhmix-refit/scatter-b3.png
+2025-09-05 18:19:38.518 | INFO     | __main__:main:399 - Saved scatter plot for group b4 to images/phys-prop-scatters/dhmix-refit/scatter-b4.png
+2025-09-05 18:19:39.037 | INFO     | __main__:main:399 - Saved scatter plot for group b5 to images/phys-prop-scatters/dhmix-refit/scatter-b5.png
+2025-09-05 18:19:39.522 | INFO     | __main__:main:399 - Saved scatter plot for group b6 to images/phys-prop-scatters/dhmix-refit/scatter-b6.png
+2025-09-05 18:19:40.032 | INFO     | __main__:main:399 - Saved scatter plot for group b7 to images/phys-prop-scatters/dhmix-refit/scatter-b7.png
+2025-09-05 18:19:40.600 | INFO     | __main__:main:399 - Saved scatter plot for group b8 to images/phys-prop-scatters/dhmix-refit/scatter-b8.png
+2025-09-05 18:19:41.121 | INFO     | __main__:main:399 - Saved scatter plot for group b9 to images/phys-prop-scatters/dhmix-refit/scatter-b9.png
+2025-09-05 18:19:41.642 | INFO     | __main__:main:399 - Saved scatter plot for group b10 to images/phys-prop-scatters/dhmix-refit/scatter-b10.png
+2025-09-05 18:19:42.129 | INFO     | __main__:main:399 - Saved scatter plot for group b12 to images/phys-prop-scatters/dhmix-refit/scatter-b12.png
+2025-09-05 18:19:42.708 | INFO     | __main__:main:399 - Saved scatter plot for group b13 to images/phys-prop-scatters/dhmix-refit/scatter-b13.png
+2025-09-05 18:19:43.254 | INFO     | __main__:main:399 - Saved scatter plot for group b14 to images/phys-prop-scatters/dhmix-refit/scatter-b14.png
+2025-09-05 18:19:43.887 | INFO     | __main__:main:399 - Saved scatter plot for group b16 to images/phys-prop-scatters/dhmix-refit/scatter-b16.png
+2025-09-05 18:19:44.376 | INFO     | __main__:main:399 - Saved scatter plot for group b18 to images/phys-prop-scatters/dhmix-refit/scatter-b18.png
+2025-09-05 18:19:44.873 | INFO     | __main__:main:399 - Saved scatter plot for group b19 to images/phys-prop-scatters/dhmix-refit/scatter-b19.png
+2025-09-05 18:19:45.453 | INFO     | __main__:main:399 - Saved scatter plot for group b20 to images/phys-prop-scatters/dhmix-refit/scatter-b20.png
+2025-09-05 18:19:46.101 | INFO     | __main__:main:399 - Saved scatter plot for group b21 to images/phys-prop-scatters/dhmix-refit/scatter-b21.png
+2025-09-05 18:19:46.605 | INFO     | __main__:main:399 - Saved scatter plot for group b25 to images/phys-prop-scatters/dhmix-refit/scatter-b25.png
+2025-09-05 18:19:47.109 | INFO     | __main__:main:399 - Saved scatter plot for group b27 to images/phys-prop-scatters/dhmix-refit/scatter-b27.png
+2025-09-05 18:19:47.622 | INFO     | __main__:main:399 - Saved scatter plot for group b69 to images/phys-prop-scatters/dhmix-refit/scatter-b69.png
+2025-09-05 18:19:48.214 | INFO     | __main__:main:399 - Saved scatter plot for group b70 to images/phys-prop-scatters/dhmix-refit/scatter-b70.png
+2025-09-05 18:19:48.728 | INFO     | __main__:main:399 - Saved scatter plot for group b71 to images/phys-prop-scatters/dhmix-refit/scatter-b71.png
+2025-09-05 18:19:49.243 | INFO     | __main__:main:399 - Saved scatter plot for group b73 to images/phys-prop-scatters/dhmix-refit/scatter-b73.png
+2025-09-05 18:19:49.918 | INFO     | __main__:main:399 - Saved scatter plot for group b84 to images/phys-prop-scatters/dhmix-refit/scatter-b84.png
+2025-09-05 18:19:50.450 | INFO     | __main__:main:399 - Saved scatter plot for group b85 to images/phys-prop-scatters/dhmix-refit/scatter-b85.png
+2025-09-05 18:19:51.049 | INFO     | __main__:main:399 - Saved scatter plot for group b87 to images/phys-prop-scatters/dhmix-refit/scatter-b87.png
+2025-09-05 18:19:51.599 | INFO     | __main__:main:399 - Saved scatter plot for group b88 to images/phys-prop-scatters/dhmix-refit/scatter-b88.png
+2025-09-05 18:19:52.285 | INFO     | __main__:main:399 - Saved scatter plot for group a1 to images/phys-prop-scatters/dhmix-refit/scatter-a1.png
+2025-09-05 18:19:52.972 | INFO     | __main__:main:399 - Saved scatter plot for group a2 to images/phys-prop-scatters/dhmix-refit/scatter-a2.png
+2025-09-05 18:19:53.538 | INFO     | __main__:main:399 - Saved scatter plot for group a10 to images/phys-prop-scatters/dhmix-refit/scatter-a10.png
+2025-09-05 18:19:54.093 | INFO     | __main__:main:399 - Saved scatter plot for group a11 to images/phys-prop-scatters/dhmix-refit/scatter-a11.png
+2025-09-05 18:19:54.093 | INFO     | __main__:main:369 - Skipping group a12 with 9 entries (< 10)
+2025-09-05 18:19:54.678 | INFO     | __main__:main:399 - Saved scatter plot for group a14 to images/phys-prop-scatters/dhmix-refit/scatter-a14.png
+2025-09-05 18:19:55.243 | INFO     | __main__:main:399 - Saved scatter plot for group a15 to images/phys-prop-scatters/dhmix-refit/scatter-a15.png
+2025-09-05 18:19:55.738 | INFO     | __main__:main:399 - Saved scatter plot for group a16 to images/phys-prop-scatters/dhmix-refit/scatter-a16.png
+2025-09-05 18:19:56.232 | INFO     | __main__:main:399 - Saved scatter plot for group a18 to images/phys-prop-scatters/dhmix-refit/scatter-a18.png
+2025-09-05 18:19:56.729 | INFO     | __main__:main:399 - Saved scatter plot for group a19 to images/phys-prop-scatters/dhmix-refit/scatter-a19.png
+2025-09-05 18:19:57.341 | INFO     | __main__:main:399 - Saved scatter plot for group a20 to images/phys-prop-scatters/dhmix-refit/scatter-a20.png
+2025-09-05 18:19:57.842 | INFO     | __main__:main:399 - Saved scatter plot for group a21 to images/phys-prop-scatters/dhmix-refit/scatter-a21.png
+2025-09-05 18:19:58.331 | INFO     | __main__:main:399 - Saved scatter plot for group a22 to images/phys-prop-scatters/dhmix-refit/scatter-a22.png
+2025-09-05 18:19:58.997 | INFO     | __main__:main:399 - Saved scatter plot for group a28 to images/phys-prop-scatters/dhmix-refit/scatter-a28.png
+2025-09-05 18:19:59.496 | INFO     | __main__:main:399 - Saved scatter plot for group a41 to images/phys-prop-scatters/dhmix-refit/scatter-a41.png
+2025-09-05 18:20:00.151 | INFO     | __main__:main:399 - Saved scatter plot for group t1 to images/phys-prop-scatters/dhmix-refit/scatter-t1.png
+2025-09-05 18:20:00.733 | INFO     | __main__:main:399 - Saved scatter plot for group t2 to images/phys-prop-scatters/dhmix-refit/scatter-t2.png
+2025-09-05 18:20:01.422 | INFO     | __main__:main:399 - Saved scatter plot for group t3 to images/phys-prop-scatters/dhmix-refit/scatter-t3.png
+2025-09-05 18:20:02.015 | INFO     | __main__:main:399 - Saved scatter plot for group t4 to images/phys-prop-scatters/dhmix-refit/scatter-t4.png
+2025-09-05 18:20:02.620 | INFO     | __main__:main:399 - Saved scatter plot for group t5 to images/phys-prop-scatters/dhmix-refit/scatter-t5.png
+2025-09-05 18:20:03.121 | INFO     | __main__:main:399 - Saved scatter plot for group t6 to images/phys-prop-scatters/dhmix-refit/scatter-t6.png
+2025-09-05 18:20:03.628 | INFO     | __main__:main:399 - Saved scatter plot for group t7 to images/phys-prop-scatters/dhmix-refit/scatter-t7.png
+2025-09-05 18:20:04.133 | INFO     | __main__:main:399 - Saved scatter plot for group t8 to images/phys-prop-scatters/dhmix-refit/scatter-t8.png
+2025-09-05 18:20:04.805 | INFO     | __main__:main:399 - Saved scatter plot for group t9 to images/phys-prop-scatters/dhmix-refit/scatter-t9.png
+2025-09-05 18:20:05.316 | INFO     | __main__:main:399 - Saved scatter plot for group t10 to images/phys-prop-scatters/dhmix-refit/scatter-t10.png
+2025-09-05 18:20:05.855 | INFO     | __main__:main:399 - Saved scatter plot for group t11 to images/phys-prop-scatters/dhmix-refit/scatter-t11.png
+2025-09-05 18:20:06.364 | INFO     | __main__:main:399 - Saved scatter plot for group t12 to images/phys-prop-scatters/dhmix-refit/scatter-t12.png
+2025-09-05 18:20:07.008 | INFO     | __main__:main:399 - Saved scatter plot for group t17 to images/phys-prop-scatters/dhmix-refit/scatter-t17.png
+2025-09-05 18:20:07.526 | INFO     | __main__:main:399 - Saved scatter plot for group t17a to images/phys-prop-scatters/dhmix-refit/scatter-t17a.png
+2025-09-05 18:20:08.045 | INFO     | __main__:main:399 - Saved scatter plot for group t18 to images/phys-prop-scatters/dhmix-refit/scatter-t18.png
+2025-09-05 18:20:08.644 | INFO     | __main__:main:399 - Saved scatter plot for group t19 to images/phys-prop-scatters/dhmix-refit/scatter-t19.png
+2025-09-05 18:20:08.645 | INFO     | __main__:main:369 - Skipping group t20 with 9 entries (< 10)
+2025-09-05 18:20:09.154 | INFO     | __main__:main:399 - Saved scatter plot for group t23 to images/phys-prop-scatters/dhmix-refit/scatter-t23.png
+2025-09-05 18:20:09.155 | INFO     | __main__:main:369 - Skipping group t43 with 9 entries (< 10)
+2025-09-05 18:20:09.676 | INFO     | __main__:main:399 - Saved scatter plot for group t44 to images/phys-prop-scatters/dhmix-refit/scatter-t44.png
+2025-09-05 18:20:10.234 | INFO     | __main__:main:399 - Saved scatter plot for group t45 to images/phys-prop-scatters/dhmix-refit/scatter-t45.png
+2025-09-05 18:20:10.235 | INFO     | __main__:main:369 - Skipping group t46 with 3 entries (< 10)
+2025-09-05 18:20:10.235 | INFO     | __main__:main:369 - Skipping group t47 with 6 entries (< 10)
+2025-09-05 18:20:10.724 | INFO     | __main__:main:399 - Saved scatter plot for group t51 to images/phys-prop-scatters/dhmix-refit/scatter-t51.png
+2025-09-05 18:20:11.208 | INFO     | __main__:main:399 - Saved scatter plot for group t58a to images/phys-prop-scatters/dhmix-refit/scatter-t58a.png
+2025-09-05 18:20:11.724 | INFO     | __main__:main:399 - Saved scatter plot for group t64 to images/phys-prop-scatters/dhmix-refit/scatter-t64.png
+2025-09-05 18:20:12.293 | INFO     | __main__:main:399 - Saved scatter plot for group t67 to images/phys-prop-scatters/dhmix-refit/scatter-t67.png
+2025-09-05 18:20:12.794 | INFO     | __main__:main:399 - Saved scatter plot for group t71 to images/phys-prop-scatters/dhmix-refit/scatter-t71.png
+2025-09-05 18:20:13.290 | INFO     | __main__:main:399 - Saved scatter plot for group t72 to images/phys-prop-scatters/dhmix-refit/scatter-t72.png
+2025-09-05 18:20:13.790 | INFO     | __main__:main:399 - Saved scatter plot for group t74 to images/phys-prop-scatters/dhmix-refit/scatter-t74.png
+2025-09-05 18:20:14.312 | INFO     | __main__:main:399 - Saved scatter plot for group t75 to images/phys-prop-scatters/dhmix-refit/scatter-t75.png
+2025-09-05 18:20:14.919 | INFO     | __main__:main:399 - Saved scatter plot for group t77 to images/phys-prop-scatters/dhmix-refit/scatter-t77.png
+2025-09-05 18:20:15.408 | INFO     | __main__:main:399 - Saved scatter plot for group t80 to images/phys-prop-scatters/dhmix-refit/scatter-t80.png
+2025-09-05 18:20:15.884 | INFO     | __main__:main:399 - Saved scatter plot for group t84 to images/phys-prop-scatters/dhmix-refit/scatter-t84.png
+2025-09-05 18:20:16.365 | INFO     | __main__:main:399 - Saved scatter plot for group t85 to images/phys-prop-scatters/dhmix-refit/scatter-t85.png
+2025-09-05 18:20:16.921 | INFO     | __main__:main:399 - Saved scatter plot for group t86 to images/phys-prop-scatters/dhmix-refit/scatter-t86.png
+2025-09-05 18:20:17.469 | INFO     | __main__:main:399 - Saved scatter plot for group t93 to images/phys-prop-scatters/dhmix-refit/scatter-t93.png
+2025-09-05 18:20:18.072 | INFO     | __main__:main:399 - Saved scatter plot for group t94 to images/phys-prop-scatters/dhmix-refit/scatter-t94.png
+2025-09-05 18:20:18.631 | INFO     | __main__:main:399 - Saved scatter plot for group t95 to images/phys-prop-scatters/dhmix-refit/scatter-t95.png
+2025-09-05 18:20:19.148 | INFO     | __main__:main:399 - Saved scatter plot for group t96 to images/phys-prop-scatters/dhmix-refit/scatter-t96.png
+2025-09-05 18:20:19.763 | INFO     | __main__:main:399 - Saved scatter plot for group t97 to images/phys-prop-scatters/dhmix-refit/scatter-t97.png
+2025-09-05 18:20:20.253 | INFO     | __main__:main:399 - Saved scatter plot for group t98 to images/phys-prop-scatters/dhmix-refit/scatter-t98.png
+2025-09-05 18:20:20.743 | INFO     | __main__:main:399 - Saved scatter plot for group t105 to images/phys-prop-scatters/dhmix-refit/scatter-t105.png
+2025-09-05 18:20:21.255 | INFO     | __main__:main:399 - Saved scatter plot for group t106 to images/phys-prop-scatters/dhmix-refit/scatter-t106.png
+2025-09-05 18:20:21.883 | INFO     | __main__:main:399 - Saved scatter plot for group t107 to images/phys-prop-scatters/dhmix-refit/scatter-t107.png
+2025-09-05 18:20:22.380 | INFO     | __main__:main:399 - Saved scatter plot for group t108 to images/phys-prop-scatters/dhmix-refit/scatter-t108.png
+2025-09-05 18:20:22.929 | INFO     | __main__:main:399 - Saved scatter plot for group t110 to images/phys-prop-scatters/dhmix-refit/scatter-t110.png
+2025-09-05 18:20:23.483 | INFO     | __main__:main:399 - Saved scatter plot for group t166 to images/phys-prop-scatters/dhmix-refit/scatter-t166.png
+2025-09-05 18:20:24.023 | INFO     | __main__:main:399 - Saved scatter plot for group i1 to images/phys-prop-scatters/dhmix-refit/scatter-i1.png
+2025-09-05 18:20:24.582 | INFO     | __main__:main:399 - Saved scatter plot for group i2 to images/phys-prop-scatters/dhmix-refit/scatter-i2.png
+2025-09-05 18:20:25.165 | INFO     | __main__:main:399 - Saved scatter plot for group i4 to images/phys-prop-scatters/dhmix-refit/scatter-i4.png
+2025-09-05 18:20:25.165 | INFO     | __main__:main:369 - Skipping group i6 with 9 entries (< 10)
+2025-09-05 18:20:25.761 | INFO     | __main__:main:399 - Saved scatter plot for group n2 to images/phys-prop-scatters/dhmix-refit/scatter-n2.png
+2025-09-05 18:20:26.435 | INFO     | __main__:main:399 - Saved scatter plot for group n3 to images/phys-prop-scatters/dhmix-refit/scatter-n3.png
+2025-09-05 18:20:26.931 | INFO     | __main__:main:399 - Saved scatter plot for group n4 to images/phys-prop-scatters/dhmix-refit/scatter-n4.png
+2025-09-05 18:20:26.931 | INFO     | __main__:main:369 - Skipping group n5 with 3 entries (< 10)
+2025-09-05 18:20:27.531 | INFO     | __main__:main:399 - Saved scatter plot for group n7 to images/phys-prop-scatters/dhmix-refit/scatter-n7.png
+2025-09-05 18:20:28.014 | INFO     | __main__:main:399 - Saved scatter plot for group n8 to images/phys-prop-scatters/dhmix-refit/scatter-n8.png
+2025-09-05 18:20:28.516 | INFO     | __main__:main:399 - Saved scatter plot for group n9 to images/phys-prop-scatters/dhmix-refit/scatter-n9.png
+2025-09-05 18:20:29.015 | INFO     | __main__:main:399 - Saved scatter plot for group n11 to images/phys-prop-scatters/dhmix-refit/scatter-n11.png
+2025-09-05 18:20:29.626 | INFO     | __main__:main:399 - Saved scatter plot for group n12 to images/phys-prop-scatters/dhmix-refit/scatter-n12.png
+2025-09-05 18:20:30.196 | INFO     | __main__:main:399 - Saved scatter plot for group n14 to images/phys-prop-scatters/dhmix-refit/scatter-n14.png
+2025-09-05 18:20:30.675 | INFO     | __main__:main:399 - Saved scatter plot for group n15 to images/phys-prop-scatters/dhmix-refit/scatter-n15.png
+2025-09-05 18:20:31.359 | INFO     | __main__:main:399 - Saved scatter plot for group n16 to images/phys-prop-scatters/dhmix-refit/scatter-n16.png
+2025-09-05 18:20:31.981 | INFO     | __main__:main:399 - Saved scatter plot for group n17 to images/phys-prop-scatters/dhmix-refit/scatter-n17.png
+2025-09-05 18:20:32.548 | INFO     | __main__:main:399 - Saved scatter plot for group n18 to images/phys-prop-scatters/dhmix-refit/scatter-n18.png
+2025-09-05 18:20:33.086 | INFO     | __main__:main:399 - Saved scatter plot for group n19 to images/phys-prop-scatters/dhmix-refit/scatter-n19.png
+2025-09-05 18:20:33.698 | INFO     | __main__:main:399 - Saved scatter plot for group n20 to images/phys-prop-scatters/dhmix-refit/scatter-n20.png
+2025-09-05 18:20:34.180 | INFO     | __main__:main:399 - Saved scatter plot for group n23 to images/phys-prop-scatters/dhmix-refit/scatter-n23.png
+2025-09-05 18:20:34.680 | INFO     | __main__:main:399 - Saved scatter plot for group n24 to images/phys-prop-scatters/dhmix-refit/scatter-n24.png
+2025-09-05 18:20:35.175 | INFO     | __main__:main:399 - Saved scatter plot for group n25 to images/phys-prop-scatters/dhmix-refit/scatter-n25.png
+2025-09-05 18:20:35.746 | INFO     | __main__:main:399 - Saved scatter plot for group n-tip3p-O to images/phys-prop-scatters/dhmix-refit/scatter-n-tip3p-O.png
+2025-09-05 18:20:36.235 | INFO     | __main__:main:399 - Saved scatter plot for group n-tip3p-H to images/phys-prop-scatters/dhmix-refit/scatter-n-tip3p-H.png

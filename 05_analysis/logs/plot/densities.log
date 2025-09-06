@@ -1,0 +1,179 @@
+2025-09-05 17:08:52.763 | INFO     | __main__:main:399 - Saved scatter plot for group All to images/phys-prop-scatters/densities/scatter-All.png
+2025-09-05 17:08:56.582 | INFO     | __main__:main:399 - Saved scatter plot for group 1,2 Aminoalcohol to images/phys-prop-scatters/densities/scatter-1,2 Aminoalcohol.png
+2025-09-05 17:09:00.617 | INFO     | __main__:main:399 - Saved scatter plot for group 1,2 Diol to images/phys-prop-scatters/densities/scatter-1,2 Diol.png
+2025-09-05 17:09:04.707 | INFO     | __main__:main:399 - Saved scatter plot for group Acetal to images/phys-prop-scatters/densities/scatter-Acetal.png
+2025-09-05 17:09:44.228 | INFO     | __main__:main:399 - Saved scatter plot for group Alcohol to images/phys-prop-scatters/densities/scatter-Alcohol.png
+2025-09-05 17:09:44.229 | INFO     | __main__:main:369 - Skipping group Aldehyde with 4 entries (< 10)
+2025-09-05 17:10:05.751 | INFO     | __main__:main:399 - Saved scatter plot for group Alkane to images/phys-prop-scatters/densities/scatter-Alkane.png
+2025-09-05 17:10:09.742 | INFO     | __main__:main:399 - Saved scatter plot for group Alkene to images/phys-prop-scatters/densities/scatter-Alkene.png
+2025-09-05 17:10:23.701 | INFO     | __main__:main:399 - Saved scatter plot for group Alkyl Bromide to images/phys-prop-scatters/densities/scatter-Alkyl Bromide.png
+2025-09-05 17:10:42.537 | INFO     | __main__:main:399 - Saved scatter plot for group Alkyl Chloride to images/phys-prop-scatters/densities/scatter-Alkyl Chloride.png
+2025-09-05 17:10:47.244 | INFO     | __main__:main:399 - Saved scatter plot for group Alkyl Fluoride to images/phys-prop-scatters/densities/scatter-Alkyl Fluoride.png
+2025-09-05 17:10:51.855 | INFO     | __main__:main:399 - Saved scatter plot for group Alkylarylether to images/phys-prop-scatters/densities/scatter-Alkylarylether.png
+2025-09-05 17:11:08.146 | INFO     | __main__:main:399 - Saved scatter plot for group Amine to images/phys-prop-scatters/densities/scatter-Amine.png
+2025-09-05 17:11:18.077 | INFO     | __main__:main:399 - Saved scatter plot for group Aqueous to images/phys-prop-scatters/densities/scatter-Aqueous.png
+2025-09-05 17:11:42.428 | INFO     | __main__:main:399 - Saved scatter plot for group Aromatic to images/phys-prop-scatters/densities/scatter-Aromatic.png
+2025-09-05 17:11:46.771 | INFO     | __main__:main:399 - Saved scatter plot for group Aryl Chloride to images/phys-prop-scatters/densities/scatter-Aryl Chloride.png
+2025-09-05 17:11:59.571 | INFO     | __main__:main:399 - Saved scatter plot for group Carbonyl to images/phys-prop-scatters/densities/scatter-Carbonyl.png
+2025-09-05 17:11:59.572 | INFO     | __main__:main:369 - Skipping group Carboxylic Acid with 7 entries (< 10)
+2025-09-05 17:12:10.329 | INFO     | __main__:main:399 - Saved scatter plot for group Carboxylic Acid Amide to images/phys-prop-scatters/densities/scatter-Carboxylic Acid Amide.png
+2025-09-05 17:13:00.583 | INFO     | __main__:main:399 - Saved scatter plot for group Carboxylic Acid Derivative to images/phys-prop-scatters/densities/scatter-Carboxylic Acid Derivative.png
+2025-09-05 17:13:40.629 | INFO     | __main__:main:399 - Saved scatter plot for group Carboxylic Acid Ester to images/phys-prop-scatters/densities/scatter-Carboxylic Acid Ester.png
+2025-09-05 17:13:51.747 | INFO     | __main__:main:399 - Saved scatter plot for group Carboxylic Acid Tertiary Amide to images/phys-prop-scatters/densities/scatter-Carboxylic Acid Tertiary Amide.png
+2025-09-05 17:14:15.408 | INFO     | __main__:main:399 - Saved scatter plot for group Dialkylether to images/phys-prop-scatters/densities/scatter-Dialkylether.png
+2025-09-05 17:14:40.642 | INFO     | __main__:main:399 - Saved scatter plot for group Ether to images/phys-prop-scatters/densities/scatter-Ether.png
+2025-09-05 17:15:16.417 | INFO     | __main__:main:399 - Saved scatter plot for group Halogen Derivative to images/phys-prop-scatters/densities/scatter-Halogen Derivative.png
+2025-09-05 17:15:39.282 | INFO     | __main__:main:399 - Saved scatter plot for group Heterocycle to images/phys-prop-scatters/densities/scatter-Heterocycle.png
+2025-09-05 17:16:18.816 | INFO     | __main__:main:399 - Saved scatter plot for group Hydroxy to images/phys-prop-scatters/densities/scatter-Hydroxy.png
+2025-09-05 17:16:31.291 | INFO     | __main__:main:399 - Saved scatter plot for group Ketone to images/phys-prop-scatters/densities/scatter-Ketone.png
+2025-09-05 17:16:37.118 | INFO     | __main__:main:399 - Saved scatter plot for group Lactam to images/phys-prop-scatters/densities/scatter-Lactam.png
+2025-09-05 17:16:37.118 | INFO     | __main__:main:369 - Skipping group Lactone with 5 entries (< 10)
+2025-09-05 17:16:42.364 | INFO     | __main__:main:399 - Saved scatter plot for group Nitrile to images/phys-prop-scatters/densities/scatter-Nitrile.png
+2025-09-05 17:16:46.523 | INFO     | __main__:main:399 - Saved scatter plot for group Orthocarboxylic Acid Derivative to images/phys-prop-scatters/densities/scatter-Orthocarboxylic Acid Derivative.png
+2025-09-05 17:16:46.524 | INFO     | __main__:main:369 - Skipping group Phenol with 8 entries (< 10)
+2025-09-05 17:17:22.919 | INFO     | __main__:main:399 - Saved scatter plot for group Primary Alcohol to images/phys-prop-scatters/densities/scatter-Primary Alcohol.png
+2025-09-05 17:17:28.580 | INFO     | __main__:main:399 - Saved scatter plot for group Primary Aliphatic Amine to images/phys-prop-scatters/densities/scatter-Primary Aliphatic Amine.png
+2025-09-05 17:17:36.336 | INFO     | __main__:main:399 - Saved scatter plot for group Primary Amine to images/phys-prop-scatters/densities/scatter-Primary Amine.png
+2025-09-05 17:17:41.075 | INFO     | __main__:main:399 - Saved scatter plot for group Primary Aromatic Amine to images/phys-prop-scatters/densities/scatter-Primary Aromatic Amine.png
+2025-09-05 17:17:45.773 | INFO     | __main__:main:399 - Saved scatter plot for group Secondary Alcohol to images/phys-prop-scatters/densities/scatter-Secondary Alcohol.png
+2025-09-05 17:17:52.667 | INFO     | __main__:main:399 - Saved scatter plot for group Secondary Aliphatic Amine to images/phys-prop-scatters/densities/scatter-Secondary Aliphatic Amine.png
+2025-09-05 17:18:00.969 | INFO     | __main__:main:399 - Saved scatter plot for group Secondary Amine to images/phys-prop-scatters/densities/scatter-Secondary Amine.png
+2025-09-05 17:18:05.203 | INFO     | __main__:main:399 - Saved scatter plot for group Secondary Mixed Amine to images/phys-prop-scatters/densities/scatter-Secondary Mixed Amine.png
+2025-09-05 17:18:05.203 | INFO     | __main__:main:369 - Skipping group Sulfone with 1 entries (< 10)
+2025-09-05 17:18:09.235 | INFO     | __main__:main:399 - Saved scatter plot for group Tertiary Alcohol to images/phys-prop-scatters/densities/scatter-Tertiary Alcohol.png
+2025-09-05 17:18:16.443 | INFO     | __main__:main:399 - Saved scatter plot for group Tertiary Aliphatic Amine to images/phys-prop-scatters/densities/scatter-Tertiary Aliphatic Amine.png
+2025-09-05 17:18:23.512 | INFO     | __main__:main:399 - Saved scatter plot for group Tertiary Amine to images/phys-prop-scatters/densities/scatter-Tertiary Amine.png
+2025-09-05 17:20:06.907 | INFO     | __main__:main:399 - Saved scatter plot for group b1 to images/phys-prop-scatters/densities/scatter-b1.png
+2025-09-05 17:20:24.690 | INFO     | __main__:main:399 - Saved scatter plot for group b2 to images/phys-prop-scatters/densities/scatter-b2.png
+2025-09-05 17:21:07.761 | INFO     | __main__:main:399 - Saved scatter plot for group b3 to images/phys-prop-scatters/densities/scatter-b3.png
+2025-09-05 17:21:12.389 | INFO     | __main__:main:399 - Saved scatter plot for group b4 to images/phys-prop-scatters/densities/scatter-b4.png
+2025-09-05 17:21:35.765 | INFO     | __main__:main:399 - Saved scatter plot for group b5 to images/phys-prop-scatters/densities/scatter-b5.png
+2025-09-05 17:21:41.043 | INFO     | __main__:main:399 - Saved scatter plot for group b6 to images/phys-prop-scatters/densities/scatter-b6.png
+2025-09-05 17:21:57.043 | INFO     | __main__:main:399 - Saved scatter plot for group b7 to images/phys-prop-scatters/densities/scatter-b7.png
+2025-09-05 17:22:04.726 | INFO     | __main__:main:399 - Saved scatter plot for group b8 to images/phys-prop-scatters/densities/scatter-b8.png
+2025-09-05 17:22:15.563 | INFO     | __main__:main:399 - Saved scatter plot for group b9 to images/phys-prop-scatters/densities/scatter-b9.png
+2025-09-05 17:22:26.372 | INFO     | __main__:main:399 - Saved scatter plot for group b10 to images/phys-prop-scatters/densities/scatter-b10.png
+2025-09-05 17:22:26.372 | INFO     | __main__:main:369 - Skipping group b11 with 4 entries (< 10)
+2025-09-05 17:22:33.653 | INFO     | __main__:main:399 - Saved scatter plot for group b12 to images/phys-prop-scatters/densities/scatter-b12.png
+2025-09-05 17:22:38.271 | INFO     | __main__:main:399 - Saved scatter plot for group b13 to images/phys-prop-scatters/densities/scatter-b13.png
+2025-09-05 17:23:17.890 | INFO     | __main__:main:399 - Saved scatter plot for group b14 to images/phys-prop-scatters/densities/scatter-b14.png
+2025-09-05 17:24:21.173 | INFO     | __main__:main:399 - Saved scatter plot for group b16 to images/phys-prop-scatters/densities/scatter-b16.png
+2025-09-05 17:24:21.174 | INFO     | __main__:main:369 - Skipping group b17 with 1 entries (< 10)
+2025-09-05 17:24:26.690 | INFO     | __main__:main:399 - Saved scatter plot for group b18 to images/phys-prop-scatters/densities/scatter-b18.png
+2025-09-05 17:24:31.218 | INFO     | __main__:main:399 - Saved scatter plot for group b19 to images/phys-prop-scatters/densities/scatter-b19.png
+2025-09-05 17:25:10.771 | INFO     | __main__:main:399 - Saved scatter plot for group b20 to images/phys-prop-scatters/densities/scatter-b20.png
+2025-09-05 17:26:07.770 | INFO     | __main__:main:399 - Saved scatter plot for group b21 to images/phys-prop-scatters/densities/scatter-b21.png
+2025-09-05 17:26:13.019 | INFO     | __main__:main:399 - Saved scatter plot for group b25 to images/phys-prop-scatters/densities/scatter-b25.png
+2025-09-05 17:26:18.215 | INFO     | __main__:main:399 - Saved scatter plot for group b27 to images/phys-prop-scatters/densities/scatter-b27.png
+2025-09-05 17:26:18.216 | INFO     | __main__:main:369 - Skipping group b56 with 1 entries (< 10)
+2025-09-05 17:26:18.216 | INFO     | __main__:main:369 - Skipping group b59 with 1 entries (< 10)
+2025-09-05 17:26:24.467 | INFO     | __main__:main:399 - Saved scatter plot for group b69 to images/phys-prop-scatters/densities/scatter-b69.png
+2025-09-05 17:26:28.703 | INFO     | __main__:main:399 - Saved scatter plot for group b70 to images/phys-prop-scatters/densities/scatter-b70.png
+2025-09-05 17:26:48.007 | INFO     | __main__:main:399 - Saved scatter plot for group b71 to images/phys-prop-scatters/densities/scatter-b71.png
+2025-09-05 17:27:01.912 | INFO     | __main__:main:399 - Saved scatter plot for group b73 to images/phys-prop-scatters/densities/scatter-b73.png
+2025-09-05 17:28:51.920 | INFO     | __main__:main:399 - Saved scatter plot for group b84 to images/phys-prop-scatters/densities/scatter-b84.png
+2025-09-05 17:29:31.086 | INFO     | __main__:main:399 - Saved scatter plot for group b85 to images/phys-prop-scatters/densities/scatter-b85.png
+2025-09-05 17:29:44.259 | INFO     | __main__:main:399 - Saved scatter plot for group b87 to images/phys-prop-scatters/densities/scatter-b87.png
+2025-09-05 17:30:27.660 | INFO     | __main__:main:399 - Saved scatter plot for group b88 to images/phys-prop-scatters/densities/scatter-b88.png
+2025-09-05 17:32:17.123 | INFO     | __main__:main:399 - Saved scatter plot for group a1 to images/phys-prop-scatters/densities/scatter-a1.png
+2025-09-05 17:34:06.020 | INFO     | __main__:main:399 - Saved scatter plot for group a2 to images/phys-prop-scatters/densities/scatter-a2.png
+2025-09-05 17:35:07.553 | INFO     | __main__:main:399 - Saved scatter plot for group a10 to images/phys-prop-scatters/densities/scatter-a10.png
+2025-09-05 17:35:45.760 | INFO     | __main__:main:399 - Saved scatter plot for group a11 to images/phys-prop-scatters/densities/scatter-a11.png
+2025-09-05 17:35:49.440 | INFO     | __main__:main:399 - Saved scatter plot for group a12 to images/phys-prop-scatters/densities/scatter-a12.png
+2025-09-05 17:35:59.786 | INFO     | __main__:main:399 - Saved scatter plot for group a14 to images/phys-prop-scatters/densities/scatter-a14.png
+2025-09-05 17:36:40.178 | INFO     | __main__:main:399 - Saved scatter plot for group a15 to images/phys-prop-scatters/densities/scatter-a15.png
+2025-09-05 17:36:45.467 | INFO     | __main__:main:399 - Saved scatter plot for group a16 to images/phys-prop-scatters/densities/scatter-a16.png
+2025-09-05 17:36:56.231 | INFO     | __main__:main:399 - Saved scatter plot for group a18 to images/phys-prop-scatters/densities/scatter-a18.png
+2025-09-05 17:37:05.198 | INFO     | __main__:main:399 - Saved scatter plot for group a19 to images/phys-prop-scatters/densities/scatter-a19.png
+2025-09-05 17:37:18.622 | INFO     | __main__:main:399 - Saved scatter plot for group a20 to images/phys-prop-scatters/densities/scatter-a20.png
+2025-09-05 17:37:25.814 | INFO     | __main__:main:399 - Saved scatter plot for group a21 to images/phys-prop-scatters/densities/scatter-a21.png
+2025-09-05 17:37:32.990 | INFO     | __main__:main:399 - Saved scatter plot for group a22 to images/phys-prop-scatters/densities/scatter-a22.png
+2025-09-05 17:38:59.015 | INFO     | __main__:main:399 - Saved scatter plot for group a28 to images/phys-prop-scatters/densities/scatter-a28.png
+2025-09-05 17:38:59.016 | INFO     | __main__:main:369 - Skipping group a31 with 1 entries (< 10)
+2025-09-05 17:38:59.016 | INFO     | __main__:main:369 - Skipping group a32 with 1 entries (< 10)
+2025-09-05 17:39:11.455 | INFO     | __main__:main:399 - Saved scatter plot for group a41 to images/phys-prop-scatters/densities/scatter-a41.png
+2025-09-05 17:39:11.456 | INFO     | __main__:main:369 - Skipping group a41a with 1 entries (< 10)
+2025-09-05 17:40:30.271 | INFO     | __main__:main:399 - Saved scatter plot for group t1 to images/phys-prop-scatters/densities/scatter-t1.png
+2025-09-05 17:41:31.452 | INFO     | __main__:main:399 - Saved scatter plot for group t2 to images/phys-prop-scatters/densities/scatter-t2.png
+2025-09-05 17:43:12.797 | INFO     | __main__:main:399 - Saved scatter plot for group t3 to images/phys-prop-scatters/densities/scatter-t3.png
+2025-09-05 17:44:34.573 | INFO     | __main__:main:399 - Saved scatter plot for group t4 to images/phys-prop-scatters/densities/scatter-t4.png
+2025-09-05 17:44:46.344 | INFO     | __main__:main:399 - Saved scatter plot for group t5 to images/phys-prop-scatters/densities/scatter-t5.png
+2025-09-05 17:44:50.825 | INFO     | __main__:main:399 - Saved scatter plot for group t6 to images/phys-prop-scatters/densities/scatter-t6.png
+2025-09-05 17:44:58.016 | INFO     | __main__:main:399 - Saved scatter plot for group t7 to images/phys-prop-scatters/densities/scatter-t7.png
+2025-09-05 17:45:04.873 | INFO     | __main__:main:399 - Saved scatter plot for group t8 to images/phys-prop-scatters/densities/scatter-t8.png
+2025-09-05 17:46:13.439 | INFO     | __main__:main:399 - Saved scatter plot for group t9 to images/phys-prop-scatters/densities/scatter-t9.png
+2025-09-05 17:46:17.852 | INFO     | __main__:main:399 - Saved scatter plot for group t10 to images/phys-prop-scatters/densities/scatter-t10.png
+2025-09-05 17:46:37.030 | INFO     | __main__:main:399 - Saved scatter plot for group t11 to images/phys-prop-scatters/densities/scatter-t11.png
+2025-09-05 17:46:51.216 | INFO     | __main__:main:399 - Saved scatter plot for group t12 to images/phys-prop-scatters/densities/scatter-t12.png
+2025-09-05 17:47:36.730 | INFO     | __main__:main:399 - Saved scatter plot for group t17 to images/phys-prop-scatters/densities/scatter-t17.png
+2025-09-05 17:47:51.959 | INFO     | __main__:main:399 - Saved scatter plot for group t17a to images/phys-prop-scatters/densities/scatter-t17a.png
+2025-09-05 17:48:24.135 | INFO     | __main__:main:399 - Saved scatter plot for group t18 to images/phys-prop-scatters/densities/scatter-t18.png
+2025-09-05 17:49:07.127 | INFO     | __main__:main:399 - Saved scatter plot for group t19 to images/phys-prop-scatters/densities/scatter-t19.png
+2025-09-05 17:49:11.025 | INFO     | __main__:main:399 - Saved scatter plot for group t20 to images/phys-prop-scatters/densities/scatter-t20.png
+2025-09-05 17:49:11.025 | INFO     | __main__:main:369 - Skipping group t21 with 1 entries (< 10)
+2025-09-05 17:49:16.857 | INFO     | __main__:main:399 - Saved scatter plot for group t23 to images/phys-prop-scatters/densities/scatter-t23.png
+2025-09-05 17:49:20.617 | INFO     | __main__:main:399 - Saved scatter plot for group t43 to images/phys-prop-scatters/densities/scatter-t43.png
+2025-09-05 17:49:44.148 | INFO     | __main__:main:399 - Saved scatter plot for group t44 to images/phys-prop-scatters/densities/scatter-t44.png
+2025-09-05 17:49:49.346 | INFO     | __main__:main:399 - Saved scatter plot for group t45 to images/phys-prop-scatters/densities/scatter-t45.png
+2025-09-05 17:49:49.347 | INFO     | __main__:main:369 - Skipping group t46 with 6 entries (< 10)
+2025-09-05 17:49:49.347 | INFO     | __main__:main:369 - Skipping group t47 with 9 entries (< 10)
+2025-09-05 17:50:02.003 | INFO     | __main__:main:399 - Saved scatter plot for group t51 to images/phys-prop-scatters/densities/scatter-t51.png
+2025-09-05 17:50:12.832 | INFO     | __main__:main:399 - Saved scatter plot for group t58a to images/phys-prop-scatters/densities/scatter-t58a.png
+2025-09-05 17:50:25.317 | INFO     | __main__:main:399 - Saved scatter plot for group t64 to images/phys-prop-scatters/densities/scatter-t64.png
+2025-09-05 17:50:31.083 | INFO     | __main__:main:399 - Saved scatter plot for group t67 to images/phys-prop-scatters/densities/scatter-t67.png
+2025-09-05 17:50:35.349 | INFO     | __main__:main:399 - Saved scatter plot for group t71 to images/phys-prop-scatters/densities/scatter-t71.png
+2025-09-05 17:50:39.564 | INFO     | __main__:main:399 - Saved scatter plot for group t72 to images/phys-prop-scatters/densities/scatter-t72.png
+2025-09-05 17:50:45.815 | INFO     | __main__:main:399 - Saved scatter plot for group t74 to images/phys-prop-scatters/densities/scatter-t74.png
+2025-09-05 17:50:53.495 | INFO     | __main__:main:399 - Saved scatter plot for group t75 to images/phys-prop-scatters/densities/scatter-t75.png
+2025-09-05 17:51:01.348 | INFO     | __main__:main:399 - Saved scatter plot for group t77 to images/phys-prop-scatters/densities/scatter-t77.png
+2025-09-05 17:51:08.486 | INFO     | __main__:main:399 - Saved scatter plot for group t80 to images/phys-prop-scatters/densities/scatter-t80.png
+2025-09-05 17:51:08.487 | INFO     | __main__:main:369 - Skipping group t82 with 4 entries (< 10)
+2025-09-05 17:51:08.487 | INFO     | __main__:main:369 - Skipping group t83 with 4 entries (< 10)
+2025-09-05 17:51:15.802 | INFO     | __main__:main:399 - Saved scatter plot for group t84 to images/phys-prop-scatters/densities/scatter-t84.png
+2025-09-05 17:51:23.031 | INFO     | __main__:main:399 - Saved scatter plot for group t85 to images/phys-prop-scatters/densities/scatter-t85.png
+2025-09-05 17:51:27.740 | INFO     | __main__:main:399 - Saved scatter plot for group t86 to images/phys-prop-scatters/densities/scatter-t86.png
+2025-09-05 17:52:06.039 | INFO     | __main__:main:399 - Saved scatter plot for group t93 to images/phys-prop-scatters/densities/scatter-t93.png
+2025-09-05 17:52:43.088 | INFO     | __main__:main:399 - Saved scatter plot for group t94 to images/phys-prop-scatters/densities/scatter-t94.png
+2025-09-05 17:53:46.263 | INFO     | __main__:main:399 - Saved scatter plot for group t95 to images/phys-prop-scatters/densities/scatter-t95.png
+2025-09-05 17:54:10.547 | INFO     | __main__:main:399 - Saved scatter plot for group t96 to images/phys-prop-scatters/densities/scatter-t96.png
+2025-09-05 17:54:35.914 | INFO     | __main__:main:399 - Saved scatter plot for group t97 to images/phys-prop-scatters/densities/scatter-t97.png
+2025-09-05 17:54:39.788 | INFO     | __main__:main:399 - Saved scatter plot for group t98 to images/phys-prop-scatters/densities/scatter-t98.png
+2025-09-05 17:54:44.476 | INFO     | __main__:main:399 - Saved scatter plot for group t105 to images/phys-prop-scatters/densities/scatter-t105.png
+2025-09-05 17:54:49.416 | INFO     | __main__:main:399 - Saved scatter plot for group t106 to images/phys-prop-scatters/densities/scatter-t106.png
+2025-09-05 17:55:28.473 | INFO     | __main__:main:399 - Saved scatter plot for group t107 to images/phys-prop-scatters/densities/scatter-t107.png
+2025-09-05 17:55:33.323 | INFO     | __main__:main:399 - Saved scatter plot for group t108 to images/phys-prop-scatters/densities/scatter-t108.png
+2025-09-05 17:55:33.324 | INFO     | __main__:main:369 - Skipping group t109 with 7 entries (< 10)
+2025-09-05 17:56:12.458 | INFO     | __main__:main:399 - Saved scatter plot for group t110 to images/phys-prop-scatters/densities/scatter-t110.png
+2025-09-05 17:56:12.458 | INFO     | __main__:main:369 - Skipping group t111 with 5 entries (< 10)
+2025-09-05 17:56:12.459 | INFO     | __main__:main:369 - Skipping group t118 with 1 entries (< 10)
+2025-09-05 17:56:12.459 | INFO     | __main__:main:369 - Skipping group t119 with 1 entries (< 10)
+2025-09-05 17:56:12.459 | INFO     | __main__:main:369 - Skipping group t120 with 1 entries (< 10)
+2025-09-05 17:56:17.579 | INFO     | __main__:main:399 - Saved scatter plot for group t166 to images/phys-prop-scatters/densities/scatter-t166.png
+2025-09-05 17:56:58.799 | INFO     | __main__:main:399 - Saved scatter plot for group i1 to images/phys-prop-scatters/densities/scatter-i1.png
+2025-09-05 17:57:38.241 | INFO     | __main__:main:399 - Saved scatter plot for group i2 to images/phys-prop-scatters/densities/scatter-i2.png
+2025-09-05 17:57:52.611 | INFO     | __main__:main:399 - Saved scatter plot for group i4 to images/phys-prop-scatters/densities/scatter-i4.png
+2025-09-05 17:57:56.703 | INFO     | __main__:main:399 - Saved scatter plot for group i6 to images/phys-prop-scatters/densities/scatter-i6.png
+2025-09-05 17:57:56.704 | INFO     | __main__:main:369 - Skipping group i7 with 4 entries (< 10)
+2025-09-05 17:59:35.258 | INFO     | __main__:main:399 - Saved scatter plot for group n2 to images/phys-prop-scatters/densities/scatter-n2.png
+2025-09-05 18:01:14.003 | INFO     | __main__:main:399 - Saved scatter plot for group n3 to images/phys-prop-scatters/densities/scatter-n3.png
+2025-09-05 18:01:18.056 | INFO     | __main__:main:399 - Saved scatter plot for group n4 to images/phys-prop-scatters/densities/scatter-n4.png
+2025-09-05 18:01:18.056 | INFO     | __main__:main:369 - Skipping group n5 with 4 entries (< 10)
+2025-09-05 18:01:43.312 | INFO     | __main__:main:399 - Saved scatter plot for group n7 to images/phys-prop-scatters/densities/scatter-n7.png
+2025-09-05 18:01:51.955 | INFO     | __main__:main:399 - Saved scatter plot for group n8 to images/phys-prop-scatters/densities/scatter-n8.png
+2025-09-05 18:02:08.790 | INFO     | __main__:main:399 - Saved scatter plot for group n9 to images/phys-prop-scatters/densities/scatter-n9.png
+2025-09-05 18:02:22.061 | INFO     | __main__:main:399 - Saved scatter plot for group n11 to images/phys-prop-scatters/densities/scatter-n11.png
+2025-09-05 18:03:02.734 | INFO     | __main__:main:399 - Saved scatter plot for group n12 to images/phys-prop-scatters/densities/scatter-n12.png
+2025-09-05 18:04:20.128 | INFO     | __main__:main:399 - Saved scatter plot for group n14 to images/phys-prop-scatters/densities/scatter-n14.png
+2025-09-05 18:04:25.367 | INFO     | __main__:main:399 - Saved scatter plot for group n15 to images/phys-prop-scatters/densities/scatter-n15.png
+2025-09-05 18:06:14.021 | INFO     | __main__:main:399 - Saved scatter plot for group n16 to images/phys-prop-scatters/densities/scatter-n16.png
+2025-09-05 18:07:10.555 | INFO     | __main__:main:399 - Saved scatter plot for group n17 to images/phys-prop-scatters/densities/scatter-n17.png
+2025-09-05 18:08:13.572 | INFO     | __main__:main:399 - Saved scatter plot for group n18 to images/phys-prop-scatters/densities/scatter-n18.png
+2025-09-05 18:08:53.898 | INFO     | __main__:main:399 - Saved scatter plot for group n19 to images/phys-prop-scatters/densities/scatter-n19.png
+2025-09-05 18:09:23.655 | INFO     | __main__:main:399 - Saved scatter plot for group n20 to images/phys-prop-scatters/densities/scatter-n20.png
+2025-09-05 18:09:23.656 | INFO     | __main__:main:369 - Skipping group n21 with 1 entries (< 10)
+2025-09-05 18:09:29.839 | INFO     | __main__:main:399 - Saved scatter plot for group n23 to images/phys-prop-scatters/densities/scatter-n23.png
+2025-09-05 18:09:50.153 | INFO     | __main__:main:399 - Saved scatter plot for group n24 to images/phys-prop-scatters/densities/scatter-n24.png
+2025-09-05 18:10:03.877 | INFO     | __main__:main:399 - Saved scatter plot for group n25 to images/phys-prop-scatters/densities/scatter-n25.png
+2025-09-05 18:10:13.692 | INFO     | __main__:main:399 - Saved scatter plot for group n-tip3p-O to images/phys-prop-scatters/densities/scatter-n-tip3p-O.png
+2025-09-05 18:10:23.541 | INFO     | __main__:main:399 - Saved scatter plot for group n-tip3p-H to images/phys-prop-scatters/densities/scatter-n-tip3p-H.png
+2025-09-05 18:10:23.563 | INFO     | __main__:main:410 - Saved combined stats to output/phys-prop/density/stats.csv

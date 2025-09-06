@@ -1,0 +1,155 @@
+2025-09-05 18:25:59.700 | INFO     | __main__:main:189 - Read 3672 rows from output/phys-prop/density/stats.csv
+2025-09-05 18:25:59.700 | INFO     | __main__:main:192 - Filtered to 1836 rows with given force fields
+2025-09-05 18:26:00.055 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-1,2 Aminoalcohol.png
+2025-09-05 18:26:00.288 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-1,2 Diol.png
+2025-09-05 18:26:00.511 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Acetal.png
+2025-09-05 18:26:00.741 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Alcohol.png
+2025-09-05 18:26:00.978 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Alkane.png
+2025-09-05 18:26:01.225 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Alkene.png
+2025-09-05 18:26:01.453 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Alkyl Bromide.png
+2025-09-05 18:26:01.725 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Alkyl Chloride.png
+2025-09-05 18:26:01.947 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Alkyl Fluoride.png
+2025-09-05 18:26:02.175 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Alkylarylether.png
+2025-09-05 18:26:02.394 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-All.png
+2025-09-05 18:26:02.620 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Amine.png
+2025-09-05 18:26:02.846 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Aqueous.png
+2025-09-05 18:26:03.076 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Aromatic.png
+2025-09-05 18:26:03.350 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Aryl Chloride.png
+2025-09-05 18:26:03.564 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Carbonyl.png
+2025-09-05 18:26:03.783 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Carboxylic Acid Amide.png
+2025-09-05 18:26:04.003 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Carboxylic Acid Derivative.png
+2025-09-05 18:26:04.215 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Carboxylic Acid Ester.png
+2025-09-05 18:26:04.438 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Carboxylic Acid Tertiary Amide.png
+2025-09-05 18:26:04.672 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Dialkylether.png
+2025-09-05 18:26:04.974 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Ether.png
+2025-09-05 18:26:05.205 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Halogen Derivative.png
+2025-09-05 18:26:05.420 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Heterocycle.png
+2025-09-05 18:26:05.647 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Hydroxy.png
+2025-09-05 18:26:05.865 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Ketone.png
+2025-09-05 18:26:06.086 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Lactam.png
+2025-09-05 18:26:06.309 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Nitrile.png
+2025-09-05 18:26:06.594 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Orthocarboxylic Acid Derivative.png
+2025-09-05 18:26:06.820 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Primary Alcohol.png
+2025-09-05 18:26:07.037 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Primary Aliphatic Amine.png
+2025-09-05 18:26:07.246 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Primary Amine.png
+2025-09-05 18:26:07.463 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Primary Aromatic Amine.png
+2025-09-05 18:26:07.680 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Secondary Alcohol.png
+2025-09-05 18:26:07.910 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Secondary Aliphatic Amine.png
+2025-09-05 18:26:08.174 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Secondary Amine.png
+2025-09-05 18:26:08.389 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Secondary Mixed Amine.png
+2025-09-05 18:26:08.606 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Tertiary Alcohol.png
+2025-09-05 18:26:08.822 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Tertiary Aliphatic Amine.png
+2025-09-05 18:26:09.039 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-Tertiary Amine.png
+2025-09-05 18:26:09.261 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a1.png
+2025-09-05 18:26:09.469 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a10.png
+2025-09-05 18:26:09.743 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a11.png
+2025-09-05 18:26:09.962 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a12.png
+2025-09-05 18:26:10.179 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a14.png
+2025-09-05 18:26:10.393 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a15.png
+2025-09-05 18:26:10.613 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a16.png
+2025-09-05 18:26:10.835 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a18.png
+2025-09-05 18:26:11.056 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a19.png
+2025-09-05 18:26:11.328 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a2.png
+2025-09-05 18:26:11.540 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a20.png
+2025-09-05 18:26:11.753 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a21.png
+2025-09-05 18:26:11.990 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a22.png
+2025-09-05 18:26:12.201 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a28.png
+2025-09-05 18:26:12.414 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-a41.png
+2025-09-05 18:26:12.624 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b1.png
+2025-09-05 18:26:12.899 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b10.png
+2025-09-05 18:26:13.119 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b12.png
+2025-09-05 18:26:13.338 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b13.png
+2025-09-05 18:26:13.557 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b14.png
+2025-09-05 18:26:13.780 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b16.png
+2025-09-05 18:26:14.002 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b18.png
+2025-09-05 18:26:14.225 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b19.png
+2025-09-05 18:26:14.497 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b2.png
+2025-09-05 18:26:14.707 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b20.png
+2025-09-05 18:26:14.922 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b21.png
+2025-09-05 18:26:15.139 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b25.png
+2025-09-05 18:26:15.361 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b27.png
+2025-09-05 18:26:15.569 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b3.png
+2025-09-05 18:26:15.791 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b4.png
+2025-09-05 18:26:16.063 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b5.png
+2025-09-05 18:26:16.280 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b6.png
+2025-09-05 18:26:16.499 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b69.png
+2025-09-05 18:26:16.706 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b7.png
+2025-09-05 18:26:16.930 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b70.png
+2025-09-05 18:26:17.144 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b71.png
+2025-09-05 18:26:17.367 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b73.png
+2025-09-05 18:26:17.639 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b8.png
+2025-09-05 18:26:17.869 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b84.png
+2025-09-05 18:26:18.095 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b85.png
+2025-09-05 18:26:18.316 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b87.png
+2025-09-05 18:26:18.544 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b88.png
+2025-09-05 18:26:18.765 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-b9.png
+2025-09-05 18:26:18.982 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-i1.png
+2025-09-05 18:26:19.240 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-i2.png
+2025-09-05 18:26:19.450 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-i4.png
+2025-09-05 18:26:19.668 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-i6.png
+2025-09-05 18:26:19.897 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n-tip3p-H.png
+2025-09-05 18:26:20.124 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n-tip3p-O.png
+2025-09-05 18:26:20.334 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n11.png
+2025-09-05 18:26:20.555 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n12.png
+2025-09-05 18:26:20.828 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n14.png
+2025-09-05 18:26:21.044 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n15.png
+2025-09-05 18:26:21.263 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n16.png
+2025-09-05 18:26:21.479 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n17.png
+2025-09-05 18:26:21.700 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n18.png
+2025-09-05 18:26:21.919 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n19.png
+2025-09-05 18:26:22.140 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n2.png
+2025-09-05 18:26:22.420 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n20.png
+2025-09-05 18:26:22.637 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n23.png
+2025-09-05 18:26:22.845 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n24.png
+2025-09-05 18:26:23.077 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n25.png
+2025-09-05 18:26:23.296 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n3.png
+2025-09-05 18:26:23.506 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n4.png
+2025-09-05 18:26:23.717 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n7.png
+2025-09-05 18:26:23.979 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n8.png
+2025-09-05 18:26:24.192 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-n9.png
+2025-09-05 18:26:24.405 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t1.png
+2025-09-05 18:26:24.626 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t10.png
+2025-09-05 18:26:24.843 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t105.png
+2025-09-05 18:26:25.057 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t106.png
+2025-09-05 18:26:25.268 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t107.png
+2025-09-05 18:26:25.547 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t108.png
+2025-09-05 18:26:25.760 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t11.png
+2025-09-05 18:26:25.970 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t110.png
+2025-09-05 18:26:26.199 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t12.png
+2025-09-05 18:26:26.423 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t166.png
+2025-09-05 18:26:26.633 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t17.png
+2025-09-05 18:26:26.847 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t17a.png
+2025-09-05 18:26:27.108 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t18.png
+2025-09-05 18:26:27.321 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t19.png
+2025-09-05 18:26:27.535 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t2.png
+2025-09-05 18:26:27.765 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t20.png
+2025-09-05 18:26:27.985 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t23.png
+2025-09-05 18:26:28.204 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t3.png
+2025-09-05 18:26:28.428 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t4.png
+2025-09-05 18:26:28.696 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t43.png
+2025-09-05 18:26:28.915 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t44.png
+2025-09-05 18:26:29.140 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t45.png
+2025-09-05 18:26:29.369 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t5.png
+2025-09-05 18:26:29.593 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t51.png
+2025-09-05 18:26:29.818 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t58a.png
+2025-09-05 18:26:30.030 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t6.png
+2025-09-05 18:26:30.300 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t64.png
+2025-09-05 18:26:30.525 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t67.png
+2025-09-05 18:26:30.747 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t7.png
+2025-09-05 18:26:30.963 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t71.png
+2025-09-05 18:26:31.177 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t72.png
+2025-09-05 18:26:31.398 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t74.png
+2025-09-05 18:26:31.607 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t75.png
+2025-09-05 18:26:31.891 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t77.png
+2025-09-05 18:26:32.123 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t8.png
+2025-09-05 18:26:32.353 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t80.png
+2025-09-05 18:26:32.572 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t84.png
+2025-09-05 18:26:32.799 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t85.png
+2025-09-05 18:26:33.021 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t86.png
+2025-09-05 18:26:33.240 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t9.png
+2025-09-05 18:26:33.509 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t93.png
+2025-09-05 18:26:33.723 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t94.png
+2025-09-05 18:26:33.946 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t95.png
+2025-09-05 18:26:34.163 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t96.png
+2025-09-05 18:26:34.386 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t97.png
+2025-09-05 18:26:34.595 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/densities/stats-t98.png

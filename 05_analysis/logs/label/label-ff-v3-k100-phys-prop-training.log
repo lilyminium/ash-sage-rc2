@@ -1,0 +1,2 @@
+2025-09-03 07:51:06.720 | INFO     | __main__:main:102 - Found 128 unique smiles to label
+2025-09-03 07:51:08.688 | INFO     | __main__:main:129 - Wrote 2389 rows to labels/forcefields/v3-k100/phys-prop-training.parquet

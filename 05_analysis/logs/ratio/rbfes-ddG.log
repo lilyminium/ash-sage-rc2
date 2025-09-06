@@ -1,0 +1,24 @@
+2025-09-05 17:04:20.627 | INFO     | __main__:main:212 - Read 3115 entries from ../04_benchmark/rbfes/output/ddG.csv
+2025-09-05 17:04:20.627 | INFO     | __main__:main:215 - Read 3115 entries from 1 files
+2025-09-05 17:04:20.628 | INFO     | __main__:main:227 - Filtered to 1698 entries with known forcefields
+2025-09-05 17:04:20.630 | INFO     | __main__:main:238 - Filtered to 1698 entries with all 6 forcefields
+2025-09-05 17:04:20.630 | INFO     | __main__:main:244 - Found 199 unique SMILES to label
+2025-09-05 17:04:20.646 | INFO     | __main__:main:250 - Loaded 1990 checkmol labels from labels/checkmol
+2025-09-05 17:04:20.710 | INFO     | __main__:main:255 - Loaded 10817 forcefield labels from labels/forcefields/v1-k100
+2025-09-05 17:04:20.941 | INFO     | __main__:main:293 - Found 50 unique Checkmol groups
+2025-09-05 17:04:20.941 | INFO     | __main__:main:300 - Found 30 unique Angles forcefield parameters
+2025-09-05 17:04:20.941 | INFO     | __main__:main:300 - Found 43 unique Bonds forcefield parameters
+2025-09-05 17:04:20.941 | INFO     | __main__:main:300 - Found 6 unique ImproperTorsions forcefield parameters
+2025-09-05 17:04:20.941 | INFO     | __main__:main:300 - Found 87 unique ProperTorsions forcefield parameters
+2025-09-05 17:04:20.941 | INFO     | __main__:main:300 - Found 20 unique vdW forcefield parameters
+2025-09-05 17:04:22.759 | INFO     | __main__:main:328 - Wrote 1698 entries to output/jacs/ddG/labelled-properties.csv
+2025-09-05 17:04:22.759 | INFO     | __main__:main:343 - Using abs error threshold 1.2
+2025-09-05 17:04:22.761 | INFO     | __main__:main:367 - Found 86 high error entries for Sage 2.2.1 + AshGC
+2025-09-05 17:04:22.767 | INFO     | __main__:main:367 - Found 83 high error entries for Sage 2.2.1 + ELF10
+2025-09-05 17:04:22.772 | INFO     | __main__:main:367 - Found 73 high error entries for Sage 2.2.1+AM1-BCC
+2025-09-05 17:04:22.778 | INFO     | __main__:main:367 - Found 80 high error entries for Sage 2.3.0rc0 + AshGC
+2025-09-05 17:04:22.785 | INFO     | __main__:main:367 - Found 76 high error entries for Sage 2.3.0rc0 + ELF10
+2025-09-05 17:04:22.791 | INFO     | __main__:main:367 - Found 81 high error entries for Sage 2.3.0rc1 + AshGC
+2025-09-05 17:04:22.798 | INFO     | __main__:main:412 - Found 212 overrepresented groups (ratio_representation > 1.5) across 6 forcefields
+2025-09-05 17:04:22.798 | INFO     | __main__:main:416 - Overrepresented groups: b38, a5, t69, t57, t56, t140, b35, t138, t69, a5, t140, t138, t69, t57, t56, b38, b35, a5, a5, t69, 1,2 Aminoalcohol, t69, a5, t69, a5, b25, 1,2 Aminoalcohol, Thioether, Phenol, t106, b18, t21, t119, t120, 1,2 Aminoalcohol, Tertiary Alcohol, Urea, Urea, Tertiary Alcohol, Tertiary Alcohol, Urea, Tertiary Alcohol, 1,2 Aminoalcohol, Urea, t120, t119, 1,2 Aminoalcohol, t120, t119, t119, t120, t21, t146b, t146b, b42, a25, b28, Nitro Compound, t82, a26, a38, t165, Alkyne, b51, t83a, t76, t76, t152, t140, b38, t165, Alkyne, t57, a38, t138, b28, b35, t56, t120, t150, 1,2 Diol, t119, b51, t76, 1,2 Diol, a25, t152, a26, t150, b51, t94, b42, t83a, t82, t106, a38, Phenol, Nitro Compound, b18, t76, t138, t56, t106, t57, t94, b51, b69, t150, t140, b18, 1,2 Diol, Alkyne, Phenol, b38, a8, a9, a38, a7, b35, b28, t165, t152, t19a, t18a, a37, Sulfone, t146b, t118, a7, t138, t152, t150, 1,2 Diol, t140, a8, t56, b35, b38, Thioether, a9, t57, t76, t111, Sulfone, t94, Thioether, t56, 1,2 Diol, t138, t140, t150, t152, t165, Secondary Alcohol, t57, Alkyne, b28, b35, b38, a7, a8, a9, t18a, t19a, a6, a4, a3, t15, t16, a37, t58a, t18a, t19a, t73, t48, Oxohetarene, t42, t27, t111, a41a, t58a, t118, Diarylether, t110, Carbamic Acid Derivative, Carbamic Acid Ester, b20, t107, t13, t14, t19a, t18a, b20, t110, t107, Carbamic Acid Derivative, Carbamic Acid Ester, t118, Secondary Mixed Amine, t58a, b52, t76, t115, t117a, Secondary Mixed Amine, t20, b17, n12, n19, b88, Hydroxy, t146b
+2025-09-05 17:04:22.805 | INFO     | __main__:main:420 - Wrote 1416 ratio representation entries to output/jacs/ddG/ratio_representation_1.2.csv

@@ -1,0 +1,148 @@
+2025-09-05 18:26:36.203 | INFO     | __main__:main:189 - Read 3504 rows from output/phys-prop/dhmix/stats.csv
+2025-09-05 18:26:36.204 | INFO     | __main__:main:192 - Filtered to 1752 rows with given force fields
+2025-09-05 18:26:36.568 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-1,2 Diol.png
+2025-09-05 18:26:36.796 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Acetal.png
+2025-09-05 18:26:37.028 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Alcohol.png
+2025-09-05 18:26:37.249 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Alkane.png
+2025-09-05 18:26:37.472 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Alkyl Bromide.png
+2025-09-05 18:26:37.698 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Alkyl Chloride.png
+2025-09-05 18:26:37.932 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Alkyl Fluoride.png
+2025-09-05 18:26:38.195 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Alkylarylether.png
+2025-09-05 18:26:38.420 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-All.png
+2025-09-05 18:26:38.648 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Amine.png
+2025-09-05 18:26:38.865 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Aqueous.png
+2025-09-05 18:26:39.086 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Aromatic.png
+2025-09-05 18:26:39.315 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Aryl Chloride.png
+2025-09-05 18:26:39.536 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Carbonyl.png
+2025-09-05 18:26:39.813 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Carboxylic Acid Amide.png
+2025-09-05 18:26:40.027 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Carboxylic Acid Derivative.png
+2025-09-05 18:26:40.242 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Carboxylic Acid Ester.png
+2025-09-05 18:26:40.477 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Carboxylic Acid Tertiary Amide.png
+2025-09-05 18:26:40.709 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Dialkylether.png
+2025-09-05 18:26:40.938 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Ether.png
+2025-09-05 18:26:41.168 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Halogen Derivative.png
+2025-09-05 18:26:41.446 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Heterocycle.png
+2025-09-05 18:26:41.675 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Hydroxy.png
+2025-09-05 18:26:41.902 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Ketone.png
+2025-09-05 18:26:42.125 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Lactam.png
+2025-09-05 18:26:42.355 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Nitrile.png
+2025-09-05 18:26:42.582 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Orthocarboxylic Acid Derivative.png
+2025-09-05 18:26:42.811 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Primary Alcohol.png
+2025-09-05 18:26:43.090 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Primary Aliphatic Amine.png
+2025-09-05 18:26:43.309 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Primary Amine.png
+2025-09-05 18:26:43.528 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Primary Aromatic Amine.png
+2025-09-05 18:26:43.759 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Secondary Aliphatic Amine.png
+2025-09-05 18:26:43.991 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Secondary Amine.png
+2025-09-05 18:26:44.209 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Secondary Mixed Amine.png
+2025-09-05 18:26:44.442 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Tertiary Alcohol.png
+2025-09-05 18:26:44.713 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Tertiary Aliphatic Amine.png
+2025-09-05 18:26:44.935 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-Tertiary Amine.png
+2025-09-05 18:26:45.163 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a1.png
+2025-09-05 18:26:45.394 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a10.png
+2025-09-05 18:26:45.615 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a11.png
+2025-09-05 18:26:45.839 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a14.png
+2025-09-05 18:26:46.109 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a15.png
+2025-09-05 18:26:46.345 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a16.png
+2025-09-05 18:26:46.586 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a18.png
+2025-09-05 18:26:46.820 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a19.png
+2025-09-05 18:26:47.060 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a2.png
+2025-09-05 18:26:47.292 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a20.png
+2025-09-05 18:26:47.512 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a21.png
+2025-09-05 18:26:47.790 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a22.png
+2025-09-05 18:26:48.022 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a28.png
+2025-09-05 18:26:48.243 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-a41.png
+2025-09-05 18:26:48.457 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b1.png
+2025-09-05 18:26:48.686 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b10.png
+2025-09-05 18:26:48.915 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b12.png
+2025-09-05 18:26:49.129 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b13.png
+2025-09-05 18:26:49.405 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b14.png
+2025-09-05 18:26:49.626 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b16.png
+2025-09-05 18:26:49.848 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b18.png
+2025-09-05 18:26:50.069 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b19.png
+2025-09-05 18:26:50.294 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b2.png
+2025-09-05 18:26:50.519 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b20.png
+2025-09-05 18:26:50.743 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b21.png
+2025-09-05 18:26:51.023 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b25.png
+2025-09-05 18:26:51.248 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b27.png
+2025-09-05 18:26:51.472 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b3.png
+2025-09-05 18:26:51.695 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b4.png
+2025-09-05 18:26:51.921 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b5.png
+2025-09-05 18:26:52.147 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b6.png
+2025-09-05 18:26:52.375 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b69.png
+2025-09-05 18:26:52.649 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b7.png
+2025-09-05 18:26:52.880 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b70.png
+2025-09-05 18:26:53.098 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b71.png
+2025-09-05 18:26:53.322 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b73.png
+2025-09-05 18:26:53.539 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b8.png
+2025-09-05 18:26:53.766 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b84.png
+2025-09-05 18:26:53.983 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b85.png
+2025-09-05 18:26:54.276 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b87.png
+2025-09-05 18:26:54.504 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b88.png
+2025-09-05 18:26:54.735 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-b9.png
+2025-09-05 18:26:54.951 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-i1.png
+2025-09-05 18:26:55.165 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-i2.png
+2025-09-05 18:26:55.406 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-i4.png
+2025-09-05 18:26:55.629 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n-tip3p-H.png
+2025-09-05 18:26:55.969 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n-tip3p-O.png
+2025-09-05 18:26:56.196 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n11.png
+2025-09-05 18:26:56.415 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n12.png
+2025-09-05 18:26:56.630 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n14.png
+2025-09-05 18:26:56.876 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n15.png
+2025-09-05 18:26:57.114 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n16.png
+2025-09-05 18:26:57.349 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n17.png
+2025-09-05 18:26:57.639 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n18.png
+2025-09-05 18:26:57.877 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n19.png
+2025-09-05 18:26:58.093 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n2.png
+2025-09-05 18:26:58.315 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n20.png
+2025-09-05 18:26:58.534 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n23.png
+2025-09-05 18:26:58.753 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n24.png
+2025-09-05 18:26:58.971 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n25.png
+2025-09-05 18:26:59.255 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n3.png
+2025-09-05 18:26:59.479 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n4.png
+2025-09-05 18:26:59.707 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n7.png
+2025-09-05 18:26:59.938 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n8.png
+2025-09-05 18:27:00.181 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-n9.png
+2025-09-05 18:27:00.414 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t1.png
+2025-09-05 18:27:00.654 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t10.png
+2025-09-05 18:27:00.941 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t105.png
+2025-09-05 18:27:01.167 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t106.png
+2025-09-05 18:27:01.391 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t107.png
+2025-09-05 18:27:01.615 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t108.png
+2025-09-05 18:27:01.842 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t11.png
+2025-09-05 18:27:02.063 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t110.png
+2025-09-05 18:27:02.293 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t12.png
+2025-09-05 18:27:02.529 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t166.png
+2025-09-05 18:27:02.811 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t17.png
+2025-09-05 18:27:03.045 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t17a.png
+2025-09-05 18:27:03.289 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t18.png
+2025-09-05 18:27:03.524 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t19.png
+2025-09-05 18:27:03.752 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t2.png
+2025-09-05 18:27:03.995 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t23.png
+2025-09-05 18:27:04.222 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t3.png
+2025-09-05 18:27:04.508 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t4.png
+2025-09-05 18:27:04.736 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t44.png
+2025-09-05 18:27:04.960 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t45.png
+2025-09-05 18:27:05.203 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t5.png
+2025-09-05 18:27:05.444 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t51.png
+2025-09-05 18:27:05.675 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t58a.png
+2025-09-05 18:27:05.908 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t6.png
+2025-09-05 18:27:06.184 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t64.png
+2025-09-05 18:27:06.416 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t67.png
+2025-09-05 18:27:06.631 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t7.png
+2025-09-05 18:27:06.848 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t71.png
+2025-09-05 18:27:07.071 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t72.png
+2025-09-05 18:27:07.300 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t74.png
+2025-09-05 18:27:07.524 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t75.png
+2025-09-05 18:27:07.799 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t77.png
+2025-09-05 18:27:08.013 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t8.png
+2025-09-05 18:27:08.228 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t80.png
+2025-09-05 18:27:08.453 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t84.png
+2025-09-05 18:27:08.688 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t85.png
+2025-09-05 18:27:08.913 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t86.png
+2025-09-05 18:27:09.131 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t9.png
+2025-09-05 18:27:09.420 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t93.png
+2025-09-05 18:27:09.664 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t94.png
+2025-09-05 18:27:09.889 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t95.png
+2025-09-05 18:27:10.115 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t96.png
+2025-09-05 18:27:10.339 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t97.png
+2025-09-05 18:27:10.562 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-smee/dhmixes/stats-t98.png

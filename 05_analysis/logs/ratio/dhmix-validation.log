@@ -1,0 +1,24 @@
+2025-09-05 17:04:07.369 | INFO     | __main__:main:212 - Read 2616 entries from ../04_benchmark/phys-prop/output/validation/summary-benchmarks-EnthalpyOfMixing.csv
+2025-09-05 17:04:07.369 | INFO     | __main__:main:215 - Read 2616 entries from 1 files
+2025-09-05 17:04:07.370 | INFO     | __main__:main:227 - Filtered to 2616 entries with known forcefields
+2025-09-05 17:04:07.371 | INFO     | __main__:main:238 - Filtered to 2616 entries with all 6 forcefields
+2025-09-05 17:04:07.371 | INFO     | __main__:main:244 - Found 69 unique SMILES to label
+2025-09-05 17:04:07.380 | INFO     | __main__:main:250 - Loaded 378 checkmol labels from labels/checkmol
+2025-09-05 17:04:07.381 | INFO     | __main__:main:255 - Loaded 2992 forcefield labels from labels/forcefields/v1-k100
+2025-09-05 17:04:07.572 | INFO     | __main__:main:293 - Found 20 unique Checkmol groups
+2025-09-05 17:04:07.572 | INFO     | __main__:main:300 - Found 7 unique Angles forcefield parameters
+2025-09-05 17:04:07.572 | INFO     | __main__:main:300 - Found 15 unique Bonds forcefield parameters
+2025-09-05 17:04:07.572 | INFO     | __main__:main:300 - Found 25 unique ProperTorsions forcefield parameters
+2025-09-05 17:04:07.572 | INFO     | __main__:main:300 - Found 15 unique vdW forcefield parameters
+2025-09-05 17:04:07.572 | INFO     | __main__:main:300 - Found 2 unique ImproperTorsions forcefield parameters
+2025-09-05 17:04:08.376 | INFO     | __main__:main:328 - Wrote 2616 entries to output/phys-prop/dhmix-validation/labelled-properties.csv
+2025-09-05 17:04:08.376 | INFO     | __main__:main:343 - Using abs error threshold 0.3
+2025-09-05 17:04:08.377 | INFO     | __main__:main:367 - Found 151 high error entries for Sage 2.0.0
+2025-09-05 17:04:08.380 | INFO     | __main__:main:367 - Found 102 high error entries for Sage 2.2.1
+2025-09-05 17:04:08.382 | INFO     | __main__:main:367 - Found 85 high error entries for Sage 2.3.0rc1
+2025-09-05 17:04:08.384 | INFO     | __main__:main:367 - Found 91 high error entries for smee-v2
+2025-09-05 17:04:08.386 | INFO     | __main__:main:367 - Found 95 high error entries for v1-k100
+2025-09-05 17:04:08.388 | INFO     | __main__:main:367 - Found 88 high error entries for v3-k100
+2025-09-05 17:04:08.391 | INFO     | __main__:main:412 - Found 106 overrepresented groups (ratio_representation > 1.5) across 6 forcefields
+2025-09-05 17:04:08.391 | INFO     | __main__:main:416 - Overrepresented groups: b18, t106, Phenol, b18, t106, Phenol, Phenol, b18, Ketone, Carbonyl, t106, Phenol, b18, t106, 1,2 Diol, Phenol, Carbonyl, Ketone, t106, b18, 1,2 Diol, Alkyl Fluoride, n-tip3p-O, Aqueous, Carbonyl, t6, Ketone, Heterocycle, n-tip3p-H, t6, Alkyl Fluoride, t5, n-tip3p-H, n-tip3p-O, Aqueous, Orthocarboxylic Acid Derivative, t5, Orthocarboxylic Acid Derivative, Aqueous, n-tip3p-H, n-tip3p-O, Alkyl Fluoride, t5, t6, t6, Alkyl Fluoride, t8, n23, b69, Alkyl Fluoride, t6, Phenol, t106, Ketone, Carbonyl, b18, t5, 1,2 Diol, n-tip3p-O, n-tip3p-H, Aqueous, Orthocarboxylic Acid Derivative, Heterocycle, Orthocarboxylic Acid Derivative, t5, t10, Orthocarboxylic Acid Derivative, b69, n23, n23, b69, n-tip3p-H, n-tip3p-O, Aqueous, 1,2 Diol, Heterocycle, n23, b69, n9, t6, Alkyl Fluoride, 1,2 Diol, t10, Orthocarboxylic Acid Derivative, b69, n23, t5, 1,2 Diol, Heterocycle, n-tip3p-H, t8, n-tip3p-O, Aqueous, n23, b69, t8, Dialkylether, Ether, t96, t10, t8, t10, b85, a11, n9, n9
+2025-09-05 17:04:08.394 | INFO     | __main__:main:420 - Wrote 504 ratio representation entries to output/phys-prop/dhmix-validation/ratio_representation_0.3.csv

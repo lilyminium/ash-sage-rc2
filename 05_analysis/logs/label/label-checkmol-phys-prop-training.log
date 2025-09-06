@@ -1,0 +1,2 @@
+2025-09-03 07:50:52.110 | INFO     | __main__:main:79 - Found 128 unique smiles to label
+2025-09-03 07:50:53.612 | INFO     | __main__:main:103 - Wrote 362 rows to labels/checkmol/phys-prop-training.parquet

@@ -1,0 +1,155 @@
+2025-09-05 18:24:31.299 | INFO     | __main__:main:189 - Read 3672 rows from output/phys-prop/density/stats.csv
+2025-09-05 18:24:31.300 | INFO     | __main__:main:192 - Filtered to 3060 rows with given force fields
+2025-09-05 18:24:31.691 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-1,2 Aminoalcohol.png
+2025-09-05 18:24:31.951 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-1,2 Diol.png
+2025-09-05 18:24:32.198 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Acetal.png
+2025-09-05 18:24:32.452 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Alcohol.png
+2025-09-05 18:24:32.712 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Alkane.png
+2025-09-05 18:24:33.016 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Alkene.png
+2025-09-05 18:24:33.266 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Alkyl Bromide.png
+2025-09-05 18:24:33.513 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Alkyl Chloride.png
+2025-09-05 18:24:33.752 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Alkyl Fluoride.png
+2025-09-05 18:24:33.999 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Alkylarylether.png
+2025-09-05 18:24:34.246 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-All.png
+2025-09-05 18:24:34.528 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Amine.png
+2025-09-05 18:24:34.775 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Aqueous.png
+2025-09-05 18:24:35.025 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Aromatic.png
+2025-09-05 18:24:35.273 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Aryl Chloride.png
+2025-09-05 18:24:35.515 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Carbonyl.png
+2025-09-05 18:24:35.813 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Carboxylic Acid Amide.png
+2025-09-05 18:24:36.064 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Carboxylic Acid Derivative.png
+2025-09-05 18:24:36.305 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Carboxylic Acid Ester.png
+2025-09-05 18:24:36.556 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Carboxylic Acid Tertiary Amide.png
+2025-09-05 18:24:36.795 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Dialkylether.png
+2025-09-05 18:24:37.088 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Ether.png
+2025-09-05 18:24:37.333 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Halogen Derivative.png
+2025-09-05 18:24:37.588 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Heterocycle.png
+2025-09-05 18:24:37.837 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Hydroxy.png
+2025-09-05 18:24:38.077 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Ketone.png
+2025-09-05 18:24:38.333 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Lactam.png
+2025-09-05 18:24:38.640 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Nitrile.png
+2025-09-05 18:24:38.906 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Orthocarboxylic Acid Derivative.png
+2025-09-05 18:24:39.157 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Primary Alcohol.png
+2025-09-05 18:24:39.409 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Primary Aliphatic Amine.png
+2025-09-05 18:24:39.650 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Primary Amine.png
+2025-09-05 18:24:39.950 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Primary Aromatic Amine.png
+2025-09-05 18:24:40.200 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Secondary Alcohol.png
+2025-09-05 18:24:40.450 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Secondary Aliphatic Amine.png
+2025-09-05 18:24:40.700 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Secondary Amine.png
+2025-09-05 18:24:40.938 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Secondary Mixed Amine.png
+2025-09-05 18:24:41.237 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Tertiary Alcohol.png
+2025-09-05 18:24:41.498 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Tertiary Aliphatic Amine.png
+2025-09-05 18:24:41.753 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-Tertiary Amine.png
+2025-09-05 18:24:42.010 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a1.png
+2025-09-05 18:24:42.267 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a10.png
+2025-09-05 18:24:42.587 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a11.png
+2025-09-05 18:24:42.843 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a12.png
+2025-09-05 18:24:43.098 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a14.png
+2025-09-05 18:24:43.338 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a15.png
+2025-09-05 18:24:43.582 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a16.png
+2025-09-05 18:24:43.829 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a18.png
+2025-09-05 18:24:44.123 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a19.png
+2025-09-05 18:24:44.367 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a2.png
+2025-09-05 18:24:44.615 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a20.png
+2025-09-05 18:24:44.864 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a21.png
+2025-09-05 18:24:45.116 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a22.png
+2025-09-05 18:24:45.463 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a28.png
+2025-09-05 18:24:45.727 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-a41.png
+2025-09-05 18:24:45.986 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b1.png
+2025-09-05 18:24:46.268 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b10.png
+2025-09-05 18:24:46.533 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b12.png
+2025-09-05 18:24:46.802 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b13.png
+2025-09-05 18:24:47.131 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b14.png
+2025-09-05 18:24:47.390 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b16.png
+2025-09-05 18:24:47.664 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b18.png
+2025-09-05 18:24:47.936 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b19.png
+2025-09-05 18:24:48.200 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b2.png
+2025-09-05 18:24:48.515 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b20.png
+2025-09-05 18:24:48.794 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b21.png
+2025-09-05 18:24:49.057 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b25.png
+2025-09-05 18:24:49.304 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b27.png
+2025-09-05 18:24:49.550 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b3.png
+2025-09-05 18:24:49.881 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b4.png
+2025-09-05 18:24:50.147 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b5.png
+2025-09-05 18:24:50.415 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b6.png
+2025-09-05 18:24:50.671 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b69.png
+2025-09-05 18:24:50.922 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b7.png
+2025-09-05 18:24:51.171 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b70.png
+2025-09-05 18:24:51.486 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b71.png
+2025-09-05 18:24:51.737 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b73.png
+2025-09-05 18:24:51.991 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b8.png
+2025-09-05 18:24:52.250 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b84.png
+2025-09-05 18:24:52.500 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b85.png
+2025-09-05 18:24:52.785 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b87.png
+2025-09-05 18:24:53.051 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b88.png
+2025-09-05 18:24:53.317 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-b9.png
+2025-09-05 18:24:53.573 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-i1.png
+2025-09-05 18:24:53.812 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-i2.png
+2025-09-05 18:24:54.117 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-i4.png
+2025-09-05 18:24:54.390 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-i6.png
+2025-09-05 18:24:54.645 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n-tip3p-H.png
+2025-09-05 18:24:54.897 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n-tip3p-O.png
+2025-09-05 18:24:55.148 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n11.png
+2025-09-05 18:24:55.398 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n12.png
+2025-09-05 18:24:55.702 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n14.png
+2025-09-05 18:24:55.967 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n15.png
+2025-09-05 18:24:56.223 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n16.png
+2025-09-05 18:24:56.480 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n17.png
+2025-09-05 18:24:56.728 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n18.png
+2025-09-05 18:24:57.037 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n19.png
+2025-09-05 18:24:57.282 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n2.png
+2025-09-05 18:24:57.531 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n20.png
+2025-09-05 18:24:57.779 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n23.png
+2025-09-05 18:24:58.030 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n24.png
+2025-09-05 18:24:58.280 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n25.png
+2025-09-05 18:24:58.583 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n3.png
+2025-09-05 18:24:58.834 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n4.png
+2025-09-05 18:24:59.081 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n7.png
+2025-09-05 18:24:59.322 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n8.png
+2025-09-05 18:24:59.568 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-n9.png
+2025-09-05 18:24:59.891 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t1.png
+2025-09-05 18:25:00.140 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t10.png
+2025-09-05 18:25:00.385 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t105.png
+2025-09-05 18:25:00.627 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t106.png
+2025-09-05 18:25:00.860 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t107.png
+2025-09-05 18:25:01.167 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t108.png
+2025-09-05 18:25:01.413 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t11.png
+2025-09-05 18:25:01.648 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t110.png
+2025-09-05 18:25:01.891 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t12.png
+2025-09-05 18:25:02.132 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t166.png
+2025-09-05 18:25:02.378 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t17.png
+2025-09-05 18:25:02.673 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t17a.png
+2025-09-05 18:25:02.916 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t18.png
+2025-09-05 18:25:03.154 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t19.png
+2025-09-05 18:25:03.402 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t2.png
+2025-09-05 18:25:03.650 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t20.png
+2025-09-05 18:25:03.947 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t23.png
+2025-09-05 18:25:04.189 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t3.png
+2025-09-05 18:25:04.429 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t4.png
+2025-09-05 18:25:04.673 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t43.png
+2025-09-05 18:25:04.921 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t44.png
+2025-09-05 18:25:05.165 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t45.png
+2025-09-05 18:25:05.482 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t5.png
+2025-09-05 18:25:05.732 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t51.png
+2025-09-05 18:25:05.975 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t58a.png
+2025-09-05 18:25:06.215 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t6.png
+2025-09-05 18:25:06.460 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t64.png
+2025-09-05 18:25:06.757 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t67.png
+2025-09-05 18:25:07.006 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t7.png
+2025-09-05 18:25:07.258 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t71.png
+2025-09-05 18:25:07.499 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t72.png
+2025-09-05 18:25:07.744 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t74.png
+2025-09-05 18:25:08.043 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t75.png
+2025-09-05 18:25:08.293 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t77.png
+2025-09-05 18:25:08.541 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t8.png
+2025-09-05 18:25:08.790 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t80.png
+2025-09-05 18:25:09.029 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t84.png
+2025-09-05 18:25:09.284 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t85.png
+2025-09-05 18:25:09.591 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t86.png
+2025-09-05 18:25:09.856 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t9.png
+2025-09-05 18:25:10.120 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t93.png
+2025-09-05 18:25:10.368 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t94.png
+2025-09-05 18:25:10.611 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t95.png
+2025-09-05 18:25:10.915 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t96.png
+2025-09-05 18:25:11.161 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t97.png
+2025-09-05 18:25:11.412 | INFO     | __main__:main:213 - Saved plot to images/compare-physprop/compare-refit/densities/stats-t98.png

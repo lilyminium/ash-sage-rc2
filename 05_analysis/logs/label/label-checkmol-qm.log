@@ -1,0 +1,2 @@
+2025-09-03 08:03:03.044 | INFO     | __main__:main:79 - Found 11961 unique smiles to label
+2025-09-03 08:05:24.569 | INFO     | __main__:main:103 - Wrote 88480 rows to labels/checkmol/qm.parquet

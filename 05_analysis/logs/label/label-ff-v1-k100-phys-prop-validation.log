@@ -1,0 +1,2 @@
+2025-09-03 07:51:02.748 | INFO     | __main__:main:102 - Found 158 unique smiles to label
+2025-09-03 07:51:05.129 | INFO     | __main__:main:129 - Wrote 2957 rows to labels/forcefields/v1-k100/phys-prop-validation.parquet

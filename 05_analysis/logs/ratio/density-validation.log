@@ -1,0 +1,24 @@
+2025-09-05 17:04:03.338 | INFO     | __main__:main:212 - Read 3708 entries from ../04_benchmark/phys-prop/output/validation/summary-benchmarks-Density.csv
+2025-09-05 17:04:03.338 | INFO     | __main__:main:215 - Read 3708 entries from 1 files
+2025-09-05 17:04:03.340 | INFO     | __main__:main:227 - Filtered to 3708 entries with known forcefields
+2025-09-05 17:04:03.341 | INFO     | __main__:main:238 - Filtered to 3708 entries with all 6 forcefields
+2025-09-05 17:04:03.342 | INFO     | __main__:main:244 - Found 158 unique SMILES to label
+2025-09-05 17:04:03.455 | INFO     | __main__:main:250 - Loaded 1063 checkmol labels from labels/checkmol
+2025-09-05 17:04:03.457 | INFO     | __main__:main:255 - Loaded 7113 forcefield labels from labels/forcefields/v1-k100
+2025-09-05 17:04:03.723 | INFO     | __main__:main:293 - Found 44 unique Checkmol groups
+2025-09-05 17:04:03.723 | INFO     | __main__:main:300 - Found 18 unique Angles forcefield parameters
+2025-09-05 17:04:03.723 | INFO     | __main__:main:300 - Found 32 unique Bonds forcefield parameters
+2025-09-05 17:04:03.723 | INFO     | __main__:main:300 - Found 56 unique ProperTorsions forcefield parameters
+2025-09-05 17:04:03.723 | INFO     | __main__:main:300 - Found 22 unique vdW forcefield parameters
+2025-09-05 17:04:03.723 | INFO     | __main__:main:300 - Found 5 unique ImproperTorsions forcefield parameters
+2025-09-05 17:04:06.443 | INFO     | __main__:main:328 - Wrote 3708 entries to output/phys-prop/density-validation/labelled-properties.csv
+2025-09-05 17:04:06.444 | INFO     | __main__:main:343 - Using abs error threshold 0.05
+2025-09-05 17:04:06.445 | INFO     | __main__:main:367 - Found 16 high error entries for Sage 2.0.0
+2025-09-05 17:04:06.450 | INFO     | __main__:main:367 - Found 17 high error entries for Sage 2.2.1
+2025-09-05 17:04:06.455 | INFO     | __main__:main:367 - Found 9 high error entries for Sage 2.3.0rc1
+2025-09-05 17:04:06.460 | INFO     | __main__:main:367 - Found 17 high error entries for smee-v2
+2025-09-05 17:04:06.465 | INFO     | __main__:main:367 - Found 13 high error entries for v1-k100
+2025-09-05 17:04:06.470 | INFO     | __main__:main:367 - Found 12 high error entries for v3-k100
+2025-09-05 17:04:06.476 | INFO     | __main__:main:412 - Found 184 overrepresented groups (ratio_representation > 1.5) across 6 forcefields
+2025-09-05 17:04:06.476 | INFO     | __main__:main:416 - Overrepresented groups: n5, n5, n5, n5, t98, Acetal, n5, n4, n5, 1,2 Aminoalcohol, Primary Aliphatic Amine, Primary Aliphatic Amine, 1,2 Aminoalcohol, n-tip3p-H, n-tip3p-O, Primary Aliphatic Amine, Primary Aliphatic Amine, Aqueous, Primary Amine, 1,2 Aminoalcohol, 1,2 Aminoalcohol, Primary Aliphatic Amine, Primary Amine, Primary Amine, Secondary Aliphatic Amine, Primary Aliphatic Amine, Primary Amine, Secondary Aliphatic Amine, a19, Primary Amine, Secondary Amine, Primary Amine, a19, Secondary Aliphatic Amine, Aqueous, n-tip3p-H, n-tip3p-O, Primary Aromatic Amine, Secondary Amine, a19, Secondary Amine, Primary Aromatic Amine, n11, Primary Aromatic Amine, t77, t75, b87, Aqueous, n-tip3p-H, n-tip3p-O, 1,2 Aminoalcohol, Secondary Aliphatic Amine, a19, b87, n11, Secondary Amine, Secondary Aliphatic Amine, b87, n11, t51, a19, Amine, n-tip3p-O, Aqueous, n-tip3p-H, b87, n11, Secondary Amine, n-tip3p-H, n-tip3p-O, Aqueous, b7, a19, t51, t74, t58a, a18, t74, t74, b9, Carboxylic Acid Amide, b10, i4, Carboxylic Acid Tertiary Amide, Secondary Aliphatic Amine, t58a, n11, a18, b87, t51, n11, b87, b7, Amine, t58a, a18, Secondary Amine, t10, Amine, t51, b7, Amine, a21, t51, n20, b7, a21, n-tip3p-O, Aqueous, a21, n-tip3p-H, t58a, a18, Amine, t51, Amine, b7, t10, a18, Tertiary Aliphatic Amine, Tertiary Amine, t58a, b8, t10, t10, n20, t64, b8, b7, b8, n20, n20, n20, i4, t58a, a18, t10, a20, i4, Tertiary Aliphatic Amine, Tertiary Amine, t8, b69, n23, n20, Tertiary Amine, Tertiary Aliphatic Amine, n23, b69, n23, b69, Heterocycle, Tertiary Amine, Tertiary Aliphatic Amine, t8, n23, b69, t10, t8, n23, b69, t8, t8, t8, n23, b69, t6, Alkyl Fluoride, t6, Alkyl Fluoride, n25, b73, Alkyl Bromide, t12, Alkyl Fluoride, t6, Alkyl Fluoride, t6, Halogen Derivative, Heterocycle, Heterocycle, Halogen Derivative, a41, Halogen Derivative
+2025-09-05 17:04:06.480 | INFO     | __main__:main:420 - Wrote 1062 ratio representation entries to output/phys-prop/density-validation/ratio_representation_0.05.csv
