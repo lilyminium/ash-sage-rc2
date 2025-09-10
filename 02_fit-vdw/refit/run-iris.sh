@@ -13,7 +13,7 @@ PORT=8009
 source ~/.bashrc
 
 # ENVFILE="evaluator-test-env-openff"
-ENVFILE="evaluator-050-refit"
+ENVFILE="ash-sage-refit"
 
 conda activate $ENVFILE
 
@@ -30,4 +30,5 @@ python execute-fit-slurm-distributed.py                 \
     --walltime              "08:00:00"                  \
     --queue                 "gpu"                       \
     --conda-env             $ENVFILE                    \
+    --extra-script-option   "--exclude=iscc006"         \
     --extra-script-option   "--gpus-per-task=1"              # note: this is Iris specific
