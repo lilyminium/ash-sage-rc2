@@ -1,0 +1,2 @@
+2025-08-23 15:11:04.489 | INFO     | __main__:main:90 - Starting download and filtering process for ../../01_download-data/qm/data/tables/optimization/OpenFF Industry Benchmark Season 1 v1.2.parquet
+2025-08-23 15:11:04.698 | INFO     | __main__:main:102 - Using 4 processes for filtering
