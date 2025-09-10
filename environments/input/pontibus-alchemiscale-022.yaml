@@ -1,0 +1,77 @@
+name: pontibus-alchemiscale-022
+channels:
+  - conda-forge
+  - openeye
+dependencies:
+  - python =3.12
+  - pip
+  
+  # chem
+  - openff-qcsubmit
+  - openff-nagl-base==0.5.2 # v0.5.3 is OpenEye-2025-specific
+  - openff-nagl-models
+  - openeye::openeye-toolkits==2024.2.1
+  - ambertools==23.3
+  - rdkit==2023.09.6
+
+  # other
+  - pandas
+  - tqdm
+  - mdanalysis
+  - scikit-learn
+  - loguru
+  
+  # Jupyter notebooks
+  - jupyterlab>=4
+  - ipywidgets>=8
+  - jupyterlab_execute_time
+  - jupyterlab-lsp
+  - jupyterlab_rise
+  - jedi-language-server
+  - jupyterlab_code_formatter
+  - black
+  - isort
+  - snakeviz
+  - nglview>=3.0.6,<3.1.0
+  - tabulate
+  - cinnabar
+  - seaborn
+  - openff-evaluator>=0.4.10
+
+  # alchemiscale
+  - alchemiscale-client =0.6.2
+
+  # openmm protocols
+  - feflow =0.1.4
+
+  # additional pins
+  - gufe =1.6.0
+  - openfe =1.6.0
+  - openmm =8.2.0
+  - openmmforcefields =0.15.0
+  - openff-toolkit =0.17.0
+  - openff-interchange =0.4.5
+  - pontibus =0.1.0
+
+  ## pins due to breaking changes
+  - libsqlite<3.49  # newer versions cause diskcache to fail
+
+  # alchemiscale-fah dependencies
+  - cryptography
+  - plyvel
+
+  # multipy dependencies
+  - numpy >= 1.10.2
+  - scipy >= 0.17.0
+  - matplotlib >= 2.1.0
+  - seaborn >= 0.8.0
+  - scikit-image >= 0.13.0
+
+  # other
+  - loguru
+
+
+  - pip:
+    - git+https://github.com/OpenFreeEnergy/alchemiscale-fah.git@v0.2.2
+    - git+https://github.com/OpenFreeEnergy/pontibus.git@v0.1.0
+    - multipy
