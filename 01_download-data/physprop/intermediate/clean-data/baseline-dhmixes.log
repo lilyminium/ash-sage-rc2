@@ -1,0 +1,14 @@
+2025-09-11 10:21:06.166 | INFO     | __main__:main:36 - Loaded ../../initial/input/thermoml.csv with 503672 rows
+2025-09-11 10:21:06.174 | INFO     | __main__:main:40 - Identified 31721 rows with EnthalpyOfMixing data
+2025-09-11 10:21:06.174 | INFO     | __main__:main:43 - Identified 145 rows with 0 kJ/mol EnthalpyOfMixing data, indicating baseline values
+2025-09-11 10:21:06.174 | INFO     | __main__:main:46 - These baseline dhmixes come from 23 unique DOIs: ['10.1016/j.fluid.2009.11.030' '10.1016/j.fluid.2017.12.031'
+ '10.1016/j.jct.2008.12.004' '10.1016/j.fluid.2016.05.031'
+ '10.1016/j.fluid.2009.10.018' '10.1016/j.jct.2007.06.009'
+ '10.1016/j.jct.2018.12.019' '10.1016/j.fluid.2010.07.005'
+ '10.1016/j.jct.2007.06.017' '10.1016/j.fluid.2012.01.007'
+ '10.1016/j.fluid.2010.03.001' '10.1016/j.fluid.2012.11.005'
+ '10.1016/j.tca.2006.02.028' '10.1016/j.fluid.2015.07.053'
+ '10.1016/j.jct.2007.04.002' '10.1021/je7007395' '10.1021/je200595b'
+ '10.1021/je025625m' '10.1021/acs.jced.9b00185' '10.1021/je400184t'
+ '10.1021/je100821g' '10.1021/je0301794' '10.1021/je7002447']
+2025-09-11 10:21:06.176 | INFO     | __main__:main:55 - Saved baseline dhmixes to baseline-dhmixes.csv

@@ -88,4 +88,32 @@ The paper above measures properties above 1 MPa, but somehow this is registering
 
 ###  2.2. <a name='Baselineenthalpiesofmixing'></a>Baseline enthalpies of mixing
 
-There are several data points that *look like* enthalpies of mixing of binary mixtures, but are actually baselines of ternary or quarternary mixtures. These are easily identifiable as they have enthalpies of mixing of 0 kJ/mol.
+There are several data points that *look like* enthalpies of mixing of binary mixtures, but are often baselines of ternary or quarternary mixtures. These are easily identifiable as they have enthalpies of mixing of 0 kJ/mol.
+
+I've added a script `identify-baseline-dhmixes.py` that writes out `baseline-dhmixes.csv` (and `baseline-dhmixes.log`), identifying all properties with an enthalpy of mixing of 0 kJ/mol. This data has been removed from fitting to avoid accidentally using baseline data, however, I have noted valid data points below.
+
+These encompass data from:
+
+* 10.1016/j.fluid.2009.11.030: this data actually does correspond with data from the paper, where all the reported enthalpies of mixing are around -1 to -2 J/mol, although there has been some precision loss in the conversion to 0 kJ/mol.
+* 10.1016/j.fluid.2017.12.031: baseline for binary mixtures
+* 10.1016/j.jct.2008.12.004: baseline for binary mixtures
+* 10.1016/j.fluid.2016.05.031: baseline for binary mixtures
+* 10.1016/j.fluid.2009.10.018: baseline for binary mixtures
+* 10.1016/j.jct.2007.06.009: baseline for binary mixtures
+* 10.1016/j.jct.2018.12.019: baseline for binary mixtures
+* 10.1016/j.fluid.2010.07.005: baseline for binary mixtures
+* 10.1016/j.jct.2007.06.017: this is actually a valid data point that corresponds to the paper.
+* 10.1016/j.fluid.2012.01.007: baseline for binary mixtures
+* 10.1016/j.fluid.2010.03.001: baseline for binary mixtures
+* 10.1016/j.fluid.2012.11.005: baseline for binary mixtures
+* 10.1016/j.tca.2006.02.028: baseline for binary mixtures
+* 10.1016/j.fluid.2015.07.053: baseline for ternary mixtures
+* 10.1016/j.jct.2007.04.002: baseline for binary mixtures
+* 10.1021/je7007395: baseline for binary mixtures
+* 10.1021/je200595b: baseline for quarternary mixtures
+* 10.1021/je025625m: actually valid data points that match the paper
+* 10.1021/acs.jced.9b00185: baseline for binary mixtures
+* 10.1021/je400184t: actually valid data point for binary mixture that matches the paper
+* 10.1021/je100821g: baseline for binary mixture
+* 10.1021/je0301794: baselines for binary mixtures
+* 10.1021/je7002447: actually valid data point from paper
