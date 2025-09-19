@@ -114,15 +114,26 @@ def _get_hash(physical_property) -> int:
 def main(
     input_file: str,
     output_file: str,
+    n_processes: int = 8,
 ):
     df = pd.read_csv(input_file, index_col=0)
     df["Id"] = df["Id"].astype(str)  # Ensure Id is string type
+    n_original = len(df)
+    # filter out duplicates if any
+    df = df.drop_duplicates()
+    logger.info(f"Loaded {n_original} entries from {input_file}, {len(df)} after removing duplicates")
+    df = df.drop_duplicates(subset=["Id"])
+    assert len(df) == len(df["Id"].unique()), "Duplicate Ids found in input file"
+
     dataset = PhysicalPropertyDataSet.from_pandas(df)
     logger.info(f"Loaded {len(dataset)} properties from {input_file}")
 
     SHORT_NAMES = {
         "Density": "dens",
         "EnthalpyOfMixing": "dhmix",
+        "EnthalpyOfVaporization": "dhvap",
+        "ExcessMolarVolume": "emv",
+        "DielectricConstant": "eps",
     }
 
     all_properties = {}
