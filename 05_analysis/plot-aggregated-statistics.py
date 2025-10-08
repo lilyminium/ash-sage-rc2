@@ -107,6 +107,7 @@ def plot_facetgrid(
         sharey=False,
         sharex=False,
         legend_out=True,
+        hue_order=force_field_order,
     )
     g.map_dataframe(draw_errorbars)
 
@@ -137,7 +138,15 @@ def plot_facetgrid(
     multiple=True,
     type=click.Path(exists=True, dir_okay=False, file_okay=True),
     help="Path to the input/s CSV file/s.",
-    required=True,
+    required=False,
+)
+@click.option(
+    "--input-file-directory",
+    "-id",
+    type=click.Path(exists=True, dir_okay=True, file_okay=False),
+    default=None,
+    required=False,
+    help="Path to the directory containing input CSV files.",
 )
 @click.option(
     "--image-directory",
@@ -193,6 +202,7 @@ def main(
     input_files: list[str],
     image_directory: str,
     force_field_order: list[str],
+    input_file_directory: str | None = None,
     force_field_col: str = "FF",
     dodge_spacing: float = 0.1,
     height: float = 4,
@@ -200,6 +210,14 @@ def main(
     unit_str: str = "[kJ/mol]",
 ):
     dfs = []
+    logger.info(f"{len(input_files)} input files specified")
+    if input_file_directory is not None:
+        input_file_directory = pathlib.Path(input_file_directory)
+        additional_files = list(input_file_directory.glob("*.csv"))
+        logger.info(f"Adding {len(additional_files)} files from {input_file_directory}")
+        input_files = list(input_files) + [str(f) for f in additional_files]
+
+
     for input_file in input_files:
         df = pd.read_csv(input_file)
         logger.info(f"Read {len(df)} rows from {input_file}")

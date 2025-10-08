@@ -111,23 +111,35 @@ mkdir -p logs
 #     -ffn "v3-k100" \
 #     -o labels/forcefields/v3-k100/phys-prop-validation.parquet > logs/label-ff-v3-k100-phys-prop-validation.log
 
-
-# qm
 python label-with-checkmol.py \
-    -i ../04_benchmark/qm/all-to-all-rmsd-tfd \
-    -s mapped_smiles \
-    -o labels/checkmol/qm.parquet > logs/label-checkmol-qm.log \
+    -i ../02_fit-vdw/investigate-refit/output/sage-gradient-contributions.csv \
+    -s smiles_1 -s smiles_2 \
+    -o labels/checkmol/sage-phys-prop-training.parquet
 
 python label-with-forcefield.py \
-    -i ../04_benchmark/qm/all-to-all-rmsd-tfd \
-    -s mapped_smiles \
-    -ff ../04_benchmark/forcefields/fb-fit-v1-single-mean-k100.offxml \
-    -ffn "v1-k100" \
-    -o labels/forcefields/v1-k100/qm.parquet > logs/label-ff-v1-k100-qm.log
-
-python label-with-forcefield.py \
-    -i ../04_benchmark/qm/all-to-all-rmsd-tfd \
-    -s mapped_smiles \
+    -i ../02_fit-vdw/investigate-refit/output/sage-gradient-contributions.csv \
+    -s smiles_1 -s smiles_2 \
     -ff ../04_benchmark/forcefields/fb-fit-v3-single-mean-k100.offxml \
     -ffn "v3-k100" \
-    -o labels/forcefields/v3-k100/qm.parquet > logs/label-ff-v3-k100-qm.log
+    -o labels/forcefields/v3-k100/sage-phys-prop-training.parquet
+
+
+# # qm
+# python label-with-checkmol.py \
+#     -i ../04_benchmark/qm/all-to-all-rmsd-tfd \
+#     -s mapped_smiles \
+#     -o labels/checkmol/qm.parquet > logs/label-checkmol-qm.log \
+
+# python label-with-forcefield.py \
+#     -i ../04_benchmark/qm/all-to-all-rmsd-tfd \
+#     -s mapped_smiles \
+#     -ff ../04_benchmark/forcefields/fb-fit-v1-single-mean-k100.offxml \
+#     -ffn "v1-k100" \
+#     -o labels/forcefields/v1-k100/qm.parquet > logs/label-ff-v1-k100-qm.log
+
+# python label-with-forcefield.py \
+#     -i ../04_benchmark/qm/all-to-all-rmsd-tfd \
+#     -s mapped_smiles \
+#     -ff ../04_benchmark/forcefields/fb-fit-v3-single-mean-k100.offxml \
+#     -ffn "v3-k100" \
+#     -o labels/forcefields/v3-k100/qm.parquet > logs/label-ff-v3-k100-qm.log

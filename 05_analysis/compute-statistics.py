@@ -281,7 +281,7 @@ def main(
     stat_dfs = []
     for group in tqdm.tqdm(groups_to_compute, desc="Computing stats"):
         subdf = df[df[group]]
-        if len(subdf) <= 10:
+        if len(subdf) <= 5:
             logger.warning(f"Skipping group {group} with only {len(subdf)} entries")
             continue
         stat_df = compute_stats(

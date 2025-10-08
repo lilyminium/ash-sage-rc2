@@ -105,80 +105,80 @@ mkdir -p logs/ratio
 #     -ff     "${FORCEFIELD_DIR}/fb-fit-v1-single-mean-k100.offxml"      \
 #     --restrict-to-shared-observables > logs/ratio/rbfes-ddG.log
     
-# python get-overrepresented-groups.py \
-#     -i  ../04_benchmark/rbfes/output/dG.csv    \
-#     -nf 'Sage 2.2.1 + ELF10' 'Sage 2.2.1 + ELF10'   \
-#     -nf 'Sage 2.2.1+AM1-BCC' 'Sage 2.2.1+AM1-BCC'   \
-#     -nf 'Sage 2.2.1 + AshGC' 'Sage 2.2.1 + AshGC'   \
-#     -nf 'Sage 2.3.0rc0 + ELF10' 'Sage 2.3.0rc0 + ELF10' \
-#     -nf 'Sage 2.3.0rc0 + AshGC' 'Sage 2.3.0rc0 + AshGC' \
-#     -nf 'Sage 2.3.0rc1 + AshGC' 'Sage 2.3.0rc1 + AshGC' \
-#     -o  output/jacs/dG    \
-#     -s  'SMILES'    \
-#     -e  1.2       -m  abs         \
-#     -cv 'Value (kcal / mol)'     -crv 'Reference Value (kcal / mol)'         \
-#     -cm 'Force Field'    -cff FF         \
-#     -cid 'Mapped SMILES'  \
-#     -lcm    labels/checkmol                 \
-#     -lff    labels/forcefields/v1-k100      \
-#     -ff     "${FORCEFIELD_DIR}/fb-fit-v1-single-mean-k100.offxml"      \
-#     --restrict-to-shared-observables > logs/ratio/rbfes-dG.log
+python get-overrepresented-groups.py \
+    -i  ../04_benchmark/rbfes/output/dG.csv    \
+    -nf 'Sage 2.2.1 + ELF10' 'Sage 2.2.1 + ELF10'   \
+    -nf 'Sage 2.2.1+AM1-BCC' 'Sage 2.2.1+AM1-BCC'   \
+    -nf 'Sage 2.2.1 + AshGC' 'Sage 2.2.1 + AshGC'   \
+    -nf 'Sage 2.3.0rc0 + ELF10' 'Sage 2.3.0rc0 + ELF10' \
+    -nf 'Sage 2.3.0rc0 + AshGC' 'Sage 2.3.0rc0 + AshGC' \
+    -nf 'Sage 2.3.0rc1 + AshGC' 'Sage 2.3.0rc1 + AshGC' \
+    -o  output/jacs/dG    \
+    -s  'SMILES'    \
+    -e  10       -m  abs         \
+    -cv 'Value (kcal / mol)'     -crv 'Reference Value (kcal / mol)'         \
+    -cm 'Force Field'    -cff FF         \
+    -cid 'Mapped SMILES'  \
+    -lcm    labels/checkmol                 \
+    -lff    labels/forcefields/v1-k100      \
+    -ff     "${FORCEFIELD_DIR}/fb-fit-v1-single-mean-k100.offxml"      \
+    --restrict-to-shared-observables > logs/ratio/rbfes-dG.log
 
 # SFEs
 
-python get-overrepresented-groups.py \
-    -i  ../04_benchmark/sfes/output/freesolv.csv    \
-    -nf 'Sage 2.2.1 + ELF10' 'Sage 2.2.1 + ELF10'   \
-    -nf 'Sage 2.2.1 + AmberTools' 'Sage 2.2.1 + AmberTools' \
-    -nf 'Sage 2.2.1 + AshGC' 'Sage 2.2.1 + AshGC' \
-    -nf 'Sage 2.3.0rc1' 'Sage 2.3.0rc1'   \
-    -nf 'v1-k100' 'v1-k100'   \
-    -nf 'v3-k100' 'v3-k100'   \
-    -o  output/sfes/freesolv    \
-    -s  'Solute'  -s 'Solvent'    \
-    -e  1.5       -m  abs         \
-    -cv 'Value (kcal / mol)'     -crv 'Reference Value (kcal / mol)'         \
-    -cm 'Method'    -cff FF         \
-    -cid 'Id'  \
-    -lcm    labels/checkmol                 \
-    -lff    labels/forcefields/v1-k100      \
-    -ff     "${FORCEFIELD_DIR}/fb-fit-v1-single-mean-k100.offxml"      \
-    --restrict-to-shared-observables > logs/ratio/sfes-freesolv.log
+# python get-overrepresented-groups.py \
+#     -i  ../04_benchmark/sfes/output/freesolv.csv    \
+#     -nf 'Sage 2.2.1 + ELF10' 'Sage 2.2.1 + ELF10'   \
+#     -nf 'Sage 2.2.1 + AmberTools' 'Sage 2.2.1 + AmberTools' \
+#     -nf 'Sage 2.2.1 + AshGC' 'Sage 2.2.1 + AshGC' \
+#     -nf 'Sage 2.3.0rc1' 'Sage 2.3.0rc1'   \
+#     -nf 'v1-k100' 'v1-k100'   \
+#     -nf 'v3-k100' 'v3-k100'   \
+#     -o  output/sfes/freesolv    \
+#     -s  'Solute'  -s 'Solvent'    \
+#     -e  1.5       -m  abs         \
+#     -cv 'Value (kcal / mol)'     -crv 'Reference Value (kcal / mol)'         \
+#     -cm 'Method'    -cff FF         \
+#     -cid 'Id'  \
+#     -lcm    labels/checkmol                 \
+#     -lff    labels/forcefields/v1-k100      \
+#     -ff     "${FORCEFIELD_DIR}/fb-fit-v1-single-mean-k100.offxml"      \
+#     --restrict-to-shared-observables > logs/ratio/sfes-freesolv.log
 
-python get-overrepresented-groups.py \
-    -i  ../04_benchmark/sfes/output/mnsol.csv    \
-    -nf 'Sage 2.2.1 + ELF10' 'Sage 2.2.1 + ELF10'   \
-    -nf 'Sage 2.2.1 + AmberTools' 'Sage 2.2.1 + AmberTools' \
-    -nf 'Sage 2.2.1 + AshGC' 'Sage 2.2.1 + AshGC' \
-    -nf 'Sage 2.3.0rc1' 'Sage 2.3.0rc1'   \
-    -nf 'v1-k100' 'v1-k100'   \
-    -nf 'v3-k100' 'v3-k100'   \
-    -o  output/sfes/mnsol    \
-    -s  'Solute'  -s 'Solvent'    \
-    -e  2       -m  abs         \
-    -cv 'Value (kcal / mol)'     -crv 'Reference Value (kcal / mol)'         \
-    -cm 'Method'    -cff FF         \
-    -cid 'Id'  \
-    -lcm    labels/checkmol                 \
-    -lff    labels/forcefields/v1-k100      \
-    -ff     "${FORCEFIELD_DIR}/fb-fit-v1-single-mean-k100.offxml"      \
-    --restrict-to-shared-observables > logs/ratio/sfes-mnsol.log
+# python get-overrepresented-groups.py \
+#     -i  ../04_benchmark/sfes/output/mnsol.csv    \
+#     -nf 'Sage 2.2.1 + ELF10' 'Sage 2.2.1 + ELF10'   \
+#     -nf 'Sage 2.2.1 + AmberTools' 'Sage 2.2.1 + AmberTools' \
+#     -nf 'Sage 2.2.1 + AshGC' 'Sage 2.2.1 + AshGC' \
+#     -nf 'Sage 2.3.0rc1' 'Sage 2.3.0rc1'   \
+#     -nf 'v1-k100' 'v1-k100'   \
+#     -nf 'v3-k100' 'v3-k100'   \
+#     -o  output/sfes/mnsol    \
+#     -s  'Solute'  -s 'Solvent'    \
+#     -e  2       -m  abs         \
+#     -cv 'Value (kcal / mol)'     -crv 'Reference Value (kcal / mol)'         \
+#     -cm 'Method'    -cff FF         \
+#     -cid 'Id'  \
+#     -lcm    labels/checkmol                 \
+#     -lff    labels/forcefields/v1-k100      \
+#     -ff     "${FORCEFIELD_DIR}/fb-fit-v1-single-mean-k100.offxml"      \
+#     --restrict-to-shared-observables > logs/ratio/sfes-mnsol.log
 
-python get-overrepresented-groups.py \
-    -i  ../04_benchmark/sfes/output/tfes.csv    \
-    -nf 'Sage 2.2.1 + ELF10' 'Sage 2.2.1 + ELF10'   \
-    -nf 'Sage 2.2.1 + AmberTools' 'Sage 2.2.1 + AmberTools' \
-    -nf 'Sage 2.2.1 + AshGC' 'Sage 2.2.1 + AshGC' \
-    -nf 'Sage 2.3.0rc1' 'Sage 2.3.0rc1'   \
-    -nf 'v1-k100' 'v1-k100'   \
-    -nf 'v3-k100' 'v3-k100'   \
-    -o  output/sfes/tfes    \
-    -s  'Solute'  -s 'Solvent 2'    \
-    -e  2       -m  abs         \
-    -cv 'Value (kcal / mol)'     -crv 'Reference Value (kcal / mol)'         \
-    -cm 'Method'    -cff FF         \
-    -cid 'Id'  \
-    -lcm    labels/checkmol                 \
-    -lff    labels/forcefields/v1-k100      \
-    -ff     "${FORCEFIELD_DIR}/fb-fit-v1-single-mean-k100.offxml"      \
-    --restrict-to-shared-observables > logs/ratio/sfes-tfes.log
+# python get-overrepresented-groups.py \
+#     -i  ../04_benchmark/sfes/output/tfes.csv    \
+#     -nf 'Sage 2.2.1 + ELF10' 'Sage 2.2.1 + ELF10'   \
+#     -nf 'Sage 2.2.1 + AmberTools' 'Sage 2.2.1 + AmberTools' \
+#     -nf 'Sage 2.2.1 + AshGC' 'Sage 2.2.1 + AshGC' \
+#     -nf 'Sage 2.3.0rc1' 'Sage 2.3.0rc1'   \
+#     -nf 'v1-k100' 'v1-k100'   \
+#     -nf 'v3-k100' 'v3-k100'   \
+#     -o  output/sfes/tfes    \
+#     -s  'Solute'  -s 'Solvent 2'    \
+#     -e  2       -m  abs         \
+#     -cv 'Value (kcal / mol)'     -crv 'Reference Value (kcal / mol)'         \
+#     -cm 'Method'    -cff FF         \
+#     -cid 'Id'  \
+#     -lcm    labels/checkmol                 \
+#     -lff    labels/forcefields/v1-k100      \
+#     -ff     "${FORCEFIELD_DIR}/fb-fit-v1-single-mean-k100.offxml"      \
+#     --restrict-to-shared-observables > logs/ratio/sfes-tfes.log
