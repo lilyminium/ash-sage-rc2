@@ -8,6 +8,8 @@ The scripts here download initial data from the MolSSI QCArchive:
 Please see `run-download.sh` for input/output options, and *.log files for logging output.
 
 
+## Optimizations and Torsiondrives
+
 The following datasets were pooled initially before further data curation. The following simple filters were applied to remove unsuitable data:
 
 * if a record was not complete (had "COMPLETE" status)
@@ -91,6 +93,7 @@ The following datasets were pooled initially before further data curation. The f
 
 
 Molecules containing iodine in the following datasets were removed, due to known issues:
+
     * OpenFF Discrepancy Benchmark 1
     * OpenFF Gen 2 Opt Set 2 Coverage
     * OpenFF Gen 2 Opt Set 4 eMolecules Discrepancy
@@ -100,3 +103,8 @@ Molecules containing iodine in the following datasets were removed, due to known
     * Kinase Inhibitors: WBO Distributions
     * OpenFF Gen 2 Torsion Set 2 Coverage 2
     * OpenFF Gen 2 Torsion Set 4 eMolecules Discrepancy 2
+
+
+## Hessians
+
+Hessian data of all optimization data downloaded in the previous step, was also downloaded. For each molecule, the lowest energy conformer was selected and included in the dataset.
