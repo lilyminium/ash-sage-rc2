@@ -1,5 +1,8 @@
 """
-This applies filters to generate a validation set for physical property data.
+This applies filters to generate an extended validation set for physical property data.
+
+This differs from `filter-data-validation.py` in that it is intended to be used
+on the intermediate filtered data, and to produce a larger validation set.
 
 This builds off https://github.com/openforcefield/openff-sage/blob/main/data-set-curation/physical-property/optimizations/curate-training-set.py
 """
@@ -108,7 +111,64 @@ def curate_data_set(
     n_processes,
 ) -> pd.DataFrame:
     """Curate the input data frame to select a training set based on the defined target states and chemical environments"""
+    allowed_elements = [
+        "C", "O", "N", "Cl", "Br", "H",
+        "F", "S", "P", "I"
+    ]
+
     component_schemas=[
+        # Filter out any measurements made for systems with more than
+        # two components
+        filtering.FilterByNComponentsSchema(n_components=[1, 2]),
+        # Filter out data points measured away from ambient conditions.
+        filtering.FilterByTemperatureSchema(
+            minimum_temperature=288.15, maximum_temperature=318.15
+        ),
+        filtering.FilterByPressureSchema(
+            minimum_pressure=99.9, maximum_pressure=101.4
+        ),
+        # Retain only density and enthalpy of mixing data points which
+        # have been measured for the same systems.
+        # property_type_filter,
+        # Filter out long chain molecules (slower to simulate / converge) and 1, 3
+        # carbonyl compounds where one of the carbonyls is a ketone (cases where
+        # the enol form may be present in non-negligible amounts).
+        filtering.FilterBySmirksSchema(
+            smirks_to_exclude=[
+                # Long chain alkane /ether
+                "-".join(["[#6X4,#8X2]"] * 10),
+                # 1, 3 carbonyls with at least one ketone carbonyl.
+                "[#6](=[#8])-[#6](-[#1])(-[#1])-[#6](=[#8])-[#6]",
+            ],
+        ),
+        # Filter out problematic molecules
+        filtering.FilterBySmilesSchema(
+            smiles_to_exclude=[
+                # Heavy water.
+                "[2H]O[2H]",
+                # Molecules which OpenMM misinterprets
+                "N[C@@H](CS)C(=O)O",
+                "CSCC[C@H](N)C(=O)O",
+                # Molecules which cause NaNs during simulations
+                "O=S(=O)(O)CCCN1CCOCC1",
+            ]
+        ),
+        # Filter out systems where one component is in a significant excess.
+        filtering.FilterByMoleFractionSchema(
+            mole_fraction_ranges={2: [[(0.05, 0.95)]]}
+        ),
+        # Filter out any racemic mixtures
+        filtering.FilterByRacemicSchema(),
+        # Remove any substances measured for systems with undefined
+        # stereochemistry
+        filtering.FilterByStereochemistrySchema(),
+        # Remove any measurements made for systems where any of the components
+        # are charged.
+        filtering.FilterByChargedSchema(),
+        # Remove measurements made for ionic liquids
+        filtering.FilterByIonicLiquidSchema(),
+        # Remove any molecules containing elements that aren't currently of interest
+        filtering.FilterByElementsSchema(allowed_elements=allowed_elements),
         # Remove any molecules containing elements that aren't currently of interest
         selection.SelectDataPointsSchema(target_states=TARGET_STATES),
     ]
@@ -122,7 +182,7 @@ def curate_data_set(
         [
         selection.SelectSubstancesSchema(
             target_environments=CHEMICAL_ENVIRONMENTS,
-            n_per_environment=20,
+            n_per_environment=5,
             per_property=False,
         ),
         filtering.FilterBySubstancesSchema(substances_to_exclude=[("O",)]),
@@ -201,10 +261,13 @@ def main(
 
     if input_file.endswith("json"):
         ds = PhysicalPropertyDataSet.from_json(pathlib.Path(input_file))
+        df = ds.to_pandas()
     else:
         df = pd.read_csv(input_file)
         df["Id"] = df["Id"].astype(str)
-        ds = PhysicalPropertyDataSet.from_pandas(df)
+        # ds = PhysicalPropertyDataSet.from_pandas(df)
+
+    logger.info(f"Loaded {len(df)} properties from {input_file}")
 
     training_set = PhysicalPropertyDataSet()
     for training_file in training_files:
@@ -215,13 +278,14 @@ def main(
 
     # filter out training properties
     training_ids = [x.id for x in training_set.properties]
-    ds2 = PhysicalPropertyDataSet()
-    for prop in ds.properties:
-        if prop.id not in training_ids:
-            ds2.add_properties(prop)
+    thermoml_data_frame = df[~df["Id"].isin(training_ids)]
+    # ds2 = PhysicalPropertyDataSet()
+    # for prop in ds.properties:
+    #     if prop.id not in training_ids:
+    #         ds2.add_properties(prop)
 
-    thermoml_data_frame = ds2.to_pandas()
-    logger.info(f"Loading {len(thermoml_data_frame)} data")
+    # thermoml_data_frame = ds2.to_pandas()
+    logger.info(f"Filtered to {len(thermoml_data_frame)} data")
 
     # load smiles to exclude
     if exclude_file:
@@ -240,8 +304,8 @@ def main(
 
     assert len(training_set_frame) > 0, "No data points left after filtering"
     # make sure we wind up with a reasonable number of data points
-    assert len(training_set_frame) > 1000, "Not enough data points left after filtering"
-    assert len(training_set_frame) < 4000, "Too many data points left after filtering"
+    assert len(training_set_frame) > 500, "Not enough data points left after filtering"
+    # assert len(training_set_frame) < 2000, "Too many data points left after filtering"
 
     ds = PhysicalPropertyDataSet.from_pandas(training_set_frame)
 
