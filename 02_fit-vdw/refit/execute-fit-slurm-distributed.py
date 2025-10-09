@@ -2,7 +2,7 @@
 This script executes a distributed ForceBalance optimization using the OpenFF Evaluator.
 It sets up the environment, prepares the ForceBalance input, and runs the optimization
 on a SLURM cluster using Dask for distributed computing.
-
+\b
 It does the following steps:
 - sets up ForceBalance options and writes them to `targets/phys-prop/options.json`
 - checks if a previous run can be continued, and prepares the restart
@@ -10,7 +10,7 @@ It does the following steps:
 - sets up a Dask SLURM backend with the specified resources
 - starts an Evaluator server to handle requests
 - runs ForceBalance with the specified input file and logs the output to force_balance.log
-
+\b
 This run generates the following output:
 - force_balance.log: The log file for the ForceBalance run
 - results/: the directory with resulting force field
@@ -21,6 +21,10 @@ This run generates the following output:
 - worker-logs/: the directory with the logs for the Dask workers
 - conda-env.yaml: the conda environment used for the run
 - slurm-*.out: the SLURM output files for the workers
+
+The option settings are as follows:
+- equilibration runs for up to 1 ns, with 15 uncorrelated samples requested of density and potential energy
+- production simulation runs for up to 10 ns, with 100 uncorrelated samples requested of density and enthalpies
 """
 
 import logging
@@ -211,7 +215,7 @@ def rename_log_file(log_file):
     logger.info(f"Renamed existing {original_log_file} to {log_file}.")
 
 
-@click.command()
+@click.command(help=__doc__)
 @click.option(
     "--input",
     "input_file",
