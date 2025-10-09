@@ -1,0 +1,24 @@
+2025-09-16 16:43:49.313 | INFO     | __main__:main:212 - Read 2188 entries from ../04_benchmark/rbfes/output/dG.csv
+2025-09-16 16:43:49.313 | INFO     | __main__:main:215 - Read 2188 entries from 1 files
+2025-09-16 16:43:49.314 | INFO     | __main__:main:227 - Filtered to 1194 entries with known forcefields
+2025-09-16 16:43:49.315 | INFO     | __main__:main:238 - Filtered to 1194 entries with all 6 forcefields
+2025-09-16 16:43:49.315 | INFO     | __main__:main:244 - Found 199 unique SMILES to label
+2025-09-16 16:43:49.363 | INFO     | __main__:main:250 - Loaded 1990 checkmol labels from labels/checkmol
+2025-09-16 16:43:49.505 | INFO     | __main__:main:255 - Loaded 10817 forcefield labels from labels/forcefields/v1-k100
+2025-09-16 16:43:49.753 | INFO     | __main__:main:293 - Found 50 unique Checkmol groups
+2025-09-16 16:43:49.753 | INFO     | __main__:main:300 - Found 30 unique Angles forcefield parameters
+2025-09-16 16:43:49.753 | INFO     | __main__:main:300 - Found 43 unique Bonds forcefield parameters
+2025-09-16 16:43:49.753 | INFO     | __main__:main:300 - Found 6 unique ImproperTorsions forcefield parameters
+2025-09-16 16:43:49.753 | INFO     | __main__:main:300 - Found 87 unique ProperTorsions forcefield parameters
+2025-09-16 16:43:49.753 | INFO     | __main__:main:300 - Found 20 unique vdW forcefield parameters
+2025-09-16 16:43:50.870 | INFO     | __main__:main:328 - Wrote 1194 entries to output/jacs/dG/labelled-properties.csv
+2025-09-16 16:43:50.871 | INFO     | __main__:main:343 - Using abs error threshold 10.0
+2025-09-16 16:43:50.872 | INFO     | __main__:main:367 - Found 52 high error entries for Sage 2.2.1 + AshGC
+2025-09-16 16:43:50.878 | INFO     | __main__:main:367 - Found 47 high error entries for Sage 2.2.1 + ELF10
+2025-09-16 16:43:50.884 | INFO     | __main__:main:367 - Found 46 high error entries for Sage 2.2.1+AM1-BCC
+2025-09-16 16:43:50.890 | INFO     | __main__:main:367 - Found 56 high error entries for Sage 2.3.0rc0 + AshGC
+2025-09-16 16:43:50.896 | INFO     | __main__:main:367 - Found 49 high error entries for Sage 2.3.0rc0 + ELF10
+2025-09-16 16:43:50.902 | INFO     | __main__:main:367 - Found 54 high error entries for Sage 2.3.0rc1 + AshGC
+2025-09-16 16:43:50.909 | INFO     | __main__:main:412 - Found 300 overrepresented groups (ratio_representation > 1.5) across 6 forcefields
+2025-09-16 16:43:50.909 | INFO     | __main__:main:416 - Overrepresented groups: Tertiary Alcohol, t69, a5, 1,2 Diol, Alkyl Fluoride, Secondary Alcohol, t21, Alkyl Fluoride, 1,2 Diol, t21, 1,2 Aminoalcohol, Secondary Alcohol, a5, Sulfoxide, a5, b38, b35, t57, t56, a33, Secondary Alcohol, t21, 1,2 Diol, Alkyl Fluoride, t140, t138, t122a, t121a, t118a, a5, Thioether, 1,2 Diol, b35, a33, a38, Sulfoxide, b38, b51, t118a, t121a, t140, t138, Tertiary Alcohol, t122a, t21, t56, t57, Alkyl Fluoride, Secondary Alcohol, a33, 1,2 Diol, a5, Tertiary Alcohol, Sulfoxide, Secondary Alcohol, t118a, b35, b38, Alkyl Fluoride, t121a, t82, t21, t25, t122a, t138, t140, t57, t56, a9, t140, t57, t56, b38, b35, t138, t21, a8, a7, a5, Secondary Alcohol, 1,2 Diol, Alkyl Fluoride, t96, Dialkylether, t48, t73, Oxohetarene, t94, Diarylether, Aryl Fluoride, b68, t48, t73, Oxohetarene, t48, t73, t73, Oxohetarene, Oxohetarene, t48, t94, 1,2 Aminoalcohol, t73, Oxohetarene, t48, t94, b68, Aryl Fluoride, n23, t93, Aryl Fluoride, b68, Diarylether, Diarylether, Diarylether, Dialkylether, t96, Oxohetarene, t73, t48, t82, b14, Alcohol, Aryl Fluoride, b68, n23, Diarylether, Dialkylether, t96, Dialkylether, t96, Primary Alcohol, b68, Aryl Fluoride, t96, Dialkylether, n23, t27, t42, t96, Dialkylether, Diarylether, t82, 1,2 Aminoalcohol, t94, t27, t42, n23, b68, Aryl Fluoride, n23, b88, Hydroxy, n19, n12, 1,2 Aminoalcohol, t42, t27, Secondary Mixed Amine, t82, Alcohol, b14, b14, Alcohol, n23, t94, t93, Secondary Mixed Amine, n8, t27, t42, t120, t119, Secondary Mixed Amine, Secondary Mixed Amine, t140, t57, b88, Thioether, n12, t138, t56, b38, Hydroxy, b35, n19, b88, n19, Hydroxy, n12, t145b, t42, t148b, t27, t56, t57, Thioether, b38, Tertiary Alcohol, t140, t138, b35, b14, Alcohol, n8, Secondary Mixed Amine, n8, t93, Primary Alcohol, a7, t119, t120, a9, a8, Urea, Thioether, Secondary Mixed Amine, t94, n8, n8, b17, t93, b88, n19, Urea, t116, n12, Hydroxy, n8, t120, t119, Alcohol, b14, b17, t116, Thioether, Primary Alcohol, b17, Urea, t119, t120, b17, Secondary Amine, Tertiary Alcohol, Sulfone, Urea, Thioether, Secondary Amine, Secondary Amine, Secondary Amine, Secondary Amine, t120, t119, b17, t93, b9, Hydroxy, n12, n19, b88, b17, Secondary Amine, Primary Alcohol, b12, t85, a22, t84, b14, Alcohol, b9, t85, b12, t84, a22, b9, t119, t120, t93, t118, a32, a31, b12, t85, a22, t84, b12, t84, a22, t85, Sulfone, t27, t42, t74, a22, b12, t85, t84, t74, b9, b9
+2025-09-16 16:43:50.917 | INFO     | __main__:main:420 - Wrote 1416 ratio representation entries to output/jacs/dG/ratio_representation_10.0.csv

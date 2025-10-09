@@ -1,12 +1,12 @@
-2025-09-08 11:04:52.397 | INFO     | __main__:main:132 - Read 3708 entries from ../04_benchmark/phys-prop/output/validation/summary-benchmarks-Density.csv
-2025-09-08 11:04:52.398 | INFO     | __main__:main:135 - Read 3708 entries from 1 files
-2025-09-08 11:04:52.399 | INFO     | __main__:main:150 - Found 158 unique SMILES to label
-2025-09-08 11:04:52.408 | INFO     | __main__:main:156 - Loaded 1063 checkmol labels from labels/checkmol
-2025-09-08 11:04:52.410 | INFO     | __main__:main:161 - Loaded 7177 forcefield labels from labels/forcefields/v3-k100
-2025-09-08 11:04:52.638 | INFO     | __main__:main:199 - Found 44 unique Checkmol groups
-2025-09-08 11:04:52.638 | INFO     | __main__:main:206 - Found 22 unique Angles forcefield parameters
-2025-09-08 11:04:52.638 | INFO     | __main__:main:206 - Found 32 unique Bonds forcefield parameters
-2025-09-08 11:04:52.638 | INFO     | __main__:main:206 - Found 56 unique ProperTorsions forcefield parameters
-2025-09-08 11:04:52.638 | INFO     | __main__:main:206 - Found 22 unique vdW forcefield parameters
-2025-09-08 11:04:52.638 | INFO     | __main__:main:206 - Found 5 unique ImproperTorsions forcefield parameters
-2025-09-08 11:04:55.481 | INFO     | __main__:main:233 - Wrote 3708 entries to output/phys-prop/density-validation/labelled-data.csv
+2025-09-22 14:09:08.999 | INFO     | __main__:main:132 - Read 6798 entries from ../04_benchmark/phys-prop/output/validation/summary-benchmarks-Density.csv
+2025-09-22 14:09:08.999 | INFO     | __main__:main:135 - Read 6798 entries from 1 files
+2025-09-22 14:09:09.001 | INFO     | __main__:main:150 - Found 158 unique SMILES to label
+2025-09-22 14:09:09.011 | INFO     | __main__:main:156 - Loaded 1063 checkmol labels from labels/checkmol
+2025-09-22 14:09:09.013 | INFO     | __main__:main:161 - Loaded 7177 forcefield labels from labels/forcefields/v3-k100
+2025-09-22 14:09:09.242 | INFO     | __main__:main:199 - Found 44 unique Checkmol groups
+2025-09-22 14:09:09.242 | INFO     | __main__:main:206 - Found 22 unique Angles forcefield parameters
+2025-09-22 14:09:09.243 | INFO     | __main__:main:206 - Found 32 unique Bonds forcefield parameters
+2025-09-22 14:09:09.243 | INFO     | __main__:main:206 - Found 56 unique ProperTorsions forcefield parameters
+2025-09-22 14:09:09.243 | INFO     | __main__:main:206 - Found 22 unique vdW forcefield parameters
+2025-09-22 14:09:09.243 | INFO     | __main__:main:206 - Found 5 unique ImproperTorsions forcefield parameters
+2025-09-22 14:09:14.415 | INFO     | __main__:main:233 - Wrote 6798 entries to output/phys-prop/density-validation/labelled-data.csv

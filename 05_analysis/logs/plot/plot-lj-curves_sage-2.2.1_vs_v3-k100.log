@@ -1,0 +1,56 @@
+2025-09-25 17:48:38.857 | INFO     | __main__:main:84 - No change for [#1:1]
+2025-09-25 17:48:38.857 | INFO     | __main__:main:97 - Plotting [#1:1]-[#6X4]: 0.01577948280971 -> 0.01336628116185, 2.6445434132681247 -> 2.6639341018377585
+2025-09-25 17:48:39.042 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n2.png
+2025-09-25 17:48:39.043 | INFO     | __main__:main:97 - Plotting [#1:1]-[#6X4]-[#7,#8,#9,#16,#17,#35]: 0.01640924602775 -> 0.01891997418601, 2.583225710839196 -> 2.5586037672254887
+2025-09-25 17:48:39.130 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n3.png
+2025-09-25 17:48:39.131 | INFO     | __main__:main:97 - Plotting [#1:1]-[#6X4](-[#7,#8,#9,#16,#17,#35])-[#7,#8,#9,#16,#17,#35]: 0.0157 -> 0.01559137568183, 2.2931733004932333 -> 2.295221929000062
+2025-09-25 17:48:39.216 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n4.png
+2025-09-25 17:48:39.216 | INFO     | __main__:main:97 - Plotting [#1:1]-[#6X4](-[#7,#8,#9,#16,#17,#35])(-[#7,#8,#9,#16,#17,#35])-[#7,#8,#9,#16,#17,#35]: 0.0157 -> 0.01517383637638, 2.1149935568651657 -> 2.1183985739788906
+2025-09-25 17:48:39.303 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n5.png
+2025-09-25 17:48:39.303 | INFO     | __main__:main:84 - No change for [#1:1]-[#6X4]~[*+1,*+2]
+2025-09-25 17:48:39.303 | INFO     | __main__:main:97 - Plotting [#1:1]-[#6X3]: 0.01561134320353 -> 0.01597537378736, 2.5725815350632795 -> 2.635395912007423
+2025-09-25 17:48:39.394 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n7.png
+2025-09-25 17:48:39.394 | INFO     | __main__:main:97 - Plotting [#1:1]-[#6X3]~[#7,#8,#9,#16,#17,#35]: 0.01310699839698 -> 0.01761379732429, 2.453626527729973 -> 2.442497558939612
+2025-09-25 17:48:39.481 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n8.png
+2025-09-25 17:48:39.481 | INFO     | __main__:main:97 - Plotting [#1:1]-[#6X3](~[#7,#8,#9,#16,#17,#35])~[#7,#8,#9,#16,#17,#35]: 0.01479744504464 -> 0.01359601107204, 2.4419227541121593 -> 2.444917860217585
+2025-09-25 17:48:39.569 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n9.png
+2025-09-25 17:48:39.569 | INFO     | __main__:main:84 - No change for [#1:1]-[#6X2]
+2025-09-25 17:48:39.569 | INFO     | __main__:main:97 - Plotting [#1:1]-[#7]: 0.01409081474669 -> 0.01386809433135, 1.1034276772973168 -> 1.1592764057959055
+2025-09-25 17:48:39.653 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n11.png
+2025-09-25 17:48:39.653 | INFO     | __main__:main:97 - Plotting [#1:1]-[#8]: 1.232599966667e-05 -> 1.232058709465e-05, 0.5345392308836691 -> 0.5330964133900715
+2025-09-25 17:48:39.737 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n12.png
+2025-09-25 17:48:39.737 | INFO     | __main__:main:84 - No change for [#1:1]-[#16]
+2025-09-25 17:48:39.737 | INFO     | __main__:main:97 - Plotting [#6:1]: 0.0868793154488 -> 0.1033185743622, 3.480646886945065 -> 3.48903243698854
+2025-09-25 17:48:39.823 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n14.png
+2025-09-25 17:48:39.823 | INFO     | __main__:main:97 - Plotting [#6X2:1]: 0.21 -> 0.2681357838595, 3.3996695084235347 -> 3.396289614368574
+2025-09-25 17:48:39.908 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n15.png
+2025-09-25 17:48:39.908 | INFO     | __main__:main:97 - Plotting [#6X4:1]: 0.1088406109251 -> 0.1205698919337, 3.3795317616266205 -> 3.387971073428982
+2025-09-25 17:48:39.992 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n16.png
+2025-09-25 17:48:39.992 | INFO     | __main__:main:97 - Plotting [#8:1]: 0.2102061007896 -> 0.2245605099459, 3.039812205065809 -> 3.032495809281765
+2025-09-25 17:48:40.074 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n17.png
+2025-09-25 17:48:40.074 | INFO     | __main__:main:97 - Plotting [#8X2H0+0:1]: 0.1684651402602 -> 0.08532552033817, 3.025106490435313 -> 3.0333765603356553
+2025-09-25 17:48:40.159 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n18.png
+2025-09-25 17:48:40.159 | INFO     | __main__:main:97 - Plotting [#8X2H1+0:1]: 0.2094735324129 -> 0.1353608645661, 2.9971599872486374 -> 3.0237212943083334
+2025-09-25 17:48:40.271 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n19.png
+2025-09-25 17:48:40.272 | INFO     | __main__:main:97 - Plotting [#7:1]: 0.1676915150424 -> 0.1025954704049, 3.2068760236639013 -> 3.2880617259183826
+2025-09-25 17:48:40.353 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n20.png
+2025-09-25 17:48:40.353 | INFO     | __main__:main:84 - No change for [#16:1]
+2025-09-25 17:48:40.354 | INFO     | __main__:main:84 - No change for [#15:1]
+2025-09-25 17:48:40.354 | INFO     | __main__:main:84 - No change for [#9:1]
+2025-09-25 17:48:40.354 | INFO     | __main__:main:97 - Plotting [#17:1]: 0.2656001046527 -> 0.2378672481785, 3.3075278064606244 -> 3.291353612051696
+2025-09-25 17:48:40.434 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n24.png
+2025-09-25 17:48:40.434 | INFO     | __main__:main:97 - Plotting [#35:1]: 0.3218986365974 -> 0.3359052482848, 3.5097963393985183 -> 3.5003149752169587
+2025-09-25 17:48:40.518 | INFO     | __main__:main:129 - Saved image to images/compare-refit/lj-curves/sage-2.2.1_vs_v3-k100/n25.png
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#53:1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#3+1:1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#11+1:1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#19+1:1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#37+1:1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#55+1:1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#9X0-1:1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#17X0-1:1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#35X0-1:1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#53X0-1:1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#1]-[#8X2H2+0:1]-[#1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#1:1]-[#8X2H2+0]-[#1]
+2025-09-25 17:48:40.518 | INFO     | __main__:main:84 - No change for [#54:1]

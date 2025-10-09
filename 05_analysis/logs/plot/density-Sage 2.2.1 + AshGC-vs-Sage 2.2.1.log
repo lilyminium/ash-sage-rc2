@@ -1,0 +1,8 @@
+2025-09-29 10:17:49.583 | INFO     | __main__:main:144 - Loaded 13332 rows from output/phys-prop/density-all/labelled-data.csv
+2025-09-29 10:17:49.583 | INFO     | __main__:main:147 - Concatenated dataframe has 13332 rows
+2025-09-29 10:17:49.585 | INFO     | __main__:main:153 - Target force field 'Sage 2.2.1 + AshGC' has 1212 rows
+2025-09-29 10:17:49.585 | INFO     | __main__:main:156 - Reference force field 'Sage 2.2.1' has 1212 rows
+2025-09-29 10:17:49.589 | INFO     | __main__:main:171 - After pivoting, 1212 rows have both target and reference data
+2025-09-29 10:17:49.591 | INFO     | __main__:main:184 - Found 1083 rows with water in any of ['smiles_1', 'smiles_2']
+2025-09-29 10:17:49.595 | INFO     | __main__:main:190 - Wrote data with 1212 rows to output/phys-prop/density-all/Sage 2.2.1 + AshGC-vs-Sage 2.2.1.csv
+2025-09-29 10:17:49.878 | INFO     | __main__:main:217 - Saved image to images/compare-refit/density-changes/Sage 2.2.1 + AshGC-vs-Sage 2.2.1.png

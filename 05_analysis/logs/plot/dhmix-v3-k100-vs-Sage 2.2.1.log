@@ -1,0 +1,8 @@
+2025-09-29 10:19:08.179 | INFO     | __main__:main:144 - Loaded 10967 rows from output/phys-prop/dhmix-all/labelled-data.csv
+2025-09-29 10:19:08.180 | INFO     | __main__:main:147 - Concatenated dataframe has 10967 rows
+2025-09-29 10:19:08.181 | INFO     | __main__:main:153 - Target force field 'v3-k100' has 997 rows
+2025-09-29 10:19:08.181 | INFO     | __main__:main:156 - Reference force field 'Sage 2.2.1' has 997 rows
+2025-09-29 10:19:08.186 | INFO     | __main__:main:171 - After pivoting, 997 rows have both target and reference data
+2025-09-29 10:19:08.188 | INFO     | __main__:main:184 - Found 930 rows with water in any of ['smiles_1', 'smiles_2']
+2025-09-29 10:19:08.192 | INFO     | __main__:main:190 - Wrote data with 997 rows to output/phys-prop/dhmix-all/v3-k100-vs-Sage 2.2.1.csv
+2025-09-29 10:19:08.506 | INFO     | __main__:main:217 - Saved image to images/compare-refit/dhmix-changes/v3-k100-vs-Sage 2.2.1.png

@@ -1,0 +1,155 @@
+2025-09-22 15:54:08.172 | INFO     | __main__:main:205 - Read 750 rows from output/phys-prop/dhmix-all/stats/Sage-2.1.0.csv
+2025-09-22 15:54:08.174 | INFO     | __main__:main:205 - Read 750 rows from output/phys-prop/dhmix-all/stats/Null-AAQAA3-3-+-OPC3.csv
+2025-09-22 15:54:08.175 | INFO     | __main__:main:205 - Read 750 rows from output/phys-prop/dhmix-all/stats/Null-4-mer-AAQAA3-2-+-OPC3.csv
+2025-09-22 15:54:08.176 | INFO     | __main__:main:205 - Read 750 rows from output/phys-prop/dhmix-all/stats/v3-k100.csv
+2025-09-22 15:54:08.177 | INFO     | __main__:main:210 - Filtered to 3000 rows with given force fields
+2025-09-22 15:54:08.570 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-1,2 Diol.png
+2025-09-22 15:54:08.842 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Acetal.png
+2025-09-22 15:54:09.102 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Alcohol.png
+2025-09-22 15:54:09.356 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Alkane.png
+2025-09-22 15:54:09.615 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Alkyl Bromide.png
+2025-09-22 15:54:09.873 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Alkyl Chloride.png
+2025-09-22 15:54:10.175 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Alkyl Fluoride.png
+2025-09-22 15:54:10.420 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Alkylarylether.png
+2025-09-22 15:54:10.682 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-All.png
+2025-09-22 15:54:10.951 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Amine.png
+2025-09-22 15:54:11.201 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Aqueous.png
+2025-09-22 15:54:11.495 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Aromatic.png
+2025-09-22 15:54:11.776 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Aryl Chloride.png
+2025-09-22 15:54:12.057 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Carbonyl.png
+2025-09-22 15:54:12.336 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Carboxylic Acid Amide.png
+2025-09-22 15:54:12.638 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Carboxylic Acid Derivative.png
+2025-09-22 15:54:12.940 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Carboxylic Acid Ester.png
+2025-09-22 15:54:13.265 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Carboxylic Acid Tertiary Amide.png
+2025-09-22 15:54:13.534 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Dialkylether.png
+2025-09-22 15:54:13.827 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Ether.png
+2025-09-22 15:54:14.105 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Halogen Derivative.png
+2025-09-22 15:54:14.361 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Heterocycle.png
+2025-09-22 15:54:14.663 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Hydroxy.png
+2025-09-22 15:54:14.921 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Ketone.png
+2025-09-22 15:54:15.188 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Lactam.png
+2025-09-22 15:54:15.443 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Nitrile.png
+2025-09-22 15:54:15.701 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Orthocarboxylic Acid Derivative.png
+2025-09-22 15:54:15.965 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Primary Alcohol.png
+2025-09-22 15:54:16.290 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Primary Aliphatic Amine.png
+2025-09-22 15:54:16.545 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Primary Amine.png
+2025-09-22 15:54:16.810 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Primary Aromatic Amine.png
+2025-09-22 15:54:17.068 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Secondary Aliphatic Amine.png
+2025-09-22 15:54:17.330 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Secondary Amine.png
+2025-09-22 15:54:17.637 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Secondary Mixed Amine.png
+2025-09-22 15:54:17.899 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Tertiary Alcohol.png
+2025-09-22 15:54:18.161 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Tertiary Aliphatic Amine.png
+2025-09-22 15:54:18.420 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-Tertiary Amine.png
+2025-09-22 15:54:18.688 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a1.png
+2025-09-22 15:54:19.027 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a10.png
+2025-09-22 15:54:19.305 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a10a.png
+2025-09-22 15:54:19.567 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a11.png
+2025-09-22 15:54:19.832 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a11a.png
+2025-09-22 15:54:20.079 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a14.png
+2025-09-22 15:54:20.343 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a15.png
+2025-09-22 15:54:20.647 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a16.png
+2025-09-22 15:54:20.908 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a18.png
+2025-09-22 15:54:21.151 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a18a.png
+2025-09-22 15:54:21.408 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a19.png
+2025-09-22 15:54:21.662 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a2.png
+2025-09-22 15:54:21.976 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a20.png
+2025-09-22 15:54:22.219 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a21.png
+2025-09-22 15:54:22.494 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a22.png
+2025-09-22 15:54:22.760 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a28.png
+2025-09-22 15:54:23.017 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a28a.png
+2025-09-22 15:54:23.260 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-a41.png
+2025-09-22 15:54:23.577 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b1.png
+2025-09-22 15:54:23.829 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b10.png
+2025-09-22 15:54:24.080 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b12.png
+2025-09-22 15:54:24.335 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b13.png
+2025-09-22 15:54:24.621 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b14.png
+2025-09-22 15:54:24.893 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b16.png
+2025-09-22 15:54:25.215 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b18.png
+2025-09-22 15:54:25.465 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b19.png
+2025-09-22 15:54:25.720 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b2.png
+2025-09-22 15:54:25.985 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b20.png
+2025-09-22 15:54:26.239 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b21.png
+2025-09-22 15:54:26.540 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b25.png
+2025-09-22 15:54:26.791 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b27.png
+2025-09-22 15:54:27.053 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b3.png
+2025-09-22 15:54:27.317 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b4.png
+2025-09-22 15:54:27.568 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b5.png
+2025-09-22 15:54:27.808 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b6.png
+2025-09-22 15:54:28.116 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b69.png
+2025-09-22 15:54:28.370 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b7.png
+2025-09-22 15:54:28.622 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b70.png
+2025-09-22 15:54:28.870 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b71.png
+2025-09-22 15:54:29.120 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b73.png
+2025-09-22 15:54:29.410 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b8.png
+2025-09-22 15:54:29.661 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b84.png
+2025-09-22 15:54:29.911 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b85.png
+2025-09-22 15:54:30.156 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b87.png
+2025-09-22 15:54:30.411 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b88.png
+2025-09-22 15:54:30.659 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-b9.png
+2025-09-22 15:54:31.015 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-i1.png
+2025-09-22 15:54:31.278 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-i2.png
+2025-09-22 15:54:31.525 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-i4.png
+2025-09-22 15:54:31.776 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n-tip3p-H.png
+2025-09-22 15:54:32.028 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n-tip3p-O.png
+2025-09-22 15:54:32.320 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n11.png
+2025-09-22 15:54:32.569 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n12.png
+2025-09-22 15:54:32.819 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n14.png
+2025-09-22 15:54:33.077 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n15.png
+2025-09-22 15:54:33.336 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n16.png
+2025-09-22 15:54:33.607 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n17.png
+2025-09-22 15:54:33.912 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n18.png
+2025-09-22 15:54:34.185 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n19.png
+2025-09-22 15:54:34.451 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n2.png
+2025-09-22 15:54:34.697 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n20.png
+2025-09-22 15:54:34.942 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n23.png
+2025-09-22 15:54:35.198 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n24.png
+2025-09-22 15:54:35.509 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n25.png
+2025-09-22 15:54:35.785 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n3.png
+2025-09-22 15:54:36.040 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n4.png
+2025-09-22 15:54:36.288 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n7.png
+2025-09-22 15:54:36.541 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n8.png
+2025-09-22 15:54:36.855 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-n9.png
+2025-09-22 15:54:37.114 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t1.png
+2025-09-22 15:54:37.374 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t10.png
+2025-09-22 15:54:37.624 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t105.png
+2025-09-22 15:54:37.884 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t106.png
+2025-09-22 15:54:38.162 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t107.png
+2025-09-22 15:54:38.483 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t108.png
+2025-09-22 15:54:38.742 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t11.png
+2025-09-22 15:54:39.012 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t110.png
+2025-09-22 15:54:39.277 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t12.png
+2025-09-22 15:54:39.545 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t166.png
+2025-09-22 15:54:39.872 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t17.png
+2025-09-22 15:54:40.128 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t17a.png
+2025-09-22 15:54:40.389 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t18.png
+2025-09-22 15:54:40.664 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t19.png
+2025-09-22 15:54:40.917 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t2.png
+2025-09-22 15:54:41.194 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t23.png
+2025-09-22 15:54:41.507 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t3.png
+2025-09-22 15:54:41.770 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t4.png
+2025-09-22 15:54:42.017 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t44.png
+2025-09-22 15:54:42.273 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t45.png
+2025-09-22 15:54:42.537 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t5.png
+2025-09-22 15:54:42.845 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t51.png
+2025-09-22 15:54:43.122 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t58a.png
+2025-09-22 15:54:43.610 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t6.png
+2025-09-22 15:54:43.911 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t64.png
+2025-09-22 15:54:44.216 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t67.png
+2025-09-22 15:54:44.500 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t7.png
+2025-09-22 15:54:44.853 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t71.png
+2025-09-22 15:54:45.113 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t72.png
+2025-09-22 15:54:45.362 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t74.png
+2025-09-22 15:54:45.659 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t75.png
+2025-09-22 15:54:45.946 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t77.png
+2025-09-22 15:54:46.286 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t8.png
+2025-09-22 15:54:46.570 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t80.png
+2025-09-22 15:54:46.833 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t84.png
+2025-09-22 15:54:47.093 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t85.png
+2025-09-22 15:54:47.362 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t86.png
+2025-09-22 15:54:47.647 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t9.png
+2025-09-22 15:54:48.049 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t93.png
+2025-09-22 15:54:48.338 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t94.png
+2025-09-22 15:54:48.624 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t95.png
+2025-09-22 15:54:48.905 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t96.png
+2025-09-22 15:54:49.188 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t97.png
+2025-09-22 15:54:49.457 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/dhmix-all/stats-t98.png

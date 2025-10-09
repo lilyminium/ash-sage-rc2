@@ -1,2 +1,12 @@
-2025-09-08 11:05:06.674 | INFO     | __main__:main:132 - Read 3115 entries from ../04_benchmark/rbfes/output/ddG.csv
-2025-09-08 11:05:06.674 | INFO     | __main__:main:135 - Read 3115 entries from 1 files
+2025-09-16 16:52:43.249 | INFO     | __main__:main:132 - Read 3115 entries from ../04_benchmark/rbfes/output/ddG.csv
+2025-09-16 16:52:43.249 | INFO     | __main__:main:135 - Read 3115 entries from 1 files
+2025-09-16 16:52:43.251 | INFO     | __main__:main:150 - Found 199 unique SMILES to label
+2025-09-16 16:52:43.282 | INFO     | __main__:main:156 - Loaded 1990 checkmol labels from labels/checkmol
+2025-09-16 16:52:43.388 | INFO     | __main__:main:161 - Loaded 10931 forcefield labels from labels/forcefields/v3-k100
+2025-09-16 16:52:43.627 | INFO     | __main__:main:199 - Found 50 unique Checkmol groups
+2025-09-16 16:52:43.627 | INFO     | __main__:main:206 - Found 35 unique Angles forcefield parameters
+2025-09-16 16:52:43.627 | INFO     | __main__:main:206 - Found 44 unique Bonds forcefield parameters
+2025-09-16 16:52:43.627 | INFO     | __main__:main:206 - Found 6 unique ImproperTorsions forcefield parameters
+2025-09-16 16:52:43.627 | INFO     | __main__:main:206 - Found 87 unique ProperTorsions forcefield parameters
+2025-09-16 16:52:43.627 | INFO     | __main__:main:206 - Found 20 unique vdW forcefield parameters
+2025-09-16 16:52:47.436 | INFO     | __main__:main:233 - Wrote 3115 entries to output/jacs/ddG/labelled-data.csv

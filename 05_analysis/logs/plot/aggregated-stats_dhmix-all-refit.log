@@ -1,156 +1,159 @@
-2025-09-08 16:57:01.375 | INFO     | __main__:main:205 - Read 750 rows from output/phys-prop/dhmix-all/stats/Sage-2.0.0.csv
-2025-09-08 16:57:01.377 | INFO     | __main__:main:205 - Read 750 rows from output/phys-prop/dhmix-all/stats/Sage-2.2.1.csv
-2025-09-08 16:57:01.378 | INFO     | __main__:main:205 - Read 750 rows from output/phys-prop/dhmix-all/stats/Sage-2.3.0rc1.csv
-2025-09-08 16:57:01.379 | INFO     | __main__:main:205 - Read 750 rows from output/phys-prop/dhmix-all/stats/v1-k100.csv
-2025-09-08 16:57:01.381 | INFO     | __main__:main:205 - Read 750 rows from output/phys-prop/dhmix-all/stats/v3-k100.csv
-2025-09-08 16:57:01.381 | INFO     | __main__:main:210 - Filtered to 3750 rows with given force fields
-2025-09-08 16:57:01.826 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-1,2 Diol.png
-2025-09-08 16:57:02.130 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Acetal.png
-2025-09-08 16:57:02.440 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Alcohol.png
-2025-09-08 16:57:02.717 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Alkane.png
-2025-09-08 16:57:02.999 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Alkyl Bromide.png
-2025-09-08 16:57:03.318 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Alkyl Chloride.png
-2025-09-08 16:57:03.615 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Alkyl Fluoride.png
-2025-09-08 16:57:03.891 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Alkylarylether.png
-2025-09-08 16:57:04.170 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-All.png
-2025-09-08 16:57:04.445 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Amine.png
-2025-09-08 16:57:04.766 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Aqueous.png
-2025-09-08 16:57:05.028 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Aromatic.png
-2025-09-08 16:57:05.302 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Aryl Chloride.png
-2025-09-08 16:57:05.575 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Carbonyl.png
-2025-09-08 16:57:05.844 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Carboxylic Acid Amide.png
-2025-09-08 16:57:06.173 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Carboxylic Acid Derivative.png
-2025-09-08 16:57:06.450 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Carboxylic Acid Ester.png
-2025-09-08 16:57:06.734 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Carboxylic Acid Tertiary Amide.png
-2025-09-08 16:57:07.025 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Dialkylether.png
-2025-09-08 16:57:07.315 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Ether.png
-2025-09-08 16:57:07.661 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Halogen Derivative.png
-2025-09-08 16:57:07.958 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Heterocycle.png
-2025-09-08 16:57:08.235 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Hydroxy.png
-2025-09-08 16:57:08.507 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Ketone.png
-2025-09-08 16:57:08.770 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Lactam.png
-2025-09-08 16:57:09.104 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Nitrile.png
-2025-09-08 16:57:09.392 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Orthocarboxylic Acid Derivative.png
-2025-09-08 16:57:09.667 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Primary Alcohol.png
-2025-09-08 16:57:09.941 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Primary Aliphatic Amine.png
-2025-09-08 16:57:10.318 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Primary Amine.png
-2025-09-08 16:57:10.605 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Primary Aromatic Amine.png
-2025-09-08 16:57:10.881 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Secondary Aliphatic Amine.png
-2025-09-08 16:57:11.150 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Secondary Amine.png
-2025-09-08 16:57:11.425 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Secondary Mixed Amine.png
-2025-09-08 16:57:11.774 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Tertiary Alcohol.png
-2025-09-08 16:57:12.043 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Tertiary Aliphatic Amine.png
-2025-09-08 16:57:12.307 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-Tertiary Amine.png
-2025-09-08 16:57:12.579 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a1.png
-2025-09-08 16:57:12.858 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a10.png
-2025-09-08 16:57:13.200 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a10a.png
-2025-09-08 16:57:13.471 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a11.png
-2025-09-08 16:57:13.754 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a11a.png
-2025-09-08 16:57:14.023 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a14.png
-2025-09-08 16:57:14.288 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a15.png
-2025-09-08 16:57:14.625 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a16.png
-2025-09-08 16:57:14.905 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a18.png
-2025-09-08 16:57:15.165 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a18a.png
-2025-09-08 16:57:15.440 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a19.png
-2025-09-08 16:57:15.706 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a2.png
-2025-09-08 16:57:16.046 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a20.png
-2025-09-08 16:57:16.305 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a21.png
-2025-09-08 16:57:16.586 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a22.png
-2025-09-08 16:57:16.876 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a28.png
-2025-09-08 16:57:17.171 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a28a.png
-2025-09-08 16:57:17.535 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-a41.png
-2025-09-08 16:57:17.810 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b1.png
-2025-09-08 16:57:18.137 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b10.png
-2025-09-08 16:57:18.408 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b12.png
-2025-09-08 16:57:18.676 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b13.png
-2025-09-08 16:57:19.016 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b14.png
-2025-09-08 16:57:19.295 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b16.png
-2025-09-08 16:57:19.564 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b18.png
-2025-09-08 16:57:19.824 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b19.png
-2025-09-08 16:57:20.093 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b2.png
-2025-09-08 16:57:20.409 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b20.png
-2025-09-08 16:57:20.668 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b21.png
-2025-09-08 16:57:20.930 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b25.png
-2025-09-08 16:57:21.202 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b27.png
-2025-09-08 16:57:21.476 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b3.png
-2025-09-08 16:57:21.816 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b4.png
-2025-09-08 16:57:22.078 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b5.png
-2025-09-08 16:57:22.339 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b6.png
-2025-09-08 16:57:22.604 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b69.png
-2025-09-08 16:57:22.872 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b7.png
-2025-09-08 16:57:23.212 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b70.png
-2025-09-08 16:57:23.464 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b71.png
-2025-09-08 16:57:23.734 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b73.png
-2025-09-08 16:57:23.992 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b8.png
-2025-09-08 16:57:24.254 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b84.png
-2025-09-08 16:57:24.573 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b85.png
-2025-09-08 16:57:24.831 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b87.png
-2025-09-08 16:57:25.108 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b88.png
-2025-09-08 16:57:25.374 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-b9.png
-2025-09-08 16:57:25.694 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-i1.png
-2025-09-08 16:57:25.950 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-i2.png
-2025-09-08 16:57:26.234 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-i4.png
-2025-09-08 16:57:26.510 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n-tip3p-H.png
-2025-09-08 16:57:26.774 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n-tip3p-O.png
-2025-09-08 16:57:27.098 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n11.png
-2025-09-08 16:57:27.376 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n12.png
-2025-09-08 16:57:27.642 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n14.png
-2025-09-08 16:57:27.902 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n15.png
-2025-09-08 16:57:28.160 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n16.png
-2025-09-08 16:57:28.424 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n17.png
-2025-09-08 16:57:28.767 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n18.png
-2025-09-08 16:57:29.030 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n19.png
-2025-09-08 16:57:29.298 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n2.png
-2025-09-08 16:57:29.561 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n20.png
-2025-09-08 16:57:29.824 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n23.png
-2025-09-08 16:57:30.142 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n24.png
-2025-09-08 16:57:30.417 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n25.png
-2025-09-08 16:57:30.692 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n3.png
-2025-09-08 16:57:30.963 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n4.png
-2025-09-08 16:57:31.284 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n7.png
-2025-09-08 16:57:31.555 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n8.png
-2025-09-08 16:57:31.823 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-n9.png
-2025-09-08 16:57:32.092 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t1.png
-2025-09-08 16:57:32.390 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t10.png
-2025-09-08 16:57:32.748 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t105.png
-2025-09-08 16:57:33.014 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t106.png
-2025-09-08 16:57:33.280 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t107.png
-2025-09-08 16:57:33.551 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t108.png
-2025-09-08 16:57:33.817 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t11.png
-2025-09-08 16:57:34.150 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t110.png
-2025-09-08 16:57:34.421 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t12.png
-2025-09-08 16:57:34.698 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t166.png
-2025-09-08 16:57:34.962 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t17.png
-2025-09-08 16:57:35.224 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t17a.png
-2025-09-08 16:57:35.558 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t18.png
-2025-09-08 16:57:35.842 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t19.png
-2025-09-08 16:57:36.115 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t2.png
-2025-09-08 16:57:36.385 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t23.png
-2025-09-08 16:57:36.644 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t3.png
-2025-09-08 16:57:36.967 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t4.png
-2025-09-08 16:57:37.268 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t44.png
-2025-09-08 16:57:37.538 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t45.png
-2025-09-08 16:57:37.814 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t5.png
-2025-09-08 16:57:38.096 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t51.png
-2025-09-08 16:57:38.422 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t58a.png
-2025-09-08 16:57:38.696 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t6.png
-2025-09-08 16:57:38.966 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t64.png
-2025-09-08 16:57:39.228 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t67.png
-2025-09-08 16:57:39.494 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t7.png
-2025-09-08 16:57:39.831 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t71.png
-2025-09-08 16:57:40.102 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t72.png
-2025-09-08 16:57:40.375 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t74.png
-2025-09-08 16:57:40.664 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t75.png
-2025-09-08 16:57:40.938 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t77.png
-2025-09-08 16:57:41.254 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t8.png
-2025-09-08 16:57:41.521 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t80.png
-2025-09-08 16:57:41.795 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t84.png
-2025-09-08 16:57:42.066 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t85.png
-2025-09-08 16:57:42.345 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t86.png
-2025-09-08 16:57:42.682 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t9.png
-2025-09-08 16:57:42.956 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t93.png
-2025-09-08 16:57:43.240 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t94.png
-2025-09-08 16:57:43.527 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t95.png
-2025-09-08 16:57:43.813 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t96.png
-2025-09-08 16:57:44.142 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t97.png
-2025-09-08 16:57:44.413 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/dhmix-all/stats-t98.png
+2025-10-07 15:12:26.420 | INFO     | __main__:main:213 - 7 input files specified
+2025-10-07 15:12:26.424 | INFO     | __main__:main:223 - Read 750 rows from output/phys-prop/dhmix-all/stats/Sage-2.0.0.csv
+2025-10-07 15:12:26.425 | INFO     | __main__:main:223 - Read 750 rows from output/phys-prop/dhmix-all/stats/Sage-2.2.1.csv
+2025-10-07 15:12:26.427 | INFO     | __main__:main:223 - Read 750 rows from output/phys-prop/dhmix-all/stats/Sage-2.2.1-+-AshGC.csv
+2025-10-07 15:12:26.428 | INFO     | __main__:main:223 - Read 750 rows from output/phys-prop/dhmix-all/stats/Sage-2.3.0rc1.csv
+2025-10-07 15:12:26.429 | INFO     | __main__:main:223 - Read 750 rows from output/phys-prop/dhmix-all/stats/v0-k20.csv
+2025-10-07 15:12:26.430 | INFO     | __main__:main:223 - Read 750 rows from output/phys-prop/dhmix-all/stats/v1-k100.csv
+2025-10-07 15:12:26.431 | INFO     | __main__:main:223 - Read 750 rows from output/phys-prop/dhmix-all/stats/v3-k100.csv
+2025-10-07 15:12:26.432 | INFO     | __main__:main:228 - Filtered to 3000 rows with given force fields
+2025-10-07 15:12:26.865 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-1,2 Diol.png
+2025-10-07 15:12:27.139 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Acetal.png
+2025-10-07 15:12:27.411 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Alcohol.png
+2025-10-07 15:12:27.666 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Alkane.png
+2025-10-07 15:12:27.933 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Alkyl Bromide.png
+2025-10-07 15:12:28.197 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Alkyl Chloride.png
+2025-10-07 15:12:28.504 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Alkyl Fluoride.png
+2025-10-07 15:12:28.759 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Alkylarylether.png
+2025-10-07 15:12:29.023 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-All.png
+2025-10-07 15:12:29.280 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Amine.png
+2025-10-07 15:12:29.528 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Aqueous.png
+2025-10-07 15:12:29.820 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Aromatic.png
+2025-10-07 15:12:30.075 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Aryl Chloride.png
+2025-10-07 15:12:30.322 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Carbonyl.png
+2025-10-07 15:12:30.564 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Carboxylic Acid Amide.png
+2025-10-07 15:12:30.809 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Carboxylic Acid Derivative.png
+2025-10-07 15:12:31.064 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Carboxylic Acid Ester.png
+2025-10-07 15:12:31.368 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Carboxylic Acid Tertiary Amide.png
+2025-10-07 15:12:31.634 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Dialkylether.png
+2025-10-07 15:12:31.900 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Ether.png
+2025-10-07 15:12:32.163 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Halogen Derivative.png
+2025-10-07 15:12:32.415 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Heterocycle.png
+2025-10-07 15:12:32.734 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Hydroxy.png
+2025-10-07 15:12:32.992 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Ketone.png
+2025-10-07 15:12:33.247 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Lactam.png
+2025-10-07 15:12:33.500 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Nitrile.png
+2025-10-07 15:12:33.771 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Orthocarboxylic Acid Derivative.png
+2025-10-07 15:12:34.041 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Primary Alcohol.png
+2025-10-07 15:12:34.366 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Primary Aliphatic Amine.png
+2025-10-07 15:12:34.635 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Primary Amine.png
+2025-10-07 15:12:34.901 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Primary Aromatic Amine.png
+2025-10-07 15:12:35.166 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Secondary Aliphatic Amine.png
+2025-10-07 15:12:35.427 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Secondary Amine.png
+2025-10-07 15:12:35.753 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Secondary Mixed Amine.png
+2025-10-07 15:12:36.014 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Tertiary Alcohol.png
+2025-10-07 15:12:36.275 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Tertiary Aliphatic Amine.png
+2025-10-07 15:12:36.535 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-Tertiary Amine.png
+2025-10-07 15:12:36.800 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a1.png
+2025-10-07 15:12:37.133 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a10.png
+2025-10-07 15:12:37.403 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a10a.png
+2025-10-07 15:12:37.676 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a11.png
+2025-10-07 15:12:37.929 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a11a.png
+2025-10-07 15:12:38.188 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a14.png
+2025-10-07 15:12:38.459 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a15.png
+2025-10-07 15:12:38.773 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a16.png
+2025-10-07 15:12:39.037 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a18.png
+2025-10-07 15:12:39.286 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a18a.png
+2025-10-07 15:12:39.552 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a19.png
+2025-10-07 15:12:39.819 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a2.png
+2025-10-07 15:12:40.126 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a20.png
+2025-10-07 15:12:40.373 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a21.png
+2025-10-07 15:12:40.635 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a22.png
+2025-10-07 15:12:40.907 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a28.png
+2025-10-07 15:12:41.170 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a28a.png
+2025-10-07 15:12:41.424 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-a41.png
+2025-10-07 15:12:41.739 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b1.png
+2025-10-07 15:12:42.003 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b10.png
+2025-10-07 15:12:42.278 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b12.png
+2025-10-07 15:12:42.540 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b13.png
+2025-10-07 15:12:42.801 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b14.png
+2025-10-07 15:12:43.069 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b16.png
+2025-10-07 15:12:43.393 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b18.png
+2025-10-07 15:12:43.640 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b19.png
+2025-10-07 15:12:43.897 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b2.png
+2025-10-07 15:12:44.157 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b20.png
+2025-10-07 15:12:44.431 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b21.png
+2025-10-07 15:12:44.747 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b25.png
+2025-10-07 15:12:45.008 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b27.png
+2025-10-07 15:12:45.284 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b3.png
+2025-10-07 15:12:45.554 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b4.png
+2025-10-07 15:12:45.807 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b5.png
+2025-10-07 15:12:46.060 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b6.png
+2025-10-07 15:12:46.368 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b69.png
+2025-10-07 15:12:46.626 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b7.png
+2025-10-07 15:12:46.885 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b70.png
+2025-10-07 15:12:47.128 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b71.png
+2025-10-07 15:12:47.372 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b73.png
+2025-10-07 15:12:47.693 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b8.png
+2025-10-07 15:12:47.975 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b84.png
+2025-10-07 15:12:48.245 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b85.png
+2025-10-07 15:12:48.504 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b87.png
+2025-10-07 15:12:48.766 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b88.png
+2025-10-07 15:12:49.027 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-b9.png
+2025-10-07 15:12:49.337 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-i1.png
+2025-10-07 15:12:49.606 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-i2.png
+2025-10-07 15:12:49.864 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-i4.png
+2025-10-07 15:12:50.123 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n-tip3p-H.png
+2025-10-07 15:12:50.379 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n-tip3p-O.png
+2025-10-07 15:12:50.693 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n11.png
+2025-10-07 15:12:50.940 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n12.png
+2025-10-07 15:12:51.221 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n14.png
+2025-10-07 15:12:51.473 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n15.png
+2025-10-07 15:12:51.733 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n16.png
+2025-10-07 15:12:52.001 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n17.png
+2025-10-07 15:12:52.359 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n18.png
+2025-10-07 15:12:52.610 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n19.png
+2025-10-07 15:12:52.873 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n2.png
+2025-10-07 15:12:53.137 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n20.png
+2025-10-07 15:12:53.394 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n23.png
+2025-10-07 15:12:53.653 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n24.png
+2025-10-07 15:12:53.982 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n25.png
+2025-10-07 15:12:54.246 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n3.png
+2025-10-07 15:12:54.522 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n4.png
+2025-10-07 15:12:54.782 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n7.png
+2025-10-07 15:12:55.045 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n8.png
+2025-10-07 15:12:55.389 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-n9.png
+2025-10-07 15:12:55.659 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t1.png
+2025-10-07 15:12:55.935 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t10.png
+2025-10-07 15:12:56.186 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t105.png
+2025-10-07 15:12:56.447 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t106.png
+2025-10-07 15:12:56.716 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t107.png
+2025-10-07 15:12:57.034 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t108.png
+2025-10-07 15:12:57.291 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t11.png
+2025-10-07 15:12:57.561 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t110.png
+2025-10-07 15:12:57.825 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t12.png
+2025-10-07 15:12:58.081 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t166.png
+2025-10-07 15:12:58.388 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t17.png
+2025-10-07 15:12:58.647 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t17a.png
+2025-10-07 15:12:58.908 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t18.png
+2025-10-07 15:12:59.192 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t19.png
+2025-10-07 15:12:59.446 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t2.png
+2025-10-07 15:12:59.701 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t23.png
+2025-10-07 15:13:00.025 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t3.png
+2025-10-07 15:13:00.290 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t4.png
+2025-10-07 15:13:00.550 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t44.png
+2025-10-07 15:13:00.807 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t45.png
+2025-10-07 15:13:01.070 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t5.png
+2025-10-07 15:13:01.344 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t51.png
+2025-10-07 15:13:01.677 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t58a.png
+2025-10-07 15:13:01.940 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t6.png
+2025-10-07 15:13:02.191 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t64.png
+2025-10-07 15:13:02.439 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t67.png
+2025-10-07 15:13:02.695 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t7.png
+2025-10-07 15:13:03.011 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t71.png
+2025-10-07 15:13:03.267 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t72.png
+2025-10-07 15:13:03.528 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t74.png
+2025-10-07 15:13:03.781 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t75.png
+2025-10-07 15:13:04.029 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t77.png
+2025-10-07 15:13:04.270 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t8.png
+2025-10-07 15:13:04.568 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t80.png
+2025-10-07 15:13:04.818 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t84.png
+2025-10-07 15:13:05.072 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t85.png
+2025-10-07 15:13:05.322 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t86.png
+2025-10-07 15:13:05.579 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t9.png
+2025-10-07 15:13:05.891 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t93.png
+2025-10-07 15:13:06.150 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t94.png
+2025-10-07 15:13:06.418 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t95.png
+2025-10-07 15:13:06.690 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t96.png
+2025-10-07 15:13:06.958 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t97.png
+2025-10-07 15:13:07.228 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/dhmix-all/stats-t98.png

@@ -1,0 +1,188 @@
+2025-09-15 15:22:26.344 | INFO     | __main__:main:325 - Reading statistics from output/sfes/mnsol/stats/Sage-2.2.1-+-ELF10.csv
+2025-09-15 15:22:26.354 | INFO     | __main__:main:325 - Reading statistics from output/sfes/mnsol/stats/Sage-2.2.1-+-AshGC.csv
+2025-09-15 15:22:26.358 | INFO     | __main__:main:325 - Reading statistics from output/sfes/mnsol/stats/Sage-2.3.0rc1.csv
+2025-09-15 15:22:26.362 | INFO     | __main__:main:325 - Reading statistics from output/sfes/mnsol/stats/v1-k100.csv
+2025-09-15 15:22:26.366 | INFO     | __main__:main:325 - Reading statistics from output/sfes/mnsol/stats/v3-k100.csv
+2025-09-15 15:22:27.204 | INFO     | __main__:main:369 - Saved scatter plot for group All to images/sfe-scatters/mnsol-close/scatter-All.png
+2025-09-15 15:22:27.208 | INFO     | __main__:main:337 - Skipping group 1,2 Diol with 0 entries (< 10)
+2025-09-15 15:22:27.552 | INFO     | __main__:main:369 - Saved scatter plot for group Alcohol to images/sfe-scatters/mnsol-close/scatter-Alcohol.png
+2025-09-15 15:22:27.874 | INFO     | __main__:main:369 - Saved scatter plot for group Aldehyde to images/sfe-scatters/mnsol-close/scatter-Aldehyde.png
+2025-09-15 15:22:28.216 | INFO     | __main__:main:369 - Saved scatter plot for group Alkane to images/sfe-scatters/mnsol-close/scatter-Alkane.png
+2025-09-15 15:22:28.217 | INFO     | __main__:main:337 - Skipping group Alkene with 3 entries (< 10)
+2025-09-15 15:22:28.536 | INFO     | __main__:main:369 - Saved scatter plot for group Alkyl Bromide to images/sfe-scatters/mnsol-close/scatter-Alkyl Bromide.png
+2025-09-15 15:22:28.904 | INFO     | __main__:main:369 - Saved scatter plot for group Alkyl Chloride to images/sfe-scatters/mnsol-close/scatter-Alkyl Chloride.png
+2025-09-15 15:22:29.230 | INFO     | __main__:main:369 - Saved scatter plot for group Alkylarylether to images/sfe-scatters/mnsol-close/scatter-Alkylarylether.png
+2025-09-15 15:22:29.230 | INFO     | __main__:main:337 - Skipping group Alkylthiol with 3 entries (< 10)
+2025-09-15 15:22:29.549 | INFO     | __main__:main:369 - Saved scatter plot for group Amine to images/sfe-scatters/mnsol-close/scatter-Amine.png
+2025-09-15 15:22:29.888 | INFO     | __main__:main:369 - Saved scatter plot for group Aromatic to images/sfe-scatters/mnsol-close/scatter-Aromatic.png
+2025-09-15 15:22:30.217 | INFO     | __main__:main:369 - Saved scatter plot for group Aryl Bromide to images/sfe-scatters/mnsol-close/scatter-Aryl Bromide.png
+2025-09-15 15:22:30.217 | INFO     | __main__:main:337 - Skipping group Aryl Chloride with 9 entries (< 10)
+2025-09-15 15:22:30.554 | INFO     | __main__:main:369 - Saved scatter plot for group Carbonyl to images/sfe-scatters/mnsol-close/scatter-Carbonyl.png
+2025-09-15 15:22:30.928 | INFO     | __main__:main:369 - Saved scatter plot for group Carboxylic Acid Amide to images/sfe-scatters/mnsol-close/scatter-Carboxylic Acid Amide.png
+2025-09-15 15:22:31.251 | INFO     | __main__:main:369 - Saved scatter plot for group Carboxylic Acid Derivative to images/sfe-scatters/mnsol-close/scatter-Carboxylic Acid Derivative.png
+2025-09-15 15:22:31.577 | INFO     | __main__:main:369 - Saved scatter plot for group Carboxylic Acid Ester to images/sfe-scatters/mnsol-close/scatter-Carboxylic Acid Ester.png
+2025-09-15 15:22:31.578 | INFO     | __main__:main:337 - Skipping group Carboxylic Acid Primary Amide with 7 entries (< 10)
+2025-09-15 15:22:31.578 | INFO     | __main__:main:337 - Skipping group Carboxylic Acid Secondary Amide with 5 entries (< 10)
+2025-09-15 15:22:31.904 | INFO     | __main__:main:369 - Saved scatter plot for group Carboxylic Acid Tertiary Amide to images/sfe-scatters/mnsol-close/scatter-Carboxylic Acid Tertiary Amide.png
+2025-09-15 15:22:32.234 | INFO     | __main__:main:369 - Saved scatter plot for group Dialkylether to images/sfe-scatters/mnsol-close/scatter-Dialkylether.png
+2025-09-15 15:22:32.575 | INFO     | __main__:main:369 - Saved scatter plot for group Ether to images/sfe-scatters/mnsol-close/scatter-Ether.png
+2025-09-15 15:22:33.176 | INFO     | __main__:main:369 - Saved scatter plot for group Halogen Derivative to images/sfe-scatters/mnsol-close/scatter-Halogen Derivative.png
+2025-09-15 15:22:33.658 | INFO     | __main__:main:369 - Saved scatter plot for group Heterocycle to images/sfe-scatters/mnsol-close/scatter-Heterocycle.png
+2025-09-15 15:22:34.009 | INFO     | __main__:main:369 - Saved scatter plot for group Hydroxy to images/sfe-scatters/mnsol-close/scatter-Hydroxy.png
+2025-09-15 15:22:34.350 | INFO     | __main__:main:369 - Saved scatter plot for group Ketone to images/sfe-scatters/mnsol-close/scatter-Ketone.png
+2025-09-15 15:22:34.350 | INFO     | __main__:main:337 - Skipping group Lactam with 1 entries (< 10)
+2025-09-15 15:22:34.351 | INFO     | __main__:main:337 - Skipping group Lactone with 2 entries (< 10)
+2025-09-15 15:22:34.351 | INFO     | __main__:main:337 - Skipping group Nitrile with 2 entries (< 10)
+2025-09-15 15:22:34.351 | INFO     | __main__:main:337 - Skipping group Nitro Compound with 0 entries (< 10)
+2025-09-15 15:22:34.351 | INFO     | __main__:main:337 - Skipping group Oxohetarene with 4 entries (< 10)
+2025-09-15 15:22:35.004 | INFO     | __main__:main:369 - Saved scatter plot for group Phenol to images/sfe-scatters/mnsol-close/scatter-Phenol.png
+2025-09-15 15:22:35.395 | INFO     | __main__:main:369 - Saved scatter plot for group Phosphoric Acid Derivative to images/sfe-scatters/mnsol-close/scatter-Phosphoric Acid Derivative.png
+2025-09-15 15:22:35.769 | INFO     | __main__:main:369 - Saved scatter plot for group Phosphoric Acid Ester to images/sfe-scatters/mnsol-close/scatter-Phosphoric Acid Ester.png
+2025-09-15 15:22:36.112 | INFO     | __main__:main:369 - Saved scatter plot for group Primary Alcohol to images/sfe-scatters/mnsol-close/scatter-Primary Alcohol.png
+2025-09-15 15:22:36.447 | INFO     | __main__:main:369 - Saved scatter plot for group Primary Aliphatic Amine to images/sfe-scatters/mnsol-close/scatter-Primary Aliphatic Amine.png
+2025-09-15 15:22:36.777 | INFO     | __main__:main:369 - Saved scatter plot for group Primary Amine to images/sfe-scatters/mnsol-close/scatter-Primary Amine.png
+2025-09-15 15:22:37.097 | INFO     | __main__:main:369 - Saved scatter plot for group Primary Aromatic Amine to images/sfe-scatters/mnsol-close/scatter-Primary Aromatic Amine.png
+2025-09-15 15:22:37.098 | INFO     | __main__:main:337 - Skipping group Secondary Alcohol with 8 entries (< 10)
+2025-09-15 15:22:37.426 | INFO     | __main__:main:369 - Saved scatter plot for group Secondary Aliphatic Amine to images/sfe-scatters/mnsol-close/scatter-Secondary Aliphatic Amine.png
+2025-09-15 15:22:37.813 | INFO     | __main__:main:369 - Saved scatter plot for group Secondary Amine to images/sfe-scatters/mnsol-close/scatter-Secondary Amine.png
+2025-09-15 15:22:37.813 | INFO     | __main__:main:337 - Skipping group Secondary Mixed Amine with 1 entries (< 10)
+2025-09-15 15:22:37.813 | INFO     | __main__:main:337 - Skipping group Tertiary Alcohol with 3 entries (< 10)
+2025-09-15 15:22:38.153 | INFO     | __main__:main:369 - Saved scatter plot for group Tertiary Aliphatic Amine to images/sfe-scatters/mnsol-close/scatter-Tertiary Aliphatic Amine.png
+2025-09-15 15:22:38.482 | INFO     | __main__:main:369 - Saved scatter plot for group Tertiary Amine to images/sfe-scatters/mnsol-close/scatter-Tertiary Amine.png
+2025-09-15 15:22:38.483 | INFO     | __main__:main:337 - Skipping group Thioether with 1 entries (< 10)
+2025-09-15 15:22:38.483 | INFO     | __main__:main:337 - Skipping group Thiol with 3 entries (< 10)
+2025-09-15 15:22:38.861 | INFO     | __main__:main:369 - Saved scatter plot for group b1 to images/sfe-scatters/mnsol-close/scatter-b1.png
+2025-09-15 15:22:39.189 | INFO     | __main__:main:369 - Saved scatter plot for group b2 to images/sfe-scatters/mnsol-close/scatter-b2.png
+2025-09-15 15:22:39.572 | INFO     | __main__:main:369 - Saved scatter plot for group b3 to images/sfe-scatters/mnsol-close/scatter-b3.png
+2025-09-15 15:22:39.903 | INFO     | __main__:main:369 - Saved scatter plot for group b4 to images/sfe-scatters/mnsol-close/scatter-b4.png
+2025-09-15 15:22:40.240 | INFO     | __main__:main:369 - Saved scatter plot for group b5 to images/sfe-scatters/mnsol-close/scatter-b5.png
+2025-09-15 15:22:40.559 | INFO     | __main__:main:369 - Saved scatter plot for group b6 to images/sfe-scatters/mnsol-close/scatter-b6.png
+2025-09-15 15:22:40.875 | INFO     | __main__:main:369 - Saved scatter plot for group b7 to images/sfe-scatters/mnsol-close/scatter-b7.png
+2025-09-15 15:22:41.204 | INFO     | __main__:main:369 - Saved scatter plot for group b8 to images/sfe-scatters/mnsol-close/scatter-b8.png
+2025-09-15 15:22:41.205 | INFO     | __main__:main:337 - Skipping group b8a with 0 entries (< 10)
+2025-09-15 15:22:41.590 | INFO     | __main__:main:369 - Saved scatter plot for group b9 to images/sfe-scatters/mnsol-close/scatter-b9.png
+2025-09-15 15:22:41.926 | INFO     | __main__:main:369 - Saved scatter plot for group b10 to images/sfe-scatters/mnsol-close/scatter-b10.png
+2025-09-15 15:22:42.246 | INFO     | __main__:main:369 - Saved scatter plot for group b12 to images/sfe-scatters/mnsol-close/scatter-b12.png
+2025-09-15 15:22:42.582 | INFO     | __main__:main:369 - Saved scatter plot for group b14 to images/sfe-scatters/mnsol-close/scatter-b14.png
+2025-09-15 15:22:42.920 | INFO     | __main__:main:369 - Saved scatter plot for group b16 to images/sfe-scatters/mnsol-close/scatter-b16.png
+2025-09-15 15:22:42.921 | INFO     | __main__:main:337 - Skipping group b17 with 1 entries (< 10)
+2025-09-15 15:22:43.241 | INFO     | __main__:main:369 - Saved scatter plot for group b18 to images/sfe-scatters/mnsol-close/scatter-b18.png
+2025-09-15 15:22:43.610 | INFO     | __main__:main:369 - Saved scatter plot for group b19 to images/sfe-scatters/mnsol-close/scatter-b19.png
+2025-09-15 15:22:43.948 | INFO     | __main__:main:369 - Saved scatter plot for group b20 to images/sfe-scatters/mnsol-close/scatter-b20.png
+2025-09-15 15:22:44.290 | INFO     | __main__:main:369 - Saved scatter plot for group b21 to images/sfe-scatters/mnsol-close/scatter-b21.png
+2025-09-15 15:22:44.291 | INFO     | __main__:main:337 - Skipping group b24 with 2 entries (< 10)
+2025-09-15 15:22:44.291 | INFO     | __main__:main:337 - Skipping group b27 with 2 entries (< 10)
+2025-09-15 15:22:44.291 | INFO     | __main__:main:337 - Skipping group b42 with 0 entries (< 10)
+2025-09-15 15:22:44.291 | INFO     | __main__:main:337 - Skipping group b45 with 4 entries (< 10)
+2025-09-15 15:22:44.291 | INFO     | __main__:main:337 - Skipping group b51 with 4 entries (< 10)
+2025-09-15 15:22:44.291 | INFO     | __main__:main:337 - Skipping group b52 with 2 entries (< 10)
+2025-09-15 15:22:44.609 | INFO     | __main__:main:369 - Saved scatter plot for group b64 to images/sfe-scatters/mnsol-close/scatter-b64.png
+2025-09-15 15:22:44.931 | INFO     | __main__:main:369 - Saved scatter plot for group b65 to images/sfe-scatters/mnsol-close/scatter-b65.png
+2025-09-15 15:22:45.257 | INFO     | __main__:main:369 - Saved scatter plot for group b70 to images/sfe-scatters/mnsol-close/scatter-b70.png
+2025-09-15 15:22:45.578 | INFO     | __main__:main:369 - Saved scatter plot for group b71 to images/sfe-scatters/mnsol-close/scatter-b71.png
+2025-09-15 15:22:45.960 | INFO     | __main__:main:369 - Saved scatter plot for group b72 to images/sfe-scatters/mnsol-close/scatter-b72.png
+2025-09-15 15:22:46.271 | INFO     | __main__:main:369 - Saved scatter plot for group b73 to images/sfe-scatters/mnsol-close/scatter-b73.png
+2025-09-15 15:22:46.621 | INFO     | __main__:main:369 - Saved scatter plot for group b84 to images/sfe-scatters/mnsol-close/scatter-b84.png
+2025-09-15 15:22:46.969 | INFO     | __main__:main:369 - Saved scatter plot for group b85 to images/sfe-scatters/mnsol-close/scatter-b85.png
+2025-09-15 15:22:47.376 | INFO     | __main__:main:369 - Saved scatter plot for group b87 to images/sfe-scatters/mnsol-close/scatter-b87.png
+2025-09-15 15:22:47.725 | INFO     | __main__:main:369 - Saved scatter plot for group b88 to images/sfe-scatters/mnsol-close/scatter-b88.png
+2025-09-15 15:22:48.082 | INFO     | __main__:main:369 - Saved scatter plot for group a1 to images/sfe-scatters/mnsol-close/scatter-a1.png
+2025-09-15 15:22:48.443 | INFO     | __main__:main:369 - Saved scatter plot for group a2 to images/sfe-scatters/mnsol-close/scatter-a2.png
+2025-09-15 15:22:48.841 | INFO     | __main__:main:369 - Saved scatter plot for group a10 to images/sfe-scatters/mnsol-close/scatter-a10.png
+2025-09-15 15:22:49.171 | INFO     | __main__:main:369 - Saved scatter plot for group a10a to images/sfe-scatters/mnsol-close/scatter-a10a.png
+2025-09-15 15:22:49.522 | INFO     | __main__:main:369 - Saved scatter plot for group a11 to images/sfe-scatters/mnsol-close/scatter-a11.png
+2025-09-15 15:22:49.857 | INFO     | __main__:main:369 - Saved scatter plot for group a11a to images/sfe-scatters/mnsol-close/scatter-a11a.png
+2025-09-15 15:22:49.858 | INFO     | __main__:main:337 - Skipping group a12 with 7 entries (< 10)
+2025-09-15 15:22:49.858 | INFO     | __main__:main:337 - Skipping group a14 with 5 entries (< 10)
+2025-09-15 15:22:50.197 | INFO     | __main__:main:369 - Saved scatter plot for group a15 to images/sfe-scatters/mnsol-close/scatter-a15.png
+2025-09-15 15:22:50.198 | INFO     | __main__:main:337 - Skipping group a16 with 2 entries (< 10)
+2025-09-15 15:22:50.539 | INFO     | __main__:main:369 - Saved scatter plot for group a18 to images/sfe-scatters/mnsol-close/scatter-a18.png
+2025-09-15 15:22:50.933 | INFO     | __main__:main:369 - Saved scatter plot for group a19 to images/sfe-scatters/mnsol-close/scatter-a19.png
+2025-09-15 15:22:51.273 | INFO     | __main__:main:369 - Saved scatter plot for group a20 to images/sfe-scatters/mnsol-close/scatter-a20.png
+2025-09-15 15:22:51.614 | INFO     | __main__:main:369 - Saved scatter plot for group a21 to images/sfe-scatters/mnsol-close/scatter-a21.png
+2025-09-15 15:22:51.941 | INFO     | __main__:main:369 - Saved scatter plot for group a22 to images/sfe-scatters/mnsol-close/scatter-a22.png
+2025-09-15 15:22:51.942 | INFO     | __main__:main:337 - Skipping group a25 with 0 entries (< 10)
+2025-09-15 15:22:51.942 | INFO     | __main__:main:337 - Skipping group a26 with 0 entries (< 10)
+2025-09-15 15:22:52.336 | INFO     | __main__:main:369 - Saved scatter plot for group a28 to images/sfe-scatters/mnsol-close/scatter-a28.png
+2025-09-15 15:22:52.753 | INFO     | __main__:main:369 - Saved scatter plot for group a28a to images/sfe-scatters/mnsol-close/scatter-a28a.png
+2025-09-15 15:22:52.754 | INFO     | __main__:main:337 - Skipping group a34 with 4 entries (< 10)
+2025-09-15 15:22:52.754 | INFO     | __main__:main:337 - Skipping group a38 with 1 entries (< 10)
+2025-09-15 15:22:53.208 | INFO     | __main__:main:369 - Saved scatter plot for group a40 to images/sfe-scatters/mnsol-close/scatter-a40.png
+2025-09-15 15:22:53.543 | INFO     | __main__:main:369 - Saved scatter plot for group a41 to images/sfe-scatters/mnsol-close/scatter-a41.png
+2025-09-15 15:22:53.544 | INFO     | __main__:main:337 - Skipping group a41a with 1 entries (< 10)
+2025-09-15 15:22:53.544 | INFO     | __main__:main:337 - Skipping group a18a with 2 entries (< 10)
+2025-09-15 15:22:53.951 | INFO     | __main__:main:369 - Saved scatter plot for group t1 to images/sfe-scatters/mnsol-close/scatter-t1.png
+2025-09-15 15:22:54.355 | INFO     | __main__:main:369 - Saved scatter plot for group t2 to images/sfe-scatters/mnsol-close/scatter-t2.png
+2025-09-15 15:22:54.823 | INFO     | __main__:main:369 - Saved scatter plot for group t3 to images/sfe-scatters/mnsol-close/scatter-t3.png
+2025-09-15 15:22:55.216 | INFO     | __main__:main:369 - Saved scatter plot for group t4 to images/sfe-scatters/mnsol-close/scatter-t4.png
+2025-09-15 15:22:55.546 | INFO     | __main__:main:369 - Saved scatter plot for group t5 to images/sfe-scatters/mnsol-close/scatter-t5.png
+2025-09-15 15:22:55.917 | INFO     | __main__:main:369 - Saved scatter plot for group t9 to images/sfe-scatters/mnsol-close/scatter-t9.png
+2025-09-15 15:22:56.263 | INFO     | __main__:main:369 - Saved scatter plot for group t11 to images/sfe-scatters/mnsol-close/scatter-t11.png
+2025-09-15 15:22:56.591 | INFO     | __main__:main:369 - Saved scatter plot for group t12 to images/sfe-scatters/mnsol-close/scatter-t12.png
+2025-09-15 15:22:56.987 | INFO     | __main__:main:369 - Saved scatter plot for group t17 to images/sfe-scatters/mnsol-close/scatter-t17.png
+2025-09-15 15:22:57.318 | INFO     | __main__:main:369 - Saved scatter plot for group t17a to images/sfe-scatters/mnsol-close/scatter-t17a.png
+2025-09-15 15:22:57.651 | INFO     | __main__:main:369 - Saved scatter plot for group t18 to images/sfe-scatters/mnsol-close/scatter-t18.png
+2025-09-15 15:22:58.007 | INFO     | __main__:main:369 - Saved scatter plot for group t19 to images/sfe-scatters/mnsol-close/scatter-t19.png
+2025-09-15 15:22:58.008 | INFO     | __main__:main:337 - Skipping group t20 with 3 entries (< 10)
+2025-09-15 15:22:58.008 | INFO     | __main__:main:337 - Skipping group t23 with 1 entries (< 10)
+2025-09-15 15:22:58.008 | INFO     | __main__:main:337 - Skipping group t43 with 2 entries (< 10)
+2025-09-15 15:22:58.008 | INFO     | __main__:main:337 - Skipping group t43a with 1 entries (< 10)
+2025-09-15 15:22:58.357 | INFO     | __main__:main:369 - Saved scatter plot for group t44 to images/sfe-scatters/mnsol-close/scatter-t44.png
+2025-09-15 15:22:58.741 | INFO     | __main__:main:369 - Saved scatter plot for group t45 to images/sfe-scatters/mnsol-close/scatter-t45.png
+2025-09-15 15:22:59.097 | INFO     | __main__:main:369 - Saved scatter plot for group t47 to images/sfe-scatters/mnsol-close/scatter-t47.png
+2025-09-15 15:22:59.098 | INFO     | __main__:main:337 - Skipping group t47a with 2 entries (< 10)
+2025-09-15 15:22:59.098 | INFO     | __main__:main:337 - Skipping group t48 with 4 entries (< 10)
+2025-09-15 15:22:59.438 | INFO     | __main__:main:369 - Saved scatter plot for group t51 to images/sfe-scatters/mnsol-close/scatter-t51.png
+2025-09-15 15:22:59.780 | INFO     | __main__:main:369 - Saved scatter plot for group t58a to images/sfe-scatters/mnsol-close/scatter-t58a.png
+2025-09-15 15:23:00.117 | INFO     | __main__:main:369 - Saved scatter plot for group t64 to images/sfe-scatters/mnsol-close/scatter-t64.png
+2025-09-15 15:23:00.118 | INFO     | __main__:main:337 - Skipping group t67 with 1 entries (< 10)
+2025-09-15 15:23:00.118 | INFO     | __main__:main:337 - Skipping group t73 with 4 entries (< 10)
+2025-09-15 15:23:00.454 | INFO     | __main__:main:369 - Saved scatter plot for group t74 to images/sfe-scatters/mnsol-close/scatter-t74.png
+2025-09-15 15:23:00.784 | INFO     | __main__:main:369 - Saved scatter plot for group t75 to images/sfe-scatters/mnsol-close/scatter-t75.png
+2025-09-15 15:23:00.784 | INFO     | __main__:main:337 - Skipping group t76 with 4 entries (< 10)
+2025-09-15 15:23:01.184 | INFO     | __main__:main:369 - Saved scatter plot for group t77 to images/sfe-scatters/mnsol-close/scatter-t77.png
+2025-09-15 15:23:01.502 | INFO     | __main__:main:369 - Saved scatter plot for group t78 to images/sfe-scatters/mnsol-close/scatter-t78.png
+2025-09-15 15:23:01.502 | INFO     | __main__:main:337 - Skipping group t80 with 2 entries (< 10)
+2025-09-15 15:23:01.502 | INFO     | __main__:main:337 - Skipping group t83a with 0 entries (< 10)
+2025-09-15 15:23:01.828 | INFO     | __main__:main:369 - Saved scatter plot for group t84 to images/sfe-scatters/mnsol-close/scatter-t84.png
+2025-09-15 15:23:02.146 | INFO     | __main__:main:369 - Saved scatter plot for group t85 to images/sfe-scatters/mnsol-close/scatter-t85.png
+2025-09-15 15:23:02.496 | INFO     | __main__:main:369 - Saved scatter plot for group t93 to images/sfe-scatters/mnsol-close/scatter-t93.png
+2025-09-15 15:23:02.835 | INFO     | __main__:main:369 - Saved scatter plot for group t94 to images/sfe-scatters/mnsol-close/scatter-t94.png
+2025-09-15 15:23:03.251 | INFO     | __main__:main:369 - Saved scatter plot for group t95 to images/sfe-scatters/mnsol-close/scatter-t95.png
+2025-09-15 15:23:03.584 | INFO     | __main__:main:369 - Saved scatter plot for group t96 to images/sfe-scatters/mnsol-close/scatter-t96.png
+2025-09-15 15:23:03.898 | INFO     | __main__:main:369 - Saved scatter plot for group t97 to images/sfe-scatters/mnsol-close/scatter-t97.png
+2025-09-15 15:23:04.212 | INFO     | __main__:main:369 - Saved scatter plot for group t105 to images/sfe-scatters/mnsol-close/scatter-t105.png
+2025-09-15 15:23:04.546 | INFO     | __main__:main:369 - Saved scatter plot for group t106 to images/sfe-scatters/mnsol-close/scatter-t106.png
+2025-09-15 15:23:04.875 | INFO     | __main__:main:369 - Saved scatter plot for group t107 to images/sfe-scatters/mnsol-close/scatter-t107.png
+2025-09-15 15:23:05.270 | INFO     | __main__:main:369 - Saved scatter plot for group t110 to images/sfe-scatters/mnsol-close/scatter-t110.png
+2025-09-15 15:23:05.270 | INFO     | __main__:main:337 - Skipping group t111 with 2 entries (< 10)
+2025-09-15 15:23:05.270 | INFO     | __main__:main:337 - Skipping group t115 with 4 entries (< 10)
+2025-09-15 15:23:05.271 | INFO     | __main__:main:337 - Skipping group t116 with 5 entries (< 10)
+2025-09-15 15:23:05.271 | INFO     | __main__:main:337 - Skipping group t117a with 1 entries (< 10)
+2025-09-15 15:23:05.591 | INFO     | __main__:main:369 - Saved scatter plot for group t159 to images/sfe-scatters/mnsol-close/scatter-t159.png
+2025-09-15 15:23:05.909 | INFO     | __main__:main:369 - Saved scatter plot for group t160 to images/sfe-scatters/mnsol-close/scatter-t160.png
+2025-09-15 15:23:05.910 | INFO     | __main__:main:337 - Skipping group t166 with 2 entries (< 10)
+2025-09-15 15:23:06.251 | INFO     | __main__:main:369 - Saved scatter plot for group i1 to images/sfe-scatters/mnsol-close/scatter-i1.png
+2025-09-15 15:23:06.591 | INFO     | __main__:main:369 - Saved scatter plot for group i2 to images/sfe-scatters/mnsol-close/scatter-i2.png
+2025-09-15 15:23:06.924 | INFO     | __main__:main:369 - Saved scatter plot for group i4 to images/sfe-scatters/mnsol-close/scatter-i4.png
+2025-09-15 15:23:06.924 | INFO     | __main__:main:337 - Skipping group i6 with 1 entries (< 10)
+2025-09-15 15:23:07.358 | INFO     | __main__:main:369 - Saved scatter plot for group n2 to images/sfe-scatters/mnsol-close/scatter-n2.png
+2025-09-15 15:23:07.728 | INFO     | __main__:main:369 - Saved scatter plot for group n3 to images/sfe-scatters/mnsol-close/scatter-n3.png
+2025-09-15 15:23:08.056 | INFO     | __main__:main:369 - Saved scatter plot for group n4 to images/sfe-scatters/mnsol-close/scatter-n4.png
+2025-09-15 15:23:08.393 | INFO     | __main__:main:369 - Saved scatter plot for group n7 to images/sfe-scatters/mnsol-close/scatter-n7.png
+2025-09-15 15:23:08.778 | INFO     | __main__:main:369 - Saved scatter plot for group n8 to images/sfe-scatters/mnsol-close/scatter-n8.png
+2025-09-15 15:23:09.210 | INFO     | __main__:main:369 - Saved scatter plot for group n9 to images/sfe-scatters/mnsol-close/scatter-n9.png
+2025-09-15 15:23:09.556 | INFO     | __main__:main:369 - Saved scatter plot for group n11 to images/sfe-scatters/mnsol-close/scatter-n11.png
+2025-09-15 15:23:09.909 | INFO     | __main__:main:369 - Saved scatter plot for group n12 to images/sfe-scatters/mnsol-close/scatter-n12.png
+2025-09-15 15:23:09.910 | INFO     | __main__:main:337 - Skipping group n13 with 4 entries (< 10)
+2025-09-15 15:23:10.272 | INFO     | __main__:main:369 - Saved scatter plot for group n14 to images/sfe-scatters/mnsol-close/scatter-n14.png
+2025-09-15 15:23:10.273 | INFO     | __main__:main:337 - Skipping group n15 with 2 entries (< 10)
+2025-09-15 15:23:10.727 | INFO     | __main__:main:369 - Saved scatter plot for group n16 to images/sfe-scatters/mnsol-close/scatter-n16.png
+2025-09-15 15:23:11.119 | INFO     | __main__:main:369 - Saved scatter plot for group n17 to images/sfe-scatters/mnsol-close/scatter-n17.png
+2025-09-15 15:23:11.513 | INFO     | __main__:main:369 - Saved scatter plot for group n18 to images/sfe-scatters/mnsol-close/scatter-n18.png
+2025-09-15 15:23:11.901 | INFO     | __main__:main:369 - Saved scatter plot for group n19 to images/sfe-scatters/mnsol-close/scatter-n19.png
+2025-09-15 15:23:12.283 | INFO     | __main__:main:369 - Saved scatter plot for group n20 to images/sfe-scatters/mnsol-close/scatter-n20.png
+2025-09-15 15:23:12.284 | INFO     | __main__:main:337 - Skipping group n21 with 6 entries (< 10)
+2025-09-15 15:23:12.746 | INFO     | __main__:main:369 - Saved scatter plot for group n22 to images/sfe-scatters/mnsol-close/scatter-n22.png
+2025-09-15 15:23:13.077 | INFO     | __main__:main:369 - Saved scatter plot for group n24 to images/sfe-scatters/mnsol-close/scatter-n24.png
+2025-09-15 15:23:13.441 | INFO     | __main__:main:369 - Saved scatter plot for group n25 to images/sfe-scatters/mnsol-close/scatter-n25.png

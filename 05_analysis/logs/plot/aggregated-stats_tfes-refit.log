@@ -1,154 +1,157 @@
-2025-09-08 16:11:00.964 | INFO     | __main__:main:205 - Read 735 rows from output/sfes/tfes/stats/Sage-2.2.1-+-AmberTools.csv
-2025-09-08 16:11:00.966 | INFO     | __main__:main:205 - Read 735 rows from output/sfes/tfes/stats/Sage-2.2.1-+-ELF10.csv
-2025-09-08 16:11:00.967 | INFO     | __main__:main:205 - Read 735 rows from output/sfes/tfes/stats/Sage-2.2.1-+-AshGC.csv
-2025-09-08 16:11:00.968 | INFO     | __main__:main:205 - Read 735 rows from output/sfes/tfes/stats/Sage-2.3.0rc1.csv
-2025-09-08 16:11:00.970 | INFO     | __main__:main:205 - Read 735 rows from output/sfes/tfes/stats/v1-k100.csv
-2025-09-08 16:11:00.971 | INFO     | __main__:main:205 - Read 735 rows from output/sfes/tfes/stats/v3-k100.csv
-2025-09-08 16:11:00.972 | INFO     | __main__:main:210 - Filtered to 3675 rows with given force fields
-2025-09-08 16:11:01.396 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Alcohol.png
-2025-09-08 16:11:01.855 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Aldehyde.png
-2025-09-08 16:11:02.212 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Alkane.png
-2025-09-08 16:11:02.535 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Alkene.png
-2025-09-08 16:11:02.852 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Alkyl Bromide.png
-2025-09-08 16:11:03.209 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Alkyl Chloride.png
-2025-09-08 16:11:03.513 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Alkylarylether.png
-2025-09-08 16:11:03.821 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Alkylthiol.png
-2025-09-08 16:11:04.114 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-All.png
-2025-09-08 16:11:04.397 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Amine.png
-2025-09-08 16:11:04.744 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Aromatic.png
-2025-09-08 16:11:05.022 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Aryl Bromide.png
-2025-09-08 16:11:05.287 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Aryl Chloride.png
-2025-09-08 16:11:05.559 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Carbonyl.png
-2025-09-08 16:11:05.885 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Amide.png
-2025-09-08 16:11:06.224 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Derivative.png
-2025-09-08 16:11:06.492 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Ester.png
-2025-09-08 16:11:06.775 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Primary Amide.png
-2025-09-08 16:11:07.048 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Secondary Amide.png
-2025-09-08 16:11:07.338 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Tertiary Amide.png
-2025-09-08 16:11:07.682 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Dialkylether.png
-2025-09-08 16:11:07.959 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Ether.png
-2025-09-08 16:11:08.251 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Halogen Derivative.png
-2025-09-08 16:11:08.554 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Heterocycle.png
-2025-09-08 16:11:08.833 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Hydroxy.png
-2025-09-08 16:11:09.165 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Ketone.png
-2025-09-08 16:11:09.434 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Phenol.png
-2025-09-08 16:11:09.709 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Phosphoric Acid Derivative.png
-2025-09-08 16:11:09.989 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Phosphoric Acid Ester.png
-2025-09-08 16:11:10.261 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Primary Alcohol.png
-2025-09-08 16:11:10.583 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Primary Aliphatic Amine.png
-2025-09-08 16:11:10.850 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Primary Amine.png
-2025-09-08 16:11:11.116 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Primary Aromatic Amine.png
-2025-09-08 16:11:11.407 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Secondary Alcohol.png
-2025-09-08 16:11:11.714 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Secondary Aliphatic Amine.png
-2025-09-08 16:11:12.127 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Secondary Amine.png
-2025-09-08 16:11:12.429 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Tertiary Alcohol.png
-2025-09-08 16:11:12.710 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Tertiary Aliphatic Amine.png
-2025-09-08 16:11:13.023 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Tertiary Amine.png
-2025-09-08 16:11:13.357 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-Thiol.png
-2025-09-08 16:11:13.633 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a1.png
-2025-09-08 16:11:13.895 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a10.png
-2025-09-08 16:11:14.391 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a10a.png
-2025-09-08 16:11:14.707 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a11.png
-2025-09-08 16:11:15.017 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a11a.png
-2025-09-08 16:11:15.389 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a12.png
-2025-09-08 16:11:15.662 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a15.png
-2025-09-08 16:11:15.959 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a18.png
-2025-09-08 16:11:16.255 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a19.png
-2025-09-08 16:11:16.627 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a2.png
-2025-09-08 16:11:16.908 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a20.png
-2025-09-08 16:11:17.194 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a21.png
-2025-09-08 16:11:17.480 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a22.png
-2025-09-08 16:11:17.764 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a28.png
-2025-09-08 16:11:18.147 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a28a.png
-2025-09-08 16:11:18.427 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a34.png
-2025-09-08 16:11:18.704 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a40.png
-2025-09-08 16:11:18.984 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-a41.png
-2025-09-08 16:11:19.270 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b1.png
-2025-09-08 16:11:19.605 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b10.png
-2025-09-08 16:11:19.898 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b12.png
-2025-09-08 16:11:20.174 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b14.png
-2025-09-08 16:11:20.459 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b16.png
-2025-09-08 16:11:20.733 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b18.png
-2025-09-08 16:11:21.079 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b19.png
-2025-09-08 16:11:21.375 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b2.png
-2025-09-08 16:11:21.644 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b20.png
-2025-09-08 16:11:21.920 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b21.png
-2025-09-08 16:11:22.201 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b3.png
-2025-09-08 16:11:22.541 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b4.png
-2025-09-08 16:11:22.809 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b45.png
-2025-09-08 16:11:23.079 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b5.png
-2025-09-08 16:11:23.372 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b51.png
-2025-09-08 16:11:23.663 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b6.png
-2025-09-08 16:11:23.994 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b64.png
-2025-09-08 16:11:24.276 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b65.png
-2025-09-08 16:11:24.564 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b7.png
-2025-09-08 16:11:24.848 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b70.png
-2025-09-08 16:11:25.133 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b71.png
-2025-09-08 16:11:25.477 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b72.png
-2025-09-08 16:11:25.753 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b73.png
-2025-09-08 16:11:26.029 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b8.png
-2025-09-08 16:11:26.310 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b84.png
-2025-09-08 16:11:26.580 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b85.png
-2025-09-08 16:11:26.937 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b87.png
-2025-09-08 16:11:27.216 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b88.png
-2025-09-08 16:11:27.492 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-b9.png
-2025-09-08 16:11:27.756 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-i1.png
-2025-09-08 16:11:28.026 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-i2.png
-2025-09-08 16:11:28.307 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-i4.png
-2025-09-08 16:11:28.686 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n11.png
-2025-09-08 16:11:28.968 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n12.png
-2025-09-08 16:11:29.245 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n13.png
-2025-09-08 16:11:29.517 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n14.png
-2025-09-08 16:11:29.802 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n16.png
-2025-09-08 16:11:30.139 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n17.png
-2025-09-08 16:11:30.421 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n18.png
-2025-09-08 16:11:30.705 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n19.png
-2025-09-08 16:11:30.987 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n2.png
-2025-09-08 16:11:31.328 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n20.png
-2025-09-08 16:11:31.622 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n21.png
-2025-09-08 16:11:31.894 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n22.png
-2025-09-08 16:11:32.187 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n24.png
-2025-09-08 16:11:32.478 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n25.png
-2025-09-08 16:11:32.832 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n3.png
-2025-09-08 16:11:33.116 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n4.png
-2025-09-08 16:11:33.393 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n7.png
-2025-09-08 16:11:33.664 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n8.png
-2025-09-08 16:11:33.948 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-n9.png
-2025-09-08 16:11:34.333 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t1.png
-2025-09-08 16:11:34.620 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t105.png
-2025-09-08 16:11:34.886 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t106.png
-2025-09-08 16:11:35.156 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t107.png
-2025-09-08 16:11:35.436 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t11.png
-2025-09-08 16:11:35.704 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t110.png
-2025-09-08 16:11:36.080 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t115.png
-2025-09-08 16:11:36.375 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t116.png
-2025-09-08 16:11:36.679 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t12.png
-2025-09-08 16:11:36.964 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t159.png
-2025-09-08 16:11:37.401 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t160.png
-2025-09-08 16:11:37.685 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t17.png
-2025-09-08 16:11:37.983 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t17a.png
-2025-09-08 16:11:38.268 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t18.png
-2025-09-08 16:11:38.563 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t19.png
-2025-09-08 16:11:38.932 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t2.png
-2025-09-08 16:11:39.222 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t20.png
-2025-09-08 16:11:39.514 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t3.png
-2025-09-08 16:11:39.807 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t4.png
-2025-09-08 16:11:40.109 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t44.png
-2025-09-08 16:11:40.471 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t45.png
-2025-09-08 16:11:40.753 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t47.png
-2025-09-08 16:11:41.047 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t5.png
-2025-09-08 16:11:41.333 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t51.png
-2025-09-08 16:11:41.626 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t58a.png
-2025-09-08 16:11:42.002 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t64.png
-2025-09-08 16:11:42.332 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t74.png
-2025-09-08 16:11:42.622 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t75.png
-2025-09-08 16:11:42.912 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t77.png
-2025-09-08 16:11:43.220 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t78.png
-2025-09-08 16:11:43.580 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t84.png
-2025-09-08 16:11:43.853 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t85.png
-2025-09-08 16:11:44.143 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t9.png
-2025-09-08 16:11:44.424 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t93.png
-2025-09-08 16:11:44.714 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t94.png
-2025-09-08 16:11:45.089 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t95.png
-2025-09-08 16:11:45.388 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t96.png
-2025-09-08 16:11:45.685 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/tfes-stats/stats-t97.png
+2025-10-07 15:10:20.494 | INFO     | __main__:main:213 - 0 input files specified
+2025-10-07 15:10:20.494 | INFO     | __main__:main:217 - Adding 7 files from output/sfes/tfes/stats
+2025-10-07 15:10:20.499 | INFO     | __main__:main:223 - Read 735 rows from output/sfes/tfes/stats/Sage-2.2.1-+-AshGC.csv
+2025-10-07 15:10:20.500 | INFO     | __main__:main:223 - Read 735 rows from output/sfes/tfes/stats/v3-k100.csv
+2025-10-07 15:10:20.501 | INFO     | __main__:main:223 - Read 590 rows from output/sfes/tfes/stats/v0-k20.csv
+2025-10-07 15:10:20.502 | INFO     | __main__:main:223 - Read 735 rows from output/sfes/tfes/stats/Sage-2.2.1-+-AmberTools.csv
+2025-10-07 15:10:20.503 | INFO     | __main__:main:223 - Read 735 rows from output/sfes/tfes/stats/Sage-2.2.1-+-ELF10.csv
+2025-10-07 15:10:20.505 | INFO     | __main__:main:223 - Read 735 rows from output/sfes/tfes/stats/Sage-2.3.0rc1.csv
+2025-10-07 15:10:20.506 | INFO     | __main__:main:223 - Read 735 rows from output/sfes/tfes/stats/v1-k100.csv
+2025-10-07 15:10:20.507 | INFO     | __main__:main:228 - Filtered to 2940 rows with given force fields
+2025-10-07 15:10:20.948 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Alcohol.png
+2025-10-07 15:10:21.220 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Aldehyde.png
+2025-10-07 15:10:21.508 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Alkane.png
+2025-10-07 15:10:21.778 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Alkene.png
+2025-10-07 15:10:22.044 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Alkyl Bromide.png
+2025-10-07 15:10:22.306 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Alkyl Chloride.png
+2025-10-07 15:10:22.615 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Alkylarylether.png
+2025-10-07 15:10:22.880 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Alkylthiol.png
+2025-10-07 15:10:23.150 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-All.png
+2025-10-07 15:10:23.412 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Amine.png
+2025-10-07 15:10:23.665 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Aromatic.png
+2025-10-07 15:10:23.987 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Aryl Bromide.png
+2025-10-07 15:10:24.238 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Aryl Chloride.png
+2025-10-07 15:10:24.494 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Carbonyl.png
+2025-10-07 15:10:24.757 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Amide.png
+2025-10-07 15:10:25.005 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Derivative.png
+2025-10-07 15:10:25.258 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Ester.png
+2025-10-07 15:10:25.581 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Primary Amide.png
+2025-10-07 15:10:25.835 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Secondary Amide.png
+2025-10-07 15:10:26.101 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Carboxylic Acid Tertiary Amide.png
+2025-10-07 15:10:26.377 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Dialkylether.png
+2025-10-07 15:10:26.639 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Ether.png
+2025-10-07 15:10:26.950 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Halogen Derivative.png
+2025-10-07 15:10:27.215 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Heterocycle.png
+2025-10-07 15:10:27.469 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Hydroxy.png
+2025-10-07 15:10:27.726 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Ketone.png
+2025-10-07 15:10:27.976 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Phenol.png
+2025-10-07 15:10:28.234 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Phosphoric Acid Derivative.png
+2025-10-07 15:10:28.567 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Phosphoric Acid Ester.png
+2025-10-07 15:10:28.827 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Primary Alcohol.png
+2025-10-07 15:10:29.088 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Primary Aliphatic Amine.png
+2025-10-07 15:10:29.345 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Primary Amine.png
+2025-10-07 15:10:29.607 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Primary Aromatic Amine.png
+2025-10-07 15:10:29.926 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Secondary Alcohol.png
+2025-10-07 15:10:30.198 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Secondary Aliphatic Amine.png
+2025-10-07 15:10:30.473 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Secondary Amine.png
+2025-10-07 15:10:30.738 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Tertiary Alcohol.png
+2025-10-07 15:10:31.005 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Tertiary Aliphatic Amine.png
+2025-10-07 15:10:31.271 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Tertiary Amine.png
+2025-10-07 15:10:31.603 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-Thiol.png
+2025-10-07 15:10:31.869 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a1.png
+2025-10-07 15:10:32.122 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a10.png
+2025-10-07 15:10:32.378 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a10a.png
+2025-10-07 15:10:32.633 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a11.png
+2025-10-07 15:10:32.957 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a11a.png
+2025-10-07 15:10:33.214 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a12.png
+2025-10-07 15:10:33.460 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a15.png
+2025-10-07 15:10:33.728 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a18.png
+2025-10-07 15:10:33.990 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a19.png
+2025-10-07 15:10:34.260 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a2.png
+2025-10-07 15:10:34.581 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a20.png
+2025-10-07 15:10:34.839 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a21.png
+2025-10-07 15:10:35.111 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a22.png
+2025-10-07 15:10:35.384 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a28.png
+2025-10-07 15:10:35.639 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a28a.png
+2025-10-07 15:10:35.895 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a34.png
+2025-10-07 15:10:36.213 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a40.png
+2025-10-07 15:10:36.475 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-a41.png
+2025-10-07 15:10:36.739 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b1.png
+2025-10-07 15:10:37.001 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b10.png
+2025-10-07 15:10:37.269 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b12.png
+2025-10-07 15:10:37.588 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b14.png
+2025-10-07 15:10:37.850 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b16.png
+2025-10-07 15:10:38.105 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b18.png
+2025-10-07 15:10:38.362 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b19.png
+2025-10-07 15:10:38.625 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b2.png
+2025-10-07 15:10:38.878 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b20.png
+2025-10-07 15:10:39.200 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b21.png
+2025-10-07 15:10:39.457 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b3.png
+2025-10-07 15:10:39.710 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b4.png
+2025-10-07 15:10:39.965 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b45.png
+2025-10-07 15:10:40.211 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b5.png
+2025-10-07 15:10:40.489 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b51.png
+2025-10-07 15:10:40.808 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b6.png
+2025-10-07 15:10:41.090 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b64.png
+2025-10-07 15:10:41.357 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b65.png
+2025-10-07 15:10:41.613 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b7.png
+2025-10-07 15:10:41.876 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b70.png
+2025-10-07 15:10:42.210 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b71.png
+2025-10-07 15:10:42.465 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b72.png
+2025-10-07 15:10:42.727 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b73.png
+2025-10-07 15:10:42.991 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b8.png
+2025-10-07 15:10:43.260 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b84.png
+2025-10-07 15:10:43.511 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b85.png
+2025-10-07 15:10:43.834 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b87.png
+2025-10-07 15:10:44.093 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b88.png
+2025-10-07 15:10:44.355 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-b9.png
+2025-10-07 15:10:44.618 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-i1.png
+2025-10-07 15:10:44.875 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-i2.png
+2025-10-07 15:10:45.132 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-i4.png
+2025-10-07 15:10:45.461 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n11.png
+2025-10-07 15:10:45.727 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n12.png
+2025-10-07 15:10:45.987 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n13.png
+2025-10-07 15:10:46.267 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n14.png
+2025-10-07 15:10:46.541 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n16.png
+2025-10-07 15:10:46.869 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n17.png
+2025-10-07 15:10:47.137 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n18.png
+2025-10-07 15:10:47.401 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n19.png
+2025-10-07 15:10:47.670 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n2.png
+2025-10-07 15:10:47.926 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n20.png
+2025-10-07 15:10:48.191 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n21.png
+2025-10-07 15:10:48.518 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n22.png
+2025-10-07 15:10:48.791 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n24.png
+2025-10-07 15:10:49.056 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n25.png
+2025-10-07 15:10:49.315 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n3.png
+2025-10-07 15:10:49.580 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n4.png
+2025-10-07 15:10:49.894 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n7.png
+2025-10-07 15:10:50.145 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n8.png
+2025-10-07 15:10:50.416 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-n9.png
+2025-10-07 15:10:50.676 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t1.png
+2025-10-07 15:10:50.938 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t105.png
+2025-10-07 15:10:51.198 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t106.png
+2025-10-07 15:10:51.512 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t107.png
+2025-10-07 15:10:51.778 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t11.png
+2025-10-07 15:10:52.049 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t110.png
+2025-10-07 15:10:52.327 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t115.png
+2025-10-07 15:10:52.593 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t116.png
+2025-10-07 15:10:52.850 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t12.png
+2025-10-07 15:10:53.176 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t159.png
+2025-10-07 15:10:53.450 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t160.png
+2025-10-07 15:10:53.704 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t17.png
+2025-10-07 15:10:53.972 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t17a.png
+2025-10-07 15:10:54.230 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t18.png
+2025-10-07 15:10:54.549 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t19.png
+2025-10-07 15:10:54.814 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t2.png
+2025-10-07 15:10:55.079 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t20.png
+2025-10-07 15:10:55.351 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t3.png
+2025-10-07 15:10:55.620 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t4.png
+2025-10-07 15:10:55.882 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t44.png
+2025-10-07 15:10:56.210 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t45.png
+2025-10-07 15:10:56.466 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t47.png
+2025-10-07 15:10:56.717 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t5.png
+2025-10-07 15:10:56.979 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t51.png
+2025-10-07 15:10:57.237 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t58a.png
+2025-10-07 15:10:57.510 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t64.png
+2025-10-07 15:10:57.837 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t74.png
+2025-10-07 15:10:58.094 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t75.png
+2025-10-07 15:10:58.356 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t77.png
+2025-10-07 15:10:58.621 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t78.png
+2025-10-07 15:10:58.889 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t84.png
+2025-10-07 15:10:59.205 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t85.png
+2025-10-07 15:10:59.472 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t9.png
+2025-10-07 15:10:59.729 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t93.png
+2025-10-07 15:10:59.991 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t94.png
+2025-10-07 15:11:00.259 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t95.png
+2025-10-07 15:11:00.527 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t96.png
+2025-10-07 15:11:00.855 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/tfes-stats/stats-t97.png

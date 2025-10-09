@@ -1,13 +1,13 @@
-2025-09-08 11:04:47.416 | INFO     | __main__:main:132 - Read 3366 entries from ../04_benchmark/phys-prop/output/training/summary-benchmarks-EnthalpyOfMixing.csv
-2025-09-08 11:04:47.420 | INFO     | __main__:main:132 - Read 2616 entries from ../04_benchmark/phys-prop/output/validation/summary-benchmarks-EnthalpyOfMixing.csv
-2025-09-08 11:04:47.420 | INFO     | __main__:main:135 - Read 5982 entries from 2 files
-2025-09-08 11:04:47.422 | INFO     | __main__:main:150 - Found 142 unique SMILES to label
-2025-09-08 11:04:47.432 | INFO     | __main__:main:156 - Loaded 985 checkmol labels from labels/checkmol
-2025-09-08 11:04:47.434 | INFO     | __main__:main:161 - Loaded 6607 forcefield labels from labels/forcefields/v3-k100
-2025-09-08 11:04:47.667 | INFO     | __main__:main:199 - Found 41 unique Checkmol groups
-2025-09-08 11:04:47.667 | INFO     | __main__:main:206 - Found 19 unique Angles forcefield parameters
-2025-09-08 11:04:47.667 | INFO     | __main__:main:206 - Found 28 unique Bonds forcefield parameters
-2025-09-08 11:04:47.667 | INFO     | __main__:main:206 - Found 48 unique ProperTorsions forcefield parameters
-2025-09-08 11:04:47.667 | INFO     | __main__:main:206 - Found 21 unique vdW forcefield parameters
-2025-09-08 11:04:47.667 | INFO     | __main__:main:206 - Found 4 unique ImproperTorsions forcefield parameters
-2025-09-08 11:04:51.565 | INFO     | __main__:main:233 - Wrote 5982 entries to output/phys-prop/dhmix-all/labelled-data.csv
+2025-09-22 14:09:00.377 | INFO     | __main__:main:132 - Read 6171 entries from ../04_benchmark/phys-prop/output/training/summary-benchmarks-EnthalpyOfMixing.csv
+2025-09-22 14:09:00.384 | INFO     | __main__:main:132 - Read 4796 entries from ../04_benchmark/phys-prop/output/validation/summary-benchmarks-EnthalpyOfMixing.csv
+2025-09-22 14:09:00.384 | INFO     | __main__:main:135 - Read 10967 entries from 2 files
+2025-09-22 14:09:00.387 | INFO     | __main__:main:150 - Found 142 unique SMILES to label
+2025-09-22 14:09:00.398 | INFO     | __main__:main:156 - Loaded 985 checkmol labels from labels/checkmol
+2025-09-22 14:09:00.400 | INFO     | __main__:main:161 - Loaded 6607 forcefield labels from labels/forcefields/v3-k100
+2025-09-22 14:09:00.612 | INFO     | __main__:main:199 - Found 41 unique Checkmol groups
+2025-09-22 14:09:00.613 | INFO     | __main__:main:206 - Found 19 unique Angles forcefield parameters
+2025-09-22 14:09:00.613 | INFO     | __main__:main:206 - Found 28 unique Bonds forcefield parameters
+2025-09-22 14:09:00.613 | INFO     | __main__:main:206 - Found 48 unique ProperTorsions forcefield parameters
+2025-09-22 14:09:00.613 | INFO     | __main__:main:206 - Found 21 unique vdW forcefield parameters
+2025-09-22 14:09:00.613 | INFO     | __main__:main:206 - Found 4 unique ImproperTorsions forcefield parameters
+2025-09-22 14:09:07.931 | INFO     | __main__:main:233 - Wrote 10967 entries to output/phys-prop/dhmix-all/labelled-data.csv

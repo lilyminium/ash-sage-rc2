@@ -1,12 +1,12 @@
-2025-09-08 11:05:02.957 | INFO     | __main__:main:132 - Read 2429 entries from ../04_benchmark/sfes/output/tfes.csv
-2025-09-08 11:05:02.957 | INFO     | __main__:main:135 - Read 2429 entries from 1 files
-2025-09-08 11:05:02.958 | INFO     | __main__:main:150 - Found 112 unique SMILES to label
-2025-09-08 11:05:02.967 | INFO     | __main__:main:156 - Loaded 757 checkmol labels from labels/checkmol
-2025-09-08 11:05:02.969 | INFO     | __main__:main:161 - Loaded 5204 forcefield labels from labels/forcefields/v3-k100
-2025-09-08 11:05:03.206 | INFO     | __main__:main:199 - Found 44 unique Checkmol groups
-2025-09-08 11:05:03.206 | INFO     | __main__:main:206 - Found 24 unique Angles forcefield parameters
-2025-09-08 11:05:03.206 | INFO     | __main__:main:206 - Found 32 unique Bonds forcefield parameters
-2025-09-08 11:05:03.206 | INFO     | __main__:main:206 - Found 4 unique ImproperTorsions forcefield parameters
-2025-09-08 11:05:03.206 | INFO     | __main__:main:206 - Found 45 unique ProperTorsions forcefield parameters
-2025-09-08 11:05:03.206 | INFO     | __main__:main:206 - Found 19 unique vdW forcefield parameters
-2025-09-08 11:05:04.924 | INFO     | __main__:main:233 - Wrote 2429 entries to output/sfes/tfes/labelled-data.csv
+2025-10-03 11:16:43.794 | INFO     | __main__:main:132 - Read 2776 entries from ../04_benchmark/sfes/output/tfes.csv
+2025-10-03 11:16:43.794 | INFO     | __main__:main:135 - Read 2776 entries from 1 files
+2025-10-03 11:16:43.795 | INFO     | __main__:main:150 - Found 112 unique SMILES to label
+2025-10-03 11:16:43.804 | INFO     | __main__:main:156 - Loaded 757 checkmol labels from labels/checkmol
+2025-10-03 11:16:43.806 | INFO     | __main__:main:161 - Loaded 5204 forcefield labels from labels/forcefields/v3-k100
+2025-10-03 11:16:44.015 | INFO     | __main__:main:199 - Found 44 unique Checkmol groups
+2025-10-03 11:16:44.016 | INFO     | __main__:main:206 - Found 24 unique Angles forcefield parameters
+2025-10-03 11:16:44.016 | INFO     | __main__:main:206 - Found 32 unique Bonds forcefield parameters
+2025-10-03 11:16:44.016 | INFO     | __main__:main:206 - Found 4 unique ImproperTorsions forcefield parameters
+2025-10-03 11:16:44.016 | INFO     | __main__:main:206 - Found 45 unique ProperTorsions forcefield parameters
+2025-10-03 11:16:44.016 | INFO     | __main__:main:206 - Found 19 unique vdW forcefield parameters
+2025-10-03 11:16:46.187 | INFO     | __main__:main:233 - Wrote 2776 entries to output/sfes/tfes/labelled-data.csv

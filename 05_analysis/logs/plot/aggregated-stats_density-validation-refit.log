@@ -1,95 +1,98 @@
-2025-09-08 16:56:34.043 | INFO     | __main__:main:205 - Read 445 rows from output/phys-prop/density-validation/stats/Sage-2.0.0.csv
-2025-09-08 16:56:34.044 | INFO     | __main__:main:205 - Read 445 rows from output/phys-prop/density-validation/stats/Sage-2.2.1.csv
-2025-09-08 16:56:34.045 | INFO     | __main__:main:205 - Read 445 rows from output/phys-prop/density-validation/stats/Sage-2.3.0rc1.csv
-2025-09-08 16:56:34.046 | INFO     | __main__:main:205 - Read 445 rows from output/phys-prop/density-validation/stats/v1-k100.csv
-2025-09-08 16:56:34.048 | INFO     | __main__:main:205 - Read 445 rows from output/phys-prop/density-validation/stats/v3-k100.csv
-2025-09-08 16:56:34.048 | INFO     | __main__:main:210 - Filtered to 2225 rows with given force fields
-2025-09-08 16:56:34.470 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Alcohol.png
-2025-09-08 16:56:34.749 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Alkane.png
-2025-09-08 16:56:35.026 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Alkyl Bromide.png
-2025-09-08 16:56:35.322 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Alkyl Chloride.png
-2025-09-08 16:56:35.591 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Alkyl Fluoride.png
-2025-09-08 16:56:35.915 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-All.png
-2025-09-08 16:56:36.183 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Amine.png
-2025-09-08 16:56:36.451 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Aromatic.png
-2025-09-08 16:56:36.715 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Carbonyl.png
-2025-09-08 16:56:36.997 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Carboxylic Acid Derivative.png
-2025-09-08 16:56:37.373 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Carboxylic Acid Ester.png
-2025-09-08 16:56:37.662 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Dialkylether.png
-2025-09-08 16:56:37.946 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Ether.png
-2025-09-08 16:56:38.219 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Halogen Derivative.png
-2025-09-08 16:56:38.495 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Heterocycle.png
-2025-09-08 16:56:38.848 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Hydroxy.png
-2025-09-08 16:56:39.127 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Ketone.png
-2025-09-08 16:56:39.425 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Orthocarboxylic Acid Derivative.png
-2025-09-08 16:56:39.700 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-Primary Alcohol.png
-2025-09-08 16:56:39.977 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a1.png
-2025-09-08 16:56:40.310 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a10.png
-2025-09-08 16:56:40.575 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a10a.png
-2025-09-08 16:56:40.838 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a11.png
-2025-09-08 16:56:41.100 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a15.png
-2025-09-08 16:56:41.373 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a18.png
-2025-09-08 16:56:41.694 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a19.png
-2025-09-08 16:56:41.965 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a2.png
-2025-09-08 16:56:42.235 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a28.png
-2025-09-08 16:56:42.499 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a28a.png
-2025-09-08 16:56:42.756 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-a41.png
-2025-09-08 16:56:43.078 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b1.png
-2025-09-08 16:56:43.345 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b14.png
-2025-09-08 16:56:43.609 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b16.png
-2025-09-08 16:56:43.871 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b2.png
-2025-09-08 16:56:44.144 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b20.png
-2025-09-08 16:56:44.475 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b21.png
-2025-09-08 16:56:44.748 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b3.png
-2025-09-08 16:56:45.026 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b5.png
-2025-09-08 16:56:45.300 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b69.png
-2025-09-08 16:56:45.618 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b7.png
-2025-09-08 16:56:45.878 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b71.png
-2025-09-08 16:56:46.149 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b73.png
-2025-09-08 16:56:46.432 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b84.png
-2025-09-08 16:56:46.714 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b85.png
-2025-09-08 16:56:47.054 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b87.png
-2025-09-08 16:56:47.332 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-b88.png
-2025-09-08 16:56:47.611 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-i1.png
-2025-09-08 16:56:47.888 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-i2.png
-2025-09-08 16:56:48.161 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n11.png
-2025-09-08 16:56:48.503 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n12.png
-2025-09-08 16:56:48.770 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n14.png
-2025-09-08 16:56:49.045 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n16.png
-2025-09-08 16:56:49.328 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n17.png
-2025-09-08 16:56:49.617 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n18.png
-2025-09-08 16:56:49.957 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n19.png
-2025-09-08 16:56:50.254 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n2.png
-2025-09-08 16:56:50.537 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n20.png
-2025-09-08 16:56:50.810 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n23.png
-2025-09-08 16:56:51.080 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n24.png
-2025-09-08 16:56:51.430 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n25.png
-2025-09-08 16:56:51.702 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n3.png
-2025-09-08 16:56:51.984 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n7.png
-2025-09-08 16:56:52.255 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-n9.png
-2025-09-08 16:56:52.533 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t1.png
-2025-09-08 16:56:52.866 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t10.png
-2025-09-08 16:56:53.137 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t107.png
-2025-09-08 16:56:53.407 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t11.png
-2025-09-08 16:56:53.685 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t110.png
-2025-09-08 16:56:53.955 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t12.png
-2025-09-08 16:56:54.298 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t17.png
-2025-09-08 16:56:54.578 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t17a.png
-2025-09-08 16:56:54.855 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t18.png
-2025-09-08 16:56:55.131 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t19.png
-2025-09-08 16:56:55.396 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t2.png
-2025-09-08 16:56:55.739 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t3.png
-2025-09-08 16:56:56.027 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t4.png
-2025-09-08 16:56:56.296 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t44.png
-2025-09-08 16:56:56.604 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t5.png
-2025-09-08 16:56:56.900 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t51.png
-2025-09-08 16:56:57.258 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t58a.png
-2025-09-08 16:56:57.526 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t6.png
-2025-09-08 16:56:57.788 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t7.png
-2025-09-08 16:56:58.053 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t8.png
-2025-09-08 16:56:58.336 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t9.png
-2025-09-08 16:56:58.699 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t93.png
-2025-09-08 16:56:58.970 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t94.png
-2025-09-08 16:56:59.253 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t95.png
-2025-09-08 16:56:59.538 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t96.png
-2025-09-08 16:56:59.833 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/density-validation/stats-t97.png
+2025-10-07 15:12:00.837 | INFO     | __main__:main:213 - 7 input files specified
+2025-10-07 15:12:00.876 | INFO     | __main__:main:223 - Read 445 rows from output/phys-prop/density-validation/stats/Sage-2.0.0.csv
+2025-10-07 15:12:00.880 | INFO     | __main__:main:223 - Read 445 rows from output/phys-prop/density-validation/stats/Sage-2.2.1.csv
+2025-10-07 15:12:00.884 | INFO     | __main__:main:223 - Read 445 rows from output/phys-prop/density-validation/stats/Sage-2.2.1-+-AshGC.csv
+2025-10-07 15:12:00.887 | INFO     | __main__:main:223 - Read 445 rows from output/phys-prop/density-validation/stats/Sage-2.3.0rc1.csv
+2025-10-07 15:12:00.892 | INFO     | __main__:main:223 - Read 445 rows from output/phys-prop/density-validation/stats/v0-k20.csv
+2025-10-07 15:12:00.895 | INFO     | __main__:main:223 - Read 445 rows from output/phys-prop/density-validation/stats/v1-k100.csv
+2025-10-07 15:12:00.899 | INFO     | __main__:main:223 - Read 445 rows from output/phys-prop/density-validation/stats/v3-k100.csv
+2025-10-07 15:12:00.899 | INFO     | __main__:main:228 - Filtered to 1780 rows with given force fields
+2025-10-07 15:12:01.617 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Alcohol.png
+2025-10-07 15:12:01.866 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Alkane.png
+2025-10-07 15:12:02.110 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Alkyl Bromide.png
+2025-10-07 15:12:02.354 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Alkyl Chloride.png
+2025-10-07 15:12:02.597 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Alkyl Fluoride.png
+2025-10-07 15:12:02.856 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-All.png
+2025-10-07 15:12:03.146 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Amine.png
+2025-10-07 15:12:03.387 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Aromatic.png
+2025-10-07 15:12:03.622 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Carbonyl.png
+2025-10-07 15:12:03.882 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Carboxylic Acid Derivative.png
+2025-10-07 15:12:04.130 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Carboxylic Acid Ester.png
+2025-10-07 15:12:04.421 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Dialkylether.png
+2025-10-07 15:12:04.662 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Ether.png
+2025-10-07 15:12:04.914 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Halogen Derivative.png
+2025-10-07 15:12:05.156 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Heterocycle.png
+2025-10-07 15:12:05.397 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Hydroxy.png
+2025-10-07 15:12:05.632 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Ketone.png
+2025-10-07 15:12:05.940 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Orthocarboxylic Acid Derivative.png
+2025-10-07 15:12:06.193 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-Primary Alcohol.png
+2025-10-07 15:12:06.434 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a1.png
+2025-10-07 15:12:06.691 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a10.png
+2025-10-07 15:12:06.936 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a10a.png
+2025-10-07 15:12:07.221 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a11.png
+2025-10-07 15:12:07.466 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a15.png
+2025-10-07 15:12:07.710 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a18.png
+2025-10-07 15:12:07.961 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a19.png
+2025-10-07 15:12:08.209 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a2.png
+2025-10-07 15:12:08.461 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a28.png
+2025-10-07 15:12:08.760 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a28a.png
+2025-10-07 15:12:08.998 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-a41.png
+2025-10-07 15:12:09.244 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b1.png
+2025-10-07 15:12:09.486 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b14.png
+2025-10-07 15:12:09.751 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b16.png
+2025-10-07 15:12:10.052 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b2.png
+2025-10-07 15:12:10.303 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b20.png
+2025-10-07 15:12:10.559 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b21.png
+2025-10-07 15:12:10.817 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b3.png
+2025-10-07 15:12:11.061 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b5.png
+2025-10-07 15:12:11.314 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b69.png
+2025-10-07 15:12:11.606 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b7.png
+2025-10-07 15:12:11.902 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b71.png
+2025-10-07 15:12:12.146 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b73.png
+2025-10-07 15:12:12.408 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b84.png
+2025-10-07 15:12:12.677 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b85.png
+2025-10-07 15:12:12.928 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b87.png
+2025-10-07 15:12:13.231 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-b88.png
+2025-10-07 15:12:13.485 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-i1.png
+2025-10-07 15:12:13.749 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-i2.png
+2025-10-07 15:12:14.005 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n11.png
+2025-10-07 15:12:14.249 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n12.png
+2025-10-07 15:12:14.547 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n14.png
+2025-10-07 15:12:14.796 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n16.png
+2025-10-07 15:12:15.036 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n17.png
+2025-10-07 15:12:15.302 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n18.png
+2025-10-07 15:12:15.563 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n19.png
+2025-10-07 15:12:15.813 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n2.png
+2025-10-07 15:12:16.109 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n20.png
+2025-10-07 15:12:16.370 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n23.png
+2025-10-07 15:12:16.632 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n24.png
+2025-10-07 15:12:16.889 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n25.png
+2025-10-07 15:12:17.148 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n3.png
+2025-10-07 15:12:17.470 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n7.png
+2025-10-07 15:12:17.714 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-n9.png
+2025-10-07 15:12:17.970 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t1.png
+2025-10-07 15:12:18.220 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t10.png
+2025-10-07 15:12:18.475 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t107.png
+2025-10-07 15:12:18.719 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t11.png
+2025-10-07 15:12:19.026 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t110.png
+2025-10-07 15:12:19.283 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t12.png
+2025-10-07 15:12:19.554 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t17.png
+2025-10-07 15:12:19.812 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t17a.png
+2025-10-07 15:12:20.079 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t18.png
+2025-10-07 15:12:20.358 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t19.png
+2025-10-07 15:12:20.698 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t2.png
+2025-10-07 15:12:20.961 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t3.png
+2025-10-07 15:12:21.231 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t4.png
+2025-10-07 15:12:21.490 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t44.png
+2025-10-07 15:12:21.745 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t5.png
+2025-10-07 15:12:22.076 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t51.png
+2025-10-07 15:12:22.334 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t58a.png
+2025-10-07 15:12:22.585 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t6.png
+2025-10-07 15:12:22.844 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t7.png
+2025-10-07 15:12:23.104 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t8.png
+2025-10-07 15:12:23.368 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t9.png
+2025-10-07 15:12:23.687 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t93.png
+2025-10-07 15:12:23.951 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t94.png
+2025-10-07 15:12:24.214 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t95.png
+2025-10-07 15:12:24.475 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t96.png
+2025-10-07 15:12:24.741 | INFO     | __main__:main:249 - Saved plot to images/compare-refit/density-validation/stats-t97.png

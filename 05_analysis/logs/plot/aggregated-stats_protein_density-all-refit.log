@@ -1,0 +1,161 @@
+2025-09-22 15:53:24.134 | INFO     | __main__:main:205 - Read 780 rows from output/phys-prop/density-all/stats/Sage-2.1.0.csv
+2025-09-22 15:53:24.137 | INFO     | __main__:main:205 - Read 780 rows from output/phys-prop/density-all/stats/Null-AAQAA3-3-+-OPC3.csv
+2025-09-22 15:53:24.138 | INFO     | __main__:main:205 - Read 780 rows from output/phys-prop/density-all/stats/Null-4-mer-AAQAA3-2-+-OPC3.csv
+2025-09-22 15:53:24.140 | INFO     | __main__:main:205 - Read 780 rows from output/phys-prop/density-all/stats/v3-k100.csv
+2025-09-22 15:53:24.140 | INFO     | __main__:main:210 - Filtered to 3120 rows with given force fields
+2025-09-22 15:53:24.561 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-1,2 Aminoalcohol.png
+2025-09-22 15:53:24.850 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-1,2 Diol.png
+2025-09-22 15:53:25.103 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Acetal.png
+2025-09-22 15:53:25.369 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Alcohol.png
+2025-09-22 15:53:25.636 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Alkane.png
+2025-09-22 15:53:25.892 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Alkene.png
+2025-09-22 15:53:26.187 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Alkyl Bromide.png
+2025-09-22 15:53:26.450 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Alkyl Chloride.png
+2025-09-22 15:53:26.708 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Alkyl Fluoride.png
+2025-09-22 15:53:26.960 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Alkylarylether.png
+2025-09-22 15:53:27.212 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-All.png
+2025-09-22 15:53:27.510 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Amine.png
+2025-09-22 15:53:27.771 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Aqueous.png
+2025-09-22 15:53:28.035 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Aromatic.png
+2025-09-22 15:53:28.294 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Aryl Chloride.png
+2025-09-22 15:53:28.543 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Carbonyl.png
+2025-09-22 15:53:28.804 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Carboxylic Acid Amide.png
+2025-09-22 15:53:29.118 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Carboxylic Acid Derivative.png
+2025-09-22 15:53:29.379 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Carboxylic Acid Ester.png
+2025-09-22 15:53:29.649 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Carboxylic Acid Tertiary Amide.png
+2025-09-22 15:53:29.903 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Dialkylether.png
+2025-09-22 15:53:30.158 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Ether.png
+2025-09-22 15:53:30.472 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Halogen Derivative.png
+2025-09-22 15:53:30.756 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Heterocycle.png
+2025-09-22 15:53:31.069 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Hydroxy.png
+2025-09-22 15:53:31.344 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Ketone.png
+2025-09-22 15:53:31.593 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Lactam.png
+2025-09-22 15:53:31.865 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Nitrile.png
+2025-09-22 15:53:32.183 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Orthocarboxylic Acid Derivative.png
+2025-09-22 15:53:32.436 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Primary Alcohol.png
+2025-09-22 15:53:32.690 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Primary Aliphatic Amine.png
+2025-09-22 15:53:32.954 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Primary Amine.png
+2025-09-22 15:53:33.208 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Primary Aromatic Amine.png
+2025-09-22 15:53:33.513 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Secondary Alcohol.png
+2025-09-22 15:53:33.784 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Secondary Aliphatic Amine.png
+2025-09-22 15:53:34.058 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Secondary Amine.png
+2025-09-22 15:53:34.320 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Secondary Mixed Amine.png
+2025-09-22 15:53:34.576 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Tertiary Alcohol.png
+2025-09-22 15:53:34.838 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Tertiary Aliphatic Amine.png
+2025-09-22 15:53:35.143 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-Tertiary Amine.png
+2025-09-22 15:53:35.410 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a1.png
+2025-09-22 15:53:35.677 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a10.png
+2025-09-22 15:53:35.943 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a10a.png
+2025-09-22 15:53:36.217 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a11.png
+2025-09-22 15:53:36.556 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a11a.png
+2025-09-22 15:53:36.817 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a12.png
+2025-09-22 15:53:37.076 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a14.png
+2025-09-22 15:53:37.343 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a15.png
+2025-09-22 15:53:37.609 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a16.png
+2025-09-22 15:53:37.866 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a18.png
+2025-09-22 15:53:38.174 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a18a.png
+2025-09-22 15:53:38.418 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a19.png
+2025-09-22 15:53:38.675 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a2.png
+2025-09-22 15:53:38.930 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a20.png
+2025-09-22 15:53:39.181 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a21.png
+2025-09-22 15:53:39.435 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a22.png
+2025-09-22 15:53:39.744 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a28.png
+2025-09-22 15:53:39.995 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a28a.png
+2025-09-22 15:53:40.269 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-a41.png
+2025-09-22 15:53:40.524 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b1.png
+2025-09-22 15:53:40.779 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b10.png
+2025-09-22 15:53:41.093 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b12.png
+2025-09-22 15:53:41.359 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b13.png
+2025-09-22 15:53:41.618 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b14.png
+2025-09-22 15:53:41.874 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b16.png
+2025-09-22 15:53:42.127 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b18.png
+2025-09-22 15:53:42.385 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b19.png
+2025-09-22 15:53:42.713 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b2.png
+2025-09-22 15:53:42.991 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b20.png
+2025-09-22 15:53:43.249 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b21.png
+2025-09-22 15:53:43.512 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b25.png
+2025-09-22 15:53:43.784 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b27.png
+2025-09-22 15:53:44.102 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b3.png
+2025-09-22 15:53:44.366 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b4.png
+2025-09-22 15:53:44.626 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b5.png
+2025-09-22 15:53:44.893 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b6.png
+2025-09-22 15:53:45.161 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b69.png
+2025-09-22 15:53:45.417 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b7.png
+2025-09-22 15:53:45.722 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b70.png
+2025-09-22 15:53:45.973 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b71.png
+2025-09-22 15:53:46.226 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b73.png
+2025-09-22 15:53:46.483 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b8.png
+2025-09-22 15:53:46.748 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b84.png
+2025-09-22 15:53:47.027 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b85.png
+2025-09-22 15:53:47.346 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b87.png
+2025-09-22 15:53:47.621 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b88.png
+2025-09-22 15:53:47.893 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-b9.png
+2025-09-22 15:53:48.148 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-i1.png
+2025-09-22 15:53:48.414 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-i2.png
+2025-09-22 15:53:48.719 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-i4.png
+2025-09-22 15:53:48.979 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-i6.png
+2025-09-22 15:53:49.240 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n-tip3p-H.png
+2025-09-22 15:53:49.511 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n-tip3p-O.png
+2025-09-22 15:53:49.776 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n11.png
+2025-09-22 15:53:50.048 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n12.png
+2025-09-22 15:53:50.381 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n14.png
+2025-09-22 15:53:50.656 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n15.png
+2025-09-22 15:53:50.928 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n16.png
+2025-09-22 15:53:51.196 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n17.png
+2025-09-22 15:53:51.447 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n18.png
+2025-09-22 15:53:51.763 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n19.png
+2025-09-22 15:53:52.019 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n2.png
+2025-09-22 15:53:52.284 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n20.png
+2025-09-22 15:53:52.578 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n23.png
+2025-09-22 15:53:52.834 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n24.png
+2025-09-22 15:53:53.089 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n25.png
+2025-09-22 15:53:53.412 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n3.png
+2025-09-22 15:53:53.668 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n4.png
+2025-09-22 15:53:53.923 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n7.png
+2025-09-22 15:53:54.182 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n8.png
+2025-09-22 15:53:54.465 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-n9.png
+2025-09-22 15:53:54.781 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t1.png
+2025-09-22 15:53:55.032 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t10.png
+2025-09-22 15:53:55.290 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t105.png
+2025-09-22 15:53:55.564 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t106.png
+2025-09-22 15:53:55.839 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t107.png
+2025-09-22 15:53:56.107 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t108.png
+2025-09-22 15:53:56.438 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t11.png
+2025-09-22 15:53:56.709 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t110.png
+2025-09-22 15:53:56.964 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t12.png
+2025-09-22 15:53:57.230 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t166.png
+2025-09-22 15:53:57.486 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t17.png
+2025-09-22 15:53:57.789 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t17a.png
+2025-09-22 15:53:58.052 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t18.png
+2025-09-22 15:53:58.316 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t19.png
+2025-09-22 15:53:58.572 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t2.png
+2025-09-22 15:53:58.827 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t20.png
+2025-09-22 15:53:59.080 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t23.png
+2025-09-22 15:53:59.403 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t3.png
+2025-09-22 15:53:59.660 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t4.png
+2025-09-22 15:53:59.929 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t44.png
+2025-09-22 15:54:00.211 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t45.png
+2025-09-22 15:54:00.476 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t5.png
+2025-09-22 15:54:00.730 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t51.png
+2025-09-22 15:54:01.068 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t58a.png
+2025-09-22 15:54:01.334 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t6.png
+2025-09-22 15:54:01.596 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t64.png
+2025-09-22 15:54:01.861 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t67.png
+2025-09-22 15:54:02.121 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t7.png
+2025-09-22 15:54:02.435 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t71.png
+2025-09-22 15:54:02.689 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t72.png
+2025-09-22 15:54:02.960 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t74.png
+2025-09-22 15:54:03.232 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t75.png
+2025-09-22 15:54:03.487 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t77.png
+2025-09-22 15:54:03.744 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t8.png
+2025-09-22 15:54:04.049 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t80.png
+2025-09-22 15:54:04.321 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t84.png
+2025-09-22 15:54:04.598 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t85.png
+2025-09-22 15:54:04.857 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t86.png
+2025-09-22 15:54:05.119 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t9.png
+2025-09-22 15:54:05.406 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t93.png
+2025-09-22 15:54:05.747 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t94.png
+2025-09-22 15:54:06.012 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t95.png
+2025-09-22 15:54:06.276 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t96.png
+2025-09-22 15:54:06.554 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t97.png
+2025-09-22 15:54:06.813 | INFO     | __main__:main:231 - Saved plot to images/compare-protein/density-all/stats-t98.png

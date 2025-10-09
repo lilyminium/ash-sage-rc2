@@ -1,0 +1,178 @@
+2025-09-16 21:10:25.595 | INFO     | __main__:main:205 - Read 865 rows from output/jacs/ddG/stats/Sage-2.2.1-+-ELF10.csv
+2025-09-16 21:10:25.596 | INFO     | __main__:main:205 - Read 865 rows from output/jacs/ddG/stats/Sage-2.2.1+AM1-BCC.csv
+2025-09-16 21:10:25.597 | INFO     | __main__:main:205 - Read 865 rows from output/jacs/ddG/stats/Sage-2.2.1-+-AshGC.csv
+2025-09-16 21:10:25.598 | INFO     | __main__:main:205 - Read 865 rows from output/jacs/ddG/stats/Sage-2.3.0rc1-+-AshGC.csv
+2025-09-16 21:10:25.599 | INFO     | __main__:main:210 - Filtered to 3460 rows with given force fields
+2025-09-16 21:10:26.000 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Alcohol.png
+2025-09-16 21:10:26.265 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Alkylarylether.png
+2025-09-16 21:10:26.523 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-All.png
+2025-09-16 21:10:26.778 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Amine.png
+2025-09-16 21:10:27.025 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Anion.png
+2025-09-16 21:10:27.280 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Aromatic.png
+2025-09-16 21:10:27.563 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Aryl Bromide.png
+2025-09-16 21:10:27.818 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Aryl Chloride.png
+2025-09-16 21:10:28.061 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Aryl Fluoride.png
+2025-09-16 21:10:28.314 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Carboxylic Acid Amide.png
+2025-09-16 21:10:28.565 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Carboxylic Acid Derivative.png
+2025-09-16 21:10:28.874 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Carboxylic Acid Salt.png
+2025-09-16 21:10:29.122 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Carboxylic Acid Secondary Amide.png
+2025-09-16 21:10:29.379 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Carboxylic Acid Tertiary Amide.png
+2025-09-16 21:10:29.635 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Cation.png
+2025-09-16 21:10:29.889 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Dialkylether.png
+2025-09-16 21:10:30.130 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Diarylether.png
+2025-09-16 21:10:30.426 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Ether.png
+2025-09-16 21:10:30.675 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Guanidine.png
+2025-09-16 21:10:30.921 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Halogen Derivative.png
+2025-09-16 21:10:31.175 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Heterocycle.png
+2025-09-16 21:10:31.424 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Hydroxy.png
+2025-09-16 21:10:31.720 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Lactam.png
+2025-09-16 21:10:31.970 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Nitrile.png
+2025-09-16 21:10:32.217 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Oxohetarene.png
+2025-09-16 21:10:32.459 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Primary Alcohol.png
+2025-09-16 21:10:32.709 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Primary Aliphatic Amine.png
+2025-09-16 21:10:32.967 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Primary Amine.png
+2025-09-16 21:10:33.276 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Primary Aromatic Amine.png
+2025-09-16 21:10:33.535 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Secondary Amine.png
+2025-09-16 21:10:33.798 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Secondary Aromatic Amine.png
+2025-09-16 21:10:34.044 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Secondary Mixed Amine.png
+2025-09-16 21:10:34.290 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Sulfonamide.png
+2025-09-16 21:10:34.588 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Sulfone.png
+2025-09-16 21:10:34.834 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-Sulfonic Acid Derivative.png
+2025-09-16 21:10:35.084 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a1.png
+2025-09-16 21:10:35.339 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a10.png
+2025-09-16 21:10:35.592 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a11.png
+2025-09-16 21:10:35.840 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a13.png
+2025-09-16 21:10:36.150 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a14.png
+2025-09-16 21:10:36.394 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a15.png
+2025-09-16 21:10:36.646 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a16.png
+2025-09-16 21:10:36.900 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a18.png
+2025-09-16 21:10:37.154 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a19.png
+2025-09-16 21:10:37.456 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a2.png
+2025-09-16 21:10:37.709 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a20.png
+2025-09-16 21:10:37.962 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a21.png
+2025-09-16 21:10:38.214 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a22.png
+2025-09-16 21:10:38.463 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a28.png
+2025-09-16 21:10:38.766 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a3.png
+2025-09-16 21:10:39.092 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a31.png
+2025-09-16 21:10:39.348 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a32.png
+2025-09-16 21:10:39.600 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a37.png
+2025-09-16 21:10:39.855 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a4.png
+2025-09-16 21:10:40.111 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a41.png
+2025-09-16 21:10:40.376 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a41a.png
+2025-09-16 21:10:40.685 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-a6.png
+2025-09-16 21:10:40.934 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b1.png
+2025-09-16 21:10:41.190 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b10.png
+2025-09-16 21:10:41.448 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b11.png
+2025-09-16 21:10:41.702 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b12.png
+2025-09-16 21:10:42.010 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b13.png
+2025-09-16 21:10:42.263 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b14.png
+2025-09-16 21:10:42.563 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b16.png
+2025-09-16 21:10:42.815 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b17.png
+2025-09-16 21:10:43.071 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b19.png
+2025-09-16 21:10:43.337 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b2.png
+2025-09-16 21:10:43.658 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b21.png
+2025-09-16 21:10:43.918 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b22.png
+2025-09-16 21:10:44.181 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b24.png
+2025-09-16 21:10:44.439 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b27.png
+2025-09-16 21:10:44.696 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b3.png
+2025-09-16 21:10:45.006 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b4.png
+2025-09-16 21:10:45.262 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b5.png
+2025-09-16 21:10:45.522 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b52.png
+2025-09-16 21:10:45.782 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b56.png
+2025-09-16 21:10:46.026 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b57.png
+2025-09-16 21:10:46.279 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b59.png
+2025-09-16 21:10:46.583 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b6.png
+2025-09-16 21:10:46.829 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b68.png
+2025-09-16 21:10:47.084 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b7.png
+2025-09-16 21:10:47.367 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b70.png
+2025-09-16 21:10:47.621 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b72.png
+2025-09-16 21:10:47.870 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b8.png
+2025-09-16 21:10:48.178 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b84.png
+2025-09-16 21:10:48.437 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b85.png
+2025-09-16 21:10:48.703 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b87.png
+2025-09-16 21:10:48.954 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b88.png
+2025-09-16 21:10:49.216 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-b9.png
+2025-09-16 21:10:49.538 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-i1.png
+2025-09-16 21:10:49.802 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-i2.png
+2025-09-16 21:10:50.065 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-i3.png
+2025-09-16 21:10:50.342 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-i4.png
+2025-09-16 21:10:50.597 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-i6.png
+2025-09-16 21:10:50.867 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-i7.png
+2025-09-16 21:10:51.202 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n11.png
+2025-09-16 21:10:51.466 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n12.png
+2025-09-16 21:10:51.726 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n14.png
+2025-09-16 21:10:52.001 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n15.png
+2025-09-16 21:10:52.265 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n16.png
+2025-09-16 21:10:52.533 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n17.png
+2025-09-16 21:10:52.869 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n18.png
+2025-09-16 21:10:53.135 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n19.png
+2025-09-16 21:10:53.398 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n2.png
+2025-09-16 21:10:53.665 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n20.png
+2025-09-16 21:10:53.913 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n21.png
+2025-09-16 21:10:54.233 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n23.png
+2025-09-16 21:10:54.494 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n24.png
+2025-09-16 21:10:54.734 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n25.png
+2025-09-16 21:10:54.990 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n3.png
+2025-09-16 21:10:55.248 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n6.png
+2025-09-16 21:10:55.502 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n7.png
+2025-09-16 21:10:55.840 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n8.png
+2025-09-16 21:10:56.101 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-n9.png
+2025-09-16 21:10:56.369 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t1.png
+2025-09-16 21:10:56.640 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t105.png
+2025-09-16 21:10:56.910 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t115.png
+2025-09-16 21:10:57.229 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t117a.png
+2025-09-16 21:10:57.484 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t118.png
+2025-09-16 21:10:57.753 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t119.png
+2025-09-16 21:10:58.041 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t120.png
+2025-09-16 21:10:58.302 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t121.png
+2025-09-16 21:10:58.552 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t13.png
+2025-09-16 21:10:58.874 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t14.png
+2025-09-16 21:10:59.139 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t149b.png
+2025-09-16 21:10:59.390 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t15.png
+2025-09-16 21:10:59.647 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t16.png
+2025-09-16 21:10:59.903 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t166.png
+2025-09-16 21:11:00.244 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t17.png
+2025-09-16 21:11:00.502 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t17a.png
+2025-09-16 21:11:00.767 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t18.png
+2025-09-16 21:11:01.020 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t18a.png
+2025-09-16 21:11:01.283 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t19.png
+2025-09-16 21:11:01.535 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t19a.png
+2025-09-16 21:11:01.864 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t2.png
+2025-09-16 21:11:02.123 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t20.png
+2025-09-16 21:11:02.382 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t22.png
+2025-09-16 21:11:02.646 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t23.png
+2025-09-16 21:11:02.896 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t3.png
+2025-09-16 21:11:03.149 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t4.png
+2025-09-16 21:11:03.458 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t43.png
+2025-09-16 21:11:03.709 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t43a.png
+2025-09-16 21:11:03.961 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t44.png
+2025-09-16 21:11:04.211 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t45.png
+2025-09-16 21:11:04.462 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t47.png
+2025-09-16 21:11:04.762 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t48.png
+2025-09-16 21:11:05.011 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t48a.png
+2025-09-16 21:11:05.265 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t50.png
+2025-09-16 21:11:05.516 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t51.png
+2025-09-16 21:11:05.770 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t58a.png
+2025-09-16 21:11:06.017 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t64.png
+2025-09-16 21:11:06.334 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t66.png
+2025-09-16 21:11:06.593 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t67.png
+2025-09-16 21:11:06.853 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t72a.png
+2025-09-16 21:11:07.099 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t73.png
+2025-09-16 21:11:07.355 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t74.png
+2025-09-16 21:11:07.660 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t75.png
+2025-09-16 21:11:07.903 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t76.png
+2025-09-16 21:11:08.149 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t77.png
+2025-09-16 21:11:08.409 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t78.png
+2025-09-16 21:11:08.665 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t79.png
+2025-09-16 21:11:08.929 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t80.png
+2025-09-16 21:11:09.242 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t83.png
+2025-09-16 21:11:09.495 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t84.png
+2025-09-16 21:11:09.754 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t85.png
+2025-09-16 21:11:10.001 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t86.png
+2025-09-16 21:11:10.246 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t87.png
+2025-09-16 21:11:10.499 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t9.png
+2025-09-16 21:11:10.796 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t93.png
+2025-09-16 21:11:11.044 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t94.png
+2025-09-16 21:11:11.300 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t95.png
+2025-09-16 21:11:11.556 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t96.png
+2025-09-16 21:11:11.819 | INFO     | __main__:main:231 - Saved plot to images/compare-refit/jacs-ddG/stats-t97.png
