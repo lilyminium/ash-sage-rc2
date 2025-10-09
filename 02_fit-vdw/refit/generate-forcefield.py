@@ -1,3 +1,15 @@
+"""
+This script generates a modified force field file for parameterization based on the number of physical properties associated with each van der Waals (vdW) parameter.
+It reads an input force field file and a training set of physical properties,
+counts how many properties are associated with each vdW parameter,
+and modifies the force field to mark parameters for optimization if they are associated with at least a specified number of properties.
+
+The `rmin_half` and `epsilon` of the vdW parameters are set to be optimized.
+The `epsilon` parameter is constrained to be non-negative using a softplus transformation, which sets 1e-5 as the minimum value.
+The cosmetic attribute is called `constrained_epsilon`.
+The script also replaces the AM1-BCC charge model with the OpenFF GNN-based charge model.
+"""
+
 import collections
 import logging
 import pathlib
