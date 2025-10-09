@@ -1,3 +1,6 @@
 Modified_Seminario*.txt
 msm-ff
 msm-data
+
+# some irrelevant other files
+*test*
