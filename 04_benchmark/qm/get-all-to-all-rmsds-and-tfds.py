@@ -1,3 +1,26 @@
+"""
+This script computes "all-to-all" RMSDs and TFDs between QM reference data and force field optimized
+geometries. However, rather than actually computing all pairwise RMSDs, for each force field
+conformation we find the *closest* QM conformation by RMSD and report that RMSD and TFD.
+This is a necessary step before computing "all-to-all" ddEs.
+
+The script is designed to be run in parallel on a cluster using Dask.
+
+\b
+The script expects a directory containing QM reference data in Parquet format.
+It generates a directory containing RMSD and TFD data in Parquet format, with the following schema:
+- mapped_smiles (str): The mapped SMILES string for the molecule.
+- cmiles (str): The CMILES string for the molecule.
+- inchi (str): The InChI string for the molecule.
+- ff_qcarchive_id (int): The QCArchive ID for the force field conformation.
+- ff_energy (float): The energy of the force field conformation in kcal/mol.
+- rmsd (float): The RMSD between the force field conformation and the closest QM conformation in angstrom.
+- tfd (float): The TFD between the force field conformation and the closest QM conformation.
+- qm_qcarchive_id (int): The QCArchive ID for the closest QM conformation.
+- qm_energy (float): The energy of the closest QM conformation in kcal/mol.
+- method (str): The forcefield used to optimize the MM geometry.
+"""
+
 import collections
 import pathlib
 import sys
@@ -104,7 +127,7 @@ def batch_get_rmsd(
 
     return rows
 
-@click.command()
+@click.command(help=__doc__)
 @click.option(
     "--forcefield",
     "-ff",
