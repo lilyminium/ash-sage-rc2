@@ -1,14 +1,26 @@
-
+"""
+Calculate ddE values from all-to-all RMSD data.
+This script reads RMSD data from a specified input directory,
+filters entries based on a heavy atom RMSD threshold,
+and calculates ddE values for each force field.
+Self-to-self comparisons are excluded.
+\b
+The results are saved in a specified output directory with the schema:
+- inchi (str): The InChI string of the molecule.
+- ff_qcarchive_id (int): The QCArchive ID of the force field conformer
+- qm_qcarchive_id (int): The QCArchive ID of the QM conformer.
+- ddE (float): The ddE value (kcal/mol).
+- ff_de (float): The force field energy difference (kcal/mol).
+- qm_de (float): The QM energy difference (kcal/mol).
+- method (str): The name of the force field.
+- n_conformers (int): The number of conformers for the molecule.
+"""
 
 import pathlib
 import sys
-import typing
 import click
-import tqdm
-import time
 
 from loguru import logger
-from click_option_group import optgroup
 
 import numpy as np
 import pandas as pd
@@ -17,11 +29,6 @@ import pyarrow.compute as pc
 import pyarrow.dataset as ds
 import pyarrow.parquet as pq
 
-import openmm
-import openmm.app
-import openmm.unit
-from openff.units import unit
-from openff.toolkit import Molecule, ForceField
 
 
 logger.remove()
@@ -101,7 +108,7 @@ def get_ddEs(
     return entries
 
 
-@click.command()
+@click.command(help=__doc__)
 @click.option(
     "--ff-name-and-stem",
     "-ff",
