@@ -1,0 +1,53 @@
+{
+    "bayer_macrocycles": [
+        "brd4"
+    ],
+    "charge_annihilation_set": [
+        "cdk2",
+        "egfr",
+        "ephx2",
+        "irak4_s2",
+        "irak4_s3",
+        "itk",
+        "jnk1",
+        "ptp1b",
+        "tyk2"
+    ],
+    "fragments": [],
+    "jacs_set": [
+        "cdk2",
+        "jnk1",
+        "ptp1b",
+        "thrombin",
+        "tyk2"
+    ],
+    "janssen_bace": [
+        "bace_ciordia_prospective",
+        "bace_p3_arg368_in",
+        "keranen_p2"
+    ],
+    "mcs_docking_set": [
+        "renin"
+    ],
+    "merck": [
+        "cdk8",
+        "cmet",
+        "pfkfb3",
+        "syk"
+    ],
+    "miscellaneous_set": [
+        "cdk8",
+        "galectin",
+        "hiv1_protease"
+    ],
+    "scaffold_hopping_set": [
+        "factor_xa"
+    ],
+    "water_set": [
+        "brd4",
+        "chk1",
+        "hsp90_kung",
+        "taf12",
+        "thrombin"
+    ]
+}
