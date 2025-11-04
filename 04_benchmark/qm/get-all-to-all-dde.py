@@ -1,26 +1,14 @@
-"""
-Calculate ddE values from all-to-all RMSD data.
-This script reads RMSD data from a specified input directory,
-filters entries based on a heavy atom RMSD threshold,
-and calculates ddE values for each force field.
-Self-to-self comparisons are excluded.
-\b
-The results are saved in a specified output directory with the schema:
-- inchi (str): The InChI string of the molecule.
-- ff_qcarchive_id (int): The QCArchive ID of the force field conformer
-- qm_qcarchive_id (int): The QCArchive ID of the QM conformer.
-- ddE (float): The ddE value (kcal/mol).
-- ff_de (float): The force field energy difference (kcal/mol).
-- qm_de (float): The QM energy difference (kcal/mol).
-- method (str): The name of the force field.
-- n_conformers (int): The number of conformers for the molecule.
-"""
+
 
 import pathlib
 import sys
+import typing
 import click
+import tqdm
+import time
 
 from loguru import logger
+from click_option_group import optgroup
 
 import numpy as np
 import pandas as pd
@@ -29,6 +17,11 @@ import pyarrow.compute as pc
 import pyarrow.dataset as ds
 import pyarrow.parquet as pq
 
+import openmm
+import openmm.app
+import openmm.unit
+from openff.units import unit
+from openff.toolkit import Molecule, ForceField
 
 
 logger.remove()
@@ -97,6 +90,8 @@ def get_ddEs(
                 "inchi": inchi,
                 "ff_qcarchive_id": row["ff_qcarchive_id"],
                 "qm_qcarchive_id": row["qm_qcarchive_id"],
+                "ff_min_qcarchive_id": lowest_energy_ff_id,
+                "qm_min_qcarchive_id": lowest_energy_qm_id,
                 "ddE": mm_de - qm_de,
                 "ff_de": mm_de,
                 "qm_de": qm_de,
@@ -108,7 +103,7 @@ def get_ddEs(
     return entries
 
 
-@click.command(help=__doc__)
+@click.command()
 @click.option(
     "--ff-name-and-stem",
     "-ff",
@@ -179,9 +174,10 @@ def main(
             "inchi", "method"
         ]
     ).to_pandas()
+    logger.info(f"Found unique methods: {', '.join(df.method.unique())}")
     df["Force field"] = df["method"].map(FF_STEM_TO_NAME)
     unique_ffs = df["Force field"].unique()
-    logger.info(f"Found unique FFs: {', '.join(unique_ffs)}")
+    logger.info(f"Found unique FFs: {', '.join(map(str, unique_ffs))}")
 
     # log counts
     counts = df.groupby("Force field").size().reset_index(name='count')
