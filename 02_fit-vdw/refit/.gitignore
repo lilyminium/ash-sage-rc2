@@ -8,3 +8,6 @@ smirnoff_parameter_assignments.json
 dask-worker-space
 stored_data
 optimize.sav
+
+optimize.tmp.tar.gz
+*.ipynb
