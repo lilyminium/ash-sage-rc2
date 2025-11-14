@@ -5,7 +5,7 @@ This takes as input the refitting directory and assumes it contains
 an `optimize.tmp` directory with the necessary files.
 It also assumes that the reference force field is in `forcefield/force-field.offxml`.
 """
-
+from collections import defaultdict
 import pathlib
 import sys
 
@@ -53,6 +53,7 @@ def main(
     # get rmins and epsilons over iterations
     rmin_data = {}
     epsilon_data = {}
+    epsilon_constrained_data = defaultdict(list)
     for prop in ref_vdw_handler.parameters:
         if not hasattr(prop, "_parameterize"):
             continue
@@ -69,6 +70,10 @@ def main(
                 continue
             rmin_data[param.id].append(param.rmin_half.m)
             epsilon_data[param.id].append(param.epsilon.m)
+            epsilon_constrained_data[param.id].append(param._constrained_epsilon.m)
+
+    for v in epsilon_constrained_data.values():
+        v.insert(0, v[0])
 
     rmin_df = pd.DataFrame.from_dict(
         rmin_data,
@@ -100,7 +105,35 @@ def main(
     epsilon_df["Iteration"] = [int(x.split("_")[-1]) for x in epsilon_df.Iteration.values]
     epsilon_df["Attribute"] = "epsilon"
 
-    both_df = pd.concat([rmin_df, epsilon_df], ignore_index=True)
+    constrained_epsilon_df = pd.DataFrame.from_dict(
+        epsilon_constrained_data,
+        orient="index",
+        columns=["Reference"] + iter_cols
+    ).reset_index(
+        names=["Parameter"]
+    ).melt(
+        id_vars=["Parameter", "Reference"],
+        value_vars=iter_cols,
+        var_name="Iteration",
+        value_name="Value",
+    )
+    constrained_epsilon_df["Iteration"] = [int(x.split("_")[-1]) for x in constrained_epsilon_df.Iteration.values]
+    constrained_epsilon_df["Attribute"] = "constrained_epsilon"
+
+    both_df = pd.concat([rmin_df, epsilon_df, constrained_epsilon_df], ignore_index=True)
+
+    # map SMIRKS
+    id_to_smirks = {
+        p.id: p.smirks
+        for p in ref_vdw_handler.parameters
+        if hasattr(p, "_parameterize")
+    }
+    both_df["smirks"] = [id_to_smirks[x] for x in both_df.Parameter.values]
+    both_df["SMIRKS"] = [
+        x.replace('#7,#8,#9,#16,#17,#35', 'ENA')
+        for x in both_df.smirks.values
+    ]
+    both_df.to_csv("output/parameters-over-iterations.csv", index=False)
 
     g = sns.FacetGrid(
         data=both_df,
