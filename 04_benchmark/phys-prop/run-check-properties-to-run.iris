@@ -1,15 +1,9 @@
-#!/bin/bash
-#SBATCH -J gather
-#SBATCH -p standard
-#SBATCH -t 00:30:00
-#SBATCH --nodes=1
-#SBATCH --cpus-per-task=1
-#SBATCH --account dmobley_lab
-#SBATCH --export ALL
+#!/usr/bin/env bash
+#SBATCH -J check-properties
+#SBATCH -p cpu
+#SBATCH -t 01:00:00
 #SBATCH --mem=4gb
-#SBATCH --constraint=fastscratch
 #SBATCH --output slurm-%x.%A.out
-
 
 . ~/.bashrc
 
@@ -17,12 +11,14 @@
 conda activate evaluator-050
 
 TIER="validation"
-TIER="training"
+#TIER="training"
+
 
 DATASET="../../01_download-data/physprop/final/output/${TIER}-set.json"
 
+echo $TIER
 
-python gather-benchmarks.py     \
+python check-properties-to-run.py      \
     -i $DATASET                 \
     -d $TIER                    \
     -o output/$TIER

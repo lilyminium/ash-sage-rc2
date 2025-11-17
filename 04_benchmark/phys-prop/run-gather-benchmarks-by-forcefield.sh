@@ -22,7 +22,7 @@ TIER="training"
 DATASET="../../01_download-data/physprop/final/output/${TIER}-set.json"
 
 
-python gather-benchmarks.py     \
+python gather-benchmarks-by-forcefield.py     \
     -i $DATASET                 \
     -d $TIER                    \
-    -o output/$TIER
+    -o results/$TIER

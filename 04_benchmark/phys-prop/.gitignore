@@ -2,3 +2,6 @@ training
 validation
 *.ipynb
 *.png
+*protein*
+copy.sh
+*ext*

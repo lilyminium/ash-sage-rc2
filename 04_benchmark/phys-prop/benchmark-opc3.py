@@ -93,6 +93,7 @@ def main(
     replicate: int = 1,
     base_port: int = 8100,
     options_file: str = "request-options.json",
+    water_ff_name: str = "opc3"
     
 ):
     dataset = PhysicalPropertyDataSet.from_json(input_path)
@@ -102,11 +103,11 @@ def main(
     small_dataset.add_properties(dataset.properties[property_index])
     logger.info(f"Property ID: {small_dataset.properties[0].id}")
     
-    ff = ForceField(forcefield)
-    logger.info(f"Loaded force field from {forcefield}")
+    ff = ForceField(forcefield, f"{water_ff_name}.offxml")
+    logger.info(f"Loaded force field from {forcefield} with OPC3")
     # check this has constraints
     handler = ff.get_parameter_handler("Constraints")
-    assert len(handler.parameters) == 3
+    #assert len(handler.parameters) == 3
 
 
     ff_name = pathlib.Path(forcefield).stem
@@ -123,7 +124,7 @@ def main(
     )
     logger.info(f"Loaded {len(storage_directory._cached_retrieved_objects)} into memory")
     
-    output_directory = output_directory / f"rep-{replicate}" / ff_name
+    output_directory = output_directory / f"rep-{replicate}" / (ff_name + f"_{water_ff_name}")
     output_directory.mkdir(parents=True, exist_ok=True)
     os.chdir(output_directory)
 

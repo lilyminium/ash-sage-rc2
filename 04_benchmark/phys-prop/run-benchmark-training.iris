@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+#SBATCH -J benchmark-training
+#SBATCH --array=995
+#SBATCH -p gpu
+#SBATCH -t 08:00:00
+#SBATCH --mem=4gb
+#SBATCH --exclude=iscc006
+#SBATCH --gpus=1
+#SBATCH --gpus-per-task=1
+#SBATCH --output run-logs/slurm-%x.%A-%a.out
+
+
+. ~/.bashrc
+
+# Use the right conda environment
+conda activate ash-sage-refit
+
+mkdir -p run-logs
+
+TIER="training"
+
+FFNAME="smee-spice2-systematic-torsion-generation_constrained-linear"
+FFNAME="fb-fit-v1-single-mean-k100"
+FFNAME="fb-fit-v3-single-mean-k100"
+FFNAME="openff-2.3.0rc1"
+FFNAME="openff-2.2.1-ashgc"
+FFNAME="openff-2.1.0"
+FFNAME="fb-fit-v0-single-mean-k20"
+FFNAME="fb-fit-v3-single-mean-k20"
+
+FORCEFIELD="../forcefields/${FFNAME}.offxml"
+#FORCEFIELD="${FFNAME}.offxml"
+
+DIRECTORY="../../01_download-data/physprop/final/output"
+DATASET="${DIRECTORY}/${TIER}-set.json"
+
+echo "Benchmarking ${TIER} with ${FFNAME}"
+
+python benchmark.py             \
+    -i  $DATASET                \
+    -p  $SLURM_ARRAY_TASK_ID    \
+    -ff $FORCEFIELD             \
+    -o  $TIER                   \
+    -r  1                       \
+    -s  "stored_data"           \
+    -bp 8003                    \
+    -of request-options.json

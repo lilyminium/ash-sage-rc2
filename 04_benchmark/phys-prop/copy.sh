@@ -6,4 +6,4 @@
 # rsync -arv -P --exclude="*.pkl" hpc3:/dfs9/dmobley-lab/lilyw7/ash-sage-rc2/04_benchmark/phys-prop/validation .
 
 # rsync -arv -P hpc3:/dfs9/dmobley-lab/lilyw7/ash-sage-rc2/04_benchmark/phys-prop/*.py .
-rsync -arv -P hpc3:/dfs9/dmobley-lab/lilyw7/ash-sage-rc2/04_benchmark/phys-prop/output .
+rsync -arv -P hpc3:/dfs9/dmobley-lab/lilyw7/ash-sage-rc2/04_benchmark/phys-prop/results .

@@ -1,0 +1,173 @@
+"""
+Gather separately-calculated benchmarks into a single CSV with reference values.
+\b
+This script writes two files, each named after each force field, in two subdirectories:
+    - `results/all/forcefield-name.csv`
+    - `results/summary/forcefield-name.csv`
+\b
+The all csv file contains the columns:
+    - id (str): the physical property ID
+    - index (int): the index of the property in the dataset
+    - type (str): the type of the physical property
+    - substance (str): the substance the property was measured for
+    - forcefield (str): the name of the force field used
+    - replicate (int): the replicate number
+    - value (float): the calculated value of the property in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - uncertainty (float): the uncertainty of the calculated value in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - reference_value (float): the reference value of the property in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - reference_uncertainty (float): the uncertainty of the reference value in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+
+\b
+The summary csv file contains the columns:
+    - id (str): the physical property ID
+    - type (str): the type of the physical property
+    - substance (str): the substance the property was measured for
+    - forcefield (str): the name of the force field used
+    - mean (float): the mean value of the property in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - uncertainty (float): the standard deviation of the value in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - reference_value (float): the reference value of the property in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - reference_uncertainty (float): the uncertainty of the reference value in default units (g/mL for densities, kJ/mol for enthalpies of mixing)
+    - n_replicates (int): the number of replicates used to calculate the mean and uncertainty
+"""
+
+import pathlib
+import sys
+
+import click
+import tqdm
+
+import pandas as pd
+
+from openff.evaluator.datasets.datasets import PhysicalPropertyDataSet
+from openff.evaluator.server.server import RequestResult
+from loguru import logger
+
+logger.remove()
+logger.add(sys.stdout)
+
+
+@click.command()
+@click.option(
+    "--input-dataset",
+    "-i",
+    type=click.Path(exists=True, dir_okay=False, file_okay=True),
+    default="dataset.json",
+    help="Path to the input dataset file.",
+)
+@click.option(
+    "--input-directory",
+    "-d",
+    type=click.Path(exists=True, file_okay=False, dir_okay=True),
+    default="training",
+    help="Directory containing the input JSON files.",
+)
+@click.option(
+    "--output-directory",
+    "-o",
+    type=click.Path(file_okay=False, dir_okay=True),
+    default="results",
+    help="Directory to write the output CSV files to.",
+)
+def main(
+    input_dataset: str = "dataset.json",
+    input_directory: str = "training",
+    output_directory: str = "results",
+):
+    output_directory = pathlib.Path(output_directory)
+    all_json_files = sorted(pathlib.Path(input_directory).glob("rep*/*/*.json"))
+
+    reference_dataset = PhysicalPropertyDataSet.from_json(input_dataset)
+    forcefields = sorted({json_file.parent.name for json_file in all_json_files})
+    logger.info(f"Found {len(all_json_files)} JSON files for {len(forcefields)} force fields: {forcefields}")
+
+    n_reference_properties = len(reference_dataset.properties)
+    n_reps = 3
+    for ff_name in forcefields:
+        csv_file = output_directory / "all" / f"{ff_name}.csv"
+        summary_file = output_directory / "summary" / f"{ff_name}.csv"
+
+        # check if files exist first
+        if (csv_file.exists() and summary_file.exists()):
+            logger.info(f"Skipping {ff_name} as {csv_file} and {summary_file} already exist")
+            continue
+
+
+        ff_json_files = [f for f in all_json_files if f.parent.name == ff_name]
+        n_ff_files = len(ff_json_files)
+        ff_entries = []
+        if not n_ff_files == (n_reference_properties * n_reps):
+            logger.info(f"Only found {n_ff_files} JSON files for force field {ff_name}, expected {n_reference_properties * n_reps}")
+            continue
+        for json_file in tqdm.tqdm(sorted(ff_json_files), desc=f"Checking {ff_name}"):
+            request_result = RequestResult.from_json(json_file)
+            replicate = int(json_file.parent.parent.stem.split("-")[-1])
+            try:
+                physical_property = request_result.estimated_properties.properties[0]
+            except IndexError:
+                logger.info(f"Skipping {json_file} -- {request_result.exceptions[0].message}")
+                raise
+
+            value = physical_property.value.m
+            uncertainty = physical_property.uncertainty.m
+            index = int(json_file.stem.split("-")[-1])
+
+            # comment out the below -- as property IDs changed between runs
+            # between ash-sage-rc1 vs ash-sage-rc2, this doesn't currently work.
+            # but this is probably best practice moving forward as a secondary check.
+            # reference_property = reference_properties_by_id[physical_property.id]
+            reference_property = reference_dataset.properties[index]
+            ref_value = reference_property.value.m
+            ref_uncertainty = reference_property.uncertainty.m
+            
+            ff_name = json_file.parent.name
+
+            smiles_1 = physical_property.substance.components[0].smiles
+            if len(physical_property.substance.components) == 2:
+                smiles_2 = physical_property.substance.components[1].smiles
+            else:
+                smiles_2 = ""
+        
+            entry = {
+                "id": reference_property.id,
+                "index": index,
+                "type": type(physical_property).__name__,
+                "substance": repr(physical_property.substance),
+                "smiles_1": smiles_1,
+                "smiles_2": smiles_2,
+                "forcefield": ff_name,
+                "replicate": replicate,
+                "value": value,
+                "uncertainty": uncertainty,
+                "reference_value": ref_value,
+                "reference_uncertainty": ref_uncertainty,
+            }
+            ff_entries.append(entry)
+
+        df = pd.DataFrame(ff_entries)
+        csv_file.parent.mkdir(parents=True, exist_ok=True)
+        df.to_csv(csv_file)
+        logger.info(f"Wrote {len(ff_entries)} entries to {csv_file}")
+
+        # get mean and sd
+        groupby_cols = ["id", "forcefield"]
+        numeric_cols = ["value", "uncertainty", "reference_value", "reference_uncertainty"]
+        string_cols = ["index", "type", "substance", "smiles_1", "smiles_2"]
+        mean_values = df[groupby_cols + numeric_cols].groupby(by=groupby_cols).mean().reset_index()
+        sd_values = df[groupby_cols + numeric_cols].groupby(by=groupby_cols).std().reset_index()
+        n_replicates = df[groupby_cols + ["replicate"]].groupby(by=groupby_cols).count().reset_index()
+        string_values = df[groupby_cols + string_cols].groupby(by=groupby_cols).first().reset_index()
+
+        # set 'uncertainty' column of mean_values to sd_values
+        assert mean_values["id"].equals(sd_values["id"])
+        assert string_values["id"].equals(mean_values["id"])
+        mean_values["uncertainty"] = sd_values["value"]
+        mean_values["n_replicates"] = n_replicates["replicate"]
+        for col in string_cols:
+            mean_values[col] = string_values[col]
+        summary_file.parent.mkdir(parents=True, exist_ok=True)
+        mean_values.to_csv(summary_file)
+        logger.info(f"Wrote {len(mean_values)} summary entries to {summary_file}")
+
+
+if __name__ == "__main__":
+    main()
