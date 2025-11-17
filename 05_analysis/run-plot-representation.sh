@@ -21,16 +21,16 @@ do
     python plot-overrepresentation.py \
         -i output/jacs/ddG/ratio_representation_1.2.csv \
         -o images/overrepresentation/jacs/ddG-$group.png \
-        -ff 'Sage 2.2.1 + ELF10' -ff 'Sage 2.2.1+AM1-BCC' -ff 'Sage 2.2.1 + AshGC' -ff 'Sage 2.3.0rc1 + AshGC' \
+        -ff 'Sage 2.2.1 + ELF10' -ff 'Sage 2.2.1 + AshGC' -ff 'Sage 2.3.0rc2 + AshGC' -ff 'Sage 2.3.0rc2 + ELF10' \
         -d "∆∆G > 1.2 kcal/mol" \
         -g "$group"
 
-    python plot-overrepresentation.py \
-        -i output/jacs/dG/ratio_representation_10.0.csv \
-        -o images/overrepresentation/jacs/dG-$group.png \
-        -ff 'Sage 2.2.1 + ELF10' -ff 'Sage 2.2.1+AM1-BCC' -ff 'Sage 2.2.1 + AshGC' -ff 'Sage 2.3.0rc1 + AshGC' \
-        -d "∆G > 10 kcal/mol" \
-        -g "$group"
+    # python plot-overrepresentation.py \
+    #     -i output/jacs/dG/ratio_representation_10.0.csv \
+    #     -o images/overrepresentation/jacs/dG-$group.png \
+    #     -ff 'Sage 2.2.1 + ELF10' -ff 'Sage 2.2.1+AM1-BCC' -ff 'Sage 2.2.1 + AshGC' -ff 'Sage 2.3.0rc1 + AshGC' \
+    #     -d "∆G > 10 kcal/mol" \
+    #     -g "$group"
 done
 
 

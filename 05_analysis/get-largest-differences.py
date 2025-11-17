@@ -5,6 +5,10 @@ for each statistic.
 
 This writes out a file of significant changes, with columns:
     - force field column (usually 'FF') (str): force field
+    - group (str): group name
+    - mle_diff (float): difference in maximum likelihood estimate (target - reference)
+    - Change (str): 'Improved' or 'Worsened' depending on whether the target force field
+      significantly improved or worsened over the reference force field.
 """
 
 from collections import defaultdict
