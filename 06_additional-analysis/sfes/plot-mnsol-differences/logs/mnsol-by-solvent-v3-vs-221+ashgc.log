@@ -1,0 +1,83 @@
+2025-09-16 10:19:44.220 | INFO     | __main__:main:222 - Saving plots to images/mnsol-by-solvent/v3-vs-221+ashgc
+2025-09-16 10:19:44.229 | INFO     | __main__:main:225 - Plotting Solvent: C1CCCCC1 with 31 items
+2025-09-16 10:19:44.664 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-C1CCCCC1-0.png
+2025-09-16 10:19:44.665 | INFO     | __main__:main:225 - Plotting Solvent: C1CCOC1 with 5 items
+2025-09-16 10:19:44.754 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-C1CCOC1-1.png
+2025-09-16 10:19:44.754 | INFO     | __main__:main:225 - Plotting Solvent: CC(=O)N(C)C with 5 items
+2025-09-16 10:19:44.840 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CC(=O)N(C)C-2.png
+2025-09-16 10:19:44.840 | INFO     | __main__:main:225 - Plotting Solvent: CC(=O)c1ccccc1 with 5 items
+2025-09-16 10:19:44.927 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CC(=O)c1ccccc1-3.png
+2025-09-16 10:19:44.927 | INFO     | __main__:main:225 - Plotting Solvent: CC(Br)Br with 4 items
+2025-09-16 10:19:45.014 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CC(Br)Br-4.png
+2025-09-16 10:19:45.014 | INFO     | __main__:main:225 - Plotting Solvent: CC(C)CO with 8 items
+2025-09-16 10:19:45.134 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CC(C)CO-5.png
+2025-09-16 10:19:45.134 | INFO     | __main__:main:225 - Plotting Solvent: CC(C)O with 5 items
+2025-09-16 10:19:45.221 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CC(C)O-6.png
+2025-09-16 10:19:45.221 | INFO     | __main__:main:225 - Plotting Solvent: CC(C)OC(C)C with 11 items
+2025-09-16 10:19:45.369 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CC(C)OC(C)C-7.png
+2025-09-16 10:19:45.369 | INFO     | __main__:main:225 - Plotting Solvent: CC(C)c1ccccc1 with 6 items
+2025-09-16 10:19:45.468 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CC(C)c1ccccc1-8.png
+2025-09-16 10:19:45.468 | INFO     | __main__:main:225 - Plotting Solvent: CC(Cl)Cl with 16 items
+2025-09-16 10:19:45.691 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CC(Cl)Cl-9.png
+2025-09-16 10:19:45.691 | INFO     | __main__:main:225 - Plotting Solvent: CCBr with 4 items
+2025-09-16 10:19:45.773 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCBr-10.png
+2025-09-16 10:19:45.773 | INFO     | __main__:main:225 - Plotting Solvent: CCCCC with 10 items
+2025-09-16 10:19:45.909 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCC-11.png
+2025-09-16 10:19:45.909 | INFO     | __main__:main:225 - Plotting Solvent: CCCCCC with 21 items
+2025-09-16 10:19:46.161 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCCC-12.png
+2025-09-16 10:19:46.161 | INFO     | __main__:main:225 - Plotting Solvent: CCCCCC(C)C with 18 items
+2025-09-16 10:19:46.394 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCCC(C)C-13.png
+2025-09-16 10:19:46.395 | INFO     | __main__:main:225 - Plotting Solvent: CCCCCCC with 22 items
+2025-09-16 10:19:46.674 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCCCC-14.png
+2025-09-16 10:19:46.674 | INFO     | __main__:main:225 - Plotting Solvent: CCCCCCCC with 12 items
+2025-09-16 10:19:46.846 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCCCCC-15.png
+2025-09-16 10:19:46.846 | INFO     | __main__:main:225 - Plotting Solvent: CCCCCCCCBr with 2 items
+2025-09-16 10:19:46.924 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCCCCCBr-16.png
+2025-09-16 10:19:46.925 | INFO     | __main__:main:225 - Plotting Solvent: CCCCCCCl with 4 items
+2025-09-16 10:19:47.010 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCCCCl-17.png
+2025-09-16 10:19:47.010 | INFO     | __main__:main:225 - Plotting Solvent: CCCCCCO with 5 items
+2025-09-16 10:19:47.138 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCCCO-18.png
+2025-09-16 10:19:47.138 | INFO     | __main__:main:225 - Plotting Solvent: CCCCCO with 7 items
+2025-09-16 10:19:47.247 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCCO-19.png
+2025-09-16 10:19:47.247 | INFO     | __main__:main:225 - Plotting Solvent: CCCCO with 10 items
+2025-09-16 10:19:47.386 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCO-20.png
+2025-09-16 10:19:47.386 | INFO     | __main__:main:225 - Plotting Solvent: CCCCOCCCC with 9 items
+2025-09-16 10:19:47.518 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCOCCCC-21.png
+2025-09-16 10:19:47.518 | INFO     | __main__:main:225 - Plotting Solvent: CCCCOP(=O)(OCCCC)OCCCC with 6 items
+2025-09-16 10:19:47.616 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCOP(=O)(OCCCC)OCCCC-22.png
+2025-09-16 10:19:47.617 | INFO     | __main__:main:225 - Plotting Solvent: CCCCc1ccccc1 with 5 items
+2025-09-16 10:19:47.707 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCCc1ccccc1-23.png
+2025-09-16 10:19:47.708 | INFO     | __main__:main:225 - Plotting Solvent: CCCO with 5 items
+2025-09-16 10:19:47.793 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCCO-24.png
+2025-09-16 10:19:47.793 | INFO     | __main__:main:225 - Plotting Solvent: CCN(CC)CC with 5 items
+2025-09-16 10:19:47.881 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCN(CC)CC-25.png
+2025-09-16 10:19:47.881 | INFO     | __main__:main:225 - Plotting Solvent: CCO with 6 items
+2025-09-16 10:19:47.978 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCO-26.png
+2025-09-16 10:19:47.978 | INFO     | __main__:main:225 - Plotting Solvent: CCOCC with 25 items
+2025-09-16 10:19:48.264 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCOCC-27.png
+2025-09-16 10:19:48.265 | INFO     | __main__:main:225 - Plotting Solvent: CCOc1ccccc1 with 5 items
+2025-09-16 10:19:48.351 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCOc1ccccc1-28.png
+2025-09-16 10:19:48.351 | INFO     | __main__:main:225 - Plotting Solvent: CCc1ccccc1 with 11 items
+2025-09-16 10:19:48.498 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CCc1ccccc1-29.png
+2025-09-16 10:19:48.498 | INFO     | __main__:main:225 - Plotting Solvent: CN(C)C=O with 5 items
+2025-09-16 10:19:48.624 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CN(C)C=O-30.png
+2025-09-16 10:19:48.624 | INFO     | __main__:main:225 - Plotting Solvent: CNC=O with 5 items
+2025-09-16 10:19:48.710 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-CNC=O-31.png
+2025-09-16 10:19:48.710 | INFO     | __main__:main:225 - Plotting Solvent: COc1ccccc1 with 6 items
+2025-09-16 10:19:48.805 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-COc1ccccc1-32.png
+2025-09-16 10:19:48.805 | INFO     | __main__:main:225 - Plotting Solvent: Cc1ccccc1 with 16 items
+2025-09-16 10:19:49.004 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-Cc1ccccc1-33.png
+2025-09-16 10:19:49.005 | INFO     | __main__:main:225 - Plotting Solvent: Cc1ccccc1C with 16 items
+2025-09-16 10:19:49.205 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-Cc1ccccc1C-34.png
+2025-09-16 10:19:49.206 | INFO     | __main__:main:225 - Plotting Solvent: Cc1ccccc1C(C)C with 3 items
+2025-09-16 10:19:49.284 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-Cc1ccccc1C(C)C-35.png
+2025-09-16 10:19:49.284 | INFO     | __main__:main:225 - Plotting Solvent: Cc1ccccn1 with 5 items
+2025-09-16 10:19:49.372 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-Cc1ccccn1-36.png
+2025-09-16 10:19:49.372 | INFO     | __main__:main:225 - Plotting Solvent: Cc1cccnc1C with 6 items
+2025-09-16 10:19:49.469 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-Cc1cccnc1C-37.png
+2025-09-16 10:19:49.469 | INFO     | __main__:main:225 - Plotting Solvent: c1ccc2c(c1)CCCC2 with 3 items
+2025-09-16 10:19:49.544 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-c1ccc2c(c1)CCCC2-38.png
+2025-09-16 10:19:49.545 | INFO     | __main__:main:225 - Plotting Solvent: c1ccccc1 with 24 items
+2025-09-16 10:19:49.822 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-c1ccccc1-39.png
+2025-09-16 10:19:49.822 | INFO     | __main__:main:225 - Plotting Solvent: c1ccncc1 with 5 items
+2025-09-16 10:19:49.909 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solvent/v3-vs-221+ashgc/Solvent-c1ccncc1-40.png

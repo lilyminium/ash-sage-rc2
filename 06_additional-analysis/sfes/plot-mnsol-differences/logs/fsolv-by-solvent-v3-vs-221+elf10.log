@@ -1,0 +1,3 @@
+2025-10-03 11:56:00.726 | INFO     | __main__:main:222 - Saving plots to images/fsolv-by-solvent/v3-vs-221+elf10
+2025-10-03 11:56:00.737 | INFO     | __main__:main:225 - Plotting Solvent: O with 87 items
+2025-10-03 11:56:01.828 | INFO     | __main__:main:241 - Saved plot to images/fsolv-by-solvent/v3-vs-221+elf10/Solvent-O-0.png

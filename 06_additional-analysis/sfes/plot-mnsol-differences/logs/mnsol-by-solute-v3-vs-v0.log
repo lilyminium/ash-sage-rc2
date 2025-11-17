@@ -1,0 +1,193 @@
+2025-09-25 16:39:56.933 | INFO     | __main__:main:222 - Saving plots to images/mnsol-by-solute/v3-vs-v0
+2025-09-25 16:39:56.951 | INFO     | __main__:main:225 - Plotting Solute: Brc1ccc(Br)cc1 with 1 items
+2025-09-25 16:39:57.160 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Brc1ccc(Br)cc1-0.png
+2025-09-25 16:39:57.160 | INFO     | __main__:main:225 - Plotting Solute: Brc1ccccc1 with 4 items
+2025-09-25 16:39:57.264 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Brc1ccccc1-1.png
+2025-09-25 16:39:57.264 | INFO     | __main__:main:225 - Plotting Solute: C1CCCCC1 with 1 items
+2025-09-25 16:39:57.416 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-C1CCCCC1-2.png
+2025-09-25 16:39:57.416 | INFO     | __main__:main:225 - Plotting Solute: C1CCNCC1 with 4 items
+2025-09-25 16:39:57.533 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-C1CCNCC1-3.png
+2025-09-25 16:39:57.533 | INFO     | __main__:main:225 - Plotting Solute: C1CCOCC1 with 1 items
+2025-09-25 16:39:57.611 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-C1CCOCC1-4.png
+2025-09-25 16:39:57.611 | INFO     | __main__:main:225 - Plotting Solute: C1CNCCN1 with 1 items
+2025-09-25 16:39:57.690 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-C1CNCCN1-5.png
+2025-09-25 16:39:57.690 | INFO     | __main__:main:225 - Plotting Solute: C1COCCO1 with 24 items
+2025-09-25 16:39:58.005 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-C1COCCO1-6.png
+2025-09-25 16:39:58.005 | INFO     | __main__:main:225 - Plotting Solute: C=CC with 1 items
+2025-09-25 16:39:58.081 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-C=CC-7.png
+2025-09-25 16:39:58.081 | INFO     | __main__:main:225 - Plotting Solute: C=CCC with 1 items
+2025-09-25 16:39:58.157 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-C=CCC-8.png
+2025-09-25 16:39:58.157 | INFO     | __main__:main:225 - Plotting Solute: C=CCO with 1 items
+2025-09-25 16:39:58.232 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-C=CCO-9.png
+2025-09-25 16:39:58.232 | INFO     | __main__:main:225 - Plotting Solute: C=O with 4 items
+2025-09-25 16:39:58.325 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-C=O-10.png
+2025-09-25 16:39:58.325 | INFO     | __main__:main:225 - Plotting Solute: CC(=O)C(C)(C)C with 12 items
+2025-09-25 16:39:58.504 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CC(=O)C(C)(C)C-11.png
+2025-09-25 16:39:58.504 | INFO     | __main__:main:225 - Plotting Solute: CC(=O)N(C)C with 1 items
+2025-09-25 16:39:58.618 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CC(=O)N(C)C-12.png
+2025-09-25 16:39:58.618 | INFO     | __main__:main:225 - Plotting Solute: CC(=O)c1ccccc1 with 3 items
+2025-09-25 16:39:58.732 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CC(=O)c1ccccc1-13.png
+2025-09-25 16:39:58.732 | INFO     | __main__:main:225 - Plotting Solute: CC(C)(C)O with 3 items
+2025-09-25 16:39:58.816 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CC(C)(C)O-14.png
+2025-09-25 16:39:58.816 | INFO     | __main__:main:225 - Plotting Solute: CC(C)=O with 6 items
+2025-09-25 16:39:58.924 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CC(C)=O-15.png
+2025-09-25 16:39:58.924 | INFO     | __main__:main:225 - Plotting Solute: CC(C)O with 3 items
+2025-09-25 16:39:59.011 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CC(C)O-16.png
+2025-09-25 16:39:59.012 | INFO     | __main__:main:225 - Plotting Solute: CC(N)=O with 1 items
+2025-09-25 16:39:59.088 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CC(N)=O-17.png
+2025-09-25 16:39:59.089 | INFO     | __main__:main:225 - Plotting Solute: CC=O with 1 items
+2025-09-25 16:39:59.165 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CC=O-18.png
+2025-09-25 16:39:59.166 | INFO     | __main__:main:225 - Plotting Solute: CCC with 1 items
+2025-09-25 16:39:59.239 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCC-19.png
+2025-09-25 16:39:59.240 | INFO     | __main__:main:225 - Plotting Solute: CCC(=O)CC with 1 items
+2025-09-25 16:39:59.313 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCC(=O)CC-20.png
+2025-09-25 16:39:59.313 | INFO     | __main__:main:225 - Plotting Solute: CCC(=O)OC with 2 items
+2025-09-25 16:39:59.393 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCC(=O)OC-21.png
+2025-09-25 16:39:59.393 | INFO     | __main__:main:225 - Plotting Solute: CCC(C)=O with 24 items
+2025-09-25 16:39:59.729 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCC(C)=O-22.png
+2025-09-25 16:39:59.730 | INFO     | __main__:main:225 - Plotting Solute: CCCC with 1 items
+2025-09-25 16:39:59.806 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCC-23.png
+2025-09-25 16:39:59.806 | INFO     | __main__:main:225 - Plotting Solute: CCCC(C)=O with 2 items
+2025-09-25 16:39:59.888 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCC(C)=O-24.png
+2025-09-25 16:39:59.888 | INFO     | __main__:main:225 - Plotting Solute: CCCC=O with 2 items
+2025-09-25 16:39:59.971 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCC=O-25.png
+2025-09-25 16:39:59.972 | INFO     | __main__:main:225 - Plotting Solute: CCCCC with 2 items
+2025-09-25 16:40:00.056 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCC-26.png
+2025-09-25 16:40:00.056 | INFO     | __main__:main:225 - Plotting Solute: CCCCC(=O)OC with 7 items
+2025-09-25 16:40:00.183 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCC(=O)OC-27.png
+2025-09-25 16:40:00.183 | INFO     | __main__:main:225 - Plotting Solute: CCCCC=O with 1 items
+2025-09-25 16:40:00.258 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCC=O-28.png
+2025-09-25 16:40:00.258 | INFO     | __main__:main:225 - Plotting Solute: CCCCCC(=O)OC with 2 items
+2025-09-25 16:40:00.392 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCCC(=O)OC-29.png
+2025-09-25 16:40:00.392 | INFO     | __main__:main:225 - Plotting Solute: CCCCCC(C)=O with 1 items
+2025-09-25 16:40:00.467 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCCC(C)=O-30.png
+2025-09-25 16:40:00.467 | INFO     | __main__:main:225 - Plotting Solute: CCCCCCCC with 23 items
+2025-09-25 16:40:00.767 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCCCCC-31.png
+2025-09-25 16:40:00.767 | INFO     | __main__:main:225 - Plotting Solute: CCCCCCCO with 1 items
+2025-09-25 16:40:00.840 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCCCCO-32.png
+2025-09-25 16:40:00.841 | INFO     | __main__:main:225 - Plotting Solute: CCCCCCO with 1 items
+2025-09-25 16:40:00.914 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCCCO-33.png
+2025-09-25 16:40:00.914 | INFO     | __main__:main:225 - Plotting Solute: CCCCCO with 4 items
+2025-09-25 16:40:01.005 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCCO-34.png
+2025-09-25 16:40:01.005 | INFO     | __main__:main:225 - Plotting Solute: CCCCCOC(C)=O with 2 items
+2025-09-25 16:40:01.094 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCCOC(C)=O-35.png
+2025-09-25 16:40:01.094 | INFO     | __main__:main:225 - Plotting Solute: CCCCN with 6 items
+2025-09-25 16:40:01.223 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCN-36.png
+2025-09-25 16:40:01.223 | INFO     | __main__:main:225 - Plotting Solute: CCCCO with 1 items
+2025-09-25 16:40:01.305 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCO-37.png
+2025-09-25 16:40:01.305 | INFO     | __main__:main:225 - Plotting Solute: CCCCOC(C)=O with 2 items
+2025-09-25 16:40:01.389 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCCOC(C)=O-38.png
+2025-09-25 16:40:01.389 | INFO     | __main__:main:225 - Plotting Solute: CCCN with 5 items
+2025-09-25 16:40:01.489 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCN-39.png
+2025-09-25 16:40:01.490 | INFO     | __main__:main:225 - Plotting Solute: CCCNCCC with 1 items
+2025-09-25 16:40:01.564 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCNCCC-40.png
+2025-09-25 16:40:01.564 | INFO     | __main__:main:225 - Plotting Solute: CCCO with 1 items
+2025-09-25 16:40:01.636 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCO-41.png
+2025-09-25 16:40:01.637 | INFO     | __main__:main:225 - Plotting Solute: CCCS with 2 items
+2025-09-25 16:40:01.717 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCCS-42.png
+2025-09-25 16:40:01.717 | INFO     | __main__:main:225 - Plotting Solute: CCN with 10 items
+2025-09-25 16:40:01.868 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCN-43.png
+2025-09-25 16:40:01.869 | INFO     | __main__:main:225 - Plotting Solute: CCNCC with 7 items
+2025-09-25 16:40:02.039 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCNCC-44.png
+2025-09-25 16:40:02.039 | INFO     | __main__:main:225 - Plotting Solute: CCO with 21 items
+2025-09-25 16:40:02.318 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCO-45.png
+2025-09-25 16:40:02.320 | INFO     | __main__:main:225 - Plotting Solute: CCOC(C)=O with 2 items
+2025-09-25 16:40:02.405 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCOC(C)=O-46.png
+2025-09-25 16:40:02.405 | INFO     | __main__:main:225 - Plotting Solute: CCOP(=O)(OCC)OCC with 5 items
+2025-09-25 16:40:02.502 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCOP(=O)(OCC)OCC-47.png
+2025-09-25 16:40:02.502 | INFO     | __main__:main:225 - Plotting Solute: CCS with 1 items
+2025-09-25 16:40:02.578 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCS-48.png
+2025-09-25 16:40:02.579 | INFO     | __main__:main:225 - Plotting Solute: CCc1cnccn1 with 2 items
+2025-09-25 16:40:02.657 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CCc1cnccn1-49.png
+2025-09-25 16:40:02.657 | INFO     | __main__:main:225 - Plotting Solute: CN with 6 items
+2025-09-25 16:40:02.772 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CN-50.png
+2025-09-25 16:40:02.772 | INFO     | __main__:main:225 - Plotting Solute: CN(C)C with 8 items
+2025-09-25 16:40:02.897 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CN(C)C-51.png
+2025-09-25 16:40:02.897 | INFO     | __main__:main:225 - Plotting Solute: CN(C)C=O with 2 items
+2025-09-25 16:40:02.974 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CN(C)C=O-52.png
+2025-09-25 16:40:02.974 | INFO     | __main__:main:225 - Plotting Solute: CN1CCCC1=O with 1 items
+2025-09-25 16:40:03.075 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CN1CCCC1=O-53.png
+2025-09-25 16:40:03.076 | INFO     | __main__:main:225 - Plotting Solute: CNC with 5 items
+2025-09-25 16:40:03.207 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CNC-54.png
+2025-09-25 16:40:03.207 | INFO     | __main__:main:225 - Plotting Solute: CNc1ccccc1 with 1 items
+2025-09-25 16:40:03.309 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CNc1ccccc1-55.png
+2025-09-25 16:40:03.310 | INFO     | __main__:main:225 - Plotting Solute: CO with 11 items
+2025-09-25 16:40:03.513 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CO-56.png
+2025-09-25 16:40:03.513 | INFO     | __main__:main:225 - Plotting Solute: COC(=O)c1ccccc1 with 3 items
+2025-09-25 16:40:03.600 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-COC(=O)c1ccccc1-57.png
+2025-09-25 16:40:03.600 | INFO     | __main__:main:225 - Plotting Solute: COC(C)=O with 11 items
+2025-09-25 16:40:03.816 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-COC(C)=O-58.png
+2025-09-25 16:40:03.817 | INFO     | __main__:main:225 - Plotting Solute: COCCO with 1 items
+2025-09-25 16:40:03.900 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-COCCO-59.png
+2025-09-25 16:40:03.900 | INFO     | __main__:main:225 - Plotting Solute: COP(=O)(OC)OC with 4 items
+2025-09-25 16:40:03.992 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-COP(=O)(OC)OC-60.png
+2025-09-25 16:40:03.992 | INFO     | __main__:main:225 - Plotting Solute: COP(=O)(OC)OC=C(Cl)Cl with 1 items
+2025-09-25 16:40:04.067 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-COP(=O)(OC)OC=C(Cl)Cl-61.png
+2025-09-25 16:40:04.068 | INFO     | __main__:main:225 - Plotting Solute: COc1ccccc1 with 3 items
+2025-09-25 16:40:04.150 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-COc1ccccc1-62.png
+2025-09-25 16:40:04.151 | INFO     | __main__:main:225 - Plotting Solute: CSc1ccccc1 with 1 items
+2025-09-25 16:40:04.226 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-CSc1ccccc1-63.png
+2025-09-25 16:40:04.227 | INFO     | __main__:main:225 - Plotting Solute: Cc1ccc(N)cc1 with 2 items
+2025-09-25 16:40:04.308 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Cc1ccc(N)cc1-64.png
+2025-09-25 16:40:04.309 | INFO     | __main__:main:225 - Plotting Solute: Cc1ccc(O)cc1 with 1 items
+2025-09-25 16:40:04.381 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Cc1ccc(O)cc1-65.png
+2025-09-25 16:40:04.381 | INFO     | __main__:main:225 - Plotting Solute: Cc1cccc(C)n1 with 2 items
+2025-09-25 16:40:04.460 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Cc1cccc(C)n1-66.png
+2025-09-25 16:40:04.460 | INFO     | __main__:main:225 - Plotting Solute: Cc1ccccc1 with 16 items
+2025-09-25 16:40:04.674 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Cc1ccccc1-67.png
+2025-09-25 16:40:04.674 | INFO     | __main__:main:225 - Plotting Solute: Cc1ccccc1N with 4 items
+2025-09-25 16:40:04.766 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Cc1ccccc1N-68.png
+2025-09-25 16:40:04.767 | INFO     | __main__:main:225 - Plotting Solute: Cc1ccccc1O with 4 items
+2025-09-25 16:40:04.854 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Cc1ccccc1O-69.png
+2025-09-25 16:40:04.854 | INFO     | __main__:main:225 - Plotting Solute: Cc1ccccn1 with 1 items
+2025-09-25 16:40:04.922 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Cc1ccccn1-70.png
+2025-09-25 16:40:04.922 | INFO     | __main__:main:225 - Plotting Solute: Cc1cncc(C)c1 with 1 items
+2025-09-25 16:40:04.992 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Cc1cncc(C)c1-71.png
+2025-09-25 16:40:04.992 | INFO     | __main__:main:225 - Plotting Solute: Cc1cnccn1 with 2 items
+2025-09-25 16:40:05.068 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Cc1cnccn1-72.png
+2025-09-25 16:40:05.068 | INFO     | __main__:main:225 - Plotting Solute: Clc1ccc(Cl)cc1 with 4 items
+2025-09-25 16:40:05.154 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Clc1ccc(Cl)cc1-73.png
+2025-09-25 16:40:05.154 | INFO     | __main__:main:225 - Plotting Solute: Clc1ccccc1 with 4 items
+2025-09-25 16:40:05.239 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Clc1ccccc1-74.png
+2025-09-25 16:40:05.239 | INFO     | __main__:main:225 - Plotting Solute: Clc1ccccc1-c1ccccc1Cl with 1 items
+2025-09-25 16:40:05.312 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Clc1ccccc1-c1ccccc1Cl-75.png
+2025-09-25 16:40:05.312 | INFO     | __main__:main:225 - Plotting Solute: N#Cc1cc(Br)c(O)c(Br)c1 with 2 items
+2025-09-25 16:40:05.424 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-N#Cc1cc(Br)c(O)c(Br)c1-76.png
+2025-09-25 16:40:05.425 | INFO     | __main__:main:225 - Plotting Solute: NC(=O)c1ccccc1 with 5 items
+2025-09-25 16:40:05.518 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-NC(=O)c1ccccc1-77.png
+2025-09-25 16:40:05.519 | INFO     | __main__:main:225 - Plotting Solute: NC=O with 1 items
+2025-09-25 16:40:05.592 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-NC=O-78.png
+2025-09-25 16:40:05.592 | INFO     | __main__:main:225 - Plotting Solute: Nc1ccccc1 with 7 items
+2025-09-25 16:40:05.712 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Nc1ccccc1-79.png
+2025-09-25 16:40:05.712 | INFO     | __main__:main:225 - Plotting Solute: O=C1CCCO1 with 2 items
+2025-09-25 16:40:05.791 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-O=C1CCCO1-80.png
+2025-09-25 16:40:05.791 | INFO     | __main__:main:225 - Plotting Solute: O=Cc1ccc(O)cc1 with 4 items
+2025-09-25 16:40:05.883 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-O=Cc1ccc(O)cc1-81.png
+2025-09-25 16:40:05.883 | INFO     | __main__:main:225 - Plotting Solute: O=Cc1cccc(O)c1 with 4 items
+2025-09-25 16:40:05.974 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-O=Cc1cccc(O)c1-82.png
+2025-09-25 16:40:05.974 | INFO     | __main__:main:225 - Plotting Solute: O=Cc1ccccc1 with 3 items
+2025-09-25 16:40:06.059 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-O=Cc1ccccc1-83.png
+2025-09-25 16:40:06.059 | INFO     | __main__:main:225 - Plotting Solute: O=[N+]([O-])c1ccccc1 with 1 items
+2025-09-25 16:40:06.137 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-O=[N+]([O-])c1ccccc1-84.png
+2025-09-25 16:40:06.137 | INFO     | __main__:main:225 - Plotting Solute: O=c1[nH]cc(Br)c(=O)[nH]1 with 2 items
+2025-09-25 16:40:06.226 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-O=c1[nH]cc(Br)c(=O)[nH]1-85.png
+2025-09-25 16:40:06.226 | INFO     | __main__:main:225 - Plotting Solute: O=c1cc[nH]c(=O)[nH]1 with 2 items
+2025-09-25 16:40:06.312 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-O=c1cc[nH]c(=O)[nH]1-86.png
+2025-09-25 16:40:06.313 | INFO     | __main__:main:225 - Plotting Solute: OCCO with 1 items
+2025-09-25 16:40:06.388 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-OCCO-87.png
+2025-09-25 16:40:06.388 | INFO     | __main__:main:225 - Plotting Solute: Oc1ccc(Br)cc1 with 10 items
+2025-09-25 16:40:06.539 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Oc1ccc(Br)cc1-88.png
+2025-09-25 16:40:06.540 | INFO     | __main__:main:225 - Plotting Solute: Oc1ccccc1 with 4 items
+2025-09-25 16:40:06.632 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-Oc1ccccc1-89.png
+2025-09-25 16:40:06.632 | INFO     | __main__:main:225 - Plotting Solute: S with 1 items
+2025-09-25 16:40:06.704 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-S-90.png
+2025-09-25 16:40:06.705 | INFO     | __main__:main:225 - Plotting Solute: c1cc[nH]c1 with 1 items
+2025-09-25 16:40:06.778 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-c1cc[nH]c1-91.png
+2025-09-25 16:40:06.778 | INFO     | __main__:main:225 - Plotting Solute: c1ccc2ccccc2c1 with 1 items
+2025-09-25 16:40:06.857 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-c1ccc2ccccc2c1-92.png
+2025-09-25 16:40:06.857 | INFO     | __main__:main:225 - Plotting Solute: c1ccccc1 with 3 items
+2025-09-25 16:40:07.009 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-c1ccccc1-93.png
+2025-09-25 16:40:07.009 | INFO     | __main__:main:225 - Plotting Solute: c1ccncc1 with 11 items
+2025-09-25 16:40:07.174 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-c1ccncc1-94.png
+2025-09-25 16:40:07.174 | INFO     | __main__:main:225 - Plotting Solute: c1ccsc1 with 1 items
+2025-09-25 16:40:07.248 | INFO     | __main__:main:241 - Saved plot to images/mnsol-by-solute/v3-vs-v0/Solute-c1ccsc1-95.png
