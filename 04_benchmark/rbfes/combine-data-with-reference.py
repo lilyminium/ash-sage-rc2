@@ -52,13 +52,15 @@ FORCEFIELD_NAMES = {
     "gaff-2.11": "GAFF 2.11",
     "openff-1.2.1": "Sage 1.2.1",
     "openff-2.0.0": "Sage 2.0.0",
-    "openff-2.2.1_am1bcc": "Sage 2.2.1+AM1-BCC",
+    "openff-2.2.1_am1bcc": "Sage 2.2.1 + AM1-BCC",
     "openff-2.2.1": "Sage 2.2.1 + ELF10",
     "openff-2.2.1_nagl": "Sage 2.2.1 + AshGC",
     "openff-2.3.0rc0_elf10": "Sage 2.3.0rc0 + ELF10",
     "openff-2.3.0rc0_nagl": "Sage 2.3.0rc0 + AshGC",
     "openff-2.3.0rc1_elf10": "Sage 2.3.0rc1 + ELF10",
     "openff-2.3.0rc1_nagl": "Sage 2.3.0rc1 + AshGC",
+    "openff-2.3.0rc2_elf10": "Sage 2.3.0rc2 + ELF10",
+    "openff-2.3.0rc2_nagl": "Sage 2.3.0rc2 + AshGC",
 }
 
 def sanitize_smiles(smiles: str) -> str:
