@@ -1,4 +1,10 @@
-ddes
+#ddes
 all-to-all-rmsd-tfd
 rmsd-tfd
 data
+ddes-no-min
+topology-labeled-by-parameter
+topology-labels/
+topology-values
+sdfs
+torsion-error-with-parameters/

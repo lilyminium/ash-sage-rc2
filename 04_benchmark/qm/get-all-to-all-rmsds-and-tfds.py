@@ -1,26 +1,3 @@
-"""
-This script computes "all-to-all" RMSDs and TFDs between QM reference data and force field optimized
-geometries. However, rather than actually computing all pairwise RMSDs, for each force field
-conformation we find the *closest* QM conformation by RMSD and report that RMSD and TFD.
-This is a necessary step before computing "all-to-all" ddEs.
-
-The script is designed to be run in parallel on a cluster using Dask.
-
-\b
-The script expects a directory containing QM reference data in Parquet format.
-It generates a directory containing RMSD and TFD data in Parquet format, with the following schema:
-- mapped_smiles (str): The mapped SMILES string for the molecule.
-- cmiles (str): The CMILES string for the molecule.
-- inchi (str): The InChI string for the molecule.
-- ff_qcarchive_id (int): The QCArchive ID for the force field conformation.
-- ff_energy (float): The energy of the force field conformation in kcal/mol.
-- rmsd (float): The RMSD between the force field conformation and the closest QM conformation in angstrom.
-- tfd (float): The TFD between the force field conformation and the closest QM conformation.
-- qm_qcarchive_id (int): The QCArchive ID for the closest QM conformation.
-- qm_energy (float): The energy of the closest QM conformation in kcal/mol.
-- method (str): The forcefield used to optimize the MM geometry.
-"""
-
 import collections
 import pathlib
 import sys
@@ -101,6 +78,7 @@ def batch_get_rmsd(
                 for qca_id in qcarchive_ids:
                     qm_coordinates = qm_coordinates_by_qcarchive_id[qca_id]
                     rmsd = get_rmsd(mol, qm_coordinates, ff_coordinates)
+                    print(f"Comparing FF {row['qcarchive_id']} to QM {qca_id}: RMSD = {rmsd:.4f} Å")
                     if rmsd < current_rmsd:
                         matched_qcarchive_id = qca_id
                         current_rmsd = rmsd
@@ -127,7 +105,7 @@ def batch_get_rmsd(
 
     return rows
 
-@click.command(help=__doc__)
+@click.command()
 @click.option(
     "--forcefield",
     "-ff",
@@ -249,7 +227,10 @@ def main(
         print(f"Filtered to {len(input_mapped_smiles)} new mapped smiles to process")
         n_files  = len(output_dataset.files)
 
-    input_mapped_smiles = sorted(input_mapped_smiles)
+    # input_mapped_smiles = sorted(input_mapped_smiles)
+    input_mapped_smiles = [
+        "[H:42][C:23]1([C:22]([C:21]([C:20]([C:19]([C:26]([C:25]([C:24]1([H:44])[H:45])([H:46])[H:47])([H:48])[H:49])([H:35])[N:18]([H:34])[c:10]2[c:2]([c:3]([c:8]([c:16]([c:11]2[S:12](=[O:13])(=[O:15])[N:14]([H:32])[H:33])[F:17])[F:9])[S:4][C:5]([H:27])([H:28])[C:6]([H:29])([H:30])[O:7][H:31])[F:1])([H:36])[H:37])([H:38])[H:39])([H:40])[H:41])[H:43]"
+    ]
 
     with batch_distributed(
         input_mapped_smiles,
