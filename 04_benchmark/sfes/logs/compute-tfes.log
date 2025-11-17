@@ -1,8 +1,8 @@
-2025-09-07 15:33:27.057 | INFO     | __main__:main:73 - Read 606 rows from output/freesolv.csv
-2025-09-07 15:33:27.061 | INFO     | __main__:main:73 - Read 2674 rows from output/mnsol.csv
-2025-09-07 15:33:27.061 | INFO     | __main__:main:76 - Combined to 3280 rows
-2025-09-07 15:33:27.062 | INFO     | __main__:main:82 - Found 88 unique solutes in HFE data
-2025-09-07 15:33:27.062 | INFO     | __main__:main:84 - Found 97 unique solutes in SFE data
-2025-09-07 15:33:27.062 | INFO     | __main__:main:86 - Found 88 overlapping solutes
-2025-09-07 15:33:27.244 | INFO     | __main__:main:146 - Computed 2429 TFEs
-2025-09-07 15:33:27.258 | INFO     | __main__:main:152 - Wrote TFEs to output/tfes.csv
+2025-09-25 16:50:55.624 | INFO     | __main__:main:73 - Read 693 rows from output/freesolv.csv
+2025-09-25 16:50:55.628 | INFO     | __main__:main:73 - Read 3056 rows from output/mnsol.csv
+2025-09-25 16:50:55.628 | INFO     | __main__:main:76 - Combined to 3749 rows
+2025-09-25 16:50:55.629 | INFO     | __main__:main:82 - Found 88 unique solutes in HFE data
+2025-09-25 16:50:55.629 | INFO     | __main__:main:84 - Found 97 unique solutes in SFE data
+2025-09-25 16:50:55.629 | INFO     | __main__:main:86 - Found 88 overlapping solutes
+2025-09-25 16:50:55.775 | INFO     | __main__:main:146 - Computed 2776 TFEs
+2025-09-25 16:50:55.789 | INFO     | __main__:main:152 - Wrote TFEs to output/tfes.csv

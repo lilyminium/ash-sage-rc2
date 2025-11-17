@@ -4,7 +4,12 @@
 
 mkdir scoped-keys
 
-FFNAME="fb-fit-v3-single-mean-k100"
+# FFNAME="fb-fit-v3-single-mean-k100"
+# FFNAME="fb-fit-v3-single-mean-k20"
+# FFNAME="fit-iter-1"
+FFNAME="vdw-refit"
+
+
 FFNAME_UNDERSCORED=${FFNAME//-/_}
 
 echo $FFNAME_UNDERSCORED

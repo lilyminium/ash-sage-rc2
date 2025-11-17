@@ -1,0 +1,2 @@
+2025-10-01 15:40:56.697 | INFO     | __main__:main:192 - Read forcefield from ../forcefields/vdw-refit.offxml
+2025-10-01 15:40:57.298 | INFO     | __main__:main:207 - Wrote alchemical network with 87 transformations to networks/fsolv-vdw-refit-network.json

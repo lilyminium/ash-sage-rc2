@@ -93,6 +93,10 @@ def main(
     rows = []
 
     for transformation, result in tqdm.tqdm(results_by_transformation.items()):
+        # continue if incomplete
+        if result is None:
+            logger.warning(f"Skipping incomplete transformation {transformation.name}")
+            continue
         # check everything is as it should be
         vacuum_ffs = set(
             transformation.protocol.settings.vacuum_forcefield_settings.forcefields

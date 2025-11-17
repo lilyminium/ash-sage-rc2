@@ -1,4 +1,4 @@
-2025-09-07 15:32:54.648 | INFO     | __main__:main:47 - Found 8 CSV files in results/freesolv
-2025-09-07 15:32:54.658 | INFO     | __main__:main:58 - Found 642 rows for reference method 'Experimental'
-2025-09-07 15:32:54.764 | INFO     | __main__:main:80 - Combined results for 7 unique methods: Sage 2.0.0 + ELF10, Sage 2.2.1 + AmberTools, Sage 2.2.1 + AshGC, Sage 2.2.1 + ELF10, Sage 2.3.0rc1, v1-k100, v3-k100
-2025-09-07 15:32:54.769 | INFO     | __main__:main:85 - Combined results (n=606) saved to output/freesolv.csv
+2025-10-03 11:11:13.774 | INFO     | __main__:main:47 - Found 10 CSV files in results/freesolv
+2025-10-03 11:11:13.790 | INFO     | __main__:main:58 - Found 642 rows for reference method 'Experimental'
+2025-10-03 11:11:13.940 | INFO     | __main__:main:80 - Combined results for 9 unique methods: Sage 2.0.0 + ELF10, Sage 2.2.1 + AmberTools, Sage 2.2.1 + AshGC, Sage 2.2.1 + ELF10, Sage 2.3.0rc1, v0-k20, v1-k100, v3-k100, vdw-refit
+2025-10-03 11:11:13.946 | INFO     | __main__:main:85 - Combined results (n=780) saved to output/freesolv.csv

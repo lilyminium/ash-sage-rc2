@@ -1,4 +1,4 @@
-2025-09-07 15:32:55.247 | INFO     | __main__:main:47 - Found 8 CSV files in results/mnsol
-2025-09-07 15:32:55.259 | INFO     | __main__:main:58 - Found 2771 rows for reference method 'Experimental'
-2025-09-07 15:32:56.187 | INFO     | __main__:main:80 - Combined results for 7 unique methods: Sage 2.0.0 + ELF10, Sage 2.2.1 + AmberTools, Sage 2.2.1 + AshGC, Sage 2.2.1 + ELF10, Sage 2.3.0rc1, v1-k100, v3-k100
-2025-09-07 15:32:56.199 | INFO     | __main__:main:85 - Combined results (n=2674) saved to output/mnsol.csv
+2025-10-03 11:11:14.275 | INFO     | __main__:main:47 - Found 11 CSV files in results/mnsol
+2025-10-03 11:11:14.293 | INFO     | __main__:main:58 - Found 2771 rows for reference method 'Experimental'
+2025-10-03 11:11:15.509 | INFO     | __main__:main:80 - Combined results for 10 unique methods: Sage 2.0.0 + ELF10, Sage 2.2.1 + AmberTools, Sage 2.2.1 + AshGC, Sage 2.2.1 + ELF10, Sage 2.3.0rc1, fit-iter-1, v0-k20, v1-k100, v3-k100, vdw-refit
+2025-10-03 11:11:15.531 | INFO     | __main__:main:85 - Combined results (n=3820) saved to output/mnsol.csv

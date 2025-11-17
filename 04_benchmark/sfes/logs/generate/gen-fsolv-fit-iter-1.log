@@ -1,0 +1,2 @@
+2025-09-26 17:59:12.899 | INFO     | __main__:main:192 - Read forcefield from ../forcefields/fit-iter-1.offxml
+2025-09-26 17:59:13.477 | INFO     | __main__:main:207 - Wrote alchemical network with 87 transformations to networks/fsolv-fit-iter-1-network.json

@@ -5,7 +5,7 @@ metadata:
   labels:
     k8s-app: lw-openff-alchemiscale-jobs
 spec:
-  completions: 500
+  completions: 1000
   parallelism: 50
   completionMode: "Indexed"
   template:

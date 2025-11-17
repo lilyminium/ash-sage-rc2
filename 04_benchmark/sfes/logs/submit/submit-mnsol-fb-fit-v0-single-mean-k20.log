@@ -1,0 +1,13 @@
+Submitting 'AlchemicalNetwork-866d0bb6e4c1eacdf7d92524570a52ce-openff-fb_fit_v… 
+AlchemicalNetwork-866d0bb6e4c1eacdf7d92524570a52ce-openff-fb_fit_v0_single_mean_
+k20-mnsol                                                                       
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ status                                       ┃                         count ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ complete                                     │                             0 │
+│ running                                      │                             0 │
+│ waiting                                      │                          1146 │
+│ error                                        │                             0 │
+│ invalid                                      │                             0 │
+│ deleted                                      │                             0 │
+└──────────────────────────────────────────────┴───────────────────────────────┘
