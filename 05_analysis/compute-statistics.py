@@ -141,8 +141,9 @@ def bootstrap_statistic(
         for i, j in enumerate(np.random.choice(np.arange(sample_size), size=[sample_size], replace=True)):
             stddev_true = np.fabs(dy_true[j]) if include_true_uncertainty else 0
             stddev_pred = np.fabs(dy_pred[j]) if include_pred_uncertainty else 0
-            y_true_sample[i] = np.random.normal(loc=y_true[j], scale=stddev_true)
-            y_pred_sample[i] = np.random.normal(loc=y_pred[j], scale=stddev_pred)
+            y_true_sample[i] = xi = np.random.normal(loc=y_true[j], scale=stddev_true)
+            y_pred_sample[i] = yi = np.random.normal(loc=y_pred[j], scale=stddev_pred)
+            print(j, xi, yi)
         try:
             s_n[replicate] = compute_statistic(y_true_sample, y_pred_sample, statistic)
         except Exception as e:
@@ -173,6 +174,8 @@ def compute_stats(
     yerr_col: str = None,
 ) -> pd.DataFrame:
     stat_rows = []
+    if len(df) < 4:
+        print(df)
 
     for ff, subdf in df.groupby(by=forcefield_col):
         y = subdf[y_col].values
@@ -187,7 +190,7 @@ def compute_stats(
                 xerr,
                 yerr,
                 statistic=stat,
-                include_true_uncertainty=True,
+                include_true_uncertainty=False,
                 include_pred_uncertainty=True,
             )
             stat_row = {forcefield_col: ff, "stat": stat, "n": len(subdf)}
@@ -281,7 +284,8 @@ def main(
     stat_dfs = []
     for group in tqdm.tqdm(groups_to_compute, desc="Computing stats"):
         subdf = df[df[group]]
-        if len(subdf) <= 5:
+        print(group)
+        if len(subdf) <= 2:
             logger.warning(f"Skipping group {group} with only {len(subdf)} entries")
             continue
         stat_df = compute_stats(

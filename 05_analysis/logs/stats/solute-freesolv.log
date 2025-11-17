@@ -1,0 +1,410 @@
+2025-11-04 15:28:18.987 | INFO     | __main__:main:261 - Read 780 rows from output/sfes-solutes/freesolv/labelled-data.csv
+2025-11-04 15:28:18.987 | INFO     | __main__:main:265 - Filtered to 87 rows with specified force field Sage 2.2.1 + AmberTools
+2025-11-04 15:28:18.987 | INFO     | __main__:main:279 - Found 161 groups to compute
+2025-11-04 15:28:20.095 | WARNING  | __main__:main:285 - Skipping group 1,2 Diol with only 1 entries
+2025-11-04 15:28:21.374 | WARNING  | __main__:main:285 - Skipping group Alkene with only 3 entries
+2025-11-04 15:28:21.374 | WARNING  | __main__:main:285 - Skipping group Alkylarylether with only 1 entries
+2025-11-04 15:28:21.374 | WARNING  | __main__:main:285 - Skipping group Alkylthiol with only 2 entries
+2025-11-04 15:28:22.484 | WARNING  | __main__:main:285 - Skipping group Aryl Bromide with only 4 entries
+2025-11-04 15:28:22.485 | WARNING  | __main__:main:285 - Skipping group Aryl Chloride with only 2 entries
+2025-11-04 15:28:22.962 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Amide with only 3 entries
+2025-11-04 15:28:23.825 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Primary Amide with only 2 entries
+2025-11-04 15:28:23.825 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Tertiary Amide with only 1 entries
+2025-11-04 15:28:23.825 | WARNING  | __main__:main:285 - Skipping group Dialkylether with only 3 entries
+2025-11-04 15:28:23.825 | WARNING  | __main__:main:285 - Skipping group Ether with only 4 entries
+2025-11-04 15:28:25.605 | WARNING  | __main__:main:285 - Skipping group Nitro Compound with only 1 entries
+2025-11-04 15:28:25.605 | WARNING  | __main__:main:285 - Skipping group Oxohetarene with only 1 entries
+2025-11-04 15:28:26.005 | WARNING  | __main__:main:285 - Skipping group Phosphoric Acid Derivative with only 2 entries
+2025-11-04 15:28:26.006 | WARNING  | __main__:main:285 - Skipping group Phosphoric Acid Ester with only 2 entries
+2025-11-04 15:28:26.444 | WARNING  | __main__:main:285 - Skipping group Primary Aliphatic Amine with only 4 entries
+2025-11-04 15:28:26.856 | WARNING  | __main__:main:285 - Skipping group Primary Aromatic Amine with only 3 entries
+2025-11-04 15:28:26.856 | WARNING  | __main__:main:285 - Skipping group Secondary Alcohol with only 1 entries
+2025-11-04 15:28:26.856 | WARNING  | __main__:main:285 - Skipping group Secondary Aliphatic Amine with only 5 entries
+2025-11-04 15:28:27.269 | WARNING  | __main__:main:285 - Skipping group Secondary Mixed Amine with only 1 entries
+2025-11-04 15:28:27.269 | WARNING  | __main__:main:285 - Skipping group Tertiary Alcohol with only 1 entries
+2025-11-04 15:28:27.269 | WARNING  | __main__:main:285 - Skipping group Tertiary Aliphatic Amine with only 1 entries
+2025-11-04 15:28:27.269 | WARNING  | __main__:main:285 - Skipping group Tertiary Amine with only 1 entries
+2025-11-04 15:28:27.269 | WARNING  | __main__:main:285 - Skipping group Thioether with only 1 entries
+2025-11-04 15:28:27.269 | WARNING  | __main__:main:285 - Skipping group Thiol with only 2 entries
+2025-11-04 15:28:31.304 | WARNING  | __main__:main:285 - Skipping group b8a with only 1 entries
+2025-11-04 15:28:31.304 | WARNING  | __main__:main:285 - Skipping group b9 with only 1 entries
+2025-11-04 15:28:31.304 | WARNING  | __main__:main:285 - Skipping group b10 with only 4 entries
+2025-11-04 15:28:33.061 | WARNING  | __main__:main:285 - Skipping group b19 with only 1 entries
+2025-11-04 15:28:34.055 | WARNING  | __main__:main:285 - Skipping group b42 with only 1 entries
+2025-11-04 15:28:34.056 | WARNING  | __main__:main:285 - Skipping group b45 with only 3 entries
+2025-11-04 15:28:34.056 | WARNING  | __main__:main:285 - Skipping group b51 with only 3 entries
+2025-11-04 15:28:34.056 | WARNING  | __main__:main:285 - Skipping group b52 with only 2 entries
+2025-11-04 15:28:34.056 | WARNING  | __main__:main:285 - Skipping group b64 with only 2 entries
+2025-11-04 15:28:34.056 | WARNING  | __main__:main:285 - Skipping group b65 with only 2 entries
+2025-11-04 15:28:34.056 | WARNING  | __main__:main:285 - Skipping group b70 with only 2 entries
+2025-11-04 15:28:34.056 | WARNING  | __main__:main:285 - Skipping group b72 with only 4 entries
+2025-11-04 15:28:40.524 | WARNING  | __main__:main:285 - Skipping group a11a with only 1 entries
+2025-11-04 15:28:40.525 | WARNING  | __main__:main:285 - Skipping group a12 with only 4 entries
+2025-11-04 15:28:40.525 | WARNING  | __main__:main:285 - Skipping group a14 with only 2 entries
+2025-11-04 15:28:41.785 | WARNING  | __main__:main:285 - Skipping group a20 with only 3 entries
+2025-11-04 15:28:42.609 | WARNING  | __main__:main:285 - Skipping group a25 with only 1 entries
+2025-11-04 15:28:42.609 | WARNING  | __main__:main:285 - Skipping group a26 with only 1 entries
+2025-11-04 15:28:43.603 | WARNING  | __main__:main:285 - Skipping group a34 with only 3 entries
+2025-11-04 15:28:43.603 | WARNING  | __main__:main:285 - Skipping group a38 with only 1 entries
+2025-11-04 15:28:43.603 | WARNING  | __main__:main:285 - Skipping group a40 with only 2 entries
+2025-11-04 15:28:43.603 | WARNING  | __main__:main:285 - Skipping group a41 with only 2 entries
+2025-11-04 15:28:43.603 | WARNING  | __main__:main:285 - Skipping group a41a with only 1 entries
+2025-11-04 15:28:43.603 | WARNING  | __main__:main:285 - Skipping group a18a with only 1 entries
+2025-11-04 15:28:45.991 | WARNING  | __main__:main:285 - Skipping group t5 with only 3 entries
+2025-11-04 15:28:48.405 | WARNING  | __main__:main:285 - Skipping group t20 with only 3 entries
+2025-11-04 15:28:48.405 | WARNING  | __main__:main:285 - Skipping group t43 with only 2 entries
+2025-11-04 15:28:49.851 | WARNING  | __main__:main:285 - Skipping group t48 with only 1 entries
+2025-11-04 15:28:50.283 | WARNING  | __main__:main:285 - Skipping group t58a with only 4 entries
+2025-11-04 15:28:50.283 | WARNING  | __main__:main:285 - Skipping group t64 with only 2 entries
+2025-11-04 15:28:50.283 | WARNING  | __main__:main:285 - Skipping group t73 with only 1 entries
+2025-11-04 15:28:50.283 | WARNING  | __main__:main:285 - Skipping group t74 with only 4 entries
+2025-11-04 15:28:50.284 | WARNING  | __main__:main:285 - Skipping group t75 with only 4 entries
+2025-11-04 15:28:50.284 | WARNING  | __main__:main:285 - Skipping group t76 with only 1 entries
+2025-11-04 15:28:50.284 | WARNING  | __main__:main:285 - Skipping group t77 with only 1 entries
+2025-11-04 15:28:50.284 | WARNING  | __main__:main:285 - Skipping group t78 with only 2 entries
+2025-11-04 15:28:50.284 | WARNING  | __main__:main:285 - Skipping group t80 with only 1 entries
+2025-11-04 15:28:50.284 | WARNING  | __main__:main:285 - Skipping group t83a with only 1 entries
+2025-11-04 15:28:52.465 | WARNING  | __main__:main:285 - Skipping group t96 with only 3 entries
+2025-11-04 15:28:52.466 | WARNING  | __main__:main:285 - Skipping group t97 with only 3 entries
+2025-11-04 15:28:52.466 | WARNING  | __main__:main:285 - Skipping group t105 with only 1 entries
+2025-11-04 15:28:53.728 | WARNING  | __main__:main:285 - Skipping group t115 with only 3 entries
+2025-11-04 15:28:53.728 | WARNING  | __main__:main:285 - Skipping group t116 with only 4 entries
+2025-11-04 15:28:53.728 | WARNING  | __main__:main:285 - Skipping group t117a with only 1 entries
+2025-11-04 15:28:53.728 | WARNING  | __main__:main:285 - Skipping group t159 with only 2 entries
+2025-11-04 15:28:53.728 | WARNING  | __main__:main:285 - Skipping group t160 with only 2 entries
+2025-11-04 15:28:55.358 | WARNING  | __main__:main:285 - Skipping group i6 with only 1 entries
+2025-11-04 15:28:58.010 | WARNING  | __main__:main:285 - Skipping group n9 with only 1 entries
+2025-11-04 15:28:59.031 | WARNING  | __main__:main:285 - Skipping group n13 with only 3 entries
+2025-11-04 15:29:02.973 | WARNING  | __main__:main:285 - Skipping group n21 with only 5 entries
+2025-11-04 15:29:02.973 | WARNING  | __main__:main:285 - Skipping group n22 with only 2 entries
+2025-11-04 15:29:02.973 | WARNING  | __main__:main:285 - Skipping group n24 with only 2 entries
+2025-11-04 15:29:02.973 | WARNING  | __main__:main:285 - Skipping group n25 with only 4 entries
+2025-11-04 15:29:02.978 | INFO     | __main__:main:299 - Saved combined stats to output/sfes-solutes/freesolv/stats/Sage-2.2.1-+-AmberTools.csv
+2025-11-04 15:32:34.129 | INFO     | __main__:main:261 - Read 780 rows from output/sfes-solutes/freesolv/labelled-data.csv
+2025-11-04 15:32:34.130 | INFO     | __main__:main:265 - Filtered to 87 rows with specified force field Sage 2.2.1 + AshGC
+2025-11-04 15:32:34.130 | INFO     | __main__:main:279 - Found 161 groups to compute
+2025-11-04 15:32:35.271 | WARNING  | __main__:main:285 - Skipping group 1,2 Diol with only 1 entries
+2025-11-04 15:32:36.572 | WARNING  | __main__:main:285 - Skipping group Alkene with only 3 entries
+2025-11-04 15:32:36.572 | WARNING  | __main__:main:285 - Skipping group Alkylarylether with only 1 entries
+2025-11-04 15:32:36.572 | WARNING  | __main__:main:285 - Skipping group Alkylthiol with only 2 entries
+2025-11-04 15:32:37.712 | WARNING  | __main__:main:285 - Skipping group Aryl Bromide with only 4 entries
+2025-11-04 15:32:37.712 | WARNING  | __main__:main:285 - Skipping group Aryl Chloride with only 2 entries
+2025-11-04 15:32:38.194 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Amide with only 3 entries
+2025-11-04 15:32:39.113 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Primary Amide with only 2 entries
+2025-11-04 15:32:39.113 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Tertiary Amide with only 1 entries
+2025-11-04 15:32:39.113 | WARNING  | __main__:main:285 - Skipping group Dialkylether with only 3 entries
+2025-11-04 15:32:39.113 | WARNING  | __main__:main:285 - Skipping group Ether with only 4 entries
+2025-11-04 15:32:40.926 | WARNING  | __main__:main:285 - Skipping group Nitro Compound with only 1 entries
+2025-11-04 15:32:40.926 | WARNING  | __main__:main:285 - Skipping group Oxohetarene with only 1 entries
+2025-11-04 15:32:41.351 | WARNING  | __main__:main:285 - Skipping group Phosphoric Acid Derivative with only 2 entries
+2025-11-04 15:32:41.351 | WARNING  | __main__:main:285 - Skipping group Phosphoric Acid Ester with only 2 entries
+2025-11-04 15:32:41.797 | WARNING  | __main__:main:285 - Skipping group Primary Aliphatic Amine with only 4 entries
+2025-11-04 15:32:42.218 | WARNING  | __main__:main:285 - Skipping group Primary Aromatic Amine with only 3 entries
+2025-11-04 15:32:42.218 | WARNING  | __main__:main:285 - Skipping group Secondary Alcohol with only 1 entries
+2025-11-04 15:32:42.218 | WARNING  | __main__:main:285 - Skipping group Secondary Aliphatic Amine with only 5 entries
+2025-11-04 15:32:42.629 | WARNING  | __main__:main:285 - Skipping group Secondary Mixed Amine with only 1 entries
+2025-11-04 15:32:42.629 | WARNING  | __main__:main:285 - Skipping group Tertiary Alcohol with only 1 entries
+2025-11-04 15:32:42.629 | WARNING  | __main__:main:285 - Skipping group Tertiary Aliphatic Amine with only 1 entries
+2025-11-04 15:32:42.629 | WARNING  | __main__:main:285 - Skipping group Tertiary Amine with only 1 entries
+2025-11-04 15:32:42.629 | WARNING  | __main__:main:285 - Skipping group Thioether with only 1 entries
+2025-11-04 15:32:42.629 | WARNING  | __main__:main:285 - Skipping group Thiol with only 2 entries
+2025-11-04 15:32:46.694 | WARNING  | __main__:main:285 - Skipping group b8a with only 1 entries
+2025-11-04 15:32:46.694 | WARNING  | __main__:main:285 - Skipping group b9 with only 1 entries
+2025-11-04 15:32:46.694 | WARNING  | __main__:main:285 - Skipping group b10 with only 4 entries
+2025-11-04 15:32:48.466 | WARNING  | __main__:main:285 - Skipping group b19 with only 1 entries
+2025-11-04 15:32:49.485 | WARNING  | __main__:main:285 - Skipping group b42 with only 1 entries
+2025-11-04 15:32:49.485 | WARNING  | __main__:main:285 - Skipping group b45 with only 3 entries
+2025-11-04 15:32:49.485 | WARNING  | __main__:main:285 - Skipping group b51 with only 3 entries
+2025-11-04 15:32:49.485 | WARNING  | __main__:main:285 - Skipping group b52 with only 2 entries
+2025-11-04 15:32:49.485 | WARNING  | __main__:main:285 - Skipping group b64 with only 2 entries
+2025-11-04 15:32:49.485 | WARNING  | __main__:main:285 - Skipping group b65 with only 2 entries
+2025-11-04 15:32:49.486 | WARNING  | __main__:main:285 - Skipping group b70 with only 2 entries
+2025-11-04 15:32:49.486 | WARNING  | __main__:main:285 - Skipping group b72 with only 4 entries
+2025-11-04 15:32:56.015 | WARNING  | __main__:main:285 - Skipping group a11a with only 1 entries
+2025-11-04 15:32:56.015 | WARNING  | __main__:main:285 - Skipping group a12 with only 4 entries
+2025-11-04 15:32:56.015 | WARNING  | __main__:main:285 - Skipping group a14 with only 2 entries
+2025-11-04 15:32:57.305 | WARNING  | __main__:main:285 - Skipping group a20 with only 3 entries
+2025-11-04 15:32:58.145 | WARNING  | __main__:main:285 - Skipping group a25 with only 1 entries
+2025-11-04 15:32:58.145 | WARNING  | __main__:main:285 - Skipping group a26 with only 1 entries
+2025-11-04 15:32:59.150 | WARNING  | __main__:main:285 - Skipping group a34 with only 3 entries
+2025-11-04 15:32:59.150 | WARNING  | __main__:main:285 - Skipping group a38 with only 1 entries
+2025-11-04 15:32:59.151 | WARNING  | __main__:main:285 - Skipping group a40 with only 2 entries
+2025-11-04 15:32:59.151 | WARNING  | __main__:main:285 - Skipping group a41 with only 2 entries
+2025-11-04 15:32:59.151 | WARNING  | __main__:main:285 - Skipping group a41a with only 1 entries
+2025-11-04 15:32:59.151 | WARNING  | __main__:main:285 - Skipping group a18a with only 1 entries
+2025-11-04 15:33:01.563 | WARNING  | __main__:main:285 - Skipping group t5 with only 3 entries
+2025-11-04 15:33:04.009 | WARNING  | __main__:main:285 - Skipping group t20 with only 3 entries
+2025-11-04 15:33:04.010 | WARNING  | __main__:main:285 - Skipping group t43 with only 2 entries
+2025-11-04 15:33:05.477 | WARNING  | __main__:main:285 - Skipping group t48 with only 1 entries
+2025-11-04 15:33:05.925 | WARNING  | __main__:main:285 - Skipping group t58a with only 4 entries
+2025-11-04 15:33:05.925 | WARNING  | __main__:main:285 - Skipping group t64 with only 2 entries
+2025-11-04 15:33:05.925 | WARNING  | __main__:main:285 - Skipping group t73 with only 1 entries
+2025-11-04 15:33:05.926 | WARNING  | __main__:main:285 - Skipping group t74 with only 4 entries
+2025-11-04 15:33:05.926 | WARNING  | __main__:main:285 - Skipping group t75 with only 4 entries
+2025-11-04 15:33:05.926 | WARNING  | __main__:main:285 - Skipping group t76 with only 1 entries
+2025-11-04 15:33:05.926 | WARNING  | __main__:main:285 - Skipping group t77 with only 1 entries
+2025-11-04 15:33:05.926 | WARNING  | __main__:main:285 - Skipping group t78 with only 2 entries
+2025-11-04 15:33:05.926 | WARNING  | __main__:main:285 - Skipping group t80 with only 1 entries
+2025-11-04 15:33:05.926 | WARNING  | __main__:main:285 - Skipping group t83a with only 1 entries
+2025-11-04 15:33:08.137 | WARNING  | __main__:main:285 - Skipping group t96 with only 3 entries
+2025-11-04 15:33:08.137 | WARNING  | __main__:main:285 - Skipping group t97 with only 3 entries
+2025-11-04 15:33:08.137 | WARNING  | __main__:main:285 - Skipping group t105 with only 1 entries
+2025-11-04 15:33:09.405 | WARNING  | __main__:main:285 - Skipping group t115 with only 3 entries
+2025-11-04 15:33:09.405 | WARNING  | __main__:main:285 - Skipping group t116 with only 4 entries
+2025-11-04 15:33:09.405 | WARNING  | __main__:main:285 - Skipping group t117a with only 1 entries
+2025-11-04 15:33:09.405 | WARNING  | __main__:main:285 - Skipping group t159 with only 2 entries
+2025-11-04 15:33:09.405 | WARNING  | __main__:main:285 - Skipping group t160 with only 2 entries
+2025-11-04 15:33:11.049 | WARNING  | __main__:main:285 - Skipping group i6 with only 1 entries
+2025-11-04 15:33:13.719 | WARNING  | __main__:main:285 - Skipping group n9 with only 1 entries
+2025-11-04 15:33:14.752 | WARNING  | __main__:main:285 - Skipping group n13 with only 3 entries
+2025-11-04 15:33:18.730 | WARNING  | __main__:main:285 - Skipping group n21 with only 5 entries
+2025-11-04 15:33:18.731 | WARNING  | __main__:main:285 - Skipping group n22 with only 2 entries
+2025-11-04 15:33:18.731 | WARNING  | __main__:main:285 - Skipping group n24 with only 2 entries
+2025-11-04 15:33:18.731 | WARNING  | __main__:main:285 - Skipping group n25 with only 4 entries
+2025-11-04 15:33:18.736 | INFO     | __main__:main:299 - Saved combined stats to output/sfes-solutes/freesolv/stats/Sage-2.2.1-+-AshGC.csv
+2025-11-04 15:36:51.822 | INFO     | __main__:main:261 - Read 780 rows from output/sfes-solutes/freesolv/labelled-data.csv
+2025-11-04 15:36:51.822 | INFO     | __main__:main:265 - Filtered to 87 rows with specified force field Sage 2.2.1 + ELF10
+2025-11-04 15:36:51.823 | INFO     | __main__:main:279 - Found 161 groups to compute
+2025-11-04 15:36:53.027 | WARNING  | __main__:main:285 - Skipping group 1,2 Diol with only 1 entries
+2025-11-04 15:36:54.372 | WARNING  | __main__:main:285 - Skipping group Alkene with only 3 entries
+2025-11-04 15:36:54.372 | WARNING  | __main__:main:285 - Skipping group Alkylarylether with only 1 entries
+2025-11-04 15:36:54.373 | WARNING  | __main__:main:285 - Skipping group Alkylthiol with only 2 entries
+2025-11-04 15:36:55.535 | WARNING  | __main__:main:285 - Skipping group Aryl Bromide with only 4 entries
+2025-11-04 15:36:55.535 | WARNING  | __main__:main:285 - Skipping group Aryl Chloride with only 2 entries
+2025-11-04 15:36:56.021 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Amide with only 3 entries
+2025-11-04 15:36:56.913 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Primary Amide with only 2 entries
+2025-11-04 15:36:56.913 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Tertiary Amide with only 1 entries
+2025-11-04 15:36:56.913 | WARNING  | __main__:main:285 - Skipping group Dialkylether with only 3 entries
+2025-11-04 15:36:56.913 | WARNING  | __main__:main:285 - Skipping group Ether with only 4 entries
+2025-11-04 15:36:58.771 | WARNING  | __main__:main:285 - Skipping group Nitro Compound with only 1 entries
+2025-11-04 15:36:58.771 | WARNING  | __main__:main:285 - Skipping group Oxohetarene with only 1 entries
+2025-11-04 15:36:59.229 | WARNING  | __main__:main:285 - Skipping group Phosphoric Acid Derivative with only 2 entries
+2025-11-04 15:36:59.229 | WARNING  | __main__:main:285 - Skipping group Phosphoric Acid Ester with only 2 entries
+2025-11-04 15:36:59.687 | WARNING  | __main__:main:285 - Skipping group Primary Aliphatic Amine with only 4 entries
+2025-11-04 15:37:00.112 | WARNING  | __main__:main:285 - Skipping group Primary Aromatic Amine with only 3 entries
+2025-11-04 15:37:00.113 | WARNING  | __main__:main:285 - Skipping group Secondary Alcohol with only 1 entries
+2025-11-04 15:37:00.113 | WARNING  | __main__:main:285 - Skipping group Secondary Aliphatic Amine with only 5 entries
+2025-11-04 15:37:00.533 | WARNING  | __main__:main:285 - Skipping group Secondary Mixed Amine with only 1 entries
+2025-11-04 15:37:00.533 | WARNING  | __main__:main:285 - Skipping group Tertiary Alcohol with only 1 entries
+2025-11-04 15:37:00.533 | WARNING  | __main__:main:285 - Skipping group Tertiary Aliphatic Amine with only 1 entries
+2025-11-04 15:37:00.533 | WARNING  | __main__:main:285 - Skipping group Tertiary Amine with only 1 entries
+2025-11-04 15:37:00.533 | WARNING  | __main__:main:285 - Skipping group Thioether with only 1 entries
+2025-11-04 15:37:00.533 | WARNING  | __main__:main:285 - Skipping group Thiol with only 2 entries
+2025-11-04 15:37:04.778 | WARNING  | __main__:main:285 - Skipping group b8a with only 1 entries
+2025-11-04 15:37:04.779 | WARNING  | __main__:main:285 - Skipping group b9 with only 1 entries
+2025-11-04 15:37:04.779 | WARNING  | __main__:main:285 - Skipping group b10 with only 4 entries
+2025-11-04 15:37:06.614 | WARNING  | __main__:main:285 - Skipping group b19 with only 1 entries
+2025-11-04 15:37:07.668 | WARNING  | __main__:main:285 - Skipping group b42 with only 1 entries
+2025-11-04 15:37:07.668 | WARNING  | __main__:main:285 - Skipping group b45 with only 3 entries
+2025-11-04 15:37:07.669 | WARNING  | __main__:main:285 - Skipping group b51 with only 3 entries
+2025-11-04 15:37:07.669 | WARNING  | __main__:main:285 - Skipping group b52 with only 2 entries
+2025-11-04 15:37:07.669 | WARNING  | __main__:main:285 - Skipping group b64 with only 2 entries
+2025-11-04 15:37:07.669 | WARNING  | __main__:main:285 - Skipping group b65 with only 2 entries
+2025-11-04 15:37:07.669 | WARNING  | __main__:main:285 - Skipping group b70 with only 2 entries
+2025-11-04 15:37:07.669 | WARNING  | __main__:main:285 - Skipping group b72 with only 4 entries
+2025-11-04 15:37:14.442 | WARNING  | __main__:main:285 - Skipping group a11a with only 1 entries
+2025-11-04 15:37:14.442 | WARNING  | __main__:main:285 - Skipping group a12 with only 4 entries
+2025-11-04 15:37:14.442 | WARNING  | __main__:main:285 - Skipping group a14 with only 2 entries
+2025-11-04 15:37:15.745 | WARNING  | __main__:main:285 - Skipping group a20 with only 3 entries
+2025-11-04 15:37:16.592 | WARNING  | __main__:main:285 - Skipping group a25 with only 1 entries
+2025-11-04 15:37:16.592 | WARNING  | __main__:main:285 - Skipping group a26 with only 1 entries
+2025-11-04 15:37:17.657 | WARNING  | __main__:main:285 - Skipping group a34 with only 3 entries
+2025-11-04 15:37:17.657 | WARNING  | __main__:main:285 - Skipping group a38 with only 1 entries
+2025-11-04 15:37:17.657 | WARNING  | __main__:main:285 - Skipping group a40 with only 2 entries
+2025-11-04 15:37:17.657 | WARNING  | __main__:main:285 - Skipping group a41 with only 2 entries
+2025-11-04 15:37:17.657 | WARNING  | __main__:main:285 - Skipping group a41a with only 1 entries
+2025-11-04 15:37:17.657 | WARNING  | __main__:main:285 - Skipping group a18a with only 1 entries
+2025-11-04 15:37:20.144 | WARNING  | __main__:main:285 - Skipping group t5 with only 3 entries
+2025-11-04 15:37:22.678 | WARNING  | __main__:main:285 - Skipping group t20 with only 3 entries
+2025-11-04 15:37:22.678 | WARNING  | __main__:main:285 - Skipping group t43 with only 2 entries
+2025-11-04 15:37:24.193 | WARNING  | __main__:main:285 - Skipping group t48 with only 1 entries
+2025-11-04 15:37:24.642 | WARNING  | __main__:main:285 - Skipping group t58a with only 4 entries
+2025-11-04 15:37:24.642 | WARNING  | __main__:main:285 - Skipping group t64 with only 2 entries
+2025-11-04 15:37:24.642 | WARNING  | __main__:main:285 - Skipping group t73 with only 1 entries
+2025-11-04 15:37:24.642 | WARNING  | __main__:main:285 - Skipping group t74 with only 4 entries
+2025-11-04 15:37:24.642 | WARNING  | __main__:main:285 - Skipping group t75 with only 4 entries
+2025-11-04 15:37:24.642 | WARNING  | __main__:main:285 - Skipping group t76 with only 1 entries
+2025-11-04 15:37:24.642 | WARNING  | __main__:main:285 - Skipping group t77 with only 1 entries
+2025-11-04 15:37:24.642 | WARNING  | __main__:main:285 - Skipping group t78 with only 2 entries
+2025-11-04 15:37:24.642 | WARNING  | __main__:main:285 - Skipping group t80 with only 1 entries
+2025-11-04 15:37:24.643 | WARNING  | __main__:main:285 - Skipping group t83a with only 1 entries
+2025-11-04 15:37:26.855 | WARNING  | __main__:main:285 - Skipping group t96 with only 3 entries
+2025-11-04 15:37:26.856 | WARNING  | __main__:main:285 - Skipping group t97 with only 3 entries
+2025-11-04 15:37:26.856 | WARNING  | __main__:main:285 - Skipping group t105 with only 1 entries
+2025-11-04 15:37:28.140 | WARNING  | __main__:main:285 - Skipping group t115 with only 3 entries
+2025-11-04 15:37:28.140 | WARNING  | __main__:main:285 - Skipping group t116 with only 4 entries
+2025-11-04 15:37:28.140 | WARNING  | __main__:main:285 - Skipping group t117a with only 1 entries
+2025-11-04 15:37:28.140 | WARNING  | __main__:main:285 - Skipping group t159 with only 2 entries
+2025-11-04 15:37:28.140 | WARNING  | __main__:main:285 - Skipping group t160 with only 2 entries
+2025-11-04 15:37:29.853 | WARNING  | __main__:main:285 - Skipping group i6 with only 1 entries
+2025-11-04 15:37:32.590 | WARNING  | __main__:main:285 - Skipping group n9 with only 1 entries
+2025-11-04 15:37:33.651 | WARNING  | __main__:main:285 - Skipping group n13 with only 3 entries
+2025-11-04 15:37:37.733 | WARNING  | __main__:main:285 - Skipping group n21 with only 5 entries
+2025-11-04 15:37:37.734 | WARNING  | __main__:main:285 - Skipping group n22 with only 2 entries
+2025-11-04 15:37:37.734 | WARNING  | __main__:main:285 - Skipping group n24 with only 2 entries
+2025-11-04 15:37:37.734 | WARNING  | __main__:main:285 - Skipping group n25 with only 4 entries
+2025-11-04 15:37:37.739 | INFO     | __main__:main:299 - Saved combined stats to output/sfes-solutes/freesolv/stats/Sage-2.2.1-+-ELF10.csv
+2025-11-04 15:41:10.160 | INFO     | __main__:main:261 - Read 780 rows from output/sfes-solutes/freesolv/labelled-data.csv
+2025-11-04 15:41:10.160 | INFO     | __main__:main:265 - Filtered to 87 rows with specified force field Sage 2.3.0rc1
+2025-11-04 15:41:10.160 | INFO     | __main__:main:279 - Found 161 groups to compute
+2025-11-04 15:41:11.303 | WARNING  | __main__:main:285 - Skipping group 1,2 Diol with only 1 entries
+2025-11-04 15:41:12.599 | WARNING  | __main__:main:285 - Skipping group Alkene with only 3 entries
+2025-11-04 15:41:12.599 | WARNING  | __main__:main:285 - Skipping group Alkylarylether with only 1 entries
+2025-11-04 15:41:12.599 | WARNING  | __main__:main:285 - Skipping group Alkylthiol with only 2 entries
+2025-11-04 15:41:13.740 | WARNING  | __main__:main:285 - Skipping group Aryl Bromide with only 4 entries
+2025-11-04 15:41:13.740 | WARNING  | __main__:main:285 - Skipping group Aryl Chloride with only 2 entries
+2025-11-04 15:41:14.212 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Amide with only 3 entries
+2025-11-04 15:41:15.111 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Primary Amide with only 2 entries
+2025-11-04 15:41:15.111 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Tertiary Amide with only 1 entries
+2025-11-04 15:41:15.111 | WARNING  | __main__:main:285 - Skipping group Dialkylether with only 3 entries
+2025-11-04 15:41:15.111 | WARNING  | __main__:main:285 - Skipping group Ether with only 4 entries
+2025-11-04 15:41:16.987 | WARNING  | __main__:main:285 - Skipping group Nitro Compound with only 1 entries
+2025-11-04 15:41:16.987 | WARNING  | __main__:main:285 - Skipping group Oxohetarene with only 1 entries
+2025-11-04 15:41:17.397 | WARNING  | __main__:main:285 - Skipping group Phosphoric Acid Derivative with only 2 entries
+2025-11-04 15:41:17.397 | WARNING  | __main__:main:285 - Skipping group Phosphoric Acid Ester with only 2 entries
+2025-11-04 15:41:17.845 | WARNING  | __main__:main:285 - Skipping group Primary Aliphatic Amine with only 4 entries
+2025-11-04 15:41:18.273 | WARNING  | __main__:main:285 - Skipping group Primary Aromatic Amine with only 3 entries
+2025-11-04 15:41:18.273 | WARNING  | __main__:main:285 - Skipping group Secondary Alcohol with only 1 entries
+2025-11-04 15:41:18.273 | WARNING  | __main__:main:285 - Skipping group Secondary Aliphatic Amine with only 5 entries
+2025-11-04 15:41:18.710 | WARNING  | __main__:main:285 - Skipping group Secondary Mixed Amine with only 1 entries
+2025-11-04 15:41:18.710 | WARNING  | __main__:main:285 - Skipping group Tertiary Alcohol with only 1 entries
+2025-11-04 15:41:18.710 | WARNING  | __main__:main:285 - Skipping group Tertiary Aliphatic Amine with only 1 entries
+2025-11-04 15:41:18.710 | WARNING  | __main__:main:285 - Skipping group Tertiary Amine with only 1 entries
+2025-11-04 15:41:18.710 | WARNING  | __main__:main:285 - Skipping group Thioether with only 1 entries
+2025-11-04 15:41:18.710 | WARNING  | __main__:main:285 - Skipping group Thiol with only 2 entries
+2025-11-04 15:41:22.836 | WARNING  | __main__:main:285 - Skipping group b8a with only 1 entries
+2025-11-04 15:41:22.836 | WARNING  | __main__:main:285 - Skipping group b9 with only 1 entries
+2025-11-04 15:41:22.836 | WARNING  | __main__:main:285 - Skipping group b10 with only 4 entries
+2025-11-04 15:41:24.632 | WARNING  | __main__:main:285 - Skipping group b19 with only 1 entries
+2025-11-04 15:41:25.650 | WARNING  | __main__:main:285 - Skipping group b42 with only 1 entries
+2025-11-04 15:41:25.650 | WARNING  | __main__:main:285 - Skipping group b45 with only 3 entries
+2025-11-04 15:41:25.651 | WARNING  | __main__:main:285 - Skipping group b51 with only 3 entries
+2025-11-04 15:41:25.651 | WARNING  | __main__:main:285 - Skipping group b52 with only 2 entries
+2025-11-04 15:41:25.651 | WARNING  | __main__:main:285 - Skipping group b64 with only 2 entries
+2025-11-04 15:41:25.651 | WARNING  | __main__:main:285 - Skipping group b65 with only 2 entries
+2025-11-04 15:41:25.651 | WARNING  | __main__:main:285 - Skipping group b70 with only 2 entries
+2025-11-04 15:41:25.651 | WARNING  | __main__:main:285 - Skipping group b72 with only 4 entries
+2025-11-04 15:41:32.189 | WARNING  | __main__:main:285 - Skipping group a11a with only 1 entries
+2025-11-04 15:41:32.189 | WARNING  | __main__:main:285 - Skipping group a12 with only 4 entries
+2025-11-04 15:41:32.189 | WARNING  | __main__:main:285 - Skipping group a14 with only 2 entries
+2025-11-04 15:41:33.475 | WARNING  | __main__:main:285 - Skipping group a20 with only 3 entries
+2025-11-04 15:41:34.306 | WARNING  | __main__:main:285 - Skipping group a25 with only 1 entries
+2025-11-04 15:41:34.306 | WARNING  | __main__:main:285 - Skipping group a26 with only 1 entries
+2025-11-04 15:41:35.317 | WARNING  | __main__:main:285 - Skipping group a34 with only 3 entries
+2025-11-04 15:41:35.317 | WARNING  | __main__:main:285 - Skipping group a38 with only 1 entries
+2025-11-04 15:41:35.317 | WARNING  | __main__:main:285 - Skipping group a40 with only 2 entries
+2025-11-04 15:41:35.317 | WARNING  | __main__:main:285 - Skipping group a41 with only 2 entries
+2025-11-04 15:41:35.317 | WARNING  | __main__:main:285 - Skipping group a41a with only 1 entries
+2025-11-04 15:41:35.317 | WARNING  | __main__:main:285 - Skipping group a18a with only 1 entries
+2025-11-04 15:41:37.734 | WARNING  | __main__:main:285 - Skipping group t5 with only 3 entries
+2025-11-04 15:41:40.185 | WARNING  | __main__:main:285 - Skipping group t20 with only 3 entries
+2025-11-04 15:41:40.185 | WARNING  | __main__:main:285 - Skipping group t43 with only 2 entries
+2025-11-04 15:41:41.660 | WARNING  | __main__:main:285 - Skipping group t48 with only 1 entries
+2025-11-04 15:41:42.103 | WARNING  | __main__:main:285 - Skipping group t58a with only 4 entries
+2025-11-04 15:41:42.103 | WARNING  | __main__:main:285 - Skipping group t64 with only 2 entries
+2025-11-04 15:41:42.103 | WARNING  | __main__:main:285 - Skipping group t73 with only 1 entries
+2025-11-04 15:41:42.103 | WARNING  | __main__:main:285 - Skipping group t74 with only 4 entries
+2025-11-04 15:41:42.103 | WARNING  | __main__:main:285 - Skipping group t75 with only 4 entries
+2025-11-04 15:41:42.103 | WARNING  | __main__:main:285 - Skipping group t76 with only 1 entries
+2025-11-04 15:41:42.103 | WARNING  | __main__:main:285 - Skipping group t77 with only 1 entries
+2025-11-04 15:41:42.103 | WARNING  | __main__:main:285 - Skipping group t78 with only 2 entries
+2025-11-04 15:41:42.103 | WARNING  | __main__:main:285 - Skipping group t80 with only 1 entries
+2025-11-04 15:41:42.103 | WARNING  | __main__:main:285 - Skipping group t83a with only 1 entries
+2025-11-04 15:41:44.304 | WARNING  | __main__:main:285 - Skipping group t96 with only 3 entries
+2025-11-04 15:41:44.305 | WARNING  | __main__:main:285 - Skipping group t97 with only 3 entries
+2025-11-04 15:41:44.305 | WARNING  | __main__:main:285 - Skipping group t105 with only 1 entries
+2025-11-04 15:41:45.576 | WARNING  | __main__:main:285 - Skipping group t115 with only 3 entries
+2025-11-04 15:41:45.576 | WARNING  | __main__:main:285 - Skipping group t116 with only 4 entries
+2025-11-04 15:41:45.576 | WARNING  | __main__:main:285 - Skipping group t117a with only 1 entries
+2025-11-04 15:41:45.576 | WARNING  | __main__:main:285 - Skipping group t159 with only 2 entries
+2025-11-04 15:41:45.576 | WARNING  | __main__:main:285 - Skipping group t160 with only 2 entries
+2025-11-04 15:41:47.223 | WARNING  | __main__:main:285 - Skipping group i6 with only 1 entries
+2025-11-04 15:41:49.906 | WARNING  | __main__:main:285 - Skipping group n9 with only 1 entries
+2025-11-04 15:41:50.943 | WARNING  | __main__:main:285 - Skipping group n13 with only 3 entries
+2025-11-04 15:41:55.017 | WARNING  | __main__:main:285 - Skipping group n21 with only 5 entries
+2025-11-04 15:41:55.017 | WARNING  | __main__:main:285 - Skipping group n22 with only 2 entries
+2025-11-04 15:41:55.017 | WARNING  | __main__:main:285 - Skipping group n24 with only 2 entries
+2025-11-04 15:41:55.017 | WARNING  | __main__:main:285 - Skipping group n25 with only 4 entries
+2025-11-04 15:41:55.021 | INFO     | __main__:main:299 - Saved combined stats to output/sfes-solutes/freesolv/stats/Sage-2.3.0rc1.csv
+2025-11-04 15:45:28.822 | INFO     | __main__:main:261 - Read 780 rows from output/sfes-solutes/freesolv/labelled-data.csv
+2025-11-04 15:45:28.823 | INFO     | __main__:main:265 - Filtered to 87 rows with specified force field v3-k100
+2025-11-04 15:45:28.823 | INFO     | __main__:main:279 - Found 161 groups to compute
+2025-11-04 15:45:30.008 | WARNING  | __main__:main:285 - Skipping group 1,2 Diol with only 1 entries
+2025-11-04 15:45:31.393 | WARNING  | __main__:main:285 - Skipping group Alkene with only 3 entries
+2025-11-04 15:45:31.393 | WARNING  | __main__:main:285 - Skipping group Alkylarylether with only 1 entries
+2025-11-04 15:45:31.394 | WARNING  | __main__:main:285 - Skipping group Alkylthiol with only 2 entries
+2025-11-04 15:45:32.563 | WARNING  | __main__:main:285 - Skipping group Aryl Bromide with only 4 entries
+2025-11-04 15:45:32.563 | WARNING  | __main__:main:285 - Skipping group Aryl Chloride with only 2 entries
+2025-11-04 15:45:33.059 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Amide with only 3 entries
+2025-11-04 15:45:33.986 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Primary Amide with only 2 entries
+2025-11-04 15:45:33.986 | WARNING  | __main__:main:285 - Skipping group Carboxylic Acid Tertiary Amide with only 1 entries
+2025-11-04 15:45:33.986 | WARNING  | __main__:main:285 - Skipping group Dialkylether with only 3 entries
+2025-11-04 15:45:33.986 | WARNING  | __main__:main:285 - Skipping group Ether with only 4 entries
+2025-11-04 15:45:35.898 | WARNING  | __main__:main:285 - Skipping group Nitro Compound with only 1 entries
+2025-11-04 15:45:35.898 | WARNING  | __main__:main:285 - Skipping group Oxohetarene with only 1 entries
+2025-11-04 15:45:36.340 | WARNING  | __main__:main:285 - Skipping group Phosphoric Acid Derivative with only 2 entries
+2025-11-04 15:45:36.340 | WARNING  | __main__:main:285 - Skipping group Phosphoric Acid Ester with only 2 entries
+2025-11-04 15:45:36.806 | WARNING  | __main__:main:285 - Skipping group Primary Aliphatic Amine with only 4 entries
+2025-11-04 15:45:37.249 | WARNING  | __main__:main:285 - Skipping group Primary Aromatic Amine with only 3 entries
+2025-11-04 15:45:37.249 | WARNING  | __main__:main:285 - Skipping group Secondary Alcohol with only 1 entries
+2025-11-04 15:45:37.249 | WARNING  | __main__:main:285 - Skipping group Secondary Aliphatic Amine with only 5 entries
+2025-11-04 15:45:37.665 | WARNING  | __main__:main:285 - Skipping group Secondary Mixed Amine with only 1 entries
+2025-11-04 15:45:37.666 | WARNING  | __main__:main:285 - Skipping group Tertiary Alcohol with only 1 entries
+2025-11-04 15:45:37.666 | WARNING  | __main__:main:285 - Skipping group Tertiary Aliphatic Amine with only 1 entries
+2025-11-04 15:45:37.666 | WARNING  | __main__:main:285 - Skipping group Tertiary Amine with only 1 entries
+2025-11-04 15:45:37.666 | WARNING  | __main__:main:285 - Skipping group Thioether with only 1 entries
+2025-11-04 15:45:37.666 | WARNING  | __main__:main:285 - Skipping group Thiol with only 2 entries
+2025-11-04 15:45:41.915 | WARNING  | __main__:main:285 - Skipping group b8a with only 1 entries
+2025-11-04 15:45:41.915 | WARNING  | __main__:main:285 - Skipping group b9 with only 1 entries
+2025-11-04 15:45:41.915 | WARNING  | __main__:main:285 - Skipping group b10 with only 4 entries
+2025-11-04 15:45:43.747 | WARNING  | __main__:main:285 - Skipping group b19 with only 1 entries
+2025-11-04 15:45:44.811 | WARNING  | __main__:main:285 - Skipping group b42 with only 1 entries
+2025-11-04 15:45:44.811 | WARNING  | __main__:main:285 - Skipping group b45 with only 3 entries
+2025-11-04 15:45:44.811 | WARNING  | __main__:main:285 - Skipping group b51 with only 3 entries
+2025-11-04 15:45:44.811 | WARNING  | __main__:main:285 - Skipping group b52 with only 2 entries
+2025-11-04 15:45:44.811 | WARNING  | __main__:main:285 - Skipping group b64 with only 2 entries
+2025-11-04 15:45:44.811 | WARNING  | __main__:main:285 - Skipping group b65 with only 2 entries
+2025-11-04 15:45:44.811 | WARNING  | __main__:main:285 - Skipping group b70 with only 2 entries
+2025-11-04 15:45:44.811 | WARNING  | __main__:main:285 - Skipping group b72 with only 4 entries
+2025-11-04 15:45:51.747 | WARNING  | __main__:main:285 - Skipping group a11a with only 1 entries
+2025-11-04 15:45:51.748 | WARNING  | __main__:main:285 - Skipping group a12 with only 4 entries
+2025-11-04 15:45:51.748 | WARNING  | __main__:main:285 - Skipping group a14 with only 2 entries
+2025-11-04 15:45:53.075 | WARNING  | __main__:main:285 - Skipping group a20 with only 3 entries
+2025-11-04 15:45:53.948 | WARNING  | __main__:main:285 - Skipping group a25 with only 1 entries
+2025-11-04 15:45:53.948 | WARNING  | __main__:main:285 - Skipping group a26 with only 1 entries
+2025-11-04 15:45:55.011 | WARNING  | __main__:main:285 - Skipping group a34 with only 3 entries
+2025-11-04 15:45:55.011 | WARNING  | __main__:main:285 - Skipping group a38 with only 1 entries
+2025-11-04 15:45:55.011 | WARNING  | __main__:main:285 - Skipping group a40 with only 2 entries
+2025-11-04 15:45:55.011 | WARNING  | __main__:main:285 - Skipping group a41 with only 2 entries
+2025-11-04 15:45:55.011 | WARNING  | __main__:main:285 - Skipping group a41a with only 1 entries
+2025-11-04 15:45:55.011 | WARNING  | __main__:main:285 - Skipping group a18a with only 1 entries
+2025-11-04 15:45:57.524 | WARNING  | __main__:main:285 - Skipping group t5 with only 3 entries
+2025-11-04 15:46:00.070 | WARNING  | __main__:main:285 - Skipping group t20 with only 3 entries
+2025-11-04 15:46:00.070 | WARNING  | __main__:main:285 - Skipping group t43 with only 2 entries
+2025-11-04 15:46:01.625 | WARNING  | __main__:main:285 - Skipping group t48 with only 1 entries
+2025-11-04 15:46:02.084 | WARNING  | __main__:main:285 - Skipping group t58a with only 4 entries
+2025-11-04 15:46:02.085 | WARNING  | __main__:main:285 - Skipping group t64 with only 2 entries
+2025-11-04 15:46:02.085 | WARNING  | __main__:main:285 - Skipping group t73 with only 1 entries
+2025-11-04 15:46:02.085 | WARNING  | __main__:main:285 - Skipping group t74 with only 4 entries
+2025-11-04 15:46:02.085 | WARNING  | __main__:main:285 - Skipping group t75 with only 4 entries
+2025-11-04 15:46:02.085 | WARNING  | __main__:main:285 - Skipping group t76 with only 1 entries
+2025-11-04 15:46:02.085 | WARNING  | __main__:main:285 - Skipping group t77 with only 1 entries
+2025-11-04 15:46:02.085 | WARNING  | __main__:main:285 - Skipping group t78 with only 2 entries
+2025-11-04 15:46:02.085 | WARNING  | __main__:main:285 - Skipping group t80 with only 1 entries
+2025-11-04 15:46:02.085 | WARNING  | __main__:main:285 - Skipping group t83a with only 1 entries
+2025-11-04 15:46:04.408 | WARNING  | __main__:main:285 - Skipping group t96 with only 3 entries
+2025-11-04 15:46:04.409 | WARNING  | __main__:main:285 - Skipping group t97 with only 3 entries
+2025-11-04 15:46:04.409 | WARNING  | __main__:main:285 - Skipping group t105 with only 1 entries
+2025-11-04 15:46:05.715 | WARNING  | __main__:main:285 - Skipping group t115 with only 3 entries
+2025-11-04 15:46:05.716 | WARNING  | __main__:main:285 - Skipping group t116 with only 4 entries
+2025-11-04 15:46:05.716 | WARNING  | __main__:main:285 - Skipping group t117a with only 1 entries
+2025-11-04 15:46:05.716 | WARNING  | __main__:main:285 - Skipping group t159 with only 2 entries
+2025-11-04 15:46:05.716 | WARNING  | __main__:main:285 - Skipping group t160 with only 2 entries
+2025-11-04 15:46:07.405 | WARNING  | __main__:main:285 - Skipping group i6 with only 1 entries
+2025-11-04 15:46:10.362 | WARNING  | __main__:main:285 - Skipping group n9 with only 1 entries
+2025-11-04 15:46:11.448 | WARNING  | __main__:main:285 - Skipping group n13 with only 3 entries
+2025-11-04 15:46:15.585 | WARNING  | __main__:main:285 - Skipping group n21 with only 5 entries
+2025-11-04 15:46:15.586 | WARNING  | __main__:main:285 - Skipping group n22 with only 2 entries
+2025-11-04 15:46:15.586 | WARNING  | __main__:main:285 - Skipping group n24 with only 2 entries
+2025-11-04 15:46:15.586 | WARNING  | __main__:main:285 - Skipping group n25 with only 4 entries
+2025-11-04 15:46:15.591 | INFO     | __main__:main:299 - Saved combined stats to output/sfes-solutes/freesolv/stats/v3-k100.csv

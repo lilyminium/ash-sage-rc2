@@ -1,0 +1,12 @@
+2025-11-04 15:20:05.877 | INFO     | __main__:main:132 - Read 3820 entries from ../04_benchmark/sfes/output/mnsol.csv
+2025-11-04 15:20:05.877 | INFO     | __main__:main:135 - Read 3820 entries from 1 files
+2025-11-04 15:20:05.878 | INFO     | __main__:main:150 - Found 97 unique SMILES to label
+2025-11-04 15:20:05.887 | INFO     | __main__:main:156 - Loaded 943 checkmol labels from labels/checkmol
+2025-11-04 15:20:05.889 | INFO     | __main__:main:161 - Loaded 6366 forcefield labels from labels/forcefields/v3-k100
+2025-11-04 15:20:06.087 | INFO     | __main__:main:199 - Found 44 unique Checkmol groups
+2025-11-04 15:20:06.088 | INFO     | __main__:main:206 - Found 25 unique Angles forcefield parameters
+2025-11-04 15:20:06.088 | INFO     | __main__:main:206 - Found 33 unique Bonds forcefield parameters
+2025-11-04 15:20:06.088 | INFO     | __main__:main:206 - Found 4 unique ImproperTorsions forcefield parameters
+2025-11-04 15:20:06.088 | INFO     | __main__:main:206 - Found 49 unique ProperTorsions forcefield parameters
+2025-11-04 15:20:06.088 | INFO     | __main__:main:206 - Found 19 unique vdW forcefield parameters
+2025-11-04 15:20:08.330 | INFO     | __main__:main:233 - Wrote 3820 entries to output/sfes-solutes/mnsol/labelled-data.csv
