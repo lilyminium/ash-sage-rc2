@@ -17,3 +17,23 @@ Steps are broken up into the following directories:
 
 
 In general we provide both Python scripts for executing steps and shell scripts demonstrating execution in each directory. Where possible files and data are provided, but in some cases size limits or licensing does not permit this.
+
+## Usage
+
+This force field will get released as Sage 2.3.0. When it is out, you will be able to use the force field as with any other OpenFF force field:
+
+```python
+from openff.toolkit import Molecule, ForceField
+ff = ForceField("openff-2.3.0.offxml")
+caffeine = Molecule.from_smiles("CN1C=NC2=C1C(=O)N(C(=O)N2C)C")
+interchange = ff.create_interchange(caffeine.to_topology())
+openmm_system = interchange.to_openmm()
+```
+
+Alternatively, you can use AshGC ('openff-gnn-am1bcc-1.0.0') directly to assign charges:
+
+```python
+from openff.toolkit import Molecule
+caffeine = Molecule.from_smiles("CN1C=NC2=C1C(=O)N(C(=O)N2C)C")
+caffeine.assign_partial_charges("openff-gnn-am1bcc-1.0.0.pt")
+```
