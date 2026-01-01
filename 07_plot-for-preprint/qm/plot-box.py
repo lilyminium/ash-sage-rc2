@@ -96,7 +96,7 @@ def main():
         hue_order=ff_order,
         sharex=False,
         height=1.5,
-        aspect=1.5,
+        aspect=1.6,
         fliersize=2,
         linewidth=0.5,
         whis=(5, 95),
@@ -106,7 +106,7 @@ def main():
     axes[0].set_xlabel("Bond ICRMSD [$\AA$]")
     axes[1].set_xlabel("Angle ICRMSD [$\degree$]")
     axes[2].set_xlabel("Proper torsion ICRMSD [$\degree$]")
-    axes[3].set_xlabel("Proper torsion ICRMSD [$\degree$]")
+    axes[3].set_xlabel("Improper torsion ICRMSD [$\degree$]")
     g.set_titles("")
 
     plt.savefig("images/qm-box-icrmsd.png", dpi=300)
